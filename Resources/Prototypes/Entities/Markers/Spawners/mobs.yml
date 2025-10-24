@@ -1,7 +1,7 @@
 # Base
 
 - type: entity
-  name: Mouse Spawner
+  name: 鼠标生成器 丨 Mouse Spawner
   id: SpawnMobMouse
   parent: MarkerBase
   components:
@@ -18,7 +18,7 @@
       - MobMouse2
 
 - type: entity
-  name: Cockroach Spawner
+  name: 蟑螂生成器 丨 Cockroach Spawner
   id: SpawnMobCockroach
   parent: MarkerBase
   components:
@@ -33,7 +33,7 @@
       - MobCockroach
 
 - type: entity
-  name: HoP Corgi Spawner
+  name: HoP 柯基生成器 丨 HoP Corgi Spawner
   id: SpawnMobCorgi
   parent: MarkerBase
   components:
@@ -49,7 +49,7 @@
       - MobCorgiIanPup
 
 - type: entity
-  name: Dev Mouse Spawner
+  name: 开发鼠标生成器 丨 Dev Mouse Spawner
   id: SpawnMobCorgiMouse
   suffix: Admeme
   parent: MarkerBase
@@ -63,7 +63,7 @@
       - MobCorgiMouse
 
 - type: entity
-  name: Possum Morty Spawner
+  name: 负鼠莫蒂生成器 丨 Possum Morty Spawner
   id: SpawnMobPossumMorty
   parent: MarkerBase
   components:
@@ -76,7 +76,7 @@
       - MobPossumMortyOld
 
 - type: entity
-  name: Raccoon Morticia Spawner
+  name: 浣熊莫蒂西亚生成器 丨 Raccoon Morticia Spawner
   id: SpawnMobRaccoonMorticia
   parent: MarkerBase
   components:
@@ -89,7 +89,7 @@
       - MobRaccoonMorticia
 
 - type: entity
-  name: Fox Renault Spawner
+  name: 福克斯雷诺孵化器 丨 Fox Renault Spawner
   id: SpawnMobFoxRenault
   parent: MarkerBase
   components:
@@ -102,7 +102,7 @@
       - MobFoxRenault
 
 - type: entity
-  name: Runtime Spawner
+  name: 运行时生成器 丨 Runtime Spawner
   id: SpawnMobCatRuntime
   parent: MarkerBase
   components:
@@ -115,7 +115,7 @@
       - MobCatRuntime
 
 - type: entity
-  name: Exception Spawner
+  name: 异常生成器 丨 Exception Spawner
   id: SpawnMobCatException
   parent: MarkerBase
   components:
@@ -128,7 +128,7 @@
       - MobCatException
 
 - type: entity
-  name: Tropico Spawner
+  name: 热带岛屿生成器 丨 Tropico Spawner
   id: SpawnMobCrabAtmos
   parent: MarkerBase
   components:
@@ -141,7 +141,7 @@
       - MobCrabAtmos
 
 - type: entity
-  name: Floppa Spawner
+  name: 弗洛帕生成器 丨 Floppa Spawner
   id: SpawnMobCatFloppa
   parent: MarkerBase
   components:
@@ -154,7 +154,7 @@
       - MobCatFloppa
 
 - type: entity
-  name: Bingus Spawner
+  name: 宾格斯生成器 丨 Bingus Spawner
   id: SpawnMobCatBingus
   parent: MarkerBase
   components:
@@ -167,7 +167,7 @@
       - MobBingus
 
 - type: entity
-  name: Space Cat Spawner
+  name: 太空猫生成器 丨 Space Cat Spawner
   id: SpawnMobCatSpace
   parent: MarkerBase
   components:
@@ -180,7 +180,7 @@
       - MobCatSpace
 
 - type: entity
-  name: Kitten Spawner
+  name: 小猫生成器 丨 Kitten Spawner
   id: SpawnMobCatKitten
   parent: MarkerBase
   components:
@@ -193,7 +193,7 @@
       - MobCatKitten
 
 - type: entity
-  name: Cat Spawner
+  name: 猫生成器 丨 Cat Spawner
   id: SpawnMobCat
   parent: MarkerBase
   components:
@@ -209,7 +209,7 @@
       - MobBingus
 
 - type: entity
-  name: Generic Cat Spawner
+  name: 通用猫生成器 丨 Generic Cat Spawner
   id: SpawnMobCatGeneric
   parent: MarkerBase
   components:
@@ -228,7 +228,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: Bandito Spawner
+  name: 匪徒生成器 丨 Bandito Spawner
   id: SpawnMobBandito
   parent: MarkerBase
   components:
@@ -241,7 +241,7 @@
       - MobBandito
 
 - type: entity
-  name:  McGriff Spawner
+  name: 麦格里夫产卵器 丨 McGriff Spawner
   id: SpawnMobMcGriff
   parent: MarkerBase
   components:
@@ -254,7 +254,7 @@
       - MobMcGriff
 
 - type: entity
-  name: Sloth Paperwork Spawner
+  name: 树懒文书生成器 丨 Sloth Paperwork Spawner
   id: SpawnMobSlothPaperwork
   parent: MarkerBase
   components:
@@ -267,7 +267,7 @@
       - MobPaperwork
 
 - type: entity
-  name: Walter Spawner
+  name: 沃尔特·生成器 丨 Walter Spawner
   id: SpawnMobWalter
   parent: MarkerBase
   components:
@@ -280,7 +280,7 @@
       - MobWalter
 
 - type: entity
-  name: Space Bear Spawner
+  name: 太空熊生成器 丨 Space Bear Spawner
   id: SpawnMobBear
   parent: MarkerBase
   categories: [ HideSpawnMenu ] # Frontier
@@ -295,7 +295,7 @@
     - MobBearSpace
 
 - type: entity
-  name: Space Carp Spawner
+  name: 太空鲤鱼生成器 丨 Space Carp Spawner
   id: SpawnMobCarp
   parent: MarkerBase
   components:
@@ -309,7 +309,7 @@
     - NFMobCarp # Frontier MobCarp<NFMobCarp
 
 - type: entity
-  name: Magicarp Spawner
+  name: 鲤鱼王生成器 丨 Magicarp Spawner
   id: SpawnMobCarpMagic
   parent: MarkerBase
   components:
@@ -323,7 +323,7 @@
     - NFMobCarpMagic # Frontier MobCarpMagic<NFMobCarpMagic
 
 - type: entity
-  name: Holocarp Spawner
+  name: 全果产孢体 丨 Holocarp Spawner
   id: SpawnMobCarpHolo
   parent: MarkerBase
   components:
@@ -337,7 +337,7 @@
     - NFMobCarpHolo # Frontier MobCarpHolo<NFMobCarpHolo
 
 - type: entity
-  name: Space Sharkminnow Spawner
+  name: 太空鲨鱼鱼苗生成器 丨 Space Sharkminnow Spawner
   id: SpawnMobShark
   parent: MarkerBase
   categories: [ HideSpawnMenu ] # Frontier
@@ -352,7 +352,7 @@
     - MobShark
 
 - type: entity
-  name: Hamster Hamlet Spawner
+  name: 仓鼠哈姆雷特生成器 丨 Hamster Hamlet Spawner
   id: SpawnMobHamsterHamlet
   parent: MarkerBase
   components:
@@ -367,7 +367,7 @@
       - CrateNPCHamlet
 
 - type: entity
-  name: Alexander Spawner
+  name: 亚历山大·生成器 丨 Alexander Spawner
   id: SpawnMobAlexander
   parent: MarkerBase
   components:
@@ -380,7 +380,7 @@
       - MobAlexander
 
 - type: entity
-  name: Shiva Spawner
+  name: 湿婆孵化器 丨 Shiva Spawner
   id: SpawnMobShiva
   parent: MarkerBase
   components:
@@ -394,7 +394,7 @@
       - MobSpiderShiva
 
 - type: entity
-  name: Willow Spawner
+  name: 柳树生成器 丨 Willow Spawner
   id: SpawnMobKangarooWillow
   parent: MarkerBase
   components:
@@ -408,7 +408,7 @@
     - MobKangarooWillow
 
 - type: entity
-  name: Space Kangaroo Spawner
+  name: 太空袋鼠生成器 丨 Space Kangaroo Spawner
   id: SpawnMobKangaroo
   parent: MarkerBase
   categories: [ HideSpawnMenu ] # Frontier
@@ -423,7 +423,7 @@
     - MobKangarooSpace
 
 - type: entity
-  name: Boxing Kangaroo Spawner
+  name: 拳击袋鼠生成器 丨 Boxing Kangaroo Spawner
   id: SpawnMobBoxingKangaroo
   parent: MarkerBase
   components:
@@ -437,7 +437,7 @@
     - MobBoxingKangaroo
 
 - type: entity
-  name: Space Spider Spawner
+  name: 太空蜘蛛刷怪箱 丨 Space Spider Spawner
   id: SpawnMobSpaceSpider
   parent: MarkerBase
   categories: [ HideSpawnMenu ] # Frontier
@@ -452,7 +452,7 @@
     - MobSpiderSpace
 
 - type: entity
-  name: Space Cobra Spawner
+  name: 太空眼镜蛇生成器 丨 Space Cobra Spawner
   id: SpawnMobSpaceCobra
   parent: MarkerBase
   categories: [ HideSpawnMenu ] # Frontier
@@ -467,7 +467,7 @@
     - MobCobraSpace
 
 - type: entity
-  name: Slimes Spawner Blue
+  name: 史莱姆刷怪笼蓝图 丨 Slimes Spawner Blue
   id: SpawnMobAdultSlimesBlue
   parent: MarkerBase
   components:
@@ -480,7 +480,7 @@
       - MobAdultSlimesBlue
 
 - type: entity
-  name: Slimes Spawner Blue Angry
+  name: 史莱姆生成器 蓝色 愤怒 丨 Slimes Spawner Blue Angry
   id: SpawnMobAdultSlimesBlueAngry
   parent: MarkerBase
   components:
@@ -493,7 +493,7 @@
       - MobAdultSlimesBlueAngry
 
 - type: entity
-  name: Slimes Spawner Green
+  name: 绿色史莱姆刷怪箱 丨 Slimes Spawner Green
   id: SpawnMobAdultSlimesGreen
   parent: MarkerBase
   components:
@@ -506,7 +506,7 @@
       - MobAdultSlimesGreen
 
 - type: entity
-  name: Slimes Spawner Green Angry
+  name: 绿色愤怒史莱姆生成器 丨 Slimes Spawner Green Angry
   id: SpawnMobAdultSlimesGreenAngry
   parent: MarkerBase
   components:
@@ -519,7 +519,7 @@
       - MobAdultSlimesGreenAngry
 
 - type: entity
-  name: Slimes Spawner Yellow
+  name: 黄色史莱姆刷怪箱 丨 Slimes Spawner Yellow
   id: SpawnMobAdultSlimesYellow
   parent: MarkerBase
   components:
@@ -532,7 +532,7 @@
       - MobAdultSlimesYellow
 
 - type: entity
-  name: Slimes Spawner Yellow Angry
+  name: 黄色史莱姆生成器 愤怒 丨 Slimes Spawner Yellow Angry
   id: SpawnMobAdultSlimesYellowAngry
   parent: MarkerBase
   components:
@@ -545,7 +545,7 @@
       - MobAdultSlimesYellowAngry
 
 - type: entity
-  name: Smile Spawner
+  name: 微笑生成器 丨 Smile Spawner
   id: SpawnMobSmile
   parent: MarkerBase
   components:
@@ -558,7 +558,7 @@
       - MobSlimesPet
 
 - type: entity
-  name: Pun Pun Spawner
+  name: 砰砰刷怪笼 丨 Pun Pun Spawner
   id: SpawnMobMonkeyPunpun
   parent: MarkerBase
   components:
@@ -572,7 +572,7 @@
     - MobMonkeyPunpun
 
 - type: entity
-  name: behonker Spawner
+  name: behonker 生成器 丨 behonker Spawner
   id: SpawnMobBehonker
   parent: MarkerBase
   components:
@@ -589,7 +589,7 @@
       - MobBehonkerGrav
 
 - type: entity
-  name: Monkey Spawner
+  name: 猴子生成器 丨 Monkey Spawner
   id: SpawnMobMonkey
   parent: MarkerBase
   components:
@@ -603,7 +603,7 @@
     - MobMonkey
 
 - type: entity
-  name: Purple Snake Spawner
+  name: 紫色蛇刷怪箱 丨 Purple Snake Spawner
   id: SpawnMobPurpleSnake
   parent: MarkerBase
   components:
@@ -617,7 +617,7 @@
     - NFMobPurpleSnake # Frontier MobPurpleSnake<NFMobPurpleSnake
 
 - type: entity
-  name: Small Purple Snake Spawner
+  name: 小型紫色蛇刷怪箱 丨 Small Purple Snake Spawner
   id: SpawnMobSmallPurpleSnake
   parent: MarkerBase
   components:
@@ -631,7 +631,7 @@
     - NFMobSmallPurpleSnake # Frontier MobSmallPurpleSnake<NFMobSmallPurpleSnake
 
 - type: entity
-  name: Slug Spawner
+  name: 蛞蝓生成器 丨 Slug Spawner
   id: SpawnMobSlug
   parent: MarkerBase
   components:
@@ -645,7 +645,7 @@
     - MobSlug
 
 - type: entity
-  name: Lizard Spawner
+  name: 蜥蜴生成器 丨 Lizard Spawner
   id: SpawnMobLizard
   parent: MarkerBase
   components:
@@ -659,7 +659,7 @@
     - MobLizard
 
 - type: entity
-  name: Crab Spawner
+  name: 蟹卵孵化器 丨 Crab Spawner
   id: SpawnMobCrab
   parent: MarkerBase
   components:
@@ -673,7 +673,7 @@
     - MobCrab
 
 - type: entity
-  name: Goat Spawner
+  name: 山羊刷怪箱 丨 Goat Spawner
   id: SpawnMobGoat
   parent: MarkerBase
   components:
@@ -687,7 +687,7 @@
     - MobGoat
 
 - type: entity
-  name: Frog Spawner
+  name: 青蛙产卵器 丨 Frog Spawner
   id: SpawnMobFrog
   parent: MarkerBase
   components:
@@ -701,7 +701,7 @@
     - MobFrog
 
 - type: entity
-  name: Bee Spawner
+  name: 蜜蜂刷怪箱 丨 Bee Spawner
   id: SpawnMobBee
   parent: MarkerBase
   components:
@@ -715,7 +715,7 @@
     - MobBee
 
 - type: entity
-  name: Parrot Spawner
+  name: 鹦鹉生成器 丨 Parrot Spawner
   id: SpawnMobParrot
   parent: MarkerBase
   components:
@@ -729,7 +729,7 @@
     - MobParrotNF # Frontier: MobParrot<MobParrotNF
 
 - type: entity
-  name: Butterfly Spawner
+  name: 蝴蝶生成器 丨 Butterfly Spawner
   id: SpawnMobButterfly
   parent: MarkerBase
   components:
@@ -743,7 +743,7 @@
     - MobButterfly
 
 - type: entity
-  name: Cow Spawner
+  name: 奶牛刷怪箱 丨 Cow Spawner
   id: SpawnMobCow
   parent: MarkerBase
   components:
@@ -757,7 +757,7 @@
     - MobCow
 
 - type: entity
-  name: Gorilla Spawner
+  name: 大猩猩生成器 丨 Gorilla Spawner
   id: SpawnMobGorilla
   parent: MarkerBase
   components:
@@ -771,7 +771,7 @@
     - MobGorilla
 
 - type: entity
-  name: Penguin Spawner
+  name: 企鹅刷怪笼 丨 Penguin Spawner
   id: SpawnMobPenguin
   parent: MarkerBase
   components:
@@ -786,7 +786,7 @@
 
 
 - type: entity
-  name: Hellspawn Spawner
+  name: 地狱生成器 丨 Hellspawn Spawner
   id: SpawnMobHellspawn
   parent: MarkerBase
   components:
@@ -800,7 +800,7 @@
       - MobHellspawn
 
 - type: entity
-  name: ore crab spawner
+  name: 矿石蟹刷怪笼 丨 ore crab spawner
   id: SpawnMobOreCrab
   parent: MarkerBase
   components:
@@ -817,7 +817,7 @@
       - MobSpawnCrabSilver
 
 - type: entity
-  name: luminous person spawner
+  name: 发光人生成器 丨 luminous person spawner
   id: SpawnMobLuminousPerson
   parent: MarkerBase
   components:
@@ -831,7 +831,7 @@
     - MobLuminousPerson
 
 - type: entity
-  name: luminous object spawner
+  name: 发光物体生成器 丨 luminous object spawner
   id: SpawnMobLuminousObject
   parent: MarkerBase
   components:
@@ -845,7 +845,7 @@
     - MobLuminousObject
 
 - type: entity
-  name: luminous entity spawner
+  name: 发光实体生成器 丨 luminous entity spawner
   id: SpawnMobLuminousEntity
   parent: MarkerBase
   components:
@@ -859,7 +859,7 @@
     - MobLuminousEntity
 
 - type: entity
-  name: clown spider spawner
+  name: 小丑蜘蛛生成器 丨 clown spider spawner
   id: SpawnClownSpider
   parent: MarkerBase
   components:
@@ -873,7 +873,7 @@
     - MobClownSpider
 
 - type: entity
-  name: honk bot spawner
+  name: 鸣笛机器人生成器 丨 honk bot spawner
   id: SpawnHonkBot
   parent: MarkerBase
   components:
@@ -887,7 +887,7 @@
     - MobHonkBot
 
 - type: entity
-  name: gingerbread man Spawner
+  name: 姜饼人生成器 丨 gingerbread man Spawner
   id: SpawnMobGingerbreadAI
   suffix: Ghostrole
   parent: MarkerBase
@@ -902,7 +902,7 @@
       - MobGingerbreadAI
 
 - type: entity
-  name: Reindeer Buck Spawner
+  name: 驯鹿雄鹿刷怪笼 丨 Reindeer Buck Spawner
   id: SpawnMobReindeerBuck
   parent: MarkerBase
   components:
@@ -916,7 +916,7 @@
     - MobReindeerBuck
 
 - type: entity
-  name: Reindeer Doe Spawner
+  name: 驯鹿雌鹿生成器 丨 Reindeer Doe Spawner
   id: SpawnMobReindeerDoe
   parent: MarkerBase
   components:

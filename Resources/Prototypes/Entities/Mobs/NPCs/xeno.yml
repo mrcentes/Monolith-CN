@@ -52,18 +52,16 @@
 # SPDX-FileCopyrightText: 2025 AndresE55
 # SPDX-FileCopyrightText: 2025 Ark
 # SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 ScyronX
 # SPDX-FileCopyrightText: 2025 mikusssssss
-# SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 # Hacky for the stress test so don't even consider adding to this
 - type: entity
-  name: burrower
+  name: 挖洞者 丨 burrower
   id: MobXeno
   parent: SimpleSpaceMobBase
-  description: They mostly come at night. Mostly.
+  description: 它们大多在夜晚出现。大多如此。 丨 They mostly come at night. Mostly.
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Insulated
@@ -162,8 +160,8 @@
     allowMovement: true
     allowSpeech: true
     makeSentient: true
-    name: ghost-role-information-xeno-name
-    description: ghost-role-information-xeno-description
+    name: 幽灵角色信息-异形名称 丨 ghost-role-information-xeno-name
+    description: 幽灵角色信息异形描述 丨 ghost-role-information-xeno-description
     rules: ghost-role-information-xeno-rules
     raffle:
       settings: default
@@ -193,11 +191,12 @@
     - Xeno
   - type: ThermalVision
     lightRadius: 15
+    color: "#808080"
     activateSound: null
     deactivateSound: null
 
 - type: entity
-  name: praetorian
+  name: 禁卫军 丨 praetorian
   parent: MobXeno
   id: MobXenoPraetorian
   categories: [ HideSpawnMenu ] # Frontier
@@ -231,7 +230,7 @@
         - MobLayer
 
 - type: entity
-  name: drone
+  name: 无人机 丨 drone
   parent: MobXeno
   id: MobXenoDrone
   categories: [ HideSpawnMenu ] # Frontier
@@ -269,7 +268,7 @@
         - MobLayer
 
 - type: entity
-  name: queen
+  name: 女王 丨 queen
   parent: MobXeno
   id: MobXenoQueen
   categories: [ HideSpawnMenu ] # Frontier
@@ -316,7 +315,7 @@
     - Xeno
 
 - type: entity
-  name: ravager
+  name: 蹂躏者 丨 ravager
   parent: MobXeno
   id: MobXenoRavager
   categories: [ HideSpawnMenu ] # Frontier
@@ -354,7 +353,7 @@
         - MobLayer
 
 - type: entity
-  name: runner
+  name: 跑步者 丨 runner
   parent: MobXeno
   id: MobXenoRunner
   categories: [ HideSpawnMenu ] # Frontier
@@ -386,7 +385,7 @@
         - MobLayer
 
 - type: entity
-  name: rouny
+  name: 圆润 丨 rouny
   parent: MobXenoRunner
   id: MobXenoRouny
   categories: [ HideSpawnMenu ] # Frontier
@@ -402,7 +401,7 @@
       amount: 3
 
 - type: entity
-  name: spitter
+  name: 吐痰者 丨 spitter
   parent: MobXeno
   id: MobXenoSpitter
   categories: [ HideSpawnMenu ] # Frontier
@@ -450,10 +449,10 @@
         - MobLayer
 
 - type: entity
-  name: space adder
+  name: 太空蝰蛇 丨 space adder
   parent: SimpleSpaceMobBase
   id: MobPurpleSnake
-  description: A menacing purple snake from Kepler-283c.
+  description: 一条来自开普勒-283c的紫色巨蛇，气势汹汹。 丨 A menacing purple snake from Kepler-283c.
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite
@@ -520,11 +519,11 @@
     - FootstepSound
 
 - type: entity
-  name: space adder
+  name: 空间加法器 丨 space adder
   parent: MobPurpleSnake
   id: MobSmallPurpleSnake
   suffix: small
-  description: A smaller version of the menacing purple snake from Kepler-283c.
+  description: 来自开普勒-283c星球的凶险紫色蛇的缩小版。 丨 A smaller version of the menacing purple snake from Kepler-283c.
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite

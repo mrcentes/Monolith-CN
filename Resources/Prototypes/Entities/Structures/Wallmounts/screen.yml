@@ -1,7 +1,7 @@
 - type: entity
   id: Screen
-  name: screen
-  description: Displays text or time.
+  name: 屏幕 丨 screen
+  description: 显示文本或时间。 丨 Displays text or time.
   placement:
     mode: SnapgridCenter
     snap:
@@ -41,7 +41,7 @@
 - type: entity
   id: ArrivalsShuttleTimer
   parent: Screen
-  name: arrivals screen
+  name: 抵达屏幕 丨 arrivals screen
   components:
   - type: DeviceNetwork
     deviceNetId: Private

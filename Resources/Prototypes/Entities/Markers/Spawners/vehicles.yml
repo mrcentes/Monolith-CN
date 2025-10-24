@@ -1,5 +1,5 @@
 - type: entity
-  name: Secway Spawner
+  name: Secway 生成器 丨 Secway Spawner
   id: SpawnVehicleSecway
   parent: MarkerBase
   components:
@@ -13,7 +13,7 @@
       - VehicleSecway
 
 - type: entity
-  name: Janicart Spawner
+  name: 贾尼卡特生成器 丨 Janicart Spawner
   id: SpawnVehicleJanicart
   parent: MarkerBase
   components:
@@ -27,7 +27,7 @@
       - NFVehicleJanicart # Frontier: add NF prefix
 
 - type: entity
-  name: ATV Spawner
+  name: 全地形车生成器 丨 ATV Spawner
   id: SpawnVehicleATV
   parent: MarkerBase
   components:
@@ -41,7 +41,7 @@
       - VehicleATVNF # Frontier: add NF suffix
 
 - type: entity
-  name: Motobike Spawner
+  name: 摩托车生成器 丨 Motobike Spawner
   id: SpawnVehicleMotobike
   parent: MarkerBase
   components:
@@ -55,7 +55,7 @@
       - VehicleSkeletonMotorcycleNF # Frontier: add NF suffix
       
 - type: entity
-  name: Wheelchair Spawner
+  name: 轮椅生成器 丨 Wheelchair Spawner
   id: SpawnVehicleWheelchair
   parent: MarkerBase
   components:
@@ -69,7 +69,7 @@
       - VehicleWheelchair
       
 - type: entity
-  name: Wheelchair [Folded] Spawner
+  name: 轮椅[折叠]生成器 丨 Wheelchair [Folded] Spawner
   id: SpawnVehicleWheelchairFolded
   parent: MarkerBase
   components:

@@ -1,8 +1,8 @@
 - type: entity
-  name: book
+  name: 书 丨 book
   parent: [BaseItem, RecyclableItemPaper] # Frontier: added RecyclableItemPaper
   id: BookBase
-  description: A hardcover book.
+  description: 一本精装书。 丨 A hardcover book.
   components:
   - type: PhysicalComposition # Frontier
     materialComposition: # Frontier
@@ -95,8 +95,8 @@
 - type: entity
   id: BookSpaceEncyclopedia
   parent: BaseGuidebook
-  name: space encyclopedia
-  description: An encyclopedia containing all the knowledge. The author of this encyclopedia is unknown.
+  name: 太空百科全书 丨 space encyclopedia
+  description: 一本包含所有知识的百科全书。该书的作者不详。 丨 An encyclopedia containing all the knowledge. The author of this encyclopedia is unknown.
   components:
   - type: Sprite
     layers:
@@ -116,8 +116,8 @@
 - type: entity
   id: BookTheBookOfControl
   parent: BaseGuidebook
-  name: the book of control
-  description: Essential to become robust.
+  name: 控制之书 丨 the book of control
+  description: 变得坚韧至关重要。 丨 Essential to become robust.
   components:
   - type: Sprite
     layers:
@@ -137,8 +137,8 @@
 - type: entity
   id: BookBartendersManual
   parent: BaseGuidebook
-  name: bartender's manual
-  description: This manual is stained with beer.
+  name: 酒保手册 丨 bartender's manual
+  description: 这本手册沾上了啤酒渍。 丨 This manual is stained with beer.
   components:
   - type: Sprite
     layers:
@@ -156,8 +156,8 @@
 - type: entity
   id: BookHowToCookForFortySpaceman
   parent: BaseGuidebook
-  name: How To Cook For Forty Spacemen
-  description: A book about cooking written by a space chef.
+  name: 如何为四十名太空人烹饪 丨 How To Cook For Forty Spacemen
+  description: 一本由太空厨师撰写的烹饪书。 丨 A book about cooking written by a space chef.
   components:
   - type: Sprite
     layers:
@@ -174,8 +174,8 @@
 - type: entity
   id: BookLeafLoversSecret
   parent: BaseGuidebook
-  name: leaf lover's secret
-  description: It has a strong weed smell. It motivates you to feed and seed.
+  name: 叶爱好者的秘密 丨 leaf lover's secret
+  description: 它有很浓的杂草味，激励你去喂食和播种。 丨 It has a strong weed smell. It motivates you to feed and seed.
   components:
   - type: Sprite
     layers:
@@ -195,8 +195,8 @@
 - type: entity
   id: BookEngineersHandbook
   parent: BaseGuidebook
-  name: engineer's handbook
-  description: A handbook about engineering written by an TSF-NT senior engineer.
+  name: 工程师手册 丨 engineer's handbook
+  description: 一本由TSF-NT高级工程师编写的工程手册。 丨 A handbook about engineering written by an TSF-NT senior engineer.
   components:
   - type: Sprite
     layers:
@@ -215,8 +215,8 @@
 - type: entity
   id: BookScientistsGuidebook
   parent: BaseGuidebook
-  name: scientist's guidebook
-  description: A guidebook about science written by a TSF-NT scientist.
+  name: 科学家的指南 丨 scientist's guidebook
+  description: 一本由TSF-NT科学家撰写的科学指南。 丨 A guidebook about science written by a TSF-NT scientist.
   components:
   - type: Sprite
     layers:
@@ -233,8 +233,8 @@
 - type: entity
   id: BookSecurity
   parent: BaseGuidebook
-  name: security 101
-  description: A book about security written by a washed-out TSF-NT detective. The book is stained with blood. It seems to have been used more as a weapon than reading material.
+  name: 安全基础入门 丨 security 101
+  description: 一本关于安全的书，由一位落魄的TSF-NT侦探撰写。书页上沾染着血迹，看起来它被当作武器的次数远多于阅读用途。 丨 A book about security written by a washed-out TSF-NT detective. The book is stained with blood. It seems to have been used more as a weapon than reading material.
   components:
   - type: Sprite
     layers:
@@ -257,8 +257,8 @@
 - type: entity
   id: BookHowToKeepStationClean
   parent: BaseGuidebook
-  name: how to keep station clean
-  description: This book is very clean.
+  name: 如何保持车站清洁 丨 how to keep station clean
+  description: 这本书非常干净。 丨 This book is very clean.
   components:
   - type: Sprite
     layers:
@@ -274,8 +274,8 @@
 - type: entity
   id: BookHowToRockAndStone
   parent: BaseGuidebook
-  name: how to rock and stone
-  description: A very detailed guide about salvage written by Karl, a legendary space miner, however he's missing. It motivates you to rock and stone.
+  name: 如何摇滚与石头 丨 how to rock and stone
+  description: 由传奇太空矿工卡尔撰写的一份关于搜救的详尽指南，然而他已失踪。这份指南激励你去摇滚和石头。 丨 A very detailed guide about salvage written by Karl, a legendary space miner, however he's missing. It motivates you to rock and stone.
   components:
   - type: Sprite
     layers:
@@ -295,8 +295,8 @@
 - type: entity
   id: BookMedicalReferenceBook
   parent: BaseGuidebook
-  name: medical reference book
-  description: A reference book about medical written by an old doctor. The handwriting is barely comprehensible.
+  name: 医学参考书 丨 medical reference book
+  description: 一本老医生编写的医学参考书，字迹难以辨认。 丨 A reference book about medical written by an old doctor. The handwriting is barely comprehensible.
   components:
   - type: Sprite
     layers:
@@ -314,8 +314,8 @@
 - type: entity
   id: BookHowToSurvive
   parent: BaseGuidebook
-  name: how to survive
-  description: Ironically the author of this book is dead.
+  name: 如何生存 丨 how to survive
+  description: 讽刺的是，这本书的作者已经去世了。 丨 Ironically the author of this book is dead.
   components:
   - type: Sprite
     layers:
@@ -335,8 +335,8 @@
 - type: entity
   id: BookChemicalCompendium
   parent: BaseGuidebook
-  name: chempendium
-  description: A comprehensive guide written by some old skeleton of a professor about chemical synthesis.
+  name: 化学大全 丨 chempendium
+  description: 某位老学究教授撰写的关于化学合成的综合指南。 丨 A comprehensive guide written by some old skeleton of a professor about chemical synthesis.
   components:
   - type: Sprite
     layers:
@@ -354,8 +354,8 @@
 - type: entity
   id: BookSpaceLaw
   parent: BaseGuidebook
-  name: space law
-  description: A set of Nanotrasen guidelines for keeping law and order on their space stations.
+  name: 太空法 丨 space law
+  description: 一套用于维持其空间站法律与秩序的纳米特拉森准则。 丨 A set of Nanotrasen guidelines for keeping law and order on their space stations.
   components:
   - type: Sprite
     layers:
@@ -372,7 +372,7 @@
   parent: BookBase
   id: BookRandom
   suffix: random visual
-  description: Each book is unique! What is hidden in this one?
+  description: 每本书都独一无二！这本里藏着什么秘密呢？ 丨 Each book is unique! What is hidden in this one?
   components:
   - type: RandomMetadata
     nameSegments:
@@ -443,8 +443,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosDistro
-  name: "Newton's Guide to Atmos: The Distro"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: 《牛顿大气导论：发行版详解》 丨 "Newton's Guide to Atmos The Distro"
+  description: 页边空白处布满了无数难以辨认的涂鸦笔记，大部分文字都被手写的问号覆盖。 丨 There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:
@@ -462,8 +462,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosWaste
-  name: "Newton's Guide to Atmos: Waste"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: 牛顿大气指南：废弃物篇 丨 "Newton's Guide to Atmos Waste"
+  description: 书页边空白处布满了难以辨认的涂鸦笔记，大部分正文都被手写的问号覆盖。 丨 There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:
@@ -481,8 +481,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosAirAlarms
-  name: "Newton's Guide to Atmos: Air Alarms"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: 《牛顿大气指南：空气警报》 丨 "Newton's Guide to Atmos Air Alarms"
+  description: 书页边角写满了难以辨认的笔记，大部分文字都被手绘的问号覆盖。 丨 There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:
@@ -500,8 +500,8 @@
 - type: entity
   parent: BookBase
   id: BookAtmosVentsMore
-  name: "Newton's Guide to Atmos: Vents and More"
-  description: There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
+  name: 《牛顿大气指南：通风口及其他》 丨 "Newton's Guide to Atmos Vents and More"
+  description: 书页边空白处写满了难以辨认的笔记，大部分文字都被手绘的问号覆盖。 丨 There are endless illegible notes scribbled in the margins. Most of the text is covered in handwritten question marks.
   components:
   - type: Sprite
     layers:

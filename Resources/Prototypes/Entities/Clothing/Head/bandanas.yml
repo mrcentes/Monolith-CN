@@ -32,49 +32,49 @@
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBlack]
   id: ClothingHeadBandBlack
-  name: black bandana
+  name: 黑色头巾 丨 black bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBlue]
   id: ClothingHeadBandBlue
-  name: blue bandana
+  name: 蓝色头巾 丨 blue bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBotany]
   id: ClothingHeadBandBotany
-  name: botany bandana
+  name: 植物学头巾 丨 botany bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandGold]
   id: ClothingHeadBandGold
-  name: gold bandana
+  name: 金丝头巾 丨 gold bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandGreen]
   id: ClothingHeadBandGreen
-  name: green bandana
+  name: 绿色头巾 丨 green bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandGrey]
   id: ClothingHeadBandGrey
-  name: grey bandana
+  name: 灰色头巾 丨 grey bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandRed]
   id: ClothingHeadBandRed
-  name: red bandana
+  name: 红色头巾 丨 red bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandSkull]
   id: ClothingHeadBandSkull
-  name: skull bandana
+  name: 骷髅头巾 丨 skull bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandMerc]
   id: ClothingHeadBandMercenary # Frontier - Name fix
-  name: mercenary bandana
+  name: 雇佣兵头巾 丨 mercenary bandana
 
 - type: entity
   parent: [ClothingHeadBandBase, ClothingMaskBandBrown]
   id: ClothingHeadBandBrown
-  name: brown bandana
+  name: 棕色头巾 丨 brown bandana

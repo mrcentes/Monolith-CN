@@ -2,7 +2,7 @@
   abstract: true
   id: DisposalUnitBase
   parent: BaseMachinePowered
-  description: A pneumatic waste disposal unit.
+  description: 气动垃圾处理装置。 丨 A pneumatic waste disposal unit.
   placement:
     mode: SnapgridCenter
     snap:
@@ -97,7 +97,7 @@
 - type: entity
   id: DisposalUnit
   parent: DisposalUnitBase
-  name: disposal unit
+  name: 处置单元 丨 disposal unit
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi
@@ -120,8 +120,8 @@
 - type: entity
   id: MailingUnit
   parent: DisposalUnitBase
-  name: mailing unit
-  description: A pneumatic mail delivery unit.
+  name: 邮寄单元 丨 mailing unit
+  description: 气动邮件传送装置。 丨 A pneumatic mail delivery unit.
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi

@@ -69,8 +69,8 @@
 - type: entity
   parent: Clothing
   id: IDCardStandard
-  name: identification card
-  description: A card necessary to access various areas aboard the station.
+  name: 身份证 丨 identification card
+  description: 进入空间站各区域所需的通行卡。 丨 A card necessary to access various areas aboard the station.
   abstract: true
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: IDCardStandard
   id: PassengerIDCard
-  name: passenger ID card
+  name: 乘客身份证 丨 passenger ID card
   components:
   - type: Sprite
     layers:
@@ -133,7 +133,7 @@
 - type: entity
   parent: PassengerIDCard
   id: TechnicalAssistantIDCard
-  name: technical assistant ID card
+  name: 技术助理身份证 丨 technical assistant ID card
   components:
   - type: PresetIdCard
     job: TechnicalAssistant
@@ -145,7 +145,7 @@
 - type: entity
   parent: PassengerIDCard
   id: MedicalInternIDCard
-  name: medical intern ID card
+  name: 实习医生工作证 丨 medical intern ID card
   components:
   - type: PresetIdCard
     job: MedicalIntern
@@ -157,7 +157,7 @@
 - type: entity
   parent: PassengerIDCard
   id: ResearchAssistantIDCard
-  name: research assistant ID card
+  name: 研究助理身份证 丨 research assistant ID card
   components:
   - type: PresetIdCard
     job: ResearchAssistant
@@ -169,7 +169,7 @@
 - type: entity
   parent: PassengerIDCard
   id: SecurityCadetIDCard
-  name: security cadet ID card
+  name: 安保学员身份证 丨 security cadet ID card
   components:
   - type: PresetIdCard
     job: SecurityCadet
@@ -181,7 +181,7 @@
 - type: entity
   parent: PassengerIDCard
   id: ServiceWorkerIDCard
-  name: service worker ID card
+  name: 服务工作者身份证 丨 service worker ID card
   components:
   - type: PresetIdCard
     job: ServiceWorker
@@ -193,7 +193,7 @@
 - type: entity
   parent: [IDCardStandard, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityCommandContraband<BaseC2ContrabandUnredeemable
   id: CaptainIDCard
-  name: captain ID card
+  name: 船长身份证 丨 captain ID card
   components:
   - type: Sprite
     layers:
@@ -215,7 +215,7 @@
 - type: entity
   parent: IDCardStandard
   id: SecurityIDCard
-  name: security ID card
+  name: 安全身份证 丨 security ID card
   components:
   - type: Sprite
     layers:
@@ -227,7 +227,7 @@
 - type: entity
   parent: IDCardStandard
   id: WardenIDCard
-  name: warden ID card
+  name: 典狱长身份证 丨 warden ID card
   components:
     - type: Sprite
       layers:
@@ -239,7 +239,7 @@
 - type: entity
   parent: IDCardStandard
   id: EngineeringIDCard
-  name: engineer ID card
+  name: 工程师身份证 丨 engineer ID card
   components:
   - type: Sprite
     layers:
@@ -251,7 +251,7 @@
 - type: entity
   parent: IDCardStandard
   id: MedicalIDCard
-  name: medical ID card
+  name: 医疗身份证 丨 medical ID card
   components:
   - type: Sprite
     layers:
@@ -263,7 +263,7 @@
 - type: entity
   parent: IDCardStandard
   id: ParamedicIDCard
-  name: paramedic ID card
+  name: 护理人员身份证 丨 paramedic ID card
   components:
   - type: Sprite
     layers:
@@ -275,7 +275,7 @@
 - type: entity
   parent: IDCardStandard
   id: ChemistIDCard
-  name: chemist ID card
+  name: 化学家身份证 丨 chemist ID card
   components:
   - type: Sprite
     layers:
@@ -287,7 +287,7 @@
 - type: entity
   parent: IDCardStandard
   id: CargoIDCard
-  name: cargo ID card
+  name: 货物身份证 丨 cargo ID card
   components:
   - type: Sprite
     layers:
@@ -299,7 +299,7 @@
 - type: entity
   parent: IDCardStandard
   id: SalvageIDCard
-  name: salvage ID card
+  name: 打捞身份证 丨 salvage ID card
   components:
   - type: Sprite
     layers:
@@ -311,7 +311,7 @@
 - type: entity
   parent: IDCardStandard
   id: QuartermasterIDCard
-  name: quartermaster ID card
+  name: 军需官身份证 丨 quartermaster ID card
   components:
     - type: Sprite
       layers:
@@ -325,7 +325,7 @@
 - type: entity
   parent: IDCardStandard
   id: ResearchIDCard
-  name: research ID card
+  name: 研究身份证 丨 research ID card
   components:
   - type: Sprite
     layers:
@@ -337,7 +337,7 @@
 - type: entity
   parent: IDCardStandard
   id: ClownIDCard
-  name: clown ID card
+  name: 小丑身份证 丨 clown ID card
   components:
   - type: Sprite
     layers:
@@ -349,7 +349,7 @@
 - type: entity
   parent: IDCardStandard
   id: MimeIDCard
-  name: mime ID card
+  name: Mime身份证 丨 mime ID card
   components:
   - type: Sprite
     layers:
@@ -361,7 +361,7 @@
 - type: entity
   parent: IDCardStandard
   id: ChaplainIDCard
-  name: chaplain ID card
+  name: 牧师身份证 丨 chaplain ID card
   components:
     - type: Sprite
       layers:
@@ -373,7 +373,7 @@
 - type: entity
   parent: IDCardStandard
   id: JanitorIDCard
-  name: janitor ID card
+  name: 清洁工工牌 丨 janitor ID card
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite
@@ -386,7 +386,7 @@
 - type: entity
   parent: IDCardStandard
   id: BartenderIDCard
-  name: bartender ID card
+  name: 调酒师身份证 丨 bartender ID card
   components:
   - type: Sprite
     layers:
@@ -398,7 +398,7 @@
 - type: entity
   parent: IDCardStandard
   id: PunPunIDCard
-  name: pun pun ID card
+  name: 蓬蓬身份证 丨 pun pun ID card
   components:
     - type: Sprite
       layers:
@@ -406,7 +406,7 @@
         - state: idbartender
     - type: PresetIdCard
       job: Bartender
-      name: Pun Pun
+      name: 噗噗 丨 Pun Pun
     - type: Tag #  Ignore Chameleon tags
       tags:
       - DoorBumpOpener
@@ -414,7 +414,7 @@
 - type: entity
   parent: IDCardStandard
   id: ChefIDCard
-  name: chef ID card
+  name: 厨师身份证 丨 chef ID card
   components:
   - type: Sprite
     layers:
@@ -426,7 +426,7 @@
 - type: entity
   parent: IDCardStandard
   id: BotanistIDCard
-  name: botanist ID card
+  name: 植物学家身份证 丨 botanist ID card
   components:
     - type: Sprite
       layers:
@@ -438,7 +438,7 @@
 - type: entity
   parent: IDCardStandard
   id: LibrarianIDCard
-  name: librarian ID card
+  name: 图书管理员工作证 丨 librarian ID card
   components:
     - type: Sprite
       layers:
@@ -450,7 +450,7 @@
 - type: entity
   parent: IDCardStandard
   id: LawyerIDCard
-  name: lawyer ID card
+  name: 律师身份证 丨 lawyer ID card
   components:
     - type: Sprite
       layers:
@@ -462,7 +462,7 @@
 - type: entity
   parent: IDCardStandard
   id: HoPIDCard
-  name: head of personnel ID card
+  name: 人事身份证负责人 丨 head of personnel ID card
   components:
   - type: Sprite
     layers:
@@ -476,7 +476,7 @@
 - type: entity
   parent: IDCardStandard
   id: CEIDCard
-  name: chief engineer ID card
+  name: 总工程师身份证 丨 chief engineer ID card
   components:
   - type: Sprite
     layers:
@@ -490,7 +490,7 @@
 - type: entity
   parent: IDCardStandard
   id: CMOIDCard
-  name: chief medical officer ID card
+  name: 首席医疗官身份证 丨 chief medical officer ID card
   components:
   - type: Sprite
     layers:
@@ -504,7 +504,7 @@
 - type: entity
   parent: IDCardStandard
   id: RDIDCard
-  name: research director ID card
+  name: 研究总监工作证 丨 research director ID card
   components:
   - type: Sprite
     layers:
@@ -518,7 +518,7 @@
 - type: entity
   parent: IDCardStandard
   id: HoSIDCard
-  name: head of security ID card
+  name: 安全主管身份证 丨 head of security ID card
   components:
   - type: Sprite
     layers:
@@ -532,7 +532,7 @@
 - type: entity
   parent: IDCardStandard
   id: VisitorIDCard
-  name: visitor ID card
+  name: 访客身份证 丨 visitor ID card
   components:
   - type: Sprite
     layers:
@@ -547,7 +547,7 @@
 - type: entity
   parent: IDCardStandard
   id: BrigmedicIDCard
-  name: brigmedic ID card
+  name: 布里格梅迪克身份证 丨 brigmedic ID card
   components:
   - type: Sprite
     layers:
@@ -559,7 +559,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentcomIDCard
-  name: command officer ID card
+  name: 指挥军官身份证 丨 command officer ID card
   components:
   - type: Sprite
     layers:
@@ -573,7 +573,7 @@
 - type: entity
   parent: IDCardStandard
   id: ERTLeaderIDCard
-  name: ERT leader ID card
+  name: ERT队长身份证 丨 ERT leader ID card
   components:
   - type: Sprite
     layers:
@@ -587,7 +587,7 @@
 - type: entity
   parent: IDCardStandard
   id: ERTChaplainIDCard
-  name: ERT chaplain ID card
+  name: ERT随军牧师身份证 丨 ERT chaplain ID card
   components:
   - type: Sprite
     layers:
@@ -601,7 +601,7 @@
 - type: entity
   parent: IDCardStandard
   id: ERTEngineerIDCard
-  name: ERT engineer ID card
+  name: ERT工程师身份证 丨 ERT engineer ID card
   components:
   - type: Sprite
     layers:
@@ -613,7 +613,7 @@
 - type: entity
   parent: IDCardStandard
   id: ERTJanitorIDCard
-  name: ERT janitor ID card
+  name: ERT保洁员工作证 丨 ERT janitor ID card
   components:
   - type: Sprite
     layers:
@@ -625,7 +625,7 @@
 - type: entity
   parent: IDCardStandard
   id: ERTMedicIDCard
-  name: ERT medic ID card
+  name: ERT急救员身份证 丨 ERT medic ID card
   components:
   - type: Sprite
     layers:
@@ -637,7 +637,7 @@
 - type: entity
   parent: IDCardStandard
   id: ERTSecurityIDCard
-  name: ERT security ID card
+  name: ERT安全身份证 丨 ERT security ID card
   components:
   - type: Sprite
     layers:
@@ -649,7 +649,7 @@
 - type: entity
   parent: IDCardStandard
   id: MusicianIDCard
-  name: musician ID card
+  name: 音乐家身份证 丨 musician ID card
   components:
     - type: Sprite
       layers:
@@ -661,7 +661,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentcomIDCardDeathsquad
-  name: death squad ID card
+  name: 敢死队身份证 丨 death squad ID card
   components:
   - type: Sprite
     layers:
@@ -672,7 +672,7 @@
     job: DeathSquad
 
 - type: entity
-  name: contractor ID card # Frontier: passenger<contractor
+  name: 承包商身份证号 # Frontier: 乘客<承包商 丨 contractor ID card # Frontier: passenger<contractor
   parent: [IDCardStandard, BaseC3SyndicateContraband]
   id: AgentIDCard
   suffix: Agent
@@ -709,7 +709,7 @@
     hideValues: true # Frontier
 
 - type: entity
-  name: contractor ID card # Frontier: passenger<contractor
+  name: 承包商身份证号 # Frontier: 乘客<承包商 丨 contractor ID card # Frontier: passenger<contractor
   parent: AgentIDCard
   id: NukieAgentIDCard
   suffix: Nukie
@@ -723,7 +723,7 @@
 - type: entity
   parent: IDCardStandard
   id: AtmosIDCard
-  name: atmospheric technician ID card
+  name: 大气技术员身份证 丨 atmospheric technician ID card
   components:
   - type: Sprite
     layers:
@@ -735,7 +735,7 @@
 - type: entity
   parent: [IDCardStandard, BaseC3SyndicateContraband] # Frontier: added BaseC3SyndicateContraband
   id: SyndicateIDCard
-  name: syndicate ID card
+  name: 辛迪加身份证 丨 syndicate ID card
   components:
   - type: Sprite
     layers:
@@ -748,7 +748,7 @@
 - type: entity
   parent: [IDCardStandard, BaseC3PirateContraband] # Frontier: added BaseC3PirateContraband
   id: PirateIDCard
-  name: pirate ID card
+  name: 海盗身份证 丨 pirate ID card
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite
@@ -762,7 +762,7 @@
 - type: entity
   parent: IDCardStandard
   id: PsychologistIDCard
-  name: psychologist ID card
+  name: 心理学家身份证 丨 psychologist ID card
   components:
   - type: Sprite
     layers:
@@ -774,7 +774,7 @@
 - type: entity
   parent: IDCardStandard
   id: ReporterIDCard
-  name: reporter ID card
+  name: 记者身份证 丨 reporter ID card
   components:
   - type: Sprite
     layers:
@@ -786,7 +786,7 @@
 - type: entity
   parent: IDCardStandard
   id: BoxerIDCard
-  name: boxer ID card
+  name: 拳手身份证 丨 boxer ID card
   components:
   - type: Sprite
     layers:
@@ -798,7 +798,7 @@
 - type: entity
   parent: IDCardStandard
   id: ZookeeperIDCard
-  name: zookeeper ID card
+  name: 动物园管理员身份证 丨 zookeeper ID card
   components:
   - type: Sprite
     layers:
@@ -810,7 +810,7 @@
 - type: entity
   parent: IDCardStandard
   id: DetectiveIDCard
-  name: detective ID card
+  name: 侦探身份证 丨 detective ID card
   components:
   - type: Sprite
     layers:
@@ -822,7 +822,7 @@
 - type: entity
   parent: CentcomIDCard
   id: CBURNIDcard
-  name: CBURN ID card
+  name: CBURN身份证 丨 CBURN ID card
   suffix: CBURN
   components:
   - type: Sprite
@@ -836,7 +836,7 @@
 - type: entity
   parent: IDCardStandard
   id: CluwneIDCard
-  name: cluwne ID card
+  name: 小丑证 丨 cluwne ID card
   suffix: Unremoveable
   components:
   - type: Sprite
@@ -850,7 +850,7 @@
 - type: entity
   parent: EngineeringIDCard
   id: SeniorEngineerIDCard
-  name: senior engineer ID card
+  name: 高级工程师身份证 丨 senior engineer ID card
   components:
   - type: Sprite
     layers:
@@ -860,7 +860,7 @@
 - type: entity
   parent: ResearchIDCard
   id: SeniorResearcherIDCard
-  name: senior researcher ID card
+  name: 高级研究员身份证 丨 senior researcher ID card
   components:
   - type: Sprite
     layers:
@@ -870,7 +870,7 @@
 - type: entity
   parent: MedicalIDCard
   id: SeniorPhysicianIDCard
-  name: senior physician ID card
+  name: 高级医师身份证 丨 senior physician ID card
   components:
   - type: Sprite
     layers:
@@ -880,7 +880,7 @@
 - type: entity
   parent: SecurityIDCard
   id: SeniorOfficerIDCard
-  name: senior officer ID card
+  name: 高级官员身份证 丨 senior officer ID card
   components:
   - type: Sprite
     layers:
@@ -892,7 +892,7 @@
 - type: entity
   parent: IDCardStandard
   id: WizardIDCard
-  name: wizard ID card
+  name: 巫师身份证 丨 wizard ID card
   components:
   - type: Sprite
     layers:
@@ -907,9 +907,9 @@
 - type: entity
   parent: IDCardStandard
   id: UniversalIDCard
-  name: universal ID card
+  name: 通用身份证 丨 universal ID card
   suffix: Admin
-  description: An ID card that gives you access beyond your wildest dreams.
+  description: 一张让你超越梦想尽享通行的身份证。 丨 An ID card that gives you access beyond your wildest dreams.
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi

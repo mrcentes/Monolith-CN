@@ -1,6 +1,6 @@
 - type: entity
   id: MobSpawnCrabQuartz
-  name: mobspawner quartzcrab
+  name: 刷怪箱石英蟹 丨 mobspawner quartzcrab
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Transform
@@ -30,7 +30,7 @@
 - type: entity
   id: MobSpawnCrabIron
   parent: MobSpawnCrabQuartz
-  name: mobspawner ironcrab
+  name: 铁蟹刷怪笼 丨 mobspawner ironcrab
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
@@ -42,7 +42,7 @@
 - type: entity
   id: MobSpawnCrabSilver
   parent: MobSpawnCrabQuartz
-  name: mobspawner silvercrab
+  name: 怪物生成器 银蟹 丨 mobspawner silvercrab
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 - type: entity
   id: MobSpawnCrabUranium
   parent: MobSpawnCrabQuartz
-  name: mobspawner uraniumcrab
+  name: 生物生成器 铀蟹 丨 mobspawner uraniumcrab
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite

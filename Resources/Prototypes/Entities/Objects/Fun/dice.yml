@@ -17,8 +17,8 @@
 - type: entity
   parent: BaseDice
   id: PercentileDie
-  name: percentile die
-  description: A die with ten sides. Works better for d100 rolls than a golf ball.
+  name: 百分骰 丨 percentile die
+  description: 一个拥有十个面的骰子。用它来掷百分骰比高尔夫球好使多了。 丨 A die with ten sides. Works better for d100 rolls than a golf ball.
   components:
   - type: Dice
     sides: 10
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseDice
   id: d20Dice
-  name: d20
-  description: A die with twenty sides. The preferred die to throw at the GM.
+  name: 二十面骰 丨 d20
+  description: 一个拥有二十个面的骰子。这是向游戏主持人投掷时最受青睐的骰子。 丨 A die with twenty sides. The preferred die to throw at the GM.
   components:
   - type: Dice
     sides: 20
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseDice
   id: d12Dice
-  name: d12
-  description: A die with twelve sides. There's an air of neglect about it.
+  name: 十二面骰子 丨 d12
+  description: 一颗十二面的骰子。它散发着一股被忽视的气息。 丨 A die with twelve sides. There's an air of neglect about it.
   components:
   - type: Dice
     sides: 12
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseDice
   id: d10Dice
-  name: d10
-  description: A die with ten sides. Useful for percentages.
+  name: 十面骰 丨 d10
+  description: 一个拥有十个面的骰子。适用于百分比计算。 丨 A die with ten sides. Useful for percentages.
   components:
   - type: Dice
     sides: 10
@@ -68,8 +68,8 @@
 - type: entity
   parent: BaseDice
   id: d8Dice
-  name: d8
-  description: A die with eight sides. It feels... lucky.
+  name: 八面骰 丨 d8
+  description: 一个八面的骰子。它感觉……很幸运。 丨 A die with eight sides. It feels... lucky.
   components:
   - type: Dice
     sides: 8
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseDice
   id: d6Dice
-  name: d6
-  description: A die with six sides. Basic and serviceable.
+  name: 六面骰 丨 d6
+  description: 一个六面的骰子。基础且实用。 丨 A die with six sides. Basic and serviceable.
   components:
   - type: Dice
     sides: 6
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseDice
   id: d4Dice
-  name: d4
-  description: A die with four sides. The nerd's caltrop.
+  name: 四面骰 丨 d4
+  description: 一个四面骰。书呆子的铁蒺藜。 丨 A die with four sides. The nerd's caltrop.
   components:
   - type: Dice
     sides: 4

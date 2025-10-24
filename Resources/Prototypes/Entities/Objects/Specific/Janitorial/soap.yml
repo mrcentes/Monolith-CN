@@ -1,8 +1,8 @@
 - type: entity
-  name: soap
+  name: 肥皂 丨 soap
   id: Soap
   parent: [BaseItem, RecyclableItemOrganicTiny] # Frontier: added RecyclableItemOrganicTiny
-  description: A cheap bar of soap. Doesn't smell.
+  description: 一块廉价的肥皂。没有气味。 丨 A cheap bar of soap. Doesn't smell.
   components:
   - type: Tag
     tags:
@@ -72,10 +72,10 @@
     residueColor: residue-green
 
 - type: entity
-  name: soap
+  name: 肥皂 丨 soap
   id: SoapNT
   parent: Soap
-  description: A Nanotrasen brand bar of soap. Smells of plasma.
+  description: 一块纳诺特拉森品牌的肥皂，散发着等离子体的气味。 丨 A Nanotrasen brand bar of soap. Smells of plasma.
   components:
   - type: Sprite
     layers:
@@ -97,10 +97,10 @@
     residueColor: residue-grey
 
 - type: entity
-  name: soap
+  name: 肥皂 丨 soap
   id: SoapDeluxe
   parent: Soap
-  description: A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
+  description: 一块豪华华夫公司品牌的香皂，散发着草莓的香气。 丨 A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
   components:
   - type: Sprite
     layers:
@@ -115,10 +115,10 @@
     residueColor: residue-brown
 
 - type: entity
-  name: soap
+  name: 肥皂 丨 soap
   id: SoapSyndie
   parent: [Soap, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  description: An untrustworthy bar of soap. Smells of fear.
+  description: 一块不可靠的肥皂，散发着恐惧的气味。 丨 An untrustworthy bar of soap. Smells of fear.
   components:
   - type: Sprite
     layers:
@@ -143,11 +143,11 @@
     residueColor: residue-red
 
 - type: entity
-  name: soaplet
+  name: 肥皂剧 丨 soaplet
   id: SoapletSyndie
   categories: [ HideSpawnMenu ]
   parent: Soap
-  description: A tiny piece of syndicate soap.
+  description: 一小块辛迪加香皂。 丨 A tiny piece of syndicate soap.
   components:
   - type: Sprite
     layers:
@@ -184,10 +184,10 @@
         volume: -20
 
 - type: entity
-  name: soap
+  name: 肥皂 丨 soap
   id: SoapHomemade
   parent: Soap
-  description: A homemade bar of soap. Smells of... well....
+  description: 一块自制的肥皂。闻起来……嗯…… 丨 A homemade bar of soap. Smells of... well....
   components:
   - type: Sprite
     layers:
@@ -208,10 +208,10 @@
     residueColor: residue-red
 
 - type: entity
-  name: omega soap
+  name: 欧米伽肥皂 丨 omega soap
   id: SoapOmega
   parent: Soap
-  description: The most advanced soap known to mankind. Smells of bluespace.
+  description: 人类已知最先进的肥皂。散发着蓝空的气息。 丨 The most advanced soap known to mankind. Smells of bluespace.
   components:
   - type: Sprite
     layers:

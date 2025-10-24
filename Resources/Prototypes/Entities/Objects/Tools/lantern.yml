@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: lantern
+  name: 灯笼 丨 lantern
   parent: [BaseItem, RecyclableItemDeviceSmall] # Frontier: added RecyclableItemDeviceSmall
   id: Lantern
-  description: The holy light guides the way.
+  description: 圣光指引前路。 丨 The holy light guides the way.
   components:
     - type: HandheldLight
       addPrefix: true
@@ -48,7 +48,7 @@
     - type: ItemSlots
       slots:
         cell_slot:
-          name: power-cell-slot-component-slot-name-default
+          name: 动力电池槽组件默认槽位名称 丨 power-cell-slot-component-slot-name-default
           startingItem: PowerCellMedium
     - type: ContainerContainer
       containers:

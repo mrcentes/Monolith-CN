@@ -18,8 +18,8 @@
 - type: entity
   parent: BaseItem
   id: ResearchDisk
-  name: research point disk (10000)
-  description: A disk for the R&D server containing 10000 points.
+  name: 研发点数盘（10000） 丨 research point disk (10000)
+  description: 一张用于研发服务器的磁盘，内含10000点。 丨 A disk for the R&D server containing 10000 points.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -53,8 +53,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk35000
-  name: research point disk (35000)
-  description: A disk for the R&D server containing 35000 points.
+  name: 研发点数盘（35000点） 丨 research point disk (35000)
+  description: 一张用于研发服务器的磁盘，内含35000点。 丨 A disk for the R&D server containing 35000 points.
   components:
   - type: ResearchDisk
     points: 35000
@@ -64,8 +64,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk65000
-  name: research point disk (65000)
-  description: A disk for the R&D server containing 65000 points.
+  name: 研发点数磁盘（65000点） 丨 research point disk (65000)
+  description: 一张用于研发服务器的磁盘，内含65000点。 丨 A disk for the R&D server containing 65000 points.
   components:
   - type: ResearchDisk
     points: 65000
@@ -76,8 +76,8 @@
 - type: entity
   parent: ResearchDisk
   id: RogueSiliconResearchDisk50000
-  name: research point disk (50000)
-  description: A rogue silicon data disk for an R&D server containing 50000 points.
+  name: 研究点数磁盘（50000） 丨 research point disk (50000)
+  description: 一个用于研发服务器的异常硅数据盘，内含50000个研究点数。 丨 A rogue silicon data disk for an R&D server containing 50000 points.
   components:
   - type: Sprite
     sprite: _Mono/Objects/Specific/Research/researchdisk.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ResearchDisk
   id: RogueSiliconResearchDisk25000
-  name: research point disk (25000)
-  description: A rogue silicon data disk for an R&D server containing 25000 points.
+  name: 研究点数盘（25000点） 丨 research point disk (25000)
+  description: 一个用于研发服务器的异常硅数据盘，内含25000个研究点数。 丨 A rogue silicon data disk for an R&D server containing 25000 points.
   components:
   - type: Sprite
     sprite: _Mono/Objects/Specific/Research/researchdisk.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: ResearchDisk
   id: RogueSiliconResearchDisk10000
-  name: research point disk (10000)
-  description: A rogue silicon data disk for an R&D server containing 10000 points.
+  name: 研究点数盘（10000） 丨 research point disk (10000)
+  description: 一个用于研发服务器的异常硅数据盘，内含10000点。 丨 A rogue silicon data disk for an R&D server containing 10000 points.
   components:
   - type: Sprite
     sprite: _Mono/Objects/Specific/Research/researchdisk.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: ResearchDisk
   id: RogueSiliconResearchDisk5000
-  name: research point disk (5000)
-  description: A rogue silicon data disk for an R&D server containing 5000 points.
+  name: 研究点数磁盘（5000点） 丨 research point disk (5000)
+  description: 一个用于研发服务器的异常硅数据盘，内含5000个研究点。 丨 A rogue silicon data disk for an R&D server containing 5000 points.
   components:
   - type: Sprite
     sprite: _Mono/Objects/Specific/Research/researchdisk.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk5000
-  name: research point disk (5000) #old ones
-  description: A disk for the R&D server containing 5000 points.
+  name: 研发点数磁盘（5000）#旧版 丨 research point disk (5000) #old ones
+  description: 一张用于研发服务器的磁盘，内含5000点。 丨 A disk for the R&D server containing 5000 points.
   components:
   - type: ResearchDisk
     points: 5000
@@ -144,8 +144,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk10000
-  name: research point disk (10000) #old ones
-  description: A disk for the R&D server containing 10000 points.
+  name: 研发点数磁盘（10000点）#旧型号 丨 research point disk (10000) #old ones
+  description: 一张用于研发服务器的磁盘，内含10000点。 丨 A disk for the R&D server containing 10000 points.
   components:
   - type: ResearchDisk
     points: 10000
@@ -155,10 +155,10 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDiskDebug
-  name: research point disk
+  name: 研究点数磁盘 丨 research point disk
   suffix: DEBUG, DO NOT MAP
   categories: [ DoNotMap ]
-  description: A disk for the R&D server containing all the points you could ever need.
+  description: 一张用于研发服务器的磁盘，内含您所需的所有研究点。 丨 A disk for the R&D server containing all the points you could ever need.
   components:
   - type: ResearchDisk
     unlockAllTech: true

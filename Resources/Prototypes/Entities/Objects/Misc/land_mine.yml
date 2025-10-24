@@ -44,7 +44,7 @@
     stepOn: true
 
 - type: entity
-  name: kick mine
+  name: 踢我的 丨 kick mine
   parent: BaseLandMine
   id: LandMineKick
   components:
@@ -52,8 +52,8 @@
   - type: DeleteOnTrigger
 
 - type: entity
-  name: modular mine
-  description: This bad boy could be packing any number of dangers. Or a bike horn.
+  name: 模块化地雷 丨 modular mine
+  description: 这家伙可能藏着各种危险，也可能只是个自行车喇叭。 丨 This bad boy could be packing any number of dangers. Or a bike horn.
   parent: BaseLandMine
   id: LandMineModular
   components:
@@ -63,7 +63,7 @@
     node: emptyCase
 
 - type: entity
-  name: explosive mine
+  name: 爆炸性地雷 丨 explosive mine
   parent: BaseLandMine
   id: LandMineExplosive
   components:

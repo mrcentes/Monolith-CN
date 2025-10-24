@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, RecyclableItemDeviceSmall] # Frontier: added RecyclableItemDeviceSmall
-  name: light replacer
+  name: 灯替换器 丨 light replacer
   id: LightReplacer
-  description: An item which uses magnets to easily replace broken lights. Refill By adding more lights into the replacer.
+  description: 一种利用磁铁轻松更换损坏灯泡的物品。通过向替换器中添加更多灯泡来补充。 丨 An item which uses magnets to easily replace broken lights. Refill By adding more lights into the replacer.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/light_replacer.rsi

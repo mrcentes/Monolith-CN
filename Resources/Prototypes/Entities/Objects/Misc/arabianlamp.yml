@@ -1,8 +1,8 @@
 - type: entity
-  name: lamp
+  name: 灯 丨 lamp
   parent: BaseItem
   id: ArabianLamp
-  description: Why the heck won't this piece of junk open!?
+  description: 这破玩意儿怎么就打不开呢！？ 丨 Why the heck won't this piece of junk open!?
   components:
   - type: Appearance
   - type: AccessReader

@@ -43,7 +43,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
         startingItem: PowerCellHigh
   - type: ContainerContainer
     containers:
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonOperative
-  name: operative balloon
-  description: Upon closer inspection, this Syndicate operative is actually a balloon.
+  name: 行动气球 丨 operative balloon
+  description: 仔细一看，这名企业联盟特工其实是个气球。 丨 Upon closer inspection, this Syndicate operative is actually a balloon.
   components:
   - type: Sprite
     sprite: Objects/Tools/Decoys/operative_decoy.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonAgent
-  name: agent balloon
-  description: Upon closer inspection, this Syndicate agent is actually a balloon.
+  name: 特工气球 丨 agent balloon
+  description: 仔细一看，这名辛迪加特工其实是个气球。 丨 Upon closer inspection, this Syndicate agent is actually a balloon.
   components:
   - type: Sprite
     sprite: Objects/Tools/Decoys/agent_decoy.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonElite
-  name: elite operative balloon
-  description: Upon closer inspection, this Syndicate elite operative is actually a balloon.
+  name: 精英特工气球 丨 elite operative balloon
+  description: 仔细一看，这名辛迪加精英特工其实是个气球。 丨 Upon closer inspection, this Syndicate elite operative is actually a balloon.
   components:
   - type: Sprite
     sprite: Objects/Tools/Decoys/elite_decoy.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonJuggernaut
-  name: juggernaut balloon
-  description: Upon closer inspection, this Syndicate juggernaut is actually a balloon.
+  name: 巨无霸气球 丨 juggernaut balloon
+  description: 仔细一看，这个辛迪加巨无霸实际上是个气球。 丨 Upon closer inspection, this Syndicate juggernaut is actually a balloon.
   components:
   - type: Sprite
     sprite: Objects/Tools/Decoys/juggernaut_decoy.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonCommander
-  name: commander balloon
-  description: Upon closer inspection, this Syndicate commander is actually a balloon.
+  name: 指挥官气球 丨 commander balloon
+  description: 仔细一看，这名联合部队指挥官其实是个气球。 丨 Upon closer inspection, this Syndicate commander is actually a balloon.
   components:
   - type: Sprite
     sprite: Objects/Tools/Decoys/commander_decoy.rsi

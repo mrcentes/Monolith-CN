@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: IngotBase
-  description: A heavy, metal ingot.
+  description: 一块沉重的金属锭。 丨 A heavy, metal ingot.
   components:
   - type: Sprite
     sprite: Objects/Materials/ingots.rsi
@@ -29,7 +29,7 @@
 - type: entity
   parent: IngotBase
   id: IngotGold
-  name: gold bar
+  name: 金条 丨 gold bar
   suffix: Full
   components:
   - type: Material
@@ -65,7 +65,7 @@
 - type: entity
   parent: IngotGold
   id: IngotGold1
-  name: gold bar
+  name: 金条 丨 gold bar
   suffix: Single
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 - type: entity
   parent: IngotBase
   id: IngotSilver
-  name: silver bar
+  name: 银条 丨 silver bar
   suffix: Full
   components:
   - type: Material
@@ -110,7 +110,7 @@
 - type: entity
   parent: IngotSilver
   id: IngotSilver1
-  name: silver bar
+  name: 银条 丨 silver bar
   suffix: Single
   components:
   - type: Sprite

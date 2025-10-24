@@ -43,8 +43,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBluesoft
-  name: blue cap
-  description: "It's a baseball hat in a tasteless blue colour."
+  name: 蓝色帽子 丨 blue cap
+  description: 这是一顶品味欠佳的蓝色棒球帽。 丨 "It's a baseball hat in a tasteless blue colour."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bluesoft.rsi
@@ -54,13 +54,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBluesoft]
   id: ClothingHeadHatBluesoftFlipped
-  name: blue cap
+  name: 蓝帽子 丨 blue cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCargosoft
-  name: cargo cap
-  description: "It's a baseball hat painted in Cargo colours."
+  name: 货物帽 丨 cargo cap
+  description: 这是一顶涂有Cargo品牌配色的棒球帽。 丨 "It's a baseball hat painted in Cargo colours."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/cargosoft.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCargosoft]
   id: ClothingHeadHatCargosoftFlipped
-  name: cargo cap
+  name: 货物上限 丨 cargo cap
   components:
   - type: Tag
     tags:
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatQMsoft
-  name: quartermaster's cap
-  description: "It's a baseball hat painted in the Quartermaster's colors."
+  name: 军需官的帽子 丨 quartermaster's cap
+  description: 这是一顶涂着军需官配色的棒球帽。 丨 "It's a baseball hat painted in the Quartermaster's colors."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/qmsoft.rsi
@@ -97,13 +97,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatQMsoft]
   id: ClothingHeadHatQMsoftFlipped
-  name: quartermaster's cap
+  name: 军需官的帽子 丨 quartermaster's cap
     
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCorpsoft
-  name: corporate cap
-  description: A baseball bat in corporation colors.
+  name: 公司帽 丨 corporate cap
+  description: 一支印有公司颜色的棒球棒。 丨 A baseball bat in corporation colors.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/corpsoft.rsi
@@ -113,13 +113,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCorpsoft]
   id: ClothingHeadHatCorpsoftFlipped
-  name: corporate cap
+  name: 企业上限 丨 corporate cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatGreensoft
-  name: green cap
-  description: "It's a baseball hat in a tasteless green colour."
+  name: 绿色的帽子 丨 green cap
+  description: 这是一顶品味欠佳的绿色棒球帽。 丨 "It's a baseball hat in a tasteless green colour."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greensoft.rsi
@@ -129,13 +129,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreensoft]
   id: ClothingHeadHatGreensoftFlipped
-  name: green cap
+  name: 绿帽子 丨 green cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBlacksoft
-  name: black cap
-  description: "It's a baseball hat in a tasteless black colour."
+  name: 黑色帽子 丨 black cap
+  description: 这是一顶毫无品味的黑色棒球帽。 丨 "It's a baseball hat in a tasteless black colour."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/blacksoft.rsi
@@ -145,13 +145,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBlacksoft]
   id: ClothingHeadHatBlacksoftFlipped
-  name: black cap
+  name: 黑帽 丨 black cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatGreysoft
-  name: grey cap
-  description: "It's a baseball hat in a tasteless grey colour."
+  name: 灰色帽子 丨 grey cap
+  description: 这是一顶毫无品味的灰色棒球帽。 丨 "It's a baseball hat in a tasteless grey colour."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greysoft.rsi
@@ -161,13 +161,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreysoft]
   id: ClothingHeadHatGreysoftFlipped
-  name: grey cap
+  name: 灰色帽子 丨 grey cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatMimesoft
-  name: mime cap
-  description: "It's a baseball hat in a tasteless white colour."
+  name: 哑剧帽 丨 mime cap
+  description: 这是一顶毫无品味的白色棒球帽。 丨 "It's a baseball hat in a tasteless white colour."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/mimesoft.rsi
@@ -177,13 +177,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatMimesoft]
   id: ClothingHeadHatMimesoftFlipped
-  name: mime cap
+  name: MIME 类型 丨 mime cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatOrangesoft
-  name: orange cap
-  description: It's a baseball hat in a good-looking orange colour.
+  name: 橙色帽子 丨 orange cap
+  description: 这是一顶棒球帽，颜色是很好看的橙色。 丨 It's a baseball hat in a good-looking orange colour.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/orangesoft.rsi
@@ -193,13 +193,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatOrangesoft]
   id: ClothingHeadHatOrangesoftFlipped
-  name: orange cap
+  name: 橙帽 丨 orange cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatPurplesoft
-  name: purple cap
-  description: It's a baseball hat in a tasteless purple colour.
+  name: 紫色帽子 丨 purple cap
+  description: 这是一顶品味欠佳的紫色棒球帽。 丨 It's a baseball hat in a tasteless purple colour.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/purplesoft.rsi
@@ -214,7 +214,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatPurplesoft]
   id: ClothingHeadHatPurplesoftFlipped
-  name: purple cap
+  name: 紫帽 丨 purple cap
   components:
   - type: Tag
     tags:
@@ -225,8 +225,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatRedsoft
-  name: red cap
-  description: It's a baseball hat in a tasteless red colour.
+  name: 红帽子 丨 red cap
+  description: 这是一顶品味欠佳的红色棒球帽。 丨 It's a baseball hat in a tasteless red colour.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/redsoft.rsi
@@ -236,13 +236,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatRedsoft]
   id: ClothingHeadHatRedsoftFlipped
-  name: red cap
+  name: 红帽 丨 red cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatSecsoft
-  name: security cap
-  description: It's a robust baseball hat in tasteful red colour.
+  name: 安全帽 丨 security cap
+  description: 这是一顶优雅红色的耐用棒球帽。 丨 It's a robust baseball hat in tasteful red colour.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/secsoft.rsi
@@ -252,13 +252,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSecsoft]
   id: ClothingHeadHatSecsoftFlipped
-  name: security cap
+  name: 安全帽 丨 security cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatYellowsoft
-  name: yellow cap
-  description: A yellow baseball hat.
+  name: 黄色帽子 丨 yellow cap
+  description: 一顶黄色的棒球帽。 丨 A yellow baseball hat.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/yellowsoft.rsi
@@ -268,13 +268,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatYellowsoft]
   id: ClothingHeadHatYellowsoftFlipped
-  name: yellow cap
+  name: 黄帽子 丨 yellow cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBizarreSoft
-  name: troublemaker's cap
-  description: A truly.. bizarre accessory.
+  name: 捣蛋鬼的帽子 丨 troublemaker's cap
+  description: 一件着实……古怪的配饰。 丨 A truly.. bizarre accessory.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bizarresoft.rsi
@@ -284,13 +284,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBizarreSoft]
   id: ClothingHeadHatBizarreSoftFlipped
-  name: troublemaker's cap
+  name: 捣蛋鬼的帽子 丨 troublemaker's cap
     
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatParamedicsoft
-  name: paramedic cap
-  description: "It's a paramedic's baseball hat with a medical logo."
+  name: 护理帽 丨 paramedic cap
+  description: 这是一顶带有医疗标志的棒球帽，属于护理人员。 丨 "It's a paramedic's baseball hat with a medical logo."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/paramedicsoft.rsi
@@ -305,7 +305,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatParamedicsoft]
   id: ClothingHeadHatParamedicsoftFlipped
-  name: paramedic cap
+  name: 护理人员帽 丨 paramedic cap
   components:
   - type: Tag
     tags:

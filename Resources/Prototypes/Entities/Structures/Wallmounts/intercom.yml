@@ -23,8 +23,8 @@
 
 - type: entity
   id: BaseIntercom
-  name: intercom
-  description: An intercom. For when the station just needs to know something.
+  name: 对讲机 丨 intercom
+  description: 内部对讲机。当站点需要了解情况时使用。 丨 An intercom. For when the station just needs to know something.
   abstract: true
   components:
   - type: StationAiWhitelist
@@ -153,8 +153,8 @@
 
 - type: entity
   id: IntercomAssembly
-  name: intercom assembly
-  description: An intercom. It doesn't seem very helpful right now.
+  name: 对讲机组件 丨 intercom assembly
+  description: 一个对讲机。它现在似乎没什么用。 丨 An intercom. It doesn't seem very helpful right now.
   components:
   - type: WallMount
   - type: Clickable
@@ -266,7 +266,7 @@
   id: IntercomCommand
   parent: [BaseStructureIndestructible, BaseIntercomSecure] # Frontier - added BaseStructureIndestructible
   suffix: Command
-  description: An intercom. It's been reinforced with metal.
+  description: 一个对讲机。它已经用金属加固了。 丨 An intercom. It's been reinforced with metal.
   components:
   - type: ContainerFill
     containers:
@@ -323,7 +323,7 @@
   id: IntercomSecurity
   parent: [BaseStructureIndestructible, BaseIntercomSecure] # Frontier - added BaseStructureIndestructible
   suffix: Security
-  description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
+  description: 一个对讲机。它的外壳用安全头盔的金属加固过，打开它得费九牛二虎之力。 丨 An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
   components:
   - type: ContainerFill
     containers:

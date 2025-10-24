@@ -8,8 +8,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxDonut
-  name: donut box
-  description: Mmm, Donuts.
+  name: 甜甜圈盒 丨 donut box
+  description: 嗯，甜甜圈。 丨 Mmm, Donuts.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/donut.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodContainerEgg
-  name: egg carton
-  description: Don't drop 'em!
+  name: 鸡蛋盒 丨 egg carton
+  description: 别摔了它们！ 丨 Don't drop 'em!
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/egg.rsi
@@ -198,7 +198,7 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxPizza
-  name: pizza box
+  name: 披萨盒 丨 pizza box
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/pizza.rsi
@@ -231,7 +231,7 @@
     price: 0
 
 - type: entity
-  name: pizza box
+  name: 披萨盒 丨 pizza box
   parent: FoodBoxPizza
   id: FoodBoxPizzaFilled
   suffix: Filled
@@ -276,7 +276,7 @@
     - id: KnifePlastic
   
 - type: entity
-  name: pizza box
+  name: 披萨盒 丨 pizza box
   parent: FoodBoxPizzaFilled
   id: FoodBoxPizzaCotton
   suffix: Cotton Pizza
@@ -291,8 +291,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxNugget
-  name: chicken nuggets
-  description: You suddenly have an urge to trade on the intergalactic stock market.
+  name: 鸡块 丨 chicken nuggets
+  description: 你突然有种想去跨星系股票市场交易的冲动。 丨 You suddenly have an urge to trade on the intergalactic stock market.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/nuggets.rsi
@@ -350,8 +350,8 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxDonkpocket
-  name: box of donk-pockets
-  description: 'Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.'
+  name: 一盒顿口包 丨 box of donk-pockets
+  description: 使用说明：请用微波炉加热。若七分钟内未食用，产品将会冷却。 丨 'Instructions Heat in microwave. Product will cool if not eaten within seven minutes.'
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
@@ -373,7 +373,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketSpicy
-  name: box of spicy-flavoured donk-pockets
+  name: 一盒辣味唐克饺 丨 box of spicy-flavoured donk-pockets
   components:
   - type: Sprite
     state: spicy-box
@@ -387,7 +387,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketTeriyaki
-  name: box of teriyaki-flavoured donk-pockets
+  name: 照烧味唐克口袋饼一盒 丨 box of teriyaki-flavoured donk-pockets
   components:
   - type: Sprite
     state: teriyaki-box
@@ -401,7 +401,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketPizza
-  name: box of pizza-flavoured donk-pockets
+  name: 一盒披萨味顿克口袋 丨 box of pizza-flavoured donk-pockets
   components:
   - type: Sprite
     state: pizza-box
@@ -415,7 +415,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketStonk
-  name: box of limited edition stonk-pockets
+  name: 限量版股票口袋礼盒 丨 box of limited edition stonk-pockets
   components:
   - type: Sprite
     state: stonk-box
@@ -429,7 +429,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketCarp
-  name: box of carp-pockets
+  name: 一盒鲤鱼口袋 丨 box of carp-pockets
   components:
   - type: Sprite
     state: carp-box
@@ -441,7 +441,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketBerry
-  name: box of berry-flavoured donk-pockets
+  name: 一盒浆果味的多纳口袋 丨 box of berry-flavoured donk-pockets
   components:
   - type: Sprite
     state: berry-box
@@ -455,7 +455,7 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketHonk
-  name: box of banana-flavoured donk-pockets
+  name: 一盒香蕉味的多纳口袋 丨 box of banana-flavoured donk-pockets
   components:
   - type: Sprite
     state: banana-box
@@ -469,8 +469,8 @@
 - type: entity
   parent: FoodBoxDonkpocket
   id: FoodBoxDonkpocketDink
-  name: box of dink-pockets
-  description: Net Zero carbohydrates! No need for heating!
+  name: 一盒饮料包 丨 box of dink-pockets
+  description: 净零碳水化合物！无需加热！ 丨 Net Zero carbohydrates! No need for heating!
   components:
   - type: Sprite
     state: dink-box
@@ -484,9 +484,9 @@
 - type: entity
   id: HappyHonk
   parent: [ BoxCardboard, BaseBagOpenClose ]
-  name: happy honk meal
+  name: 快乐喇叭餐 丨 happy honk meal
   suffix: Toy Safe
-  description: The toy is more edible than the food.
+  description: 玩具比食物更可食用。 丨 The toy is more edible than the food.
   components:
   - type: Sprite
     sprite: _NF/Objects/Storage/Happyhonk/clown.rsi # Frontier: _NF prefix
@@ -573,7 +573,7 @@
 - type: entity
   id: HappyHonkMime
   parent: HappyHonk
-  description: A limited mime edition of the happy honk meal.
+  description: 快乐鸣笛餐的限量模仿版。 丨 A limited mime edition of the happy honk meal.
   suffix: Toy Safe
   components:
   - type: Tag
@@ -590,8 +590,8 @@
 - type: entity
   id: HappyHonkNukie
   parent: [HappyHonk, BaseC3SyndicateContrabandUnredeemable] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContrabandUnredeemable
-  name: robust nukie meal
-  description: A sus meal with a potentially explosive surprise.
+  name: 坚固的核弹套餐 丨 robust nukie meal
+  description: 一顿可疑的餐食，可能暗藏爆炸性惊喜。 丨 A sus meal with a potentially explosive surprise.
   suffix: Toy Unsafe
   components:
   - type: Sprite
@@ -623,7 +623,7 @@
   parent: HappyHonkNukie
   id: HappyHonkNukieSnacks
   suffix: Toy Unsafe, Snacks
-  name: syndicate snack box
+  name: 辛迪加零食盒 丨 syndicate snack box
   components:
   - type: Storage
     grid:
@@ -672,8 +672,8 @@
 - type: entity
   id: HappyHonkCluwne
   parent: HappyHonk
-  name: woeful cluwne meal
-  description: Nothing good can come of this.
+  name: 悲惨的小丑餐 丨 woeful cluwne meal
+  description: 这不会有什么好结果。 丨 Nothing good can come of this.
   components:
   - type: Tag
     tags:
@@ -773,8 +773,8 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxCloth
-  name: box of FlutterSoft-brand cloth
-  description: Fiber is the most important moth meal of the day! Don't skip it or use bottom-of-the-locker junk, buy high-quality FlutterSoft-brand cloth instead.
+  name: 一盒FlutterSoft品牌的布料 丨 box of FlutterSoft-brand cloth
+  description: 纤维是一天中最重要的蛾餐！不要跳过它或使用储物柜底部的劣质品，购买高质量的FlutterSoft品牌布料才是正选。 丨 Fiber is the most important moth meal of the day! Don't skip it or use bottom-of-the-locker junk, buy high-quality FlutterSoft-brand cloth instead.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/ingredients.rsi

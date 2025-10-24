@@ -1,9 +1,9 @@
 - type: entity
-  name: basic slime
+  name: 基础史莱姆 丨 basic slime
   id: BaseMobAdultSlimes
   parent: [ SimpleMobBase, MobCombat ]
   abstract: true
-  description: It looks so much like jelly. I wonder what it tastes like?
+  description: 它看起来太像果冻了。不知道尝起来会是什么味道呢？ 丨 It looks so much like jelly. I wonder what it tastes like?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -120,11 +120,11 @@
     proto: slime
 
 - type: entity
-  name: basic slime
+  name: 基础史莱姆 丨 basic slime
   id: MobAdultSlimes
   parent: BaseMobAdultSlimes
   abstract: true
-  description: It looks so much like jelly. I wonder what it tastes like?
+  description: 它看起来太像果冻了。不知道尝起来会是什么味道呢？ 丨 It looks so much like jelly. I wonder what it tastes like?
   components:
   - type: LanguageKnowledge # Einstein Engines - Language
     speaks:
@@ -160,7 +160,7 @@
       task: SimpleHostileCompound
 
 - type: entity
-  name: blue slime
+  name: 蓝色粘液 丨 blue slime
   id: MobAdultSlimesBlue
   parent: MobAdultSlimes
   components:
@@ -172,7 +172,7 @@
         Base: blue_adult_slime_dead
 
 - type: entity
-  name: blue slime
+  name: 蓝色粘液 丨 blue slime
   parent: MobAdultSlimesBlue
   id: MobAdultSlimesBlueAngry
   suffix: Angry
@@ -181,7 +181,7 @@
     factions:
     - SimpleHostile
   - type: GhostRole
-    description: ghost-role-information-angry-slimes-description
+    description: 幽灵角色信息-愤怒史莱姆描述 丨 ghost-role-information-angry-slimes-description
     rules: ghost-role-information-angry-slimes-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -189,7 +189,7 @@
       settings: short
 
 - type: entity
-  name: green slime
+  name: 绿色粘液 丨 green slime
   parent: MobAdultSlimes
   id: MobAdultSlimesGreen
   components:
@@ -212,7 +212,7 @@
         Poison: 4
 
 - type: entity
-  name: green slime
+  name: 绿色粘液 丨 green slime
   parent: MobAdultSlimesGreen
   id: MobAdultSlimesGreenAngry
   suffix: Angry
@@ -221,7 +221,7 @@
     factions:
     - SimpleHostile
   - type: GhostRole
-    description: ghost-role-information-angry-slimes-description
+    description: 幽灵角色信息-愤怒史莱姆描述 丨 ghost-role-information-angry-slimes-description
     rules: ghost-role-information-angry-slimes-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -229,7 +229,7 @@
       settings: short
 
 - type: entity
-  name: yellow slime
+  name: 黄色粘液 丨 yellow slime
   parent: MobAdultSlimes
   id: MobAdultSlimesYellow
   components:
@@ -251,7 +251,7 @@
         Caustic: 4
 
 - type: entity
-  name: yellow slime
+  name: 黄色粘液 丨 yellow slime
   parent: MobAdultSlimesYellow
   id: MobAdultSlimesYellowAngry
   suffix: Angry
@@ -260,7 +260,7 @@
     factions:
     - SimpleHostile
   - type: GhostRole
-    description: ghost-role-information-angry-slimes-description
+    description: 幽灵角色信息-愤怒史莱姆描述 丨 ghost-role-information-angry-slimes-description
     rules: ghost-role-information-angry-slimes-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist

@@ -1,8 +1,8 @@
 - type: entity
-  name: haycutters
+  name: 干草切割机 丨 haycutters
   parent: BaseItem
   id: Haycutters
-  description: This kills the wire. Moo!
+  description: 这割断了电线。哞！ 丨 This kills the wire. Moo!
   components:
   - type: Tag
     tags:
@@ -26,10 +26,10 @@
     sprite: Objects/Tools/Cowtools/haycutters.rsi
 
 - type: entity
-  name: moodriver
+  name: 情绪河 丨 moodriver
   parent: BaseItem
   id: Moodriver
-  description: Turn to use. Moo!
+  description: 转用。哞！ 丨 Turn to use. Moo!
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/moodriver.rsi
@@ -49,10 +49,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: wronch
+  name: 错物 丨 wronch
   parent: BaseItem
   id: Wronch
-  description: Wronch thing. Moo!
+  description: 错位的东西。哞！ 丨 Wronch thing. Moo!
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/wronch.rsi
@@ -72,10 +72,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: cowbar
+  name: 牛栏 丨 cowbar
   parent: BaseItem
   id: Cowbar
-  description: Cow your problems away. Moo!
+  description: 将你的问题牛走。哞！ 丨 Cow your problems away. Moo!
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cowbar.rsi
@@ -99,10 +99,10 @@
     delay: 3 # slow because mooooooooooooo
 
 - type: entity
-  name: mooltitool
+  name: 哞尔特工具 丨 mooltitool
   parent: BaseItem
   id: Mooltitool
-  description: An crude tool to copy, store, and send electrical pulses and signals through wires and machines. Moo!
+  description: 一种通过电线和机器复制、存储及发送电脉冲与信号的简陋工具。哞！ 丨 An crude tool to copy, store, and send electrical pulses and signals through wires and machines. Moo!
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/mooltitool.rsi
@@ -117,10 +117,10 @@
       - Multitool
 
 - type: entity
-  name: cowelding tool
+  name: 牛焊工具 丨 cowelding tool
   parent: Welder
   id: Cowelder
-  description: "Melts anything as long as it's fueled, don't forget your eye protection! Moo!"
+  description: 只要燃料充足，它能熔化一切，别忘了戴上护目镜！哞！ 丨 "Melts anything as long as it's fueled, don't forget your eye protection! Moo!"
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cowelder.rsi
@@ -131,10 +131,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: milkalyzer
+  name: 奶析仪 丨 milkalyzer
   parent: BaseItem
   id: Milkalyzer
-  description: A hand-held environmental scanner which reports current gas levels. Moo!
+  description: 手持式环境扫描仪，可报告当前气体水平。哞！ 丨 A hand-held environmental scanner which reports current gas levels. Moo!
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/milkalyzer.rsi
@@ -148,10 +148,10 @@
   - type: Appearance
 
 - type: entity
-  name: cow toolbox
+  name: 奶牛工具箱 丨 cow toolbox
   parent: ToolboxBase
   id: CowToolbox
-  description: A weirdly shaped box, stocked with... tools?
+  description: 一个形状怪异的盒子，里面装满了……工具？ 丨 A weirdly shaped box, stocked with... tools?
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cow_toolbox.rsi
@@ -173,7 +173,7 @@
 
 - type: entity
   id: CowToolboxFilled
-  name: cow toolbox
+  name: 牛工具箱 丨 cow toolbox
   suffix: Filled
   parent: CowToolbox
   components:

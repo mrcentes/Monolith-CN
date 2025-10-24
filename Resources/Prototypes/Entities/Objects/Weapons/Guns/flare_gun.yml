@@ -17,10 +17,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: flare gun (12 gauge)
+  name: 信号枪（12号口径） 丨 flare gun (12 gauge)
   parent: BaseItem
   id: WeaponFlareGun
-  description: A compact, single-shot pistol that fires shotgun shells. Comes with a safety feature that prevents the user from fitting lethal shells inside.
+  description: 一款紧凑的单发手枪，可发射霰弹枪子弹。配有安全装置，防止使用者装入致命弹药。 丨 A compact, single-shot pistol that fires shotgun shells. Comes with a safety feature that prevents the user from fitting lethal shells inside.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/flaregun.rsi
@@ -33,7 +33,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: Chamber
+        name: 腔室 丨 Chamber
         startingItem: ShellShotgun12_gaugeFlare
         priority: 1
         whitelist:
@@ -86,10 +86,10 @@
 
 
 - type: entity
-  name: security shell gun
+  name: 安保霰弹枪 丨 security shell gun
   parent: [WeaponFlareGun, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
   id: WeaponFlareGunSecurity
-  description: A modified flare gun originally designed to be used by security to launch non-lethal shotgun shells, however it can also fire lethal shells without risk.
+  description: 一把改装过的信号枪，最初设计供安保人员使用，用于发射非致命霰弹，但也能无风险地发射致命弹药。 丨 A modified flare gun originally designed to be used by security to launch non-lethal shotgun shells, however it can also fire lethal shells without risk.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/flaregun_security.rsi
@@ -102,7 +102,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: Chamber
+        name: 腔室 丨 Chamber
         priority: 1
         whitelist:
           tags:

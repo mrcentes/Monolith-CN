@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: FirelockElectronics
   parent: BaseElectronics
-  name: firelock electronics
-  description: An electronics board used to detect differences in pressure, temperature and gas concentrations between the two sides of the door.
+  name: 防火锁电子板 丨 firelock electronics
+  description: 一块用于检测门两侧压力、温度及气体浓度差异的电子电路板。 丨 An electronics board used to detect differences in pressure, temperature and gas concentrations between the two sides of the door.
   components:
     - type: Item
       storedRotation: 0

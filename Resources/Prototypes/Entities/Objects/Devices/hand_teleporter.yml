@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: HandTeleporter
   parent: [BaseItem, BaseC2ContrabandUnredeemable] # Frontier: BaseC2ContrabandUnredeemable
-  name: hand teleporter
-  description: "A Nanotrasen signature item--only the finest bluespace tech. Instructions: Use once to create a portal which teleports at random. Use again to link it to a portal at your current location. Use again to clear all portals."
+  name: 手持传送器 丨 hand teleporter
+  description: 一件纳星特质物品——仅采用最顶级的蓝空科技。使用说明：首次使用以创建一个随机传送门。再次使用以将其与当前位置的传送门链接。再次使用以清除所有传送门。
   components:
   - type: Sprite
     sprite: /Textures/Objects/Devices/hand_teleporter.rsi
@@ -19,8 +19,8 @@
   id: HandTeleporterAdmeme
   suffix: Admeme
   parent: BaseItem
-  name: interdimensional teleporter
-  description: Allows you to open stable portal gates that are not limited by distance.
+  name: 跨维度传送器 丨 interdimensional teleporter
+  description: 允许你开启不受距离限制的稳定传送门。 丨 Allows you to open stable portal gates that are not limited by distance.
   components:
   - type: Sprite
     sprite: /Textures/Objects/Devices/hand_teleporter.rsi

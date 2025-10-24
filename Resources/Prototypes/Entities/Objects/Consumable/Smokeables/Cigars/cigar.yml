@@ -4,8 +4,8 @@
 - type: entity
   id: Cigar
   parent: BaseCigar
-  name: cigar
-  description: "A brown roll of tobacco and... well, you're not quite sure."
+  name: 雪茄 丨 cigar
+  description: 一卷棕色的烟草……嗯，你也不太确定。 丨 "A brown roll of tobacco and... well, you're not quite sure."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigars/cigar.rsi
@@ -45,8 +45,8 @@
 - type: entity
   id: CigarGold
   parent: Cigar
-  name: premium Havanian cigar
-  description: A cigar fit for only the best of the best.
+  name: 顶级哈瓦那雪茄 丨 premium Havanian cigar
+  description: 只为顶尖人士打造的雪茄臻品。 丨 A cigar fit for only the best of the best.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigars/cigar-gold.rsi

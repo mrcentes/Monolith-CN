@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: ParchisBoard
-  name: parchís board
-  description: Cross and circle board game famous for destroying countless friendships.
+  name: 大富翁棋盘 丨 parchís board
+  description: 一种以摧毁无数友谊而闻名的十字与圆圈棋盘游戏。 丨 Cross and circle board game famous for destroying countless friendships.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/parchis.rsi
@@ -18,7 +18,7 @@
 # Parchís tabletop item (item only visible in tabletop game)
 - type: entity
   id: ParchisBoardTabletop
-  name: parchís
+  name: 强手棋 丨 parchís
   parent: BaseBoardTabletop
   categories: [ HideSpawnMenu ]
   components:

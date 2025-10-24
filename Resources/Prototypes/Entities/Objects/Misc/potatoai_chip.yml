@@ -1,8 +1,8 @@
 - type: entity
   id: PotatoAIChip
-  name: supercompact AI chip
+  name: 超紧凑型AI芯片 丨 supercompact AI chip
   parent: BaseItem
-  description: This high-tech AI chip requires a voltage of exactly 1.1V to function correctly.
+  description: 这款高科技AI芯片需要精确的1.1V电压才能正常工作。 丨 This high-tech AI chip requires a voltage of exactly 1.1V to function correctly.
   components:
     - type: Sprite
       sprite: Objects/Misc/potatoai_chip.rsi

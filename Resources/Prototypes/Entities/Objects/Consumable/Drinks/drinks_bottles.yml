@@ -189,8 +189,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkAbsintheBottleFull
-  name: Jailbreaker Verte
-  description: One sip of this and you just know you're gonna have a good time.
+  name: 越狱者 维特 丨 Jailbreaker Verte
+  description: 抿上一口，你就知道今晚注定美妙。 丨 One sip of this and you just know you're gonna have a good time.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -207,8 +207,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkBlueCuracaoBottleFull
-  name: Miss Blue Curaçao
-  description: A fruity, exceptionally azure drink. Does not allow the imbiber to use the fifth magic.
+  name: 蓝橙酒小姐 丨 Miss Blue Curaçao
+  description: 一款果味浓郁、格外湛蓝的饮品。饮用者将无法施展第五魔法。 丨 A fruity, exceptionally azure drink. Does not allow the imbiber to use the fifth magic.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -233,8 +233,8 @@
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkBottleOfNothingFull
-  name: bottle of nothing
-  description: A bottle filled with nothing.
+  name: 一瓶虚无 丨 bottle of nothing
+  description: 一个空无一物的瓶子。 丨 A bottle filled with nothing.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -251,8 +251,8 @@
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkChampagneBottleFull
-  name: champagne bottle
-  description: Only people devoid of imagination can't find an excuse for champagne.
+  name: 香槟酒瓶 丨 champagne bottle
+  description: 只有缺乏想象力的人才找不到喝香槟的借口。 丨 Only people devoid of imagination can't find an excuse for champagne.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -270,8 +270,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkCognacBottleFull
-  name: cognac bottle
-  description: A sweet and strongly alcoholic drink, made after numerous distillations and years of maturing. # Frontier - description change
+  name: 干邑酒瓶 丨 cognac bottle
+  description: 一种经过多次蒸馏与多年陈酿而成的甘醇烈酒。# 前沿 - 描述变更 丨 A sweet and strongly alcoholic drink, made after numerous distillations and years of maturing. # Frontier - description change
   components:
   - type: SolutionContainerManager
     solutions:
@@ -288,8 +288,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottlePlasticBaseFull]
   id: DrinkColaBottleFull
-  name: Space Cola bottle
-  description: Cola. In spaaace!
+  name: 太空可乐瓶 丨 Space Cola bottle
+  description: 可乐。在太——空！ 丨 Cola. In spaaace!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -306,8 +306,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkGrenadineBottleFull
-  name: Briar Rose grenadine syrup bottle
-  description: Sweet and tangy, a bar syrup used to add color or flavor to drinks.
+  name: Briar Rose红石榴糖浆瓶 丨 Briar Rose grenadine syrup bottle
+  description: 甜中带酸，一种用于为饮品增色添味的吧台糖浆。 丨 Sweet and tangy, a bar syrup used to add color or flavor to drinks.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -328,8 +328,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkGinBottleFull
-  name: Griffeater gin
-  description: A bottle of high quality gin, produced in the New London Space Station.
+  name: 格里菲特尔金酒 丨 Griffeater gin
+  description: 一瓶高品质的杜松子酒，产自新伦敦空间站。 丨 A bottle of high quality gin, produced in the New London Space Station.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -346,8 +346,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkGildlagerBottleFull
-  name: Gildlager bottle
-  description: 100 proof cinnamon schnapps, made for alcoholic teen girls on spring break.
+  name: 镀金瓶 丨 Gildlager bottle
+  description: 100度肉桂烈酒，专为春假期间酗酒的少女们酿造。 丨 100 proof cinnamon schnapps, made for alcoholic teen girls on spring break.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -364,8 +364,8 @@
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkCoffeeLiqueurBottleFull
-  name: coffee liqueur bottle
-  description: The great taste of coffee with none of the benifits.
+  name: 咖啡利口酒瓶 丨 coffee liqueur bottle
+  description: 咖啡的美味，却无益健康。 丨 The great taste of coffee with none of the benifits.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -382,8 +382,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkMelonLiquorBottleFull
-  name: Emeraldine melon liquor
-  description: A bottle of 46 proof Emeraldine melon liquor. Sweet and light.
+  name: 翡翠甜瓜利口酒 丨 Emeraldine melon liquor
+  description: 一瓶46度的翡翠瓜酒。甜而清淡。 丨 A bottle of 46 proof Emeraldine melon liquor. Sweet and light.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -408,8 +408,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkPatronBottleFull
-  name: Wrapp Artiste Patrón bottle
-  description: Silver laced tequila, served in space night clubs across the galaxy.
+  name: 缠绕艺术家Patrón酒瓶 丨 Wrapp Artiste Patrón bottle
+  description: 银色饰边的龙舌兰酒，在银河系的太空夜总会中供应。 丨 Silver laced tequila, served in space night clubs across the galaxy.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -425,8 +425,8 @@
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkPoisonWinebottleFull
-  name: Warlock's Velvet bottle
-  description: What a delightful packaging for a surely high quality wine! The vintage must be amazing!
+  name: 术士天鹅绒酒瓶 丨 Warlock's Velvet bottle
+  description: 这包装多么精美，想必瓶中的葡萄酒品质上乘！年份一定非常出色！ 丨 What a delightful packaging for a surely high quality wine! The vintage must be amazing!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -445,8 +445,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkRumBottleFull
-  name: Captain Pete's Cuban spiced rum
-  description: This isn't just rum, oh no. It's practically GRIFF in a bottle.
+  name: 彼得船长古巴香料朗姆酒 丨 Captain Pete's Cuban spiced rum
+  description: 这可不只是朗姆酒，哦不。它简直就是瓶中的格里夫。 丨 This isn't just rum, oh no. It's practically GRIFF in a bottle.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -463,8 +463,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottlePlasticBaseFull]
   id: DrinkSpaceMountainWindBottleFull
-  name: Space Solar Wind bottle
-  description: Blows right through you like a solar wind.
+  name: 太空太阳风瓶 丨 Space Solar Wind bottle
+  description: 如同太阳风般穿透你的身体。 丨 Blows right through you like a solar wind.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -482,8 +482,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottlePlasticBaseFull]
   id: DrinkSpaceUpBottleFull
-  name: Space-Up bottle
-  description: Tastes like a hull breach in your mouth.
+  name: 太空瓶 丨 Space-Up bottle
+  description: 尝起来就像船舱破了个洞在你嘴里。 丨 Tastes like a hull breach in your mouth.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -501,8 +501,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkTequilaBottleFull
-  name: Caccavo Guaranteed Quality tequila bottle
-  description: Made from premium petroleum distillates, pure thalidomide and other fine quality ingredients!
+  name: Caccavo Guaranteed Quality 龙舌兰酒瓶 丨 Caccavo Guaranteed Quality tequila bottle
+  description: 选用优质石油馏分、纯萨力多胺及其他上等原料精制而成！ 丨 Made from premium petroleum distillates, pure thalidomide and other fine quality ingredients!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -519,8 +519,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkVermouthBottleFull
-  name: Goldeneye vermouth bottle
-  description: Sweet, sweet dryness!
+  name: 金眼味美思酒瓶 丨 Goldeneye vermouth bottle
+  description: 甜美，甜美的干爽！ 丨 Sweet, sweet dryness!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -537,8 +537,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkVodkaBottleFull
-  name: vodka bottle
-  description: Aah, vodka. Prime choice of drink AND fuel by Russians worldwide.
+  name: 伏特加酒瓶 丨 vodka bottle
+  description: 啊，伏特加。全世界俄罗斯人首选的饮品兼燃料。 丨 Aah, vodka. Prime choice of drink AND fuel by Russians worldwide.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -558,8 +558,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkWhiskeyBottleFull
-  name: Uncle Git's Special Reserve
-  description: A premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES.
+  name: 吉特叔叔的特藏 丨 Uncle Git's Special Reserve
+  description: 一款优质单一麦芽威士忌，于核掩体隧道中轻柔陈酿。隧道威士忌至高无上。 丨 A premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -576,8 +576,8 @@
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkWineBottleFull
-  name: Doublebearded Bearded Special wine bottle
-  description: A faint aura of unease and asspainery surrounds the bottle.
+  name: 双须胡须特别版酒瓶 丨 Doublebearded Bearded Special wine bottle
+  description: 瓶身隐约散发出一股不安与恼人的气息。 丨 A faint aura of unease and asspainery surrounds the bottle.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -600,8 +600,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkBeerBottleFull
-  name: beer bottle # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
-  description: An alcoholic beverage made from malted grains, hops, yeast, and water.
+  name: 啤酒瓶 # 啤酒没错。咖啡。啤酒？咖-啡？啤-酒？咖... 啤... 丨 beer bottle # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
+  description: 一种由麦芽、啤酒花、酵母和水制成的酒精饮料。 丨 An alcoholic beverage made from malted grains, hops, yeast, and water.
   components:
   - type: Item
     size: Small
@@ -626,8 +626,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkBeerGrowler # Needs to be renamed DrinkBeerBottleFull
-  name: beer growler  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
-  description: An alcoholic beverage made from malted grains, hops, yeast, and water. XL growler bottle.
+  name: 啤酒壶  # 啤酒没错。咖啡。啤酒？咖-啡？啤-酒？咖... 啤... 丨 beer growler  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
+  description: 一种由麦芽、啤酒花、酵母和水制成的酒精饮料。超大号啤酒罐。 丨 An alcoholic beverage made from malted grains, hops, yeast, and water. XL growler bottle.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -650,8 +650,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottlePlasticBaseFull]
   id: DrinkAleBottleFull
-  name: Magm-Ale bottle
-  description: A true dorf's drink of choice.
+  name: Magm-Ale酒瓶 丨 Magm-Ale bottle
+  description: 真正的矮人首选饮品。 丨 A true dorf's drink of choice.
   components:
   - type: Item
     size: Small
@@ -672,8 +672,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottlePlasticBaseFull]
   id: DrinkAleBottleFullGrowler
-  name: Magm-Ale growler
-  description: A true dorf's drink of choice. XL growler bottle.
+  name: 岩浆麦酒大肚瓶 丨 Magm-Ale growler
+  description: 真正的矮人首选饮品。超大号酒壶瓶。 丨 A true dorf's drink of choice. XL growler bottle.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -692,8 +692,8 @@
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkWaterBottleFull
-  name: water bottle
-  description: Simple clean water of unknown origin. You think that maybe you dont want to know it.
+  name: 水瓶 丨 water bottle
+  description: 来源不明的简单清水。你觉得或许自己并不想知道它的来历。 丨 Simple clean water of unknown origin. You think that maybe you dont want to know it.
   components:
   - type: Item
     size: Small
@@ -726,8 +726,8 @@
 - type: entity
   parent: DrinkWaterBottleFull
   id: DrinkSodaWaterBottleFull
-  name: soda water bottle
-  description: Like water, but angry!
+  name: 苏打水瓶 丨 soda water bottle
+  description: 像水，但很生气！ 丨 Like water, but angry!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -742,8 +742,8 @@
 - type: entity
   parent: DrinkWaterBottleFull
   id: DrinkTonicWaterBottleFull
-  name: tonic water bottle
-  description: Like soda water, but angrier maybe? Often sweeter.
+  name: 汤力水瓶 丨 tonic water bottle
+  description: 像苏打水，但可能更冲一些？通常也更甜。 丨 Like soda water, but angrier maybe? Often sweeter.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -780,8 +780,8 @@
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkJuiceLimeCartonXL
-  name: lime juice XL
-  description: Sweet-sour goodness.
+  name: 青柠汁 XL 丨 lime juice XL
+  description: 酸甜可口。 丨 Sweet-sour goodness.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -799,8 +799,8 @@
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkJuiceOrangeCartonXL
-  name: orange juice XL
-  description: Full of vitamins and deliciousness!
+  name: 橙汁 XL 丨 orange juice XL
+  description: 富含维生素，美味可口！ 丨 Full of vitamins and deliciousness!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -818,8 +818,8 @@
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkCreamCartonXL
-  name: milk cream XL
-  description: It's cream. Made from milk. What else did you think you'd find in there?
+  name: 牛奶奶油 XL 丨 milk cream XL
+  description: 这是奶油。由牛奶制成。你以为里面还会有什么呢？ 丨 It's cream. Made from milk. What else did you think you'd find in there?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -839,9 +839,9 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkSugarJug
-  name: sugar jug
+  name: 糖罐 丨 sugar jug
   suffix: For Drinks, Full
-  description: Some people put this in their coffee...
+  description: 有些人会把这个放进咖啡里…… 丨 Some people put this in their coffee...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -857,8 +857,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkLemonLimeJug
-  name: Smite jug
-  description: A dual citrus sensation.
+  name: 重击双柑 丨 Smite jug
+  description: 双重柑橘感受。 丨 A dual citrus sensation.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -874,8 +874,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkMeadJug
-  name: mead jug
-  description: Storing mead in a plastic jug should be a crime.
+  name: 蜂蜜酒壶 丨 mead jug
+  description: 用塑料壶储存蜂蜜酒简直是一种罪过。 丨 Storing mead in a plastic jug should be a crime.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -891,8 +891,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkIceJug
-  name: ice jug
-  description: Stubborn water. Pretty cool.
+  name: 冰壶 丨 ice jug
+  description: 顽固的水。挺酷的。 丨 Stubborn water. Pretty cool.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -908,8 +908,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkCoconutWaterJug
-  name: coconut water jug
-  description: It's on the inside of the coconut that counts.
+  name: 椰子水壶 丨 coconut water jug
+  description: 内在的椰汁才最珍贵。 丨 It's on the inside of the coconut that counts.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -925,8 +925,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkCoffeeJug
-  name: coffee jug
-  description: Wake up juice, of the heated kind.
+  name: 咖啡壶 丨 coffee jug
+  description: 加热型唤醒果汁。 丨 Wake up juice, of the heated kind.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -942,8 +942,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkTeaJug
-  name: tea jug
-  description: The drink of choice for the Bri'ish and hipsters.
+  name: 茶壶 丨 tea jug
+  description: 布里多什和潮人们的最爱饮品。 丨 The drink of choice for the Bri'ish and hipsters.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -959,8 +959,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkGreenTeaJug
-  name: green tea jug
-  description: It's like tea... but green! great for settling the stomach.
+  name: 绿茶壶 丨 green tea jug
+  description: 这就像茶……不过是绿色的！对舒缓胃部很有效。 丨 It's like tea... but green! great for settling the stomach.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -976,8 +976,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkIcedTeaJug
-  name: iced tea jug
-  description: For when the regular tea is too hot for you. Boohoo.
+  name: 冰茶壶 丨 iced tea jug
+  description: 当普通茶水对你来说太烫时。呜呜。 丨 For when the regular tea is too hot for you. Boohoo.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -993,8 +993,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkDrGibbJug
-  name: Dr. Gibb jug
-  description: 42 different flavours... in a jug!
+  name: 吉布博士的大罐 丨 Dr. Gibb jug
+  description: 42种不同风味……尽在这一壶中！ 丨 42 different flavours... in a jug!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1010,8 +1010,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkRootBeerJug
-  name: root beer jug
-  description: This drink makes Australians giggle.
+  name: 根汁啤酒壶 丨 root beer jug
+  description: 这款饮料让澳大利亚人忍俊不禁。 丨 This drink makes Australians giggle.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1027,8 +1027,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkWaterMelonJuiceJug
-  name: watermelon juice jug
-  description: May include leftover seeds.
+  name: 西瓜汁罐 丨 watermelon juice jug
+  description: 可能含有残留的籽。 丨 May include leftover seeds.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1044,8 +1044,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkEnergyDrinkJug
-  name: Red Bool jug
-  description: A jug of Red Bool, with enough caffeine to kill a whole station.
+  name: 红布尔壶 丨 Red Bool jug
+  description: 一壶红色布尔酒，所含咖啡因足以放倒整座空间站的人。 丨 A jug of Red Bool, with enough caffeine to kill a whole station.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1061,8 +1061,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: CustomDrinkJug
-  name: beverage jug
-  description: A jug for storing custom made drinks.
+  name: 饮料壶 丨 beverage jug
+  description: 一个用于存放定制饮品的壶。 丨 A jug for storing custom made drinks.
   components:
   - type: SolutionContainerManager
     solutions:

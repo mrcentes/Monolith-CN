@@ -35,8 +35,8 @@
 - type: entity
   id: MobGoliath
   parent: BaseMobAsteroid
-  name: goliath
-  description: A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
+  name: 歌利亚 丨 goliath
+  description: 一头利用长触须诱捕猎物的庞然巨兽，在任何情况下都不建议去威胁它。 丨 A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
   components:
   - type: Body # Shitmed Change
     prototype: Goliath
@@ -97,8 +97,8 @@
 
 - type: entity
   id: ActionGoliathTentacle
-  name: "[color=red]Tentacle Slam[/color]"
-  description: Use your tentacles to grab and stun a target player!
+  name: "[color=red]触须猛击[/color] [color=red]Tentacle Slam[/color]"
+  description: 用你的触手抓住并击晕目标玩家！ 丨 Use your tentacles to grab and stun a target player!
   components:
   - type: EntityWorldTargetAction
     raiseOnUser: true
@@ -116,7 +116,7 @@
 
 - type: entity
   id: GoliathTentacle
-  name: tentacle
+  name: 触手 丨 tentacle
   components:
   - type: Transform
     anchored: True
@@ -151,7 +151,7 @@
 - type: entity
   id: BaseEffectGoliathTentacleSpawn
   categories: [ HideSpawnMenu ]
-  name: tentacle
+  name: 触手 丨 tentacle
   abstract: true
   components:
   - type: Transform
@@ -169,7 +169,7 @@
   id: EffectGoliathTentacleSpawn
   parent: BaseEffectGoliathTentacleSpawn
   categories: [ HideSpawnMenu ]
-  name: tentacle
+  name: 触手 丨 tentacle
   components:
     - type: Sprite
       state: goliath_tentacle_spawn
@@ -189,8 +189,8 @@
 - type: entity
   id: MobHivelord
   parent: [ BaseMobAsteroid, FlyingMobBase ]
-  name: hivelord
-  description: A truly alien creature, it is a mass of unknown organic material, constantly fluctuating. When attacking, pieces of it split off and attack in tandem with the original.
+  name: 蜂巢领主 丨 hivelord
+  description: 一个真正的外星生物，它是一团不断波动的未知有机物质。在发动攻击时，其躯体会分裂出碎片，与本体协同作战。 丨 A truly alien creature, it is a mass of unknown organic material, constantly fluctuating. When attacking, pieces of it split off and attack in tandem with the original.
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/hivelord.rsi
@@ -247,8 +247,8 @@
 - type: entity
   id: MobHivelordBrood
   parent: [ BaseMobAsteroid, FlyingMobBase ]
-  name: hivelord brood
-  description: A fragment of the original hivelord, rallying behind its original. One isn't much of a threat, but...
+  name: 巢主育群 丨 hivelord brood
+  description: 原初巢主的一块碎片，追随其本体行动。单个碎片不足为惧，但…… 丨 A fragment of the original hivelord, rallying behind its original. One isn't much of a threat, but...
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/hivelord.rsi
@@ -298,8 +298,8 @@
 - type: entity
   id: FoodHivelordRemains
   parent: FoodBase
-  name: hivelord remains
-  description: All that remains of a hivelord, it seems to be what allows it to break pieces of itself off without being hurt... its healing properties will soon become inert if not used quickly. Try not to think about what you're eating.
+  name: 巢主残骸 丨 hivelord remains
+  description: 蜂主残骸，这似乎是它能分裂自身碎片而不受伤的原因……其愈合特性若不尽快使用便会迅速失效。别去想自己吃的是什么。 丨 All that remains of a hivelord, it seems to be what allows it to break pieces of itself off without being hurt... its healing properties will soon become inert if not used quickly. Try not to think about what you're eating.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -326,8 +326,8 @@
 - type: entity
   id: FoodHivelordRemainsInert
   parent: BaseItem
-  name: inert hivelord remains
-  description: All that remains of a hivelord... Now all is truly lost.
+  name: 惰性的蜂巢主宰残骸 丨 inert hivelord remains
+  description: 蜂巢领主的残骸……如今一切皆已逝去。 丨 All that remains of a hivelord... Now all is truly lost.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/rorocore.rsi

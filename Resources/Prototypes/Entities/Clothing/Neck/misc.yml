@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckHeadphones
-  name: headphones
-  description: Quality headphones from Drunk Masters, with good sound insulation.
+  name: 耳机 丨 headphones
+  description: 醉大师的优质耳机，隔音效果出色。 丨 Quality headphones from Drunk Masters, with good sound insulation.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/headphones.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckStethoscope
-  name: stethoscope
-  description: An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
+  name: 听诊器 丨 stethoscope
+  description: 一种过时的用于听诊人体声音的医疗器具。它还能让你看起来像模像样。 丨 An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/stethoscope.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBling
-  name: bling
-  description: Damn, it feels good to be a gangster.
+  name: 亮闪闪 丨 bling
+  description: 妈的，当个黑帮感觉真爽。 丨 Damn, it feels good to be a gangster.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/bling.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckLawyerbadge
-  name: lawyer badge
-  description: A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
+  name: 律师徽章 丨 lawyer badge
+  description: 一枚用于表明持有者是通过了执业所需的台湾律师考试的“正规”律师徽章。 丨 A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/lawyerbadge.rsi
@@ -69,7 +69,7 @@
 
 - type: entity
   id: ActionStethoscope
-  name: Listen with stethoscope
+  name: 听诊器听诊 丨 Listen with stethoscope
   components:
   - type: EntityTargetAction
     icon:
@@ -82,8 +82,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: Dinkystar
-  name: star sticker
-  description: A dinky lil star for only the hardest working security officers! It's not even sticky anymore.
+  name: 星星贴纸 丨 star sticker
+  description: 一颗小小的星星贴纸，只送给最辛勤工作的安保人员！它现在甚至都不粘了。 丨 A dinky lil star for only the hardest working security officers! It's not even sticky anymore.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/dinkystar.rsi

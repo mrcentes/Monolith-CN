@@ -1,8 +1,8 @@
 - type: entity
-  name: mimic
+  name: 模仿者 丨 mimic
   id: MobMimic
   parent: [ SimpleMobBase, MobCombat ]
-  description: Surprise. # When this gets a proper write this should use the object's actual description >:)
+  description: 惊喜。# 等以后正式写的时候，这里应该用对象的实际描述 >:) 丨 Surprise. # When this gets a proper write this should use the object's actual description >:)
   components:
   - type: Tag
     tags:

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingOuterBase
   id: ClothingOuterChameleon
-  name: vest
-  description: A thick vest with a rubbery, water-resistant shell.
+  name: 背心 丨 vest
+  description: 一件带有橡胶质感防水外壳的厚背心。 丨 A thick vest with a rubbery, water-resistant shell.
   suffix: Chameleon
   components:
     - type: Tag

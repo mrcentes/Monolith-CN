@@ -1,8 +1,8 @@
 - type: entity
   id: ClosetBase
   parent: BaseStructureDynamic
-  name: closet
-  description: A standard-issue storage unit.
+  name: 壁橱 丨 closet
+  description: 一个标准配置的储物单元。 丨 A standard-issue storage unit.
   abstract: true
   components:
   - type: Animateable
@@ -131,8 +131,8 @@
   placement:
     mode: SnapgridCenter
   abstract: true
-  name: wall closet
-  description: A standard-issue storage unit, but on walls.
+  name: 壁柜 丨 wall closet
+  description: 标准配置的储物单元，不过是装在墙上的。 丨 A standard-issue storage unit, but on walls.
   components:
   - type: InteractionOutline
   - type: Clickable
@@ -229,8 +229,8 @@
 - type: entity
   id: SuitStorageBase
   parent: BaseStructure
-  name: suit storage unit
-  description: A fancy hi-tech storage unit made for storing space suits.
+  name: 宇航服存储单元 丨 suit storage unit
+  description: 一个用于存放宇航服的 fancy 高科技存储单元。 丨 A fancy hi-tech storage unit made for storing space suits.
   components:
   - type: AccessReader
   - type: Lock

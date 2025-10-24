@@ -1,5 +1,5 @@
 - type: entity
-  name: medibot spawner
+  name: 医疗机器人生成器 丨 medibot spawner
   id: SpawnMobMedibot
   parent: MarkerBase
   components:
@@ -13,7 +13,7 @@
       - MobMedibot
 
 - type: entity
-  name: cleanbot spawner
+  name: 清洁机器人生成器 丨 cleanbot spawner
   id: SpawnMobCleanBot
   parent: MarkerBase
   components:

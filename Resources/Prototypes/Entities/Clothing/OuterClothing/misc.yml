@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterApron
-  name: apron
-  description: A fancy apron for a stylish person.
+  name: 围裙 丨 apron
+  description: 一条适合时尚人士的别致围裙。 丨 A fancy apron for a stylish person.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apron.rsi
@@ -13,8 +13,8 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterApronBar
   suffix: Bartender
-  name: apron
-  description: A darker apron designed for bartenders.
+  name: 围裙 丨 apron
+  description: 专为调酒师设计的深色围裙。 丨 A darker apron designed for bartenders.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronbar.rsi
@@ -24,9 +24,9 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterApronBotanist
-  name: apron
+  name: 围裙 丨 apron
   suffix: Botanical
-  description: A thick blue-apron, perfect for insulating your soft flesh from spills, soil and thorns.
+  description: 一条厚实的蓝色围裙，非常适合保护您柔嫩的肌肤免受泼洒、污渍和荆棘的伤害。 丨 A thick blue-apron, perfect for insulating your soft flesh from spills, soil and thorns.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronbotanist.rsi
@@ -36,9 +36,9 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterApronChef
-  name: apron
+  name: 围裙 丨 apron
   suffix: Chef
-  description: An apron-jacket used by a high class chef.
+  description: 一件高级厨师使用的围裙式夹克。 丨 An apron-jacket used by a high class chef.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronchef.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterJacketChef
-  name: chef jacket
-  description: An apron-jacket used by a high class chef.
+  name: 厨师夹克 丨 chef jacket
+  description: 高级厨师使用的围裙式夹克。 丨 An apron-jacket used by a high class chef.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/chef.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterHoodieBlack
-  name: black hoodie
-  description: Oh my God, it's a black hoodie!
+  name: 黑色连帽衫 丨 black hoodie
+  description: 天哪，是件黑色连帽衫！ 丨 Oh my God, it's a black hoodie!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/black_hoodie.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterHoodieGrey
-  name: grey hoodie
-  description: A grey hoodie.
+  name: 灰色连帽衫 丨 grey hoodie
+  description: 一件灰色连帽衫。 丨 A grey hoodie.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/grey_hoodie.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterCardborg
-  name: cardborg costume
-  description: An ordinary cardboard box with holes cut in the sides.
+  name: 纸箱服装 丨 cardborg costume
+  description: 一个普通的纸箱，侧面挖了几个洞。 丨 An ordinary cardboard box with holes cut in the sides.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/cardborg.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterHoodieChaplain
-  name: chaplain's hoodie
-  description: Black and strict chaplain hoodie.
+  name: 随军牧师的连帽衫 丨 chaplain's hoodie
+  description: 黑色且设计严谨的牧师连帽衫。 丨 Black and strict chaplain hoodie.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/chaplain_hoodie.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: ClothingNeckBase # Frontier - Change to neck
   id: ClothingOuterPonchoClassic
-  name: classic poncho
-  description: A warm and comfy classic poncho.
+  name: 经典斗篷 丨 classic poncho
+  description: 一件温暖舒适的传统斗篷。 丨 A warm and comfy classic poncho.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/classicponcho.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: [ClothingOuterBase, ContrabandClothing] # Frontier: added ContrabandClothing as parent
   id: ClothingOuterRobesCult
-  name: cult robes
-  description: There's no cult without classic red/crimson cult robes.
+  name: 邪教 robes 丨 cult robes
+  description: 没有经典的红色/深红色邪教袍，哪来的邪教。 丨 There's no cult without classic red/crimson cult robes.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/cultrobes.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobesJudge
-  name: judge robes
-  description: This robe commands authority.
+  name: 法官袍 丨 judge robes
+  description: 这件法袍彰显权威。 丨 This robe commands authority.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/judge.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: ClothingNeckBase # Frontier - Change to neck
   id: ClothingOuterPoncho
-  name: poncho
-  description: A warm and comfy poncho.
+  name: 斗篷 丨 poncho
+  description: 一件温暖舒适的斗篷。 丨 A warm and comfy poncho.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/poncho.rsi
@@ -159,8 +159,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSanta
-  name: santa suit
-  description: Ho ho ho!
+  name: 圣诞老人服装 丨 santa suit
+  description: 呵呵呵！ 丨 Ho ho ho!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/santa.rsi
@@ -178,8 +178,8 @@
 - type: entity
   parent: [ClothingOuterWizardBase, ContrabandClothing] # Frontier: added ContrabandClothing as parent
   id: ClothingOuterWizardViolet
-  name: violet wizard robes
-  description: A bizarre gem-encrusted violet robe that radiates magical energies.
+  name: 紫色巫师袍 丨 violet wizard robes
+  description: 一件镶嵌着奇异宝石的紫色长袍，散发着魔法能量。 丨 A bizarre gem-encrusted violet robe that radiates magical energies.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/violetwizard.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: [ClothingOuterWizardBase, ContrabandClothing] # Frontier: added ContrabandClothing as parent
   id: ClothingOuterWizard
-  name: wizard robes
-  description: A bizarre gem-encrusted blue robe that radiates magical energies.
+  name: 巫师袍 丨 wizard robes
+  description: 一件镶嵌着奇异宝石的蓝色长袍，散发着魔法能量。 丨 A bizarre gem-encrusted blue robe that radiates magical energies.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/wizard.rsi
@@ -200,8 +200,8 @@
 - type: entity
   parent: [ClothingOuterWizardBase, ContrabandClothing] # Frontier: added ContrabandClothing as parent
   id: ClothingOuterWizardRed
-  name: red wizard robes
-  description: Strange-looking, red, hat-wear that most certainly belongs to a real magic user.
+  name: 红色巫师袍 丨 red wizard robes
+  description: 样子奇特的红色帽饰，必定属于一位真正的魔法师。 丨 Strange-looking, red, hat-wear that most certainly belongs to a real magic user.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/redwizard.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSkub
-  name: skub suit
-  description: 'Skub is crudely written on the outside of this cylindrical suit.'
+  name: 斯库布防护服 丨 skub suit
+  description: Skub被潦草地写在这件圆柱形防护服的外侧。 丨 'Skub is crudely written on the outside of this cylindrical suit.'
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/skubbody.rsi
@@ -222,8 +222,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterPlagueSuit
-  name: plague doctor suit
-  description: A bad omen.
+  name: 瘟疫医生装束 丨 plague doctor suit
+  description: 一个不祥之兆。 丨 A bad omen.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/plaguedoctorsuit.rsi
@@ -233,8 +233,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterNunRobe
-  name: nun robe
-  description: Maximum piety in this star system.
+  name: 修女袍 丨 nun robe
+  description: 本星系中的最大虔诚度。 丨 Maximum piety in this star system.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/nunrobe.rsi
@@ -244,8 +244,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterGhostSheet
-  name: ghost sheet
-  description: Spooky!!!
+  name: 幽灵床单 丨 ghost sheet
+  description: 阴森恐怖！！！ 丨 Spooky!!!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/ghostsheet.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterHospitalGown
-  name: hospital gown
-  description: Made from the wool of slaughtered baby lambs.  The cruelty makes it softer.
+  name: 病号服 丨 hospital gown
+  description: 采用被宰杀羔羊的羊毛制成。残忍使其更加柔软。 丨 Made from the wool of slaughtered baby lambs.  The cruelty makes it softer.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/hospitalgown.rsi
@@ -270,8 +270,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterFlannelRed
-  name: red flannel jacket
-  description: An old fashioned red flannel jacket for space autumn.
+  name: 红色法兰绒夹克 丨 red flannel jacket
+  description: 一件老式红色法兰绒夹克，专为太空秋季而设计。 丨 An old fashioned red flannel jacket for space autumn.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/flannel_jacket.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterFlannelBlue
-  name: blue flannel jacket
-  description: An old fashioned blue flannel jacket for space autumn.
+  name: 蓝色法兰绒夹克 丨 blue flannel jacket
+  description: 一件老式蓝色法兰绒夹克，专为太空之秋而备。 丨 An old fashioned blue flannel jacket for space autumn.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/flannel_jacket.rsi
@@ -342,8 +342,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterFlannelGreen
-  name: green flannel jacket
-  description: An old fashioned green flannel jacket for space autumn.
+  name: 绿色法兰绒夹克 丨 green flannel jacket
+  description: 一件老式绿色法兰绒夹克，专为太空之秋打造。 丨 An old fashioned green flannel jacket for space autumn.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/flannel_jacket.rsi
@@ -378,8 +378,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRedRacoon
-  name: red racoon suit
-  description: Fluffy suit of red racoon!
+  name: 红色浣熊套装 丨 red racoon suit
+  description: 红色浣熊毛绒套装！ 丨 Fluffy suit of red racoon!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi

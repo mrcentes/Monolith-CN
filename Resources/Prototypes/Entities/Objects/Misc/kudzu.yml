@@ -18,9 +18,9 @@
 
 - type: entity
   id: Kudzu
-  name: kudzu
+  name: 葛藤 丨 kudzu
   parent: BaseKudzu
-  description: A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  description: 一种生长迅速、危险的植物。你为什么要停下来看它？！ 丨 A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
   components:
     - type: MeleeSound
       soundGroups:
@@ -110,9 +110,9 @@
 
 - type: entity
   id: KudzuFlowerFriendly
-  name: floral carpet
+  name: 花毯 丨 floral carpet
   suffix: Friendly, Floral Anomaly
-  description: A colorful carpet of flowers sprawling in every direction. You're not sure whether to take it down or leave it up.
+  description: 一片五彩缤纷的花毯向四面八方蔓延。你不确定是该把它取下还是留着。 丨 A colorful carpet of flowers sprawling in every direction. You're not sure whether to take it down or leave it up.
   parent: Kudzu
   components:
     - type: Sprite
@@ -162,9 +162,9 @@
 
 - type: entity
   id: FleshKudzu
-  name: tendons
+  name: 肌腱 丨 tendons
   parent: BaseKudzu
-  description: A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  description: 一团迅速增生的肉质肌腱。你为什么要停下来看它？！ 丨 A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
   placement:
     mode: SnapgridCenter
     snap:
@@ -263,7 +263,7 @@
       - Meat
 
 - type: entity
-  name: dark haze
+  name: 黑色阴霾 丨 dark haze
   id: ShadowKudzu
   parent: [ BaseKudzu, BaseShadow ]
   components:
@@ -303,7 +303,7 @@
           data: { state: spookysmoke_static }
 
 - type: entity
-  name: haze
+  name: 雾霾 丨 haze
   id: ShadowKudzuWeak
   parent: ShadowKudzu
   components:

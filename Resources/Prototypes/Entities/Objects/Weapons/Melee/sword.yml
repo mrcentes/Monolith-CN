@@ -31,10 +31,7 @@
 # SPDX-FileCopyrightText: 2025 Ark
 # SPDX-FileCopyrightText: 2025 Eden077
 # SPDX-FileCopyrightText: 2025 Ghost581
-# SPDX-FileCopyrightText: 2025 LemonBlemon
 # SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 UltimateJester
-# SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -60,10 +57,10 @@
     - Slicing
 
 - type: entity
-  name: captain's sabre
+  name: 船长的军刀 丨 captain's sabre
   parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseCommandContraband<BaseC1Contraband
   id: CaptainSabre
-  description: A common sighting among ship captains. Once ceremonial, it now has common use for self-defense.
+  description: 船长们的常见佩刀。原为礼仪用途，现多用于自卫防身。 丨 A common sighting among ship captains. Once ceremonial, it now has common use for self-defense.
   components:
   # Goobstation edit start
   - type: EmitSoundOnLand
@@ -77,7 +74,7 @@
     attackRate: 1.5
     damage:
       types:
-        Slash: 32 #cmon, it has to be at least BETTER than the rest. # Mono increased damage again from 27 to 32 to be on-par with other large sized melee weapons
+        Slash: 27 #cmon, it has to be at least BETTER than the rest.
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Reflect
@@ -101,10 +98,10 @@
     - suitStorage
 
 - type: entity
-  name: katana
+  name: 武士刀 丨 katana
   parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
   id: Katana
-  description: Ancient craftwork made with not so ancient plasteel.
+  description: 由并非那么古老的可塑钢制成的古老工艺品。 丨 Ancient craftwork made with not so ancient plasteel.
   components:
   - type: Tag
     tags:
@@ -114,7 +111,7 @@
   - type: MeleeWeapon
     damage:
       types:
-        Slash: 32 # Mono increased from 22 to 32 to be on-par with other large sized melee weapons
+        Slash: 22
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
@@ -127,10 +124,10 @@
     - suitStorage
 
 - type: entity
-  name: energy katana
+  name: 能量武士刀 丨 energy katana
   parent: Katana
   id: EnergyKatana
-  description: A katana infused with strong energy.
+  description: 一把注入了强大能量的武士刀。 丨 A katana infused with strong energy.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/energykatana.rsi
@@ -156,10 +153,10 @@
   - type: Reflect
 
 - type: entity
-  name: machete
+  name: 大砍刀 丨 machete
   parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
   id: Machete
-  description: A large, vicious looking blade.
+  description: 一把外形凶悍的大刀。 丨 A large, vicious looking blade.
   components:
   - type: Tag
     tags:
@@ -169,7 +166,7 @@
   - type: MeleeWeapon
     damage:
       types:
-        Slash: 32 # Mono this amount of slash is now treated as the "base" for all large sized melee weapons
+        Slash: 32
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
@@ -182,10 +179,10 @@
     - suitStorage
 
 - type: entity
-  name: claymore # Mono TODO: make this a wieldable weapon
+  name: 阔剑 丨 claymore
   parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
   id: Claymore
-  description: An ancient war blade.
+  description: 一把古老的战刃。 丨 An ancient war blade.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/claymore.rsi
@@ -193,11 +190,10 @@
     attackRate: 0.75
     damage:
       types:
-        Slash: 40 # Mono increased from 38 to 40 to be moderately better for its awful attackrate
+        Slash: 38
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
-    size: Huge # Mono increased from large to huge to reflect its supreme bigness, hopefully this works
   - type: Clothing
     sprite: Objects/Weapons/Melee/claymore.rsi
     slots:
@@ -206,10 +202,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: cutlass
+  name: 弯刀 丨 cutlass
   parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
   id: Cutlass
-  description: A wickedly curved blade, often seen in the hands of space pirates.
+  description: 一把弧度邪恶的弯刀，常见于太空海盗手中。 丨 A wickedly curved blade, often seen in the hands of space pirates.
   components:
   - type: Tag
     tags:
@@ -219,7 +215,7 @@
   - type: MeleeWeapon
     damage:
       types:
-        Slash: 32 # Mono increased from 26 to 32 to be on-par with other large sized melee weapons
+        Slash: 26
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
@@ -232,10 +228,10 @@
     - suitStorage
 
 - type: entity
-  name: throngler
+  name: 群涌器 丨 throngler
   parent: [ BaseSword, BaseC3Contraband ] # Frontier: BaseMajorContraband<BaseC3Contraband
   id: Throngler
-  description: Why would you make this?
+  description: 你为什么要做这个？ 丨 Why would you make this?
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/Throngler2.rsi

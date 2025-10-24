@@ -62,8 +62,8 @@
 - type: entity
   parent: BaseRipleyPart
   id: RipleyHarness
-  name: ripley harness
-  description: The core of the Ripley APLU.
+  name: 里普利线束 丨 ripley harness
+  description: Ripley APLU的核心部分。 丨 The core of the Ripley APLU.
   components:
   - type: Appearance
   - type: ItemMapper
@@ -102,8 +102,8 @@
 - type: entity
   parent: BaseRipleyPartItem
   id: RipleyLArm
-  name: ripley left arm
-  description: The left arm of the Ripley APLU. It belongs on the chassis of the mech.
+  name: 雷普利左臂 丨 ripley left arm
+  description: 雷普利APLU的左臂。它属于机甲的底盘部分。 丨 The left arm of the Ripley APLU. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: ripley_l_arm
@@ -114,8 +114,8 @@
 - type: entity
   parent: BaseRipleyPartItem
   id: RipleyLLeg
-  name: ripley left leg
-  description: The left leg of the Ripley APLU. It belongs on the chassis of the mech.
+  name: 雷普利左腿 丨 ripley left leg
+  description: 雷普利APLU的左腿。它属于机甲的底盘部分。 丨 The left leg of the Ripley APLU. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: ripley_l_leg
@@ -126,8 +126,8 @@
 - type: entity
   parent: BaseRipleyPartItem
   id: RipleyRLeg
-  name: ripley right leg
-  description: The right leg of the Ripley APLU. It belongs on the chassis of the mech.
+  name: 雷普利右腿 丨 ripley right leg
+  description: 雷普利APLU的右腿。它属于机甲的底盘部分。 丨 The right leg of the Ripley APLU. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: ripley_r_leg
@@ -138,8 +138,8 @@
 - type: entity
   parent: BaseRipleyPartItem
   id: RipleyRArm
-  name: ripley right arm
-  description: The right arm of the Ripley APLU. It belongs on the chassis of the mech.
+  name: 里普利右臂 丨 ripley right arm
+  description: 里普利APLU的右臂。它属于机甲的底盘部分。 丨 The right arm of the Ripley APLU. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: ripley_r_arm
@@ -150,8 +150,8 @@
 - type: entity
   id: RipleyChassis
   parent: BaseRipleyPart
-  name: ripley chassis
-  description: An in-progress construction of the Ripley APLU mech.
+  name: 里普利底盘 丨 ripley chassis
+  description: 正在建造中的里普利APLU机甲。 丨 An in-progress construction of the Ripley APLU mech.
   components:
   - type: Appearance
   - type: ContainerContainer
@@ -190,8 +190,8 @@
 - type: entity
   parent: BaseHonkerPart
   id: HonkerHarness
-  name: H.O.N.K. harness
-  description: The core of the H.O.N.K. mech
+  name: H.O.N.K. 核心能源装置 丨 H.O.N.K. harness
+  description: H.O.N.K.机甲的核心 丨 The core of the H.O.N.K. mech
   components:
   - type: Appearance
   - type: ItemMapper
@@ -230,8 +230,8 @@
 - type: entity
   parent: BaseHonkerPartItem
   id: HonkerLArm
-  name: H.O.N.K. left arm
-  description: A H.O.N.K. left arm, with unique sockets that accept odd weaponry designed by clown scientists.
+  name: H.O.N.K.左臂 丨 H.O.N.K. left arm
+  description: 一个H.O.N.K.左臂，带有独特的插槽，可容纳由小丑科学家设计的奇特武器。 丨 A H.O.N.K. left arm, with unique sockets that accept odd weaponry designed by clown scientists.
   components:
   - type: Sprite
     state: honker_l_arm
@@ -242,8 +242,8 @@
 - type: entity
   parent: BaseHonkerPartItem
   id: HonkerLLeg
-  name: H.O.N.K. left leg
-  description: A H.O.N.K. left leg. The foot appears just large enough to fully accommodate a clown shoe.
+  name: H.O.N.K. 左腿 丨 H.O.N.K. left leg
+  description: 一条H.O.N.K.左腿。这只脚看起来刚好能完全容纳下一只小丑鞋。 丨 A H.O.N.K. left leg. The foot appears just large enough to fully accommodate a clown shoe.
   components:
   - type: Sprite
     state: honker_l_leg
@@ -254,8 +254,8 @@
 - type: entity
   parent: BaseHonkerPartItem
   id: HonkerRLeg
-  name: H.O.N.K. right leg
-  description: A H.O.N.K. right leg. The foot appears just large enough to fully accommodate a clown shoe.
+  name: H.O.N.K.右腿 丨 H.O.N.K. right leg
+  description: 一条H.O.N.K.右腿。这只脚看起来刚好大到能完全容纳下一只小丑鞋。 丨 A H.O.N.K. right leg. The foot appears just large enough to fully accommodate a clown shoe.
   components:
   - type: Sprite
     state: honker_r_leg
@@ -266,8 +266,8 @@
 - type: entity
   parent: BaseHonkerPartItem
   id: HonkerRArm
-  name: H.O.N.K. right arm
-  description: A H.O.N.K. right arm, with unique sockets that accept odd weaponry designed by clown scientists.
+  name: H.O.N.K. 右臂 丨 H.O.N.K. right arm
+  description: 一只H.O.N.K.右臂，带有独特的插槽，可容纳小丑科学家设计的奇异武器。 丨 A H.O.N.K. right arm, with unique sockets that accept odd weaponry designed by clown scientists.
   components:
   - type: Sprite
     state: honker_r_arm
@@ -278,8 +278,8 @@
 - type: entity
   id: HonkerChassis
   parent: BaseHonkerPart
-  name: H.O.N.K. chassis
-  description: An in-progress construction of a H.O.N.K. mech. Contains chuckle unit, bananium core and honk support systems.
+  name: H.O.N.K.底盘 丨 H.O.N.K. chassis
+  description: 一台正在建造中的H.O.N.K.机甲。内含窃笑单元、香蕉矿核心以及鸣叫支持系统。 丨 An in-progress construction of a H.O.N.K. mech. Contains chuckle unit, bananium core and honk support systems.
   components:
   - type: Appearance
   - type: ContainerContainer
@@ -318,8 +318,8 @@
 - type: entity
   parent: BaseHamtrPart
   id: HamtrHarness
-  name: HAMTR harness
-  description: The core of the HAMTR.
+  name: HAMTR核心架构 丨 HAMTR harness
+  description: HAMTR的核心。 丨 The core of the HAMTR.
   components:
   - type: Appearance
   - type: ItemMapper
@@ -358,8 +358,8 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrLArm
-  name: HAMTR left arm
-  description: The left arm of the HAMTR. It belongs on the chassis of the mech.
+  name: HAMTR左臂 丨 HAMTR left arm
+  description: HAMTR左臂。它属于机甲的底盘部分。 丨 The left arm of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: hamtr_l_arm
@@ -370,8 +370,8 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrLLeg
-  name: HAMTR left leg
-  description: The left leg of the HAMTR. It belongs on the chassis of the mech.
+  name: HAMTR左腿 丨 HAMTR left leg
+  description: HAMTR的左腿。它属于机甲的底盘部分。 丨 The left leg of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: hamtr_l_leg
@@ -382,8 +382,8 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrRLeg
-  name: HAMTR right leg
-  description: The right leg of the HAMTR. It belongs on the chassis of the mech.
+  name: HAMTR右腿 丨 HAMTR right leg
+  description: HAMTR的右腿。它属于机甲的底盘部分。 丨 The right leg of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: hamtr_r_leg
@@ -394,8 +394,8 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrRArm
-  name: HAMTR right arm
-  description: The right arm of the HAMTR. It belongs on the chassis of the mech.
+  name: HAMTR右臂 丨 HAMTR right arm
+  description: HAMTR的右臂。它属于机甲的底盘部分。 丨 The right arm of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
     state: hamtr_r_arm
@@ -406,8 +406,8 @@
 - type: entity
   id: HamtrChassis
   parent: BaseHamtrPart
-  name: HAMTR chassis
-  description: An in-progress construction of the HAMTR mech.
+  name: HAMTR底盘 丨 HAMTR chassis
+  description: 正在建造中的HAMTR机甲。 丨 An in-progress construction of the HAMTR mech.
   components:
   - type: Appearance
   - type: ContainerContainer
@@ -446,8 +446,8 @@
 - type: entity
   parent: BaseVimPartItem
   id: VimHarness
-  name: vim harness
-  description: A small mounting bracket for vim parts.
+  name: 维姆线束 丨 vim harness
+  description: 用于vim部件的小型安装支架。 丨 A small mounting bracket for vim parts.
   components:
   - type: Appearance
   - type: ItemMapper
@@ -480,8 +480,8 @@
 - type: entity
   id: VimChassis
   parent: BaseVimPart
-  name: vim chassis
-  description: An in-progress construction of the Vim exosuit.
+  name: Vim底盘 丨 vim chassis
+  description: 一件正在建造中的Vim外骨骼装备。 丨 An in-progress construction of the Vim exosuit.
   components:
   - type: Appearance
   - type: ContainerContainer

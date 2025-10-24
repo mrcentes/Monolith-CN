@@ -1,5 +1,5 @@
 - type: entity
-  name: Human Corpse Spawner
+  name: 人类尸体生成器 丨 Human Corpse Spawner
   id: SalvageHumanCorpseSpawner
   parent: MarkerBase
   categories: [ HideSpawnMenu ] # Frontier
@@ -13,7 +13,7 @@
       - SalvageHumanCorpse
 
 - type: entity
-  name: Random Service Corpse Spawner
+  name: 随机服务尸体生成器 丨 Random Service Corpse Spawner
   id: RandomServiceCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   categories: [ HideSpawnMenu ] # Frontier
@@ -27,7 +27,7 @@
       - MobRandomServiceCorpse
 
 - type: entity
-  name: Random Engineer Corpse Spawner
+  name: 随机工程师尸体生成器 丨 Random Engineer Corpse Spawner
   id: RandomEngineerCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   categories: [ HideSpawnMenu ] # Frontier
@@ -41,7 +41,7 @@
       - MobRandomEngineerCorpse
 
 - type: entity
-  name: Random Cargo Corpse Spawner
+  name: 随机货物尸体生成器 丨 Random Cargo Corpse Spawner
   id: RandomCargoCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   categories: [ HideSpawnMenu ] # Frontier
@@ -55,7 +55,7 @@
       - MobRandomCargoCorpse
 
 - type: entity
-  name: Random Medic Corpse Spawner
+  name: 随机医疗兵尸体生成器 丨 Random Medic Corpse Spawner
   id: RandomMedicCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   categories: [ HideSpawnMenu ] # Frontier
@@ -69,7 +69,7 @@
       - MobRandomMedicCorpse
 
 - type: entity
-  name: Random Science Corpse Spawner
+  name: 随机科学尸体生成器 丨 Random Science Corpse Spawner
   id: RandomScienceCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   categories: [ HideSpawnMenu ] # Frontier
@@ -83,7 +83,7 @@
       - MobRandomScienceCorpse
 
 - type: entity
-  name: Random Security Corpse Spawner
+  name: 随机安全尸体生成器 丨 Random Security Corpse Spawner
   id: RandomSecurityCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   categories: [ HideSpawnMenu ] # Frontier
@@ -97,7 +97,7 @@
       - MobRandomSecurityCorpse
 
 - type: entity
-  name: Random Command Corpse Spawner
+  name: 随机指令尸体生成器 丨 Random Command Corpse Spawner
   id: RandomCommandCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   categories: [ HideSpawnMenu ] # Frontier

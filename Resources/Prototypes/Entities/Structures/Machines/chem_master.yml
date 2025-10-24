@@ -1,8 +1,8 @@
 - type: entity
   id: ChemMaster
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: ChemMaster 4000
-  description: An industrial grade chemical manipulator with pill and bottle production included.
+  name: ChemMaster 4000 丨 ChemMaster 4000
+  description: 一款工业级化学品操作设备，兼具药片与瓶剂生产功能。 丨 An industrial grade chemical manipulator with pill and bottle production included.
   placement:
     mode: SnapgridCenter
   components:

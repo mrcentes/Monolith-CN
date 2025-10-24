@@ -7,8 +7,8 @@
 - type: entity
   id: AsteroidRock
   parent: BaseWall
-  name: asteroid rock
-  description: A rocky asteroid.
+  name: 小行星岩石 丨 asteroid rock
+  description: 一颗岩石小行星。 丨 A rocky asteroid.
   components:
   - type: Transform
     noRot: true
@@ -72,7 +72,7 @@
 - type: entity
   id: AsteroidRockCoal
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with coal.
+  description: 一条富含煤炭的矿脉。 丨 An ore vein rich with coal.
   suffix: Coal
   components:
   - type: OreVein
@@ -95,7 +95,7 @@
 - type: entity
   id: AsteroidRockGold
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with gold.
+  description: 一条富含黄金的矿脉。 丨 An ore vein rich with gold.
   suffix: Gold
   components:
   - type: OreVein
@@ -118,7 +118,7 @@
 - type: entity
   id: AsteroidRockDiamond
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with diamonds.
+  description: 一条富含钻石的矿脉。 丨 An ore vein rich with diamonds.
   suffix: Diamond
   components:
   - type: OreVein
@@ -141,7 +141,7 @@
 - type: entity
   id: AsteroidRockPlasma
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with plasma.
+  description: 富含等离子体的矿脉。 丨 An ore vein rich with plasma.
   suffix: Plasma
   components:
   - type: OreVein
@@ -164,7 +164,7 @@
 - type: entity
   id: AsteroidRockQuartz
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with quartz.
+  description: 一条富含石英的矿脉。 丨 An ore vein rich with quartz.
   suffix: Quartz
   components:
   - type: OreVein
@@ -187,7 +187,7 @@
 - type: entity
   id: AsteroidRockQuartzCrab
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with quartz.
+  description: 一条富含石英的矿脉。 丨 An ore vein rich with quartz.
   suffix: Quartz Crab
   components:
   - type: OreVein
@@ -210,7 +210,7 @@
 - type: entity
   id: AsteroidRockSilver
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with silver.
+  description: 一条富含白银的矿脉。 丨 An ore vein rich with silver.
   suffix: Silver
   components:
   - type: OreVein
@@ -243,7 +243,7 @@
 - type: entity
   id: AsteroidRockTin
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with iron.
+  description: 一条富含铁的矿脉。 丨 An ore vein rich with iron.
   suffix: Iron
   components:
   - type: OreVein
@@ -275,7 +275,7 @@
 - type: entity
   id: AsteroidRockUranium
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with uranium.
+  description: 一条富含铀的矿脉。 丨 An ore vein rich with uranium.
   suffix: Uranium
   components:
   - type: OreVein
@@ -307,7 +307,7 @@
 - type: entity
   id: AsteroidRockBananium
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with bananium.
+  description: 一条富含香蕉矿的矿脉。 丨 An ore vein rich with bananium.
   suffix: Bananium
   components:
   - type: OreVein
@@ -330,7 +330,7 @@
 - type: entity
   id: AsteroidRockSalt
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: An ore vein rich with salt.
+  description: 一条富含盐分的矿脉。 丨 An ore vein rich with salt.
   suffix: Salt
   components:
   - type: OreVein
@@ -353,7 +353,7 @@
 - type: entity
   id: AsteroidRockArtifactFragment
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  description: A rock wall. What's that sticking out of it?
+  description: 一堵石墙。那上面突出来的是什么？ 丨 A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
   - type: OreVein
@@ -376,9 +376,9 @@
 - type: entity
   id: AsteroidRockMining
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  name: asteroid rock
+  name: 小行星岩石 丨 asteroid rock
   suffix: higher ore yield .33
-  description: An asteroid.
+  description: 一颗小行星。 丨 An asteroid.
   components:
   - type: OreVein
     oreChance: 0.33
@@ -387,9 +387,9 @@
 - type: entity
   id: IronRock
   parent: NFAsteroidRockOre # Frontier: AsteroidRock<NFAsteroidRockOre
-  name: ironrock
+  name: 铁岩 丨 ironrock
   suffix: Low Ore Yield
-  description: A rocky asteroid.
+  description: 一颗岩石小行星。 丨 A rocky asteroid.
   components:
   - type: IconSmooth
     key: walls
@@ -414,9 +414,9 @@
 - type: entity
   id: IronRockMining
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  name: ironrock
+  name: 铁岩 丨 ironrock
   suffix: higher ore yield
-  description: An asteroid.
+  description: 一颗小行星。 丨 An asteroid.
   components:
   - type: OreVein
     oreChance: 0.33
@@ -426,7 +426,7 @@
 - type: entity
   id: IronRockCoal
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: An ore vein rich with coal.
+  description: 一条富含煤炭的矿脉。 丨 An ore vein rich with coal.
   suffix: Coal
   components:
   - type: OreVein
@@ -449,7 +449,7 @@
 - type: entity
   id: IronRockGold
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: An ore vein rich with gold.
+  description: 一条富含黄金的矿脉。 丨 An ore vein rich with gold.
   suffix: Gold
   components:
   - type: OreVein
@@ -472,7 +472,7 @@
 - type: entity
   id: IronRockPlasma
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: An ore vein rich with plasma.
+  description: 富含等离子体的矿脉。 丨 An ore vein rich with plasma.
   suffix: Plasma
   components:
   - type: OreVein
@@ -495,7 +495,7 @@
 - type: entity
   id: IronRockQuartz
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: An ore vein rich with quartz.
+  description: 一条富含石英的矿脉。 丨 An ore vein rich with quartz.
   suffix: Quartz
   components:
   - type: OreVein
@@ -518,7 +518,7 @@
 - type: entity
   id: IronRockSilver
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: An ore vein rich with silver.
+  description: 一条富含白银的矿脉。 丨 An ore vein rich with silver.
   suffix: Silver
   components:
   - type: OreVein
@@ -541,7 +541,7 @@
 - type: entity
   id: IronRockIron
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: An ore vein rich with iron.
+  description: 一条富含铁的矿脉。 丨 An ore vein rich with iron.
   suffix: Iron
   components:
   - type: OreVein
@@ -564,7 +564,7 @@
 - type: entity
   id: IronRockUranium
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: An ore vein rich with uranium.
+  description: 一条富含铀的矿脉。 丨 An ore vein rich with uranium.
   suffix: Uranium
   components:
   - type: OreVein
@@ -587,7 +587,7 @@
 - type: entity
   id: IronRockBananium
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: An ore vein rich with bananium.
+  description: 一条富含香蕉矿的矿脉。 丨 An ore vein rich with bananium.
   suffix: Bananium
   components:
   - type: OreVein
@@ -610,7 +610,7 @@
 - type: entity
   id: IronRockSalt
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: An ore vein rich with salt.
+  description: 一条富含盐分的矿脉。 丨 An ore vein rich with salt.
   suffix: Salt
   components:
   - type: OreVein
@@ -633,7 +633,7 @@
 - type: entity
   id: IronRockArtifactFragment
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: A rock wall. What's that sticking out of it?
+  description: 一堵石墙。那上面突出来的是什么？ 丨 A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
   - type: OreVein
@@ -656,7 +656,7 @@
 - type: entity
   id: IronRockDiamond
   parent: NFIronRockOre # Frontier: IronRock<NFIronRockOre
-  description: An ore vein rich with diamonds.
+  description: 一条富含钻石的矿脉。 丨 An ore vein rich with diamonds.
   suffix: Diamond
   components:
   - type: OreVein
@@ -680,7 +680,7 @@
 - type: entity
   id: WallRock
   parent: BaseWall
-  name: rock
+  name: 岩石 丨 rock
   suffix: planetmap
   components:
   - type: Transform
@@ -729,7 +729,7 @@
 - type: entity
   id: WallRockCoal
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: An ore vein rich with coal.
+  description: 一条富含煤炭的矿脉。 丨 An ore vein rich with coal.
   suffix: Coal
   components:
   - type: EntityRemap
@@ -759,7 +759,7 @@
 - type: entity
   id: WallRockGold
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: An ore vein rich with gold.
+  description: 一条富含黄金的矿脉。 丨 An ore vein rich with gold.
   suffix: Gold
   components:
   - type: EntityRemap
@@ -789,7 +789,7 @@
 - type: entity
   id: WallRockDiamond
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: An ore vein rich with diamonds.
+  description: 一条富含钻石的矿脉。 丨 An ore vein rich with diamonds.
   suffix: Diamond
   components:
   - type: OreVein
@@ -812,7 +812,7 @@
 - type: entity
   id: WallRockPlasma
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: An ore vein rich with plasma.
+  description: 富含等离子体的矿脉。 丨 An ore vein rich with plasma.
   suffix: Plasma
   components:
   - type: EntityRemap
@@ -842,7 +842,7 @@
 - type: entity
   id: WallRockQuartz
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: An ore vein rich with quartz.
+  description: 一条富含石英的矿脉。 丨 An ore vein rich with quartz.
   suffix: Quartz
   components:
   - type: EntityRemap
@@ -872,7 +872,7 @@
 - type: entity
   id: WallRockSilver
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: An ore vein rich with silver.
+  description: 一条富含白银的矿脉。 丨 An ore vein rich with silver.
   suffix: Silver
   components:
   - type: EntityRemap
@@ -903,7 +903,7 @@
 - type: entity
   id: WallRockTin
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: An ore vein rich with iron.
+  description: 一条富含铁的矿脉。 丨 An ore vein rich with iron.
   suffix: Iron
   components:
   - type: EntityRemap
@@ -933,7 +933,7 @@
 - type: entity
   id: WallRockUranium
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: An ore vein rich with uranium.
+  description: 一条富含铀的矿脉。 丨 An ore vein rich with uranium.
   suffix: Uranium
   components:
   - type: EntityRemap
@@ -964,7 +964,7 @@
 - type: entity
   id: WallRockBananium
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: An ore vein rich with bananium.
+  description: 一条富含香蕉矿的矿脉。 丨 An ore vein rich with bananium.
   suffix: Bananium
   components:
   - type: EntityRemap
@@ -994,7 +994,7 @@
 - type: entity
   id: WallRockArtifactFragment
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: A rock wall. What's that sticking out of it?
+  description: 一堵石墙。那上面突出来的是什么？ 丨 A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
   - type: EntityRemap
@@ -1024,7 +1024,7 @@
 - type: entity
   id: WallRockSalt
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
-  description: An ore vein rich with salt.
+  description: 富含盐分的矿脉。 丨 An ore vein rich with salt.
   suffix: Salt
   components:
   - type: EntityRemap
@@ -1054,7 +1054,7 @@
 # Basalt variants
 - type: entity
   id: WallRockBasalt
-  name: basalt
+  name: 玄武岩 丨 basalt
   parent: WallRock
   components:
   - type: Icon
@@ -1076,7 +1076,7 @@
 - type: entity
   id: WallRockBasaltCoal
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: An ore vein rich with coal.
+  description: 一条富含煤炭的矿脉。 丨 An ore vein rich with coal.
   suffix: Coal
   components:
   - type: OreVein
@@ -1099,7 +1099,7 @@
 - type: entity
   id: WallRockBasaltGold
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: An ore vein rich with gold.
+  description: 一条富含黄金的矿脉。 丨 An ore vein rich with gold.
   suffix: Gold
   components:
   - type: OreVein
@@ -1122,7 +1122,7 @@
 - type: entity
   id: WallRockBasaltDiamond
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: An ore vein rich with diamonds.
+  description: 一条富含钻石的矿脉。 丨 An ore vein rich with diamonds.
   suffix: Diamond
   components:
   - type: OreVein
@@ -1145,7 +1145,7 @@
 - type: entity
   id: WallRockBasaltPlasma
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: An ore vein rich with plasma.
+  description: 富含等离子体的矿脉。 丨 An ore vein rich with plasma.
   suffix: Plasma
   components:
   - type: OreVein
@@ -1168,7 +1168,7 @@
 - type: entity
   id: WallRockBasaltQuartz
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: An ore vein rich with quartz.
+  description: 一条富含石英的矿脉。 丨 An ore vein rich with quartz.
   suffix: Quartz
   components:
   - type: OreVein
@@ -1191,7 +1191,7 @@
 - type: entity
   id: WallRockBasaltSilver
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: An ore vein rich with silver.
+  description: 一条富含白银的矿脉。 丨 An ore vein rich with silver.
   suffix: Silver
   components:
   - type: OreVein
@@ -1214,7 +1214,7 @@
 - type: entity
   id: WallRockBasaltTin
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: An ore vein rich with iron.
+  description: 一条富含铁的矿脉。 丨 An ore vein rich with iron.
   suffix: Iron
   components:
   - type: OreVein
@@ -1237,7 +1237,7 @@
 - type: entity
   id: WallRockBasaltUranium
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: An ore vein rich with uranium.
+  description: 一条富含铀的矿脉。 丨 An ore vein rich with uranium.
   suffix: Uranium
   components:
   - type: OreVein
@@ -1261,7 +1261,7 @@
 - type: entity
   id: WallRockBasaltBananium
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: An ore vein rich with bananium.
+  description: 一条富含香蕉矿的矿脉。 丨 An ore vein rich with bananium.
   suffix: Bananium
   components:
   - type: OreVein
@@ -1284,7 +1284,7 @@
 - type: entity
   id: WallRockBasaltArtifactFragment
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: A rock wall. What's that sticking out of it?
+  description: 一堵石墙。那上面突出来的是什么？ 丨 A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
   - type: OreVein
@@ -1307,7 +1307,7 @@
 - type: entity
   id: WallRockBasaltSalt
   parent: NFWallRockBasaltOre # Frontier: WallRockBasalt<NFWallRockBasaltOre
-  description: An ore vein rich with salt.
+  description: 富含盐分的矿石脉。 丨 An ore vein rich with salt.
   suffix: Salt
   components:
   - type: OreVein
@@ -1330,7 +1330,7 @@
 # Snow variants
 - type: entity
   id: WallRockSnow
-  name: snowdrift
+  name: 雪堆 丨 snowdrift
   parent: WallRock
   components:
   - type: Icon
@@ -1352,7 +1352,7 @@
 - type: entity
   id: WallRockSnowCoal
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: An ore vein rich with coal.
+  description: 一条富含煤炭的矿脉。 丨 An ore vein rich with coal.
   suffix: Coal
   components:
   - type: OreVein
@@ -1375,7 +1375,7 @@
 - type: entity
   id: WallRockSnowGold
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: An ore vein rich with gold.
+  description: 一条富含黄金的矿脉。 丨 An ore vein rich with gold.
   suffix: Gold
   components:
   - type: OreVein
@@ -1398,7 +1398,7 @@
 - type: entity
   id: WallRockSnowDiamond
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: An ore vein rich with diamonds.
+  description: 一条富含钻石的矿脉。 丨 An ore vein rich with diamonds.
   suffix: Diamond
   components:
   - type: OreVein
@@ -1421,7 +1421,7 @@
 - type: entity
   id: WallRockSnowPlasma
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: An ore vein rich with plasma.
+  description: 富含等离子体的矿脉。 丨 An ore vein rich with plasma.
   suffix: Plasma
   components:
   - type: OreVein
@@ -1444,7 +1444,7 @@
 - type: entity
   id: WallRockSnowQuartz
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: An ore vein rich with quartz.
+  description: 一条富含石英的矿脉。 丨 An ore vein rich with quartz.
   suffix: Quartz
   components:
   - type: OreVein
@@ -1467,7 +1467,7 @@
 - type: entity
   id: WallRockSnowSilver
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: An ore vein rich with silver.
+  description: 一条富含白银的矿脉。 丨 An ore vein rich with silver.
   suffix: Silver
   components:
   - type: OreVein
@@ -1490,7 +1490,7 @@
 - type: entity
   id: WallRockSnowTin
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: An ore vein rich with iron.
+  description: 一条富含铁的矿脉。 丨 An ore vein rich with iron.
   suffix: Iron
   components:
   - type: OreVein
@@ -1513,7 +1513,7 @@
 - type: entity
   id: WallRockSnowUranium
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: An ore vein rich with uranium.
+  description: 一条富含铀的矿脉。 丨 An ore vein rich with uranium.
   suffix: Uranium
   components:
   - type: OreVein
@@ -1537,7 +1537,7 @@
 - type: entity
   id: WallRockSnowBananium
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: An ore vein rich with bananium.
+  description: 一条富含香蕉矿的矿脉。 丨 An ore vein rich with bananium.
   suffix: Bananium
   components:
   - type: OreVein
@@ -1560,7 +1560,7 @@
 - type: entity
   id: WallRockSnowArtifactFragment
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: A rock wall. What's that sticking out of it?
+  description: 一堵石墙。那上面突出来的是什么？ 丨 A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
   - type: OreVein
@@ -1583,7 +1583,7 @@
 - type: entity
   id: WallRockSnowSalt
   parent: NFWallRockSnowOre # Frontier: WallRockSnow<NFWallRockSnowOre
-  description: An ore vein rich with salt.
+  description: 富含盐分的矿脉。 丨 An ore vein rich with salt.
   suffix: Salt
   components:
   - type: OreVein
@@ -1606,7 +1606,7 @@
 # Sand variants
 - type: entity
   id: WallRockSand
-  name: sandstone
+  name: 砂岩 丨 sandstone
   parent: WallRock
   components:
   - type: Icon
@@ -1628,7 +1628,7 @@
 - type: entity
   id: WallRockSandCoal
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: An ore vein rich with coal.
+  description: 一条富含煤炭的矿脉。 丨 An ore vein rich with coal.
   suffix: Coal
   components:
   - type: OreVein
@@ -1651,7 +1651,7 @@
 - type: entity
   id: WallRockSandGold
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: An ore vein rich with gold.
+  description: 一条富含黄金的矿脉。 丨 An ore vein rich with gold.
   suffix: Gold
   components:
   - type: OreVein
@@ -1674,7 +1674,7 @@
 - type: entity
   id: WallRockSandDiamond
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: An ore vein rich with diamonds.
+  description: 一条富含钻石的矿脉。 丨 An ore vein rich with diamonds.
   suffix: Diamond
   components:
   - type: OreVein
@@ -1697,7 +1697,7 @@
 - type: entity
   id: WallRockSandPlasma
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: An ore vein rich with plasma.
+  description: 富含等离子体的矿脉。 丨 An ore vein rich with plasma.
   suffix: Plasma
   components:
   - type: OreVein
@@ -1720,7 +1720,7 @@
 - type: entity
   id: WallRockSandQuartz
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: An ore vein rich with quartz.
+  description: 一条富含石英的矿脉。 丨 An ore vein rich with quartz.
   suffix: Quartz
   components:
   - type: OreVein
@@ -1743,7 +1743,7 @@
 - type: entity
   id: WallRockSandSilver
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: An ore vein rich with silver.
+  description: 一条富含白银的矿脉。 丨 An ore vein rich with silver.
   suffix: Silver
   components:
   - type: OreVein
@@ -1766,7 +1766,7 @@
 - type: entity
   id: WallRockSandTin
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: An ore vein rich with iron.
+  description: 一条富含铁的矿脉。 丨 An ore vein rich with iron.
   suffix: Iron
   components:
   - type: OreVein
@@ -1789,7 +1789,7 @@
 - type: entity
   id: WallRockSandUranium
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: An ore vein rich with uranium.
+  description: 一条富含铀的矿脉。 丨 An ore vein rich with uranium.
   suffix: Uranium
   components:
   - type: OreVein
@@ -1812,7 +1812,7 @@
 - type: entity
   id: WallRockSandBananium
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: An ore vein rich with bananium.
+  description: 一条富含香蕉矿的矿脉。 丨 An ore vein rich with bananium.
   suffix: Bananium
   components:
   - type: OreVein
@@ -1835,7 +1835,7 @@
 - type: entity
   id: WallRockSandArtifactFragment
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: A rock wall. What's that sticking out of it?
+  description: 一堵石墙。那上面突出来的是什么？ 丨 A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
   - type: OreVein
@@ -1858,7 +1858,7 @@
 - type: entity
   id: WallRockSandSalt
   parent: NFWallRockSandOre # Frontier: WallRockSand<NFWallRockSandOre
-  description: An ore vein rich with salt.
+  description: 一条富含盐分的矿脉。 丨 An ore vein rich with salt.
   suffix: Salt
   components:
   - type: OreVein
@@ -1881,7 +1881,7 @@
 # Chromite variants
 - type: entity
   id: WallRockChromite
-  name: chromite
+  name: 铬铁矿 丨 chromite
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
   components:
   - type: Icon
@@ -1903,7 +1903,7 @@
 - type: entity
   id: WallRockChromiteCoal
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: An ore vein rich with coal.
+  description: 一条富含煤炭的矿脉。 丨 An ore vein rich with coal.
   suffix: Coal
   components:
   - type: OreVein
@@ -1926,7 +1926,7 @@
 - type: entity
   id: WallRockChromiteGold
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: An ore vein rich with gold.
+  description: 一条富含黄金的矿脉。 丨 An ore vein rich with gold.
   suffix: Gold
   components:
   - type: OreVein
@@ -1949,7 +1949,7 @@
 - type: entity
   id: WallRockChromiteDiamond
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: An ore vein rich with diamonds.
+  description: 一条富含钻石的矿脉。 丨 An ore vein rich with diamonds.
   suffix: Diamond
   components:
   - type: OreVein
@@ -1972,7 +1972,7 @@
 - type: entity
   id: WallRockChromitePlasma
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: An ore vein rich with plasma.
+  description: 富含等离子体的矿脉。 丨 An ore vein rich with plasma.
   suffix: Plasma
   components:
   - type: OreVein
@@ -1995,7 +1995,7 @@
 - type: entity
   id: WallRockChromiteQuartz
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: An ore vein rich with quartz.
+  description: 一条富含石英的矿脉。 丨 An ore vein rich with quartz.
   suffix: Quartz
   components:
   - type: OreVein
@@ -2018,7 +2018,7 @@
 - type: entity
   id: WallRockChromiteSilver
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: An ore vein rich with silver.
+  description: 一条富含白银的矿脉。 丨 An ore vein rich with silver.
   suffix: Silver
   components:
   - type: OreVein
@@ -2041,7 +2041,7 @@
 - type: entity
   id: WallRockChromiteTin
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: An ore vein rich with iron.
+  description: 一条富含铁的矿脉。 丨 An ore vein rich with iron.
   suffix: Iron
   components:
   - type: OreVein
@@ -2064,7 +2064,7 @@
 - type: entity
   id: WallRockChromiteUranium
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: An ore vein rich with uranium.
+  description: 一条富含铀的矿脉。 丨 An ore vein rich with uranium.
   suffix: Uranium
   components:
   - type: OreVein
@@ -2088,7 +2088,7 @@
 - type: entity
   id: WallRockChromiteBananium
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: An ore vein rich with bananium.
+  description: 一条富含香蕉矿的矿脉。 丨 An ore vein rich with bananium.
   suffix: Bananium
   components:
   - type: OreVein
@@ -2111,7 +2111,7 @@
 - type: entity
   id: WallRockChromiteArtifactFragment
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: A rock wall. What's that sticking out of it?
+  description: 一堵石墙。那上面突出来的是什么？ 丨 A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
   - type: OreVein
@@ -2134,7 +2134,7 @@
 - type: entity
   id: WallRockChromiteSalt
   parent: NFWallRockChromiteOre # Frontier: WallRockChromite<NFWallRockChromiteOre
-  description: An ore vein rich with salt.
+  description: 富含盐分的矿石脉。 丨 An ore vein rich with salt.
   suffix: Salt
   components:
   - type: OreVein
@@ -2157,7 +2157,7 @@
 # Andesite variants
 - type: entity
   id: WallRockAndesite
-  name: andesite
+  name: 安山岩 丨 andesite
   parent: NFWallRockOre # Frontier: WallRock<NFWallRockOre
   components:
   - type: Icon
@@ -2179,7 +2179,7 @@
 - type: entity
   id: WallRockAndesiteCoal
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: An ore vein rich with coal.
+  description: 一条富含煤炭的矿脉。 丨 An ore vein rich with coal.
   suffix: Coal
   components:
   - type: OreVein
@@ -2202,7 +2202,7 @@
 - type: entity
   id: WallRockAndesiteGold
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: An ore vein rich with gold.
+  description: 一条富含黄金的矿脉。 丨 An ore vein rich with gold.
   suffix: Gold
   components:
   - type: OreVein
@@ -2225,7 +2225,7 @@
 - type: entity
   id: WallRockAndesiteDiamond
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: An ore vein rich with diamonds.
+  description: 一条富含钻石的矿脉。 丨 An ore vein rich with diamonds.
   suffix: Diamond
   components:
   - type: OreVein
@@ -2248,7 +2248,7 @@
 - type: entity
   id: WallRockAndesitePlasma
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: An ore vein rich with plasma.
+  description: 富含等离子体的矿脉。 丨 An ore vein rich with plasma.
   suffix: Plasma
   components:
   - type: OreVein
@@ -2271,7 +2271,7 @@
 - type: entity
   id: WallRockAndesiteQuartz
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: An ore vein rich with quartz.
+  description: 一条富含石英的矿脉。 丨 An ore vein rich with quartz.
   suffix: Quartz
   components:
   - type: OreVein
@@ -2294,7 +2294,7 @@
 - type: entity
   id: WallRockAndesiteSilver
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: An ore vein rich with silver.
+  description: 一条富含白银的矿脉。 丨 An ore vein rich with silver.
   suffix: Silver
   components:
   - type: OreVein
@@ -2317,7 +2317,7 @@
 - type: entity
   id: WallRockAndesiteTin
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: An ore vein rich with iron.
+  description: 一条富含铁的矿脉。 丨 An ore vein rich with iron.
   suffix: Iron
   components:
   - type: OreVein
@@ -2340,7 +2340,7 @@
 - type: entity
   id: WallRockAndesiteUranium
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: An ore vein rich with uranium.
+  description: 一条富含铀的矿脉。 丨 An ore vein rich with uranium.
   suffix: Uranium
   components:
   - type: OreVein
@@ -2364,7 +2364,7 @@
 - type: entity
   id: WallRockAndesiteBananium
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: An ore vein rich with bananium.
+  description: 一条富含香蕉矿的矿脉。 丨 An ore vein rich with bananium.
   suffix: Bananium
   components:
   - type: OreVein
@@ -2387,7 +2387,7 @@
 - type: entity
   id: WallRockAndesiteArtifactFragment
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: A rock wall. What's that sticking out of it?
+  description: 一堵石墙。那上面突出来的是什么？ 丨 A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
   - type: OreVein
@@ -2410,7 +2410,7 @@
 - type: entity
   id: WallRockAndesiteSalt
   parent: NFWallRockAndesiteOre # Frontier: WallRockAndesite<NFWallRockAndesiteOre
-  description: An ore vein rich with salt.
+  description: 富含盐分的矿脉。 丨 An ore vein rich with salt.
   suffix: Salt
   components:
   - type: OreVein

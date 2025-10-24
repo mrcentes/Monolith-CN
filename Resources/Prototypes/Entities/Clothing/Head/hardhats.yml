@@ -55,7 +55,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池槽组件默认槽位名称 丨 power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: Item
     heldPrefix: off
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatBlue
-  name: blue hard hat
-  description: A hard hat, painted in blue, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  name: 蓝色安全帽 丨 blue hard hat
+  description: 一顶涂成蓝色的安全帽，在危险工作环境中用于保护头部。配有内置手电筒。 丨 A hard hat, painted in blue, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/blue.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatOrange
-  name: orange hard hat
-  description: A hard hat, painted in orange, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  name: 橙色安全帽 丨 orange hard hat
+  description: 一顶涂成橙色的安全帽，在危险工作环境中用于保护头部，并配有内置手电筒。 丨 A hard hat, painted in orange, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/orange.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatRed
-  name: red hard hat
-  description: A hard hat, painted in red, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  name: 红色安全帽 丨 red hard hat
+  description: 一顶涂成红色的安全帽，在危险工作环境中用于保护头部。配有内置手电筒。 丨 A hard hat, painted in red, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/red.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatWhite
-  name: white hard hat
-  description: A hard hat, painted in white, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  name: 白色安全帽 丨 white hard hat
+  description: 一顶涂成白色的安全帽，在危险工作环境下用于保护头部。配有内置手电筒。 丨 A hard hat, painted in white, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/white.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatYellow
-  name: yellow hard hat
-  description: A hard hat, painted in yellow, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  name: 黄色安全帽 丨 yellow hard hat
+  description: 一顶涂成黄色的安全帽，用于危险工作环境以保护头部。配有内置手电筒。 丨 A hard hat, painted in yellow, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/yellow.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatYellowDark
-  name: dark yellow hard hat
-  description: A hard hat, painted in dark yellow, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  name: 深黄色安全帽 丨 dark yellow hard hat
+  description: 一顶深黄色安全帽，用于危险工作环境中保护头部，配有内置手电筒。 丨 A hard hat, painted in dark yellow, used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/dark_yellow.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: ClothingHeadHatHardhatBase
   id: ClothingHeadHatHardhatArmored
-  name: armored hard hat
-  description: An armored hard hat. Provides the best of both worlds in both protection & utility - perfect for the engineer on the frontlines.
+  name: 装甲安全帽 丨 armored hard hat
+  description: 装甲安全帽。在防护性和实用性两方面都达到了最佳平衡——是前线工程师的完美装备。 丨 An armored hard hat. Provides the best of both worlds in both protection & utility - perfect for the engineer on the frontlines.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardhats/armored.rsi

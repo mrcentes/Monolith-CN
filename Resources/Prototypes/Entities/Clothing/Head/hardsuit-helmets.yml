@@ -39,7 +39,6 @@
 # SPDX-FileCopyrightText: 2024 Winkarst
 # SPDX-FileCopyrightText: 2024 buntobaggins
 # SPDX-FileCopyrightText: 2024 deltanedas
-# SPDX-FileCopyrightText: 2025 Arcticular
 # SPDX-FileCopyrightText: 2025 Arcticular1
 # SPDX-FileCopyrightText: 2025 Ark
 # SPDX-FileCopyrightText: 2025 August Sun
@@ -63,8 +62,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitBasic
-  name: basic hardsuit helmet
-  description: A basic-looking hardsuit helmet that provides minor protection against most sources of damage.
+  name: 基础硬质防护头盔 丨 basic hardsuit helmet
+  description: 基础款硬质防护头盔，外观朴实，能对多数伤害来源提供基础防护。 丨 A basic-looking hardsuit helmet that provides minor protection against most sources of damage.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/basic.rsi
@@ -81,8 +80,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitAtmos
-  name: atmos hardsuit helmet
-  description: A special hardsuit helmet designed for working in low-pressure, high thermal environments.
+  name: 大气防护头盔 丨 atmos hardsuit helmet
+  description: 专为低压、高热环境作业设计的特殊防护服头盔。 丨 A special hardsuit helmet designed for working in low-pressure, high thermal environments.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/atmospherics.rsi
@@ -130,8 +129,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitEngineering
-  name: engineering hardsuit helmet
-  description: An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
+  name: 工程硬质防护头盔 丨 engineering hardsuit helmet
+  description: 一款专为低压、高辐射环境作业设计的工程硬质防护头盔。 丨 An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/engineering.rsi
@@ -147,8 +146,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSpatio
-  name: spationaut hardsuit helmet
-  description: A sturdy helmet designed for complex industrial operations in space.
+  name: 宇航员硬质太空服头盔 丨 spationaut hardsuit helmet
+  description: 专为太空复杂工业操作设计的坚固头盔。 丨 A sturdy helmet designed for complex industrial operations in space.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/spatiohelm.rsi
@@ -190,8 +189,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSalvage
-  name: salvage hardsuit helmet
-  description: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
+  name: 打捞用硬质防护头盔 丨 salvage hardsuit helmet
+  description: 专为危险低压环境作业设计的特殊头盔。配备加固护板以应对野生动物，并带有双泛光灯。 丨 A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/salvage.rsi
@@ -207,8 +206,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitGoliath
-  name: goliath hardsuit helmet
-  description: A sturdy hardsuit helmet, infused with a goliath's hide and an eerie, unblinking eye cut from its mass.
+  name: 歌利亚硬质头盔 丨 goliath hardsuit helmet
+  description: 一顶坚固的硬质头盔，注入了歌利亚巨兽的皮革，并镶嵌着从它庞大身躯上切割下来的诡异不眨之眼。 丨 A sturdy hardsuit helmet, infused with a goliath's hide and an eerie, unblinking eye cut from its mass.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/goliathhelm.rsi
@@ -250,8 +249,8 @@
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitMaxim
   categories: [ HideSpawnMenu ]
-  name: salvager maxim helmet
-  description: A predication of decay washes over your mind.
+  name: 打捞者极限头盔 丨 salvager maxim helmet
+  description: 一段关于衰败的预言掠过你的脑海。 丨 A predication of decay washes over your mind.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/maxim.rsi
@@ -272,8 +271,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSecurity
-  name: security hardsuit helmet
-  description: Armored hardsuit helmet for security needs.
+  name: 安全硬质护甲头盔 丨 security hardsuit helmet
+  description: 专为安保需求设计的装甲硬质防护头盔。 丨 Armored hardsuit helmet for security needs.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security.rsi
@@ -296,8 +295,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitBrigmedic
-  name: brigmedic hardsuit helmet
-  description: The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
+  name: brigmedic防护服头盔 丨 brigmedic hardsuit helmet
+  description: brigmedic防护服轻量化头盔，可防护病毒与小丑。 丨 The lightweight helmet of the brigmedic hardsuit. Protects against viruses, and clowns.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/brigmedic.rsi
@@ -322,8 +321,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitWarden
-  name: warden's hardsuit helmet
-  description: A modified riot helmet. Oddly comfortable.
+  name: 典狱长的硬质护甲头盔 丨 warden's hardsuit helmet
+  description: 一顶改装过的防暴头盔。出乎意料地舒适。 丨 A modified riot helmet. Oddly comfortable.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security-warden.rsi
@@ -346,8 +345,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitCap
-  name: captain's hardsuit helmet
-  description: Special hardsuit helmet, made for the captain of the station.
+  name: 站长的强化防护头盔 丨 captain's hardsuit helmet
+  description: 特制硬质头盔，专为空间站指挥官打造。 丨 Special hardsuit helmet, made for the captain of the station.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/capspace.rsi
@@ -361,8 +360,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitEngineeringWhite
-  name: chief engineer's hardsuit helmet
-  description: Special hardsuit helmet, made for the chief engineer of the station.
+  name: 站长专用硬质防护头盔 丨 chief engineer's hardsuit helmet
+  description: 特制硬质头盔，专为空间站总工程师打造。 丨 Special hardsuit helmet, made for the chief engineer of the station.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/engineering-white.rsi
@@ -380,8 +379,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitMedical
-  name: chief medical officer's hardsuit helmet
-  description: Lightweight medical hardsuit helmet that doesn't restrict your head movements.
+  name: 首席医务官的硬质防护头盔 丨 chief medical officer's hardsuit helmet
+  description: 轻质医疗硬质头盔，不会限制您的头部活动。 丨 Lightweight medical hardsuit helmet that doesn't restrict your head movements.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/medical.rsi
@@ -399,8 +398,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase # Mono - remove light, replace with NVG
   id: ClothingHeadHelmetHardsuitRd
-  name: experimental research hardsuit helmet
-  description: Lightweight hardsuit helmet that doesn't restrict your head movements.
+  name: 实验研究用硬质防护头盔 丨 experimental research hardsuit helmet
+  description: 轻质硬质防护头盔，不会限制您的头部活动。 丨 Lightweight hardsuit helmet that doesn't restrict your head movements.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/rd.rsi
@@ -412,13 +411,14 @@
   - type: NightVision # Mono - remove light, replace with NVG
     flashDurationMultiplier: 2
     isEquipment: true
+    color: "#34AEEB"
 
 #Head of Security's hardsuit
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSecurityRed
-  name: head of security's hardsuit helmet
-  description: Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS.
+  name: 安保主管的硬质防护头盔 丨 head of security's hardsuit helmet
+  description: 安保强化防护头盔，搭载最新绝密NT-HUD系统，属于安保主管所有。 丨 Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security-red.rsi
@@ -441,8 +441,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
-  name: luxury mining hardsuit helmet
-  description: A refurbished mining hardsuit helmet, fitted with satin cushioning and an extra (non-functioning) antenna, because you're that extra.
+  name: 奢华采矿硬质头盔 丨 luxury mining hardsuit helmet
+  description: 一款翻新过的矿业硬质头盔，配有缎面衬垫和一根额外的（非功能性）天线，只因你如此不凡。 丨 A refurbished mining hardsuit helmet, fitted with satin cushioning and an extra (non-functioning) antenna, because you're that extra.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -461,8 +461,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSyndie
-  name: blood-red hardsuit helmet
-  description: A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
+  name: 血红色硬质作战头盔 丨 blood-red hardsuit helmet
+  description: 专为特种作战设计的重型装甲头盔。Gorlex掠夺者所属财产。 丨 A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndicate.rsi
@@ -486,8 +486,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase , ShowMedicalIcons]
   id: ClothingHeadHelmetHardsuitSyndieMedic
-  name: blood-red medic hardsuit helmet
-  description: An advanced red hardsuit helmet specifically designed for field medic operations. Comes with a built-in medical HUD.
+  name: 血红色医疗硬质防护头盔 丨 blood-red medic hardsuit helmet
+  description: 一款专为战地医疗行动设计的高级红色硬质头盔，内置医疗平视显示器。 丨 An advanced red hardsuit helmet specifically designed for field medic operations. Comes with a built-in medical HUD.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndiemedic.rsi
@@ -511,8 +511,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSyndieElite
-  name: syndicate elite helmet
-  description: An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders.
+  name: 辛迪加精英头盔 丨 syndicate elite helmet
+  description: 血红色硬质护甲头盔的精英版本，装甲防护与防火性能均得到强化。戈尔列克斯掠夺者部队专属装备。 丨 An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndieelite.rsi
@@ -541,8 +541,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowSecurityIcons]
   id: ClothingHeadHelmetHardsuitSyndieCommander
-  name: syndicate commander helmet
-  description: A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  name: 辛迪加指挥官头盔 丨 syndicate commander helmet
+  description: 一款为集团特工小队指挥官特制的头盔，基于血红色硬质护甲头盔进行强化升级，显著提升了装甲防护性能，专为应对致命前线交火而打造。 丨 A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
@@ -566,8 +566,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitCybersun
-  name: cybersun juggernaut helmet
-  description: Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
+  name: 电驭太阳重装头盔 丨 cybersun juggernaut helmet
+  description: 由压缩红物质制成，这款头盔在陶氏色球设施中设计完成。 丨 Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/cybersun.rsi
@@ -588,8 +588,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitWizard
-  name: wizard hardsuit helmet
-  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  name: 巫师硬质头盔 丨 wizard hardsuit helmet
+  description: 一顶镶嵌着奇异宝石、散发着魔法能量的头盔。 丨 A bizarre gem-encrusted helmet that radiates magical energies.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/wizard.rsi
@@ -613,8 +613,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitLing
-  name: organic space helmet
-  description: A spaceworthy biomass of pressure and temperature resistant tissue.
+  name: 有机太空头盔 丨 organic space helmet
+  description: 一个适用于太空的、能抵抗压力和温度的生物质组织。 丨 A spaceworthy biomass of pressure and temperature resistant tissue.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/lingspacehelmet.rsi
@@ -628,9 +628,9 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitPirateEVA
-  name: deep space EVA helmet
+  name: 深空舱外活动头盔 丨 deep space EVA helmet
   suffix: Rogue
-  description: A deep space EVA helmet, very heavy but provides good protection.
+  description: 一款深太空舱外活动头盔，非常沉重但能提供良好防护。 丨 A deep space EVA helmet, very heavy but provides good protection.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/pirateeva.rsi
@@ -644,9 +644,9 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitPirateCap
-  name: pirate captain's hardsuit helmet
+  name: 海盗船长的硬质防护头盔 丨 pirate captain's hardsuit helmet
   suffix: Rogue
-  description: A special hardsuit helmet, made for the captain of a pirate ship.
+  description: 一款特殊的硬质头盔，专为海盗船船长打造。 丨 A special hardsuit helmet, made for the captain of a pirate ship.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/piratecaptainhelm.rsi
@@ -661,8 +661,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndieCommander ]
   id: ClothingHeadHelmetHardsuitERTLeader
-  name: ERT leader hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: ERT队长防护头盔 丨 ERT leader hardsuit helmet
+  description: 应急响应小队成员佩戴的特殊防护头盔。 丨 A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertleader.rsi
@@ -682,8 +682,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTChaplain
-  name: ERT chaplain hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: ERT随军牧师硬质防护头盔 丨 ERT chaplain hardsuit helmet
+  description: 应急响应小队成员佩戴的特殊防护头盔。 丨 A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
@@ -696,8 +696,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTEngineer
-  name: ERT engineer hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: ERT工程师硬质防护头盔 丨 ERT engineer hardsuit helmet
+  description: 应急响应小队成员佩戴的特殊防护头盔。 丨 A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertengineer.rsi
@@ -717,8 +717,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndieElite, ShowMedicalIcons ] # Mono - Added ShowMedicalIcons
   id: ClothingHeadHelmetHardsuitERTMedical
-  name: ERT medic hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team. Comes with a built-in medical HUD. # Mono
+  name: ERT医疗人员硬质防护头盔 丨 ERT medic hardsuit helmet
+  description: 应急响应小队成员佩戴的特殊防护头盔。配备内置医疗平视显示器。# 单声道 丨 A special hardsuit helmet worn by members of an emergency response team. Comes with a built-in medical HUD. # Mono
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertmedical.rsi
@@ -731,8 +731,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTSecurity
-  name: ERT security hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: ERT安保强化防护头盔 丨 ERT security hardsuit helmet
+  description: 应急响应小队成员佩戴的特殊防护头盔。 丨 A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertsecurity.rsi
@@ -752,8 +752,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitERTJanitor
-  name: ERT janitor hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: ERT清洁工防护头盔 丨 ERT janitor hardsuit helmet
+  description: 应急响应小队成员佩戴的特殊防护头盔。 丨 A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertjanitor.rsi
@@ -766,8 +766,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetCBURN
-  name: CBURN exosuit helmet
-  description: A pressure resistant and fireproof hood worn by special cleanup units.
+  name: CBURN外骨骼防护头盔 丨 CBURN exosuit helmet
+  description: 特殊清理部队穿戴的耐压防火头罩。 丨 A pressure resistant and fireproof hood worn by special cleanup units.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/cburn.rsi
@@ -805,8 +805,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHardsuitBase ]
   id: ClothingHeadHelmetHardsuitDeathsquad
-  name: deathsquad hardsuit helmet
-  description: A robust helmet for special operations.
+  name: 死亡小队硬式作战头盔 丨 deathsquad hardsuit helmet
+  description: 专为特种作战设计的坚固头盔。 丨 A robust helmet for special operations.
   components:
   - type: BreathMask
   - type: Sprite
@@ -832,6 +832,7 @@
   # WD EDIT START
   - type: ThermalVision
     isEquipment: true
+    color: "#98EEFB"
     lightRadius: 15
   # WD EDIT END
 
@@ -840,8 +841,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitClown
-  name: clown hardsuit helmet
-  description: A clown hardsuit helmet.
+  name: 小丑硬质防护头盔 丨 clown hardsuit helmet
+  description: 一个小丑硬质防护头盔。 丨 A clown hardsuit helmet.
   components:
   - type: BreathMask
   - type: Sprite
@@ -855,8 +856,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitMime
-  name: mime hardsuit helmet
-  description: A mime hardsuit helmet.
+  name: 默剧硬质防护头盔 丨 mime hardsuit helmet
+  description: 一个哑剧演员的硬质防护头盔。 丨 A mime hardsuit helmet.
   components:
   - type: BreathMask
   - type: Sprite
@@ -868,8 +869,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitSanta
-  name: Santa's hardsuit helmet
-  description: A festive-looking hardsuit helmet that provides the jolly gift-giver protection from low-pressure environments.
+  name: 圣诞老人的硬质防护头盔 丨 Santa's hardsuit helmet
+  description: 一顶外观喜庆的硬质头盔，为快乐的送礼者提供低压环境下的防护。 丨 A festive-looking hardsuit helmet that provides the jolly gift-giver protection from low-pressure environments.
   components:
   - type: BreathMask
   - type: Sprite

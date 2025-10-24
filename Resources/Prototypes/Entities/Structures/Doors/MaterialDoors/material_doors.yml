@@ -1,9 +1,9 @@
 - type: entity
   id: BaseMaterialDoor
   parent: BaseStructure
-  name: door
+  name: 门 丨 door
   abstract: true
-  description: A door, where will it lead?
+  description: 一扇门，它将通向何方？ 丨 A door, where will it lead?
   components:
   - type: InteractionOutline
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: MetalDoor
-  name: metal door
+  name: 金属门 丨 metal door
   parent: BaseMaterialDoorNavMap
   components:
   - type: Construction
@@ -79,9 +79,9 @@
 
 - type: entity
   id: WoodDoor
-  name: wooden door
+  name: 木门 丨 wooden door
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: 一扇门，它将通向何方？ 丨 A door, where will it lead?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/wood_door.rsi
@@ -116,9 +116,9 @@
 
 - type: entity
   id: PaperDoor
-  name: paper door
+  name: 纸门 丨 paper door
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: 一扇门，它将通向何方？ 丨 A door, where will it lead?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/paper_door.rsi
@@ -144,9 +144,9 @@
 
 - type: entity
   id: PlasmaDoor
-  name: plasma door
+  name: 等离子门 丨 plasma door
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: 一扇门，它将通向何方？ 丨 A door, where will it lead?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/plasma_door.rsi
@@ -170,9 +170,9 @@
 
 - type: entity
   id: GoldDoor
-  name: gold door
+  name: 金门 丨 gold door
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: 一扇门，它将通向何方？ 丨 A door, where will it lead?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/gold_door.rsi
@@ -185,9 +185,9 @@
 
 - type: entity
   id: SilverDoor
-  name: silver door
+  name: 银色的门 丨 silver door
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: 一扇门，它将通向何方？ 丨 A door, where will it lead?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/silver_door.rsi
@@ -200,9 +200,9 @@
 
 - type: entity
   id: BananiumDoor
-  name: bananium door
+  name: 香蕉矿门 丨 bananium door
   parent: BaseMaterialDoorNavMap
-  description: A door, where will it lead?
+  description: 一扇门，它将通向何方？ 丨 A door, where will it lead?
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/bananium_door.rsi
@@ -220,9 +220,9 @@
 
 - type: entity
   id: WebDoor
-  name: web door
+  name: 网门 丨 web door
   parent: BaseMaterialDoorNavMap
-  description: A door, leading to the lands of the spiders... or a spaced room.
+  description: 一扇门，通向蜘蛛的领地……或是一个间隔的房间。 丨 A door, leading to the lands of the spiders... or a spaced room.
   components:
   - type: Sprite
     sprite: Structures/Doors/web_door.rsi

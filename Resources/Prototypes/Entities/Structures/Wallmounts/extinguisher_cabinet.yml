@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItemCabinet
   id: ExtinguisherCabinet
-  name: extinguisher cabinet
-  description: A small wall mounted cabinet designed to hold a fire extinguisher.
+  name: 灭火器箱 丨 extinguisher cabinet
+  description: 一个用于存放灭火器的小型壁挂式柜子。 丨 A small wall mounted cabinet designed to hold a fire extinguisher.
   placement:
     mode: SnapgridCenter
   components:

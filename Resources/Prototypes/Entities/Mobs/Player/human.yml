@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McHands
+  name: 乌里斯特·麦克汉兹 丨 Urist McHands
   parent: BaseMobHuman
   id: MobHuman
 
@@ -8,7 +8,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanSyndicateAgentBase
-  name: syndicate agent
+  name: 辛迪加代理人 丨 syndicate agent
   suffix: Human, Base
   components:
   - type: RandomHumanoidAppearance
@@ -26,7 +26,7 @@
 - type: entity
   parent: MobHumanSyndicateAgentBase
   id: MobHumanSyndicateAgent
-  name: syndicate agent
+  name: 辛迪加代理人 丨 syndicate agent
   suffix: Human, Traitor
   components:
   # make the player a traitor once its taken
@@ -36,7 +36,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentMedic
-  name: syndicate medic
+  name: 辛迪加医疗兵 丨 syndicate medic
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementMedic]
@@ -45,7 +45,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentSpy
-  name: syndicate spy
+  name: 辛迪加间谍 丨 syndicate spy
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementSpy]
@@ -54,7 +54,7 @@
 - type: entity
   parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentThief
-  name: syndicate thief
+  name: 集团盗贼 丨 syndicate thief
   components:
   - type: Loadout
     prototypes: [SyndicateReinforcementThief]
@@ -76,7 +76,7 @@
 # Nuclear Operative
 - type: entity
   categories: [ HideSpawnMenu ]
-  name: Nuclear Operative
+  name: 核行动员 丨 Nuclear Operative
   parent: MobHuman
   id: MobHumanNukeOp
   components:
@@ -87,7 +87,7 @@
   categories: [ HideSpawnMenu ]
   parent: MobHuman
   id: MobHumanLoneNuclearOperative
-  name: Lone Operative
+  name: 单独行动者 丨 Lone Operative
   components:
   - type: RandomHumanoidAppearance
     randomizeName: false
@@ -106,7 +106,7 @@
 # Wizard
 - type: entity
   categories: [ HideSpawnMenu ]
-  name: Wizard
+  name: 巫师 丨 Wizard
   parent: MobHuman
   id: MobHumanWizard
   components:

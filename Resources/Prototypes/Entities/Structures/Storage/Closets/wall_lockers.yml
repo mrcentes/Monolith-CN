@@ -1,8 +1,8 @@
 - type: entity
   id: ClosetWall
   parent: BaseWallCloset
-  name: maintenance wall closet
-  description: It's a storage unit.
+  name: 维护墙柜 丨 maintenance wall closet
+  description: 这是一个储物单元。 丨 It's a storage unit.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -12,9 +12,9 @@
 
 - type: entity
   id: ClosetWallEmergency
-  name: emergency wall closet
+  name: 紧急壁柜 丨 emergency wall closet
   parent: BaseWallCloset
-  description: It's a storage unit for emergency breath masks and O2 tanks.
+  description: 这是一个用于存放紧急呼吸面罩和氧气瓶的储物单元。 丨 It's a storage unit for emergency breath masks and O2 tanks.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -24,9 +24,9 @@
 
 - type: entity
   id: ClosetWallFire
-  name: fire-safety wall closet
+  name: 消防安全壁柜 丨 fire-safety wall closet
   parent: BaseWallCloset
-  description: It's a storage unit for fire-fighting supplies.
+  description: 这是一个用于存放消防用品的储物单元。 丨 It's a storage unit for fire-fighting supplies.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -37,8 +37,8 @@
 - type: entity
   id: ClosetWallBlue
   parent: BaseWallCloset
-  name: blue wall closet
-  description: "A wardrobe packed with stylish blue clothing."
+  name: 蓝色壁柜 丨 blue wall closet
+  description: 一个装满时尚蓝色衣物的衣柜。 丨 "A wardrobe packed with stylish blue clothing."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -49,8 +49,8 @@
 - type: entity
   id: ClosetWallPink
   parent: BaseWallCloset
-  name: pink wall closet
-  description: "A wardrobe packed with fabulous pink clothing."
+  name: 粉色壁橱 丨 pink wall closet
+  description: 一个装满漂亮粉色衣服的衣柜。 丨 "A wardrobe packed with fabulous pink clothing."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -61,8 +61,8 @@
 - type: entity
   id: ClosetWallBlack
   parent: BaseWallCloset
-  name: black wall closet
-  description: "A wardrobe packed with stylish black clothing."
+  name: 黑色壁柜 丨 black wall closet
+  description: 一个装满时尚黑色衣物的衣柜。 丨 "A wardrobe packed with stylish black clothing."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -73,8 +73,8 @@
 - type: entity
   id: ClosetWallGreen
   parent: BaseWallCloset
-  name: green wall closet
-  description: "A wardrobe packed with stylish green clothing."
+  name: 绿色壁橱 丨 green wall closet
+  description: 一个塞满时尚绿色衣物的衣柜。 丨 "A wardrobe packed with stylish green clothing."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -85,7 +85,7 @@
 - type: entity
   id: ClosetWallOrange
   parent: BaseWallCloset
-  name: prison wall closet
+  name: 监狱墙柜 丨 prison wall closet
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -96,8 +96,8 @@
 - type: entity
   id: ClosetWallYellow
   parent: BaseWallCloset
-  name: yellow wall closet
-  description: "A wardrobe packed with stylish yellow clothing."
+  name: 黄色壁柜 丨 yellow wall closet
+  description: 一个装满时尚黄色衣物的衣柜。 丨 "A wardrobe packed with stylish yellow clothing."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -108,8 +108,8 @@
 - type: entity
   id: ClosetWallWhite
   parent: BaseWallCloset
-  name: white wall closet
-  description: "A wardrobe packed with stylish white clothing."
+  name: 白色壁橱 丨 white wall closet
+  description: 一个塞满时尚白色衣物的衣柜。 丨 "A wardrobe packed with stylish white clothing."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -120,8 +120,8 @@
 - type: entity
   id: ClosetWallGrey
   parent: BaseWallCloset
-  name: grey wall closet
-  description: "A wardrobe packed with a tide of grey clothing."
+  name: 灰色壁橱 丨 grey wall closet
+  description: 一个塞满了灰色衣物的衣柜。 丨 "A wardrobe packed with a tide of grey clothing."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -132,8 +132,8 @@
 - type: entity
   id: ClosetWallMixed
   parent: BaseWallCloset
-  name: mixed wall closet
-  description: "A wardrobe packed with a mix of colorful clothing."
+  name: 混合壁橱 丨 mixed wall closet
+  description: 一个塞满了五颜六色衣服的衣柜。 丨 "A wardrobe packed with a mix of colorful clothing."
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -144,7 +144,7 @@
 - type: entity
   id: ClosetWallAtmospherics
   parent: BaseWallCloset
-  name: atmospherics wall closet
+  name: 氛围壁橱 丨 atmospherics wall closet
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -155,7 +155,7 @@
 - type: entity
   id: LockerWallMedical
   parent: BaseWallLocker
-  name: medical wall locker
+  name: 医用壁柜 丨 medical wall locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals

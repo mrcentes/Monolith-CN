@@ -1,5 +1,5 @@
 - type: entity
-  name: Donkpocket Box Spawner
+  name: 唐克波克特盒生成器 丨 Donkpocket Box Spawner
   id: DonkpocketBoxSpawner
   parent: MarkerBase
   components:

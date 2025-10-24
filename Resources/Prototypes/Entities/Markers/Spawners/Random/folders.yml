@@ -1,5 +1,5 @@
 - type: entity
-  name: Random Folder Spawner
+  name: 随机文件夹生成器 丨 Random Folder Spawner
   id: FolderSpawner
   parent: MarkerBase
   placement:

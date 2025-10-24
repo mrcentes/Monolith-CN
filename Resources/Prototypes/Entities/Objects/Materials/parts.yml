@@ -47,7 +47,7 @@
 - type: entity
   parent: PartBase
   id: PartRodMetal
-  name: metal rod
+  name: 金属棒 丨 metal rod
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -100,7 +100,7 @@
 - type: entity
   parent: PartRodMetal
   id: PartRodMetal10
-  name: metal rod
+  name: 金属棒 丨 metal rod
   suffix: 10
   components:
   - type: Tag
@@ -114,7 +114,7 @@
 - type: entity
   parent: PartRodMetal
   id: PartRodMetal1
-  name: metal rod
+  name: 金属棒 丨 metal rod
   suffix: Single
   components:
   - type: Tag

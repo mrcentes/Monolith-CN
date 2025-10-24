@@ -1,9 +1,9 @@
 - type: entity
-  name: food cart
+  name: 餐车 丨 food cart
   id: FoodCartBase
   abstract: true
   parent: BaseStructureDynamic
-  description: A cart for food.
+  description: 一辆用于运送食物的手推车。 丨 A cart for food.
   components:
     - type: Sprite
       netsync: false
@@ -67,10 +67,10 @@
     #      startingItem: PowerCellMedium
 
 - type: entity
-  name: hot food cart
+  name: 热食车 丨 hot food cart
   id: FoodCartHot
   parent: FoodCartBase
-  description: Get out there and slang some dogs.
+  description: 出去卖些热狗吧。 丨 Get out there and slang some dogs.
   components:
     - type: Sprite
       netSync: false
@@ -88,7 +88,7 @@
     - type: ItemSlots
       slots:
         coldsauce_slot:
-          name: foodcart-slot-component-slot-name-coldsauce
+          name: 食品车-插槽-组件-插槽-名称-冷酱 丨 foodcart-slot-component-slot-name-coldsauce
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -96,7 +96,7 @@
               - Coldsauce
           priority: 6
         hotsauce_slot:
-          name: foodcart-slot-component-slot-name-hotsauce
+          name: 食品车-插槽-组件-插槽-名称-辣酱 丨 foodcart-slot-component-slot-name-hotsauce
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -104,7 +104,7 @@
               - Hotsauce
           priority: 5
         bbqsauce_slot:
-          name: foodcart-slot-component-slot-name-bbqsauce
+          name: 食品车插槽组件插槽名称-烧烤酱 丨 foodcart-slot-component-slot-name-bbqsauce
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -112,7 +112,7 @@
               - BBQsauce
           priority: 4
         ketchup_slot:
-          name: foodcart-slot-component-slot-name-ketchup
+          name: 食品车插槽组件插槽名称-番茄酱 丨 foodcart-slot-component-slot-name-ketchup
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -148,10 +148,10 @@
         ketchup_slot: !type:ContainerSlot {}
 
 - type: entity
-  name: cold food cart
+  name: 冷食车 丨 cold food cart
   id: FoodCartCold
   parent: FoodCartBase
-  description: It's the Ice Cream Man! It's the Ice Cream Man!
+  description: 是冰淇淋车！是冰淇淋车！ 丨 It's the Ice Cream Man! It's the Ice Cream Man!
   components:
     - type: Sprite
       netSync: false

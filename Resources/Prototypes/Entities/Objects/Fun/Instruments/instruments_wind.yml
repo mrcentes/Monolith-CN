@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseHandheldInstrument
   id: SaxophoneInstrument
-  name: saxophone
-  description: An instrument. You could probably grind this into raw jazz.
+  name: 萨克斯管 丨 saxophone
+  description: 一种乐器。你大概能把它磨成原汁原味的爵士乐。 丨 An instrument. You could probably grind this into raw jazz.
   components:
   - type: Instrument
     program: 66
@@ -33,7 +33,7 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: AccordionInstrument
-  name: accordion
+  name: 手风琴 丨 accordion
   components:
   - type: Instrument
     program: 21
@@ -54,7 +54,7 @@
 - type: entity
   parent: [BaseHandheldInstrument, Clothing]
   id: HarmonicaInstrument
-  name: harmonica
+  name: 口琴 丨 harmonica
   components:
   - type: Instrument
     program: 22
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: ClarinetInstrument
-  name: clarinet
-  description: Skweedward tintacklays.
+  name: 单簧管 丨 clarinet
+  description: 斯奎德沃德·廷塔克莱斯。 丨 Skweedward tintacklays.
   components:
   - type: Instrument
     program: 71
@@ -96,8 +96,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: FluteInstrument
-  name: flute
-  description: Reaching new heights of being horrifyingly shrill.
+  name: 笛子 丨 flute
+  description: 达到令人毛骨悚然的尖锐新高。 丨 Reaching new heights of being horrifyingly shrill.
   components:
   - type: Instrument
     program: 73
@@ -114,8 +114,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: RecorderInstrument
-  name: recorder
-  description: Comes in various colors of fashionable plastic!
+  name: 录音机 丨 recorder
+  description: 采用时尚塑料，有多种颜色可选！ 丨 Comes in various colors of fashionable plastic!
   components:
   - type: Instrument
     program: 74
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: PanFluteInstrument
-  name: pan flute
-  description: Perfect for luring ancient mythical beings to dance with you.
+  name: 排箫 丨 pan flute
+  description: 非常适合引诱古老神话生物与你共舞。 丨 Perfect for luring ancient mythical beings to dance with you.
   components:
   - type: Instrument
     program: 75
@@ -151,8 +151,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: OcarinaInstrument
-  name: ocarina
-  description: Good for playing lullabies.
+  name: 陶笛 丨 ocarina
+  description: 适合演奏摇篮曲。 丨 Good for playing lullabies.
   components:
   - type: Instrument
     program: 79
@@ -170,8 +170,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: BagpipeInstrument
-  name: bagpipe
-  description: Pairs nicely with a kilt.
+  name: 风笛 丨 bagpipe
+  description: 与苏格兰短裙相得益彰。 丨 Pairs nicely with a kilt.
   components:
   - type: Instrument
     program: 109

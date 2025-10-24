@@ -135,8 +135,8 @@
 - type: entity
   parent: MobSiliconBaseVehicle
   id: MobTaxiBot
-  name: taxibot
-  description: Give a ride?
+  name: 牵引车 丨 taxibot
+  description: 搭车吗？ 丨 Give a ride?
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/taxibot.rsi
@@ -144,8 +144,8 @@
     - state: taxibot
       map: ["enum.VehicleVisualLayers.AutoAnimate"]
   - type: GhostRole
-    name: ghost-role-information-taxibot-name
-    description: ghost-role-information-taxibot-description
+    name: 幽灵角色信息出租车机器人名称 丨 ghost-role-information-taxibot-name
+    description: 幽灵角色信息-出租车机器人描述 丨 ghost-role-information-taxibot-description
     rules: ghost-role-information-nonantagonist-rules # Frontier?
   - type: Strap
     buckleOffset: "0, 0"
@@ -159,8 +159,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobFireBot
-  name: firebot
-  description: A little fire extinguishing bot. He looks rather anxious.
+  name: 消防机器人 丨 firebot
+  description: 一个小小的灭火机器人。他看起来相当焦虑。 丨 A little fire extinguishing bot. He looks rather anxious.
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/firebot.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobHonkBot
-  name: honkbot
-  description: Horrifying.
+  name: 按喇叭机器人 丨 honkbot
+  description: 太可怕了。 丨 Horrifying.
   components:
   - type: SpamEmitSound
     minInterval: 2
@@ -250,8 +250,8 @@
     node: bot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-honkbot-name
-    description: ghost-role-information-honkbot-description
+    name: 幽灵角色信息-鸣叫机器人名称 丨 ghost-role-information-honkbot-name
+    description: 幽灵角色信息-HonkBot-描述 丨 ghost-role-information-honkbot-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -269,8 +269,8 @@
 - type: entity
   parent: MobHonkBot
   id: MobJonkBot
-  name: jonkbot
-  description: Horrifying.
+  name: jonkbot 丨 jonkbot
+  description: 太可怕了。 丨 Horrifying.
   components:
   - type: SpamEmitSound
     sound:
@@ -284,8 +284,8 @@
     node: bot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-jonkbot-name
-    description: ghost-role-information-jonkbot-description
+    name: 乔恩科博特 丨 ghost-role-information-jonkbot-name
+    description: 幽灵角色信息-琼克机器人描述 丨 ghost-role-information-jonkbot-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -310,8 +310,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobCleanBot
-  name: cleanbot
-  description: The creep of automation now threatening space janitors.
+  name: 清洁机器人 丨 cleanbot
+  description: 自动化蔓延正威胁着太空清洁工。 丨 The creep of automation now threatening space janitors.
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/cleanbot.rsi
@@ -358,8 +358,8 @@
   - ShowMedicalIcons
   - StripableInventoryBase
   id: MobMedibot
-  name: medibot
-  description: No substitute for a doctor, but better than nothing.
+  name: 医疗机器人 丨 medibot
+  description: 虽不能替代医生，但总比没有强。 丨 No substitute for a doctor, but better than nothing.
   components:
   - type: Medibot
     treatments:
@@ -407,8 +407,8 @@
   - MobSiliconBase
   - StripableInventoryBase
   id: MobMimeBot
-  name: mimebot
-  description: Why not give the mimebot a friendly wave?
+  name: 哑剧机器人 丨 mimebot
+  description: 为什么不给这个哑剧机器人一个友好的挥手呢？ 丨 Why not give the mimebot a friendly wave?
   components:
   - type: Sprite
     layers:
@@ -421,8 +421,8 @@
     node: bot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-mimebot-name
-    description: ghost-role-information-mimebot-description
+    name: 幽灵角色信息哑剧机器人名称 丨 ghost-role-information-mimebot-name
+    description: 幽灵角色信息-默剧机器人描述 丨 ghost-role-information-mimebot-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -440,8 +440,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobSupplyBot
-  name: supplybot
-  description: Delivers cargo!
+  name: 补给机器人 丨 supplybot
+  description: 运送货物！ 丨 Delivers cargo!
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/supplybot.rsi
@@ -457,8 +457,8 @@
         state: supplybot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-supplybot-name
-    description: ghost-role-information-supplybot-description
+    name: 幽灵角色信息补给机器人名称 丨 ghost-role-information-supplybot-name
+    description: 幽灵角色信息-补给机器人描述 丨 ghost-role-information-supplybot-description
     rules: ghost-role-information-nonantagonist-rules
     raffle:
       settings: default

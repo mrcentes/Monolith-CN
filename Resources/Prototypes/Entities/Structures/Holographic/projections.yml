@@ -1,7 +1,7 @@
 - type: entity
   id: HolosignWetFloor
-  name: wet floor sign
-  description: The words flicker as if they mean nothing.
+  name: 小心地滑 丨 wet floor sign
+  description: 文字闪烁着，仿佛毫无意义。 丨 The words flicker as if they mean nothing.
   placement:
     mode: SnapgridCenter
   components:
@@ -29,8 +29,8 @@
 - type: entity
   id: HoloFan
   parent: HolosignWetFloor
-  name: holofan
-  description: A barrier of hard light that blocks air, but nothing else.
+  name: 全息风扇 丨 holofan
+  description: 一道阻挡空气却无碍他物的硬光屏障。 丨 A barrier of hard light that blocks air, but nothing else.
   components:
   - type: Sprite
     sprite: Structures/Holo/holofan.rsi
@@ -49,8 +49,8 @@
 - type: entity
   id: HolosignSecurity
   parent: HolosignWetFloor
-  name: holographic barrier
-  description: A barrier of hard light that blocks movement, but pretty weak.
+  name: 全息屏障 丨 holographic barrier
+  description: 一道阻挡移动的硬光屏障，但相当脆弱。 丨 A barrier of hard light that blocks movement, but pretty weak.
   components:
     - type: Physics
       bodyType: Static
@@ -80,8 +80,8 @@
 - type: entity
   id: HolosignForcefield
   parent: HolosignWetFloor
-  name: holographic force field
-  description: A powerful temporal containment field that doesn't let anything through, not even a tesla or singularity.
+  name: 全息力场 丨 holographic force field
+  description: 一道强大的时间禁锢力场，任何事物都无法穿透，即便是特斯拉线圈或奇点也不例外。 丨 A powerful temporal containment field that doesn't let anything through, not even a tesla or singularity.
   components:
   - type: Physics
     bodyType: Static

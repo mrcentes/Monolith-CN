@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DrinkShaker
-  name: shaker
-  description: The trusty mixing buddy of the bartender.
+  name: 调酒器 丨 shaker
+  description: 调酒师可靠的调酒好搭档。 丨 The trusty mixing buddy of the bartender.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -44,8 +44,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShotGlass
-  name: shot glass
-  description: Perfect for slamming down onto the table angrily.
+  name: 小酒杯 丨 shot glass
+  description: 非常适合生气时重重地摔在桌子上。 丨 Perfect for slamming down onto the table angrily.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -73,8 +73,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkJar
-  name: jar
-  description: The hipster's cup.
+  name: 罐子 丨 jar
+  description: 潮人的杯子。 丨 The hipster's cup.
   components:
   - type: Drink
   - type: Sprite
@@ -104,8 +104,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkJarWhat
-  name: jar of something
-  description: You can't really tell what this is.
+  name: 一罐东西 丨 jar of something
+  description: 你不太能看出这是什么。 丨 You can't really tell what this is.
   components:
   - type: Drink
   - type: Sprite
@@ -134,8 +134,8 @@
 - type: entity
   parent: [BaseItem, BartenderMixer]
   id: DrinkJigger
-  name: jigger
-  description: Like a shaker, but smaller. Used to control the amount of ingredients.
+  name: 量酒器 丨 jigger
+  description: 类似于摇酒器，但更小。用于控制配料的分量。 丨 Like a shaker, but smaller. Used to control the amount of ingredients.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -155,8 +155,8 @@
 - type: entity
   parent: [BaseItem, BartenderMixer]
   id: DrinkIceBucket
-  name: ice bucket
-  description: A special bucket of refreshy ice. Prohibited use for challenge with the same name!
+  name: 冰桶 丨 ice bucket
+  description: 一桶特殊的清爽冰块。禁止用于同名挑战！ 丨 A special bucket of refreshy ice. Prohibited use for challenge with the same name!
   components:
   - type: SolutionContainerManager
     solutions:

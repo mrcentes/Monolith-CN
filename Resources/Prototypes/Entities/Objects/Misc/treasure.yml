@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureDatadiskEncrypted
-  name: encrypted datadisk
-  description: An old data disk. Someone savvier than you could unencrypt it and learn something juicy. All you can do is sell it.
+  name: 加密数据盘 丨 encrypted datadisk
+  description: 一张旧数据盘。比你懂行的人或许能解密它，挖出些劲爆内容。而你只能把它卖掉。 丨 An old data disk. Someone savvier than you could unencrypt it and learn something juicy. All you can do is sell it.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureHardDiskDrive
-  name: hard disk drive
-  description: A disk drive designed for old Earth technology, circa 1980. There's probably some kind of collector who might want to get their paws on this.
+  name: 硬盘驱动器 丨 hard disk drive
+  description: 一款为1980年左右古地球技术设计的磁盘驱动器，或许会有收藏家想把它收入囊中。 丨 A disk drive designed for old Earth technology, circa 1980. There's probably some kind of collector who might want to get their paws on this.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureFlopDiskDrive
-  name: floppy disk drive
-  description: A drive for reading off info off of floppy disks. Shame that the only things stored on them nowadays are nuclear bomb operations.
+  name: 软盘驱动器 丨 floppy disk drive
+  description: 一种用于从软盘读取信息的驱动器。可惜如今存储在它们上面的只有核弹操作指令了。 丨 A drive for reading off info off of floppy disks. Shame that the only things stored on them nowadays are nuclear bomb operations.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureCDDrive
-  name: CD drive
-  description: A piece of tech for reading data off of CDs. Nowadays that's not the most useful thing, unless you plan on flying somewhere.
+  name: 光驱 丨 CD drive
+  description: 一种用于从CD读取数据的技术设备。如今这已不是最实用的东西，除非你打算乘飞机去某地。 丨 A piece of tech for reading data off of CDs. Nowadays that's not the most useful thing, unless you plan on flying somewhere.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureCPUSupercharged
-  name: supercharged CPU
-  description: Some kind of super alien space tech. Shame all the computers already come with CPUs nowadays.
+  name: 超级充电CPU 丨 supercharged CPU
+  description: 某种超级外星空间科技。可惜现在所有电脑都自带CPU了。 丨 Some kind of super alien space tech. Shame all the computers already come with CPUs nowadays.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureSampleTube
-  name: sample tube
-  description: A glass tube with some sort of goop in it. Looks prone to breaking.
+  name: 样品管 丨 sample tube
+  description: 一根装着某种黏糊物的玻璃管。看起来很容易碎。 丨 A glass tube with some sort of goop in it. Looks prone to breaking.
   components:
   - type: Sprite
     sprite: Objects/Misc/sample_tubes.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureCoinIron
-  name: coin
-  description: A flat bit of metal. If it was still in circulation, inflation would've made it worthless. Since it isn't, it's worth enough to keep in a book.
+  name: 硬币 丨 coin
+  description: 一枚扁平金属片。若仍在流通，通胀早使其一文不值。正因退出了流通，反倒值得夹在书中珍藏。 丨 A flat bit of metal. If it was still in circulation, inflation would've made it worthless. Since it isn't, it's worth enough to keep in a book.
   components:
   - type: Sprite
     sprite: Objects/Misc/coins.rsi

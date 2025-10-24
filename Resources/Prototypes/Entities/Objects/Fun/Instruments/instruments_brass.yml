@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseHandheldInstrument
   id: TrumpetInstrument
-  name: trumpet
-  description: The favorite instrument of jazz musicians and egotistical middle schoolers.
+  name: 小号 丨 trumpet
+  description: 爵士乐手与自负初中生最钟爱的乐器。 丨 The favorite instrument of jazz musicians and egotistical middle schoolers.
   components:
   - type: Instrument
     program: 56
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: TromboneInstrument
-  name: trombone
-  description: Everyone's favorite sliding brass instrument.
+  name: 长号 丨 trombone
+  description: 大家最喜爱的滑动铜管乐器。 丨 Everyone's favorite sliding brass instrument.
   components:
   - type: Instrument
     program: 57
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: FrenchHornInstrument
-  name: french horn
-  description: The fact that holding it involves using your hand to muffle it may suggest something about its sound.
+  name: 法国号 丨 french horn
+  description: 手持它时需用手捂住，这一点或许暗示了其声音的特性。 丨 The fact that holding it involves using your hand to muffle it may suggest something about its sound.
   components:
   - type: Instrument
     program: 60
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: EuphoniumInstrument
-  name: euphonium
-  description: A baby tuba? A Baritone? Whatever it is, it's a pretty cool mess of pipes.
+  name: 悠风号 丨 euphonium
+  description: 小号的大号版？上低音号？管它呢，反正这堆铜管凑在一起帅呆了。 丨 A baby tuba? A Baritone? Whatever it is, it's a pretty cool mess of pipes.
   components:
   - type: Instrument
     program: 3

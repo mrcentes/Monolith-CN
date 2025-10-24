@@ -78,10 +78,10 @@
   - type: Appearance
 
 - type: entity
-  name: emergency toolbox
+  name: 应急工具箱 丨 emergency toolbox
   parent: ToolboxBase
   id: ToolboxEmergency
-  description: A bright red toolbox, stocked with emergency tools.
+  description: 一个鲜红色的工具箱，里面装满了应急工具。 丨 A bright red toolbox, stocked with emergency tools.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Tools/Toolboxes/toolbox_red.rsi #imp edit
@@ -90,10 +90,10 @@
     sprite: _Impstation/Objects/Tools/Toolboxes/toolbox_red.rsi #imp edit
 
 - type: entity
-  name: mechanical toolbox
+  name: 机械工具箱 丨 mechanical toolbox
   parent: ToolboxBase
   id: ToolboxMechanical
-  description: A blue box, stocked with mechanical tools.
+  description: 一个蓝色的盒子，里面装满了机械工具。 丨 A blue box, stocked with mechanical tools.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Tools/Toolboxes/toolbox_blue.rsi #imp edit
@@ -102,10 +102,10 @@
     sprite: _Impstation/Objects/Tools/Toolboxes/toolbox_blue.rsi #imp edit
 
 - type: entity
-  name: electrical toolbox
+  name: 电工工具箱 丨 electrical toolbox
   parent: ToolboxBase
   id: ToolboxElectrical
-  description: A toolbox typically stocked with electrical gear.
+  description: 一个通常装有电工设备的工具箱。 丨 A toolbox typically stocked with electrical gear.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Tools/Toolboxes/toolbox_yellow.rsi #imp edit
@@ -114,11 +114,11 @@
     sprite: _Impstation/Objects/Tools/Toolboxes/toolbox_yellow.rsi #imp edit
 
 - type: entity
-  name: electrical toolbox
+  name: 电工工具箱 丨 electrical toolbox
   suffix: Syndicate, Turret
   parent: ToolboxElectrical
   id: ToolboxElectricalTurret
-  description: A toolbox typically stocked with electrical gear.
+  description: 一个通常装满电气设备的工具箱。 丨 A toolbox typically stocked with electrical gear.
   components:
   - type: Damageable
     damageContainer: Inorganic
@@ -145,10 +145,10 @@
     price: 1350
 
 - type: entity
-  name: artistic toolbox
+  name: 艺术工具箱 丨 artistic toolbox
   parent: ToolboxBase
   id: ToolboxArtistic
-  description: A toolbox typically stocked with artistic supplies.
+  description: 一个通常装满了艺术用品的工具箱。 丨 A toolbox typically stocked with artistic supplies.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Tools/Toolboxes/toolbox_green.rsi #imp edit
@@ -157,10 +157,10 @@
     sprite: _Impstation/Objects/Tools/Toolboxes/toolbox_green.rsi #imp edit
 
 - type: entity
-  name: suspicious toolbox
+  name: 可疑工具箱 丨 suspicious toolbox
   parent: [ToolboxBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: ToolboxSyndicate
-  description: A sinister looking toolbox filled with elite syndicate tools.
+  description: 一个装满精英辛迪加工具、外观阴森的工具箱。 丨 A sinister looking toolbox filled with elite syndicate tools.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Tools/Toolboxes/toolbox_syn.rsi #imp edit
@@ -178,10 +178,10 @@
         Blunt: 30
 
 - type: entity
-  name: golden toolbox
+  name: 金制工具箱 丨 golden toolbox
   parent: ToolboxBase
   id: ToolboxGolden
-  description: A solid gold toolbox. A rapper would kill for this.
+  description: 一个纯金工具箱。说唱歌手会为此不惜一切。 丨 A solid gold toolbox. A rapper would kill for this.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Tools/Toolboxes/toolbox_gold.rsi #imp edit
@@ -191,8 +191,8 @@
 
 - type: entity
   id: ToolboxThief
-  name: thief undetermined toolbox
-  description: This is where your favorite thief's supplies lie. Try to remember which ones.
+  name: 盗贼未定工具箱 丨 thief undetermined toolbox
+  description: 这里藏着你最爱的盗贼工具，试着回忆一下是哪几样。 丨 This is where your favorite thief's supplies lie. Try to remember which ones.
   parent: [ BaseItem, BaseC3SyndicateContraband ] # Frontier: BaseMinorContraband<BaseC3SyndicateContraband
   components:
   - type: Sprite

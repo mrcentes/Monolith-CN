@@ -38,8 +38,8 @@
           Unprimed: { state: icon }
 
 - type: entity
-  name: explosive grenade
-  description: Grenade that creates a small but devastating explosion.
+  name: 爆炸性手榴弹 丨 explosive grenade
+  description: 制造小型但破坏力巨大爆炸的手榴弹。 丨 Grenade that creates a small but devastating explosion.
   parent: [GrenadeBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: ExGrenade
   components:
@@ -59,8 +59,8 @@
     beepInterval: 2 # 2 beeps total (at 0 and 2)
 
 - type: entity
-  name: flashbang
-  description: Eeeeeeeeeeeeeeeeeeeeee.
+  name: 闪光弹 丨 flashbang
+  description: 咿咿咿咿咿咿咿咿咿咿咿咿咿咿咿。 丨 Eeeeeeeeeeeeeeeeeeeeee.
   parent: [ GrenadeBase, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: GrenadeFlashBang
   components:
@@ -103,8 +103,8 @@
 #The explosive values for these are pretty god damn mediocre, but SS14's explosion system is hard to understand - this is a good enough approximation of how it was in SS13.
 #Ideally, there should be a weak radius around the bomb outside of its gibbing / spacing range capable of dealing fair damage to players / structures.
 - type: entity
-  name: syndicate minibomb
-  description: A syndicate-manufactured explosive used to stow destruction and cause chaos.
+  name: 辛迪加迷你炸弹 丨 syndicate minibomb
+  description: 辛迪加制造的爆炸物，用于藏匿毁灭并引发混乱。 丨 A syndicate-manufactured explosive used to stow destruction and cause chaos.
   parent: [GrenadeBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: SyndieMiniBomb
   components:
@@ -142,8 +142,8 @@
         volume: 12
 
 - type: entity
-  name: self destruct
-  description: Go out on your own terms!
+  name: 自我毁灭 丨 self destruct
+  description: 按自己的意愿离开！ 丨 Go out on your own terms!
   parent: GrenadeBase
   id: SelfDestructSeq
   categories: [ HideSpawnMenu ]
@@ -168,8 +168,8 @@
 - type: entity
   parent: [ GrenadeBase, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: SingularityGrenade
-  name: singularity grenade
-  description: Grenade that simulates the power of a singularity, pulling things in a heap.
+  name: 奇点手雷 丨 singularity grenade
+  description: 模拟奇点威力的手雷，能将物体拉扯成堆。 丨 Grenade that simulates the power of a singularity, pulling things in a heap.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/singularitygrenade.rsi
@@ -224,8 +224,8 @@
       - type: DeleteOnTrigger
 
 - type: entity
-  name: whitehole grenade
-  description: Grenade that repulses everything around for some time.
+  name: 白洞手榴弹 丨 whitehole grenade
+  description: 能将周围一切暂时击退的手雷。 丨 Grenade that repulses everything around for some time.
   parent: SingularityGrenade
   id: WhiteholeGrenade
   components:
@@ -271,8 +271,8 @@
       - type: DeleteOnTrigger
 
 - type: entity
-  name: the nuclear option
-  description: Please don't throw it, think of the children.
+  name: 核选项 丨 the nuclear option
+  description: 请不要扔，想想孩子们。 丨 Please don't throw it, think of the children.
   parent: [GrenadeBase, BaseC3SyndicateContraband] # Frontier: added BaseC3SyndicateContraband
   id: NuclearGrenade
   components:
@@ -301,8 +301,8 @@
       path: /Audio/Effects/countdown.ogg
 
 - type: entity
-  name: modular grenade
-  description: A grenade casing. Requires a trigger and a payload.
+  name: 模块化手榴弹 丨 modular grenade
+  description: 一个手榴弹外壳。需要触发器和一个有效载荷。 丨 A grenade casing. Requires a trigger and a payload.
   parent: BaseItem
   id: ModularGrenade
   components:
@@ -347,8 +347,8 @@
     price: 30 # Frontier: 75<30
 
 - type: entity
-  name: EMP grenade
-  description: A grenade designed to wreak havoc on electronic systems.
+  name: EMP手榴弹 丨 EMP grenade
+  description: 一枚旨在对电子系统造成严重破坏的手榴弹。 丨 A grenade designed to wreak havoc on electronic systems.
   parent: [GrenadeBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: EmpGrenade
   components:
@@ -364,8 +364,8 @@
       path: /Audio/Effects/countdown.ogg
 
 - type: entity
-  name: holy hand grenade
-  description: O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.
+  name: 圣手榴弹 丨 holy hand grenade
+  description: 哦，主啊，请祝福您这神圣的手榴弹，愿您以仁慈用它把敌人炸得粉身碎骨。 丨 O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.
   parent: [GrenadeBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: HolyHandGrenade
   components:
@@ -391,8 +391,8 @@
 - type: entity
   parent: [ GrenadeBase, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: SmokeGrenade
-  name: smoke grenade
-  description: A tactical grenade that releases a large, long-lasting cloud of smoke when used.
+  name: 烟雾弹 丨 smoke grenade
+  description: 一种战术手榴弹，使用时能释放出大范围且持久的烟雾。 丨 A tactical grenade that releases a large, long-lasting cloud of smoke when used.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/smoke.rsi
@@ -409,8 +409,8 @@
 - type: entity
   parent: SmokeGrenade # Frontier: removed BaseCivilianContraband
   id: CleanerGrenade
-  name: cleanade
-  description: Special grenade for janitors, releasing large cloud of space cleaner foam.
+  name: 清洁弹 丨 cleanade
+  description: 清洁工专用手榴弹，释放大量太空清洁泡沫。 丨 Special grenade for janitors, releasing large cloud of space cleaner foam.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/janitor.rsi
@@ -426,8 +426,8 @@
 - type: entity
   parent: SmokeGrenade
   id: TearGasGrenade
-  name: tear gas grenade
-  description: A riot control tear gas grenade. Causes irritation, pain and makes you cry your eyes out.
+  name: 催泪瓦斯弹 丨 tear gas grenade
+  description: 防暴催泪弹。会引起刺激、疼痛，让你泪流不止。 丨 A riot control tear gas grenade. Causes irritation, pain and makes you cry your eyes out.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
@@ -442,8 +442,8 @@
 - type: entity
   parent: SmokeGrenade # Frontier: removed BaseEngineeringContraband
   id: MetalFoamGrenade
-  name: metal foam grenade
-  description: An emergency tool used for patching up holes. Almost as good as real walls.
+  name: 金属泡沫手榴弹 丨 metal foam grenade
+  description: 一种用于修补破洞的紧急工具，效果几乎与真墙无异。 丨 An emergency tool used for patching up holes. Almost as good as real walls.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/metalfoam.rsi
@@ -457,8 +457,8 @@
 # Non-explosive "dummy" grenades to use as a distraction.
 
 - type: entity
-  name: trick grenade
-  description: All the grenade without any of the boom.
+  name: 训练用手榴弹 丨 trick grenade
+  description: 没有爆炸声的手榴弹。 丨 All the grenade without any of the boom.
   parent: GrenadeBase
   id: GrenadeDummy
   components:
@@ -476,8 +476,8 @@
       path: /Audio/Effects/countdown.ogg
 
 - type: entity
-  name: syndicate trickybomb
-  description: A syndicate-manufactured explosive used to make an excellent distraction.
+  name: 辛迪加棘手炸弹 丨 syndicate trickybomb
+  description: 辛迪加制造的爆炸物，用于制造绝佳的干扰效果。 丨 A syndicate-manufactured explosive used to make an excellent distraction.
   parent: [GrenadeDummy, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: SyndieTrickyBomb
   components:

@@ -1,17 +1,17 @@
 - type: entity
-  name: hellspawn
+  name: 地狱孽种 丨 hellspawn
   parent:
   - BaseSimpleMob
   - MobCombat
   - MobBloodstream
   id: MobHellspawn
-  description: An unstoppable force of carnage.
+  description: 一股不可阻挡的毁灭之力。 丨 An unstoppable force of carnage.
   components:
   - type: GhostRole
     allowMovement: true
     makeSentient: true
-    name: ghost-role-information-hellspawn-name
-    description: ghost-role-information-hellspawn-description
+    name: 地狱滋生者名称 丨 ghost-role-information-hellspawn-name
+    description: 地狱孽物信息描述 丨 ghost-role-information-hellspawn-description
     rules: ghost-role-information-antagonist-rules
     mindRoles:
     - MindRoleGhostRoleSoloAntagonist

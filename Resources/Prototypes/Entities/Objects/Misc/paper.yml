@@ -1,8 +1,8 @@
 - type: entity
-  name: paper
+  name: 纸 丨 paper
   parent: BaseItem
   id: Paper
-  description: 'A piece of white paper.'
+  description: 一张白纸。 丨 'A piece of white paper.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -100,10 +100,10 @@
           Quantity: 1
 
 - type: entity
-  name: paper scrap
+  name: 纸屑 丨 paper scrap
   parent: Paper
   id: PaperScrap
-  description: 'A crumpled up piece of white paper.'
+  description: 一张皱巴巴的白纸。 丨 'A crumpled up piece of white paper.'
   components:
   - type: Tag
     tags:
@@ -121,10 +121,10 @@
       visible: false
 
 - type: entity
-  name: office paper
+  name: 办公用纸 丨 office paper
   parent: Paper
   id: PaperOffice
-  description: 'A plain sheet of office paper.'
+  description: 一张普通的办公用纸。 丨 'A plain sheet of office paper.'
   components:
   - type: PaperVisuals
     backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
@@ -133,10 +133,10 @@
     contentMargin: 16.0, 16.0, 16.0, 16.0
 
 - type: entity
-  name: artifact analyzer printout
+  name: 文物分析仪打印件 丨 artifact analyzer printout
   parent: Paper
   id: PaperArtifactAnalyzer
-  description: The readout of a device forgotten to time.
+  description: 一件被时光遗忘的装置读数。 丨 The readout of a device forgotten to time.
   components:
   - type: Sprite
     layers:
@@ -163,10 +163,10 @@
     maxWritableArea: 400.0, 0.0
 
 - type: entity
-  name: captain's thoughts
+  name: 船长的思绪 丨 captain's thoughts
   parent: Paper
   id: PaperCaptainsThoughts
-  description: "A page of the captain's journal. In luxurious lavender."
+  description: 一页船长的日记，以奢华的薰衣草色呈现。 丨 "A page of the captain's journal. In luxurious lavender."
   components:
   - type: Sprite
     layers:
@@ -189,10 +189,10 @@
     contentMargin: 32.0, 16.0, 32.0, 0.0
 
 - type: entity
-  name: cargo invoice
+  name: 货物发票 丨 cargo invoice
   parent: Paper
   id: PaperCargoInvoice
-  description: 'A single unit of bureaucracy.'
+  description: 官僚体系的一个基本单位。 丨 'A single unit of bureaucracy.'
   components:
   - type: Sprite
     layers:
@@ -225,8 +225,8 @@
 - type: entity
   id: PaperCargoBountyManifest
   parent: PaperCargoInvoice
-  name: bounty manifest
-  description: A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
+  name: 赏金清单 丨 bounty manifest
+  description: 标明板条箱内装有赏金物品的纸质标签。出售带有此标签的板条箱即可完成赏金任务。 丨 A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
   components:
   - type: Sprite
     layers:
@@ -264,10 +264,10 @@
   #   - Cargo # Frontier: removed guidebook entries
 
 - type: entity
-  name: character sheet
+  name: 角色卡 丨 character sheet
   parent: Paper
   id: PaperCNCSheet # legally gray zone of using "D&D" and "DND"
-  description: 'A sheet for your Carps and Crypts characters.'
+  description: 一张用于记录你在《鲤与隐》中角色的表格。 丨 'A sheet for your Carps and Crypts characters.'
   components:
   - type: Paper
     contentSize: 10000
@@ -305,7 +305,7 @@
 - type: entity
   parent: Paper
   id: NukeCodePaper
-  name: nuclear authentication codes
+  name: 核认证码 丨 nuclear authentication codes
   components:
   - type: NukeCodePaper
     allNukesAvailable: true
@@ -320,7 +320,7 @@
 - type: entity
   id: BoxFolderNuclearCodes
   parent: BaseItem
-  name: nuclear code folder
+  name: 核密码文件夹 丨 nuclear code folder
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -340,8 +340,8 @@
 - type: entity
   id: BoxFolderBase
   parent: BoxBase
-  name: folder
-  description: A folder filled with top secret paperwork.
+  name: 文件夹 丨 folder
+  description: 一个装满绝密文件的文件夹。 丨 A folder filled with top secret paperwork.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -472,10 +472,10 @@
 
 - type: entity
   id: BoxFolderCentCom
-  name: CentComm folder
+  name: CentComm文件夹 丨 CentComm folder
   parent: BoxFolderBase
   categories: [ DoNotMap ]
-  description: CentComm's miserable little pile of secrets!
+  description: CentComm那可怜巴巴的一小堆秘密！ 丨 CentComm's miserable little pile of secrets!
   components:
   - type: Sprite
     layers:
@@ -485,8 +485,8 @@
 - type: entity
   id: BoxFolderClipboard
   parent: BoxFolderBase
-  name: clipboard
-  description: The weapon of choice for those on the front lines of bureaucracy.
+  name: 剪贴板 丨 clipboard
+  description: 前线官僚们的首选武器。 丨 The weapon of choice for those on the front lines of bureaucracy.
   components:
   - type: Sprite
     sprite: Objects/Misc/clipboard.rsi
@@ -507,7 +507,7 @@
   - type: ItemSlots
     slots:
       pen_slot:
-        name: clipboard-slot-component-slot-name-pen
+        name: 剪贴板插槽组件插槽名称笔 丨 clipboard-slot-component-slot-name-pen
         whitelist:
           tags:
             - Write
@@ -544,8 +544,8 @@
 - type: entity
   id: BoxFolderCentComClipboard
   parent: BoxFolderClipboard
-  name: CentComm clipboard
-  description: A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
+  name: 中央司令部剪贴板 丨 CentComm clipboard
+  description: 一个豪华的剪贴板，表面覆盖着绿色天鹅绒。常见于中央司令部官员手中，却鲜少见其真正派上用场。 丨 A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
   components:
   - type: Sprite
     sprite: Objects/Misc/cc-clipboard.rsi
@@ -566,8 +566,8 @@
 - type: entity
   id: BoxFolderQmClipboard
   parent: [BoxFolderClipboard, BaseC2ContrabandUnredeemable] # Frontier: BaseGrandTheftContraband<BaseC2ContrabandUnredeemable
-  name: requisition digi-board
-  description: A bulky electric clipboard, filled with shipping orders and financing details. With so many compromising documents, you ought to keep this safe.
+  name: 征用数字板 丨 requisition digi-board
+  description: 一个笨重的电子剪贴板，里面装满了运货单和财务细节。有这么多敏感文件，你可得把它保管好。 丨 A bulky electric clipboard, filled with shipping orders and financing details. With so many compromising documents, you ought to keep this safe.
   components:
   - type: Sprite
     sprite: Objects/Misc/qm_clipboard.rsi
@@ -583,7 +583,7 @@
   - type: ItemSlots
     slots:
       pen_slot:
-        name: clipboard-slot-component-slot-name-pen
+        name: 剪贴板插槽组件插槽名称笔 丨 clipboard-slot-component-slot-name-pen
         whitelist:
           tags:
             - Write
@@ -638,8 +638,8 @@
 - type: entity
   parent: [Paper, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband # eat or burn your damn piece of paper damn thieves
   id: TraitorCodePaper
-  name: syndicate codeword
-  description: A leaked codeword to possibly get in touch with the Syndicate.
+  name: 辛迪加暗语 丨 syndicate codeword
+  description: 一个可能用于联系辛迪加的泄露暗号。 丨 A leaked codeword to possibly get in touch with the Syndicate.
   categories: [ DoNotMap ]
   components:
   - type: TraitorCodePaper
@@ -647,8 +647,8 @@
 - type: entity
   parent: [Paper, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: AllTraitorCodesPaper
-  name: syndicate codewords registry
-  description: A registry of all active Syndicate codewords.
+  name: 辛迪加密码词注册表 丨 syndicate codewords registry
+  description: 所有活跃辛迪加暗码的注册表。 丨 A registry of all active Syndicate codewords.
   suffix: Admeme
   components:
   - type: TraitorCodePaper
@@ -656,10 +656,10 @@
     codewordShowAll: true
 
 - type: entity
-  name: envelope
+  name: 信封 丨 envelope
   parent: BaseItem
   id: Envelope
-  description: 'A small envelope for keeping prying eyes off of your sensitive documents.'
+  description: 一个小信封，用于保护您的敏感文件免受窥探。 丨 'A small envelope for keeping prying eyes off of your sensitive documents.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -689,7 +689,7 @@
   - type: ItemSlots
     slots:
       letter_slot:
-        name: envelope-letter-slot
+        name: 信封投递口 丨 envelope-letter-slot
         insertSound: /Audio/Effects/packetrip.ogg
         ejectSound: /Audio/Effects/packetrip.ogg
         whitelist:

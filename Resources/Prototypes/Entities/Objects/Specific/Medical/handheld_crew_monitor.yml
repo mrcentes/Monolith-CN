@@ -1,10 +1,10 @@
 - type: entity
-  name: handheld crew monitor
+  name: 手持式船员监测器 丨 handheld crew monitor
   # categories: [ DoNotMap ] # Frontier
   parent: BaseHandheldComputer # Frontier: remove BaseGrandTheftContraband
   # CMO-only bud, don't add more.
   id: HandheldCrewMonitor
-  description: A hand-held crew monitor displaying the status of suit sensors.
+  description: 手持式船员监视器，显示宇航服传感器状态。 丨 A hand-held crew monitor displaying the status of suit sensors.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
@@ -38,4 +38,4 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default

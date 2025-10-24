@@ -1,8 +1,8 @@
 - type: entity
   id: Vaccinator
   parent: BaseMachinePowered
-  name: vaccinator
-  description: A machine that creates vaccines.
+  name: 疫苗注射器 丨 vaccinator
+  description: 制造疫苗的机器。 丨 A machine that creates vaccines.
   placement:
     mode: SnapgridCenter
   components:

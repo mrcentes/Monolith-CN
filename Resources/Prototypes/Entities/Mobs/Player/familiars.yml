@@ -1,15 +1,15 @@
 - type: entity
-  name: Remilia
+  name: 蕾米莉亚 丨 Remilia
   parent: MobBat
   id: MobBatRemilia
-  description: The chaplain's familiar. Likes fruit.
+  description: 牧师的使魔。喜欢水果。 丨 The chaplain's familiar. Likes fruit.
   components:
   - type: GhostRole
     makeSentient: true
     allowMovement: true
     allowSpeech: true
-    name: ghost-role-information-remilia-name
-    description: ghost-role-information-remilia-description
+    name: 幽灵角色信息-蕾米莉亚-名称 丨 ghost-role-information-remilia-name
+    description: 幽灵角色信息-蕾米莉亚-描述 丨 ghost-role-information-remilia-description
     rules: ghost-role-information-familiar-rules
     mindRoles:
     - MindRoleGhostRoleFamiliar
@@ -34,17 +34,17 @@
   - type: Familiar
 
 - type: entity
-  name: Cerberus
+  name: 刻耳柏洛斯 丨 Cerberus
   parent: MobCorgiNarsi
   id: MobCorgiCerberus
-  description: This pupper is not wholesome.
+  description: 这只小狗不太健康。 丨 This pupper is not wholesome.
   components:
   - type: GhostRole
     makeSentient: true
     allowMovement: true
     allowSpeech: true
-    name: ghost-role-information-cerberus-name
-    description: ghost-role-information-cerberus-description
+    name: 刻耳柏洛斯 丨 ghost-role-information-cerberus-name
+    description: 幽灵角色信息-刻耳柏洛斯描述 丨 ghost-role-information-cerberus-description
     rules: ghost-role-information-familiar-rules
     mindRoles:
     - MindRoleGhostRoleFamiliar

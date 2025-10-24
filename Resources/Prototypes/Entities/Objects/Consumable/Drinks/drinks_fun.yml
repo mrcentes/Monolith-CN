@@ -1,8 +1,8 @@
 - type: entity
   parent: [DrinkBase, RecyclableItemPlasticSmall] # Frontier: added RecyclableItemPlasticSmall
   id: DrinkSpaceGlue
-  name: space glue tube
-  description: High performance glue intended for maintenance of extremely complex mechanical equipment. DON'T DRINK!
+  name: 太空胶管 丨 space glue tube
+  description: 高性能胶水，专用于维护极其复杂的机械设备。请勿饮用！ 丨 High performance glue intended for maintenance of extremely complex mechanical equipment. DON'T DRINK!
   components:
   - type: Openable
     sound:
@@ -44,8 +44,8 @@
 - type: entity
   parent: [DrinkBase, RecyclableItemPlasticSmall] # Frontier: added RecyclableItemPlasticSmall
   id: DrinkSpaceLube
-  name: space lube tube
-  description: High performance lubricant intended for maintenance of extremely complex mechanical equipment.
+  name: 太空润滑管 丨 space lube tube
+  description: 高性能润滑剂，专为维护极其复杂的机械设备而设计。 丨 High performance lubricant intended for maintenance of extremely complex mechanical equipment.
   components:
   - type: Openable
     sound:
@@ -132,8 +132,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: DrinkMopwataBottleRandom
-  name: delicious mopwata
-  description: A foggy brown bottle with a faded label depicting a mop. It comes full of murky... vintage.
+  name: 美味的拖把水 丨 delicious mopwata
+  description: 一个雾蒙蒙的棕色瓶子，标签褪色，上面画着一个拖把。瓶内装满浑浊的...陈年佳酿。 丨 A foggy brown bottle with a faded label depicting a mop. It comes full of murky... vintage.
   components:
   - type: Item
     size: Small

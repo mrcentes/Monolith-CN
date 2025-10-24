@@ -71,7 +71,7 @@
 - type: entity
   parent: BaseItemRecharger
   id: PowerCellRecharger
-  name: cell recharger
+  name: 电池充电器 丨 cell recharger
   components:
   - type: Sprite
     sprite: Structures/Power/cell_recharger.rsi
@@ -100,7 +100,7 @@
     slots:
       charger_slot:
         ejectOnInteract: true
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
         whitelist:
           tags:
           - PowerCell
@@ -109,7 +109,7 @@
 - type: entity
   parent: [ BaseItemRecharger, ConstructibleMachine ]
   id: PowerCageRecharger
-  name: cage recharger
+  name: 笼式充电器 丨 cage recharger
   components:
   - type: Fixtures
     fixtures:
@@ -137,7 +137,7 @@
     slots:
       charger_slot:
         ejectOnInteract: true
-        name: Power cage
+        name: 力量架 丨 Power cage
         whitelist:
           tags:
           - PowerCage
@@ -149,7 +149,7 @@
 - type: entity
   parent: BaseItemRecharger
   id: WeaponCapacitorRecharger
-  name: recharger
+  name: 充电器 丨 recharger
   components:
   - type: Sprite
     sprite: Structures/Power/recharger.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: BaseItemRecharger
   id: TurboItemRecharger
-  name: turbo recharger
-  description: An overclocked recharger that's been adapted with a global port.
+  name: 涡轮增压充电器 丨 turbo recharger
+  description: 一台经过超频改造、并配备了通用端口的再充电器。 丨 An overclocked recharger that's been adapted with a global port.
   components:
   - type: Sprite
     sprite: Structures/Power/turbo_recharger.rsi
@@ -195,7 +195,7 @@
 - type: entity
   parent: BaseItemRecharger
   id: WallWeaponCapacitorRecharger
-  name: wall recharger
+  name: 墙壁充电器 丨 wall recharger
   components:
   - type: Sprite
     sprite: Structures/Power/wall_recharger.rsi
@@ -221,8 +221,8 @@
 - type: entity
   parent: BaseRecharger
   id: BorgCharger
-  name: cyborg recharging station
-  description: A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
+  name: 生化人充电站 丨 cyborg recharging station
+  description: 一个为各种机器人和生化人实体设计的固定充电站。出乎意料地宽敞。 丨 A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
   components:
   - type: Sprite
     sprite: Structures/Power/borg_charger.rsi

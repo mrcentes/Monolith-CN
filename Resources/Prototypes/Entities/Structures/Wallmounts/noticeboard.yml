@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: NoticeBoard
-  name: notice board
-  description: Is there a job for a witcher?
+  name: 布告栏 丨 notice board
+  description: 有适合猎魔人的工作吗？ 丨 Is there a job for a witcher?
   placement:
     mode: SnapgridCenter
   components:

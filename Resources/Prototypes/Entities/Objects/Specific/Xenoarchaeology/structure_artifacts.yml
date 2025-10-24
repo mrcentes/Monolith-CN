@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructureDynamic
   id: BaseXenoArtifact
-  name: alien artifact
-  description: A strange alien device.
+  name: 外星器物 丨 alien artifact
+  description: 一个奇怪的外星装置。 丨 A strange alien device.
   abstract: true
   components:
   - type: Sprite

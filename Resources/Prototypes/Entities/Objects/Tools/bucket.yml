@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Bucket
-  name: bucket
-  description: It's a boring old bucket.
+  name: 桶 丨 bucket
+  description: 这是个无聊的旧桶子。 丨 It's a boring old bucket.
   components:
   - type: Drink
     solution: bucket

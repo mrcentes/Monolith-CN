@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, RecyclableItemClothSmall] # Frontier: added RecyclableItemClothSmall
   id: BlankHandyFlag
-  name: blank handheld flag
-  description: "Some piece of white cloth wound on a stick."
+  name: 空白手持旗 丨 blank handheld flag
+  description: 一块缠在棍子上的白布。 丨 "Some piece of white cloth wound on a stick."
   components:
   - type: Sprite
     sprite: Objects/Misc/Handy_Flags/blank_handy_flag.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: [BaseItem, RecyclableItemClothSmall] # Frontier: added RecyclableItemClothSmall
   id: NTHandyFlag
-  name: Nanotrasen handheld flag
-  description: "Glory to TSF-NT!"
+  name: Nanotrasen手持旗帜 丨 Nanotrasen handheld flag
+  description: "TSF-NT 荣光永存！Glory to TSF-NT!"
   components:
   - type: Sprite
     sprite: Objects/Misc/Handy_Flags/NT_handy_flag.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: [BaseItem, BaseC3SyndicateContraband, RecyclableItemClothSmall] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband added RecyclableItemClothSmall
   id: SyndieHandyFlag
-  name: syndicate handheld flag
-  description: "For truly rebellious patriots. Death to NT!"
+  name: 辛迪加手持旗帜 丨 syndicate handheld flag
+  description: 献给真正的叛逆爱国者。新界必亡！ 丨 "For truly rebellious patriots. Death to NT!"
   components:
   - type: Sprite
     sprite: Objects/Misc/Handy_Flags/syndie_handy_flag.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: [BaseItem, RecyclableItemClothSmall] # Frontier: added RecyclableItemClothSmall
   id: LGBTQHandyFlag
-  name: LGBTQ handheld flag
-  description: "The be gay do crime handy flag."
+  name: LGBTQ手持旗帜 丨 LGBTQ handheld flag
+  description: 做同志，行叛逆手持旗The be gay do crime handy flag.
   components:
   - type: Sprite
     sprite: Objects/Misc/Handy_Flags/lgbtq_handy_flag.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: [BaseItem, RecyclableItemClothSmall] # Frontier: added RecyclableItemClothSmall
   id: PirateHandyFlag
-  name: pirate handheld flag
-  description: "Holding it in your hands, show these carp that you're not kidding."
+  name: 海盗手持旗 丨 pirate handheld flag
+  description: 手持这面旗帜，让这些鲤鱼见识你的认真。 丨 "Holding it in your hands, show these carp that you're not kidding."
   components:
   - type: Sprite
     sprite: Objects/Misc/Handy_Flags/pirate_handy_flag.rsi

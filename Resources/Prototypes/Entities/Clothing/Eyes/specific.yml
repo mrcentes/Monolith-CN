@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingEyesBase
   id: ClothingEyesChameleon # no flash immunity, sorry
-  name: sun glasses
-  description: Useful for security. # Frontier - description change
+  name: 太阳镜 丨 sun glasses
+  description: 有助于安全。# 前沿 - 描述变更 丨 Useful for security. # Frontier - description change
   suffix: Chameleon
   components:
     - type: Tag

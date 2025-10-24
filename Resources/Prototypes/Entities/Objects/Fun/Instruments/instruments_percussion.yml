@@ -13,7 +13,7 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: GlockenspielInstrument
-  name: glockenspiel
+  name: 钟琴 丨 glockenspiel
   components:
   - type: Instrument
     program: 9
@@ -30,8 +30,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: MusicBoxInstrument
-  name: music box
-  description: Playing this makes you feel safe from scary animatronics.
+  name: 音乐盒 丨 music box
+  description: 播放这个能让你在可怕的机械玩偶面前感到安全。 丨 Playing this makes you feel safe from scary animatronics.
   components:
   - type: Instrument
     program: 10
@@ -42,8 +42,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: XylophoneInstrument
-  name: xylophone
-  description: Rainbow colored glockenspiel.
+  name: 木琴 丨 xylophone
+  description: 彩虹色的钟琴。 丨 Rainbow colored glockenspiel.
   components:
   - type: Instrument
     program: 13
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: MicrophoneInstrument
-  name: microphone
-  description: Perfect for singing your heart out.
+  name: 麦克风 丨 microphone
+  description: 尽情高歌的理想之选。 丨 Perfect for singing your heart out.
   components:
   - type: Instrument
     program: 52
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: SynthesizerInstrument
-  name: synthesizer
+  name: 合成器 丨 synthesizer
   components:
   - type: Instrument
     program: 62
@@ -100,8 +100,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: KalimbaInstrument
-  name: kalimba
-  description: The power of a piano right at your thumbs.
+  name: 卡林巴琴 丨 kalimba
+  description: 钢琴的力量，尽在拇指之间。 丨 The power of a piano right at your thumbs.
   components:
   - type: Instrument
     program: 108
@@ -117,8 +117,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: WoodblockInstrument
-  name: woodblock
-  description: If you listen to this enough it'll start driving itself into your mind.
+  name: 木鱼 丨 woodblock
+  description: 如果你听得够多，它就会开始深深印入你的脑海。 丨 If you listen to this enough it'll start driving itself into your mind.
   components:
   - type: Instrument
     program: 115
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: ReverseCymbalsInstrument
-  name: reverse cymbals
-  description: I think you have it the wrong way around?
+  name: 反向钹 丨 reverse cymbals
+  description: 我觉得你搞反了吧？ 丨 I think you have it the wrong way around?
   components:
   - type: Instrument
     program: 119
@@ -144,8 +144,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: SuperSynthesizerInstrument
-  name: super synthesizer
-  description: Blasting the ghetto with Touhou MIDIs since 2020.
+  name: 超级合成器 丨 super synthesizer
+  description: 自2020年起用东方MIDI轰炸贫民区。 丨 Blasting the ghetto with Touhou MIDIs since 2020.
   components:
   - type: Instrument
     allowPercussion: true

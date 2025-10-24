@@ -1,7 +1,7 @@
 - type: entity
   id: ClockworkWindow
-  name: clockwork window
-  description: Don't smudge up the brass down there.
+  name: 发条窗 丨 clockwork window
+  description: 别把下面的黄铜弄脏了。 丨 Don't smudge up the brass down there.
   parent: Window
   components:
   - type: Sprite
@@ -56,8 +56,8 @@
 - type: entity
   id: WindowClockworkDirectional
   parent: WindowDirectional
-  name: directional clockwork window
-  description: Don't smudge up the brass down there.
+  name: 定向发条窗 丨 directional clockwork window
+  description: 别把下面的黄铜弄脏了。 丨 Don't smudge up the brass down there.
   placement:
     mode: SnapgridCenter
     snap:

@@ -1,8 +1,8 @@
 - type: entity
-  name: bed
+  name: 床 丨 bed
   id: Bed
   parent: BaseStructure
-  description: This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
+  description: 这是用来躺卧、睡眠或固定身体的。在此休息可提供极其缓慢的恢复效果。 丨 This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
   components:
   - type: HealOnBuckle
     damage:
@@ -61,8 +61,8 @@
 - type: entity
   parent: Bed
   id: MedicalBed
-  name: medical bed
-  description: A hospital bed for patients to recover in. Resting here provides fairly slow healing.
+  name: 医疗床 丨 medical bed
+  description: 一张供病人康复用的病床。在此休息可提供相当缓慢的恢复效果。 丨 A hospital bed for patients to recover in. Resting here provides fairly slow healing.
   components:
   - type: Sprite
     state: bed-MED
@@ -82,8 +82,8 @@
 - type: entity
   parent: Bed
   id: DogBed
-  name: dog bed
-  description: A comfy-looking dog bed. You can even strap your pet in, in case the gravity turns off.
+  name: 狗床 丨 dog bed
+  description: 一张看起来舒适的狗床。你甚至可以把宠物系在上面，以防重力消失。 丨 A comfy-looking dog bed. You can even strap your pet in, in case the gravity turns off.
   components:
   - type: Sprite
     state: dogbed
@@ -115,8 +115,8 @@
 - type: entity
   parent: Bed
   id: Mattress
-  name: mattress
-  description: Better sleep in that then on the floor i guess.
+  name: 床垫 丨 mattress
+  description: 我想总比睡地板强吧。 丨 Better sleep in that then on the floor i guess.
   components:
   - type: Sprite
     state: mattress
@@ -144,8 +144,8 @@
 - type: entity
   parent: Bed
   id: WebBed
-  name: web bed
-  description: You got webbed.
+  name: 网床 丨 web bed
+  description: 你被网住了。 丨 You got webbed.
   components:
   - type: Damageable
     damageModifierSet: Web
@@ -175,8 +175,8 @@
 - type: entity
   parent: Bed
   id: PsychBed
-  name: psychologist bed
-  description: An upholstered bed for the psychological care of patients.
+  name: 心理学家床 丨 psychologist bed
+  description: 一张用于患者心理护理的软包床。 丨 An upholstered bed for the psychological care of patients.
   components:
   - type: Sprite
     state: psychbed

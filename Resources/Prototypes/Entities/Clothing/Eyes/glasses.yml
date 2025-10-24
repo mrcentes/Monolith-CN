@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesGar
-  name: gar glasses
-  description: Go beyond impossible and kick reason to the curb!
+  name: gar glasses 丨 gar glasses
+  description: 超越不可能，将理性抛诸脑后！ 丨 Go beyond impossible and kick reason to the curb!
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/gar.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesGarOrange
-  name: orange gar glasses
-  description: Just who the hell do you think I am?!
+  name: 橙色护目镜 丨 orange gar glasses
+  description: 你以为我到底是谁？！ 丨 Just who the hell do you think I am?!
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/gar.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesGarGiga
-  name: giga gar glasses
-  description: We evolve past the person we were a minute before. Little by little we advance with each turn. That's how a drill works!
+  name: 千兆加尔眼镜 丨 giga gar glasses
+  description: 我们超越了一分钟前的自己。一点一滴，我们在每一次旋转中前进。这就是钻头的原理！ 丨 We evolve past the person we were a minute before. Little by little we advance with each turn. That's how a drill works!
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/gar.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: ClothingEyesBase # Frontier: removed BaseEngineeringContraband
   id: ClothingEyesGlassesMeson
-  name: engineering goggles #less confusion
-  description: Green-tinted goggles using a proprietary polymer that provides protection from eye damage of all types.
+  name: 工程护目镜 #减少困惑 丨 engineering goggles #less confusion
+  description: 采用专利聚合物制成的绿色护目镜，可全面防护各类眼部损伤。 丨 Green-tinted goggles using a proprietary polymer that provides protection from eye damage of all types.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/meson.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlasses
-  name: glasses
-  description: A pair of spectacular spectacles with prescription lenses.
+  name: 眼镜 丨 glasses
+  description: 一副配有处方镜片的精美眼镜。 丨 A pair of spectacular spectacles with prescription lenses.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/glasses.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesJensen
-  name: jensen glasses
-  description: A pair of yellow tinted folding glasses. You never asked for these.
+  name: 詹森眼镜 丨 jensen glasses
+  description: 一副黄色镜片的折叠眼镜。你从未要求过这些。 丨 A pair of yellow tinted folding glasses. You never asked for these.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/jensen.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesJamjar
-  name: jamjar glasses
-  description: These retro glasses remind you of a simpler time.
+  name: 果酱罐眼镜 丨 jamjar glasses
+  description: 这些复古眼镜让你想起更简单的时光。 丨 These retro glasses remind you of a simpler time.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/jamjar.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesOutlawGlasses
-  name: outlaw glasses
-  description: A must for every self-respecting undercover agent.
+  name: 亡命之徒眼镜 丨 outlaw glasses
+  description: 每位自尊心强的卧底特工必备之选。 丨 A must for every self-respecting undercover agent.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/outlawglasses.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesCheapSunglasses
-  name: cheap sunglasses
-  description: A pair of black sunglasses. Doesn't block light well, more of an accessory than something useful.
+  name: 廉价的太阳镜 丨 cheap sunglasses
+  description: 一副黑色太阳镜。遮光效果不佳，更像是装饰品而非实用之物。 丨 A pair of black sunglasses. Doesn't block light well, more of an accessory than something useful.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/sunglasses.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingEyesGlassesCheapSunglasses
   id: ClothingEyesGlassesSunglasses
-  name: sun glasses
-  description: A pair of black sunglasses.
+  name: 太阳镜 丨 sun glasses
+  description: 一副黑色太阳镜。 丨 A pair of black sunglasses.
   components:
   - type: FlashImmunity
   - type: EyeProtection
@@ -162,8 +162,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingEyesGlassesSecurity
-  name: security glasses
-  description: Upgraded sunglasses that provide flash immunity and a security HUD.
+  name: 安全眼镜 丨 security glasses
+  description: 升级版太阳镜，提供闪光免疫和安防平视显示功能。 丨 Upgraded sunglasses that provide flash immunity and a security HUD.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/secglasses.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseCommandContraband ]
   id: ClothingEyesGlassesCommand
-  name: administration glasses
-  description: Upgraded sunglasses that provide flash immunity and show ID card status.
+  name: 管理眼镜 丨 administration glasses
+  description: 升级版太阳镜，可提供闪光免疫并显示身份证状态。 丨 Upgraded sunglasses that provide flash immunity and show ID card status.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/commandglasses.rsi
@@ -210,8 +210,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesMercenary
-  name: mercenary glasses
-  description: Glasses made for combat, to protect the eyes from bright blinding flashes.
+  name: 雇佣兵眼镜 丨 mercenary glasses
+  description: 专为战斗打造的眼镜，保护双眼免受强光眩闪的伤害。 丨 Glasses made for combat, to protect the eyes from bright blinding flashes.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/mercglasses.rsi
@@ -227,8 +227,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesThermal
-  name: optical thermal scanner
-  description: Thermals in the shape of glasses.
+  name: 光学热扫描仪 丨 optical thermal scanner
+  description: 眼镜形状的热成像仪。 丨 Thermals in the shape of glasses.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/thermal.rsi
@@ -245,8 +245,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesChemical
-  name: chemical analysis goggles
-  description: Goggles that can scan the chemical composition of a solution.
+  name: 化学分析护目镜 丨 chemical analysis goggles
+  description: 可以扫描溶液化学成分的护目镜。 丨 Goggles that can scan the chemical composition of a solution.
   components:
     - type: Sprite
       sprite: Clothing/Eyes/Glasses/science.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseC3Contraband, ContrabandClothing] # Frontier: BaseMajorContraband<BaseC3Contraband added ContrabandClothing as parent
   id: ClothingEyesVisorNinja
-  name: ninja visor
-  description: An advanced visor protecting a ninja's eyes from flashing lights.
+  name: 忍者面罩 丨 ninja visor
+  description: 一款高级面甲，保护忍者双眼免受闪光影响。 丨 An advanced visor protecting a ninja's eyes from flashing lights.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi

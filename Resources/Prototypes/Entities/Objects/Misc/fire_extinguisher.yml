@@ -1,8 +1,8 @@
 - type: entity
-  name: fire extinguisher
+  name: 灭火器 丨 fire extinguisher
   parent: BaseItem
   id: FireExtinguisher
-  description: It extinguishes fires.
+  description: 它能灭火。 丨 It extinguishes fires.
   components:
   - type: Sprite
     sprite: _NF/Objects/Misc/fire_extinguisher.rsi # Frontier
@@ -78,7 +78,7 @@
     id: FireExtinguisher # Frontier
 
 - type: entity
-  name: extinguisher spray
+  name: 灭火器喷雾 丨 extinguisher spray
   id: ExtinguisherSpray
   parent: Vapor
   categories: [ HideSpawnMenu ]
@@ -96,10 +96,10 @@
     animationState: extinguish
 
 - type: entity
-  name: pocket fire extinguisher
+  name: 袖珍灭火器 丨 pocket fire extinguisher
   parent: FireExtinguisher
   id: FireExtinguisherMini
-  description: A light and compact fibreglass-framed model fire extinguisher. It holds less water than its bigger brother.
+  description: 一款轻巧紧凑的玻璃钢框架模型灭火器，其储水量比大型款更少。 丨 A light and compact fibreglass-framed model fire extinguisher. It holds less water than its bigger brother.
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher_mini.rsi

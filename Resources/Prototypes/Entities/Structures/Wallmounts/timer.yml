@@ -1,7 +1,7 @@
 - type: entity
   id: SignalTimer
-  name: signal timer
-  description: It's a timer for sending timed signals to things.
+  name: 信号定时器 丨 signal timer
+  description: 这是一个用于向对象发送定时信号的计时器。 丨 It's a timer for sending timed signals to things.
   placement:
     mode: SnapgridCenter
     snap:
@@ -57,8 +57,8 @@
 - type: entity
   id: ScreenTimer
   parent: SignalTimer
-  name: screen timer
-  description: It's a timer for sending timed signals to things, with a built-in screen.
+  name: 屏幕计时器 丨 screen timer
+  description: 这是一个带有内置屏幕的定时器，用于向设备发送定时信号。 丨 It's a timer for sending timed signals to things, with a built-in screen.
   components:
   - type: SignalTimer
     canEditLabel: true
@@ -85,8 +85,8 @@
 - type: entity
   id: BrigTimer
   parent: ScreenTimer
-  name: brig timer
-  description: It's a timer for brig cells.
+  name: brig计时器 丨 brig timer
+  description: 这是禁闭室的计时器。 丨 It's a timer for brig cells.
   components:
   - type: AccessReader
     access: [["Security"]]
@@ -104,8 +104,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: TimerFrame
-  name: timer frame
-  description: A construction frame for a timer.
+  name: 计时器框架 丨 timer frame
+  description: 计时器的构造框架。 丨 A construction frame for a timer.
   placement:
     mode: SnapgridCenter
   components:

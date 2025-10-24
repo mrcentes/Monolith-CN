@@ -37,7 +37,7 @@
   parent: FoodInjectableBase # Not sliceable
   id: FoodPieSliceBase
   abstract: true
-  description: A slice of pie. Tasty!
+  description: 一片馅饼。美味！ 丨 A slice of pie. Tasty!
   components:
   - type: Item
     size: Tiny
@@ -65,10 +65,10 @@
 # Pie
 
 - type: entity
-  name: apple pie
+  name: 苹果派 丨 apple pie
   parent: FoodPieBase
   id: FoodPieApple
-  description: A pie containing sweet, sweet love... or apple.
+  description: 一款饱含甜蜜爱意……或苹果的馅饼。 丨 A pie containing sweet, sweet love... or apple.
   components:
   - type: FlavorProfile
     flavors:
@@ -86,7 +86,7 @@
     - Pie
 
 - type: entity
-  name: slice of apple pie
+  name: 一片苹果派 丨 slice of apple pie
   parent: FoodPieSliceBase
   id: FoodPieAppleSlice
   components:
@@ -107,10 +107,10 @@
 # Tastes like pie, apple.
 
 - type: entity
-  name: baklava
+  name: 果仁蜜饼 丨 baklava
   parent: FoodPieBase
   id: FoodPieBaklava
-  description: A delightful healthy snack made of nut layers with thin bread.
+  description: 一种由坚果层和薄面包制成的美味健康零食。 丨 A delightful healthy snack made of nut layers with thin bread.
   components:
   - type: FlavorProfile
     flavors:
@@ -124,10 +124,10 @@
     slice: FoodPieBaklavaSlice
 
 - type: entity
-  name: slice of baklava
+  name: 一片果仁蜜饼 丨 slice of baklava
   parent: FoodPieSliceBase
   id: FoodPieBaklavaSlice
-  description: A portion of a delightful healthy snack made of nut layers with thin bread.
+  description: 一份由坚果层和薄面包制成的美味健康零食。 丨 A portion of a delightful healthy snack made of nut layers with thin bread.
   components:
   - type: FlavorProfile
     flavors:
@@ -138,10 +138,10 @@
 # Tastes like pie, nuts.
 
 - type: entity
-  name: banana cream pie
+  name: 香蕉奶油派 丨 banana cream pie
   parent: FoodPieBase
   id: FoodPieBananaCream
-  description: Just like back home, on clown planet! HONK!
+  description: 就像回到小丑星球上的家一样！嘀嘀！ 丨 Just like back home, on clown planet! HONK!
   components:
   - type: FlavorProfile
     flavors:
@@ -179,10 +179,10 @@
     slice: FoodPieBananaCreamSlice
 
 - type: entity
-  name: slice of banana cream pie
+  name: 香蕉奶油派切片 丨 slice of banana cream pie
   parent: FoodPieSliceBase
   id: FoodPieBananaCreamSlice
-  description: Just like back home, on clown planet! HONK!
+  description: 就像回到小丑星球上的家一样！嘀嘀！ 丨 Just like back home, on clown planet! HONK!
   components:
   - type: FlavorProfile
     flavors:
@@ -199,10 +199,10 @@
 # Tastes like pie, cream, banana.
 
 - type: entity
-  name: berry clafoutis
+  name: 浆果克拉芙蒂 丨 berry clafoutis
   parent: FoodPieBase
   id: FoodPieClafoutis
-  description: No black birds, this is a good sign.
+  description: 没有黑鸟，这是个好兆头。 丨 No black birds, this is a good sign.
   components:
   - type: FlavorProfile
     flavors:
@@ -221,7 +221,7 @@
     - Pie
 
 - type: entity
-  name: slice of berry clafoutis
+  name: 浆果克拉芙提的一片 丨 slice of berry clafoutis
   parent: FoodPieSliceBase
   id: FoodPieClafoutisSlice
   components:
@@ -242,10 +242,10 @@
 # Tastes like pie, blackberries.
 
 - type: entity
-  name: cherry pie
+  name: 樱桃派 丨 cherry pie
   parent: FoodPieBase
   id: FoodPieCherry
-  description: Tastes good enough to make a grown man cry.
+  description: 好吃到能让一个成年男人落泪。 丨 Tastes good enough to make a grown man cry.
   components:
   - type: FlavorProfile
     flavors:
@@ -262,7 +262,7 @@
     - Pie
 
 - type: entity
-  name: slice of cherry pie
+  name: 一块樱桃派 丨 slice of cherry pie
   parent: FoodPieSliceBase
   id: FoodPieCherrySlice
   components:
@@ -282,10 +282,10 @@
 # Tastes like pie, cherries.
 
 - type: entity
-  name: meat pie
+  name: 肉馅饼 丨 meat pie
   parent: FoodPieBase
   id: FoodPieMeat
-  description: An old barber recipe, very delicious!
+  description: 老式理发店配方，美味至极！ 丨 An old barber recipe, very delicious!
   components:
   - type: FlavorProfile
     flavors:
@@ -302,7 +302,7 @@
     - Pie
 
 - type: entity
-  name: slice of meat pie
+  name: 肉馅饼块 丨 slice of meat pie
   parent: FoodPieSliceBase
   id: FoodPieMeatSlice
   components:
@@ -322,10 +322,10 @@
 # Tastes like pie, meat.
 
 - type: entity
-  name: pumpkin pie
+  name: 南瓜派 丨 pumpkin pie
   parent: FoodPieBase
   id: FoodPiePumpkin
-  description: Someone should turn this into a latte!
+  description: 真该有人把这个做成拿铁！ 丨 Someone should turn this into a latte!
   components:
   - type: FlavorProfile
     flavors:
@@ -342,7 +342,7 @@
     - Pie
 
 - type: entity
-  name: slice of pumpkin pie
+  name: 一片南瓜派 丨 slice of pumpkin pie
   parent: FoodPieSliceBase
   id: FoodPiePumpkinSlice
   components:
@@ -359,7 +359,7 @@
     - Slice
 
 - type: entity
-  name: xeno pie
+  name: 异星派 丨 xeno pie
   parent: FoodPieBase
   id: FoodPieXeno
   components:
@@ -379,7 +379,7 @@
     - Pie
 
 - type: entity
-  name: slice of xeno pie
+  name: 异星馅饼切片 丨 slice of xeno pie
   parent: FoodPieSliceBase
   id: FoodPieXenoSlice
   components:
@@ -400,10 +400,10 @@
 # Tastes like pie, meat, acid.
 
 - type: entity
-  name: frosty pie
+  name: 冰霜派 丨 frosty pie
   parent: FoodPieBase
   id: FoodPieFrosty
-  description: Tastes like blue and cold.
+  description: 尝起来有蓝色和冰冷的感觉。 丨 Tastes like blue and cold.
   components:
   - type: FlavorProfile
     flavors:
@@ -416,7 +416,7 @@
     slice: FoodPieFrostySlice
 
 - type: entity
-  name: slice of frosty pie
+  name: 一片冰凉的派 丨 slice of frosty pie
   parent: FoodPieSliceBase
   id: FoodPieFrostySlice
   components:
@@ -431,10 +431,10 @@
 # Tastes like pie, mint.
 
 - type: entity
-  name: mime tart
+  name: 柠檬挞 丨 mime tart
   parent: FoodPieBase
   id: FoodTartMime
-  description: "\"      \""
+  description: "   "
   components:
   - type: FlavorProfile
     flavors:
@@ -447,7 +447,7 @@
     slice: FoodTartMimeSlice
 
 - type: entity
-  name: slice of mime tart
+  name: 哑剧馅饼切片 丨 slice of mime tart
   parent: FoodPieSliceBase
   id: FoodTartMimeSlice
   components:
@@ -464,10 +464,10 @@
 # No Slice
 
 - type: entity
-  name: amanita pie
+  name: 毒蝇伞馅饼 丨 amanita pie
   parent: FoodPieBase
   id: FoodPieAmanita
-  description: Sweet and tasty poison pie.
+  description: 甜美可口的毒馅饼。 丨 Sweet and tasty poison pie.
   components:
   - type: FlavorProfile
     flavors:
@@ -490,10 +490,10 @@
 # Tastes like pie, mushrooms.
 
 - type: entity
-  name: plump pie
+  name: 饱满馅饼 丨 plump pie
   parent: FoodPieBase
   id: FoodPiePlump
-  description: I bet you love stuff made out of plump helmets!
+  description: 我敢打赌你肯定喜欢用"胖头盔"做的东西！ 丨 I bet you love stuff made out of plump helmets!
   components:
   - type: FlavorProfile
     flavors:
@@ -505,10 +505,10 @@
 # Tart
 
 - type: entity
-  name: grape tart
+  name: 葡萄挞 丨 grape tart
   parent: FoodPieBase
   id: FoodTartGrape
-  description: A tasty dessert that reminds you of the wine you didn't make.
+  description: 一款美味的甜点，让你想起未曾酿造的葡萄酒。 丨 A tasty dessert that reminds you of the wine you didn't make.
   components:
   - type: FlavorProfile
     flavors:
@@ -522,10 +522,10 @@
 # Tastes like tart, grape.
 
 - type: entity
-  name: golden apple streusel tart
+  name: 金黄苹果酥粒挞 丨 golden apple streusel tart
   parent: FoodPieBase
   id: FoodTartGapple
-  description: A tasty dessert that won't make it through a metal detector.
+  description: 一道美味却通不过金属探测仪的甜点。 丨 A tasty dessert that won't make it through a metal detector.
   components:
   - type: FlavorProfile
     flavors:
@@ -539,10 +539,10 @@
 # Tastes like tart, apple, expensive metal.
 
 - type: entity
-  name: chocolate lava tart
+  name: 巧克力熔岩挞 丨 chocolate lava tart
   parent: FoodPieBase
   id: FoodTartCoco
-  description: A tasty dessert made of chocolate, with a liquid core.
+  description: 一款由巧克力制成的美味甜点，内含流心。 丨 A tasty dessert made of chocolate, with a liquid core.
   components:
   - type: FlavorProfile
     flavors:

@@ -1,8 +1,8 @@
 - type: entity
   id: StasisBed
-  name: stasis bed
+  name: 静滞床 丨 stasis bed
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  description: A bed that massively slows down the patient's metabolism and prevents bodily decay, allowing more time to administer a proper treatment for stabilization.
+  description: 一种能够大幅减缓患者新陈代谢、防止身体腐坏的床，为实施稳定病情的妥善治疗争取更多时间。 丨 A bed that massively slows down the patient's metabolism and prevents bodily decay, allowing more time to administer a proper treatment for stabilization.
   components:
   - type: StasisBed
     baseMultiplier: 10.0

@@ -1,8 +1,8 @@
 - type: entity
   id: RadiationCollector
-  name: radiation collector
+  name: 辐射收集器 丨 radiation collector
   suffix: Empty tank
-  description: A machine that collects radiation and turns it into power. Requires plasma gas to function.
+  description: 一种收集辐射并将其转化为能量的机器。需要等离子气体才能运作。 丨 A machine that collects radiation and turns it into power. Requires plasma gas to function.
   placement:
     mode: SnapgridCenter
   components:

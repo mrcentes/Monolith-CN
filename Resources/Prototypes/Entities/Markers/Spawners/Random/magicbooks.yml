@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RandomMagicBook
-  name: random magic book spawner
+  name: 随机魔法书生成器 丨 random magic book spawner
   parent: MarkerBase
   components:
     - type: Sprite
@@ -21,7 +21,7 @@
 
 - type: entity
   id: RandomMagicBookSafe
-  name: random magic book spawner [safe]
+  name: 随机魔法书生成器[安全] 丨 random magic book spawner [safe]
   parent: MarkerBase
   components:
     - type: Sprite

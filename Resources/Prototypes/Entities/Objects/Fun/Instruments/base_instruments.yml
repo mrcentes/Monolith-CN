@@ -2,7 +2,7 @@
   abstract: true
   parent: [BaseItem, RecyclableItemWoodMedium] # Frontier: added RecyclableItemWoodMedium
   id: BaseHandheldInstrument
-  description: That's an instrument.
+  description: 那是一件乐器。 丨 That's an instrument.
   components:
   - type: Sprite
   - type: Instrument
@@ -22,7 +22,7 @@
 
 #These are for instruments that are larger, can't be picked up, or have collision
 - type: entity
-  name: baseinstrument
+  name: 基础仪器 丨 baseinstrument
   id: BasePlaceableInstrument
   parent: BaseStructureDynamic
   abstract: true
@@ -74,7 +74,7 @@
 - type: entity
   parent: BasePlaceableInstrument
   id: BasePlaceableInstrumentRotatable
-  name: baseinstrumentrotatable
+  name: 基础仪器可旋转 丨 baseinstrumentrotatable
   abstract: true
   components:
   - type: Rotatable

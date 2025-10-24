@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: SheetOtherBase
-  description: A sheet of material, used often on the station in various applications.
+  description: 一种常用于空间站各种应用场景的材料板材。 丨 A sheet of material, used often on the station in various applications.
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/other.rsi
@@ -30,7 +30,7 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPaper
-  name: paper
+  name: 纸张 丨 paper
   suffix: Full
   components:
   - type: Stack
@@ -65,7 +65,7 @@
 - type: entity
   parent: SheetPaper
   id: SheetPaper1
-  name: paper
+  name: 纸 丨 paper
   suffix: Single
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPlasma
-  name: plasma
+  name: 等离子体 丨 plasma
   suffix: Full
   components:
   - type: Material
@@ -124,7 +124,7 @@
 - type: entity
   parent: SheetPlasma
   id: SheetPlasma1
-  name: plasma
+  name: 等离子体 丨 plasma
   suffix: Single
   components:
   - type: Sprite
@@ -135,7 +135,7 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPlastic
-  name: plastic
+  name: 塑料 丨 plastic
   suffix: Full
   components:
   - type: Tag
@@ -176,7 +176,7 @@
 - type: entity
   parent: SheetPlastic
   id: SheetPlastic10
-  name: plastic
+  name: 塑料 丨 plastic
   suffix: 10
   components:
   - type: Sprite
@@ -187,7 +187,7 @@
 - type: entity
   parent: SheetPlastic
   id: SheetPlastic1
-  name: plastic
+  name: 塑料 丨 plastic
   suffix: Single
   components:
   - type: Sprite
@@ -198,7 +198,7 @@
 - type: entity
   parent: [SheetOtherBase, EdibleBase]
   id: SheetUranium
-  name: uranium
+  name: 铀 丨 uranium
   suffix: Full
   components:
   - type: Material
@@ -247,7 +247,7 @@
 - type: entity
   parent: SheetUranium
   id: SheetUranium1
-  name: uranium
+  name: 铀 丨 uranium
   suffix: Single
   components:
   - type: Stack
@@ -256,7 +256,7 @@
 - type: entity
   parent: SheetOtherBase
   id: MaterialSheetMeat
-  name: meat sheet
+  name: 肉片 丨 meat sheet
   suffix: Full
   components:
     - type: Sprite

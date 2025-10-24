@@ -14,9 +14,9 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterBioGeneral
-  name: bio suit
+  name: 生化防护服 丨 bio suit
   suffix: Generic
-  description: A suit that protects against biological contamination.
+  description: 一种防护生物污染的防护服。 丨 A suit that protects against biological contamination.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/general.rsi
@@ -36,9 +36,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioCmo
-  name: bio suit
+  name: 生物防护服 丨 bio suit
   suffix: CMO
-  description: An advanced suit that protects against biological contamination, in CMO colors.
+  description: 一套采用CMO配色、可防护生物污染的高级防护服。 丨 An advanced suit that protects against biological contamination, in CMO colors.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/cmo.rsi
@@ -48,9 +48,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioJanitor
-  name: bio suit
+  name: 生化防护服 丨 bio suit
   suffix: Janitor
-  description: A suit that protects against biological contamination, in Janitor colors.
+  description: 一套防止生物污染的防护服，采用保洁员配色。 丨 A suit that protects against biological contamination, in Janitor colors.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/janitor.rsi
@@ -60,9 +60,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioScientist
-  name: bio suit
+  name: 生物防护服 丨 bio suit
   suffix: Science
-  description: A suit that protects against biological contamination, in Scientist colors.
+  description: 一套防止生物污染的防护服，采用科学家主题配色。 丨 A suit that protects against biological contamination, in Scientist colors.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/scientist.rsi
@@ -72,9 +72,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioSecurity
-  name: bio suit
+  name: 生化防护服 丨 bio suit
   suffix: Security
-  description: A suit that protects against biological contamination, in Security colors.
+  description: 一套采用安保配色、可防护生物污染的防护服。 丨 A suit that protects against biological contamination, in Security colors.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/security.rsi
@@ -84,9 +84,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioVirology
-  name: bio suit
+  name: 生物防护服 丨 bio suit
   suffix: Virology
-  description: A suit that protects against biological contamination, in Virology colors.
+  description: 一套采用病毒学配色、可防护生物污染的防护服。 丨 A suit that protects against biological contamination, in Virology colors.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/virology.rsi

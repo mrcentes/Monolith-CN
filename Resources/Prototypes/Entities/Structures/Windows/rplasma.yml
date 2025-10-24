@@ -36,7 +36,7 @@
 
 - type: entity
   id: ReinforcedPlasmaWindow
-  name: reinforced plasma window
+  name: 强化等离子体窗 丨 reinforced plasma window
   parent: WindowRCDResistant
   components:
   - type: Sprite
@@ -107,8 +107,8 @@
 - type: entity
   id: PlasmaReinforcedWindowDirectional
   parent: WindowDirectionalRCDResistant
-  name: directional reinforced plasma window
-  description: Don't smudge up the glass down there.
+  name: 定向增强等离子体窗 丨 directional reinforced plasma window
+  description: 别把下面的玻璃弄脏了。 丨 Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter
     snap:

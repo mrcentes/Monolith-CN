@@ -52,8 +52,8 @@
   parent: AirlockRCDResistant
   id: AirlockShuttle
   suffix: Docking
-  name: external airlock
-  description: Necessary for connecting two space craft together.
+  name: 外部气闸舱 丨 external airlock
+  description: 连接两艘航天器所必需。 丨 Necessary for connecting two space craft together.
   components:
   - type: Docking
   - type: DockingSignalControl
@@ -126,9 +126,9 @@
 - type: entity
   id: AirlockGlassShuttle
   parent: AirlockShuttle
-  name: external airlock
+  name: 外部气闸 丨 external airlock
   suffix: Glass, Docking
-  description: Necessary for connecting two space craft together.
+  description: 连接两艘航天器所必需。 丨 Necessary for connecting two space craft together.
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/shuttle.rsi
@@ -150,9 +150,9 @@
 - type: entity
   id: AirlockShuttleAssembly
   parent: AirlockAssembly
-  name: external airlock assembly
+  name: 外部气闸舱组件 丨 external airlock assembly
   suffix: Docking
-  description: An incomplete structure necessary for connecting two space craft together.
+  description: 连接两艘航天器所必需的不完整结构。 丨 An incomplete structure necessary for connecting two space craft together.
   components:
   - type: Transform
     anchored: true
@@ -169,9 +169,9 @@
 - type: entity
   id: AirlockGlassShuttleSyndicate
   parent: AirlockGlassShuttle
-  name: external airlock
+  name: 外部气闸舱 丨 external airlock
   suffix: Glass, Docking
-  description: Necessary for connecting two space craft together.
+  description: 连接两艘航天器所必需。 丨 Necessary for connecting two space craft together.
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/shuttle_syndicate.rsi
@@ -180,8 +180,8 @@
   parent: AirlockShuttle
   id: AirlockShuttleSyndicate
   suffix: Docking
-  name: external airlock
-  description: Necessary for connecting two space craft together.
+  name: 外部气闸 丨 external airlock
+  description: 连接两艘航天器所必需。 丨 Necessary for connecting two space craft together.
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/shuttle_syndicate.rsi

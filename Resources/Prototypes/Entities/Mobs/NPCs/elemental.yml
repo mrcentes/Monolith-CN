@@ -77,7 +77,7 @@
 - type: entity
   abstract: true
   id: MobOreCrab
-  name: ore crab
+  name: 矿石蟹 丨 ore crab
   parent: [ MobElementalBase, MobCombat ]
   components:
   - type: Sprite
@@ -105,7 +105,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobQuartzCrab
-  description: An ore crab made from Quartz.
+  description: 一只由石英制成的矿石蟹。 丨 An ore crab made from Quartz.
   components:
   - type: Sprite
     state: quartz_crab
@@ -129,7 +129,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobIronCrab
-  description: An ore crab made from iron.
+  description: 一只用铁制成的矿石蟹。 丨 An ore crab made from iron.
   components:
   - type: Sprite
     state: iron_crab
@@ -160,7 +160,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobUraniumCrab
-  description: An ore crab made from uranium.
+  description: 一只用铀矿石制成的矿蟹。 丨 An ore crab made from uranium.
   components:
   - type: FactionException
   - type: NPCRetaliation
@@ -195,8 +195,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobSilverCrab
-  name: ore crab
-  description: An ore crab made from silver.
+  name: 矿石蟹 丨 ore crab
+  description: 一只用白银制成的矿石蟹。 丨 An ore crab made from silver.
   components:
   - type: Sprite
     state: silver_crab
@@ -222,15 +222,15 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: reagent slime
+  name: 试剂粘液 丨 reagent slime
   id: ReagentSlime
   suffix: Water
   parent: [ MobAdultSlimes, MobCombat ]
-  description: It consists of a liquid, and it wants to dissolve you in itself.
+  description: 它由一种液体构成，并试图将你溶解于其中。 丨 It consists of a liquid, and it wants to dissolve you in itself.
   components:
   - type: GhostRole
     prob: 0
-    description: ghost-role-information-angry-slimes-description
+    description: 幽灵角色信息-愤怒史莱姆描述 丨 ghost-role-information-angry-slimes-description
     rules: ghost-role-information-angry-slimes-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -300,7 +300,7 @@
     solution: bloodstream
 
 - type: entity
-  name: Reagent Slime Spawner
+  name: 试剂史莱姆生成器 丨 Reagent Slime Spawner
   id: ReagentSlimeSpawner
   parent: MarkerBase
   components:

@@ -22,8 +22,8 @@
 - type: entity
   parent: [ScatteringGrenadeBase, BaseC2ContrabandUnredeemable, RecyclableItemSteelMedium] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable added RecyclableItemSteelMedium
   id: ClusterBang
-  name: clusterbang
-  description: Can be used only with flashbangs. Explodes several times.
+  name: 集束弹 丨 clusterbang
+  description: 仅可与闪光弹配合使用。可多次爆炸。 丨 Can be used only with flashbangs. Explodes several times.
   components:
   - type: ScatteringGrenade
     whitelist:
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClusterBang
   id: ClusterBangFull
-  name: ClusterBang
-  description: Launches three flashbangs after the timer runs out.
+  name: 集束闪光弹 丨 ClusterBang
+  description: 计时结束后发射三枚闪光弹。 丨 Launches three flashbangs after the timer runs out.
   suffix: Full
   components:
   - type: Sprite
@@ -74,8 +74,8 @@
 - type: entity
   parent: [ScatteringGrenadeBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: ClusterGrenade
-  name: clustergrenade
-  description: Why use one grenade when you can use three at once!
+  name: 集束榴弹 丨 clustergrenade
+  description: 一颗手雷不够？那就一次扔三颗！ 丨 Why use one grenade when you can use three at once!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/clusterbomb.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: [ScatteringGrenadeBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: ClusterBananaPeel
-  name: cluster banana peel
-  description: Splits into 6 explosive banana peels after throwing, guaranteed fun!
+  name: 成串香蕉皮 丨 cluster banana peel
+  description: 扔出后分裂成6个爆炸香蕉皮，乐趣保证！ 丨 Splits into 6 explosive banana peels after throwing, guaranteed fun!
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: [SoapSyndie, ScatteringGrenadeBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: SlipocalypseClusterSoap
-  name: slipocalypse clustersoap
-  description: Spreads small pieces of syndicate soap over an area upon landing on the floor.
+  name: 滑溜末日集群皂 丨 slipocalypse clustersoap
+  description: 落地时在地面上散落小块联合肥皂。 丨 Spreads small pieces of syndicate soap over an area upon landing on the floor.
   components:
   - type: WeaponCaseInsertable # Frontier
   - type: Sprite
@@ -148,8 +148,8 @@
 - type: entity
   parent: ScatteringGrenadeBase
   id: GrenadeFoamDart
-  name: foam dart grenade
-  description: Releases a bothersome spray of foam darts that cause severe welching.
+  name: 泡沫飞镖手榴弹 丨 foam dart grenade
+  description: 释放出一阵恼人的泡沫飞弹，造成严重的躲避困扰。 丨 Releases a bothersome spray of foam darts that cause severe welching.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/foamdart.rsi

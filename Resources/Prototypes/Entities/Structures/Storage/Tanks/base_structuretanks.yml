@@ -1,8 +1,8 @@
 - type: entity
   id: StorageTank
   parent: BaseStructureDynamic
-  name: storage tank
-  description: A liquids storage tank.
+  name: 储罐 丨 storage tank
+  description: 液体储罐。 丨 A liquids storage tank.
   abstract: true
   components:
   - type: Animateable

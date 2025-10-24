@@ -1,8 +1,8 @@
 - type: entity
   id: Memorial
   parent: BaseStructure
-  name: memorial
-  description: Commemorating something.
+  name: 纪念物 丨 memorial
+  description: 纪念某事。 丨 Commemorating something.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Memorials/generic_memorial.rsi
@@ -32,8 +32,8 @@
 - type: entity
   id: SS13Memorial
   parent: BaseStructure
-  name: tomb of the unknown employee
-  description: |
+  name: 无名员工的坟墓 丨 tomb of the unknown employee
+  description: 无名员工的坟墓 丨 |
     Here rests an unknown employee
     Unknown by name or rank
     Whose acts will not be forgotten

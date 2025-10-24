@@ -1,8 +1,8 @@
 - type: entity
-  name: forensic scanner
+  name: 法医扫描仪 丨 forensic scanner
   parent: [BaseItem, RecyclableItemDeviceSmall] # Frontier: added RecyclableItemDeviceSmall, removed BaseSecurityContraband
   id: ForensicScanner
-  description: A handheld device that can scan objects for fingerprints and fibers.
+  description: 一种可以扫描物体以获取指纹和纤维的手持设备。 丨 A handheld device that can scan objects for fingerprints and fibers.
   components:
   - type: Sprite
     sprite: _NF/Objects/Devices/forensic_scanner.rsi # Frontier: add _NF
@@ -33,7 +33,7 @@
   - type: ItemSlots # Frontier
     slots: # Frontier
       forensics_cartridge: # Frontier
-        name: forensic-scanner-slot-component-slot-name-cartridge # Frontier
+        name: 法证扫描仪插槽组件插槽名称-墨盒 # Frontier 丨 forensic-scanner-slot-component-slot-name-cartridge # Frontier
         insertSound: /Audio/Machines/id_insert.ogg # Frontier
         ejectSound: /Audio/Machines/id_swipe.ogg # Frontier
         whitelist: # Frontier
@@ -53,10 +53,10 @@
       forensics_cartridge: !type:ContainerSlot {} # Frontier
 
 - type: entity
-  name: forensic scanner report
+  name: 法医扫描报告 丨 forensic scanner report
   parent: Paper
   id: ForensicReportPaper
-  description: Circumstantial evidence, at best.
+  description: 充其量只是间接证据。 丨 Circumstantial evidence, at best.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: ForensicReportPaper
   id: PaperAccessLogs
-  name: access logs
-  description: A printout from the detective's trusty LogProbe.
+  name: 访问日志 丨 access logs
+  description: 一份来自侦探可靠的日志探测器的打印输出。 丨 A printout from the detective's trusty LogProbe.
   components:
   - type: PaperVisuals
     headerImagePath: null

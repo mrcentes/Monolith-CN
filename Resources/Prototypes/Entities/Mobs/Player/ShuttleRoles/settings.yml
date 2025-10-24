@@ -10,8 +10,8 @@
   parent: EventHumanoidMindShielded
   components:
     - type: GhostRole
-      name: ghost-role-information-command-name
-      description: ghost-role-information-command-description
+      name: 幽灵角色信息命令名称 丨 ghost-role-information-command-name
+      description: 幽灵角色信息命令描述 丨 ghost-role-information-command-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default
@@ -21,8 +21,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-captain
-      description: ghost-role-information-command-description
+      name: 船长职务名称 丨 job-name-captain
+      description: 幽灵角色信息命令描述 丨 ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorCaptain, VisitorCaptainAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -32,8 +32,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-ce
-      description: ghost-role-information-command-description
+      name: 职务名称-CE 丨 job-name-ce
+      description: ghost-role-information-command-description 丨 ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorCE, VisitorCEAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -43,8 +43,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-cmo
-      description: ghost-role-information-command-description
+      name: 首席医务官 丨 job-name-cmo
+      description: 幽灵角色信息命令描述 丨 ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorCMO, VisitorCMOAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -54,8 +54,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-hop
-      description: ghost-role-information-command-description
+      name: 职位名称：HOP 丨 job-name-hop
+      description: ghost-role-information-command-description 丨 ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorHOP, VisitorHOPAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -65,8 +65,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-hos
-      description: ghost-role-information-command-description
+      name: 医疗主管 丨 job-name-hos
+      description: ghost-role-information-command-description 丨 ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorHOS, VisitorHOSAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -76,8 +76,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-rd
-      description: ghost-role-information-command-description
+      name: 研究主任 丨 job-name-rd
+      description: ghost-role-information-command-description 丨 ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorRD, VisitorRDAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -87,8 +87,8 @@
   parent: VisitorHead
   components:
     - type: GhostRole
-      name: job-name-qm
-      description: ghost-role-information-command-description
+      name: 职务名称-质量管理 丨 job-name-qm
+      description: 幽灵角色信息命令描述 丨 ghost-role-information-command-description
     - type: Loadout
       prototypes: [ VisitorQM, VisitorQMAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -101,8 +101,8 @@
   parent: EventHumanoidMindShielded
   components:
     - type: GhostRole
-      name: ghost-role-information-security-name
-      description: ghost-role-information-security-description
+      name: 幽灵角色信息安全名称 丨 ghost-role-information-security-name
+      description: 幽灵角色信息安全描述 丨 ghost-role-information-security-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default
@@ -112,7 +112,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: job-name-cadet
+      name: 职位名称-学员 丨 job-name-cadet
     - type: Loadout
       prototypes: [ VisitorSecurityCadet, VisitorSecurityCadetAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -122,7 +122,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: job-name-security
+      name: 作业名称安全性 丨 job-name-security
     - type: Loadout
       prototypes: [ VisitorSecurityOfficer, VisitorSecurityOfficerAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -132,7 +132,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: job-name-detective
+      name: 职位名称侦探 丨 job-name-detective
     - type: Loadout
       prototypes: [ VisitorDetective, VisitorDetectiveAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -142,7 +142,7 @@
   parent: VisitorSecurity
   components:
     - type: GhostRole
-      name: job-name-warden
+      name: 作业名称看守人 丨 job-name-warden
     - type: Loadout
       prototypes: [ VisitorWarden, VisitorWardenAlt ]
       roleLoadout: [ RoleSurvivalSecurity ]
@@ -154,8 +154,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-cargo-name
-      description: ghost-role-information-cargo-description
+      name: 幽灵角色信息货物名称 丨 ghost-role-information-cargo-name
+      description: 幽灵角色信息货物描述 丨 ghost-role-information-cargo-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -165,7 +165,7 @@
   parent: VisitorCargonian
   components:
     - type: GhostRole
-      name: job-name-cargotech
+      name: 职位名称-货运技术 丨 job-name-cargotech
     - type: Loadout
       prototypes: [ VisitorCargoTech, VisitorCargoTechAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -175,7 +175,7 @@
   parent: VisitorCargonian
   components:
     - type: GhostRole
-      name: job-name-salvagespec
+      name: 作业名称打捞规范 丨 job-name-salvagespec
     - type: Loadout
       prototypes: [ VisitorSalvageSpecialist, VisitorSalvageSpecialistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -187,8 +187,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-engineering-name
-      description: ghost-role-information-engineering-description
+      name: 幽灵角色信息工程名称 丨 ghost-role-information-engineering-name
+      description: 幽灵角色信息工程描述 丨 ghost-role-information-engineering-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -198,7 +198,7 @@
   parent: VisitorEngineering
   components:
     - type: GhostRole
-      name: job-name-atmostech
+      name: job-name-atmostech 丨 job-name-atmostech
     - type: Loadout
       prototypes: [ VisitorAtmosTech, VisitorAtmosTechAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -208,7 +208,7 @@
   parent: VisitorEngineering
   components:
     - type: GhostRole
-      name: job-name-technical-assistant
+      name: 职位名称-技术助理 丨 job-name-technical-assistant
     - type: Loadout
       prototypes: [ VisitorTechnicalAssistant, VisitorTechnicalAssistantAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -218,7 +218,7 @@
   parent: VisitorEngineering
   components:
     - type: GhostRole
-      name: job-name-engineer
+      name: 职位名称-工程师 丨 job-name-engineer
     - type: Loadout
       prototypes: [ VisitorEngineer, VisitorEngineerAlt ]
       roleLoadout: [ RoleSurvivalExtended ]
@@ -230,8 +230,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-medical-name
-      description: ghost-role-information-medical-description
+      name: 幽灵角色信息医疗名称 丨 ghost-role-information-medical-name
+      description: 幽灵角色信息医疗描述 丨 ghost-role-information-medical-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -241,7 +241,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: job-name-intern
+      name: 职位名称-实习生 丨 job-name-intern
     - type: Loadout
       prototypes: [ VisitorMedicalIntern, VisitorMedicalInternAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -251,7 +251,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: job-name-doctor
+      name: 职位名称-医生 丨 job-name-doctor
     - type: Loadout
       prototypes: [ VisitorMedicalDoctor, VisitorMedicalDoctorAlt , VisitorScrubsPurple, VisitorScrubsGreen, VisitorScrubsBlue]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -261,7 +261,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: job-name-paramedic
+      name: 工作名称-护理人员 丨 job-name-paramedic
     - type: Loadout
       prototypes: [ VisitorParamedic, VisitorParamedicAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -271,7 +271,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: ghost-role-information-medical-virologist-name
+      name: 幽灵角色信息-医学病毒学家-姓名 丨 ghost-role-information-medical-virologist-name
     - type: Loadout
       prototypes: [ VisitorVirologist, VisitorVirologistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -281,7 +281,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: ghost-role-information-medical-geneticist-name
+      name: 幽灵角色信息-医学遗传学家-姓名 丨 ghost-role-information-medical-geneticist-name
     - type: Loadout
       prototypes: [ VisitorGeneticist, VisitorGeneticistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -291,7 +291,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: job-name-psychologist
+      name: 职位名称-心理学家 丨 job-name-psychologist
     - type: Loadout
       prototypes: [ VisitorPsychologist, VisitorPsychologistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -301,7 +301,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: job-name-chemist
+      name: 职位名称-化学家 丨 job-name-chemist
     - type: Loadout
       prototypes: [ VisitorChemist, VisitorChemistAlt ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -311,7 +311,7 @@
   parent: VisitorMedical
   components:
     - type: GhostRole
-      name: ghost-role-information-medical-dentist-name
+      name: 幽灵角色信息-医疗-牙医-姓名 丨 ghost-role-information-medical-dentist-name
     - type: Loadout
       prototypes: [ VisitorDentist ]
       roleLoadout: [ RoleSurvivalMedical ]
@@ -323,8 +323,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-science-name
-      description: ghost-role-information-science-description
+      name: 幽灵角色信息科学名称 丨 ghost-role-information-science-name
+      description: 幽灵角色信息科学描述 丨 ghost-role-information-science-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -334,7 +334,7 @@
   parent: VisitorScience
   components:
     - type: GhostRole
-      name: job-name-research-assistant
+      name: 职位名称研究助理 丨 job-name-research-assistant
     - type: Loadout
       prototypes: [ VisitorResearchAssistant, VisitorResearchAssistantAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -344,7 +344,7 @@
   parent: VisitorScience
   components:
     - type: GhostRole
-      name: job-name-scientist
+      name: 工作名称-科学家 丨 job-name-scientist
     - type: Loadout
       prototypes: [ VisitorScientist, VisitorScientistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -356,8 +356,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-civilian-name
-      description: ghost-role-information-civilian-description
+      name: ghost-role-information-civilian-name 丨 ghost-role-information-civilian-name
+      description: 幽灵角色信息-平民描述 丨 ghost-role-information-civilian-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -367,7 +367,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-bartender
+      name: 职位名称-调酒师 丨 job-name-bartender
     - type: Loadout
       prototypes: [ VisitorBartender, VisitorBartenderAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -377,7 +377,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-botanist
+      name: 职位名称-植物学家 丨 job-name-botanist
     - type: Loadout
       prototypes: [ VisitorBotanist, VisitorBotanistAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -387,7 +387,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-boxer
+      name: 作业名称拳击手 丨 job-name-boxer
     - type: Loadout
       prototypes: [ VisitorBoxer, VisitorBoxerAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -398,7 +398,7 @@
   components:
     - type: BibleUser
     - type: GhostRole
-      name: job-name-chaplain
+      name: 职位名称-牧师 丨 job-name-chaplain
     - type: Loadout
       prototypes: [ VisitorChaplain, VisitorChaplainAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -408,7 +408,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-chef
+      name: 职位名称：厨师 丨 job-name-chef
     - type: Loadout
       prototypes: [ VisitorChef, VisitorChefAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -419,7 +419,7 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: job-name-clown
+      name: 职位名称-小丑 丨 job-name-clown
     - type: Loadout
       prototypes: [ VisitorClown ]
       roleLoadout: [ RoleSurvivalClown ]
@@ -432,7 +432,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-janitor
+      name: 工作名称-清洁工 丨 job-name-janitor
     - type: Loadout
       prototypes: [ VisitorJanitor, VisitorJanitorAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -442,7 +442,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-lawyer
+      name: 职位名称-律师 丨 job-name-lawyer
     - type: Loadout
       prototypes: [ VisitorLawyerAltA, VisitorLawyerAltB, VisitorLawyerAltC, VisitorLawyerAltD, VisitorLawyerAltE ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -452,8 +452,8 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: ghost-role-information-civilian-centcom-lawyer-name
-      description: ghost-role-information-civilian-centcom-lawyer-description
+      name: 中央司令部律师 丨 ghost-role-information-civilian-centcom-lawyer-name
+      description: 幽灵角色信息-平民-中央司令部律师-描述 丨 ghost-role-information-civilian-centcom-lawyer-description
     - type: Loadout
       prototypes: [ VisitorLawyerCentcom ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -463,7 +463,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-librarian
+      name: 职位名称-图书管理员 丨 job-name-librarian
     - type: Loadout
       prototypes: [ VisitorLibrarian, VisitorLibrarianAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -473,7 +473,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-musician
+      name: 工作名称-音乐家 丨 job-name-musician
     - type: Loadout
       prototypes: [ VisitorMusicianFancyAltA, VisitorMusicianFancyAltB, VisitorMusicianFancyAltC, VisitorMusicianFancyAltD, VisitorMusicianFancyAltE, VisitorMusicianFancyAltF, VisitorMusicianFancyAltG, VisitorMusicianFancyAltH, VisitorMusicianFancyAltI, VisitorMusicianRelaxedAltA, VisitorMusicianRelaxedAltB, VisitorMusicianRelaxedAltC, VisitorMusicianRelaxedAltD, VisitorMusicianRelaxedAltE, VisitorMusicianRelaxedAltF, VisitorMusicianMariachi ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -483,7 +483,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-musician
+      name: 工作名称-音乐家 丨 job-name-musician
     - type: Loadout
       prototypes: [ VisitorMusicianFancyAltA, VisitorMusicianFancyAltB, VisitorMusicianFancyAltC, VisitorMusicianFancyAltD, VisitorMusicianFancyAltE, VisitorMusicianFancyAltF, VisitorMusicianFancyAltG, VisitorMusicianFancyAltH, VisitorMusicianFancyAltI ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -493,7 +493,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-musician
+      name: 工作名称-音乐家 丨 job-name-musician
     - type: Loadout
       prototypes: [ VisitorMusicianRelaxedAltA, VisitorMusicianRelaxedAltB, VisitorMusicianRelaxedAltC, VisitorMusicianRelaxedAltD, VisitorMusicianRelaxedAltE, VisitorMusicianRelaxedAltF, VisitorMusicianMariachi ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -504,7 +504,7 @@
   components:
     - type: MimePowers
     - type: GhostRole
-      name: job-name-mime
+      name: 作业名称MIME类型 丨 job-name-mime
     - type: Loadout
       prototypes: [ VisitorMime, VisitorMimeAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -514,7 +514,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-reporter
+      name: 任务名称报告器 丨 job-name-reporter
     - type: Loadout
       prototypes: [ VisitorReporter, VisitorReporterAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -524,7 +524,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-serviceworker
+      name: 作业名服务工作者 丨 job-name-serviceworker
     - type: Loadout
       prototypes: [ VisitorServiceWorker, VisitorServiceWorkerAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -534,7 +534,7 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: job-name-zookeeper
+      name: 任务名称-zookeeper 丨 job-name-zookeeper
     - type: Loadout
       prototypes: [ VisitorZookeeper, VisitorZookeeperAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
@@ -564,8 +564,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description
+      name: 幽灵角色信息-丢失的挑战指挥官名称 丨 ghost-role-information-lost-challenge-commander-name
+      description: 幽灵角色信息-丢失的挑战指挥官描述 丨 ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -583,8 +583,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description
+      name: 幽灵角色信息丢失挑战指挥官名称 丨 ghost-role-information-lost-challenge-commander-name
+      description: 幽灵角色信息-丢失挑战指挥官-描述 丨 ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -602,8 +602,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description
+      name: 幽灵角色信息-丢失的挑战指挥官名称 丨 ghost-role-information-lost-challenge-commander-name
+      description: 幽灵角色信息-丢失挑战指挥官-描述 丨 ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -621,8 +621,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description
+      name: 幽灵角色信息丢失挑战指挥官名称 丨 ghost-role-information-lost-challenge-commander-name
+      description: 幽灵角色信息-丢失挑战指挥官-描述 丨 ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -640,8 +640,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description
+      name: 幽灵角色信息丢失挑战指挥官名称 丨 ghost-role-information-lost-challenge-commander-name
+      description: 幽灵角色信息-丢失挑战指挥官-描述 丨 ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -659,8 +659,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description
+      name: 幽灵角色信息丢失挑战指挥官名称 丨 ghost-role-information-lost-challenge-commander-name
+      description: 幽灵角色信息-丢失挑战指挥官-描述 丨 ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -678,8 +678,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-commander-name
-      description: ghost-role-information-lost-challenge-commander-description
+      name: 幽灵角色信息丢失挑战指挥官名称 丨 ghost-role-information-lost-challenge-commander-name
+      description: 幽灵角色信息-丢失挑战指挥官-描述 丨 ghost-role-information-lost-challenge-commander-description
       rules: ghost-role-information-lost-challenge-commander-rules
       raffle:
         settings: default
@@ -702,8 +702,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-lost-challenge-cargo-technican-name
-      description: ghost-role-information-lost-challenge-cargo-technican-description
+      name: 幽灵角色信息丢失挑战货舱技术员名称 丨 ghost-role-information-lost-challenge-cargo-technican-name
+      description: 幽灵角色信息-丢失的挑战-货物技术员描述 丨 ghost-role-information-lost-challenge-cargo-technican-description
       rules: ghost-role-information-lost-disaster-challenge-cargo-technican-rules
       raffle:
         settings: short
@@ -737,8 +737,8 @@
       - Syndicate
     - type: NukeOperative
     - type: GhostRole
-      name: ghost-role-information-syndie-soldier-teamlead-name
-      description: ghost-role-information-syndie-soldier-teamlead-description
+      name: 幽灵角色信息-辛迪士兵队长-名称 丨 ghost-role-information-syndie-soldier-teamlead-name
+      description: 幽灵角色信息-辛迪士兵队长-描述 丨 ghost-role-information-syndie-soldier-teamlead-description
       rules: ghost-role-information-rules-team-antagonist
       raffle:
         settings: default
@@ -755,8 +755,8 @@
       - Syndicate
     - type: NukeOperative
     - type: GhostRole
-      name: ghost-role-information-syndie-soldier-name
-      description: ghost-role-information-syndie-soldier-description
+      name: 幽灵角色信息-辛迪士兵名称 丨 ghost-role-information-syndie-soldier-name
+      description: 幽灵角色信息-辛迪士兵描述 丨 ghost-role-information-syndie-soldier-description
       rules: ghost-role-information-rules-team-antagonist
       raffle:
         settings: default
@@ -772,8 +772,8 @@
       factions:
       - Syndicate
     - type: GhostRole
-      name: ghost-role-information-syndie-disaster-victim-name
-      description: ghost-role-information-syndie-disaster-victim-description
+      name: 辛迪灾难受害者姓名 丨 ghost-role-information-syndie-disaster-victim-name
+      description: 幽灵角色信息-辛迪灾难受害者描述 丨 ghost-role-information-syndie-disaster-victim-description
       rules: ghost-role-information-freeagent-rules
       mindRoles:
       - MindRoleGhostRoleFreeAgent
@@ -791,8 +791,8 @@
       factions:
       - Syndicate
     - type: GhostRole
-      name: ghost-role-information-pirate-name
-      description: ghost-role-information-pirate-description
+      name: 幽灵角色信息海盗名称 丨 ghost-role-information-pirate-name
+      description: 幽灵角色信息海盗描述 丨 ghost-role-information-pirate-description
       rules: ghost-role-information-rules-team-antagonist
       raffle:
         settings: default
@@ -808,8 +808,8 @@
       factions:
       - Syndicate
     - type: GhostRole
-      name: ghost-role-information-pirate-captain-name
-      description: ghost-role-information-pirate-captain-description
+      name: 幽灵角色信息-海盗船长名称 丨 ghost-role-information-pirate-captain-name
+      description: 幽灵角色信息海盗船长描述 丨 ghost-role-information-pirate-captain-description
       rules: ghost-role-information-rules-team-antagonist
       raffle:
         settings: default
@@ -824,8 +824,8 @@
   parent: EventHumanoid
   components:
     - type: GhostRole
-      name: ghost-role-information-blackmarketeer-name
-      description: ghost-role-information-blackmarketeer-description
+      name: 黑市商人 丨 ghost-role-information-blackmarketeer-name
+      description: 幽灵角色信息-黑市商人-描述 丨 ghost-role-information-blackmarketeer-description
       rules: ghost-role-information-freeagent-rules
       raffle:
         settings: default
@@ -842,8 +842,8 @@
     - type: SlurredAccent
     - type: SouthernAccent
     - type: GhostRole
-      name: ghost-role-information-cossack-name
-      description: ghost-role-information-cossack-description
+      name: 哥萨克幽灵角色名称 丨 ghost-role-information-cossack-name
+      description: 幽灵角色信息哥萨克描述 丨 ghost-role-information-cossack-description
       rules: ghost-role-information-freeagent-rules
       raffle:
         settings: default

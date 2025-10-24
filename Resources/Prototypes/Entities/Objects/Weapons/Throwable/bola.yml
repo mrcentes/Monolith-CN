@@ -1,8 +1,8 @@
 - type: entity
-  name: bola
+  name: 流星锤 丨 bola
   parent: [BaseItem, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
   id: Bola
-  description: Linked together with some spare cuffs and metal.
+  description: 用一些备用的手铐和金属环相连。 丨 Linked together with some spare cuffs and metal.
   components:
   - type: WeaponCaseInsertable # Frontier
   - type: Item

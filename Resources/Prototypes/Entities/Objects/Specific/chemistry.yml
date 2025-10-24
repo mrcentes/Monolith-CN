@@ -244,9 +244,9 @@
     solution: beaker # Frontier
 
 - type: entity
-  name: beaker
+  name: 烧杯 丨 beaker
   parent: BaseBeaker
-  description: Used to contain a moderate amount of chemicals and solutions.
+  description: 用于盛装适量化学品和溶液。 丨 Used to contain a moderate amount of chemicals and solutions.
   id: Beaker
   components:
   - type: Spillable
@@ -278,9 +278,9 @@
           Quantity: 50
 
 - type: entity
-  name: large beaker
+  name: 大烧杯 丨 large beaker
   parent: BaseBeaker
-  description: Used to contain a large amount of chemicals or solutions.
+  description: 用于盛装大量化学品或溶液。 丨 Used to contain a large amount of chemicals or solutions.
   id: LargeBeaker
   components:
   - type: Spillable
@@ -312,9 +312,9 @@
     price: 20
 
 - type: entity
-  name: cryostasis beaker
+  name: 低温储存烧杯 丨 cryostasis beaker
   parent: BaseBeakerMetallic
-  description: Used to contain chemicals or solutions without reactions.
+  description: 用于盛放化学品或溶液而不发生反应。 丨 Used to contain chemicals or solutions without reactions.
   id: CryostasisBeaker
   components:
   - type: Spillable
@@ -332,9 +332,9 @@
         canReact: false
 
 - type: entity
-  name: bluespace beaker
+  name: 蓝空间烧杯 丨 bluespace beaker
   parent: BaseBeakerMetallic
-  description: Powered by experimental bluespace technology.
+  description: 由实验性蓝空技术驱动。 丨 Powered by experimental bluespace technology.
   id: BluespaceBeaker
   components:
   - type: Spillable
@@ -351,9 +351,9 @@
         maxVol: 1000
 
 - type: entity
-  name: dropper
+  name: 滴管 丨 dropper
   parent: [BaseItem, RecyclableItemGlassTiny] # Frontier: added RecyclableItemGlassTiny
-  description: Used to transfer small amounts of chemical solution between containers.
+  description: 用于在容器之间转移少量化学溶液。 丨 Used to transfer small amounts of chemical solution between containers.
   id: Dropper
   components:
   - type: Sprite
@@ -400,9 +400,9 @@
     - Dropper
 
 - type: entity
-  name: borgdropper
+  name: 博格滴管 丨 borgdropper
   parent: Dropper
-  description: Used to transfer small amounts of chemical solution between containers. Extended for use by medical borgs.
+  description: 用于在不同容器间转移少量化学溶液。扩展供医疗机器人使用。 丨 Used to transfer small amounts of chemical solution between containers. Extended for use by medical borgs.
   id: BorgDropper
   components:
   - type: Sprite
@@ -420,9 +420,9 @@
     sprite: _DV/Objects/Specific/Chemistry/dropper.rsi # DeltaV - Resprited some medical items
 
 - type: entity
-  name: syringe
+  name: 注射器 丨 syringe
   parent: BaseItem
-  description: Used to draw blood samples from mobs, or to inject them with reagents.
+  description: 用于从生物身上抽取血样，或向其注射试剂。 丨 Used to draw blood samples from mobs, or to inject them with reagents.
   id: BaseSyringe
   abstract: true
   components:
@@ -475,9 +475,9 @@
     - Trash
 
 - type: entity
-  name: mini syringe
+  name: 微型注射器 丨 mini syringe
   parent: Syringe
-  description: A regular syringe, reshaped to fit inside of a gun.
+  description: 普通注射器，经改造后可装入枪内。 丨 A regular syringe, reshaped to fit inside of a gun.
   id: MiniSyringe
   components:
   - type: Sprite
@@ -553,8 +553,8 @@
 - type: entity
   id: SyringeBluespace
   parent: BaseSyringe
-  name: bluespace syringe
-  description: Injecting with advanced bluespace technology.
+  name: 蓝空注射器 丨 bluespace syringe
+  description: 采用先进的蓝空间技术进行注射。 丨 Injecting with advanced bluespace technology.
   components:
   - type: Sprite
     layers:
@@ -584,8 +584,8 @@
 - type: entity
   id: SyringeCryostasis
   parent: BaseSyringe
-  name: cryostasis syringe
-  description: A syringe used to contain chemicals or solutions without reactions.
+  name: 低温休眠注射器 丨 cryostasis syringe
+  description: 用于储存化学品或溶液而不发生反应的注射器。 丨 A syringe used to contain chemicals or solutions without reactions.
   components:
   - type: Sprite
     layers:
@@ -614,10 +614,10 @@
 
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   parent: [BaseItem, RecyclableItemNoMats] # Frontier: added RecyclableItemNoMats
   id: Pill
-  description: It's not a suppository.
+  description: 这不是栓剂。 丨 It's not a suppository.
   components:
   - type: Sprite
     sprite: _DV/Objects/Specific/Chemistry/pills.rsi # DeltaV - Resprited some medical items
@@ -664,10 +664,10 @@
     - Pill
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   id: PillCanister
   parent: [BaseStorageItem, RecyclableItemPlasticTiny] # Frontier: added RecyclableItemPlasticTiny
-  description: Holds up to 10 pills.
+  description: 最多可容纳10粒药丸。 丨 Holds up to 10 pills.
   components:
   - type: Item
     size: Tiny

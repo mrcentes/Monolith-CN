@@ -21,10 +21,10 @@
 # Cautery
 
 - type: entity
-  name: cautery
+  name: 烧灼器 丨 cautery
   id: Cautery
   parent: BaseToolSurgery
-  description: A surgical tool used to cauterize open wounds.
+  description: 一种用于烧灼开放性伤口的外科工具。 丨 A surgical tool used to cauterize open wounds.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/cautery.rsi
@@ -49,10 +49,10 @@
 # Drill
 
 - type: entity
-  name: drill
+  name: 钻头 丨 drill
   id: Drill
   parent: BaseToolSurgery
-  description: A surgical drill for making holes into hard material.
+  description: 一种用于在硬质材料上钻孔的外科手术钻。 丨 A surgical drill for making holes into hard material.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/drill.rsi
@@ -79,10 +79,10 @@
 # Scalpel
 
 - type: entity
-  name: scalpel
+  name: 手术刀 丨 scalpel
   id: Scalpel
   parent: BaseToolSurgery
-  description: A surgical tool used to make incisions into flesh.
+  description: 一种用于在肉体上切口的 surgical tool。 丨 A surgical tool used to make incisions into flesh.
   components:
   - type: Sharp
     butcherDelayModifier: 1.5 # Butchering with a scalpel, regardless of the type, will take 50% longer
@@ -117,10 +117,10 @@
   - type: Scalpel
 
 - type: entity
-  name: shiv
+  name: 玻璃片刀 丨 shiv
   id: ScalpelShiv
   parent: Scalpel
-  description: A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
+  description: 一片尖利的玻璃，磨出锋刃，再用胶带缠绕成柄。# 若配以合适的工具改装，或可成为一件趁手的工具或武器。 丨 A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -131,10 +131,10 @@
     heldPrefix: shiv
 
 - type: entity
-  name: advanced scalpel
+  name: 高级手术刀 丨 advanced scalpel
   id: ScalpelAdvanced
   parent: Scalpel
-  description: Made of more expensive materials, sharper and generally more reliable.
+  description: 采用更昂贵的材料制成，更锋利且通常更可靠。 丨 Made of more expensive materials, sharper and generally more reliable.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -151,10 +151,10 @@
     speed: 1.25
 
 - type: entity
-  name: laser scalpel
+  name: 激光手术刀 丨 laser scalpel
   id: ScalpelLaser
   parent: Scalpel
-  description: A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
+  description: 一种使用定向激光而非刀片进行切割的手术刀，可在实现更精确手术的同时，在切割过程中进行烧灼止血。 丨 A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -170,10 +170,10 @@
 # Retractor
 
 - type: entity
-  name: retractor
+  name: 牵开器 丨 retractor
   id: Retractor
   parent: BaseToolSurgery
-  description: A surgical tool used to hold open incisions.
+  description: 一种用于保持切口张开的外科手术工具。 丨 A surgical tool used to hold open incisions.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/retractor.rsi
@@ -192,10 +192,10 @@
 # Hemostat
 
 - type: entity
-  name: hemostat
+  name: 止血钳 丨 hemostat
   id: Hemostat
   parent: BaseToolSurgery # Shitmed Change
-  description: A surgical tool used to compress blood vessels to prevent bleeding.
+  description: 一种用于压迫血管以防止出血的外科手术工具。 丨 A surgical tool used to compress blood vessels to prevent bleeding.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/hemostat.rsi # Shitmed Change
@@ -218,8 +218,8 @@
 - type: entity
   parent: BaseToolSurgery
   id: Bonesetter
-  name: bone setter
-  description: Used for setting bones back into place.
+  name: 正骨师 丨 bone setter
+  description: 用于将骨头复位。 丨 Used for setting bones back into place.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bonesetter.rsi
@@ -232,8 +232,8 @@
 - type: entity
   parent: BaseToolSurgery
   id: BoneGel
-  name: bottle of bone gel
-  description: A container for bone gel that often needs to be refilled from a specialized machine.
+  name: 瓶装骨胶 丨 bottle of bone gel
+  description: 一个用于盛装骨骼凝胶的容器，通常需要通过专用机器补充凝胶。 丨 A container for bone gel that often needs to be refilled from a specialized machine.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bone-gel.rsi
@@ -243,10 +243,10 @@
 # Saws
 
 - type: entity
-  name: metal saw
+  name: 金属锯 丨 metal saw
   id: Saw
   parent: BaseToolSurgery
-  description: For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
+  description: 用于将木材及其他物品切割成段。或在紧急情况下锯断骨头。 丨 For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
   components:
   - type: Sharp
   - type: Utensil
@@ -270,10 +270,10 @@
 # No melee for regular saw because have you ever seen someone use a band saw as a weapon? It's dumb.
 
 - type: entity
-  name: choppa
+  name: 砍刀 丨 choppa
   id: SawImprov
   parent: Saw
-  description: A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
+  description: 一把邪恶的锯齿状刀刃，由你能找到的各种 nasty 尖锐之物制成。# 考虑到还有更多空间安装工具模组，这会是相当不错的武器。 丨 A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
   components:
   - type: Sprite
     state: improv
@@ -292,10 +292,10 @@
     speed: 0.5
 
 - type: entity
-  name: circular saw
+  name: 圆锯 丨 circular saw
   id: SawElectric
   parent: Saw
-  description: For heavy duty cutting.
+  description: 适用于重型切割。 丨 For heavy duty cutting.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/circular-saw.rsi
@@ -315,10 +315,10 @@
     speed: 1.5
 
 - type: entity
-  name: advanced circular saw
+  name: 高级圆锯 丨 advanced circular saw
   id: SawAdvanced
   parent: [ SawElectric, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  description: You think you can cut anything with it.
+  description: 你以为用它什么都能切。 丨 You think you can cut anything with it.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/saw.rsi
@@ -340,10 +340,10 @@
 # Shitmed Tools
 
 - type: entity
-  name: searing tool
+  name: 烧灼工具 丨 searing tool
   id: EnergyCautery
   parent: Cautery
-  description: A cautery with an energy tip, also serves as a drill in its powered state.
+  description: 带有能量尖端的烧灼工具，在通电状态下亦可作为钻头使用。 丨 A cautery with an energy tip, also serves as a drill in its powered state.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-cautery.rsi
@@ -373,10 +373,10 @@
     price: 120
 
 - type: entity
-  name: energy scalpel
+  name: 能量手术刀 丨 energy scalpel
   id: EnergyScalpel
   parent: Scalpel
-  description: A scalpel which uses an energy blade, also serves as a saw in its powered state.
+  description: 一种使用能量刀刃的手术刀，在充能状态下亦可充当锯子使用。 丨 A scalpel which uses an energy blade, also serves as a saw in its powered state.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-scalpel.rsi
@@ -406,10 +406,10 @@
     price: 120
 
 - type: entity
-  name: mechanical pinches
+  name: 机械钳 丨 mechanical pinches
   id: AdvancedRetractor
   parent: Retractor
-  description: A retractor with mechanical pinches, also serves as a hemostat in its powered state.
+  description: 带有机械夹的牵开器，在其动力状态下也可用作止血钳。 丨 A retractor with mechanical pinches, also serves as a hemostat in its powered state.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/adv-retractor.rsi
@@ -443,7 +443,7 @@
     price: 120
 
 - type: entity
-  name: medical multitool
+  name: 医疗多用工具 丨 medical multitool
   id: OmnimedTool
   parent: BaseToolSurgery
   components:

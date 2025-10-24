@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsChameleon # doesn't protect from electricity or heat
-  name: black gloves
-  description: Regular black gloves that do not keep you from frying.
+  name: 黑手套 丨 black gloves
+  description: 不会妨碍你煎炸的普通黑色手套。 丨 Regular black gloves that do not keep you from frying.
   suffix: Chameleon
   components:
     - type: Tag

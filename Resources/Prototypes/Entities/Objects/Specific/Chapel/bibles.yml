@@ -1,6 +1,6 @@
 - type: entity
-  name: bible
-  description: New Interstellar Version 2340.
+  name: 星际新约2340版 丨 bible
+  description: 新星际版 2340 丨 New Interstellar Version 2340.
   parent: BaseStorageItem
   id: Bible
   components:
@@ -57,8 +57,8 @@
 
 - type: entity
   parent: [Bible, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  name: necronomicon
-  description: "There's a note: Klatuu, Verata, Nikto -- Don't forget it again!"
+  name: 死灵之书 丨 necronomicon
+  description: 有一条备注：克拉图，维拉塔，尼科托——别再忘了！ 丨 "There's a note Klatuu, Verata, Nikto -- Don't forget it again!"
   id: BibleNecronomicon
   components:
   - type: Bible
@@ -85,8 +85,8 @@
 
 - type: entity
   id: ActionBibleSummon
-  name: Summon familiar
-  description: Summon a familiar that will aid you and gain humanlike intelligence once inhabited by a soul.
+  name: 召唤使魔 丨 Summon familiar
+  description: 召唤一个使魔，它将在被灵魂附身后获得类人智慧并为你提供帮助。 丨 Summon a familiar that will aid you and gain humanlike intelligence once inhabited by a soul.
   components:
   - type: InstantAction
     icon: { sprite: Clothing/Head/Hats/witch.rsi, state: icon }

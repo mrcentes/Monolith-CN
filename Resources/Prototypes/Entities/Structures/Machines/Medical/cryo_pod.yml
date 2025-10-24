@@ -18,8 +18,8 @@
 - type: entity
   parent: [BaseStructure, ConstructibleMachine] # Not a BaseMachinePowered since we don't want the anchorable component
   id: CryoPod
-  name: cryo pod
-  description: A special machine intended to create a safe environment for the use of chemicals that react in cold environments.
+  name: 低温舱 丨 cryo pod
+  description: 一种特殊机器，旨在为在寒冷环境中发生反应的化学品使用创造安全环境。 丨 A special machine intended to create a safe environment for the use of chemicals that react in cold environments.
   components:
   - type: Sprite
     sprite: Structures/Machines/cryogenics.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: BaseStructure
   id: CryoPodDestroyed
-  name: destroyed cryo pod
-  description: A cryo pod that has seen better days. It's entirely inoperable; not good for anything but scrap.
+  name: 损坏的冷冻舱 丨 destroyed cryo pod
+  description: 一个饱经沧桑的冷冻舱。它已完全无法运作；除了当废料处理外别无用处。 丨 A cryo pod that has seen better days. It's entirely inoperable; not good for anything but scrap.
   components:
   - type: Sprite
     sprite: Structures/Machines/cryogenics.rsi

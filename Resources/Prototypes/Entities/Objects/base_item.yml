@@ -1,5 +1,5 @@
 - type: entity
-  name: "item"
+  name: 项目 丨 "item"
   id: BaseItem
   abstract: true
   components:
@@ -60,7 +60,7 @@
   - type: DamageExaminable
 
 - type: entity
-  name: "storage item"
+  name: 存储项目 丨 "storage item"
   id: BaseStorageItem
   parent: BaseItem
   abstract: true
@@ -103,7 +103,7 @@
     - type: ItemSlots
       slots:
         cell_slot:
-          name: power-cell-slot-component-slot-name-default
+          name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
           startingItem: PowerCellSmall
 
 - type: entity
@@ -118,7 +118,7 @@
     - type: ItemSlots
       slots:
         cell_slot:
-          name: power-cell-slot-component-slot-name-default
+          name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
           startingItem: PowerCellMedium
 
 - type: entity
@@ -133,5 +133,5 @@
     - type: ItemSlots
       slots:
         cell_slot:
-          name: power-cell-slot-component-slot-name-default
+          name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
           startingItem: PowerCellHigh

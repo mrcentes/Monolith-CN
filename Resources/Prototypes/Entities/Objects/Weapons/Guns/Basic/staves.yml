@@ -1,10 +1,10 @@
 # To be implemented: see #9072
 
 - type: entity
-  name: staff of healing
+  name: 治愈法杖 丨 staff of healing
   parent: WeaponStaffBase
   id: WeaponStaffHealing
-  description: You don't foresee having to use this in your quest for carnage too often.
+  description: 你在追求杀戮的道路上应该不会频繁用到这件物品。 丨 You don't foresee having to use this in your quest for carnage too often.
   components:
   - type: Sprite
     layers:
@@ -20,10 +20,10 @@
     count: 10
 
 - type: entity
-  name: staff of entrance
+  name: 入口之杖 丨 staff of entrance
   parent: WeaponStaffBase
   id: WeaponStaffPolymorphDoor
-  description: For when you need a get-away route.
+  description: 当你需要一条逃生路线时。 丨 For when you need a get-away route.
   components:
   - type: Sprite
     layers:

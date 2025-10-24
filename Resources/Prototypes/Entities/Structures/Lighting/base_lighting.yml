@@ -6,8 +6,8 @@
 #Basic lights
 - type: entity
   id: AlwaysPoweredWallLight
-  name: light
-  description: "An always powered light."
+  name: 灯 丨 light
+  description: 一盏常通电的灯。 丨 "An always powered light."
   suffix: Always powered
   components:
   - type: MeleeSound
@@ -89,8 +89,8 @@
     - Wallmount
 
 - type: entity
-  name: light
-  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  name: 灯 丨 light
+  description: 一个灯具。配备灯管时可通电发光。 丨 "A light fixture. Draws power and produces light when equipped with a light tube."
   id: PoweredlightEmpty
   suffix: Empty
   parent: AlwaysPoweredWallLight
@@ -135,7 +135,7 @@
 
 - type: entity
   id: Poweredlight
-  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  description: 一盏灯具。配备灯管时可通电发光。 丨 "A light fixture. Draws power and produces light when equipped with a light tube."
   suffix: ""
   parent: PoweredlightEmpty
   components:
@@ -160,7 +160,7 @@
 #LED lights
 - type: entity
   id: PoweredlightLED
-  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  description: 一盏灯具。配备灯管时可通电发光。 丨 "A light fixture. Draws power and produces light when equipped with a light tube."
   suffix: LED
   parent: Poweredlight
   components:
@@ -191,7 +191,7 @@
 #Exterior lights
 - type: entity
   id: PoweredlightExterior
-  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  description: 一个灯具。配备灯管时可通电并产生光亮。 丨 "A light fixture. Draws power and produces light when equipped with a light tube."
   suffix: Exterior
   parent: Poweredlight
   components:
@@ -217,7 +217,7 @@
 #Sodium lights
 - type: entity
   id: PoweredlightSodium
-  description: "A light fixture. Draws power and produces light when equipped with a light tube."
+  description: 一个灯具。配备灯管时可通电并产生光亮。 丨 "A light fixture. Draws power and produces light when equipped with a light tube."
   suffix: Sodium
   parent: Poweredlight
   components:
@@ -247,8 +247,8 @@
 
 #Small lights
 - type: entity
-  name: small light
-  description: "An always powered light."
+  name: 小灯 丨 small light
+  description: 一盏常明灯。 丨 "An always powered light."
   id: SmallLight
   suffix: Always Powered
   parent: AlwaysPoweredWallLight
@@ -306,8 +306,8 @@
       node: bulbLight
 
 - type: entity
-  name: small light
-  description: "A light fixture. Draws power and produces light when equipped with a light bulb."
+  name: 小灯 丨 small light
+  description: 一个灯具。配备灯泡时可接通电源并产生光亮。 丨 "A light fixture. Draws power and produces light when equipped with a light bulb."
   id: PoweredSmallLightEmpty
   suffix: Empty
   parent: SmallLight
@@ -434,8 +434,8 @@
 #Emergency Lights
 - type: entity
   id: EmergencyLight
-  name: emergency light
-  description: A small light with an internal battery that turns on as soon as it stops receiving any power. Nanotrasen technology allows it to adapt its color to alert crew to the conditions of the station.
+  name: 应急灯 丨 emergency light
+  description: 一种内置电池的小型灯具，在外部供电中断时会立即自动点亮。借助纳星科技，它能通过颜色变化向船员警示空间站的状况。 丨 A small light with an internal battery that turns on as soon as it stops receiving any power. Nanotrasen technology allows it to adapt its color to alert crew to the conditions of the station.
   parent: AlwaysPoweredWallLight
   suffix: ""
   components:

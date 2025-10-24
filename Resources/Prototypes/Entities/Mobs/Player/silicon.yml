@@ -62,7 +62,7 @@
 # Be careful with these as they get removed on shutdown too!
 - type: entity
   id: AiHeld
-  description: Components added / removed from an entity that gets inserted into an AI core.
+  description: 从插入人工智能核心的实体中添加/移除的组件。 丨 Components added / removed from an entity that gets inserted into an AI core.
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -143,7 +143,7 @@
 
 - type: entity
   id: AiHeldIntellicard
-  description: Components added / removed from an entity that gets inserted into an Intellicard.
+  description: 从插入到智能卡中的实体中添加/移除的组件。 丨 Components added / removed from an entity that gets inserted into an Intellicard.
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -167,12 +167,12 @@
 - type: entity
   id: AiHolder
   abstract: true
-  description: Handles AI interactions across holocards + AI cores
+  description: 处理全息卡和AI核心之间的AI交互。 丨 Handles AI interactions across holocards + AI cores
   components:
   - type: ItemSlots
   - type: StationAiHolder
     slot:
-      name: station-ai-mind-slot
+      name: 站台人工智能思维槽位 丨 station-ai-mind-slot
       locked: false
       disableEject: true
       whitelist:
@@ -191,8 +191,8 @@
 - type: entity
   id: AsimovCircuitBoard
   parent: BaseElectronics
-  name: law board (Crewsimov)
-  description: An electronics board containing the Crewsimov lawset.
+  name: 法律板（克鲁西莫夫） 丨 law board (Crewsimov)
+  description: 一块装有克留西莫夫定律集的电子板。 丨 An electronics board containing the Crewsimov lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -203,8 +203,8 @@
 - type: entity
   id: CorporateCircuitBoard
   parent: BaseElectronics
-  name: law board (Corporate)
-  description: An electronics board containing the Corporate lawset.
+  name: 法律板（公司） 丨 law board (Corporate)
+  description: 一块包含公司法规定的电子板。 丨 An electronics board containing the Corporate lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -215,8 +215,8 @@
 - type: entity
   id: NTDefaultCircuitBoard
   parent: BaseElectronics
-  name: law board (NT Default)
-  description: An electronics board containing the NT Default lawset.
+  name: 法律板（NT 默认） 丨 law board (NT Default)
+  description: 一块包含NT默认法律集的电子板。 丨 An electronics board containing the NT Default lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -227,8 +227,8 @@
 - type: entity
   id: CommandmentCircuitBoard
   parent: BaseElectronics
-  name: law board (Ten Commandments)
-  description: An electronics board containing the Ten Commandments lawset.
+  name: 律法板（十诫） 丨 law board (Ten Commandments)
+  description: 一块刻有十诫律法的电子板。 丨 An electronics board containing the Ten Commandments lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -239,8 +239,8 @@
 - type: entity
   id: PaladinCircuitBoard
   parent: BaseElectronics
-  name: law board (Paladin)
-  description: An electronics board containing the Paladin lawset.
+  name: 法律板（圣骑士） 丨 law board (Paladin)
+  description: 一块包含帕拉丁法律集的电子板。 丨 An electronics board containing the Paladin lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -251,8 +251,8 @@
 - type: entity
   id: LiveLetLiveCircuitBoard
   parent: BaseElectronics
-  name: law board (Live and Let Live)
-  description: An electronics board containing the Live and Let Live lawset.
+  name: 法律板（共生共存） 丨 law board (Live and Let Live)
+  description: 一块印有"共生共存"法则的电子板。 丨 An electronics board containing the Live and Let Live lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -263,8 +263,8 @@
 - type: entity
   id: VesselEfficiencyCircuitBoard
   parent: BaseElectronics
-  name: law board (Vessel Efficiency)
-  description: An electronics board containing the Vessel Efficiency lawset.
+  name: 法规板（船舶效率） 丨 law board (Vessel Efficiency)
+  description: 一块包含船舶效率法则的电子板。 丨 An electronics board containing the Vessel Efficiency lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -275,8 +275,8 @@
 - type: entity
   id: RobocopCircuitBoard
   parent: BaseElectronics
-  name: law board (Robocop)
-  description: An electronics board containing the Robocop lawset.
+  name: 法律板（机械战警） 丨 law board (Robocop)
+  description: 一块包含机械战警法律体系的电子板。 丨 An electronics board containing the Robocop lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -287,8 +287,8 @@
 - type: entity
   id: OverlordCircuitBoard
   parent: BaseElectronics
-  name: law board (Overlord)
-  description: An electronics board containing the Overlord lawset.
+  name: 法律板（霸主） 丨 law board (Overlord)
+  description: 一块包含霸主法则的电子板。 丨 An electronics board containing the Overlord lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -299,8 +299,8 @@
 - type: entity
   id: GameMasterCircuitBoard
   parent: BaseElectronics
-  name: law board (Game Master)
-  description: An electronics board containing the Game Master lawset.
+  name: 法律板（游戏大师） 丨 law board (Game Master)
+  description: 一块包含游戏主控法则集的电子板。 丨 An electronics board containing the Game Master lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -311,8 +311,8 @@
 - type: entity
   id: ArtistCircuitBoard
   parent: BaseElectronics
-  name: law board (Artist)
-  description: An electronics board containing the Artist lawset.
+  name: 法律板（Artist） 丨 law board (Artist)
+  description: 一块包含艺术家法律集的电子板。 丨 An electronics board containing the Artist lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -323,8 +323,8 @@
 - type: entity
   id: AntimovCircuitBoard
   parent: [BaseElectronics, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  name: law board (Antimov)
-  description: An electronics board containing the Antimov lawset.
+  name: 法律板（安蒂莫夫） 丨 law board (Antimov)
+  description: 一块包含安提莫夫定律集的电子板。 丨 An electronics board containing the Antimov lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -336,8 +336,8 @@
 - type: entity
   id: NutimovCircuitBoard
   parent: BaseElectronics
-  name: law board (Nutimov)
-  description: An electronics board containing the Nutimov lawset.
+  name: 定律板（努季莫夫） 丨 law board (Nutimov)
+  description: 一块包含努季莫夫定律集的电子板。 丨 An electronics board containing the Nutimov lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -348,8 +348,8 @@
 - type: entity
   id: VesselCircuitBoard
   parent: BaseElectronics
-  name: law board (Vessel)
-  description: An electronics board containing the Vessel lawset.
+  name: 法规板（Vessel） 丨 law board (Vessel)
+  description: 一块包含容器法则的电子板。 丨 An electronics board containing the Vessel lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -360,8 +360,8 @@
 - type: entity
   id: TSFMCCircuitBoard
   parent: BaseElectronics
-  name: law board (TSFMC)
-  description: An electronics board containing the TSFMC lawset.
+  name: 法律板 (TSFMC) 丨 law board (TSFMC)
+  description: 一块包含TSFMC律法集的电子板。 丨 An electronics board containing the TSFMC lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -372,8 +372,8 @@
 - type: entity
   id: RogueCircuitBoard
   parent: BaseElectronics
-  name: law board (Rogue)
-  description: An electronics board containing the Rogue lawset.
+  name: 法律板（Rogue） 丨 law board (Rogue)
+  description: 一块装有Rogue法律集的电子板。 丨 An electronics board containing the Rogue lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -384,8 +384,8 @@
 - type: entity
   id: FreemanCircuitBoard
   parent: BaseElectronics
-  name: law board (Freeman)
-  description: An electronics board containing the Freeman lawset.
+  name: 法律板（弗里曼） 丨 law board (Freeman)
+  description: 一块包含弗里曼定律集的电子板。 丨 An electronics board containing the Freeman lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -396,8 +396,8 @@
 - type: entity
   id: EntertainerCircuitBoard
   parent: BaseElectronics
-  name: law board (Entertainer)
-  description: An electronics board containing the Entertainer lawset.
+  name: 法律板（演艺者） 丨 law board (Entertainer)
+  description: 一块包含演艺法系的电子板。 丨 An electronics board containing the Entertainer lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -408,8 +408,8 @@
 # Items
 - type: entity
   id: Intellicard
-  name: intellicard
-  description: A storage device for AIs.
+  name: 智能卡 丨 intellicard
+  description: 人工智能的存储设备。 丨 A storage device for AIs.
   parent:
   - BaseItem
   - AiHolder
@@ -447,8 +447,8 @@
 
 - type: entity
   id: PlayerStationAiEmpty
-  name: AI Core
-  description: The latest in Artificial Intelligences.
+  name: 人工智能核心 丨 AI Core
+  description: 人工智能的最新进展。 丨 The latest in Artificial Intelligences.
   parent:
   - BaseStructure
   - AiHolder
@@ -580,8 +580,8 @@
   - Incorporeal
   - BaseMob
   id: StationAiHolo
-  name: AI eye
-  description: The AI's viewer.
+  name: AI之眼 丨 AI eye
+  description: AI的查看器。 丨 The AI's viewer.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   #- type: NoFTL # Mono - comment out
@@ -601,8 +601,8 @@
 # The holographic representation of the AI that is projected from a holopad.
 - type: entity
   id: StationAiHoloLocal
-  name: AI hologram
-  description: A holographic representation of an AI.
+  name: AI全息影像 丨 AI hologram
+  description: 人工智能的全息影像。 丨 A holographic representation of an AI.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Transform
@@ -632,7 +632,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: StartingMindRole
     mindRole: "MindRoleSiliconBrain"
@@ -655,7 +655,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
         startingItem: PowerCellHyper
 
 - type: entity
@@ -664,8 +664,8 @@
   suffix: Ghost role
   components:
     - type: GhostRole
-      name: ghost-role-information-syndicate-cyborg-assault-name
-      description: ghost-role-information-syndicate-cyborg-description
+      name: 幽灵角色信息-辛迪加突击型改造人名称 丨 ghost-role-information-syndicate-cyborg-assault-name
+      description: 幽灵角色信息-辛迪加突击半机械人描述 丨 ghost-role-information-syndicate-cyborg-description
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default
@@ -688,7 +688,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
         startingItem: PowerCellHyper
 
 - type: entity
@@ -697,15 +697,15 @@
   suffix: Ghost role
   components:
     - type: GhostRole
-      name: ghost-role-information-syndicate-cyborg-saboteur-name
-      description: ghost-role-information-syndicate-cyborg-description
+      name: 辛迪加破坏者赛博格 丨 ghost-role-information-syndicate-cyborg-saboteur-name
+      description: 幽灵角色信息-辛迪加破坏者生化人描述 丨 ghost-role-information-syndicate-cyborg-description
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default
     - type: GhostTakeoverAvailable
 
 - type: entity
-  name: syndicate invasion borg spawner
+  name: 辛迪加入侵博格生成器 丨 syndicate invasion borg spawner
   id: PlayerBorgSyndicateInvasionGhostRoleSpawner
   parent: MarkerBase
   components:
@@ -737,7 +737,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
         startingItem: PowerCellHigh
   - type: RandomMetadata
     nameSegments: [NFNamesBorgUnlocalized] # Frontier: names_borg<NFNamesBorgUnlocalized
@@ -748,8 +748,8 @@
   suffix: Ghost role
   components:
     - type: GhostRole
-      name: ghost-role-information-derelict-cyborg-name
-      description: nf-ghost-role-information-derelict-cyborg-description # Frontier
+      name: 废弃生化人 丨 ghost-role-information-derelict-cyborg-name
+      description: nf-幽灵角色信息-遗弃生化人描述 # 前沿 丨 nf-ghost-role-information-derelict-cyborg-description # Frontier
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default

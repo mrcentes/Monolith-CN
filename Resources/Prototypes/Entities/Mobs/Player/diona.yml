@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McPlants
+  name: 乌里斯特·麦克普兰茨 丨 Urist McPlants
   parent: BaseMobDiona
   id: MobDiona
   components:
@@ -17,7 +17,7 @@
   parent: MobDiona
   categories: [ HideSpawnMenu ]
   id: MobDionaReformed
-  name: Reformed Diona
+  name: 改造后的迪奥娜 丨 Reformed Diona
   components:
     - type: IsDeadIC
     - type: RandomHumanoidAppearance 

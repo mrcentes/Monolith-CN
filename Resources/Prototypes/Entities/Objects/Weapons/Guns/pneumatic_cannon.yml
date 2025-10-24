@@ -1,8 +1,8 @@
 - type: entity
-  name: improvised pneumatic cannon
+  name: 简易气动炮 丨 improvised pneumatic cannon
   parent: [BaseStorageItem, BaseC1Contraband] # Frontier: BaseMinorContraband<BaseC1Contraband
   id: WeaponImprovisedPneumaticCannon
-  description: Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
+  description: 仅用一根管子、几条扎带和一具气动炮临时拼凑而成。不接受气体不足的气罐。 丨 Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
@@ -48,7 +48,7 @@
   - type: ItemSlots
     slots:
       gas_tank:
-        name: pneumatic-cannon-component-itemslot-name
+        name: 气动炮组件物品槽名称 丨 pneumatic-cannon-component-itemslot-name
         whitelist:
           components:
           - GasTank
@@ -63,10 +63,10 @@
       gas_tank: !type:ContainerSlot
 
 - type: entity
-  name: pie cannon
+  name: 奶油派炮 丨 pie cannon
   parent: BaseStorageItem
   id: LauncherCreamPie
-  description: Load cream pie for optimal results.
+  description: 装入奶油派以达到最佳效果。 丨 Load cream pie for optimal results.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
@@ -105,10 +105,10 @@
         ents: []
         
 - type: entity
-  name: syringe gun
+  name: 注射枪 丨 syringe gun
   parent: BaseStorageItem
   id: LauncherSyringe
-  description: Load full of poisoned syringes for optimal fun.
+  description: 装满毒液注射器，尽享极致乐趣。 丨 Load full of poisoned syringes for optimal fun.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi

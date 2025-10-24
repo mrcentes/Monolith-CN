@@ -1,8 +1,8 @@
 - type: entity
   id: InflatableWallStack
   parent: [BaseItem, RecyclableItemPlasticSmall] # Frontier: added RecyclableItemPlasticSmall
-  name: inflatable barricade
-  description: A folded membrane which rapidly expands into a large cubical shape on activation.
+  name: 可折叠路障 丨 inflatable barricade
+  description: 一个折叠的膜层，在激活时会迅速膨胀成立方体形态。 丨 A folded membrane which rapidly expands into a large cubical shape on activation.
   suffix: Full
   components:
     - type: Stack
@@ -25,8 +25,8 @@
 - type: entity
   id: InflatableDoorStack
   parent: [BaseItem, RecyclableItemPlasticSmall] # Frontier: added RecyclableItemPlasticSmall
-  name: inflatable door
-  description: A folded membrane which rapidly expands into a large cubical shape on activation.
+  name: 充气门 丨 inflatable door
+  description: 一种折叠膜，激活后可迅速膨胀成大的立方体形状。 丨 A folded membrane which rapidly expands into a large cubical shape on activation.
   suffix: Full
   components:
     - type: Stack

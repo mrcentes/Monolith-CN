@@ -23,8 +23,8 @@
 - type: entity
   parent: [BaseMachinePowered, ConstructibleMachine] # Monolith
   id: ContainmentFieldGenerator
-  name: containment field generator
-  description: A machine that generates a containment field when powered by an emitter. Keeps the Singularity docile.
+  name: 收容场发生器 丨 containment field generator
+  description: 一种由发射器供能时生成约束场的机器，用于保持奇点的稳定状态。 丨 A machine that generates a containment field when powered by an emitter. Keeps the Singularity docile.
   components:
   - type: Transform
     noRot: false # Mono
@@ -120,8 +120,8 @@
 
 - type: entity
   id: ContainmentField
-  name: containment field
-  description: A containment field that repels gravitational singularities.
+  name: 收容力场 丨 containment field
+  description: 一个能够排斥引力奇点的约束场。 丨 A containment field that repels gravitational singularities.
   placement:
     mode: SnapgridCenter
   components:

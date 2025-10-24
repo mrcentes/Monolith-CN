@@ -1,55 +1,8 @@
-# SPDX-FileCopyrightText: 2020 Paul Ritter
-# SPDX-FileCopyrightText: 2020 Ygg01
-# SPDX-FileCopyrightText: 2021 FoLoKe
-# SPDX-FileCopyrightText: 2021 Pieter-Jan Briers
-# SPDX-FileCopyrightText: 2021 Swept
-# SPDX-FileCopyrightText: 2021 metalgearsloth
-# SPDX-FileCopyrightText: 2022 20kdc
-# SPDX-FileCopyrightText: 2022 Alex Evgrashin
-# SPDX-FileCopyrightText: 2022 CrudeWax
-# SPDX-FileCopyrightText: 2022 Fishfish458
-# SPDX-FileCopyrightText: 2022 Flipp Syder
-# SPDX-FileCopyrightText: 2022 Jacob Tong
-# SPDX-FileCopyrightText: 2022 Rane
-# SPDX-FileCopyrightText: 2022 fishfish458 <fishfish458>
-# SPDX-FileCopyrightText: 2022 keronshb
-# SPDX-FileCopyrightText: 2022 mirrorcult
-# SPDX-FileCopyrightText: 2022 rolfero
-# SPDX-FileCopyrightText: 2023 DrSmugleaf
-# SPDX-FileCopyrightText: 2023 Dvir
-# SPDX-FileCopyrightText: 2023 I.K
-# SPDX-FileCopyrightText: 2023 Jezithyr
-# SPDX-FileCopyrightText: 2023 Kara
-# SPDX-FileCopyrightText: 2023 Leon Friedrich
-# SPDX-FileCopyrightText: 2023 Nairod
-# SPDX-FileCopyrightText: 2023 Nim
-# SPDX-FileCopyrightText: 2023 Whisper
-# SPDX-FileCopyrightText: 2023 deltanedas <@deltanedas:kde.org>
-# SPDX-FileCopyrightText: 2023 liltenhead
-# SPDX-FileCopyrightText: 2023 lzk
-# SPDX-FileCopyrightText: 2023 lzk228
-# SPDX-FileCopyrightText: 2023 notquitehadouken <1isthisameme>
-# SPDX-FileCopyrightText: 2024 Checkraze
-# SPDX-FileCopyrightText: 2024 Emisse
-# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
-# SPDX-FileCopyrightText: 2024 Nemanja
-# SPDX-FileCopyrightText: 2024 TsjipTsjip
-# SPDX-FileCopyrightText: 2024 VMSolidus
-# SPDX-FileCopyrightText: 2024 brainfood1183
-# SPDX-FileCopyrightText: 2024 deltanedas
-# SPDX-FileCopyrightText: 2024 no
-# SPDX-FileCopyrightText: 2025 AndresE55
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 Errant
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: MPL-2.0
-
 - type: entity
-  name: space carp
+  name: 太空鲤鱼 丨 space carp
   id: BaseMobCarp
   parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat ]
-  description: It's a space carp.
+  description: 这是一条太空鲤鱼。 丨 It's a space carp.
   abstract: true
   components:
   - type: InputMover
@@ -141,6 +94,7 @@
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
   - type: NightVision # Goobstation - Nigthvision
+    color: "#808080"
     activateSound: null
     deactivateSound: null
 
@@ -164,10 +118,10 @@
         mouth: ""
 
 - type: entity
-  name: magicarp
+  name: 鲤鱼王 丨 magicarp
   parent: BaseMobCarp
   id: MobCarpMagic
-  description: Looks like some kind of fish. Might be magical.
+  description: 看起来像某种鱼，可能具有魔力。 丨 Looks like some kind of fish. Might be magical.
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite
@@ -176,10 +130,10 @@
     proto: guardian
 
 - type: entity
-  name: holocarp
+  name: 全息鲤 丨 holocarp
   parent: BaseMobCarp
   id: MobCarpHolo
-  description: Carp made out of holographic energies. Sadly for you, it is very much real.
+  description: 由全息能量构成的鲤鱼。可惜对你来说，它无比真实。 丨 Carp made out of holographic energies. Sadly for you, it is very much real.
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite
@@ -202,8 +156,8 @@
 - type: entity
   parent: MobCarp
   id: MobCarpRainbow
-  name: rainbow carp
-  description: Wow such a shiny fishie!
+  name: 彩虹鲤鱼 丨 rainbow carp
+  description: 哇，这条鱼鱼好闪亮！ 丨 Wow such a shiny fishie!
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: PointLight
@@ -221,7 +175,7 @@
   - type: NFSalvageMobRestrictions # Frontier: SalvageMobRestrictions<NFSalvageMobRestrictions
 
 - type: entity
-  name: space carp
+  name: 太空鲤鱼 丨 space carp
   id: MobCarpDragon
   suffix: DragonBrood
   parent: MobCarp
@@ -231,8 +185,8 @@
     allowMovement: true
     allowSpeech: true
     makeSentient: true
-    name: ghost-role-information-sentient-carp-name
-    description: ghost-role-information-sentient-carp-description
+    name: 幽灵角色信息-有意识的鲤鱼-名称 丨 ghost-role-information-sentient-carp-name
+    description: 幽灵角色信息-感知鲤鱼-描述 丨 ghost-role-information-sentient-carp-description
     rules: ghost-role-information-space-dragon-summoned-carp-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -262,10 +216,10 @@
         Slash: 6
 
 - type: entity
-  name: sharkminnow
+  name: 鲨鱼米诺 丨 sharkminnow
   parent: BaseMobCarp
   id: MobShark
-  description: A dangerous shark from the blackness of endless space, who loves to drink blood.
+  description: 一头来自无尽虚空黑暗中的危险鲨鱼，酷爱饮血。 丨 A dangerous shark from the blackness of endless space, who loves to drink blood.
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite

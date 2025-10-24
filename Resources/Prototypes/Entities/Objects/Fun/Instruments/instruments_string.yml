@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: ElectricGuitarInstrument
-  name: electric guitar
-  description: Now this makes you feel like a rock star!
+  name: 电吉他 丨 electric guitar
+  description: 现在这会让你感觉自己像个摇滚明星！ 丨 Now this makes you feel like a rock star!
   components:
   - type: Instrument
     program: 27
@@ -30,8 +30,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: BassGuitarInstrument
-  name: bass guitar
-  description: You feel really cool holding this. Shame you're the only one that thinks that.
+  name: 低音吉他 丨 bass guitar
+  description: 拿着这把贝斯，你感觉自己酷毙了。可惜只有你自己这么觉得。 丨 You feel really cool holding this. Shame you're the only one that thinks that.
   components:
   - type: Instrument
     program: 33
@@ -60,8 +60,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: RockGuitarInstrument
-  name: rock guitar
-  description: What an axe!
+  name: 摇滚吉他 丨 rock guitar
+  description: 真是一把好吉他！ 丨 What an axe!
   components:
   - type: Instrument
     program: 29
@@ -101,8 +101,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: AcousticGuitarInstrument
-  name: acoustic guitar
-  description: Anyway, here's Wonderwall.
+  name: 原声吉他 丨 acoustic guitar
+  description: 不管怎样，这是《迷墙》。 丨 Anyway, here's Wonderwall.
   components:
   - type: Instrument
     program: 24
@@ -161,8 +161,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: GuitarlessFretsInstrument
-  name: guitarless frets
-  description: Who even needs a body?
+  name: 无品吉他 丨 guitarless frets
+  description: 谁还需要琴身呢？ 丨 Who even needs a body?
   suffix: Admeme #the sound is awful
   components:
   - type: Instrument
@@ -174,7 +174,7 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: BanjoInstrument
-  name: banjo
+  name: 班卓琴 丨 banjo
   components:
   - type: Instrument
     program: 105
@@ -191,8 +191,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: ViolinInstrument
-  name: violin
-  description: The favorite of musical virtuosos and bluegrass bands.
+  name: 小提琴 丨 violin
+  description: 音乐大师与蓝草乐队的最爱。 丨 The favorite of musical virtuosos and bluegrass bands.
   components:
   - type: Instrument
     program: 40
@@ -213,8 +213,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: ViolaInstrument
-  name: viola
-  description: Like a violin, but worse.
+  name: 中提琴 丨 viola
+  description: 像小提琴，但更糟。 丨 Like a violin, but worse.
   components:
   - type: Instrument
     program: 41
@@ -231,8 +231,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: CelloInstrument
-  name: cello
-  description: The nerds call these violoncellos.
+  name: 大提琴 丨 cello
+  description: 书呆子们称这些为大提琴。 丨 The nerds call these violoncellos.
   components:
   - type: Instrument
     program: 42

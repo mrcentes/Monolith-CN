@@ -45,8 +45,8 @@
 - type: entity
   id: KitchenMicrowave
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  name: microwave
-  description: It's magic.
+  name: 微波炉 丨 microwave
+  description: 这太神奇了。 丨 It's magic.
   components:
   - type: Microwave
     capacity: 10
@@ -174,8 +174,8 @@
 - type: entity
   id: SyndicateMicrowave
   parent: KitchenMicrowave
-  name: donk co. microwave
-  description: So advanced, it can cook donk-pockets in a mere 2.5 seconds!
+  name: 唐克公司微波炉 丨 donk co. microwave
+  description: 如此先进，仅需2.5秒就能烹饪唐克口袋饼！ 丨 So advanced, it can cook donk-pockets in a mere 2.5 seconds!
   components:
   - type: Microwave
     cookTimeMultiplier: 0.5

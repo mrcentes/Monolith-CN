@@ -90,8 +90,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltUtility
-  name: utility belt
-  description: Can hold various things.
+  name: 多功能腰带 丨 utility belt
+  description: 可以容纳各种物品。 丨 Can hold various things.
   components:
   - type: Sprite
     sprite: Clothing/Belt/utility.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltChiefEngineer
-  name: chief engineer's toolbelt
-  description: Holds tools, looks snazzy.
+  name: 总工程师的工具带 丨 chief engineer's toolbelt
+  description: 收纳工具，时尚有型。 丨 Holds tools, looks snazzy.
   components:
   - type: Sprite
     sprite: Clothing/Belt/ce.rsi
@@ -252,8 +252,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltAssault
-  name: assault belt
-  description: A tactical assault belt.
+  name: 突击腰带 丨 assault belt
+  description: 一条战术突击腰带。 丨 A tactical assault belt.
   components:
   - type: Sprite
     sprite: Clothing/Belt/assault.rsi
@@ -292,8 +292,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase
   id: ClothingBeltJanitor
-  name: janibelt
-  description: A belt used to hold most janitorial supplies.
+  name: 保洁腰带 丨 janibelt
+  description: 用于存放大部分清洁用品的腰带。 丨 A belt used to hold most janitorial supplies.
   components:
   - type: Sprite
     sprite: Clothing/Belt/janitor.rsi
@@ -338,8 +338,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltMedical
-  name: medical belt
-  description: Can hold various medical equipment.
+  name: 医疗腰带 丨 medical belt
+  description: 可容纳各种医疗设备。 丨 Can hold various medical equipment.
   components:
   - type: Sprite
     sprite: Clothing/Belt/medical.rsi
@@ -405,8 +405,8 @@
 - type: entity
   parent: ClothingBeltMedical
   id: ClothingBeltMedicalEMT
-  name: EMT belt
-  description: Perfect for holding various equipment for medical emergencies.
+  name: EMT腰带 丨 EMT belt
+  description: 非常适合在医疗急救时固定各种设备。 丨 Perfect for holding various equipment for medical emergencies.
   components:
   - type: Sprite
     sprite: Clothing/Belt/emt.rsi
@@ -416,8 +416,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltPlant
-  name: botanical belt
-  description: A belt used to hold most hydroponics supplies. Suprisingly, not green.
+  name: 植物腰带 丨 botanical belt
+  description: 一条用于放置大多数水培用品的腰带。令人惊讶的是，它并不是绿色的。 丨 A belt used to hold most hydroponics supplies. Suprisingly, not green.
   components:
   - type: Sprite
     sprite: Clothing/Belt/plant.rsi
@@ -473,8 +473,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltChef
-  name: chef belt
-  description: A belt used to hold kitchen knives and condiments for quick access.
+  name: 厨师腰带 丨 chef belt
+  description: 用于快速取用厨房刀具和调味品的腰带。 丨 A belt used to hold kitchen knives and condiments for quick access.
   components:
   - type: Sprite
     sprite: Clothing/Belt/chef.rsi
@@ -550,8 +550,8 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
   id: ClothingBeltSecurity
-  name: security belt
-  description: Can hold security gear like handcuffs and flashes.
+  name: 安全腰带 丨 security belt
+  description: 可容纳手铐和闪光弹等安保装备。 丨 Can hold security gear like handcuffs and flashes.
   components:
   - type: Sprite
     sprite: Clothing/Belt/security.rsi
@@ -602,8 +602,8 @@
 - type: entity
   parent: [ClothingBeltBase, ClothingSlotBase, BaseC1Contraband] # Frontier: BaseCommandContraband<BaseC1Contraband
   id: ClothingBeltSheath
-  name: sabre sheath
-  description: An ornate sheath designed to hold an officer's blade.
+  name: 军刀鞘 丨 sabre sheath
+  description: 一把为军官刀剑量身打造的华丽刀鞘。 丨 An ornate sheath designed to hold an officer's blade.
   components:
   - type: Sprite
     sprite: Clothing/Belt/sheath.rsi
@@ -615,7 +615,7 @@
   - type: ItemSlots
     slots:
       item:
-        name: Sabre
+        name: 军刀 丨 Sabre
         insertVerbText: sheath-insert-verb
         ejectVerbText: sheath-eject-verb
         insertSound: /Audio/Items/sheath.ogg
@@ -636,8 +636,8 @@
 - type: entity
   parent: [ClothingBeltAmmoProviderBase, BaseC1Contraband] # Frontier: BaseSecurityBartenderContraband<BaseC1Contraband
   id: ClothingBeltBandolierOld # Mono: ClothingBeltBandolierOld<ClothingBeltBandolier
-  name: bandolier
-  description: A bandolier for holding shotgun ammunition.
+  name: 子弹带 丨 bandolier
+  description: 一条用于携带霰弹枪子弹的子弹带。 丨 A bandolier for holding shotgun ammunition.
   components:
   - type: Sprite
     sprite: Clothing/Belt/bandolier.rsi
@@ -656,9 +656,9 @@
 - type: entity
   parent: ClothingBeltSecurity
   id: ClothingBeltBandolier
-  name: bandolier
+  name: 子弹带 丨 bandolier
   suffix: Mono
-  description: A bandolier for holding ammunition.
+  description: 一条用于携带弹药的子弹带。 丨 A bandolier for holding ammunition.
   components:
   - type: Sprite
     sprite: Clothing/Belt/bandolier.rsi
@@ -683,8 +683,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltChampion
-  name: championship belt
-  description: Proves to the world that you are the strongest!
+  name: 冠军腰带 丨 championship belt
+  description: 向世界证明你是最强的！ 丨 Proves to the world that you are the strongest!
   components:
   - type: Sprite
     sprite: Clothing/Belt/champion.rsi
@@ -698,8 +698,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltHolster
-  name: shoulder holster
-  description: 'A holster to carry a handgun and ammo. WARNING: Badasses only.'
+  name: 肩挂式枪套 丨 shoulder holster
+  description: '可携带手枪和弹药的枪套。警告：仅供硬汉使用。A holster to carry a handgun and ammo. WARNING: Badasses only.'
   components:
   - type: Sprite
     sprite: Clothing/Belt/holster.rsi
@@ -712,8 +712,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase, BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
   id: ClothingBeltSyndieHolster
-  name: syndicate shoulder holster
-  description: A deep shoulder holster capable of holding many types of ballistics.
+  name: 集团式肩挎枪套 丨 syndicate shoulder holster
+  description: 一款可容纳多种防弹护板的深肩式枪套。 丨 A deep shoulder holster capable of holding many types of ballistics.
   components:
   - type: Sprite
     sprite: Clothing/Belt/syndieholster.rsi
@@ -734,8 +734,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltSecurityWebbing
-  name: security carrier
-  description: Unique and versatile chest rig, can hold security gear.
+  name: 安全携行具 丨 security carrier
+  description: 独特且多功能的胸挂，可容纳安保装备。 丨 Unique and versatile chest rig, can hold security gear.
   components:
   - type: Sprite
     sprite: Clothing/Belt/securitywebbing.rsi
@@ -745,8 +745,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase, remove BaseSecurityCargoContraband
   id: ClothingBeltMercenaryWebbing # Frontier: Merc to Mercenary
-  name: mercenary webbing
-  description: Ideal for storing everything from ammo to weapons and combat essentials.
+  name: 雇佣兵装备带 丨 mercenary webbing
+  description: 理想用于存放从弹药到武器及战斗必需品的所有物品。 丨 Ideal for storing everything from ammo to weapons and combat essentials.
   components:
   - type: Sprite
     sprite: Clothing/Belt/mercwebbing.rsi
@@ -756,8 +756,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltSalvageWebbing
-  name: salvage rig
-  description: Universal unloading system for work in space.
+  name: 打捞装置 丨 salvage rig
+  description: 用于太空作业的通用卸载系统。 丨 Universal unloading system for work in space.
   components:
   - type: Sprite
     sprite: Clothing/Belt/salvagewebbing.rsi
@@ -767,8 +767,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband] # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase, BaseSyndicateContraband<BaseC1Contraband
   id: ClothingBeltMilitaryWebbing
-  name: chest rig
-  description: A set of tactical webbing worn by boarding parties. # Frontier
+  name: 胸挂 丨 chest rig
+  description: 登船小队使用的一套战术织带。# 前线 丨 A set of tactical webbing worn by boarding parties. # Frontier
   components:
   - type: Sprite
     sprite: Clothing/Belt/militarywebbing.rsi
@@ -782,8 +782,8 @@
 - type: entity
   parent: ClothingBeltMilitaryWebbing
   id: ClothingBeltMilitaryWebbingMed
-  name: medical chest rig
-  description: A set of tactical webbing worn by medic operatives. # Frontier
+  name: 医疗胸挂 丨 medical chest rig
+  description: 一套由医疗特工穿戴的战术织带装备。#Frontier 丨 A set of tactical webbing worn by medic operatives. # Frontier
   components:
   - type: Sprite
     sprite: Clothing/Belt/militarywebbingmed.rsi
@@ -797,8 +797,8 @@
 - type: entity
   parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
   id: ClothingBeltSuspendersRed
-  name: red suspenders
-  description: For holding your pants up.
+  name: 红色背带裤 丨 red suspenders
+  description: 用来吊住裤子。 丨 For holding your pants up.
   components:
   - type: Tag
     tags:
@@ -813,7 +813,7 @@
 - type: entity
   parent: ClothingBeltSuspendersRed
   id: ClothingBeltSuspendersBlack
-  name: black suspenders
+  name: 黑色背带 丨 black suspenders
   components:
   - type: Sprite
     sprite: Clothing/Belt/suspenders_black.rsi
@@ -823,8 +823,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, BaseC3WizardContraband, ContrabandClothing] # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase, BaseMagicalContraband<BaseC3WizardContraband, ContrabandClothing as parent
   id: ClothingBeltWand
-  name: wizard belt # Frontier: changed the name from 'wand belt' -> 'wizard belt'
-  description: A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
+  name: 巫师腰带 # 前线：将名称从“魔杖腰带”改为“巫师腰带” 丨 wizard belt # Frontier: changed the name from 'wand belt' -> 'wizard belt'
+  description: 一条用于收纳各类强力魔杖的腰带。堪称异域魔法的正宗腰包。 丨 A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
   components:
   - type: Sprite
     sprite: Clothing/Belt/wand.rsi

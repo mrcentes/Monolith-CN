@@ -130,7 +130,7 @@
   abstract: true
   parent: [RecyclableItemClothHardsuit, ClothingOuterBase, GeigerCounterClothing, AllowSuitStorageClothing] # Frontier: added RecyclableItemClothHardsuit
   id: ClothingOuterHardsuitBase
-  name: base hardsuit
+  name: 基础硬质防护服 丨 base hardsuit
   components:
   - type: PressureProtection
     highPressureMultiplier: 0.3
@@ -198,7 +198,7 @@
   abstract: true
   parent: [ClothingOuterBase, AllowSuitStorageClothing]
   id: ClothingOuterEVASuitBase
-  name: base EVA Suit
+  name: 基础EVA宇航服 丨 base EVA Suit
   components:
   - type: PressureProtection
     highPressureMultiplier: 0.6
@@ -227,7 +227,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterBaseToggleable
-  name: hoodie with hood
+  name: 带兜帽的连帽衫 丨 hoodie with hood
   abstract: True
   components:
   - type: ToggleableClothing # Goobstation - Modsuits change

@@ -1,9 +1,9 @@
 - type: entity
-  name: spray bottle
+  name: 喷雾瓶 丨 spray bottle
   id: SprayBottle
   parent: [BaseItem, RecyclableItemPlasticSmall] # Frontier: added RecyclableItemPlasticSmall
   suffix: Empty
-  description: A spray bottle with an unscrewable top.
+  description: 一个顶部可拧开的喷雾瓶。 丨 A spray bottle with an unscrewable top.
   components:
   - type: Drink
     solution: spray
@@ -44,11 +44,11 @@
     solution: spray
 
 - type: entity
-  name: mega spray bottle
+  name: 超大喷壶 丨 mega spray bottle
   id: MegaSprayBottle
   parent: SprayBottle
   suffix: Empty
-  description: A huge spray bottle, capable of unrivaled janitorial power.
+  description: 一个巨大的喷雾瓶，拥有无与伦比的清洁力量。 丨 A huge spray bottle, capable of unrivaled janitorial power.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/janitorial.rsi
@@ -66,7 +66,7 @@
       path: /Audio/Effects/spray2.ogg
 
 - type: entity
-  name: spray bottle
+  name: 喷雾瓶 丨 spray bottle
   id: SprayBottleWater
   suffix: Filled
   parent: SprayBottle
@@ -83,8 +83,8 @@
           Quantity: 100
 
 - type: entity
-  name: space cleaner
-  description: BLAM!-brand non-foaming space cleaner!
+  name: 太空清洁剂 丨 space cleaner
+  description: BLAM!牌无泡沫太空清洁剂！ 丨 BLAM!-brand non-foaming space cleaner!
   id: SprayBottleSpaceCleaner
   parent: SprayBottle
   suffix: ""
@@ -103,7 +103,7 @@
 
 - type: entity
   id: Vapor
-  name: "vapor"
+  name: 蒸汽 丨 "vapor"
   categories: [ HideSpawnMenu ]
   components:
   - type: SolutionContainerManager

@@ -51,7 +51,7 @@
 - type: entity
   parent: [MobObserverBase, InventoryBase, ShowSecurityIcons, ShowMedicalIcons] # Mono - sec/med icons
   id: AdminObserver
-  name: admin observer
+  name: 管理员观察员 丨 admin observer
   categories: [ HideSpawnMenu ]
   components:
   - type: ContentEye
@@ -170,8 +170,8 @@
 
 - type: entity
   id: ActionAGhostShowSolar
-  name: Solar Control Interface
-  description: View a Solar Control Interface.
+  name: 太阳能控制界面 丨 Solar Control Interface
+  description: 查看太阳能控制界面。 丨 View a Solar Control Interface.
   components:
   - type: InstantAction
     icon: { sprite: Structures/Machines/parts.rsi, state: box_0 }
@@ -182,8 +182,8 @@
 
 - type: entity
   id: ActionAGhostShowCommunications
-  name: Communications Interface
-  description: View a Communications Interface.
+  name: 通信接口 丨 Communications Interface
+  description: 查看通信接口。 丨 View a Communications Interface.
   components:
   - type: InstantAction
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: comms_console }
@@ -194,8 +194,8 @@
 
 - type: entity
   id: ActionAGhostShowRadar
-  name: Mass Scanner Interface
-  description: View a Mass Scanner Interface.
+  name: 质量扫描仪界面 丨 Mass Scanner Interface
+  description: 查看质谱扫描仪界面。 丨 View a Mass Scanner Interface.
   components:
   - type: InstantAction
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: mass_scanner }
@@ -206,8 +206,8 @@
 
 - type: entity
   id: ActionAGhostShowCargo
-  name: Cargo Ordering Interface
-  description: View a Cargo Ordering Interface.
+  name: 货物订购界面 丨 Cargo Ordering Interface
+  description: 查看货物订购界面。 丨 View a Cargo Ordering Interface.
   components:
   - type: InstantAction
     icon: { sprite: Structures/Machines/parts.rsi, state: box_0 }
@@ -218,8 +218,8 @@
 
 - type: entity
   id: ActionAGhostShowCrewMonitoring
-  name: Crew Monitoring Interface
-  description: View a Crew Monitoring Interface.
+  name: 机组监控界面 丨 Crew Monitoring Interface
+  description: 查看船员监控界面。 丨 View a Crew Monitoring Interface.
   components:
   - type: InstantAction
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: crew_monitor }
@@ -230,8 +230,8 @@
 
 - type: entity
   id: ActionAGhostShowStationRecords
-  name: Station Records Interface
-  description: View a Station Records Interface.
+  name: 站点记录界面 丨 Station Records Interface
+  description: 查看站点记录界面。 丨 View a Station Records Interface.
   components:
   - type: InstantAction
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: station_records }

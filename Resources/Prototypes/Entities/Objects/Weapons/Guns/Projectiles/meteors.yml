@@ -16,8 +16,8 @@
 
 - type: entity
   id: BaseMeteor
-  name: meteor
-  description: You prefer them when they're burning up in the atmosphere.
+  name: 流星 丨 meteor
+  description: 你更喜欢它们在进入大气层时燃烧的样子。 丨 You prefer them when they're burning up in the atmosphere.
   abstract: true
   components:
   - type: Sprite
@@ -66,8 +66,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorSpaceDust
-  name: space dust
-  description: Makes a station sneeze.
+  name: 太空尘埃 丨 space dust
+  description: 让空间站打喷嚏。 丨 Makes a station sneeze.
   components:
   - type: Sprite
     state: space_dust
@@ -211,8 +211,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorUrist
-  name: Urist McMeteor
-  description: As a successful member of society with a stable unflinching psyche and limitless drive, natural affinity for finance and domination, you have been selected, no, you have been effortlessly guided by divine (biological) trauma towards this moment. The gates of destiny fling open, and once again you're left standing on pulsating nothingness. A strobing headache of the soul.
+  name: 乌里斯特·麦克陨石 丨 Urist McMeteor
+  description: 作为一名拥有稳定坚定心智与无限驱动力、对金融与统治具有天然亲和力的成功社会成员，你被选中了——不，你早已被神圣（生物性）创伤毫不费力地引导至此刻。命运之门轰然洞开，你再度立于脉动的虚无之上。那是灵魂的频闪之痛。 丨 As a successful member of society with a stable unflinching psyche and limitless drive, natural affinity for finance and domination, you have been selected, no, you have been effortlessly guided by divine (biological) trauma towards this moment. The gates of destiny fling open, and once again you're left standing on pulsating nothingness. A strobing headache of the soul.
   suffix: Meteor
   components:
   - type: Sprite

@@ -24,7 +24,7 @@
 - type: entity
   id: ShuttleGunBase
   parent: BaseStructure
-  name: shittle gun
+  name: 屎特尔枪 丨 shittle gun
   abstract: true
   components:
   - type: Appearance
@@ -64,8 +64,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: LSE-400c "Svalinn machine gun"
-  description: Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
+  name: LSE-400c斯瓦林机枪 丨 LSE-400c "Svalinn machine gun"
+  description: 基础固定式激光单元。对生物目标与电子设备均具杀伤效果，采用常规能量电池供能，并具备极高的射速。 丨 Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -106,7 +106,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志 丨 Magazine
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -120,8 +120,8 @@
 - type: entity
   id: ShuttleGunPerforator
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: LSE-1200c "Perforator"
-  description: Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
+  name: LSE-1200c 穿孔机 丨 LSE-1200c "Perforator"
+  description: 高级固定式激光单元。可摧毁电子设备，对健康极其危险！使用动力笼进行发射。 丨 Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志 丨 Magazine
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -178,8 +178,8 @@
 - type: entity
   id: ShuttleGunFriendship
   parent: [ShuttleGunBase] # Frontier: Removed ConstructibleMachine
-  name: EXP-320g "Friendship"
-  description: A small stationary grenade launcher that holds 2 grenades.
+  name: EXP-320g "友谊"榴弹发射器 丨 EXP-320g "Friendship"
+  description: 小型固定式榴弹发射器，可容纳2枚榴弹。 丨 A small stationary grenade launcher that holds 2 grenades.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -232,8 +232,8 @@
 - type: entity
   id: ShuttleGunDuster
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: EXP-2100g "Duster"
-  description: A powerful stationary grenade launcher. A cartridge is required for use.
+  name: EXP-2100g 除尘者 丨 EXP-2100g "Duster"
+  description: 一把强力的固定式榴弹发射器，使用时需配备弹匣。 丨 A powerful stationary grenade launcher. A cartridge is required for use.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -277,7 +277,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志 丨 Magazine
         priority: 2
         whitelist:
           tags:
@@ -293,8 +293,8 @@
 - type: entity
   id: ShuttleGunPirateCannon
   parent: [BaseStructureDisableToolUse, ShuttleGunBase] # Frontier: Added BaseStructureDisableToolUse
-  name: pirate ship cannon
-  description: Kaboom!
+  name: 海盗船大炮 丨 pirate ship cannon
+  description: 轰隆！ 丨 Kaboom!
   components:
   - type: ContainerContainer
     containers:
@@ -335,8 +335,8 @@
 - type: entity
   id: ShuttleGunKinetic
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: PTK-1500e "Matter Dematerializer" # Frontier: "800"<"1500e" (consistent with naming scheme)
-  description: Mining turret, effective for blasting hardened targets. Gradually accumulates charges on its own. # Mono: description changed
+  name: PTK-1500e 物质解构器 丨 PTK-1500e "Matter Dematerializer" # Frontier: "800"<"1500e" (consistent with naming scheme)
+  description: 采矿炮塔，对爆破硬化目标有效。可自行逐渐积累充能。# 单声道：描述已更改 丨 Mining turret, effective for blasting hardened targets. Gradually accumulates charges on its own. # Mono: description changed
   # categories: [ DoNotMap ] Mono
   components:
   - type: Sprite

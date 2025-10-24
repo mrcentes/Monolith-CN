@@ -39,10 +39,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: BaseWeaponLauncher
+  name: 基础武器发射器 丨 BaseWeaponLauncher
   parent: BaseItem
   id: BaseWeaponLauncher
-  description: A rooty tooty point and shooty.
+  description: 一个瞄准射击的玩意儿。 丨 A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -65,10 +65,10 @@
       state: all
 
 - type: entity
-  name: PA china lake
+  name: PA 中国湖 丨 PA china lake
   parent: [BaseWeaponLauncher, BaseGunWieldable, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponLauncherChinaLake
-  description: PLOOP.
+  description: 噗噜。 丨 PLOOP.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -98,10 +98,10 @@
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
 
 - type: entity
-  name: PA RPG-7
+  name: PA RPG-7 丨 PA RPG-7
   parent: [ BaseWeaponLauncher, BaseC3Contraband ] # Frontier: BaseMajorContraband<BaseC3Contraband
   id: WeaponLauncherRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: 一款经过改装的古老火箭推进榴弹发射器。 丨 A modified ancient rocket-propelled grenade launcher.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -132,10 +132,10 @@
   - type: Appearance
 
 - type: entity
-  name: multiple rocket launcher
+  name: 多管火箭发射器 丨 multiple rocket launcher
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: 一具经过改装的古代火箭推进榴弹发射器。 丨 A modified ancient rocket-propelled grenade launcher.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -167,10 +167,10 @@
   - type: Appearance
 
 - type: entity
-  name: pirate cannon
+  name: 海盗大炮 丨 pirate cannon
   parent: [BaseC3PirateContraband, BaseWeaponLauncher] # Frontier: added C3PirateContraband
   id: WeaponLauncherPirateCannon
-  description: Kaboom!
+  description: 轰隆！ 丨 Kaboom!
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
@@ -199,12 +199,12 @@
         path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
 
 - type: entity
-  name: tether gun
+  name: 系绳枪 丨 tether gun
   parent:
   - BaseItem
   - PowerCellSlotMediumItem
   id: WeaponTetherGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: 操纵物体周围的重力，使其以高速飞射而出。 丨 Manipulates gravity around objects to fling them at high velocities.
   components:
     - type: Item
       storedRotation: -90
@@ -241,12 +241,12 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: 力场枪 丨 force gun
   parent:
     - BaseItem
     - PowerCellSlotMediumItem
   id: WeaponForceGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: 操纵物体周围的重力，使其以高速飞射而出。 丨 Manipulates gravity around objects to fling them at high velocities.
   components:
     - type: Item
       storedRotation: -90
@@ -289,7 +289,7 @@
                 False: { visible: false }
 
 - type: entity
-  name: grappling gun
+  name: 抓钩枪 丨 grappling gun
   parent: BaseItem
   id: WeaponGrapplingGun
   components:
@@ -325,11 +325,11 @@
 
 # Admeme
 - type: entity
-  name: tether gun
+  name: 系绳枪 丨 tether gun
   parent: BaseItem
   id: WeaponTetherGunAdmin
   suffix: Admeme
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: 操纵物体周围的重力，使其以高速飞射而出。 丨 Manipulates gravity around objects to fling them at high velocities.
   components:
     - type: TetherGun
       canTetherAlive: true
@@ -364,11 +364,11 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: 力场枪 丨 force gun
   parent: BaseItem
   id: WeaponForceGunAdmin
   suffix: Admeme
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: 操纵物体周围的重力，使其以高速飞射而出。 丨 Manipulates gravity around objects to fling them at high velocities.
   components:
     - type: ForceGun
       canTetherAlive: true
@@ -406,11 +406,11 @@
             False: { visible: false }
 
 - type: entity
-  name: meteor launcher
+  name: 流星发射器 丨 meteor launcher
   parent: WeaponLauncherMultipleRocket
   id: WeaponLauncherAdmemeMeteorLarge
   suffix: Admeme
-  description: It fires large meteors.
+  description: 它发射大型陨石。 丨 It fires large meteors.
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -419,11 +419,11 @@
     proto: MeteorMedium
 
 - type: entity
-  name: immovable rod launcher
+  name: 固定发射杆 丨 immovable rod launcher
   parent: WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
   suffix: Admeme
-  description: It fires slow immovable rods.
+  description: 它发射缓慢且无法移动的金属棒。 丨 It fires slow immovable rods.
   components:
   - type: BallisticAmmoProvider
     whitelist:

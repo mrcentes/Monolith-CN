@@ -51,7 +51,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CrateGenericSteel
-  name: crate
+  name: 板条箱 丨 crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/generic.rsi
@@ -68,7 +68,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CratePlastic
-  name: plastic crate
+  name: 塑料箱 丨 plastic crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/plastic.rsi
@@ -85,7 +85,7 @@
 - type: entity
   parent: CrateBaseWeldable
   id: CrateWood
-  name: wooden crate
+  name: 木箱 丨 wooden crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/wood.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateFreezer
-  name: freezer
+  name: 冷冻柜 丨 freezer
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/freezer.rsi
@@ -120,7 +120,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateHydroponics
-  name: hydroponics crate
+  name: 水培箱 丨 hydroponics crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/hydroponics.rsi
@@ -130,7 +130,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateMedical
-  name: medical crate
+  name: 医疗箱 丨 medical crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/medical.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateRadiation
-  name: radiation gear crate
-  description: Is not actually lead lined. Do not store your plutonium in this.
+  name: 辐射装备箱 丨 radiation gear crate
+  description: 实际上并非铅衬。请勿将钚存储于此。 丨 Is not actually lead lined. Do not store your plutonium in this.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/radiation.rsi
@@ -151,7 +151,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateInternals
-  name: oxygen crate
+  name: 氧气箱 丨 oxygen crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/o2.rsi
@@ -161,7 +161,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateElectrical
-  name: electrical crate
+  name: 电气箱 丨 electrical crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/electrical.rsi
@@ -171,7 +171,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateEngineering
-  name: engineering crate
+  name: 工程箱 丨 engineering crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/engineering.rsi
@@ -181,7 +181,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateScience
-  name: science crate
+  name: 科学箱 丨 science crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/science.rsi
@@ -191,7 +191,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateSurgery
-  name: surgery crate
+  name: 手术箱 丨 surgery crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/surgery.rsi
@@ -201,7 +201,7 @@
 - type: entity
   parent: CrateGeneric
   id: CrateWeb
-  name: web crate
+  name: 网络板条箱 丨 web crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/web.rsi
@@ -247,7 +247,7 @@
 - type: entity
   parent: [ CrateBaseSecure, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: CrateSecgear
-  name: secgear crate
+  name: secgear箱体 丨 secgear crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/sec_gear.rsi
@@ -259,7 +259,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateEngineeringSecure
-  name: secure engineering crate
+  name: 安全工程箱 丨 secure engineering crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/engicrate_secure.rsi
@@ -271,7 +271,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateMedicalSecure
-  name: secure medical crate
+  name: 安全医疗箱 丨 secure medical crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/medicalcrate_secure.rsi
@@ -283,7 +283,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateChemistrySecure
-  name: secure chemistry crate
+  name: 安全化学箱 丨 secure chemistry crate
   components:
     - type: Icon
       sprite: Structures/Storage/Crates/chemcrate_secure.rsi
@@ -295,7 +295,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CratePrivateSecure
-  name: private crate
+  name: 私人板条箱 丨 private crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/privatecrate_secure.rsi
@@ -305,7 +305,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateScienceSecure
-  name: secure science crate
+  name: 安全科学板条箱 丨 secure science crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/scicrate_secure.rsi
@@ -317,7 +317,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CratePlasma
-  name: plasma crate
+  name: 等离子箱 丨 plasma crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/plasma.rsi
@@ -329,7 +329,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateSecure
-  name: secure crate
+  name: 安全箱 丨 secure crate
   components:
     - type: Icon
       sprite: Structures/Storage/Crates/secure.rsi
@@ -339,7 +339,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateHydroSecure
-  name: secure hydroponics crate
+  name: 安全水培箱 丨 secure hydroponics crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/hydro_secure.rsi
@@ -351,7 +351,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateWeaponSecure
-  name: secure weapon crate
+  name: 安全武器箱 丨 secure weapon crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/weapon.rsi
@@ -364,8 +364,8 @@
   parent: [ CrateBaseSecure, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   suffix: Armory, Secure
   id: CrateContrabandStorageSecure
-  name: contraband storage crate
-  description: An armory access locked crate for storing contraband confiscated from suspects or prisoners.
+  name: 违禁品储物箱 丨 contraband storage crate
+  description: 一个用于存放从嫌疑犯或囚犯处没收的违禁品的军械库上锁板条箱。 丨 An armory access locked crate for storing contraband confiscated from suspects or prisoners.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/sec_gear.rsi
@@ -375,7 +375,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateCommandSecure
-  name: command crate
+  name: 命令箱 丨 command crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/command.rsi
@@ -387,7 +387,7 @@
 - type: entity
   parent: CrateGeneric
   id: CrateLivestock
-  name: livestock crate
+  name: 牲畜栏 丨 livestock crate
   components:
   - type: EntityStorage
     airtight: false
@@ -444,7 +444,7 @@
 - type: entity
   parent: CrateGeneric
   id: CrateRodentCage
-  name: hamster cage
+  name: 仓鼠笼 丨 hamster cage
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/cage.rsi
@@ -496,8 +496,8 @@
 - type: entity
   parent: CrateGeneric
   id: CratePirate
-  name: pirate chest
-  description: A space pirate chest, not for station lubbers.
+  name: 海盗宝箱 丨 pirate chest
+  description: 太空海盗的宝箱，可不是给空间站菜鸟准备的。 丨 A space pirate chest, not for station lubbers.
   components:
   - type: Sprite
     sprite: _NF/Structures/Storage/Crates/piratechestgrey.rsi # Frontier: add _NF, piratechest.rsi<piratechestgrey.rsi
@@ -524,9 +524,9 @@
 - type: entity
   parent: CratePirate
   id: CrateToyBox
-  name: toy box
+  name: 玩具箱 丨 toy box
   suffix: Empty
-  description: A box overflowing with fun.
+  description: 一个装满趣味的盒子。 丨 A box overflowing with fun.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/toybox.rsi
@@ -547,8 +547,8 @@
 - type: entity
   parent: CrateGeneric
   id: CrateCoffin
-  name: coffin
-  description: A comfy coffin, excelent place for the vampires and corpses.
+  name: 棺材 丨 coffin
+  description: 一个舒适的棺材，是吸血鬼和尸体的绝佳去处。 丨 A comfy coffin, excelent place for the vampires and corpses.
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/coffin.rsi
@@ -586,9 +586,9 @@
 - type: entity
   parent: CrateGeneric
   id: CrateWoodenGrave
-  name: grave
+  name: 坟墓 丨 grave
   suffix: wooden
-  description: Someone died here...
+  description: 有人在此逝去…… 丨 Someone died here...
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/wooden_grave.rsi
@@ -634,9 +634,9 @@
 - type: entity
   parent: CrateWoodenGrave
   id: CrateStoneGrave
-  name: grave
+  name: 坟墓 丨 grave
   suffix: stone
-  description: Someone died here...
+  description: 有人在此逝去…… 丨 Someone died here...
   components:
   - type: Sprite
     sprite: Structures/Storage/Crates/stone_grave.rsi
@@ -655,8 +655,8 @@
 - type: entity
   parent: [ BaseC3SyndicateContraband, CrateGenericSteel ] # Frontier: Added BaseC3SyndicateContraband
   id: CrateSyndicate
-  name: Syndicate crate
-  description: A dark steel crate with red bands and a letter S embossed on the front.
+  name: 辛迪加板条箱 丨 Syndicate crate
+  description: 一个深色钢制板条箱，侧面饰有红色条纹，正面压印着字母S。 丨 A dark steel crate with red bands and a letter S embossed on the front.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/syndicate.rsi
@@ -666,7 +666,7 @@
 - type: entity
   parent: [StructureWheeled, CrateBaseWeldable]
   id: CrateTrashCart
-  name: trash cart
+  name: 垃圾车 丨 trash cart
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/trashcart.rsi
@@ -687,7 +687,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateTrashCartJani
-  name: janitorial trash cart
+  name: 保洁垃圾车 丨 janitorial trash cart
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/trashcart_jani.rsi

@@ -46,8 +46,8 @@
 - type: entity
   id: BaseBorgModule
   parent: BaseItem
-  name: borg module
-  description: A piece of tech that gives cyborgs new abilities.
+  name: 博格模块 丨 borg module
+  description: 一项赋予改造人新能力的科技。 丨 A piece of tech that gives cyborgs new abilities.
   abstract: true
   components:
   - type: Item
@@ -78,8 +78,8 @@
 
 - type: entity
   id: ActionBorgSwapModule
-  name: Swap Module
-  description: Select this module, enabling you to use the tools it provides.
+  name: 交换模块 丨 Swap Module
+  description: 选择此模块，您便可使用其提供的工具。 丨 Select this module, enabling you to use the tools it provides.
   components:
   - type: InstantAction
     itemIconStyle: BigAction
@@ -153,7 +153,7 @@
 - type: entity
   id: BorgModuleCable
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: cable cyborg module
+  name: 电缆赛博模块 丨 cable cyborg module
   components:
   - type: Sprite
     layers:
@@ -173,7 +173,7 @@
 - type: entity
   id: BorgModuleFireExtinguisher
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: fire extinguisher cyborg module
+  name: 灭火器改造模块 丨 fire extinguisher cyborg module
   components:
   - type: Sprite
     layers:
@@ -197,7 +197,7 @@
 - type: entity
   id: BorgModuleGPS
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: GPS cyborg module
+  name: GPS生化人模块 丨 GPS cyborg module
   components:
   - type: Sprite
     layers:
@@ -215,7 +215,7 @@
 - type: entity
   id: BorgModuleRadiationDetection
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: radiation detection cyborg module
+  name: 辐射检测半机械人模块 丨 radiation detection cyborg module
   components:
   - type: Sprite
     layers:
@@ -231,7 +231,7 @@
 - type: entity
   id: BorgModuleTool
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: tool cyborg module
+  name: 工具赛博格模块 丨 tool cyborg module
   components:
   - type: Sprite
     layers:
@@ -254,7 +254,7 @@
 - type: entity
   id: BorgModuleSecurity
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: security cyborg module
+  name: 安全生化人模块 丨 security cyborg module
   components:
   - type: Sprite
     layers:
@@ -272,7 +272,7 @@
 - type: entity
   id: BorgModuleMercenary
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: mercenary cyborg module
+  name: 雇佣兵改造人模块 丨 mercenary cyborg module
   components:
   - type: Sprite
     layers:
@@ -290,7 +290,7 @@
 - type: entity
   id: BorgModuleAppraisal
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: cargo cyborg module # Mono
+  name: 货物机器人模块 # 单声道 丨 cargo cyborg module # Mono
   components:
   - type: Sprite
     layers:
@@ -308,7 +308,7 @@
 - type: entity
   id: BorgModuleMining
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: mining cyborg module
+  name: 采矿半机械人模块 丨 mining cyborg module
   components:
   - type: Sprite
     layers:
@@ -339,7 +339,7 @@
 - type: entity
   id: BorgModuleGrapplingGun
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: grappling gun cyborg module
+  name: 抓钩枪义体模块 丨 grappling gun cyborg module
   components:
   - type: Sprite
     layers:
@@ -357,7 +357,7 @@
 - type: entity
   id: BorgModuleAdvancedTool
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: advanced tool cyborg module
+  name: 高级工具赛博格模块 丨 advanced tool cyborg module
   components:
   - type: Sprite
     layers:
@@ -382,7 +382,7 @@
 - type: entity
   id: BorgModuleConstruction
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: construction cyborg module
+  name: 施工改造人模块 丨 construction cyborg module
   components:
   - type: Sprite
     layers:
@@ -428,7 +428,7 @@
 - type: entity
   id: BorgModuleRCD
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: RCD cyborg module
+  name: RCD生化人模块 丨 RCD cyborg module
   components:
   - type: Sprite
     layers:
@@ -445,7 +445,7 @@
 - type: entity
   id: BorgModuleLightReplacer
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: light replacer cyborg module
+  name: 光替换者赛博格模块 丨 light replacer cyborg module
   components:
   - type: Sprite
     layers:
@@ -463,7 +463,7 @@
 - type: entity
   id: BorgModuleCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: cleaning cyborg module
+  name: 清洁机器人模块 丨 cleaning cyborg module
   components:
   - type: Sprite
     layers:
@@ -490,7 +490,7 @@
 - type: entity
   id: BorgModuleAdvancedCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: advanced cleaning cyborg module
+  name: 高级清洁机器人模块 丨 advanced cleaning cyborg module
   components:
   - type: Sprite
     layers:
@@ -511,7 +511,7 @@
 - type: entity
   id: BorgModuleDiagnosis # todo: reuse when med refractor is finished
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: diagnosis cyborg module
+  name: 诊断赛博格模块 丨 diagnosis cyborg module
   components:
   - type: Sprite
     layers:
@@ -528,7 +528,7 @@
 - type: entity
   id: BorgModuleTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: treatment cyborg module
+  name: 治疗改造模块 丨 treatment cyborg module
   components:
   - type: Sprite
     layers:
@@ -549,7 +549,7 @@
 - type: entity
   id: BorgModuleDefibrillator
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: defibrillator cyborg module
+  name: 除颤器赛博格模块 丨 defibrillator cyborg module
   components:
   - type: Sprite
     layers:
@@ -565,7 +565,7 @@
 - type: entity
   id: BorgModuleAdvancedTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: advanced treatment cyborg module
+  name: 高级治疗赛博格模块 丨 advanced treatment cyborg module
   components:
   - type: Sprite
     layers:
@@ -600,7 +600,7 @@
 - type: entity
   id: BorgModuleArtifact
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: artifact cyborg module
+  name: 人造人模块 丨 artifact cyborg module
   components:
   - type: Sprite
     layers:
@@ -616,7 +616,7 @@
 - type: entity
   id: BorgModuleAnomaly
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: anomaly cyborg module
+  name: 异常改造人模块 丨 anomaly cyborg module
   components:
   - type: Sprite
     layers:
@@ -637,7 +637,7 @@
 - type: entity
   id: BorgModuleService
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: service cyborg module
+  name: 服务赛博格模块 丨 service cyborg module
   components:
   - type: Sprite
     layers:
@@ -675,7 +675,7 @@
 - type: entity
   id: BorgModuleMusique
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: musique cyborg module
+  name: 机械音乐模块 丨 musique cyborg module
   components:
   - type: Sprite
     layers:
@@ -693,7 +693,7 @@
 - type: entity
   id: BorgModuleGardening
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: gardening cyborg module
+  name: 园艺生化模块 丨 gardening cyborg module
   components:
   - type: Sprite
     layers:
@@ -721,7 +721,7 @@
 - type: entity
   id: BorgModuleHarvesting
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: harvesting cyborg module
+  name: 收获赛博格模块 丨 harvesting cyborg module
   components:
   - type: Sprite
     layers:
@@ -748,7 +748,7 @@
 - type: entity
   id: BorgModuleClowning
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: clowning cyborg module
+  name: 小丑化赛博格模块 丨 clowning cyborg module
   components:
   - type: Sprite
     layers:
@@ -767,7 +767,7 @@
 - type: entity
   id: BorgModuleSyndicateWeapon
   parent: [ BaseBorgModule, BaseProviderBorgModule, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  name: weapon cyborg module
+  name: 武器改造模块 丨 weapon cyborg module
   components:
   - type: Sprite
     layers:
@@ -784,8 +784,8 @@
 - type: entity
   id: BorgModuleOperative
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  name: operative cyborg module
-  description: A module that comes with a crowbar, an Emag, an Access Breaker and a syndicate pinpointer.
+  name: 特工机器人模块 丨 operative cyborg module
+  description: 一个配备撬棍、电磁脉冲枪、门禁破坏器和辛迪加定位器的模块。 丨 A module that comes with a crowbar, an Emag, an Access Breaker and a syndicate pinpointer.
   components:
     - type: Sprite
       layers:
@@ -804,8 +804,8 @@
 - type: entity
   id: BorgModuleEsword
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  name: energy sword cyborg module
-  description: A module that comes with a double energy sword.
+  name: 能量剑赛博格模块 丨 energy sword cyborg module
+  description: 附带双能量剑的模块。 丨 A module that comes with a double energy sword.
   components:
     - type: Sprite
       layers:
@@ -822,8 +822,8 @@
 - type: entity
   id: BorgModuleL6C
   parent: [ BaseBorgModuleSyndicateAssault, BaseProviderBorgModule, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  name: L6C ROW cyborg module
-  description: A module that comes with a L6C.
+  name: L6C ROW 生化模块 丨 L6C ROW cyborg module
+  description: 一个随 L6C 附带的模块。 丨 A module that comes with a L6C.
   components:
     - type: Sprite
       layers:
@@ -840,8 +840,8 @@
 - type: entity
   id: BorgModuleMartyr
   parent: [ BaseBorgModule, BaseProviderBorgModule, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  name: martyr cyborg module
-  description: "A module that comes with an explosive you probably don't want to handle yourself."
+  name: 殉道者生化模块 丨 martyr cyborg module
+  description: 附带爆炸物的模块，您大概不想亲手处理。 丨 "A module that comes with an explosive you probably don't want to handle yourself."
   components:
     - type: Sprite
       layers:
@@ -859,7 +859,7 @@
 - type: entity
   id: BorgModuleSurgery
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: surgery cyborg module
+  name: 手术改造模块 丨 surgery cyborg module
   components:
   - type: Sprite
     layers:
@@ -891,7 +891,7 @@
 - type: entity
   id: BorgModuleAdvancedSurgery
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: advanced surgery cyborg module
+  name: 高级手术改造模块 丨 advanced surgery cyborg module
   components:
   - type: Sprite
     layers:

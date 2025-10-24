@@ -1,8 +1,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: BaseAPC
-  name: APC
-  description: A control terminal for the area's electrical systems.
+  name: APC 丨 APC
+  description: 该区域电气系统的控制终端。 丨 A control terminal for the area's electrical systems.
   placement:
     mode: SnapgridCenter
   components:
@@ -152,8 +152,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: APCFrame
-  name: APC frame
-  description: A control terminal for the area's electrical systems, lacking the electronics.
+  name: APC框架 丨 APC frame
+  description: 该区域电气系统的控制终端，缺少电子元件。 丨 A control terminal for the area's electrical systems, lacking the electronics.
   placement:
     mode: SnapgridCenter
   components:

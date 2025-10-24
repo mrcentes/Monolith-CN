@@ -1,53 +1,8 @@
-# SPDX-FileCopyrightText: 2022 CrudeWax
-# SPDX-FileCopyrightText: 2022 EmoGarbage404
-# SPDX-FileCopyrightText: 2022 Jessica M
-# SPDX-FileCopyrightText: 2022 Jezithyr
-# SPDX-FileCopyrightText: 2022 Rane
-# SPDX-FileCopyrightText: 2022 dontbetank
-# SPDX-FileCopyrightText: 2022 metalgearsloth
-# SPDX-FileCopyrightText: 2022 mirrorcult
-# SPDX-FileCopyrightText: 2022 rolfero
-# SPDX-FileCopyrightText: 2023 Alex Evgrashin
-# SPDX-FileCopyrightText: 2023 Derby
-# SPDX-FileCopyrightText: 2023 DerbyX
-# SPDX-FileCopyrightText: 2023 DrSmugleaf
-# SPDX-FileCopyrightText: 2023 I.K
-# SPDX-FileCopyrightText: 2023 Jackrost
-# SPDX-FileCopyrightText: 2023 Kara
-# SPDX-FileCopyrightText: 2023 MisterMecky
-# SPDX-FileCopyrightText: 2023 Nairod
-# SPDX-FileCopyrightText: 2023 Nemanja
-# SPDX-FileCopyrightText: 2023 Psychpsyo
-# SPDX-FileCopyrightText: 2023 Stealthbomber16
-# SPDX-FileCopyrightText: 2023 Visne
-# SPDX-FileCopyrightText: 2023 Whisper
-# SPDX-FileCopyrightText: 2023 brainfood1183
-# SPDX-FileCopyrightText: 2023 lzk228
-# SPDX-FileCopyrightText: 2023 notquitehadouken <1isthisameme>
-# SPDX-FileCopyrightText: 2023 pofitlo
-# SPDX-FileCopyrightText: 2024 BITTERLYNX
-# SPDX-FileCopyrightText: 2024 Dvir
-# SPDX-FileCopyrightText: 2024 James Simonson
-# SPDX-FileCopyrightText: 2024 Leon Friedrich
-# SPDX-FileCopyrightText: 2024 Plykiya
-# SPDX-FileCopyrightText: 2024 TsjipTsjip
-# SPDX-FileCopyrightText: 2024 Whatstone
-# SPDX-FileCopyrightText: 2024 lzk
-# SPDX-FileCopyrightText: 2024 no
-# SPDX-FileCopyrightText: 2024 shamp
-# SPDX-FileCopyrightText: 2024 themias
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 Errant
-# SPDX-FileCopyrightText: 2025 ScyronX
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: MPL-2.0
-
 - type: entity
-  name: rat king
+  name: 鼠王 丨 rat king
   id: MobRatKing
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da rat. He make da roolz.
+  description: 他是鼠王。规矩由他定。 丨 He's da rat. He make da roolz.
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -138,8 +93,8 @@
         Base: dead
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-rat-king-name
-    description: ghost-role-information-rat-king-description
+    name: 鼠王 丨 ghost-role-information-rat-king-name
+    description: 幽灵角色信息-鼠王-描述 丨 ghost-role-information-rat-king-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -184,6 +139,7 @@
   - type: Sharp
   - type: NightVision # Goobstation - Nigthvision
     toggleAction: null
+    color: "#808080"
     activateSound: null
     deactivateSound: null
 
@@ -225,10 +181,10 @@
   #   - MinorAntagonists # Frontier: guidebook removed
 
 - type: entity
-  name: rat servant
+  name: 鼠仆 丨 rat servant
   id: MobRatServant
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da mini rat. He don't make da roolz.
+  description: 他是只小耗子。规矩不是他定的。 丨 He's da mini rat. He don't make da roolz.
   categories: [ HideSpawnMenu ] #Must be configured to a King or the AI breaks.
   components:
   - type: Carriable #DeltaV
@@ -369,6 +325,7 @@
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
   - type: NightVision # Goobstation - Nigthvision
+    color: "#808080"
     activateSound: null
     deactivateSound: null
 
@@ -383,8 +340,8 @@
 
 - type: entity
   id: ActionRatKingRaiseArmy
-  name: Raise Army
-  description: Spend some hunger to summon an allied rat to help defend you.
+  name: 召唤鼠群 丨 Raise Army
+  description: 消耗一些饥饿值，召唤一只友方老鼠来协助防御。 丨 Spend some hunger to summon an allied rat to help defend you.
   components:
   - type: InstantAction
     useDelay: 4
@@ -395,8 +352,8 @@
 
 - type: entity
   id: ActionRatKingDomain
-  name: Rat King's Domain
-  description: Spend some hunger to release a cloud of ammonia into the air.
+  name: 鼠王领域 丨 Rat King's Domain
+  description: 消耗一些饥饿值，向空气中释放一团氨气。 丨 Spend some hunger to release a cloud of ammonia into the air.
   components:
   - type: InstantAction
     useDelay: 6
@@ -407,8 +364,8 @@
 
 - type: entity
   id: ActionRatKingOrderStay
-  name: Stay
-  description: Command your army to stand in place.
+  name: 原地待命 丨 Stay
+  description: 命令你的军队原地待命。 丨 Command your army to stand in place.
   components:
   - type: InstantAction
     useDelay: 1
@@ -425,8 +382,8 @@
 
 - type: entity
   id: ActionRatKingOrderFollow
-  name: Follow
-  description: Command your army to follow you around.
+  name: 跟随 丨 Follow
+  description: 命令你的军队跟随你。 丨 Command your army to follow you around.
   components:
   - type: InstantAction
     useDelay: 1
@@ -443,8 +400,8 @@
 
 - type: entity
   id: ActionRatKingOrderCheeseEm
-  name: Cheese 'Em
-  description: Command your army to attack whoever you point at.
+  name: 干掉他们 丨 Cheese 'Em
+  description: 指挥你的军队攻击你所指的任何目标。 丨 Command your army to attack whoever you point at.
   components:
   - type: InstantAction
     useDelay: 1
@@ -461,8 +418,8 @@
 
 - type: entity
   id: ActionRatKingOrderLoose
-  name: Loose
-  description: Command your army to act at their own will.
+  name: 自由行动 丨 Loose
+  description: 命令你的军队随心所欲地行动。 丨 Command your army to act at their own will.
   components:
   - type: InstantAction
     useDelay: 1

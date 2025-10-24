@@ -6,8 +6,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorPurple
-  name: purple gloves
-  description: Regular purple gloves that do not keep you from frying.
+  name: 紫色手套 丨 purple gloves
+  description: 不会妨碍你煎炸的普通紫色手套。 丨 Regular purple gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorRed
-  name: red gloves
-  description: Regular red gloves that do not keep you from frying.
+  name: 红手套 丨 red gloves
+  description: 不会妨碍你煎炸的普通红手套。 丨 Regular red gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorBlue
-  name: blue gloves
-  description: Regular blue gloves that do not keep you from frying.
+  name: 蓝色手套 丨 blue gloves
+  description: 不会妨碍你煎炸的普通蓝色手套。 丨 Regular blue gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorTeal
-  name: teal gloves
-  description: Regular teal gloves that do not keep you from frying.
+  name: 蓝绿色手套 丨 teal gloves
+  description: 不会妨碍你煎炸的常规蓝绿色手套。 丨 Regular teal gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorBrown
-  name: brown gloves
-  description: Regular brown gloves that do not keep you from frying.
+  name: 棕色手套 丨 brown gloves
+  description: 普通的棕色手套，不会妨碍你煎炸。 丨 Regular brown gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorGray
-  name: grey gloves
-  description: Regular grey gloves that do not keep you from frying.
+  name: 灰色手套 丨 grey gloves
+  description: 不会妨碍你煎炸的普通灰色手套。 丨 Regular grey gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorGreen
-  name: green gloves
-  description: Regular green gloves that do not keep you from frying.
+  name: 绿手套 丨 green gloves
+  description: 不会妨碍你煎炸的普通绿色手套。 丨 Regular green gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -209,8 +209,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorLightBrown
-  name: light brown gloves
-  description: Regular light brown gloves that do not keep you from frying.
+  name: 浅棕色手套 丨 light brown gloves
+  description: 不会妨碍你煎炸的普通浅棕色手套。 丨 Regular light brown gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -238,8 +238,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorOrange
-  name: orange gloves
-  description: Regular orange gloves that do not keep you from frying.
+  name: 橙色的手套 丨 orange gloves
+  description: 不会妨碍你煎炸的普通橙色手套。 丨 Regular orange gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorWhite
-  name: white gloves
-  description: Regular white gloves that do not keep you from frying.
+  name: 白手套 丨 white gloves
+  description: 不会妨碍你煎炸的普通白手套。 丨 Regular white gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/color.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorBlack
-  name: black gloves
-  description: Regular black gloves that do not keep you from frying.
+  name: 黑手套 丨 black gloves
+  description: 不会妨碍你煎炸的普通黑色手套。 丨 Regular black gloves that do not keep you from frying.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/black.rsi
@@ -324,8 +324,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesColorYellow
-  name: insulated gloves
-  description: These gloves will protect the wearer from electric shocks.
+  name: 绝缘手套 丨 insulated gloves
+  description: 这些手套能保护佩戴者免受电击。 丨 These gloves will protect the wearer from electric shocks.
   components:
   - type: FingerprintMask
   - type: Sprite
@@ -349,8 +349,8 @@
 - type: entity
   parent: ClothingHandsGlovesColorYellow
   id: ClothingHandsGlovesColorYellowBudget
-  name: budget insulated gloves
-  description: These gloves are cheap knockoffs of the coveted ones - no way this can end badly.
+  name: 廉价绝缘手套 丨 budget insulated gloves
+  description: 这些手套是备受追捧款式的廉价仿冒品——这结局怎么可能糟糕呢。 丨 These gloves are cheap knockoffs of the coveted ones - no way this can end badly.
   components:
   - type: RandomInsulation
     # Why repeated numbers? So some numbers are more common, of course!

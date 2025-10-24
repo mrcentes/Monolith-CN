@@ -47,10 +47,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: BaseWeaponSniper
+  name: 基础武器狙击枪 丨 BaseWeaponSniper
   parent: BaseItem
   id: BaseWeaponSniper
-  description: A rooty tooty point and shooty.
+  description: 一根精准瞄准射击的烧火棍。 丨 A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -106,10 +106,10 @@
   # Goobstation edit end
 
 - type: entity
-  name: NCI Kardashev-Mosin (7.62x54mmR)
+  name: NCI 卡尔达肖夫-莫辛步枪（7.62x54毫米R） 丨 NCI Kardashev-Mosin (7.62x54mmR)
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseGunMelee, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added BaseGunMelee
   id: WeaponSniperMosin
-  description: A weapon for hunting, or endless trench warfare. Uses 762x54mmR ammo. Equipped with bayonet. # Frontier: bayonet
+  description: 一把用于狩猎，或无尽堑壕战的武器。使用762x54mmR弹药。配备刺刀。# 边境：刺刀 丨 A weapon for hunting, or endless trench warfare. Uses 762x54mmR ammo. Equipped with bayonet. # Frontier: bayonet
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -129,10 +129,10 @@
     id: StandardFactionLongarm
 
 - type: entity
-  name: SKR-WS M96 Hristov (14.5x114mm)
+  name: SKR-WS M96赫里斯托夫反器材步枪（14.5x114mm） 丨 SKR-WS M96 Hristov (14.5x114mm)
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponSniperHristov
-  description: A portable anti-material rifle. Fires high velocity 14.5mm shells. Uses 145x114mm ammo.
+  description: 便携式反器材步枪，发射高速14.5毫米子弹，使用14.5x114毫米弹药。 丨 A portable anti-material rifle. Fires high velocity 14.5mm shells. Uses 145x114mm ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/hristov.rsi
@@ -164,10 +164,10 @@
     price: 1250
 
 - type: entity
-  name: musket
+  name: 火枪 丨 musket
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseGunMelee, BaseC2Contraband ] # Frontier: BaseMinorContraband<BaseC2Contraband, add BaseGunMelee
   id: Musket
-  description: This should've been in a museum long before you were born. Uses 145x114mm ammo.
+  description: 这玩意儿早在你出生前就该进博物馆了。使用145x114毫米弹药。 丨 This should've been in a museum long before you were born. Uses 145x114mm ammo.
   components:
   - type: Sharp
   - type: Item
@@ -205,10 +205,10 @@
     attackType: Light # Frontier
 
 - type: entity
-  name: flintlock pistol
+  name: 燧发手枪 丨 flintlock pistol
   parent: [BaseWeaponSniper, BaseC3PirateContraband] # Frontier: BaseMinorContraband<BaseC3PirateContraband
   id: WeaponPistolFlintlock
-  description: A pirate's companion. Yarrr! Uses 145x114mm ammo. An illegal weapon often used by pirates.
+  description: 海盗的伙伴。呀嚯！使用145x114mm弹药。海盗常用的非法武器。 丨 A pirate's companion. Yarrr! Uses 145x114mm ammo. An illegal weapon often used by pirates.
   components:
   - type: Gun
     minAngle: 0

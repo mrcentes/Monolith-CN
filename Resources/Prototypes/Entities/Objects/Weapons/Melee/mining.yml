@@ -1,8 +1,8 @@
 - type: entity
-  name: pickaxe
+  name: 镐 丨 pickaxe
   parent: [ BaseItem, RecyclableItemWoodMedium ] # Frontier: added RecyclableItemWoodMedium
   id: Pickaxe
-  description: Notched to perfection, for jamming it into rocks.
+  description: 完美开槽，便于嵌入岩石。 丨 Notched to perfection, for jamming it into rocks.
   components:
   - type: Tag
     tags:
@@ -39,10 +39,10 @@
   - type: UseDelay
 
 - type: entity
-  name: mining drill
+  name: 采矿钻机 丨 mining drill
   parent: BaseItem
   id: MiningDrill
-  description: Powerful tool used to quickly drill through rocks.
+  description: 强力工具，用于快速钻穿岩石。 丨 Powerful tool used to quickly drill through rocks.
   components:
   - type: Item
     storedRotation: -90
@@ -67,10 +67,10 @@
         Structural: 15
 
 - type: entity
-  name: diamond tipped mining drill
+  name: 金刚石钻头采矿钻 丨 diamond tipped mining drill
   parent: MiningDrill
   id: MiningDrillDiamond
-  description: A significantly more efficient mining drill tipped with diamond.
+  description: 一款效率显著更高的镶钻采矿钻头。 丨 A significantly more efficient mining drill tipped with diamond.
   components:
   - type: Sprite
     sprite: Objects/Tools/handdrilldiamond.rsi
@@ -95,8 +95,8 @@
   abstract: true
   parent: [ BaseItem, BaseC1Contraband ] # Frontier: BaseSecurityCargoContraband<BaseC1Contraband
   id: BaseWeaponCrusher # Crusher? But I...
-  name: crusher
-  description: An early design of the proto-kinetic accelerator.
+  name: 破碎者 丨 crusher
+  description: 早期原型动能加速器的设计方案。 丨 An early design of the proto-kinetic accelerator.
   components:
   - type: Sharp
   - type: UnpoweredFlashlight
@@ -166,8 +166,8 @@
 - type: entity
   parent: [ BaseKnife, BaseWeaponCrusher, BaseC1Contraband] # Frontier: BaseSecurityCargoContraband<BaseC1Contraband
   id: WeaponCrusherDagger
-  name: crusher dagger
-  description: A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
+  name: 粉碎者匕首 丨 crusher dagger
+  description: 原型动能破碎锤的缩小版，利用动能实现刀片高速振动。 丨 A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_dagger.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: [ WeaponCrusher, BaseC1Contraband] # Frontier: BaseSecurityCargoContraband<BaseC1Contraband
   id: WeaponCrusherGlaive
-  name: crusher glaive
-  description: An early design of the proto-kinetic accelerator, in glaive form.
+  name: 碎击回旋刃 丨 crusher glaive
+  description: 原型动能加速器的早期设计，采用战刃形态。 丨 An early design of the proto-kinetic accelerator, in glaive form.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_glaive.rsi

@@ -60,8 +60,8 @@
           Unprimed: { state: complete }
 
 - type: entity
-  name: composition C-4
-  description: Used to put holes in specific areas without too much extra hole. A saboteur's favorite.
+  name: 成分C-4 丨 composition C-4
+  description: 用于在特定区域打孔而不会产生过多额外孔洞。破坏分子的最爱。 丨 Used to put holes in specific areas without too much extra hole. A saboteur's favorite.
   parent: [BasePlasticExplosive, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: C4
   components:
@@ -103,8 +103,8 @@
       festive: Objects/Weapons/Bombs/c4gift.rsi
 
 - type: entity
-  name: seismic charge
-  description: Concussion based explosive designed to destroy large amounts of rock.
+  name: 震荡炸弹 丨 seismic charge
+  description: 基于冲击波的爆炸物，用于摧毁大量岩石。 丨 Concussion based explosive designed to destroy large amounts of rock.
   parent: [BasePlasticExplosive, BaseC2ContrabandUnredeemable] # Frontier: Added BaseC2ContrabandUnredeemable
   id: SeismicCharge
   components:

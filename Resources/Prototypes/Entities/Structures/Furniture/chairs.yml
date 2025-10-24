@@ -55,10 +55,10 @@
 # SPDX-License-Identifier: MPL-2.0
 
 - type: entity
-  name: chair
+  name: 椅子 丨 chair
   id: SeatBase
   abstract: true
-  description: You sit in this. Either by will or force.
+  description: 你坐在这上面。无论是自愿还是被迫。 丨 You sit in this. Either by will or force.
   placement:
     mode: PlaceFree
   components:
@@ -108,7 +108,7 @@
 
 #Starts unanchored, cannot be rotated while anchored
 - type: entity
-  name: chair
+  name: 椅子 丨 chair
   id: UnanchoredChairBase
   parent: SeatBase
   abstract: true
@@ -118,7 +118,7 @@
 
 #Start anchored, cannot be rotated while anchored
 - type: entity
-  name: chair
+  name: 椅子 丨 chair
   id: ChairBase
   abstract: true
   parent: UnanchoredChairBase
@@ -134,7 +134,7 @@
 
 #Starts unanchored, can be rotated while anchored
 - type: entity
-  name: chair
+  name: 椅子 丨 chair
   id: OfficeChairBase
   parent: UnanchoredChairBase
   abstract: true
@@ -144,7 +144,7 @@
 
 #Starts anchored, can be rotated while anchored
 - type: entity
-  name: stool
+  name: 凳子 丨 stool
   id: StoolBase
   parent: OfficeChairBase
   abstract: true
@@ -159,7 +159,7 @@
     hintText: dead-drop-hint-stool # Frontier
 
 - type: entity
-  name: chair
+  name: 椅子 丨 chair
   id: Chair
   parent: ChairBase
   components:
@@ -170,7 +170,7 @@
     node: chair
 
 - type: entity
-  name: chair
+  name: 椅子 丨 chair
   id: ChairGreyscale
   parent: Chair
   suffix: White
@@ -179,10 +179,10 @@
     state: chair-greyscale
 
 - type: entity
-  name: stool
+  name: 凳子 丨 stool
   id: Stool
   parent: UnanchoredChairBase
-  description: Apply butt.
+  description: 涂抹臀部。 丨 Apply butt.
   components:
   - type: Sprite
     state: stool
@@ -191,7 +191,7 @@
     node: stool
 
 - type: entity
-  name: bar stool
+  name: 吧凳 丨 bar stool
   id: StoolBar
   parent: StoolBase
   components:
@@ -202,7 +202,7 @@
     node: stoolBar
 
 - type: entity
-  name: brass chair
+  name: 黄铜椅 丨 brass chair
   id: ChairBrass
   parent: StoolBase
   components:
@@ -213,7 +213,7 @@
     node: chairBrass
 
 - type: entity
-  name: white office chair
+  name: 白色办公椅 丨 white office chair
   id: ChairOfficeLight
   parent: OfficeChairBase
   components:
@@ -224,7 +224,7 @@
     node: chairOffice
 
 - type: entity
-  name: dark office chair
+  name: 黑色办公椅 丨 dark office chair
   id: ChairOfficeDark
   parent: ChairOfficeLight
   components:
@@ -235,10 +235,10 @@
     node: chairOfficeDark
 
 - type: entity
-  name: comfy chair
+  name: 舒适的椅子 丨 comfy chair
   id: ComfyChair
   parent: ChairBase
-  description: It looks comfy.
+  description: 它看起来很舒适。 丨 It looks comfy.
   components:
   - type: Sprite
     state: comfy
@@ -247,10 +247,10 @@
     node: chairComfy
 
 - type: entity
-  name: pilot seat
+  name: 飞行员座椅 丨 pilot seat
   id: ChairPilotSeat
   parent: ChairBase
-  description: The pilot seat of a prestigious ship.
+  description: 一艘名船的飞行员座椅。 丨 The pilot seat of a prestigious ship.
   components:
   - type: Sprite
     state: shuttle
@@ -259,7 +259,7 @@
     node: chairPilotSeat
 
 - type: entity
-  name: wooden chair
+  name: 木椅 丨 wooden chair
   id: ChairWood
   parent: UnanchoredChairBase
   components:
@@ -293,10 +293,10 @@
     price: 75
 
 - type: entity
-  name: ritual chair
+  name: 仪式椅 丨 ritual chair
   id: ChairRitual
   parent: ChairWood
-  description: Looks uncomfortable.
+  description: 看起来不舒服。 丨 Looks uncomfortable.
   components:
   - type: Sprite
     state: ritual
@@ -307,8 +307,8 @@
 - type: entity
   id: ChairMeat
   parent: UnanchoredChairBase
-  name: meat chair
-  description: Uncomfortably sweaty.
+  name: 肉椅 丨 meat chair
+  description: 令人不适的黏腻感。 丨 Uncomfortably sweaty.
   components:
   - type: Sprite
     state: meat
@@ -317,10 +317,10 @@
     node: chairMeat
 
 - type: entity
-  name: cursed chair
+  name: 被诅咒的椅子 丨 cursed chair
   id: ChairCursed
   parent: ChairWood
-  description: It's staring back.
+  description: 它在回瞪着我。 丨 It's staring back.
   components:
   - type: Sprite
     state: cursed
@@ -348,9 +348,9 @@
     node: chairCursed
 
 - type: entity
-  name: web chair
+  name: 网络椅 丨 web chair
   id: ChairWeb
-  description: For true web developers.
+  description: 献给真正的网站开发者。 丨 For true web developers.
   parent: UnanchoredChairBase
   components:
   - type: Sprite
@@ -386,8 +386,8 @@
 - type: entity
   parent: [SeatBase, BaseDeployFoldable]
   id: ChairFolding
-  name: folding chair
-  description: If you carry six of these you become the coolest kid at church.
+  name: 折叠椅 丨 folding chair
+  description: 如果你带着六把这样的椅子去教堂，你就是最酷的孩子。 丨 If you carry six of these you become the coolest kid at church.
   components:
   - type: Rotatable
   - type: Sprite
@@ -423,10 +423,10 @@
     enabled: False
 
 - type: entity
-  name: steel bench
+  name: 钢制长椅 丨 steel bench
   id: SteelBench
   parent: ChairBase
-  description: A long chair made for a metro. Really standard design.
+  description: 一把为地铁设计的长椅。非常标准的设计。 丨 A long chair made for a metro. Really standard design.
   components:
   - type: Sprite
     state: steel-bench
@@ -437,10 +437,10 @@
     hintText: dead-drop-hint-bench # Frontier
 
 - type: entity
-  name: wooden bench
+  name: 木制长凳 丨 wooden bench
   id: WoodenBench
   parent: ChairBase
-  description: Did you get a splinter? Well, at least it’s eco friendly.
+  description: 你被木刺扎到了吗？好吧，至少它是环保的。 丨 Did you get a splinter? Well, at least it’s eco friendly.
   components:
   - type: Sprite
     state: wooden-bench
@@ -471,7 +471,7 @@
 - type: entity
   parent: StoolBase
   id: ChairXeno
-  name: xeno chair
+  name: 异形椅 丨 xeno chair
   components:
   - type: Sprite
     state: xeno-chair

@@ -177,7 +177,7 @@
   id: BaseLathe
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   abstract: true
-  name: lathe
+  name: 车床 丨 lathe
   components:
   - type: Appearance
   - type: WiresVisuals
@@ -303,8 +303,8 @@
 - type: entity
   id: Autolathe
   parent: BaseLatheLube
-  name: autolathe
-  description: It produces basic items using metal and glass. Has the ability to process blueprints to print new recipes.
+  name: 自动车床 丨 autolathe
+  description: 它使用金属和玻璃生产基础物品，并能处理蓝图以打印新配方。 丨 It produces basic items using metal and glass. Has the ability to process blueprints to print new recipes.
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe.rsi
@@ -370,8 +370,8 @@
 - type: entity
   id: AutolatheHyperConvection
   parent: [Autolathe, BaseHyperlathe]
-  name: hyper convection autolathe
-  description: A highly-experimental autolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+  name: 超对流自动车床 丨 hyper convection autolathe
+  description: 一台高度实验性的自动车床，利用极端高温的力量缓慢而更具成本效益地制造物体。 丨 A highly-experimental autolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe_hypercon.rsi
@@ -381,8 +381,8 @@
 - type: entity
   id: Protolathe
   parent: BaseLatheLube
-  name: protolathe
-  description: Converts raw materials into advanced items.
+  name: 原型车床 丨 protolathe
+  description: 将原材料转化为高级物品。 丨 Converts raw materials into advanced items.
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe.rsi
@@ -459,8 +459,8 @@
 - type: entity
   id: ProtolatheHyperConvection
   parent: [Protolathe, BaseHyperlathe]
-  name: hyper convection protolathe
-  description: A highly-experimental protolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+  name: 超对流原型车床 丨 hyper convection protolathe
+  description: 一台高度实验性的原型加工机，利用极端高温缓慢而更具成本效益地制造物体。 丨 A highly-experimental protolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe_hypercon.rsi
@@ -470,8 +470,8 @@
 - type: entity
   id: CircuitImprinter
   parent: BaseLatheLube
-  name: circuit imprinter
-  description: Prints circuit boards for machines.
+  name: 电路印刷机 丨 circuit imprinter
+  description: 印刷机器用的电路板。 丨 Prints circuit boards for machines.
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter.rsi
@@ -529,8 +529,8 @@
 - type: entity
   id: CircuitImprinterHyperConvection
   parent: [CircuitImprinter, BaseHyperlathe]
-  name: hyper convection circuit imprinter
-  description: A highly-experimental circuit imprinter that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+  name: 超对流电路压印机 丨 hyper convection circuit imprinter
+  description: 一台高度实验性的电路印刻机，利用极端高温缓慢而更具成本效益地制造物体。 丨 A highly-experimental circuit imprinter that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter_hypercon.rsi
@@ -540,8 +540,8 @@
 - type: entity
   id: ExosuitFabricator
   parent: BaseLatheLube
-  name: exosuit fabricator
-  description: Creates parts for robotics and other mechanical needs.
+  name: 外骨骼套装制造机 丨 exosuit fabricator
+  description: 为机器人和其它机械需求制造零件。 丨 Creates parts for robotics and other mechanical needs.
   components:
   - type: Sprite
     sprite: Structures/Machines/exosuit_fabricator.rsi
@@ -598,8 +598,8 @@
 - type: entity
   id: Biofabricator
   parent: BaseLathe
-  name: biocube fabricator
-  description: Produces animal cubes using biomass.
+  name: 生物立方制造机 丨 biocube fabricator
+  description: 利用生物质生产动物方块。 丨 Produces animal cubes using biomass.
   components:
   - type: Sprite
     sprite: Structures/Machines/biofabricator.rsi
@@ -639,8 +639,8 @@
 - type: entity
   id: SecurityTechFab
   parent: BaseLatheLube
-  name: security techfab
-  description: Prints equipment for use by security crew.
+  name: 安保技术制造设备 丨 security techfab
+  description: 为安保人员使用的设备进行打印。 丨 Prints equipment for use by security crew.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -700,8 +700,8 @@
 - type: entity
   id: AmmoTechFab
   parent: [BlueprintReceiverBase, BaseLatheLube] # Frontier: added BlueprintReceiverBase
-  name: ammo techfab
-  description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
+  name: 弹药技术工厂 丨 ammo techfab
+  description: 打印任何预算有限的军队或军械库所需的最低限度子弹。没有花哨之处。 丨 Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -738,8 +738,8 @@
 - type: entity
   id: MedicalTechFab
   parent: [ BlueprintReceiverBase, BaseLatheLube ] # Frontier: added BlueprintReceiverBase
-  name: medical techfab
-  description: Prints equipment for use by the medbay.
+  name: 医疗科技制造仪 丨 medical techfab
+  description: 为医务室制造设备。 丨 Prints equipment for use by the medbay.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -786,8 +786,8 @@
 - type: entity
   parent: BaseLathe
   id: UniformPrinter
-  name: uniform printer
-  description: Prints new or replacement uniforms.
+  name: 制服打印机 丨 uniform printer
+  description: 打印新制服或替换制服。 丨 Prints new or replacement uniforms.
   components:
   - type: Transform
     noRot: false
@@ -836,8 +836,8 @@
 - type: entity
   id: Biogenerator
   parent: BaseLathe
-  name: biogenerator
-  description: Converts plants into biomass, which can be used to construct useful items.
+  name: 生物发生器 丨 biogenerator
+  description: 将植物转化为生物质，可用于制造有用的物品。 丨 Converts plants into biomass, which can be used to construct useful items.
   components:
   - type: Sprite
     sprite: Structures/Machines/biofabricator.rsi
@@ -859,7 +859,7 @@
   - type: ItemSlots
     slots:
       beaker_slot:
-        name: lathe-component-output-slot-beaker-name
+        name: 车床组件输出槽烧杯名称 丨 lathe-component-output-slot-beaker-name
         whitelist:
           components:
           - FitsInDispenser
@@ -889,8 +889,8 @@
 - type: entity
   parent: BaseLathe
   id: OreProcessor
-  name: ore processor
-  description: It produces sheets and ingots using ores.
+  name: 矿石处理器 丨 ore processor
+  description: 它利用矿石生产板材和锭。 丨 It produces sheets and ingots using ores.
   components:
   - type: Sprite
     sprite: Structures/Machines/ore_processor.rsi
@@ -925,8 +925,8 @@
 - type: entity
   parent: OreProcessor
   id: OreProcessorIndustrial
-  name: industrial ore processor
-  description: An ore processor specifically designed for mass-producing metals in industrial applications.
+  name: 工业矿石处理器 丨 industrial ore processor
+  description: 一款专为工业应用中大规模生产金属而设计的矿石处理器。 丨 An ore processor specifically designed for mass-producing metals in industrial applications.
   components:
   - type: Sprite
     sprite: Structures/Machines/ore_processor_industrial.rsi
@@ -943,8 +943,8 @@
 - type: entity
   parent: BaseLathe
   id: Sheetifier
-  name: sheet-meister 2000
-  description: A very sheety machine.
+  name: 薄板大师2000 丨 sheet-meister 2000
+  description: 一台非常薄片的机器。 丨 A very sheety machine.
   components:
   - type: Sprite
     sprite: Structures/Machines/sheetifier.rsi
@@ -973,8 +973,8 @@
 - type: entity
   parent: BaseLathe
   id: CutterMachine
-  name: cutter machine
-  description: This is a cutter. It cuts. Add variety to your station floor with eye-pleasing patterns! Don't stick your fingers in.
+  name: 裁切机 丨 cutter machine
+  description: 这是一台切割机。它能进行切割。用赏心悦目的图案为您的站台地面增添多样性！请勿将手指伸入。 丨 This is a cutter. It cuts. Add variety to your station floor with eye-pleasing patterns! Don't stick your fingers in.
   components:
   - type: Transform
     noRot: false
@@ -1021,8 +1021,8 @@
 - type: entity
   id: MedicalBiofabricator
   parent: BaseLathe
-  name: medical biofabricator
-  description: Produces organs and other organic matter that can be surgically grafted onto patients with biomass.
+  name: 医疗生物制造仪 丨 medical biofabricator
+  description: 利用生物质生产可供手术移植的器官及有机组织。 丨 Produces organs and other organic matter that can be surgically grafted onto patients with biomass.
   components:
   - type: Sprite
     sprite: _Shitmed/Structures/Machines/limbgrower.rsi

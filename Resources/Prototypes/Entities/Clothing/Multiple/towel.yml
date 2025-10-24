@@ -1,8 +1,8 @@
 - type: entity
   id: BaseTowel
-  name: base towel
+  name: 基础毛巾 丨 base towel
   abstract: true
-  description: If you want to survive out here, you gotta know where your towel is.
+  description: 要想在这儿活下去，你得知道自己的毛巾在哪儿。 丨 If you want to survive out here, you gotta know where your towel is.
   parent: [ UnsensoredClothingUniformBase, ClothingHeadBase, ClothingBeltBase ]
   components:
   - type: Sprite
@@ -39,7 +39,7 @@
 
 - type: entity
   id: TowelColorWhite
-  name: white towel
+  name: 白毛巾 丨 white towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: TowelColorPurple
-  name: purple towel
+  name: 紫色毛巾 丨 purple towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -101,7 +101,7 @@
 
 - type: entity
   id: TowelColorRed
-  name: red towel
+  name: 红毛巾 丨 red towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -132,7 +132,7 @@
 
 - type: entity
   id: TowelColorBlue
-  name: blue towel
+  name: 蓝色毛巾 丨 blue towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -163,7 +163,7 @@
     
 - type: entity
   id: TowelColorDarkBlue
-  name: dark blue towel
+  name: 深蓝色毛巾 丨 dark blue towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -194,7 +194,7 @@
 
 - type: entity
   id: TowelColorLightBlue
-  name: light blue towel
+  name: 浅蓝色毛巾 丨 light blue towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -225,7 +225,7 @@
 
 - type: entity
   id: TowelColorTeal
-  name: teal towel
+  name: 蓝绿色毛巾 丨 teal towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -256,7 +256,7 @@
 
 - type: entity
   id: TowelColorBrown
-  name: brown towel
+  name: 棕色毛巾 丨 brown towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -287,7 +287,7 @@
 
 - type: entity
   id: TowelColorLightBrown
-  name: light brown towel
+  name: 浅棕色毛巾 丨 light brown towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -318,7 +318,7 @@
 
 - type: entity
   id: TowelColorGray
-  name: gray towel
+  name: 灰色毛巾 丨 gray towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -349,7 +349,7 @@
 
 - type: entity
   id: TowelColorGreen
-  name: green towel
+  name: 绿毛巾 丨 green towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -380,7 +380,7 @@
 
 - type: entity
   id: TowelColorDarkGreen
-  name: dark green towel
+  name: 深绿色毛巾 丨 dark green towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -411,7 +411,7 @@
 
 - type: entity
   id: TowelColorGold
-  name: gold towel
+  name: 金毛巾 丨 gold towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -444,7 +444,7 @@
 
 - type: entity
   id: TowelColorOrange
-  name: orange towel
+  name: 橙色毛巾 丨 orange towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -475,7 +475,7 @@
 
 - type: entity
   id: TowelColorBlack
-  name: black towel
+  name: 黑毛巾 丨 black towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -506,7 +506,7 @@
 
 - type: entity
   id: TowelColorPink
-  name: pink towel
+  name: 粉色毛巾 丨 pink towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -537,7 +537,7 @@
 
 - type: entity
   id: TowelColorYellow
-  name: yellow towel
+  name: 黄毛巾 丨 yellow towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -568,7 +568,7 @@
 
 - type: entity
   id: TowelColorMaroon
-  name: maroon towel
+  name: 栗色毛巾 丨 maroon towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -599,7 +599,7 @@
 
 - type: entity
   id: TowelColorSilver
-  name: silver towel
+  name: 银毛巾 丨 silver towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -632,7 +632,7 @@
 
 - type: entity
   id: TowelColorMime
-  name: silent towel
+  name: 静默毛巾 丨 silent towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -665,7 +665,7 @@
 
 - type: entity
   id: TowelColorNT
-  name: NanoTrasen brand towel
+  name: NanoTrasen品牌毛巾 丨 NanoTrasen brand towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -700,7 +700,7 @@
 
 - type: entity
   id: TowelColorCentcom
-  name: centcom towel
+  name: 中央司令部毛巾 丨 centcom towel
   parent: BaseTowel
   components:
   - type: Sprite
@@ -733,7 +733,7 @@
 
 - type: entity
   id: TowelColorSyndicate
-  name: syndicate towel
+  name: 集团毛巾 丨 syndicate towel
   parent: [ BaseTowel, BaseC3ContrabandNoValue ] # Frontier: BaseSyndicateContraband<BaseC3ContrabandNoValue
   components:
   - type: Sprite

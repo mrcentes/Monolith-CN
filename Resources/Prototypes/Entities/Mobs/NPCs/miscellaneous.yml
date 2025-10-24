@@ -12,10 +12,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: laser raptor
+  name: 激光猛禽 丨 laser raptor
   id: MobLaserRaptor
   parent: SimpleMobBase
-  description: From the Viking age.
+  description: 来自维京时代。 丨 From the Viking age.
   components:
     - type: Body # Shitmed Change
       prototype: LaserRaptor
@@ -95,15 +95,15 @@
   - MobBloodstream
   - MobFlammable
   - MobCombat
-  name: tomato killer
-  description: Looks like it's not you eating tomatoes today, it's the tomatoes eating you.
+  name: 番茄杀手 丨 tomato killer
+  description: 看来今天不是你吃番茄，而是番茄吃你。 丨 Looks like it's not you eating tomatoes today, it's the tomatoes eating you.
   components:
   - type: GhostRole
     prob: 0.05
     makeSentient: true
     allowSpeech: true
-    name: ghost-role-information-tomatokiller-name
-    description: ghost-role-information-tomatokiller-description
+    name: 番茄杀手 丨 ghost-role-information-tomatokiller-name
+    description: 幽灵角色信息：番茄杀手描述 丨 ghost-role-information-tomatokiller-description
     rules: ghost-role-information-familiar-rules
     raffle:
       settings: short

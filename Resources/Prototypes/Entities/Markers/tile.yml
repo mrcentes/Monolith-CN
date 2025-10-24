@@ -19,7 +19,7 @@
 
 - type: entity
   id: RoofMarker
-  name: Roof
+  name: 屋顶 丨 Roof
   suffix: Enabled
   parent: BaseRoofMarker
   components:
@@ -35,7 +35,7 @@
 
 - type: entity
   id: NoRoofMarker
-  name: Roof
+  name: 屋顶 丨 Roof
   suffix: Disabled
   parent: BaseRoofMarker
   components:

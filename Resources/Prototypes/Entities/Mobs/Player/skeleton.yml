@@ -10,13 +10,13 @@
     messagePerceivedByOthers: hugging-success-generic-others
 
 - type: entity
-  name: skeleton pirate
+  name: 骷髅海盗 丨 skeleton pirate
   parent: MobSkeletonPerson
   id: MobSkeletonPirate
   components:
   - type: GhostRole
-    name: ghost-role-information-skeleton-pirate-name
-    description: ghost-role-information-skeleton-pirate-description
+    name: 骷髅海盗 丨 ghost-role-information-skeleton-pirate-name
+    description: 骷髅海盗描述 丨 ghost-role-information-skeleton-pirate-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -29,13 +29,13 @@
 
 
 - type: entity
-  name: skeleton biker
+  name: 骷髅骑手 丨 skeleton biker
   parent: MobSkeletonPerson
   id: MobSkeletonBiker
   components:
   - type: GhostRole
-    name: ghost-role-information-skeleton-biker-name
-    description: ghost-role-information-skeleton-biker-description
+    name: 骷髅机车手 丨 ghost-role-information-skeleton-biker-name
+    description: 骷髅机车手描述 丨 ghost-role-information-skeleton-biker-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -49,11 +49,11 @@
 - type: entity
   parent: MobSkeletonPerson
   id: MobSkeletonCloset
-  name: closet skeleton
+  name: 壁橱骨架 丨 closet skeleton
   components:
   - type: GhostRole
-    name: ghost-role-information-closet-skeleton-name
-    description: ghost-role-information-closet-skeleton-description
+    name: 壁橱骷髅 丨 ghost-role-information-closet-skeleton-name
+    description: 鬼魂角色信息-壁橱骷髅描述 丨 ghost-role-information-closet-skeleton-description
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent

@@ -1,8 +1,8 @@
 - type: entity
-  name: spear
+  name: 矛 丨 spear
   parent: [BaseItem, BaseC1Contraband] # BaseMinorContraband<BaseC1Contraband
   id: Spear
-  description: Definition of a Classic. Keeping murder affordable since 200,000 BCE.
+  description: 经典之定义。自公元前二十万年起，让谋杀保持亲民价位。 丨 Definition of a Classic. Keeping murder affordable since 200,000 BCE.
   components:
   - type: EmbeddableProjectile
     offset: -0.15,0.0
@@ -119,10 +119,10 @@
 
 
 - type: entity
-  name: reinforced spear
+  name: 强化长矛 丨 reinforced spear
   parent: Spear
   id: SpearReinforced
-  description: A spear with a reinforced glass shard as a tip.
+  description: 一柄以强化玻璃碎片为枪尖的长矛。 丨 A spear with a reinforced glass shard as a tip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/reinforced_spear.rsi
@@ -139,10 +139,10 @@
     graph: SpearReinforced
 
 - type: entity
-  name: plasma spear
+  name: 等离子长矛 丨 plasma spear
   parent: Spear
   id: SpearPlasma
-  description: A spear with a plasma shard as a tip.
+  description: 一把以等离子碎片为尖端的矛。 丨 A spear with a plasma shard as a tip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/plasma_spear.rsi
@@ -159,10 +159,10 @@
     graph: SpearPlasma
 
 - type: entity
-  name: uranium spear
+  name: 铀矛 丨 uranium spear
   parent: Spear
   id: SpearUranium
-  description: A spear with a uranium shard as a tip.
+  description: 一把以铀碎片为尖端的矛。 丨 A spear with a uranium shard as a tip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/uranium_spear.rsi
@@ -181,10 +181,10 @@
     graph: SpearUranium
 
 - type: entity
-  name: bone spear
+  name: 骨制长矛 丨 bone spear
   parent: Spear
   id: SpearBone
-  description: A spear made of bones.
+  description: 一把用骨头制成的长矛。 丨 A spear made of bones.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/bone_spear.rsi

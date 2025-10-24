@@ -1,9 +1,9 @@
 - type: entity
   id: StatueVenusRed
   parent: BaseStructure
-  name: statue of a pure maiden
+  name: 纯洁少女的雕像 丨 statue of a pure maiden
   suffix: Red
-  description: An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a red toolbox.
+  description: 一尊古老的大理石雕像。雕像主体塑有一位垂着及地长辫的少女，手持一个红色工具箱。 丨 An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a red toolbox.
   components:
   - type: Sprite
     noRot: true
@@ -15,9 +15,9 @@
 - type: entity
   id: StatueVenusBlue
   parent: BaseStructure
-  name: statue of a pure maiden
+  name: 纯真少女雕像 丨 statue of a pure maiden
   suffix: Blue
-  description: An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a blue toolbox.
+  description: 一尊古老的大理石雕像。雕像主体垂着及地的长辫，手持一个蓝色工具箱。 丨 An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a blue toolbox.
   components:
   - type: Sprite
     noRot: true
@@ -29,8 +29,8 @@
 - type: entity
   id: StatueBananiumClown
   parent: BaseStructure
-  name: bananium savior statue
-  description: A bananium statue. It portrays the return of the savior who will rise up and lead the clowns to the great honk.
+  name: 香蕉救世主雕像 丨 bananium savior statue
+  description: 一尊香蕉矿雕像，刻画了救世主归来之景——他将挺身而出，引领众小丑奔赴盛大的喇叭狂欢。 丨 A bananium statue. It portrays the return of the savior who will rise up and lead the clowns to the great honk.
   components:
   - type: Sprite
     noRot: true

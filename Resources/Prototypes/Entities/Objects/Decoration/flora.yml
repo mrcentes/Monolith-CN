@@ -1,7 +1,7 @@
 - type: entity
   id: BaseRock
-  name: boulder
-  description: Heavy as a really heavy thing.
+  name: 巨石 丨 boulder
+  description: 重如磐石。 丨 Heavy as a really heavy thing.
   abstract: true
   components:
   - type: Clickable
@@ -35,7 +35,7 @@
 
 - type: entity
   id: BaseTree
-  description: Yep, it's a tree.
+  description: 是的，这是一棵树。 丨 Yep, it's a tree.
   abstract: true
   components:
   - type: SpriteFade
@@ -161,8 +161,8 @@
         rocksolid03: ""
 
 - type: entity
-  name: stalagmite
-  description: Natural stone spikes.
+  name: 石笋 丨 stalagmite
+  description: 天然石笋。 丨 Natural stone spikes.
   parent: BaseRock
   id: FloraStalagmite
   components:
@@ -214,7 +214,7 @@
 - type: entity
   parent: BaseTree
   id: FloraTree
-  name: tree
+  name: 树 丨 tree
   components:
   - type: Sprite
     layers:
@@ -233,7 +233,7 @@
 - type: entity
   parent: BaseTreeSnow
   id: FloraTreeSnow
-  name: snowy tree
+  name: 雪树 丨 snowy tree
   components:
   - type: Sprite
     layers:
@@ -252,7 +252,7 @@
 - type: entity
   parent: BaseTreeSnow
   id: FloraTreeStump
-  name: tree stump
+  name: 树桩 丨 tree stump
   components:
   - type: Sprite
     state: treestump
@@ -260,7 +260,7 @@
 - type: entity
   parent: BaseTreeLarge
   id: FloraTreeLarge
-  name: large tree
+  name: 大树 丨 large tree
   components:
   - type: Sprite
     layers:
@@ -279,7 +279,7 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeConifer
-  name: snowy conifer
+  name: 积雪的针叶树 丨 snowy conifer
   components:
   - type: Sprite
     layers:
@@ -295,7 +295,7 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeChristmas01
-  name: christmas tree
+  name: 圣诞树 丨 christmas tree
   components:
   - type: Sprite
     state: treechristmas01
@@ -304,7 +304,7 @@
   parent: BaseTreeConifer
   id: FloraTreeChristmas02
   suffix: Safe Presents
-  name: christmas tree
+  name: 圣诞树 丨 christmas tree
   components:
   - type: Sprite
     state: treechristmas02
@@ -341,7 +341,7 @@
   parent: FloraTreeChristmas02
   id: FloraTreeChristmas03
   suffix: Insane Presents
-  name: christmas tree
+  name: 圣诞树 丨 christmas tree
   components:
   - type: LimitedItemGiver
     spawnEntries:
@@ -357,7 +357,7 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeStumpConifer
-  name: tree stump
+  name: 树桩 丨 tree stump
   components:
   - type: Sprite
     state: treestumpconifer
@@ -365,8 +365,8 @@
 - type: entity
   parent: FloraTree
   id: ShadowTree
-  name: dark wood
-  description: The leaves are whispering about you.
+  name: 幽暗的树林 丨 dark wood
+  description: 树叶在悄声议论着你。 丨 The leaves are whispering about you.
   components:
   - type: Sprite
     sprite: Objects/Decoration/Flora/flora_shadow_trees.rsi
@@ -374,8 +374,8 @@
 - type: entity
   parent: BaseTree
   id: LightTree
-  name: glowing tree
-  description: A marvelous tree filled with strange energy.
+  name: 发光的树 丨 glowing tree
+  description: 一棵充满奇异能量的非凡树木。 丨 A marvelous tree filled with strange energy.
   components:
   - type: PointLight
     radius: 2.0

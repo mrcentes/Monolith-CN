@@ -1,7 +1,7 @@
 - type: entity
   id: StationMapBroken
-  name: station map
-  description: A virtual map of the surrounding station.
+  name: 车站地图 丨 station map
+  description: 周边站点的虚拟地图。 丨 A virtual map of the surrounding station.
   suffix: Wall broken
   placement:
     mode: SnapgridCenter
@@ -31,9 +31,9 @@
 
 - type: entity
   id: StationMap
-  name: station map
+  name: 车站地图 丨 station map
   parent: BaseComputer
-  description: A virtual map of the surrounding station.
+  description: 周边站点的虚拟地图。 丨 A virtual map of the surrounding station.
   suffix: Wall
   placement:
     mode: SnapgridCenter
@@ -91,8 +91,8 @@
 
 - type: entity
   id: StationMapAssembly
-  name: station map assembly
-  description: A station map assembly.
+  name: 站台地图组件 丨 station map assembly
+  description: 车站地图组件。 丨 A station map assembly.
   components:
   - type: WallMount
   - type: Clickable

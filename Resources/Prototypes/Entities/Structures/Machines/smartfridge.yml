@@ -9,8 +9,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: SmartFridge
-  name: SmartFridge
-  description: A refrigerated storage unit for keeping items cold and fresh.
+  name: 智能冰箱 丨 SmartFridge
+  description: 一种用于保持物品冷藏和新鲜的冷藏储存单元。 丨 A refrigerated storage unit for keeping items cold and fresh.
   components:
   # Mono Start
   - type: Machine

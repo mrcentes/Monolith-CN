@@ -90,7 +90,7 @@
   - type: ItemSlots
     slots:
       item:
-        name: clothing-boots-sidearm
+        name: 服装-靴子-随身武器 丨 clothing-boots-sidearm
         whitelist:
           tags:
           - Knife
@@ -112,7 +112,7 @@
   abstract: true
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBaseWinterBoots
-  description: Fluffy boots to help survive even the coldest of winters.
+  description: 蓬松靴子助你度过最寒冷的冬天。 丨 Fluffy boots to help survive even the coldest of winters.
   components:
   - type: TemperatureProtection
     heatingCoefficient: 1.025

@@ -1,8 +1,8 @@
 - type: entity
-  name: space tick
+  name: 太空蜱 丨 space tick
   id: MobTick
   parent: SimpleSpaceMobBase
-  description: It's a space tick, watch out for its nasty bite. CentComm reports that 90 percent of cargo leg amputations are due to space tick bites.
+  description: 这是一只太空蜱虫，小心它那恶毒的咬伤。中央指挥部报告称，90%的货物舱腿部截肢事故都是由太空蜱虫咬伤所致。 丨 It's a space tick, watch out for its nasty bite. CentComm reports that 90 percent of cargo leg amputations are due to space tick bites.
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: InputMover

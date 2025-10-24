@@ -1,9 +1,9 @@
 - type: entity
   id: BaseShutter
   parent: BaseStructure
-  name: shutter
+  name: 快门 丨 shutter
   abstract: true
-  description: One shudders to think about what might be behind this shutter.
+  description: 一想到这扇百叶窗后可能藏着什么，就让人不寒而栗。 丨 One shudders to think about what might be behind this shutter.
   placement:
     mode: SnapgridCenter
   components:
@@ -132,8 +132,8 @@
 - type: entity
   id: ShuttersRadiation
   parent: BaseShutter
-  name: radiation shutters
-  description: Why did they make these shutters radioactive?
+  name: 放射性快门 丨 radiation shutters
+  description: 为什么他们把这些快门做成放射性的？ 丨 Why did they make these shutters radioactive?
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_radiation.rsi
@@ -168,8 +168,8 @@
 - type: entity
   id: ShuttersWindow
   parent: BaseShutter
-  name: window shutters
-  description: The Best (TM) place to see your friends explode!
+  name: 百叶窗 丨 window shutters
+  description: The Best (TM) 观赏好友爆炸的最佳场所！ 丨 The Best (TM) place to see your friends explode!
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters_window.rsi
@@ -202,8 +202,8 @@
 - type: entity
   id: ShuttersFrame
   parent: BaseStructureDynamic
-  name: shutter frame
-  description: A frame for constructing a shutter.
+  name: 快门框架 丨 shutter frame
+  description: 用于构建快门的一个框架。 丨 A frame for constructing a shutter.
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters.rsi

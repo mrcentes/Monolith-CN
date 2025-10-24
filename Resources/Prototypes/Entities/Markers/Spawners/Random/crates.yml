@@ -1,5 +1,5 @@
 - type: entity
-  name: Empty Crate Spawner
+  name: 空箱生成器 丨 Empty Crate Spawner
   id: CrateEmptySpawner
   parent: MarkerBase
   components:
@@ -25,7 +25,7 @@
     offset: 0.0
 
 - type: entity
-  name: Filled Crate Spawner
+  name: 填充板条箱生成器 丨 Filled Crate Spawner
   id: CrateFilledSpawner
   suffix: Low Value
   parent: MarkerBase
@@ -66,7 +66,7 @@
     offset: 0.0
 
 - type: entity
-  name: random engineering crate spawner
+  name: 随机工程板条箱生成器 丨 random engineering crate spawner
   id: LootSpawnerRandomCrateEngineering
   parent: MarkerBase
   components:
@@ -109,7 +109,7 @@
     offset: 0.0
 
 - type: entity
-  name: random security crate spawner
+  name: 随机安全箱生成器 丨 random security crate spawner
   id: LootSpawnerRandomCrateSecurity
   parent: MarkerBase
   components:

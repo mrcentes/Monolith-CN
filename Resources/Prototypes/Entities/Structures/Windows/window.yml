@@ -47,8 +47,8 @@
 - type: entity
   id: Window
   parent: BaseStructure
-  name: window
-  description: Don't smudge up the glass down there.
+  name: 窗户 丨 window
+  description: 别把下面的玻璃弄脏了。 丨 Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter
     snap:
@@ -142,7 +142,7 @@
 - type: entity
   parent: Window
   id: TintedWindow
-  name: tinted window
+  name: 有色车窗 丨 tinted window
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -169,8 +169,8 @@
 - type: entity
   id: WindowDirectional
   parent: BaseStructure
-  name: directional window
-  description: Don't smudge up the glass down there.
+  name: 定向窗 丨 directional window
+  description: 别把下面的玻璃弄脏了。 丨 Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter
     snap:
@@ -271,8 +271,8 @@
 - type: entity
   id: WindowFrostedDirectional
   parent: WindowDirectional
-  name: directional frosted window
-  description: Don't smudge up the glass down there.
+  name: 定向磨砂窗 丨 directional frosted window
+  description: 别把下面的玻璃弄脏了。 丨 Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter
     snap:

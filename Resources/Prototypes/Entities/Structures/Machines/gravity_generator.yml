@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: GravityGenerator
   parent: BaseMachinePowered
-  name: gravity generator
-  description: It's what keeps you to the floor.
+  name: 重力发生器 丨 gravity generator
+  description: 它能让你稳稳地站在地面上。 丨 It's what keeps you to the floor.
   placement:
     mode: AlignTileAny
   components:
@@ -85,8 +85,8 @@
 - type: entity
   id: GravityGeneratorMini
   parent: [ GravityGenerator, ConstructibleMachine ]
-  name: mini gravity generator
-  description: It's what keeps you to the floor, now in fun size.
+  name: 迷你重力发生器 丨 mini gravity generator
+  description: 这就是让你稳稳站在地上的力量，现在推出迷你趣味版。 丨 It's what keeps you to the floor, now in fun size.
   components:
   - type: StationAiWhitelist
   - type: Sprite

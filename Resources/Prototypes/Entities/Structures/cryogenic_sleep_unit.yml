@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: CryogenicSleepUnit
-  name: cryogenic sleep unit
-  description: A super-cooled container that keeps crewmates safe during space travel.
+  name: 低温睡眠单元 丨 cryogenic sleep unit
+  description: 一种超低温容器，可在太空旅行期间保护船员安全。 丨 A super-cooled container that keeps crewmates safe during space travel.
   components:
   - type: Sprite
     noRot: true

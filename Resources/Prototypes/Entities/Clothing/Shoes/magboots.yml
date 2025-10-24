@@ -36,8 +36,8 @@
 - type: entity
   parent: [ClothingShoesBase, BaseToggleClothing]
   id: ClothingShoesBootsMagBase
-  name: magboots
-  description: Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+  name: 磁力靴 丨 magboots
+  description: 磁力靴，常用于舱外活动，确保使用者安全附着于航天器表面。 丨 Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   abstract: true
   components:
   - type: Sprite
@@ -77,8 +77,8 @@
 - type: entity
   parent: [ClothingShoesBootsMagBase] # Frontier: removed BaseGrandTheftContraband
   id: ClothingShoesBootsMagAdv
-  name: advanced magboots
-  description: State-of-the-art magnetic boots that do not slow down their wearer.
+  name: 先进磁力靴 丨 advanced magboots
+  description: 先进磁力靴，不会减缓穿戴者的行动速度。 丨 State-of-the-art magnetic boots that do not slow down their wearer.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-advanced.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: ClothingShoesBootsMagBase
   id: ClothingShoesBootsMagBlinding
-  name: magboots of blinding speed
-  description: These would look fetching on a fetcher like you.
+  name: 疾行之速磁力靴 丨 magboots of blinding speed
+  description: 这些穿在你这样的信使身上一定很迷人。 丨 These would look fetching on a fetcher like you.
   components:
   - type: ClothingSpeedModifier
     walkModifier: 1.10 #PVS isn't too much of an issue when you are blind...
@@ -121,8 +121,8 @@
 - type: entity
   parent: [ClothingShoesBootsMagBase, BaseJetpack, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
   id: ClothingShoesBootsMagSyndie
-  name: blood-red magboots
-  description: Reverse-engineered magnetic boots that have a heavy magnetic pull and integrated thrusters. It can hold 0.75 L of gas.
+  name: 血红色磁力靴 丨 blood-red magboots
+  description: 逆向工程制造的磁力靴，具有强磁吸力和集成推进器。可容纳0.75升气体。 丨 Reverse-engineered magnetic boots that have a heavy magnetic pull and integrated thrusters. It can hold 0.75 L of gas.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-syndicate.rsi
@@ -149,8 +149,8 @@
 
 - type: entity
   id: ActionToggleMagboots
-  name: Toggle Magboots
-  description: Toggles the magboots on and off.
+  name: 切换磁力靴 丨 Toggle Magboots
+  description: 切换磁力靴的开关状态。 丨 Toggles the magboots on and off.
   components:
   - type: InstantAction
     itemIconStyle: BigItem

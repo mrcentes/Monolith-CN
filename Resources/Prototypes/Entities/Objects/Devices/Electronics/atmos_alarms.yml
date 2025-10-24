@@ -1,8 +1,8 @@
 - type: entity
   id: AirAlarmElectronics
   parent: BaseElectronics
-  name: air alarm electronics
-  description: An electronics board used in air alarms.
+  name: 空气警报器电子板 丨 air alarm electronics
+  description: 用于空气警报器的电子板。 丨 An electronics board used in air alarms.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -16,8 +16,8 @@
 - type: entity
   id: FireAlarmElectronics
   parent: BaseElectronics
-  name: fire alarm electronics
-  description: An electronics board used in fire alarms.
+  name: 火灾报警电子设备 丨 fire alarm electronics
+  description: 用于火灾报警器的电子板。 丨 An electronics board used in fire alarms.
   components:
   - type: Item
     storedRotation: 0

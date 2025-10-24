@@ -1,8 +1,8 @@
 - type: entity
   id: AiCoreElectronics
   parent: BaseElectronics
-  name: ai core electronics
-  description: An electronics board used in AI cores.
+  name: 人工智能核心电子板 丨 ai core electronics
+  description: 用于人工智能核心的电子板。 丨 An electronics board used in AI cores.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

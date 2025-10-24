@@ -1,8 +1,8 @@
 - type: entity
   id: DoorElectronics
   parent: BaseElectronics
-  name: door electronics
-  description: An electronics board used in doors and airlocks.
+  name: 门电子设备 丨 door electronics
+  description: 用于门和气闸的电子板。 丨 An electronics board used in doors and airlocks.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi

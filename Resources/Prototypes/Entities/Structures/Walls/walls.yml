@@ -88,8 +88,8 @@
   abstract: true
   parent: BaseStructure
   id: BaseWall
-  name: basewall
-  description: Keeps the air in and the greytide out.
+  name: 基地墙 丨 basewall
+  description: 将空气留在里面，将灰潮挡在外面。 丨 Keeps the air in and the greytide out.
   placement:
     mode: SnapgridCenter
     snap:
@@ -145,7 +145,7 @@
 - type: entity
   parent: BaseWall
   id: WallBrick
-  name: brick wall
+  name: 砖墙 丨 brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/brick.rsi
@@ -176,7 +176,7 @@
 - type: entity
   parent: BaseWall
   id: WallClock
-  name: clock wall
+  name: 钟表墙 丨 clock wall
   components:
   - type: Tag
     tags:
@@ -214,7 +214,7 @@
 - type: entity
   parent: BaseWall
   id: WallClown
-  name: bananium wall
+  name: 香蕉矿墙 丨 bananium wall
   components:
   - type: Tag
     tags:
@@ -261,8 +261,8 @@
 - type: entity
   parent: BaseWall
   id: WallMeat
-  name: meat wall
-  description: Sticky.
+  name: 肉墙 丨 meat wall
+  description: 黏糊糊的。 丨 Sticky.
   components:
   - type: Tag
     tags:
@@ -295,7 +295,7 @@
 - type: entity
   parent: BaseWall
   id: WallCult
-  name: cult wall
+  name: 风靡一时的网红墙 丨 cult wall
   components:
   - type: Tag
     tags:
@@ -324,7 +324,7 @@
 - type: entity
   parent: BaseWall
   id: WallDebug
-  name: debug wall
+  name: 调试墙 丨 debug wall
   suffix: DEBUG
   components:
   - type: Tag
@@ -355,7 +355,7 @@
 - type: entity
   parent: BaseWall
   id: WallDiamond
-  name: diamond wall
+  name: 钻石墙 丨 diamond wall
   components:
   - type: Tag
     tags:
@@ -388,7 +388,7 @@
 - type: entity
   parent: BaseWall
   id: WallGold
-  name: gold wall
+  name: 金墙 丨 gold wall
   components:
   - type: Tag
     tags:
@@ -444,7 +444,7 @@
 - type: entity
   parent: BaseWall
   id: WallIce
-  name: ice wall
+  name: 冰墙 丨 ice wall
   components:
   - type: Tag
     tags:
@@ -473,7 +473,7 @@
 - type: entity
   parent: BaseWall
   id: WallPlasma
-  name: plasma wall
+  name: 等离子体壁 丨 plasma wall
   components:
   - type: Tag
     tags:
@@ -520,7 +520,7 @@
 - type: entity
   parent: BaseWall
   id: WallPlastic
-  name: plastic wall
+  name: 塑料墙 丨 plastic wall
   components:
   - type: Tag
     tags:
@@ -565,8 +565,8 @@
 - type: entity
   parent: BaseWall
   id: WallPlastitaniumIndestructible
-  name: plastitanium wall
-  description: Skub knows this wall is too hard to destroy. # Frontier
+  name: 塑钛墙 丨 plastitanium wall
+  description: 斯库布知道这堵墙太坚硬了，难以摧毁。#前线 丨 Skub knows this wall is too hard to destroy. # Frontier
   suffix: indestructible
   components:
   - type: Tag
@@ -601,8 +601,8 @@
 - type: entity
   parent: WallPlastitaniumIndestructible
   id: WallPlastitanium
-  name: plastitanium wall
-  description: Keeps the air in and the greytide out. # Frontier: restore base value
+  name: 塑钛墙 丨 plastitanium wall
+  description: 将空气留在内部，将灰潮挡在外面。# 前沿：恢复基础价值 丨 Keeps the air in and the greytide out. # Frontier: restore base value
   suffix: ""
   components:
   - type: Tag
@@ -628,7 +628,7 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallPlastitaniumDiagonal
-  name: plastitanium wall
+  name: 塑料钛墙 丨 plastitanium wall
   suffix: diagonal
   placement:
     mode: SnapgridCenter
@@ -675,9 +675,9 @@
 
 - type: entity
   id: WallPlastitaniumDiagonalIndestructible
-  name: plastitanium wall
+  name: 塑钛墙 丨 plastitanium wall
   suffix: diagonal, indestructible
-  description: Skub knows this wall is too hard to destroy. # Frontier
+  description: 斯库布知道这堵墙太坚硬了，难以摧毁。#前线 丨 Skub knows this wall is too hard to destroy. # Frontier
   placement:
     mode: SnapgridCenter
     snap:
@@ -727,7 +727,7 @@
 - type: entity
   parent: BaseWall
   id: WallReinforced
-  name: reinforced wall
+  name: 加固墙 丨 reinforced wall
   components:
   - type: Sprite
     sprite: Structures/Walls/solid.rsi
@@ -845,7 +845,7 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallReinforcedDiagonal
-  name: reinforced wall
+  name: 加固墙 丨 reinforced wall
   suffix: diagonal
   placement:
     mode: SnapgridCenter
@@ -893,7 +893,7 @@
 - type: entity
   parent: BaseWall
   id: WallRiveted
-  name: riveted wall
+  name: 铆接墙 丨 riveted wall
   suffix: OUTPOST ONLY
   components:
   - type: Tag
@@ -932,7 +932,7 @@
 - type: entity
   parent: BaseWall
   id: WallSandstone
-  name: sandstone wall
+  name: 砂岩墙 丨 sandstone wall
   components:
   - type: Tag
     tags:
@@ -965,7 +965,7 @@
 - type: entity
   parent: BaseWall
   id: WallSilver
-  name: silver wall
+  name: 银墙 丨 silver wall
   components:
   - type: Tag
     tags:
@@ -1010,9 +1010,9 @@
 #shuttle walls
 - type: entity
   id: WallShuttleDiagonal
-  name: shuttle wall
+  name: 穿梭舱壁 丨 shuttle wall
   suffix: Diagonal
-  description: Keeps the air in and the greytide out.
+  description: 将空气留在里面，把灰潮挡在外面。 丨 Keeps the air in and the greytide out.
   placement:
     mode: SnapgridCenter
     snap:
@@ -1098,7 +1098,7 @@
 - type: entity
   parent: BaseWall
   id: WallShuttle
-  name: shuttle wall
+  name: 穿梭墙 丨 shuttle wall
   suffix: Reinforced, Exterior
   components:
   - type: Damageable
@@ -1176,7 +1176,7 @@
 - type: entity
   parent: BaseWall
   id: WallShuttleInterior
-  name: shuttle wall
+  name: 穿梭墙 丨 shuttle wall
   suffix: Interior
   components:
   - type: RCDDeconstructable
@@ -1221,7 +1221,7 @@
 - type: entity
   parent: BaseWall
   id: WallSolid
-  name: solid wall
+  name: 实心墙 丨 solid wall
   components:
   - type: Tag
     tags:
@@ -1267,7 +1267,7 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallSolidDiagonal
-  name: solid wall
+  name: 实心墙 丨 solid wall
   suffix: diagonal
   placement:
     mode: SnapgridCenter
@@ -1352,7 +1352,7 @@
 - type: entity
   parent: BaseWall
   id: WallSolidChitin
-  name: solid chitin
+  name: 实心甲壳素 丨 solid chitin
   components:
   - type: Tag
     tags:
@@ -1397,7 +1397,7 @@
 - type: entity
   parent: BaseWall
   id: WallReinforcedChitin
-  name: reinforced chitin
+  name: 强化甲壳质 丨 reinforced chitin
   components:
   - type: Sprite
     sprite: Structures/Walls/xeno.rsi
@@ -1455,7 +1455,7 @@
 - type: entity
   parent: BaseWall
   id: WallUranium
-  name: uranium wall
+  name: 铀壁 丨 uranium wall
   components:
   - type: Sprite
     sprite: Structures/Walls/uranium.rsi
@@ -1510,8 +1510,8 @@
 - type: entity
   parent: BaseWall
   id: WallWood
-  name: wood wall
-  description: The traditional greytide defense.
+  name: 木墙 丨 wood wall
+  description: 传统的灰潮防御。 丨 The traditional greytide defense.
   components:
   - type: Sprite
     sprite: Structures/Walls/wood.rsi
@@ -1555,8 +1555,8 @@
 - type: entity
   parent: BaseWall
   id: WallWeb
-  name: web wall
-  description: Keeps the spiders in and the greytide out.
+  name: 网墙 丨 web wall
+  description: 把蜘蛛关在里面，把灰潮挡在外面。 丨 Keeps the spiders in and the greytide out.
   components:
   - type: Clickable
   - type: MeleeSound
@@ -1606,7 +1606,7 @@
 - type: entity
   parent: BaseWall
   id: WallNecropolis
-  name: stone wall
+  name: 石墙 丨 stone wall
   components:
   - type: Tag
     tags:
@@ -1630,7 +1630,7 @@
 - type: entity
   parent: BaseWall
   id: WallMining
-  name: mining wall
+  name: 采矿墙 丨 mining wall
   components:
   - type: Tag
     tags:
@@ -1659,7 +1659,7 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallMiningDiagonal
-  name: mining wall
+  name: 采矿墙 丨 mining wall
   suffix: diagonal
   placement:
     mode: SnapgridCenter
@@ -1686,8 +1686,8 @@
 - type: entity
   parent: BaseWall
   id: WallVaultAlien
-  name: alien vault wall
-  description: A mysterious ornate looking wall. There may be ancient dangers inside.
+  name: 异形金库墙 丨 alien vault wall
+  description: 一面神秘而华丽的墙壁。其中或许潜藏着古老的危险。 丨 A mysterious ornate looking wall. There may be ancient dangers inside.
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1707,7 +1707,7 @@
 - type: entity
   parent: WallVaultAlien
   id: WallVaultRock
-  name: rock vault wall
+  name: 岩拱墙 丨 rock vault wall
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1719,7 +1719,7 @@
 - type: entity
   parent: WallVaultAlien
   id: WallVaultSandstone
-  name: sandstone vault wall
+  name: 砂岩拱顶墙 丨 sandstone vault wall
   components:
   - type: Sprite
     sprite: Structures/Walls/vault.rsi
@@ -1732,7 +1732,7 @@
 
 - type: entity
   id: WallInvisible
-  name: invisible wall
+  name: 无形的墙 丨 invisible wall
   components:
   - type: TimedDespawn
     lifetime: 15
@@ -1755,7 +1755,7 @@
 
 - type: entity
   id: WallForce
-  name: force wall
+  name: 力墙 丨 force wall
   components:
   - type: TimedDespawn
     lifetime: 12
@@ -1785,8 +1785,8 @@
 - type: entity
   parent: BaseWall
   id: WallCobblebrick
-  name: cobblestone brick wall
-  description: Stone by stone, perfectly fitted together to form a wall.
+  name: 鹅卵石砖墙 丨 cobblestone brick wall
+  description: 石头一块接一块，完美地拼接在一起，筑成了一堵墙。 丨 Stone by stone, perfectly fitted together to form a wall.
   components:
   - type: Tag
     tags:
@@ -1814,7 +1814,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallBasaltCobblebrick
-  name: basalt brick wall
+  name: 玄武岩砖墙 丨 basalt brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_basalt.rsi
@@ -1827,8 +1827,8 @@
 - type: entity
   parent: WallCobblebrick
   id: WallSnowCobblebrick
-  name: snow brick wall
-  description: A cold, not-so-impenetrable wall.
+  name: 雪砖墙 丨 snow brick wall
+  description: 一堵冰冷、并非坚不可摧的墙。 丨 A cold, not-so-impenetrable wall.
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_snow.rsi
@@ -1841,7 +1841,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallAsteroidCobblebrick
-  name: asteroid stone brick wall
+  name: 小行星石砖墙 丨 asteroid stone brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_asteroid.rsi
@@ -1854,7 +1854,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallSandCobblebrick
-  name: sandstone brick wall
+  name: 砂岩砖墙 丨 sandstone brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_sand.rsi
@@ -1867,7 +1867,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallChromiteCobblebrick
-  name: chromite brick wall
+  name: 铬砖墙 丨 chromite brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_chromite.rsi
@@ -1880,7 +1880,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallAndesiteCobblebrick
-  name: andesite brick wall
+  name: 安山岩砖墙 丨 andesite brick wall
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_andesite.rsi

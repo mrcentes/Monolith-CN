@@ -38,10 +38,10 @@
       80: 0.5
 
 - type: entity
-  name: shadow cat
+  name: 暗影猫 丨 shadow cat
   parent: BaseShadowMob
   id: MobCatShadow
-  description: A lovely piece of darkness. Hope he doesn't bring you a curse.
+  description: 一片可爱的暗影。希望他不会给你带来诅咒。 丨 A lovely piece of darkness. Hope he doesn't bring you a curse.
   components:
   - type: Sprite
     drawdepth: Mobs

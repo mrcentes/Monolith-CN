@@ -26,8 +26,8 @@
 - type: entity
   id: BaseThruster
   parent: BaseStructureDynamic
-  name: thruster
-  description: A thruster that allows a shuttle to move.
+  name: 推进器 丨 thruster
+  description: 一种能让航天飞机移动的推进器。 丨 A thruster that allows a shuttle to move.
   abstract: true
   components:
     - type: AmbientSound
@@ -78,7 +78,7 @@
 
 - type: entity
   id: Thruster
-  name: thruster
+  name: 推进器 丨 thruster
   parent: [ BaseThruster, ConstructibleMachine ]
   components:
   - type: Machine
@@ -172,8 +172,8 @@
 - type: entity
   id: Gyroscope
   parent: [ BaseThruster, ConstructibleMachine ]
-  name: gyroscope
-  description: Increases the shuttle's potential angular rotation.
+  name: 陀螺仪 丨 gyroscope
+  description: 增加穿梭机的潜在角旋转。 丨 Increases the shuttle's potential angular rotation.
   components:
   - type: Thruster
     thrusterType: Angular
@@ -281,8 +281,8 @@
 - type: entity
   id: RustedThruster
   parent: BaseStructureDynamic
-  name: rusted thruster
-  description: An unrepairable thruster, broken down from wear and tear. Only useful for scrapping.
+  name: 锈蚀的推进器 丨 rusted thruster
+  description: 一个无法修复的推进器，因长期磨损而损坏。仅能用于拆解回收。 丨 An unrepairable thruster, broken down from wear and tear. Only useful for scrapping.
   components:
     - type: Fixtures
       fixtures:

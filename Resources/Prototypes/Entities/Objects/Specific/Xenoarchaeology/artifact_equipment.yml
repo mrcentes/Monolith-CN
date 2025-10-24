@@ -1,8 +1,8 @@
 - type: entity
   id: CrateArtifactContainer
   parent: BaseStructureDynamic
-  name: artifact container
-  description: Used to safely contain and move artifacts.
+  name: 文物容器 丨 artifact container
+  description: 用于安全地容纳和移动文物容器。 丨 Used to safely contain and move artifacts.
   components:
     - type: Transform
       noRot: true

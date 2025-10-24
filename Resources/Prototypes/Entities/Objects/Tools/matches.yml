@@ -12,10 +12,10 @@
     price: 10
 
 - type: entity
-  name: match stick
+  name: 火柴棍 丨 match stick
   parent: BaseItem
   id: Matchstick
-  description: A simple match stick, used for lighting fine smokables.
+  description: 一根简单的火柴，用于点燃优质烟品。 丨 A simple match stick, used for lighting fine smokables.
   components:
   - type: Tag
     tags:
@@ -70,10 +70,10 @@
     price: 1
 
 - type: entity
-  name: match box
+  name: 火柴盒 丨 match box
   parent: [ SmallboxItem, BaseBagOpenClose ]
   id: Matchbox
-  description: A small box of Almost But Not Quite Plasma Premium Matches.
+  description: 一小盒近乎但非完全等离子高级火柴。 丨 A small box of Almost But Not Quite Plasma Premium Matches.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup

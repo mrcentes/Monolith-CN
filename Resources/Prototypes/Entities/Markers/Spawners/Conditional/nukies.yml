@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointNukies
   parent: MarkerBase
-  name: nukies
+  name: 核潜艇乘员 丨 nukies
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint

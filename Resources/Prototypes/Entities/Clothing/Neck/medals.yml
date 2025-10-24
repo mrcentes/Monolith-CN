@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBronzeheart
-  name: bronzeheart medal
-  description: Given to crewmates for exemplary bravery in the face of danger.
+  name: 青铜之心勋章 丨 bronzeheart medal
+  description: 授予在危险面前表现出非凡勇气的船员。 丨 Given to crewmates for exemplary bravery in the face of danger.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -27,8 +27,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckGoldmedal
-  name: gold medal of crewmanship
-  description: Given to crewmates who display excellent crewmanship.
+  name: 优秀船员金奖 丨 gold medal of crewmanship
+  description: 授予表现出卓越船员精神的船员。 丨 Given to crewmates who display excellent crewmanship.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -54,8 +54,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCargomedal
-  name: cargo medal
-  description: Given for the best work in the cargo department.
+  name: 货物奖章 丨 cargo medal
+  description: 授予货运部门最佳工作者。 丨 Given for the best work in the cargo department.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEngineermedal
-  name: engineer medal
-  description: Given for the best work in the engineering department.
+  name: 工程师奖章 丨 engineer medal
+  description: 授予工程部门的最佳工作表现。 丨 Given for the best work in the engineering department.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMedicalmedal
-  name: medical medal
-  description: Given for the best work in the medical department.
+  name: 医学奖章 丨 medical medal
+  description: 授予医疗部门的最佳工作。 丨 Given for the best work in the medical department.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -129,8 +129,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckSciencemedal
-  name: science medal
-  description: Given for the best work in the science department.
+  name: 理科奖章 丨 science medal
+  description: 授予科学部门的最佳作品。 丨 Given for the best work in the science department.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -154,8 +154,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckSecuritymedal
-  name: security medal
-  description: Given for the best work in the security department.
+  name: 安全奖章 丨 security medal
+  description: 授予安全部门最佳工作表现者。 丨 Given for the best work in the security department.
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -179,8 +179,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckClownmedal
-  name: clown medal
-  description: Given for the best joke in the universe. HONK!
+  name: 小丑奖章 丨 clown medal
+  description: 授予全宇宙最佳笑话。嘀嘀！ 丨 Given for the best joke in the universe. HONK!
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup

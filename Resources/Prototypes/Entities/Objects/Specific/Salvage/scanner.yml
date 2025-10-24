@@ -1,8 +1,8 @@
 - type: entity
   id: MineralScannerUnpowered
   parent: BaseItem
-  name: mineral scanner
-  description: A scanner that checks surrounding rock for useful minerals. It must be in your hand or pocket to work.
+  name: 矿物扫描仪 丨 mineral scanner
+  description: 一种扫描仪，用于检测周围岩石中是否有可用矿物。必须握在手中或放在口袋里才能使用。 丨 A scanner that checks surrounding rock for useful minerals. It must be in your hand or pocket to work.
   suffix: Unpowered
   components:
   - type: Sprite
@@ -51,13 +51,13 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽组件默认插槽名称 丨 power-cell-slot-component-slot-name-default
 
 - type: entity
   id: AdvancedMineralScannerUnpowered
   parent: MineralScannerUnpowered
-  name: advanced mineral scanner
-  description: A scanner that checks surrounding rock for useful minerals. It must be in your hand or pocket to work. This one has an extended range.
+  name: 高级矿物扫描仪 丨 advanced mineral scanner
+  description: 一种扫描周围岩石以寻找有用矿物质的扫描仪。必须握在手中或放在口袋里才能使用。这款扫描仪的探测范围有所扩大。 丨 A scanner that checks surrounding rock for useful minerals. It must be in your hand or pocket to work. This one has an extended range.
   suffix: Unpowered
   components:
   - type: Sprite
@@ -88,4 +88,4 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default

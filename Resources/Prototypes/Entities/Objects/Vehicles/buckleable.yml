@@ -78,7 +78,7 @@
   parent: BaseVehicle
   id: BaseVehicleRideable
   abstract: true
-  name: Vehicle
+  name: 车辆 丨 Vehicle
   components:
   - type: Strap
     buckleOffset: "0.10, 0.36"
@@ -107,7 +107,7 @@
   - type: ItemSlots
     slots:
       key_slot: #this slot name is important
-        name: vehicle-slot-component-slot-name-keys
+        name: 车辆插槽组件插槽名称键 丨 vehicle-slot-component-slot-name-keys
         whitelist:
           requireAll: true
           tags:
@@ -125,8 +125,8 @@
 - type: entity
   id: VehicleJanicart
   parent: BaseVehicleRideable
-  name: janicart
-  description: The janitor's trusty steed.
+  name: 清洁车 丨 janicart
+  description: 看门人可靠的坐骑。 丨 The janitor's trusty steed.
   abstract: true # Frontier
   components:
   - type: Vehicle
@@ -174,7 +174,7 @@
   - type: ItemSlots
     slots:
       key_slot:
-        name: vehicle-slot-component-slot-name-keys
+        name: 车辆插槽组件插槽名称键 丨 vehicle-slot-component-slot-name-keys
         whitelist:
           requireAll: true
           tags:
@@ -185,7 +185,7 @@
           params:
             volume: -3
       trashbag_slot:
-        name: janitorial-trolley-slot-component-slot-name-trashbag
+        name: 保洁推车插槽组件插槽名称-垃圾袋 丨 janitorial-trolley-slot-component-slot-name-trashbag
         whitelist:
           tags:
             - TrashBag
@@ -201,7 +201,7 @@
 - type: entity
   id: VehicleJanicartDestroyed
   parent: MachineFrameDestroyed
-  name: destroyed janicart
+  name: 摧毁雅尼卡特 丨 destroyed janicart
   components:
   - type: Sprite
     sprite: Objects/Vehicles/janicart.rsi
@@ -210,8 +210,8 @@
 - type: entity
   id: VehicleSecway
   parent: BaseVehicleRideable
-  name: secway
-  description: The future of transportation. Popularized by St. James, the patron saint of security officers and internet forum moderators.
+  name: 赛威 丨 secway
+  description: 交通的未来。由安保人员和互联网论坛版主的守护神圣詹姆斯推广普及。 丨 The future of transportation. Popularized by St. James, the patron saint of security officers and internet forum moderators.
   components:
   - type: Vehicle
     northOver: true
@@ -245,7 +245,7 @@
   - type: ItemSlots
     slots:
       key_slot:
-        name: vehicle-slot-component-slot-name-keys
+        name: 车辆插槽组件插槽名称键 丨 vehicle-slot-component-slot-name-keys
         whitelist:
           requireAll: true
           tags:
@@ -261,8 +261,8 @@
 - type: entity
   parent: BaseVehicleRideable
   id: VehicleATV
-  name: ATV
-  description: All-Tile Vehicle.
+  name: 全地形车 丨 ATV
+  description: 全地形车。 丨 All-Tile Vehicle.
   categories: [ HideSpawnMenu ] # Frontier, using VehicleATVNF instead
   components:
   - type: Vehicle
@@ -296,7 +296,7 @@
   - type: ItemSlots
     slots:
       key_slot:
-        name: vehicle-slot-component-slot-name-keys
+        name: 车辆插槽组件插槽名称键 丨 vehicle-slot-component-slot-name-keys
         whitelist:
           requireAll: true
           tags:
@@ -310,8 +310,8 @@
 - type: entity
   id: VehicleSyndicateSegway
   parent: BaseVehicleRideable
-  name: syndicate segway
-  description: Be an enemy of the corporation, in style.
+  name: 财团赛格威 丨 syndicate segway
+  description: 与公司为敌，也要有型有款。 丨 Be an enemy of the corporation, in style.
   components:
     - type: Vehicle
       southOver: true
@@ -339,7 +339,7 @@
     - type: ItemSlots
       slots:
         key_slot:
-          name: vehicle-slot-component-slot-name-keys
+          name: 车辆插槽组件插槽名称键 丨 vehicle-slot-component-slot-name-keys
           whitelist:
             requireAll: true
             tags:
@@ -353,8 +353,8 @@
 - type: entity
   parent: BaseVehicleRideable
   id: VehicleSkeletonMotorcycle
-  name: skeleton motorcycle
-  description: Bad to the Bone.
+  name: 骷髅摩托车 丨 skeleton motorcycle
+  description: 坏到骨子里。 丨 Bad to the Bone.
   categories: [ HideSpawnMenu ] # Frontier, using VehicleSkeletonMotorcycleNF instead
   components:
     - type: Vehicle
@@ -386,7 +386,7 @@
     - type: ItemSlots
       slots:
         key_slot:
-          name: vehicle-slot-component-slot-name-keys
+          name: 车辆插槽组件插槽名称键 丨 vehicle-slot-component-slot-name-keys
           whitelist:
             requireAll: true
             tags:
@@ -400,8 +400,8 @@
 - type: entity
   id: VehicleUnicycle
   parent: [BaseVehicleRideable, BaseFoldable, BaseItem]
-  name: unicycle
-  description: It only has one wheel!
+  name: 独轮车 丨 unicycle
+  description: 它只有一个轮子！ 丨 It only has one wheel!
   components:
   - type: Vehicle
     northOver: true
@@ -457,8 +457,8 @@
 - type: entity
   id: VehicleWheelchair
   parent: [BaseVehicleRideable, BaseFoldable, BaseItem]
-  name: wheelchair
-  description: A chair with big wheels. It looks like you can move in these on your own.
+  name: 轮椅 丨 wheelchair
+  description: 一把带有大轮子的椅子。看起来你可以自己坐在上面移动。 丨 A chair with big wheels. It looks like you can move in these on your own.
   components:
     - type: Vehicle
       northOver: true

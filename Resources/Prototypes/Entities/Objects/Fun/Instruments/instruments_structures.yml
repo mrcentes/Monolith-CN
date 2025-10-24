@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: piano
+  name: 钢琴 丨 piano
   parent: BasePlaceableInstrumentRotatable
   id: PianoInstrument
-  description: Play Needles Piano Now.
+  description: 立即弹奏尼德尔斯钢琴。 丨 Play Needles Piano Now.
   components:
   - type: Instrument
     program: 1
@@ -11,10 +11,10 @@
   - type: Climbable
 
 - type: entity
-  name: upright piano
+  name: 立式钢琴 丨 upright piano
   parent: BasePlaceableInstrumentRotatable
   id: UprightPianoInstrument
-  description: I said Piannie!
+  description: 我说的是皮安妮！ 丨 I said Piannie!
   components:
   - type: Instrument
     program: 3
@@ -23,10 +23,10 @@
   - type: Climbable
 
 - type: entity
-  name: vibraphone
+  name: 电颤琴 丨 vibraphone
   id: VibraphoneInstrument
   parent: BasePlaceableInstrumentRotatable
-  description: Good vibes all around.
+  description: 到处都洋溢着美好的氛围。 丨 Good vibes all around.
   components:
   - type: Instrument
     program: 11
@@ -34,7 +34,7 @@
     state: vibraphone
 
 - type: entity
-  name: marimba
+  name: 马林巴琴 丨 marimba
   id: MarimbaInstrument
   parent: BasePlaceableInstrumentRotatable
   components:
@@ -44,10 +44,10 @@
     state: marimba
 
 - type: entity
-  name: church organ
+  name: 教堂管风琴 丨 church organ
   parent: BasePlaceableInstrumentRotatable
   id: ChurchOrganInstrument
-  description: This thing really blows!
+  description: 这东西真是太棒了！ 丨 This thing really blows!
   components:
   - type: Instrument
     program: 19
@@ -55,10 +55,10 @@
     state: church-organ
 
 - type: entity
-  name: tuba
+  name: 大号。 丨 tuba
   parent: BasePlaceableInstrument
   id: TubaInstrument
-  description: The big daddy of the brass family. Standing next to its majesty makes you feel insecure.
+  description: 铜管家族中的大家伙。站在它身旁，你会感到自惭形秽。 丨 The big daddy of the brass family. Standing next to its majesty makes you feel insecure.
   components:
   - type: Instrument
     program: 58
@@ -68,8 +68,8 @@
 - type: entity
   id: HarpInstrument
   parent: BasePlaceableInstrument
-  name: harp
-  description: Plucking at the strings cuts your fingers, but at least the music is pretty.
+  name: 竖琴 丨 harp
+  description: 拨动琴弦会割伤手指，但至少音乐是悦耳的。 丨 Plucking at the strings cuts your fingers, but at least the music is pretty.
   components:
   - type: Instrument
     program: 46
@@ -79,8 +79,8 @@
 - type: entity
   id: TimpaniInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: timpani
-  description: It goes BOOM BOOM BOOM BOOM!
+  name: 定音鼓 丨 timpani
+  description: 它发出咚咚咚咚的响声！ 丨 It goes BOOM BOOM BOOM BOOM!
   components:
   - type: Instrument
     program: 47
@@ -90,8 +90,8 @@
 - type: entity
   id: TaikoInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: taiko
-  description: A large drum. Looking at it fills you with the urge to slap it.
+  name: 太鼓 丨 taiko
+  description: 一面大鼓。看着它，你内心充满了拍打它的冲动。 丨 A large drum. Looking at it fills you with the urge to slap it.
   components:
   - type: Instrument
     program: 116
@@ -101,8 +101,8 @@
 - type: entity
   id: ContrabassInstrument
   parent: BasePlaceableInstrument
-  name: contrabass
-  description: Perfect for laying down a nice jazzy beat.
+  name: 低音提琴 丨 contrabass
+  description: 非常适合用来奠定美妙的爵士节奏。 丨 Perfect for laying down a nice jazzy beat.
   components:
   - type: Instrument
     program: 43
@@ -126,10 +126,10 @@
         - BulletImpassable
 
 - type: entity
-  name: minimoog
+  name: 迷你穆格 丨 minimoog
   parent: BasePlaceableInstrumentRotatable
   id: MinimoogInstrument
-  description: This is a minimoog, like a space piano, but more spacey!
+  description: 这是一台迷你穆格，就像一台太空钢琴，但更具太空感！ 丨 This is a minimoog, like a space piano, but more spacey!
   components:
   - type: Instrument
     program: 81
@@ -139,8 +139,8 @@
 - type: entity
   id: TomDrumsInstrument
   parent: BasePlaceableInstrumentRotatable
-  name: tom drums
-  description: Where'd the rest of the kit go?
+  name: 汤姆鼓 丨 tom drums
+  description: 套鼓的其他部件去哪儿了？ 丨 Where'd the rest of the kit go?
   components:
   - type: Instrument
     program: 117
@@ -150,8 +150,8 @@
 - type: entity
   parent: [ BasePlaceableInstrumentRotatable, ConstructibleMachine]
   id: DawInstrument
-  name: digital audio workstation
-  description: Cutting edge music technology, straight from the 90s.
+  name: 数字音频工作站 丨 digital audio workstation
+  description: 源自90年代的尖端音乐技术。 丨 Cutting edge music technology, straight from the 90s.
   components:
   - type: Sprite
     layers:

@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, RecyclableItemDeviceSmall] # Frontier: added RecyclableItemDeviceSmall
   id: BaseHandheldStationMap
-  name: station map
-  description: Displays a readout of the current station.
+  name: 站点地图 丨 station map
+  description: 显示当前站点的读数。 丨 Displays a readout of the current station.
   abstract: true
   components:
     - type: StationMap
@@ -46,7 +46,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽 丨 power-cell-slot-component-slot-name-default
 
 - type: entity
   id: HandheldStationMapUnpowered

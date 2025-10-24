@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: PortableRecharger
-  name: portable recharger
-  description: A high-tech recharger adapted for portability equipped with an inbuilt microreactor. # Mono
+  name: 便携式充电器 丨 portable recharger
+  description: 一款高科技充电器，专为便携性设计，配备内置微型反应堆。# 单声道 丨 A high-tech recharger adapted for portability equipped with an inbuilt microreactor. # Mono
   components:
   - type: Item
     size: Huge # Mono Revert

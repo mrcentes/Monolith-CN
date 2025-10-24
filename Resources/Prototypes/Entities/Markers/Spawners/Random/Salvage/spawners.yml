@@ -43,7 +43,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerScrapCommon
-  name: Salvage Scrap Spawner
+  name: 抢救废料生成器 丨 Salvage Scrap Spawner
   suffix: Common, 50%
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerScrapValuable
-  name: Salvage Scrap Spawner
+  name: 抢救废料生成器 丨 Salvage Scrap Spawner
   suffix: Valuable, 50%
   components:
   - type: Sprite
@@ -180,7 +180,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerTreasure
-  name: Salvage Treasure Spawner
+  name: 抢救宝藏生成器 丨 Salvage Treasure Spawner
   suffix: Common, 75%
   components:
   - type: Sprite
@@ -250,7 +250,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerTreasureValuable
-  name: Salvage Treasure Spawner
+  name: 抢救宝藏生成器 丨 Salvage Treasure Spawner
   suffix: Valuable, 75%
   components:
   - type: Sprite
@@ -309,7 +309,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerEquipment
-  name: Salvage Equipment Spawner
+  name: 打捞设备生成器 丨 Salvage Equipment Spawner
   suffix: Common, 75%
   components:
   - type: Sprite
@@ -374,7 +374,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerEquipmentValuable
-  name: Salvage Equipment Spawner
+  name: 打捞设备生成器 丨 Salvage Equipment Spawner
   suffix: Valuable, 75%
   components:
   - type: Sprite
@@ -389,7 +389,7 @@
       prob: 0.75
 
 - type: entity
-  name: Salvage Canister Spawner
+  name: 抢救罐生成器 丨 Salvage Canister Spawner
   id: SalvageCanisterSpawner
   parent: MarkerBase
   components:
@@ -449,7 +449,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobMagnet
-  name: Salvage Magnet Mob Spawner
+  name: 打捞磁铁刷怪笼 丨 Salvage Magnet Mob Spawner
   suffix: 50%
   components:
   - type: Sprite
@@ -485,7 +485,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobShark
-  name: Salvage Sharkminnow Spawner
+  name: 抢救鲨鱼苗产卵器 丨 Salvage Sharkminnow Spawner
   components:
   - type: Sprite
     layers:
@@ -503,7 +503,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobMiningAsteroid
-  name: Mining Asteroid Mob Spawner
+  name: 开采小行星怪物刷怪笼 丨 Mining Asteroid Mob Spawner
   components:
   - type: Sprite
     layers:

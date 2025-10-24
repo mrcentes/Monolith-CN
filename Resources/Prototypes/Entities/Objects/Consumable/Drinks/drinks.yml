@@ -167,8 +167,8 @@
 
 # Transformable container - normal glass
 - type: entity
-  name: metamorphic glass
-  description: A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.
+  name: 变形玻璃 丨 metamorphic glass
+  description: 一种变形玻璃，能自动变成适合其中饮品的杯子。底部有一个被磨掉的专利号。 丨 A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.
   parent: DrinkGlassBase
   id: DrinkGlass
   components:
@@ -197,8 +197,8 @@
   - type: TransformableContainer
 
 - type: entity
-  name: coupe glass
-  description: A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.
+  name: 碟形杯 丨 coupe glass
+  description: 一款经典的细颈库佩杯，银河各处板条箱上易碎标签的标志。 丨 A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.
   parent: DrinkGlassBase
   id: DrinkGlassCoupeShaped
   components:
@@ -1067,7 +1067,7 @@
   parent: DrinkGlass
   id: DrinkHoochGlass
   suffix: hooch
-  description: You've really hit rock bottom now... your liver packed its bags and left last night.
+  description: 你现在真是跌到谷底了……你的肝脏昨晚已经收拾行李离开了。 丨 You've really hit rock bottom now... your liver packed its bags and left last night.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2033,8 +2033,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTeapot
-  name: teapot  # short and stout
-  description: An elegant teapot. It simply oozes class.
+  name: 茶壶 丨 teapot  # short and stout
+  description: 一把优雅的茶壶，尽显不凡品味。 丨 An elegant teapot. It simply oozes class.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2235,8 +2235,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWaterJug
-  name: water jug
-  description: Stay hydrated.
+  name: 水壶 丨 water jug
+  description: 保持水分。 丨 Stay hydrated.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2379,8 +2379,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeBlue
-  name: blue milkshake
-  description: ''
+  name: 蓝色奶昔 丨 blue milkshake
+  description: 蓝奶昔
   components:
   - type: Drink
   - type: Sprite
@@ -2389,7 +2389,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeEmpty
-  name: shakeempty
+  name: 摇空 丨 shakeempty
   description: ''
   components:
   - type: Drink
@@ -2399,8 +2399,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeMeat
-  name: meat shake
-  description: ''
+  name: 肉泥 丨 meat shake
+  description: 肉昔
   components:
   - type: Drink
   - type: Sprite
@@ -2409,7 +2409,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeRobo
-  name: robo shake
+  name: 机器人摇动 丨 robo shake
   description: ''
   components:
   - type: Drink
@@ -2419,7 +2419,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeWhite
-  name: white shake
+  name: 白色震动 丨 white shake
   description: ''
   components:
   - type: Drink

@@ -1,5 +1,5 @@
 - type: entity
-  name: Ripley APLU Spawner
+  name: 里普利APLU产卵器 丨 Ripley APLU Spawner
   id: SpawnMechRipley
   parent: MarkerBase
   components:
@@ -13,7 +13,7 @@
       - MechRipleyBattery
 
 - type: entity
-  name: H.O.N.K. Spawner
+  name: H.O.N.K. 生成器 丨 H.O.N.K. Spawner
   id: SpawnMechHonker
   parent: MarkerBase
   components:

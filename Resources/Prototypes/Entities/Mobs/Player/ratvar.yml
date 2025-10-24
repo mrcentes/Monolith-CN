@@ -9,8 +9,8 @@
 - type: entity
   abstract: true
   id: MobRatvarBase #can't have the clockwork justiciar be associated with his (im)mortal enemy
-  name: Ratvar
-  description: Your mind aches as it fails to understand the complex mechanics of what is before you.
+  name: 拉特瓦尔 丨 Ratvar
+  description: 你的思维因无法理解眼前复杂机械的运作而阵阵作痛。 丨 Your mind aches as it fails to understand the complex mechanics of what is before you.
   components:
   - type: Sprite
     sprite: Mobs/Demons/ratvar.rsi

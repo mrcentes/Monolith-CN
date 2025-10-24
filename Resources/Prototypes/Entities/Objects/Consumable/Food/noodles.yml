@@ -5,7 +5,7 @@
   parent: FoodInjectableBase
   id: FoodNoodlesBase
   abstract: true
-  description: Now that's a nice pasta!
+  description: 这意面可真不错！ 丨 Now that's a nice pasta!
   components:
   - type: Item
     storedRotation: -90
@@ -23,10 +23,10 @@
 # Noodles
 
 - type: entity
-  name: boiled spaghetti
+  name: 煮意大利面 丨 boiled spaghetti
   parent: FoodNoodlesBase
   id: FoodNoodlesBoiled
-  description: A plain dish of noodles, this needs more ingredients.
+  description: 一碗素面，需要更多配料。 丨 A plain dish of noodles, this needs more ingredients.
   components:
   - type: FlavorProfile
     flavors:
@@ -36,10 +36,10 @@
 # Tastes like pasta.
 
 - type: entity
-  name: spaghetti
+  name: 意大利面 丨 spaghetti
   parent: FoodNoodlesBase
   id: FoodNoodles
-  description: Spaghetti and crushed tomatoes. Just like your abusive father used to make!
+  description: 意大利面和碎番茄。就像你那有暴力倾向的父亲常做的那样！ 丨 Spaghetti and crushed tomatoes. Just like your abusive father used to make!
   components:
   - type: FlavorProfile
     flavors:
@@ -53,10 +53,10 @@
 # Tastes like pasta, tomato.
 
 - type: entity
-  name: copypasta
+  name: 复制粘贴 丨 copypasta
   parent: FoodNoodlesBase
   id: FoodNoodlesCopy
-  description: You probably shouldn't try this, you always hear people talking about how bad it is...
+  description: 你大概不该尝试这个，总听人们议论它有多糟糕…… 丨 You probably shouldn't try this, you always hear people talking about how bad it is...
   components:
   - type: FlavorProfile
     flavors:
@@ -77,10 +77,10 @@
 # Tastes like pasta, bad humor.
 
 - type: entity
-  name: spaghetti and meatballs
+  name: 意大利面和肉丸 丨 spaghetti and meatballs
   parent: FoodNoodlesBase
   id: FoodNoodlesMeatball
-  description: Now that's a nice-a meatball!
+  description: 这才是个好肉丸！ 丨 Now that's a nice-a meatball!
   components:
   - type: FlavorProfile
     flavors:
@@ -105,10 +105,10 @@
 # Tastes like pasta, meat.
 
 - type: entity
-  name: spesslaw
+  name: 斯佩斯洛 丨 spesslaw
   parent: FoodNoodlesBase
   id: FoodNoodlesSpesslaw
-  description: A lawyer's favourite.
+  description: 律师的最爱。 丨 A lawyer's favourite.
   components:
   - type: FlavorProfile
     flavors:
@@ -130,10 +130,10 @@
 # Tastes like pasta, meat.
 
 - type: entity
-  name: chow mein
+  name: 炒面 丨 chow mein
   parent: FoodNoodlesBase
   id: FoodNoodlesChowmein
-  description: A nice mix of noodles and fried vegetables.
+  description: 面条与炒蔬菜的美妙搭配。 丨 A nice mix of noodles and fried vegetables.
   components:
   - type: FlavorProfile
     flavors:
@@ -157,10 +157,10 @@
 # Tastes like pasta, tomato.
 
 - type: entity
-  name: butter noodles
+  name: 黄油面条 丨 butter noodles
   parent: FoodNoodlesBase
   id: FoodNoodlesButter
-  description: Noodles covered in savory butter. Simple and slippery, but delicious.
+  description: 面条裹着咸香的黄油。简单又滑溜，但很美味。 丨 Noodles covered in savory butter. Simple and slippery, but delicious.
   components:
   - type: FlavorProfile
     flavors:

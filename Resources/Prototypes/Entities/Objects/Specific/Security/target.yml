@@ -61,10 +61,10 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: human target
+  name: 人体目标 丨 human target
   id: TargetHuman
   parent: BaseTarget
-  description: A shooting target. This one is a human.
+  description: 一个射击靶子。这个是个人形靶。 丨 A shooting target. This one is a human.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
@@ -76,10 +76,10 @@
   # End Mono
 
 - type: entity
-  name: syndicate target
+  name: 辛迪加目标 丨 syndicate target
   id: TargetSyndicate
   parent: BaseTarget
-  description: A shooting target. This one is a syndicate agent.
+  description: 一个射击靶子。这个是集团特工。 丨 A shooting target. This one is a syndicate agent.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
@@ -91,10 +91,10 @@
   # End Mono
 
 - type: entity
-  name: clown target
+  name: 小丑靶子 丨 clown target
   id: TargetClown
   parent: BaseTarget
-  description: A shooting target. This one is a clown.
+  description: 一个射击靶子。这个是马戏团小丑造型的。 丨 A shooting target. This one is a clown.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
@@ -107,10 +107,10 @@
 
 # put it on a salvage or something
 - type: entity
-  name: strange target
+  name: 奇怪的目标 丨 strange target
   id: TargetStrange
   parent: BaseTarget
-  description: A shooting target. You aren't quite sure what this one is, but it seems to be extra robust.
+  description: 一个射击靶。你不太确定这是什么，但它看起来格外坚固。 丨 A shooting target. You aren't quite sure what this one is, but it seems to be extra robust.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi

@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: flashlight
+  name: 手电筒 丨 flashlight
   parent: [BaseItem, RecyclableItemDeviceSmall] # Frontier: added RecyclableItemDeviceSmall
   id: FlashlightLantern
-  description: It lights the way to freedom.
+  description: 它照亮通往自由的道路。 丨 It lights the way to freedom.
   components:
   - type: Tag
     tags:
@@ -44,7 +44,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: Sprite
     sprite: Objects/Tools/flashlight.rsi
@@ -75,10 +75,10 @@
       - Belt
 
 - type: entity
-  name: seclite
+  name: 安保手电 丨 seclite
   parent: [FlashlightLantern, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: FlashlightSeclite
-  description: A robust flashlight used by security.
+  description: 安保使用的强光手电。 丨 A robust flashlight used by security.
   components:
   - type: Tag
     tags:
@@ -86,7 +86,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽组件默认插槽名称 丨 power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: HandheldLight
     addPrefix: false
@@ -133,4 +133,4 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽 丨 power-cell-slot-component-slot-name-default

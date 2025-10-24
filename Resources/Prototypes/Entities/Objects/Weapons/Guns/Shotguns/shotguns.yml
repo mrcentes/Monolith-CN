@@ -78,10 +78,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: BaseWeaponShotgun
+  name: 基础武器霰弹枪 丨 BaseWeaponShotgun
   parent: BaseItem
   id: BaseWeaponShotgun
-  description: A rooty tooty point and shooty.
+  description: 一根指哪打哪的突突棒。 丨 A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -156,11 +156,11 @@
   # Goobstation edit end
 
 - type: entity
-  name: PA M-12 Bulldog (12 gauge)
+  name: PA M-12 斗牛犬（12号口径） 丨 PA M-12 Bulldog (12 gauge)
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponShotgunBulldog
-  description: An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids. Uses 12 gauge shotgun shells.
+  description: 一把用于近距离战斗的自动弹匣供弹霰弹枪。后坐力如同打了兴奋剂的骡子般猛烈。使用12号霰弹。 丨 An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids. Uses 12 gauge shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -191,7 +191,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志 丨 Magazine
         startingItem: Magazine12_gaugeBuckshot
         priority: 2
         whitelist:
@@ -214,10 +214,10 @@
     price: 500
 
 - type: entity
-  name: double-barreled shotgun (12 gauge)
+  name: 双管霰弹枪（12号口径） 丨 double-barreled shotgun (12 gauge)
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC1Contraband] # Frontier: BaseSecurityBartenderContraband<BaseC1Contraband
   id: WeaponShotgunDoubleBarreled
-  description: An immortal classic. A civilian grade shotgun. Uses 12 gauge shotgun shells.
+  description: 一把不朽的经典。民用级霰弹枪。使用12号霰弹。 丨 An immortal classic. A civilian grade shotgun. Uses 12 gauge shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
@@ -240,20 +240,20 @@
     price: 300 # 300 < 350 Mono
 
 - type: entity
-  name: double-barreled shotgun (12 gauge)
+  name: 双管霰弹枪（12号口径） 丨 double-barreled shotgun (12 gauge)
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
-  description: An immortal classic. Uses 12 gauge shotgun shells.
+  description: 一把不朽的经典。使用12号霰弹。 丨 An immortal classic. Uses 12 gauge shotgun shells.
   suffix: Non-Lethal
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgun12_gaugeBeanbag
 
 - type: entity
-  name: Enforcer (12 gauge)
+  name: 执法者（12号口径） 丨 Enforcer (12 gauge)
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: WeaponShotgunEnforcer
-  description: A premium semi-automatic shotgun, and the pride of all security forces. Uses 12 gauge shotgun shells.
+  description: 一把顶级的半自动霰弹枪，也是所有安全部队的骄傲。使用12号霰弹。 丨 A premium semi-automatic shotgun, and the pride of all security forces. Uses 12 gauge shotgun shells.
   components: # intend for Enforcer to have wider choke for semi-auto function
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
@@ -282,10 +282,10 @@
     proto: ShellShotgun12_gaugeBeanbag
 
 - type: entity
-  name: Kammerer (12 gauge)
+  name: 卡默尔（12号口径） 丨 Kammerer (12 gauge)
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: WeaponShotgunKammerer
-  description: An old yet faithful design, and a favorite among irregular forces on many worlds. Uses 12 gauge shotgun shells.
+  description: 一个古老却可靠的设计，在众多世界的非正规部队中备受青睐。使用12号霰弹枪弹药。 丨 An old yet faithful design, and a favorite among irregular forces on many worlds. Uses 12 gauge shotgun shells.
   components: # intend for Kammerer to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     size: Normal
@@ -308,10 +308,10 @@
     id: StandardFactionLongarm
 
 - type: entity
-  name: sawn-off shotgun (12 gauge)
+  name: 锯短型霰弹枪（12号口径） 丨 sawn-off shotgun (12 gauge)
   parent: [ BaseWeaponShotgun, BaseC1Contraband ] # Frontier: BaseSecurityBartenderContraband<BaseC1Contraband
   id: WeaponShotgunSawn
-  description: Groovy! Uses 12 gauge shotgun shells.
+  description: 真带劲！使用12号霰弹枪子弹。 丨 Groovy! Uses 12 gauge shotgun shells.
   components: # needs to be super inaccurate because you don't need to wield it
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V: add _DV prefix
@@ -333,10 +333,10 @@
     price: 300
 
 - type: entity
-  name: sawn-off shotgun (12 gauge)
+  name: 锯短型霰弹枪（12号口径） 丨 sawn-off shotgun (12 gauge)
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
-  description: Groovy! Uses .50 shotgun shells.
+  description: 太棒了！使用.50口径霰弹。 丨 Groovy! Uses .50 shotgun shells.
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -347,10 +347,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: handmade pistol (12 gauge)
+  name: 手工制作手枪（12号口径） 丨 handmade pistol (12 gauge)
   parent: [BaseWeaponShotgun, BaseC1Contraband] # Frontier: BaseMinorContraband<BaseC1Contraband
   id: WeaponShotgunHandmade
-  description: Looks unreliable, but legal. Uses 12 gauge shotgun shells.
+  description: 看起来不太可靠，但合法。使用12号霰弹枪子弹。 丨 Looks unreliable, but legal. Uses 12 gauge shotgun shells.
   components:
   - type: Item
     size: Small
@@ -372,11 +372,11 @@
     price: 0
 
 - type: entity
-  name: blunderbuss (12 gauge)
+  name: 大口径短管霰弹枪（12号口径） 丨 blunderbuss (12 gauge)
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC3PirateContraband] # Frontier: BaseMinorContraband<BaseC3PirateContraband
   id: WeaponShotgunBlunderbuss
   suffix: Pirate
-  description: Deadly at close range, an illegal shotgun often found at the side of a pirate.
+  description: 近距离杀伤力极强的非法霰弹枪，常见于海盗身侧。 丨 Deadly at close range, an illegal shotgun often found at the side of a pirate.
   components:
   - type: Item
     size: Normal
@@ -394,10 +394,10 @@
     price: 0
 
 - type: entity
-  name: improvised shotgun (12 gauge)
+  name: 土制霰弹枪（12号口径） 丨 improvised shotgun (12 gauge)
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC1Contraband] # Frontier: BaseMinorContraband<BaseC1Contraband
   id: WeaponShotgunImprovised
-  description: A shitty, but legal, hand-made shotgun that uses 12 gauge shotgun shells. It can only hold one round in the chamber.
+  description: 一把粗制滥造但合法的手工霰弹枪，使用12号霰弹。该枪仅能容纳一发子弹。 丨 A shitty, but legal, hand-made shotgun that uses 12 gauge shotgun shells. It can only hold one round in the chamber.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
@@ -422,7 +422,7 @@
     price: 20
 
 - type: entity
-  name: improvised shotgun (12 gauge)
+  name: 临时制作的12号霰弹枪 丨 improvised shotgun (12 gauge)
   parent: WeaponShotgunImprovised
   suffix: Loaded
   id: WeaponShotgunImprovisedLoaded

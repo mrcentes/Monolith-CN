@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitEVA
-  name: EVA suit
-  description: A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies.
+  name: 舱外航天服 丨 EVA suit
+  description: 一套轻便的太空服，具备基本能力可在紧急情况下保护穿着者免受太空真空环境的伤害。 丨 A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: [ClothingOuterEVASuitBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: added BaseC3SyndicateContraband, ContrabandClothing as parent
   id: ClothingOuterHardsuitSyndicate # TODO: rename to ClothingOuterEVASuitSyndicate
-  name: syndicate EVA suit
-  description: "Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'"
+  name: 辛迪加EVA防护服 丨 syndicate EVA suit
+  description: 背后有个标签写着：“绝对不是敌对公司的财产，真的！” 丨 "Has a tag on the back that reads 'Totally not property of an enemy corporation, honest!'"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: [ ClothingOuterEVASuitBase, ClothingOuterBaseToggleable ]
   id: ClothingOuterSuitEmergency
-  name: emergency EVA suit
-  description: An emergency EVA suit with a built-in helmet. It's horribly slow and lacking in temperature protection, but enough to buy you time from the harsh vacuum of space.
+  name: 紧急舱外航天服 丨 emergency EVA suit
+  description: 一套内置头盔的紧急舱外宇航服。它行动极其迟缓且缺乏温度保护，但足以在严酷的太空真空中为你争取时间。 丨 An emergency EVA suit with a built-in helmet. It's horribly slow and lacking in temperature protection, but enough to buy you time from the harsh vacuum of space.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id:  ClothingOuterHardsuitEVAPrisoner
-  name: prisoner EVA suit
-  description: A lightweight space suit for prisoners to protect them from the vacuum of space during emergencies.
+  name: 囚犯舱外活动服 丨 prisoner EVA suit
+  description: 专为囚犯设计的轻便太空服，用于在紧急情况下保护其免受太空真空环境的伤害。 丨 A lightweight space suit for prisoners to protect them from the vacuum of space during emergencies.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_prisoner.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitAncientEVA
-  name: NTSRA voidsuit #Nanotrasen Space Research Association
-  description: An ancient space suit, designed by the NTSRA branch of Nanotrasen before their pact with the Central Government. It is very finely crafted, allowing for greater mobility than most modern space suits.
+  name: NTSRA虚空服 #纳星空间研究协会 丨 NTSRA voidsuit #Nanotrasen Space Research Association
+  description: 一件古老的太空服，由纳诺特拉森空间研究协会在与中央政府签订协议前设计。其工艺极为精湛，比大多数现代太空服具有更强的机动性。 丨 An ancient space suit, designed by the NTSRA branch of Nanotrasen before their pact with the Central Government. It is very finely crafted, allowing for greater mobility than most modern space suits.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/ancient_voidsuit.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: [ ClothingOuterEVASuitBase, ClothingOuterBaseToggleable ]
   id: ClothingOuterHardsuitVoidParamed
-  name: paramedic voidsuit # Goob edit
-  description: A voidsuit made for paramedics. # Goob edit
+  name: 医护人员虚空防护服 # Goob edit 丨 paramedic voidsuit # Goob edit
+  description: 为医护人员设计的防护服。# Goob编辑 丨 A voidsuit made for paramedics. # Goob edit
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/paramed.rsi

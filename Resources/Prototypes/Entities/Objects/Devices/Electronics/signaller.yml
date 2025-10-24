@@ -19,8 +19,8 @@
 - type: entity
   parent: BaseItem
   id: RemoteSignaller
-  name: remote signaller
-  description: A handheld device used for remotely sending signals to objects within a small radius of about 15 meters.
+  name: 远程信号发射器 丨 remote signaller
+  description: 一种手持设备，用于在约15米的小范围内向物体远程发送信号。 丨 A handheld device used for remotely sending signals to objects within a small radius of about 15 meters.
   components:
   - type: Sprite
     sprite: Objects/Devices/signaller.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: RemoteSignaller
   id: RemoteSignallerAdvanced
-  name: advanced remote signaller
-  description: A handheld device used for remotely sending signals to objects within a small radius of about 50 meters.
+  name: 高级远程信号发射器 丨 advanced remote signaller
+  description: 一种手持设备，用于在约50米的小范围内向物体远程发送信号。 丨 A handheld device used for remotely sending signals to objects within a small radius of about 50 meters.
   components:
   - type: Sprite
     state: advanced

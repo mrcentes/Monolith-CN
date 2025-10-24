@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
   id: ClothingNeckMantleCap
-  name: captain's mantle
-  description: A comfortable and chique mantle befitting of only the most experienced captain.
+  name: 船长的斗篷 丨 captain's mantle
+  description: 一件舒适别致的披风，唯经验最为丰富的船长方能相配。 丨 A comfortable and chique mantle befitting of only the most experienced captain.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/capmantle.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
   id: ClothingNeckMantleCE
-  name: chief engineer's mantle
-  description: High visibility, check. RIG system, check. High capacity cell, check. Everything a chief engineer could need in a stylish mantle.
+  name: 总工程师的风范 丨 chief engineer's mantle
+  description: 高可见度，确认。RIG系统，确认。高容量电池，确认。总工程师所需的一切，尽在这件时尚外套中。 丨 High visibility, check. RIG system, check. High capacity cell, check. Everything a chief engineer could need in a stylish mantle.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/cemantle.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
   id: ClothingNeckMantleCMO
-  name: chief medical officer's mantle
-  description: For a CMO that has been in enough medbays to know that more PPE means less central command dry cleaning visits when the shift is over.
+  name: 首席医疗官的重担 丨 chief medical officer's mantle
+  description: 对于一位已在医疗舱待过足够久的首席医疗官来说，他深知当班结束时，个人防护装备穿得越多，前往中央指挥部的干洗次数就越少。 丨 For a CMO that has been in enough medbays to know that more PPE means less central command dry cleaning visits when the shift is over.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/cmomantle.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
   id: ClothingNeckMantleHOP
-  name: head of personnel's mantle
-  description: A good HOP knows that paper pushing is only half the job... petting your dog and looking fashionable is the other half.
+  name: 人事主管的职责 丨 head of personnel's mantle
+  description: 一位优秀的人事主管深知，文书工作只是职责的一半……抚摸爱犬与展现时尚风采则是另一半。 丨 A good HOP knows that paper pushing is only half the job... petting your dog and looking fashionable is the other half.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/hopmantle.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: ClothingNeckMantleHOS
-  name: head of security's mantle
-  description: Shootouts with syndicate agents are just another Tuesday for this HoS. This mantle is a symbol of commitment to the station.
+  name: 安保部长的职责 丨 head of security's mantle
+  description: 与辛迪加特工的交火对这位安全部长来说不过是家常便饭。这件斗篷象征着对空间站的坚定承诺。 丨 Shootouts with syndicate agents are just another Tuesday for this HoS. This mantle is a symbol of commitment to the station.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/hosmantle.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
   id: ClothingNeckMantleRD
-  name: research director's mantle
-  description: For when long days in the office consist of explosives, poisonous gas, murder robots, and a fresh pizza from cargo; this mantle will keep you comfy.
+  name: 研究主管的斗篷 丨 research director's mantle
+  description: 当办公室的漫长日子充斥着爆炸物、毒气、杀人机器人，而补给舱恰好送来新鲜披萨时，这件斗篷能让你保持舒适。 丨 For when long days in the office consist of explosives, poisonous gas, murder robots, and a fresh pizza from cargo; this mantle will keep you comfy.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/rdmantle.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
   id: ClothingNeckMantleQM
-  name: quartermaster's mantle
-  description: For the master of goods and materials to rule over the department, a befitting mantle to show off superiority!
+  name: 军需官的斗篷 丨 quartermaster's mantle
+  description: 物资总管统御部门，彰显优越气度的相称披风！ 丨 For the master of goods and materials to rule over the department, a befitting mantle to show off superiority!
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/qmmantle.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantle
-  name: mantle
-  description: A soft mantle, made with the same 'synthetic' animal furs of the iconic winter coat.
+  name: 斗篷 丨 mantle
+  description: 一件柔软斗篷，采用与标志性冬季外套相同的“人造”动物毛皮制成。 丨 A soft mantle, made with the same 'synthetic' animal furs of the iconic winter coat.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/mantle.rsi

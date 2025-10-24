@@ -1,7 +1,7 @@
 - type: entity
   id: SpiderWeb
-  name: spider web
-  description: It's stringy and sticky.
+  name: 蜘蛛网 丨 spider web
+  description: 它呈丝状且带有粘性。 丨 It's stringy and sticky.
   placement:
     mode: SnapgridCenter
     snap:
@@ -79,8 +79,8 @@
 
 - type: entity
   id: SpiderWebClown
-  name: clown spider web
-  description: It's stringy and slippy.
+  name: 小丑蜘蛛网 丨 clown spider web
+  description: 它黏糊糊、滑溜溜的。 丨 It's stringy and slippy.
   placement:
     mode: SnapgridCenter
     snap:

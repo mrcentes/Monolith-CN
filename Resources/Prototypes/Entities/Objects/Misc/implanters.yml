@@ -30,8 +30,8 @@
 # Implanters
 
 - type: entity
-  name: implanter
-  description: A syringe exclusively designed for the injection and extraction of subdermal implants. Use care when extracting implants, as incorrect draw settings may injure the user.
+  name: 植入器 丨 implanter
+  description: 一种专门用于皮下植入物注射和取出的注射器。取出植入物时请小心，因为不正确的抽取设置可能会对使用者造成伤害。 丨 A syringe exclusively designed for the injection and extraction of subdermal implants. Use care when extracting implants, as incorrect draw settings may injure the user.
   id: BaseImplanter
   parent: BaseItem
   abstract: true
@@ -51,7 +51,7 @@
         - Unimplantable
       currentMode: Draw
       implanterSlot:
-        name: Implant
+        name: 植入物 丨 Implant
         locked: True
         priority: 0
         whitelist:
@@ -117,7 +117,7 @@
 - type: entity
   id: Implanter
   parent: BaseImplanter
-  description: A disposable syringe exclusively designed for the injection and extraction of subdermal implants.
+  description: 专为皮下植入物注射与抽取设计的一次性注射器。 丨 A disposable syringe exclusively designed for the injection and extraction of subdermal implants.
   components:
     - type: Tag
       tags:
@@ -138,7 +138,7 @@
 - type: entity
   id: BaseImplantOnlyImplanter
   parent: Implanter
-  description: A disposable syringe exclusively designed for the injection of subdermal implants.
+  description: 专为皮下植入物注射设计的一次性注射器。 丨 A disposable syringe exclusively designed for the injection of subdermal implants.
   abstract: true
   components:
     - type: Sprite
@@ -157,8 +157,8 @@
 - type: entity
   id: BaseImplantOnlyImplanterSyndi
   parent: [BaseImplantOnlyImplanter, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  name: syndicate implanter
-  description: A compact disposable syringe exclusively designed for the injection of subdermal implants.
+  name: 皮下植入注射器 丨 syndicate implanter
+  description: 专为皮下植入物注射设计的紧凑型一次性注射器。 丨 A compact disposable syringe exclusively designed for the injection of subdermal implants.
   abstract: true
   components:
     - type: Item

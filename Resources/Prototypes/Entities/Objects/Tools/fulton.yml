@@ -1,7 +1,7 @@
 # Stack
 - type: stack
   id: Fulton
-  name: fulton
+  name: 富尔顿 丨 fulton
   icon:
     sprite: /Textures/Objects/Tools/fulton.rsi
     state: extraction_pack
@@ -12,8 +12,8 @@
 - type: entity
   id: FultonBeacon
   parent: BaseFoldable
-  name: fulton beacon
-  description: Beacon to receive fulton extractions.
+  name: 富尔顿信标 丨 fulton beacon
+  description: 信标用于接收富尔顿提取物。 丨 Beacon to receive fulton extractions.
   components:
     - type: Physics
       bodyType: Dynamic
@@ -54,8 +54,8 @@
   id: Fulton
   parent: BaseItem
   suffix: Full
-  name: fulton
-  description: Used to extract containers, items, or forcibly recruit people into your base of operations.
+  name: 富尔顿 丨 fulton
+  description: 用于提取容器、物品，或强行将人员招募至你的行动基地。 丨 Used to extract containers, items, or forcibly recruit people into your base of operations.
   components:
   - type: Fulton
   - type: Item
@@ -81,7 +81,7 @@
 - type: entity
   id: Fulton1
   parent: Fulton
-  name: fulton
+  name: 富尔顿 丨 fulton
   suffix: One
   components:
   - type: Stack
@@ -90,7 +90,7 @@
 - type: entity
   id: FultonEffect
   categories: [ HideSpawnMenu ]
-  name: fulton effect
+  name: 富尔顿效应 丨 fulton effect
   components:
   - type: TimedDespawn
     lifetime: 60

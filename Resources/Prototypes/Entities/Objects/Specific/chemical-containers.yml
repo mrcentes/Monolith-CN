@@ -26,10 +26,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: jug
+  name: 大罐 丨 jug
   parent: [BaseItem, RecyclableItemPlasticMedium] # Frontier: addded RecyclableItemPlasticMedium
   id: Jug
-  description: Used to contain a very large amount of chemicals or solutions. Chugging is extremely ill-advised.
+  description: 用于盛装大量化学品或溶液的容器。直接豪饮是极不明智的。 丨 Used to contain a very large amount of chemicals or solutions. Chugging is extremely ill-advised.
   components:
     - type: SolutionContainerManager
       solutions:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BaseBlueprint
-  name: blueprint
-  description: A blueprint for some machine. It can be inserted into an autolathe.
+  name: 蓝图 丨 blueprint
+  description: 某台机器的蓝图。可以将其插入自动车床中。 丨 A blueprint for some machine. It can be inserted into an autolathe.
   abstract: true
   components:
   - type: Sprite
@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintFulton
-  name: fulton blueprint
-  description: A blueprint with a schematic of a fulton. It can be inserted into an autolathe.
+  name: 富尔顿装置蓝图 丨 fulton blueprint
+  description: 一张带有富尔顿装置示意图的蓝图。可插入自动车床使用。 丨 A blueprint with a schematic of a fulton. It can be inserted into an autolathe.
   components:
   - type: Blueprint
     providedRecipes:
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintSeismicCharge
-  name: seismic charge blueprint
-  description: A blueprint with a schematic of a seismic charge. It can be inserted into an autolathe.
+  name: 震荡波炸弹蓝图 丨 seismic charge blueprint
+  description: 一张带有震击炸药示意图的蓝图。可插入自动车床使用。 丨 A blueprint with a schematic of a seismic charge. It can be inserted into an autolathe.
   components:
   - type: Blueprint
     providedRecipes:
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintDoubleEmergencyTank
-  name: double emergency tank blueprint
-  description: A blueprint with a schematic of a double emergency tank. It can be inserted into an autolathe.
+  name: 双应急舱蓝图 丨 double emergency tank blueprint
+  description: 一张带有双应急储罐示意图的蓝图。可插入自动车床使用。 丨 A blueprint with a schematic of a double emergency tank. It can be inserted into an autolathe.
   components:
   - type: Blueprint
     providedRecipes:

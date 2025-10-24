@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: VehicleKeyJanicart
-  name: janicart keys
-  description: Interesting design.
+  name: janicart 钥匙 丨 janicart keys
+  description: 有趣的设计。 丨 Interesting design.
   components:
   - type: Item
     size: Tiny
@@ -17,8 +17,8 @@
 - type: entity
   parent: VehicleKeyJanicart
   id: VehicleKeySecway
-  name: secway keys
-  description: The keys to the future.
+  name: secway密钥 丨 secway keys
+  description: 通往未来的钥匙。 丨 The keys to the future.
   components:
   - type: Tag
     tags:
@@ -31,8 +31,8 @@
 - type: entity
   parent: VehicleKeyJanicart
   id: VehicleKeyATV
-  name: ATV keys
-  description: Think this looks like just one key? ATV keys means "actually two vehicle keys."
+  name: 全地形车钥匙 丨 ATV keys
+  description: 以为这看起来只是一把钥匙？ATV钥匙其实是"实际两把车钥匙"的意思。 丨 Think this looks like just one key? ATV keys means "actually two vehicle keys."
   components:
   - type: Tag
     tags:
@@ -45,8 +45,8 @@
 - type: entity
   parent: VehicleKeyATV
   id: VehicleKeySkeleton
-  name: vehicle skeleton keys
-  description: Unlock any vehicle.
+  name: 车辆万能钥匙 丨 vehicle skeleton keys
+  description: 解锁任意车辆。 丨 Unlock any vehicle.
   components:
   - type: Tag
     tags:
@@ -60,8 +60,8 @@
 - type: entity
   parent: VehicleKeyJanicart
   id: VehicleKeySyndicateSegway
-  name: syndicate segway keys
-  description: Patterned after the iconic EMAG design.
+  name: 辛迪加赛格威钥匙 丨 syndicate segway keys
+  description: 仿照标志性的EMAG设计。 丨 Patterned after the iconic EMAG design.
   components:
     - type: Tag
       tags:
@@ -74,8 +74,8 @@
 - type: entity
   parent: VehicleKeyATV
   id: VehicleKeySkeletonMotorcycle
-  name: skeleton motorcycle keys
-  description: A beautiful set of keys adorned with a skull.
+  name: 骷髅摩托车钥匙 丨 skeleton motorcycle keys
+  description: 一套饰有骷髅头的精美钥匙。 丨 A beautiful set of keys adorned with a skull.
   components:
     - type: Tag
       tags:

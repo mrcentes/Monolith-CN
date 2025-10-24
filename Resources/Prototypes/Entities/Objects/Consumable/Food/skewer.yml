@@ -2,10 +2,10 @@
 # Kebabs
 
 - type: entity
-  name: skewer
+  name: 烤肉扦 丨 skewer
   parent: BaseItem
   id: FoodKebabSkewer
-  description: A thin rod of metal used to skewer just about anything and cook it.
+  description: 一根细金属棒，几乎可用来串起任何东西进行烹饪。 丨 A thin rod of metal used to skewer just about anything and cook it.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/skewer.rsi

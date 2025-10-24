@@ -1,8 +1,8 @@
 - type: entity
   parent: ComputerSurveillanceWirelessCameraMonitor
   id: ComputerTelevision
-  name: wooden television
-  description: Finally, some decent reception around here...
+  name: 木制电视机 丨 wooden television
+  description: 终于能在这附近收到像样的信号了…… 丨 Finally, some decent reception around here...
   components:
   - type: Sprite
     noRot: true
@@ -33,8 +33,8 @@
 - type: entity
   parent: BaseComputer
   id: WallmountTelescreenFrame
-  name: telescreen frame
-  description: Finally, some decent reception around here...
+  name: 电视屏幕框架 丨 telescreen frame
+  description: 总算在这附近收到像样的信号了…… 丨 Finally, some decent reception around here...
   components:
   - type: Construction
     graph: WallmountTelescreen
@@ -88,8 +88,8 @@
   parent: WallmountTelescreenFrame
   id: WallmountTelescreen
   suffix: camera monitor
-  name: telescreen
-  description: Finally, some decent reception around here...
+  name: 电幕 丨 telescreen
+  description: 总算在这附近收到像样的信号了…… 丨 Finally, some decent reception around here...
   components:
   - type: Construction
     graph: WallmountTelescreen
@@ -119,8 +119,8 @@
 - type: entity
   parent: WallmountTelescreenFrame
   id: WallmountTelevisionFrame
-  name: television frame
-  description: Finally, some decent reception around here...
+  name: 电视画面 丨 television frame
+  description: 总算能在这附近收到清晰的信号了…… 丨 Finally, some decent reception around here...
   components:
   - type: Fixtures
     fixtures:
@@ -149,8 +149,8 @@
   parent: WallmountTelevisionFrame
   id: WallmountTelevision
   suffix: entertainment
-  name: television
-  description: Finally, some decent reception around here...
+  name: 电视 丨 television
+  description: 终于能在这附近收到像样的信号了…… 丨 Finally, some decent reception around here...
   components:
   - type: Construction
     graph: WallmountTelevision

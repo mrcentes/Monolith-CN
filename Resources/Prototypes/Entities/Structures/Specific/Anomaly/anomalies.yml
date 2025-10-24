@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: BaseAnomaly
-  name: anomaly
-  description: An impossible object. Should you be standing this close to it?
+  name: 异常 丨 anomaly
+  description: 一个不可能存在的物体。你站得这么近合适吗？ 丨 An impossible object. Should you be standing this close to it?
   components:
   - type: Anomaly
     offset: 0, 0.15
@@ -664,9 +664,9 @@
 
 - type: entity
   id: AnomalyFloraBulb
-  name: strange glowing berry
+  name: 发光的奇异浆果 丨 strange glowing berry
   parent: BaseStructure
-  description: It's a beautiful strange glowing berry. It seems to have something growing inside it...
+  description: 这是一颗美丽的奇异发光浆果，里面似乎有什么东西正在生长…… 丨 It's a beautiful strange glowing berry. It seems to have something growing inside it...
   suffix: Flora Anomaly
   components:
   - type: Transform

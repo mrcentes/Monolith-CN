@@ -55,7 +55,6 @@
 # SPDX-FileCopyrightText: 2025 BramvanZijp
 # SPDX-FileCopyrightText: 2025 Killerqu00
 # SPDX-FileCopyrightText: 2025 LukeZurg22
-# SPDX-FileCopyrightText: 2025 Onezero0
 # SPDX-FileCopyrightText: 2025 Redrover1760
 # SPDX-FileCopyrightText: 2025 ScarKy0
 # SPDX-FileCopyrightText: 2025 Whatstone
@@ -71,8 +70,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitBasic
-  name: basic hardsuit
-  description: A basic, universal hardsuit that protects the wearer against the horrors of life in space. Beats not having a hardsuit, at least.
+  name: 基础硬质防护服 丨 basic hardsuit
+  description: 一套基础通用的硬质太空服，能保护穿戴者抵御太空生活的种种恐怖。至少比没有硬质太空服强多了。 丨 A basic, universal hardsuit that protects the wearer against the horrors of life in space. Beats not having a hardsuit, at least.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/basic.rsi
@@ -109,8 +108,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase # Removed BaseEngineeringContraband
   id: ClothingOuterHardsuitAtmos
-  name: atmos hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
+  name: 大气防护服 丨 atmos hardsuit
+  description: 一种能在危险低压环境中提供防护的特制服装。具备隔热层。 丨 A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
@@ -153,8 +152,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase # Removed BaseEngineeringContraband
   id: ClothingOuterHardsuitEngineering
-  name: engineering hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+  name: 工程硬质防护服 丨 engineering hardsuit
+  description: 一种能在危险低压环境中提供防护的特制服装，具备辐射屏蔽功能。 丨 A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
@@ -193,8 +192,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase # Removed BaseCargoContraband
   id: ClothingOuterHardsuitSpatio
-  name: spationaut hardsuit
-  description: A lightweight hardsuit designed for industrial EVA in zero gravity.
+  name: 宇航员硬质宇航服 丨 spationaut hardsuit
+  description: 专为零重力工业舱外活动设计的轻型硬质宇航服。 丨 A lightweight hardsuit designed for industrial EVA in zero gravity.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
@@ -235,8 +234,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase # Removed BaseCargoContraband
   id: ClothingOuterHardsuitSalvage
-  name: mining hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
+  name: 采矿防护服 丨 mining hardsuit
+  description: 一套用于在危险低压环境中提供防护的特制服装。配有加固护甲，以应对野生动物的袭击。 丨 A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
@@ -274,8 +273,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC1Contraband] # Frontier: BaseCargoContraband<BaseC1Contraband
   id: ClothingOuterHardsuitGoliath
-  name: goliath hardsuit
-  description: A lightweight hardsuit, adorned with a patchwork of thick, chitinous goliath hide.
+  name: 歌利亚硬质护甲 丨 goliath hardsuit
+  description: 一件轻便的硬质护甲，表面缀满厚实如甲壳的戈利亚兽皮拼块。 丨 A lightweight hardsuit, adorned with a patchwork of thick, chitinous goliath hide.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
@@ -317,8 +316,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase # Removed BaseCargoContraband
   id: ClothingOuterHardsuitMaxim
-  name: salvager maxim hardsuit
-  description: Fire. Heat. These things forge great weapons, they also forge great salvagers.
+  name: 打捞员马克西姆硬质防护服 丨 salvager maxim hardsuit
+  description: 火与热，锻造出神兵利器，也淬炼出伟大的回收专家。 丨 Fire. Heat. These things forge great weapons, they also forge great salvagers.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/maxim.rsi
@@ -358,8 +357,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable] # Removed BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingOuterHardsuitSecurity
-  name: security hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: 安保强化防护服 丨 security hardsuit
+  description: 一种特殊防护服，用于在危险低压环境中提供保护，并额外附加一层装甲。 丨 A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security.rsi
@@ -397,8 +396,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable] # Removed BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingOuterHardsuitBrigmedic
-  name: brigmedic hardsuit
-  description: Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit.
+  name: 禁闭室医务硬质防护服 丨 brigmedic hardsuit
+  description: 这是禁闭室守护天使的特制防护服，即安保防护服的医疗版本。 丨 Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/brigmedic.rsi
@@ -433,8 +432,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable] # BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingOuterHardsuitWarden
-  name: warden's hardsuit
-  description: A specialized riot suit geared to combat low pressure environments.
+  name: 典狱长的强化防护服 丨 warden's hardsuit
+  description: 专为在低压环境下作战而设计的防暴服。 丨 A specialized riot suit geared to combat low pressure environments.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
@@ -472,8 +471,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase # Removed BaseCommandContraband
   id: ClothingOuterHardsuitCap
-  name: captain's armored spacesuit
-  description: A formal armored spacesuit, made for the station's captain.
+  name: 船长的装甲宇航服 丨 captain's armored spacesuit
+  description: 一件为空间站舰长打造的正式装甲太空服。 丨 A formal armored spacesuit, made for the station's captain.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/capspace.rsi
@@ -512,8 +511,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase # Removed BaseCommandContraband
   id: ClothingOuterHardsuitEngineeringWhite
-  name: chief engineer's hardsuit
-  description: A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station.
+  name: 站长专用防护服 丨 chief engineer's hardsuit
+  description: 专为空间站总工程师设计的特殊防护服，可在危险低压环境中提供保护。 丨 A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
@@ -554,8 +553,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase # Removed BaseCommandContraband
   id: ClothingOuterHardsuitMedical
-  name: chief medical officer's hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Built with lightweight materials for easier movement.
+  name: 首席医务官的防护服 丨 chief medical officer's hardsuit
+  description: 一套用于在危险低压环境中提供防护的特制服装。采用轻质材料制成，便于更轻松地移动。 丨 A special suit that protects against hazardous, low pressure environments. Built with lightweight materials for easier movement.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/medical.rsi
@@ -590,8 +589,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase # Removed BaseCommandContraband
   id: ClothingOuterHardsuitRd
-  name: experimental research hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: 实验研究用防护硬壳服 丨 experimental research hardsuit
+  description: 一种用于在危险低压环境中提供防护的特殊服装。具备额外的装甲层。 丨 A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/rd.rsi
@@ -644,8 +643,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable] # BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: ClothingOuterHardsuitSecurityRed
-  name: head of security's hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: 安保主管的防护服 丨 head of security's hardsuit
+  description: 一套用于在危险低压环境中提供防护的特制服装，额外附加了装甲层。 丨 A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
@@ -684,8 +683,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
-  name: luxury mining hardsuit
-  description: A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.
+  name: 奢华采矿防护服 丨 luxury mining hardsuit
+  description: 一件翻新过的矿业硬质防护服，采用军需官配色风格。石墨烯衬里防护性稍逊，但大幅提升了活动灵活性。 丨 A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi
@@ -724,8 +723,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
   id: ClothingOuterHardsuitSyndie
-  name: blood-red hardsuit
-  description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
+  name: 血红色硬质护甲 丨 blood-red hardsuit
+  description: 专为特种作战设计的重装甲防护服，戈勒克斯掠夺者所属。 丨 A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -771,8 +770,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitSyndie, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
   id: ClothingOuterHardsuitSyndieMedic
-  name: blood-red medic hardsuit
-  description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
+  name: 血红色医疗用硬质护甲 丨 blood-red medic hardsuit
+  description: 专为战地医疗行动设计，兼具重装甲防护与高机动性的先进硬质防护服。 丨 A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
@@ -807,8 +806,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
   id: ClothingOuterHardsuitSyndieElite
-  name: syndicate elite hardsuit
-  description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
+  name: 辛迪加精英强化服 丨 syndicate elite hardsuit
+  description: 精英版血红色硬质护甲，机动性与防火性能均得到提升。戈勒克斯掠夺者所属。 丨 An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
@@ -854,8 +853,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
   id: ClothingOuterHardsuitSyndieCommander
-  name: syndicate commander hardsuit
-  description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  name: 辛迪加指挥官强化服 丨 syndicate commander hardsuit
+  description: 一套经过强化的猩红硬质护甲，专为联合行动小队指挥官打造。显著提升的装甲防护，专为应对致命的前线交火而设计。 丨 A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
@@ -894,8 +893,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: added BaseSyndicateContraband<BaseC3SyndicateContraband, ContrabandClothing as parent
   id: ClothingOuterHardsuitJuggernaut
-  name: cybersun juggernaut suit
-  description: A suit originally made by the cutting edge R&D department at cybersun to be hyper resilient, now recycled and used by the Ashen Republic. Hefty and durable, but not fully insulated.
+  name: cybersun主宰者套装 丨 cybersun juggernaut suit
+  description: 一套由赛博阳光尖端研发部门打造的超强韧性防护服。 丨 A suit made by the cutting edge R&D department at cybersun to be hyper resilient.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
@@ -906,9 +905,6 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.2 # 0.3->0.2
-  - type: TemperatureProtection # Mono: Not fully insulated
-    heatingCoefficient: 0.01
-    coolingCoefficient: 0.01
   - type: Armor
     modifiers:
       coefficients:
@@ -937,8 +933,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3WizardContraband, ContrabandClothing] # Frontier: BaseMagicalContraband<BaseC3WizardContraband, ContrabandClothing as parent
   id: ClothingOuterHardsuitWizard
-  name: wizard hardsuit
-  description: A bizarre gem-encrusted suit that radiates magical energies.
+  name: 巫师硬质护甲 丨 wizard hardsuit
+  description: 一件镶嵌着奇异宝石、散发着魔法能量的套装。 丨 A bizarre gem-encrusted suit that radiates magical energies.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/wizard.rsi
@@ -977,8 +973,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3Contraband, ContrabandClothing] # Frontier: added BaseC3Contraband, ContrabandClothing as parent
   id: ClothingOuterHardsuitLing
-  name: organic space suit
-  description: A spaceworthy biomass of pressure and temperature resistant tissue.
+  name: 有机太空服 丨 organic space suit
+  description: 一件适用于太空的、能抵抗压力和温度的生物质组织。 丨 A spaceworthy biomass of pressure and temperature resistant tissue.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
@@ -1016,9 +1012,9 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3PirateContraband, ContrabandClothing] # Frontier: added BaseC3PirateContraband, ContrabandClothing as parent
   id:  ClothingOuterHardsuitPirateEVA
-  name: deep space EVA suit
+  name: 深太空舱外活动服 丨 deep space EVA suit
   suffix: Rogue
-  description: A heavy space suit that provides some basic protection from the cold harsh realities of deep space.
+  description: 一套厚重的太空服，能在深空严酷的寒冷环境中提供基础防护。 丨 A heavy space suit that provides some basic protection from the cold harsh realities of deep space.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi
@@ -1055,8 +1051,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3PirateContraband, ContrabandClothing] # Frontier: added BaseC3PirateContraband<ContrabandClothing as parent
   id: ClothingOuterHardsuitPirateCap
-  name: pirate captain's hardsuit
-  description: An ancient armored hardsuit, perfect for defending against space scurvy and toolbox-wielding scallywags.
+  name: 海盗船长的硬质护甲 丨 pirate captain's hardsuit
+  description: 一套古老的装甲防护服，非常适合抵御太空坏血病和手持工具箱的恶棍。 丨 An ancient armored hardsuit, perfect for defending against space scurvy and toolbox-wielding scallywags.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
@@ -1097,8 +1093,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieCommander ]
   id: ClothingOuterHardsuitERTLeader
-  name: ERT leader's hardsuit
-  description: A protective hardsuit worn by the leader of an emergency response team.
+  name: 应急响应小队队长的防护服 丨 ERT leader's hardsuit
+  description: 应急反应小队领队所穿的防护型硬质护甲。 丨 A protective hardsuit worn by the leader of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
@@ -1117,8 +1113,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitJuggernaut ]
   id: ClothingOuterHardsuitERTChaplain
-  name: ERT chaplain's hardsuit
-  description: A protective hardsuit worn by the chaplains of an Emergency Response Team.
+  name: ERT 随行牧师防护服 丨 ERT chaplain's hardsuit
+  description: 应急响应小队随行牧师所穿的防护型硬质护服。 丨 A protective hardsuit worn by the chaplains of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi #if you change this, please update the humanoid.yml with a better markers sprite.
@@ -1137,8 +1133,8 @@
 - type: entity
   parent: ClothingOuterHardsuitCBURN
   id: ClothingOuterHardsuitERTEngineer
-  name: ERT engineer's hardsuit
-  description: A protective hardsuit worn by the engineers of an emergency response team.
+  name: 应急响应小组工程师防护服 丨 ERT engineer's hardsuit
+  description: 应急响应小组工程师所穿的防护性硬质防护服。 丨 A protective hardsuit worn by the engineers of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
@@ -1158,8 +1154,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndieMedic ]
   id: ClothingOuterHardsuitERTMedical
-  name: ERT medic's hardsuit
-  description: A protective hardsuit worn by the medics of an emergency response team.
+  name: ERT医疗兵的防护服 丨 ERT medic's hardsuit
+  description: 应急响应小队医护人员穿戴的防护型硬质护服。 丨 A protective hardsuit worn by the medics of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
@@ -1178,8 +1174,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitSyndie ]
   id: ClothingOuterHardsuitERTSecurity
-  name: ERT security's hardsuit
-  description: A protective hardsuit worn by the security officers of an emergency response team.
+  name: ERT安防人员的防护服 丨 ERT security's hardsuit
+  description: 应急响应小队安保人员所穿戴的防护型硬质护甲。 丨 A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertsecurity.rsi
@@ -1202,8 +1198,8 @@
 - type: entity
   parent: ClothingOuterHardsuitCBURN
   id: ClothingOuterHardsuitERTJanitor
-  name: ERT janitor's hardsuit
-  description: A protective hardsuit worn by the janitors of an emergency response team.
+  name: ERT清洁工防护服 丨 ERT janitor's hardsuit
+  description: 一件由应急响应团队清洁工穿戴的防护性硬质防护服。 丨 A protective hardsuit worn by the janitors of an emergency response team.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
@@ -1222,8 +1218,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitBase ]
   id: ClothingOuterHardsuitDeathsquad
-  name: death squad hardsuit
-  description: An advanced hardsuit favored by commandos for use in special operations.
+  name: 死亡小队硬质护甲 丨 death squad hardsuit
+  description: 一套深受特种部队青睐、专用于特种作战的先进硬质护甲。 丨 An advanced hardsuit favored by commandos for use in special operations.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
@@ -1267,8 +1263,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterHardsuitBase ]
   id: ClothingOuterHardsuitCBURN
-  name: CBURN exosuit
-  description: A lightweight yet strong exosuit used for special cleanup operations.
+  name: CBURN外骨骼防护服 丨 CBURN exosuit
+  description: 一种轻便而坚固的外骨骼防护服，用于特殊清理作业。 丨 A lightweight yet strong exosuit used for special cleanup operations.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/cburn.rsi
@@ -1313,8 +1309,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitClown
-  name: clown hardsuit
-  description: A custom-made clown hardsuit.
+  name: 小丑硬质套装 丨 clown hardsuit
+  description: 一套定制的小丑防护服。 丨 A custom-made clown hardsuit.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/clown.rsi
@@ -1354,8 +1350,8 @@
 - type: entity
   parent: ClothingOuterHardsuitClown
   id: ClothingOuterHardsuitMime
-  name: mime hardsuit
-  description: A custom-made mime hardsuit.
+  name: 哑剧硬质套装 丨 mime hardsuit
+  description: 一套定制的小丑硬质防护服。 丨 A custom-made mime hardsuit.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/mime.rsi
@@ -1379,8 +1375,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSanta
-  name: Santa's hardsuit
-  description: A festive, cheerful hardsuit that protects the jolly gift-giver while on sleighrides in space. Offers some resistance against asteroid strikes.
+  name: 圣诞老人的硬质防护服 丨 Santa's hardsuit
+  description: 一套喜庆欢快的硬质太空服，能在太空雪橇航行中保护这位快乐的送礼者。对陨石撞击具有一定防护作用。 丨 A festive, cheerful hardsuit that protects the jolly gift-giver while on sleighrides in space. Offers some resistance against asteroid strikes.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/santahardsuit.rsi

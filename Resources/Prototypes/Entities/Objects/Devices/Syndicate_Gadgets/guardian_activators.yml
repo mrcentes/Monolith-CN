@@ -1,9 +1,9 @@
 - type: entity
-  name: holoparasite injector
+  name: 全寄生体注射器 丨 holoparasite injector
   suffix: Ghost # Frontier
   id: HoloparasiteInjector
   parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  description: A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
+  description: 一件复杂的手持机械艺术品，允许使用者寄养全息寄生守护者。 丨 A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -12,21 +12,21 @@
     guardianProto: MobHoloparasiteGuardian
 
 - type: entity
-  name: holoclown injector
+  name: 全息小丑注入器 丨 holoclown injector
   parent: HoloparasiteInjector
   suffix: Ghost # Frontier
   id: HoloClownInjector
-  description: A complex artwork of handheld machinery allowing the user to host a holoclown guardian.
+  description: 一件复杂的手持机械艺术品，允许用户搭载全息小丑守护者。 丨 A complex artwork of handheld machinery allowing the user to host a holoclown guardian.
   components:
   - type: GuardianCreator
     guardianProto: MobHoloClownGuardian
 
 - type: entity
-  name: magical lamp
+  name: 神灯 丨 magical lamp
   id: MagicalLamp
   suffix: Ghost # Frontier
   parent: BaseItem
-  description: The wizard federation had to cut costs after the jinn merchandise scandal somehow.
+  description: 巫师联合会在精灵商品丑闻后不得不设法削减开支。 丨 The wizard federation had to cut costs after the jinn merchandise scandal somehow.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi
@@ -36,11 +36,11 @@
     guardianProto: MobIfritGuardian
 
 - type: entity
-  name: holoparasite box
+  name: 全寄生植物箱 丨 holoparasite box
   suffix: Ghost # Frontier
   parent: [BoxCardboard, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: BoxHoloparasite
-  description: A box containing a holoparasite injector.
+  description: 一个装有全寄生注射器的盒子。 丨 A box containing a holoparasite injector.
   components:
   - type: StorageFill
     contents:
@@ -53,11 +53,11 @@
       - state: holo
 
 - type: entity
-  name: holoclown box
+  name: 全息小丑盒 丨 holoclown box
   suffix: Ghost # Frontier
   parent: [BoxCardboard, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: BoxHoloclown
-  description: A box containing a holoclown injector.
+  description: 一个装有全息小丑注射器的盒子。 丨 A box containing a holoclown injector.
   components:
   - type: StorageFill
     contents:

@@ -1,6 +1,6 @@
 - type: entity
   id: RandomVending
-  name: random vending machine spawner
+  name: 随机售货机生成器 丨 random vending machine spawner
   suffix: Any
   parent: MarkerBase
   components:
@@ -49,7 +49,7 @@
 
 - type: entity
   id: RandomVendingClothing
-  name: random vending machine spawner
+  name: 随机售货机生成器 丨 random vending machine spawner
   suffix: Clothing
   parent: MarkerBase
   components:

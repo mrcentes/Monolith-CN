@@ -199,8 +199,8 @@
 - type: entity
   id: MechRipley
   parent: [ BaseMech, IndustrialMech, BaseCargoContraband ] # Goobstation
-  name: Ripley APLU
-  description: Versatile and lightly armored, the Ripley is useful for almost any heavy work scenario. The "APLU" stands for Autonomous Power Loading Unit.
+  name: 雷普利 APLU 丨 Ripley APLU
+  description: 功能多样且轻量装甲的Ripley几乎适用于所有重型工作场景。"APLU"代表自主动力装载单元。 丨 Versatile and lightly armored, the Ripley is useful for almost any heavy work scenario. The "APLU" stands for Autonomous Power Loading Unit.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -253,8 +253,8 @@
 - type: entity
   parent: [ BaseMech, SpecialMech, BaseCivilianContraband ] # Goobstation
   id: MechHonker
-  name: H.O.N.K.
-  description: "Produced by \"Tyranny of Honk, INC\", this exosuit is designed as heavy clown-support. Used to spread the fun and joy of life. HONK!"
+  name: 轰——克！ 丨 H.O.N.K.
+  description: "由'胡闹专制公司'生产的这款外骨骼，是专为重度小丑支持而设计的。用来传播生活的乐趣与欢笑。 honk！Produced by \"Tyranny of Honk, INC\", this exosuit is designed as heavy clown-support. Used to spread the fun and joy of life. HONK!"
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -302,8 +302,8 @@
 - type: entity
   parent: [ BaseMech, SmallMech ] # Goobstation
   id: MechHamtr
-  name: HAMTR
-  description: "An experimental mech which uses a brain–computer interface to connect directly to a hamsters brain."
+  name: 仓鼠机甲 丨 HAMTR
+  description: 一款实验性机甲，通过脑机接口直接连接到仓鼠大脑。 丨 "An experimental mech which uses a brain–computer interface to connect directly to a hamsters brain."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -356,8 +356,8 @@
 - type: entity
   parent: BaseMech
   id: MechVim
-  name: Vim
-  description: A miniature exosuit from Nanotrasen, developed to let the irreplaceable station pets live a little longer.
+  name: 维姆 丨 Vim
+  description: 一件来自纳诺特拉森的微型外骨骼，旨在让不可替代的空间站宠物活得更久。 丨 A miniature exosuit from Nanotrasen, developed to let the irreplaceable station pets live a little longer.
   components:
   - type: Sprite
     drawdepth: Mobs

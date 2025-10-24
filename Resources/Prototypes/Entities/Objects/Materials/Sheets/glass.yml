@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: SheetGlassBase
-  name: glass
-  description: A sheet of glass, used often on the station in various applications.
+  name: 玻璃 丨 glass
+  description: 一片玻璃板，在空间站上常用于各种用途。 丨 A sheet of glass, used often on the station in various applications.
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/glass.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: SheetGlassBase
   id: SheetRGlass
-  name: reinforced glass
-  description: A reinforced sheet of glass.
+  name: 强化玻璃 丨 reinforced glass
+  description: 一块强化玻璃板。 丨 A reinforced sheet of glass.
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -181,7 +181,7 @@
 - type: entity
   parent: SheetRGlass
   id: SheetRGlass1
-  name: reinforced glass
+  name: 强化玻璃 丨 reinforced glass
   suffix: Single
   components:
   - type: Sprite
@@ -206,8 +206,8 @@
 - type: entity
   parent: SheetGlassBase
   id: SheetPGlass
-  name: plasma glass
-  description: A sheet of translucent plasma.
+  name: 等离子玻璃 丨 plasma glass
+  description: 一片半透明的等离子玻璃。 丨 A sheet of translucent plasma.
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -258,7 +258,7 @@
 - type: entity
   parent: SheetPGlass
   id: SheetPGlass1
-  name: plasma glass
+  name: 等离子玻璃 丨 plasma glass
   suffix: Single
   components:
   - type: Sprite
@@ -281,8 +281,8 @@
 - type: entity
   parent: SheetPGlass
   id: SheetRPGlass
-  name: reinforced plasma glass
-  description: A reinforced sheet of translucent plasma.
+  name: 强化等离子玻璃 丨 reinforced plasma glass
+  description: 一块经过强化的半透明等离子体板材。 丨 A reinforced sheet of translucent plasma.
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -324,7 +324,7 @@
 - type: entity
   parent: SheetRPGlass
   id: SheetRPGlass1
-  name: reinforced plasma glass
+  name: 强化等离子玻璃 丨 reinforced plasma glass
   suffix: Single
   components:
   - type: Sprite
@@ -336,8 +336,8 @@
 - type: entity
   parent: SheetGlassBase
   id: SheetUGlass
-  name: uranium glass
-  description: A sheet of uranium glass.
+  name: 铀玻璃 丨 uranium glass
+  description: 一张铀玻璃片。 丨 A sheet of uranium glass.
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -399,7 +399,7 @@
 - type: entity
   parent: SheetUGlass
   id: SheetUGlass1
-  name: uranium glass
+  name: 铀玻璃 丨 uranium glass
   suffix: Single
   components:
   - type: Sprite
@@ -411,8 +411,8 @@
 - type: entity
   parent: SheetUGlass
   id: SheetRUGlass
-  name: reinforced uranium glass
-  description: A reinforced sheet of uranium.
+  name: 强化铀玻璃 丨 reinforced uranium glass
+  description: 一块加固的铀玻璃板。 丨 A reinforced sheet of uranium.
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -453,7 +453,7 @@
 - type: entity
   parent: SheetRUGlass
   id: SheetRUGlass1
-  name: reinforced uranium glass
+  name: 强化铀玻璃 丨 reinforced uranium glass
   suffix: Single
   components:
   - type: Sprite
@@ -465,8 +465,8 @@
 - type: entity
   parent: SheetGlassBase
   id: SheetClockworkGlass
-  name: clockwork glass
-  description: A sheet of brass-hardened glass, primarily used by clockwork enthusiasts and remnants of Ratvarian cults.
+  name: 发条玻璃 丨 clockwork glass
+  description: 一片黄铜硬化的玻璃，主要供发条爱好者与拉特瓦教团残党使用。 丨 A sheet of brass-hardened glass, primarily used by clockwork enthusiasts and remnants of Ratvarian cults.
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -530,7 +530,7 @@
 - type: entity
   parent: SheetClockworkGlass
   id: SheetClockworkGlass1
-  name: clockwork glass
+  name: 发条玻璃 丨 clockwork glass
   suffix: Single
   components:
   - type: Sprite

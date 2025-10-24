@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, BaseCommandContraband] # Frontier: Added BaseCommandContraband
   id: AccessConfigurator
-  name: access configurator
-  description: Used to modify the access level requirements for airlocks and other lockable devices.
+  name: 访问配置器 丨 access configurator
+  description: 用于修改气闸室及其他可锁定设备的访问权限等级要求。 丨 Used to modify the access level requirements for airlocks and other lockable devices.
   components:
     - type: EmitSoundOnLand
       sound:
@@ -53,7 +53,7 @@
       - StationTrafficController # Frontier
       - Theatre
       privilegedIdSlot:
-        name: id-card-console-privileged-id
+        name: 身份证控制台特权身份 丨 id-card-console-privileged-id
         ejectSound: /Audio/Machines/id_swipe.ogg
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectOnBreak: true
@@ -81,9 +81,9 @@
 - type: entity
   parent: AccessConfigurator
   id: AccessConfiguratorUniversal
-  name: universal access configurator
+  name: 通用访问配置器 丨 universal access configurator
   suffix: Admin
-  description: A modified access configurator used only by the mythical Administrator.
+  description: 仅供神话管理员使用的修改版访问配置器。 丨 A modified access configurator used only by the mythical Administrator.
   components:
   - type: Sprite
     sprite: Objects/Tools/universal_access_configurator.rsi
@@ -135,7 +135,7 @@
     - USSPHigh # Mono
     - USSP # Mono
     privilegedIdSlot:
-      name: id-card-console-privileged-id
+      name: 身份证控制台特权身份 丨 id-card-console-privileged-id
       ejectSound: /Audio/Machines/id_swipe.ogg
       insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
       ejectOnBreak: true

@@ -1,7 +1,7 @@
 - type: entity
-  name: Atmos Fix Vacuum Marker
+  name: Atmos Fix 真空标记 丨 Atmos Fix Vacuum Marker
   id: AtmosFixBlockerMarker
-  description: "Vacuum, T20C"
+  description: 真空，T20C 丨 "Vacuum, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -16,9 +16,9 @@
       mode: 1
 
 - type: entity
-  name: Atmos Fix Oxygen Marker
+  name: 大气固定氧气标记 丨 Atmos Fix Oxygen Marker
   id: AtmosFixOxygenMarker
-  description: "Oxygen @ gas miner pressure, T20C"
+  description: 氧气@气体矿工压力，T20C 丨 "Oxygen @ gas miner pressure, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -33,9 +33,9 @@
       mode: 2
 
 - type: entity
-  name: Atmos Fix Nitrogen Marker
+  name: 大气固定氮标记 丨 Atmos Fix Nitrogen Marker
   id: AtmosFixNitrogenMarker
-  description: "Nitrogen @ gas miner pressure, T20C"
+  description: 氮气 @ 气体采集器压力，温度20℃ 丨 "Nitrogen @ gas miner pressure, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -50,9 +50,9 @@
       mode: 3
 
 - type: entity
-  name: Atmos Fix Plasma Marker
+  name: 大气修复等离子标记 丨 Atmos Fix Plasma Marker
   id: AtmosFixPlasmaMarker
-  description: "Plasma @ gas miner pressure, T20C"
+  description: 等离子体 @ 气体矿工压力，T20C 丨 "Plasma @ gas miner pressure, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -67,9 +67,9 @@
       mode: 4
 
 - type: entity
-  name: Atmos Fix Instant Plasmafire Marker
+  name: Atmos Fix Instant Plasmafire 标记 丨 Atmos Fix Instant Plasmafire Marker
   id: AtmosFixInstantPlasmaFireMarker
-  description: "INSTANT PLASMAFIRE"
+  description: 瞬发等离子火 丨 "INSTANT PLASMAFIRE"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -84,9 +84,9 @@
       mode: 5
 
 - type: entity
-  name: Atmos Fix Freezer Marker
+  name: 大气固定冷冻标记 丨 Atmos Fix Freezer Marker
   id: AtmosFixFreezerMarker
-  description: "Change air temp to 235K, for freezer with a bit of wiggle room to get set up."
+  description: 将空气温度更改为235K，为冷冻柜留出一点调整空间以便设置。 丨 "Change air temp to 235K, for freezer with a bit of wiggle room to get set up."
   parent: MarkerBase
   components:
     - type: Sprite
@@ -104,7 +104,7 @@
   parent: AtmosFixNitrogenMarker
   id: AtmosFixVoxMarker
   suffix: Vox Atmosphere
-  description: "Nitrogen @ 101 kPa, 20C"
+  description: 氮气 @ 101 kPa, 20°C 丨 "Nitrogen @ 101 kPa, 20C"
   components:
   - type: AtmosFixMarker
     mode: 7

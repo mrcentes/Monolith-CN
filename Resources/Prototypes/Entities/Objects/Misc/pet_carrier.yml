@@ -1,7 +1,7 @@
 - type: entity
   id: PetCarrier
-  name: big pet carrier
-  description: Allows large animals to be carried comfortably.
+  name: 大型宠物运输箱 丨 big pet carrier
+  description: 可让大型动物舒适地待在里头。 丨 Allows large animals to be carried comfortably.
   parent: BaseStructureDynamic
   components:
   - type: Sprite

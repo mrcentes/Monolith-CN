@@ -1,10 +1,10 @@
 # When adding new food also add to random spawner located in Resources\Prototypes\Entities\Markers\Spawners\Random\Food_Drinks\food_single.yml
 
 - type: entity
-  name: taco shell
+  name: 塔可饼皮 丨 taco shell
   parent: FoodMealBase
   id: FoodTacoShell
-  description: A taco shell, easy to hold, but falls on its side when put down.
+  description: 塔可饼壳，易于握持，但放下时容易侧翻。 丨 A taco shell, easy to hold, but falls on its side when put down.
   components:
   - type: Item
     storedRotation: -90
@@ -67,30 +67,30 @@
       - Meat
 
 - type: entity
-  name: beef taco
+  name: 牛肉塔可 丨 beef taco
   parent: FoodTacoBase
   id: FoodTacoBeef
-  description: A very basic and run of the mill beef taco, now with cheese!
+  description: 一款非常普通、平平无奇的牛肉塔可，现在加奶酪了！ 丨 A very basic and run of the mill beef taco, now with cheese!
   components:
   - type: Food
   - type: Sprite
     state: beeftaco
 
 - type: entity
-  name: chicken taco
+  name: 鸡肉卷饼 丨 chicken taco
   parent: FoodTacoBase
   id: FoodTacoChicken
-  description: A very basic and run of the mill chicken taco, now with cheese!
+  description: 一款非常普通、平淡无奇的鸡肉卷饼，现在加奶酪了！ 丨 A very basic and run of the mill chicken taco, now with cheese!
   components:
   - type: Food
   - type: Sprite
     state: chickentaco
 
 - type: entity
-  name: fish taco
+  name: 鱼肉卷 丨 fish taco
   parent: FoodTacoBase
   id: FoodTacoFish
-  description: Sounds kinda gross, but it's actually not that bad.
+  description: 听起来有点恶心，但其实味道还不错。 丨 Sounds kinda gross, but it's actually not that bad.
   components:
   - type: FlavorProfile
     flavors:
@@ -110,10 +110,10 @@
           Quantity: 6
 
 - type: entity
-  name: rat taco
+  name: 老鼠玉米卷 丨 rat taco
   parent: FoodTacoBase
   id: FoodTacoRat
-  description: Yeah, that looks about right...
+  description: 嗯，看起来差不多…… 丨 Yeah, that looks about right...
   components:
   - type: Food
   - type: Sprite
@@ -129,10 +129,10 @@
           Quantity: 4
 
 - type: entity
-  name: beef taco supreme
+  name: 至尊牛肉塔可 丨 beef taco supreme
   parent: FoodTacoBase
   id: FoodTacoBeefSupreme
-  description: It's like a regular beef taco, but surpeme!
+  description: 它就像一个普通的牛肉塔可，但是至尊版！ 丨 It's like a regular beef taco, but surpeme!
   components:
   - type: Food
   - type: Sprite
@@ -148,10 +148,10 @@
           Quantity: 6
 
 - type: entity
-  name: chicken taco supreme
+  name: 至尊鸡肉塔可 丨 chicken taco supreme
   parent: FoodTacoBase
   id: FoodTacoChickenSupreme
-  description: It's like a regular chicken taco, but surpeme!
+  description: 它就像普通的鸡肉塔可，但是至尊版！ 丨 It's like a regular chicken taco, but surpeme!
   components:
   - type: Food
   - type: Sprite
@@ -167,10 +167,10 @@
           Quantity: 6
 
 - type: entity
-  name: soft taco
+  name: 软塔可 丨 soft taco
   parent: FoodMealBase
   id: FoodMealSoftTaco
-  description: Take a bite!
+  description: 咬一口！ 丨 Take a bite!
   components:
   - type: FlavorProfile
     flavors:

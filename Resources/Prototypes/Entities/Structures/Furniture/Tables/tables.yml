@@ -35,8 +35,8 @@
   id: TableFrame
   # BaseStructure and not BaseTable, since these shouldn't be climbable/placeable.
   parent: BaseStructure
-  name: table frame
-  description: Pieces of metal that make the frame of a table.
+  name: 桌架 丨 table frame
+  description: 构成桌子框架的金属部件。 丨 Pieces of metal that make the frame of a table.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -91,8 +91,8 @@
 - type: entity
   id: CounterWoodFrame
   parent: BaseStructure
-  name: wooden counter frame
-  description: Pieces of wood that make the frame of a table.
+  name: 木制台面框架 丨 wooden counter frame
+  description: 构成桌子框架的木块。 丨 Pieces of wood that make the frame of a table.
   components:
   - type: SpriteFade
   - type: Sprite
@@ -149,8 +149,8 @@
 - type: entity
   id: CounterMetalFrame
   parent: CounterWoodFrame
-  name: metal counter frame
-  description: Pieces of metal that make the frame of a table.
+  name: 金属桌架 丨 metal counter frame
+  description: 构成桌子框架的金属部件。 丨 Pieces of metal that make the frame of a table.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -194,8 +194,8 @@
 - type: entity
   id: Table
   parent: TableBase
-  name: table
-  description: A square piece of metal standing on four metal legs.
+  name: 桌子 丨 table
+  description: 一张方形的金属板立在四条金属腿上。 丨 A square piece of metal standing on four metal legs.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/generic.rsi
@@ -238,8 +238,8 @@
 - type: entity
   id: TableReinforced
   parent: TableBase
-  name: reinforced table
-  description: A square piece of metal standing on four metal legs. Extra robust.
+  name: 加固桌 丨 reinforced table
+  description: 一块方形金属板立在四条金属腿上。格外坚固。 丨 A square piece of metal standing on four metal legs. Extra robust.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/reinforced.rsi
@@ -285,8 +285,8 @@
 - type: entity
   id: TableGlass
   parent: TableBase
-  name: glass table
-  description: A square piece of glass, standing on four metal legs.
+  name: 玻璃桌 丨 glass table
+  description: 一块方形玻璃，立在四条金属腿上。 丨 A square piece of glass, standing on four metal legs.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/glass.rsi
@@ -339,8 +339,8 @@
 - type: entity
   id: TableReinforcedGlass
   parent: TableBase
-  name: reinforced glass table
-  description: A square piece of glass, standing on four metal legs. Extra robust.
+  name: 强化玻璃桌 丨 reinforced glass table
+  description: 一块方形玻璃，立在四条金属腿上。格外坚固。 丨 A square piece of glass, standing on four metal legs. Extra robust.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/r_glass.rsi
@@ -396,8 +396,8 @@
 - type: entity
   id: TablePlasmaGlass
   parent: TableBase
-  name: plasma glass table
-  description: A square piece of plasma glass, standing on four metal legs. Pretty!
+  name: 等离子玻璃桌 丨 plasma glass table
+  description: 一块方形等离子玻璃，立在四条金属腿上。真漂亮！ 丨 A square piece of plasma glass, standing on four metal legs. Pretty!
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/plasma.rsi
@@ -453,8 +453,8 @@
 - type: entity
   id: TableBrass
   parent: TableBase
-  name: brass table
-  description: A shiny, corrosion resistant brass table. Steampunk!
+  name: 黄铜桌 丨 brass table
+  description: 一张闪亮、耐腐蚀的黄铜桌子。蒸汽朋克风格！ 丨 A shiny, corrosion resistant brass table. Steampunk!
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/brass.rsi
@@ -496,8 +496,8 @@
 - type: entity
   id: TableWood
   parent: TableBase
-  name: wood table
-  description: Do not apply fire to this. Rumour says it burns easily.
+  name: 木桌 丨 wood table
+  description: 请勿对此物使用火源。据传它极易燃烧。 丨 Do not apply fire to this. Rumour says it burns easily.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/wood.rsi
@@ -545,8 +545,8 @@
 - type: entity
   id: TableCarpet
   parent: TableBase
-  name: gambling table
-  description: Play em' cowboy.
+  name: 赌桌 丨 gambling table
+  description: 玩起来吧，牛仔。 丨 Play em' cowboy.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/carpet.rsi
@@ -588,8 +588,8 @@
 - type: entity
   id: TableStone
   parent: TableBase
-  name: stone table
-  description: Literally the sturdiest thing you have ever seen.
+  name: 石桌 丨 stone table
+  description: 毫不夸张地说，这是你见过最坚固的东西。 丨 Literally the sturdiest thing you have ever seen.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/stone.rsi
@@ -615,8 +615,8 @@
 - type: entity
   id: TableWeb
   parent: TableBase
-  name: web table
-  description: Really smooth and surprisingly durable.
+  name: 网络表格 丨 web table
+  description: 非常顺滑且出乎意料地耐用。 丨 Really smooth and surprisingly durable.
   components:
   - type: Damageable
     damageModifierSet: Web
@@ -649,8 +649,8 @@
 - type: entity
   parent: TableBase
   id: TableXeno
-  name: xeno table
-  description: I wouldn't put the silverware on it.
+  name: 异形桌 丨 xeno table
+  description: 我不会把银餐具放在这上面。 丨 I wouldn't put the silverware on it.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/xeno.rsi
@@ -677,8 +677,8 @@
   id: TableFancyBase
   abstract: true
   parent: TableBase
-  name: fancy table
-  description: Expensive and rich.
+  name: 豪华的桌子 丨 fancy table
+  description: 昂贵而奢华。 丨 Expensive and rich.
   components:
   - type: Damageable
     damageModifierSet: Wood
@@ -850,8 +850,8 @@
 - type: entity
   id: TableDebug
   parent: TableBase
-  name: table
-  description: PUT ON THEM CODERSOCKS!!
+  name: 桌子 丨 table
+  description: 穿上他们编程袜！！ 丨 PUT ON THEM CODERSOCKS!!
   suffix: DEBUG
   components:
   - type: Tag
@@ -875,8 +875,8 @@
 - type: entity
   id: TableCounterWood
   parent: CounterBase
-  name: wood counter
-  description: Do not apply fire to this. Rumour says it burns easily.
+  name: 木制台面 丨 wood counter
+  description: 切勿对此物使用火源。据传它极易燃烧。 丨 Do not apply fire to this. Rumour says it burns easily.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/counterwood.rsi
@@ -921,8 +921,8 @@
 - type: entity
   id: TableCounterMetal
   parent: CounterBase
-  name: metal counter
-  description: Looks like a good place to put a drink down.
+  name: 金属台面 丨 metal counter
+  description: 看起来是个放饮料的好地方。 丨 Looks like a good place to put a drink down.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/countermetal.rsi

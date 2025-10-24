@@ -13,8 +13,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkShinyFlask
-  name: shiny flask
-  description: A shiny metal flask. It appears to have a Greek symbol inscribed on it.
+  name: 闪亮的烧瓶 丨 shiny flask
+  description: 一个闪亮的金属烧瓶。上面似乎刻着一个希腊符号。 丨 A shiny metal flask. It appears to have a Greek symbol inscribed on it.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shinyflask.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkMREFlask
-  name: MRE flask
-  description: An old military flask, filled with the finest contents for soldiers.
+  name: 军用即食口粮水壶 丨 MRE flask
+  description: 一个古老的军用扁酒瓶，内盛为士兵们准备的上佳饮品。 丨 An old military flask, filled with the finest contents for soldiers.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mreflask.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkDetFlask
-  name: inspector's flask
-  description: A metal flask with a leather band and golden badge belonging to the inspector.
+  name: 监察员的酒壶 丨 inspector's flask
+  description: 一个带有皮圈和金质徽章的金属酒壶，属于督察官。 丨 A metal flask with a leather band and golden badge belonging to the inspector.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/detflask.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkHosFlask
-  name: hos's flask
-  description: A metal flask, fit for a hard working HoS.
+  name: 霍斯的酒壶 丨 hos's flask
+  description: 一个金属酒壶，适合辛勤工作的安保部长。 丨 A metal flask, fit for a hard working HoS.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/hosflask.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlask
-  name: captain's flask
-  description: A metal flask belonging to the captain.
+  name: 船长的金属酒壶 丨 captain's flask
+  description: 一个属于船长的金属酒壶。 丨 A metal flask belonging to the captain.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/flask.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlaskBar
-  name: bar flask
-  description: A metal flask often given out by the bartender on loan. Don't forget to return it!
+  name: 酒吧金属酒壶 丨 bar flask
+  description: 金属酒壶，通常由酒保出借。别忘了归还！ 丨 A metal flask often given out by the bartender on loan. Don't forget to return it!
   components:
     - type: Sprite
       sprite: Objects/Consumable/Drinks/barflask.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlaskOld
-  name: flask
-  description: ''
+  name: 烧瓶 丨 flask
+  description: '' 
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/flask_old.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkLithiumFlask
-  name: lithium flask
-  description: A flask with a Lithium Atom symbol on it.
+  name: 锂烧瓶 丨 lithium flask
+  description: 一个带有锂原子符号的烧瓶。 丨 A flask with a Lithium Atom symbol on it.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/lithiumflask.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkVacuumFlask
-  name: vacuum flask
-  description: Keeping your drinks at the perfect temperature since 1892.
+  name: 保温瓶 丨 vacuum flask
+  description: 自1892年以来，始终为您的饮品保持理想温度。 丨 Keeping your drinks at the perfect temperature since 1892.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vacuumflask.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: FlaskBase
   id: Pitcher
-  name: metal pitcher
-  description: A stainless steel insulated pitcher. Everyone's best friend in the morning.
+  name: 金属水壶 丨 metal pitcher
+  description: 不锈钢保温壶。每个人清晨的最佳伙伴。 丨 A stainless steel insulated pitcher. Everyone's best friend in the morning.
   components:
   - type: SolutionContainerManager
     solutions:

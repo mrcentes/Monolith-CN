@@ -1,7 +1,7 @@
 - type: entity
   id: ConveyorBelt
-  name: conveyor belt
-  description: A conveyor belt, commonly used to transport large numbers of items elsewhere quite quickly.
+  name: 传送带 丨 conveyor belt
+  description: 传送带，通常用于快速将大量物品运输到其他地方。 丨 A conveyor belt, commonly used to transport large numbers of items elsewhere quite quickly.
   placement:
     mode: SnapgridCenter
   components:
@@ -73,9 +73,9 @@
 - type: entity
   id: ConveyorBeltAssembly
   parent: BaseItem
-  name: conveyor belt
+  name: 输送带 丨 conveyor belt
   suffix: assembly
-  description: A conveyor belt assembly. Used to construct a conveyor belt.
+  description: 传送带组件。用于构建传送带。 丨 A conveyor belt assembly. Used to construct a conveyor belt.
   components:
   - type: Tag
     tags:

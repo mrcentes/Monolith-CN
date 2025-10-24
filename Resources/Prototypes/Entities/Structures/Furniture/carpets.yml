@@ -2,8 +2,8 @@
 - type: entity
   id: CarpetBase
   parent: BaseStructure
-  name: carpet
-  description: "Fancy walking surface."
+  name: 地毯 丨 carpet
+  description: 华丽行走表面。 丨 "Fancy walking surface."
   abstract: true
   components:
   - type: Sprite
@@ -341,7 +341,7 @@
 - type: entity
   id: CarpetChapel
   parent: BaseStructure
-  name: "chapel's carpet"
+  name: 小教堂的地毯 丨 "chapel's carpet"
   components:
   - type: Sprite
     sprite: Structures/Furniture/Carpets/chapel_carpet.rsi

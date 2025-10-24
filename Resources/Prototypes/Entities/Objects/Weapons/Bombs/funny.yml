@@ -1,6 +1,6 @@
 - type: entity
-  name: hot potato
-  description: Once activated, you can't drop this time bomb - hit someone else with it to save yourself! Don't burn your hands!
+  name: 烫手山芋 丨 hot potato
+  description: 一旦激活，你就无法放下这颗定时炸弹——快把它扔给别人来保全自己！小心别烫到手！ 丨 Once activated, you can't drop this time bomb - hit someone else with it to save yourself! Don't burn your hands!
   parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: HotPotato
   components:
@@ -70,7 +70,7 @@
   - type: AnimationPlayer
 
 - type: entity
-  name: banana peel
+  name: 香蕉皮 丨 banana peel
   suffix: Explosive
   parent: TrashBananaPeel
   id: TrashBananaPeelExplosive
@@ -107,9 +107,9 @@
 - type: entity
   parent: BaseItem
   id: TrashBananaPeelExplosiveUnarmed
-  name: banana
+  name: 香蕉 丨 banana
   suffix: Unarmed
-  description: There's something unusual about this banana.
+  description: 这根香蕉有些不同寻常。 丨 There's something unusual about this banana.
   components:
   - type: WeaponCaseInsertable # Frontier
   - type: Sprite

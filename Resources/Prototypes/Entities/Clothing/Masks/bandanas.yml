@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBlack
-  name: black bandana
-  description: A black bandana to make you look cool.
+  name: 黑色头巾 丨 black bandana
+  description: 一条让你看起来酷酷的黑色头巾。 丨 A black bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/black.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBlue
-  name: blue bandana
-  description: A blue bandana to make you look cool.
+  name: 蓝色头巾 丨 blue bandana
+  description: 一条蓝色头巾让你看起来更酷。 丨 A blue bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/blue.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBotany
-  name: botany bandana
-  description: A botany bandana to make you look cool, made from natural fibers.
+  name: 植物学头巾 丨 botany bandana
+  description: 一条植物学风格的头巾，采用天然纤维制成，让你看起来酷劲十足。 丨 A botany bandana to make you look cool, made from natural fibers.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/botany.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandGold
-  name: gold bandana
-  description: A gold bandana to make you look cool.
+  name: 金色头巾 丨 gold bandana
+  description: 一条金色头巾，让你看起来更酷。 丨 A gold bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/gold.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandGreen
-  name: green bandana
-  description: A green bandana to make you look cool.
+  name: 绿色头巾 丨 green bandana
+  description: 一条绿色头巾让你看起来更酷。 丨 A green bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/green.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandGrey
-  name: grey bandana
-  description: A grey bandana to make you look cool.
+  name: 灰色头巾 丨 grey bandana
+  description: 一条灰色头巾，让你看起来酷炫十足。 丨 A grey bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/grey.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandRed
-  name: red bandana
-  description: A red bandana to make you look cool.
+  name: 红色头巾 丨 red bandana
+  description: 一条让你看起来更酷的红色印花头巾。 丨 A red bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/red.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandSkull
-  name: skull bandana
-  description: A bandana with a skull to make you look even cooler.
+  name: 骷髅头巾 丨 skull bandana
+  description: 带有骷髅图案的头巾，让你看起来更酷。 丨 A bandana with a skull to make you look even cooler.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/skull.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandMerc
-  name: mercenary bandana
-  description: To protect the head from the sun, insects and other dangers of the higher path.
+  name: 佣兵头巾 丨 mercenary bandana
+  description: 保护头部免受阳光、昆虫以及高处小径上其他危险的侵扰。 丨 To protect the head from the sun, insects and other dangers of the higher path.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/merc.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBrown
-  name: brown bandana
-  description: A brown bandana to make you look cool.
+  name: 棕色头巾 丨 brown bandana
+  description: 一条棕色头巾让你看起来更酷。 丨 A brown bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/brown.rsi

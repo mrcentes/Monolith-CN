@@ -12,10 +12,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: bow
+  name: 弓 丨 bow
   parent: [BaseItem, BaseC1Contraband] # Frontier: BaseMinorContraband<BaseC1Contraband
   id: BaseBow
-  description: The original rooty tooty point and shooty.
+  description: 最初的根蒂指向射击器。 丨 The original rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
   - type: ItemSlots
     slots:
       projectiles:
-        name: Projectiles
+        name: 抛射体 丨 Projectiles
         startingItem: null
         insertSound: /Audio/Weapons/Guns/Misc/arrow_nock.ogg
         whitelist:

@@ -39,8 +39,8 @@
 - type: entity
   id: ResearchAndDevelopmentServer
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: R&D server
-  description: Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?
+  name: 研发服务器 丨 R&D server
+  description: 储存着空间站科学家们的集体智慧。摧毁它会让他们的研究倒退到原始状态。你不想这样吧？ 丨 Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?
   components:
   - type: Sprite
     sprite: Structures/Machines/server.rsi
@@ -105,7 +105,7 @@
 - type: entity
   id: BaseResearchAndDevelopmentPointSource
   parent: BaseMachinePowered
-  name: "base R&D supercomputer"
+  name: 基础研发超级计算机 丨 "base R&D supercomputer"
   # We should make this abstract once there are actual point sources.
   components:
   - type: Sprite

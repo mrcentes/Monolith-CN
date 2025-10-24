@@ -58,8 +58,8 @@
 - type: entity
   parent: [BaseMob, StripableInventoryBase]
   id: BaseBorgChassis
-  name: cyborg
-  description: A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
+  name: 生化人 丨 cyborg
+  description: 一种协助空间站活动的人机混合体。他们喜欢被要求一遍又一遍地陈述自己的准则。 丨 A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
   save: false
   abstract: true
   components:
@@ -203,7 +203,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
   - type: Body
   - type: StatusEffects
     allowed:

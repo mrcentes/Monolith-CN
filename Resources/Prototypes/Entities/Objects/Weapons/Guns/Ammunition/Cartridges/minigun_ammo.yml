@@ -4,7 +4,7 @@
 
 - type: entity
   id: CartridgeMinigun
-  name: cartridge (.10 rifle)
+  name: 子弹（0.10英寸步枪） 丨 cartridge (.10 rifle)
   parent: BaseCartridge556x45mm
   components:
   - type: CartridgeAmmo

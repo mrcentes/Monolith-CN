@@ -36,8 +36,8 @@
 
 - type: entity
   id: BaseSubdermalImplant
-  name: implant
-  description: A microscopic chip that's injected under the skin.
+  name: 植入芯片 丨 implant
+  description: 一种注射在皮肤下的微型芯片。 丨 A microscopic chip that's injected under the skin.
   abstract: true
   components:
   - type: SubdermalImplant
@@ -51,8 +51,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: SadTromboneImplant
-  name: sad trombone implant
-  description: This implant plays a sad tune when the user dies.
+  name: 悲伤长号植入物 丨 sad trombone implant
+  description: 该植入物会在用户死亡时播放一段悲伤的曲调。 丨 This implant plays a sad tune when the user dies.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: LightImplant
-  name: light implant
-  description: This implant emits light from the user's skin on activation.
+  name: 光植入物 丨 light implant
+  description: 该植入体在激活时会从用户的皮肤发出光线。 丨 This implant emits light from the user's skin on activation.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -93,8 +93,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: BikeHornImplant
-  name: bike horn implant
-  description: This implant lets the user honk anywhere at any time.
+  name: 自行车喇叭植入体 丨 bike horn implant
+  description: 这个植入物让用户随时随地都能按响喇叭。 丨 This implant lets the user honk anywhere at any time.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -114,8 +114,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: TrackingImplant
-  name: TSFMC tracking implant # Mono - TSFMC named now
-  description: This implant has a condition monitor for the TSFMC radio channel. # Frontier: NFSD mentioned, no tracking
+  name: TSFMC追踪植入体 # 单声道 - 现命名为TSFMC 丨 TSFMC tracking implant # Mono - TSFMC named now
+  description: 该植入体设有TSFMC无线电频道的状态监测器。# 前线：提及NFSD，无追踪功能 丨 This implant has a condition monitor for the TSFMC radio channel. # Frontier: NFSD mentioned, no tracking
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -145,8 +145,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: StorageImplant
-  name: storage implant
-  description: This implant grants hidden storage within a person's body using bluespace technology.
+  name: 存储植入体 丨 storage implant
+  description: 该植入体利用蓝空技术在人体内开辟隐藏的存储空间。 丨 This implant grants hidden storage within a person's body using bluespace technology.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -169,8 +169,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: FreedomImplant
-  name: freedom implant
-  description: This implant lets the user break out of hand restraints up to three times before ceasing to function anymore.
+  name: 自由植入体 丨 freedom implant
+  description: 该植入物可使用户挣脱手部束缚，最多三次，之后便会停止功能。 丨 This implant lets the user break out of hand restraints up to three times before ceasing to function anymore.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -182,8 +182,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: RadioImplant
-  name: radio implant
-  description: This implant grants access to the Syndicate channel without a headset.
+  name: 无线电植入物 丨 radio implant
+  description: 该植入体无需耳机即可接入辛迪加频道。 丨 This implant grants access to the Syndicate channel without a headset.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -194,8 +194,8 @@
 - type: entity
   parent: [ BaseSubdermalImplant, StorePresetUplink ]
   id: UplinkImplant
-  name: uplink implant
-  description: This implant lets the user access a hidden Syndicate uplink at will.
+  name: 上行链路植入物 丨 uplink implant
+  description: 该植入物让使用者能够随时接入一个隐藏的辛迪加上行链路。 丨 This implant lets the user access a hidden Syndicate uplink at will.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -214,8 +214,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: EmpImplant
-  name: EMP implant
-  description: This implant creates a 2.75 m, 10 s, 2.7 MJ electromagnetic pulse when activated. # Frontier: add units
+  name: EMP植入物 丨 EMP implant
+  description: 该植入体激活时可产生半径2.75米、持续10秒、能量达2.7兆焦耳的电磁脉冲。#前沿科技：已添加单位说明 丨 This implant creates a 2.75 m, 10 s, 2.7 MJ electromagnetic pulse when activated. # Frontier: add units
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -229,8 +229,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: ScramImplant
-  name: scram implant
-  description: This implant randomly teleports the user within a large radius when activated.
+  name: 扰传植入体 丨 scram implant
+  description: 该植入体在激活时会将使用者随机传送至一个大半径范围内的地点。 丨 This implant randomly teleports the user within a large radius when activated.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -241,8 +241,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: DnaScramblerImplant
-  name: DNA scrambler implant
-  description: This implant lets the user randomly change their appearance and name once.
+  name: DNA重组植入体 丨 DNA scrambler implant
+  description: 该植入物允许用户随机改变一次自己的外貌和姓名。 丨 This implant lets the user randomly change their appearance and name once.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -256,8 +256,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MicroBombImplant
-  name: micro-bomb implant
-  description: This implant detonates the user upon activation or upon death.
+  name: 微型炸弹植入物 丨 micro-bomb implant
+  description: 该植入体在激活时或用户死亡时便会引爆。 丨 This implant detonates the user upon activation or upon death.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -286,8 +286,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MacroBombImplant
-  name: macro-bomb implant
-  description: This implant creates a large explosion on death after a preprogrammed countdown.
+  name: 宏炸弹植入体 丨 macro-bomb implant
+  description: 该植入体在死亡时会根据预设倒计时引发巨大爆炸。 丨 This implant creates a large explosion on death after a preprogrammed countdown.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -321,8 +321,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: DeathAcidifierImplant
-  name: death-acidifier implant
-  description: This implant melts the user and their equipment upon death.
+  name: 死亡酸蚀植入体 丨 death-acidifier implant
+  description: 该植入体在用户死亡时会将其自身及装备一并溶解。 丨 This implant melts the user and their equipment upon death.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -345,8 +345,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: DeathRattleImplant
-  name: death rattle implant
-  description: This implant will inform the Syndicate radio channel should the user fall into critical condition or die.
+  name: 死亡喉音植入体 丨 death rattle implant
+  description: 该植入体会在使用者陷入危急状态或死亡时通知集团无线电频道。 丨 This implant will inform the Syndicate radio channel should the user fall into critical condition or die.
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
@@ -363,8 +363,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: FakeMindShieldImplant
-  name: fake mindshield implant
-  description: This implant allows the implanter to produce a fake signal that NT security huds use to identify individuals implanted with a mindshield.
+  name: 虚假心智防护植入体 丨 fake mindshield implant
+  description: 该植入物能让植入者发出虚假信号，神经科技安保平视显示系统会据此识别为已安装思维屏蔽器的个体。 丨 This implant allows the implanter to produce a fake signal that NT security huds use to identify individuals implanted with a mindshield.
   categories: [ HideSpawnMenu ]
   components:
       - type: SubdermalImplant
@@ -376,8 +376,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MindShieldImplant
-  name: mindshield implant
-  description: This implant will shield the brain from external influences and prevent mind control devices. # DeltaV - mindshield does not enforce loyalty
+  name: 精神屏蔽植入体 丨 mindshield implant
+  description: 该植入体将保护大脑免受外界影响，并能防范精神控制装置。#DeltaV注：心智护盾不强制维持忠诚度 丨 This implant will shield the brain from external influences and prevent mind control devices. # DeltaV - mindshield does not enforce loyalty
   categories: [ HideSpawnMenu ]
   components:
    - type: SubdermalImplant
@@ -391,8 +391,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: RadioImplantCentcomm
-  name: radio implant
-  description: This implant grants access to the Centcomm channel without a headset. Only authorized for Centcomm employees.
+  name: 无线电植入物 丨 radio implant
+  description: 该植入体无需耳机即可接入中央通讯频道，仅限中央通讯员工授权使用。 丨 This implant grants access to the Centcomm channel without a headset. Only authorized for Centcomm employees.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant

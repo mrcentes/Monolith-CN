@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: CyborgEndoskeleton
-  name: cyborg endoskeleton
-  description: A frame that cyborgs are built on. Significantly less spooky than expected.
+  name: 生化人内骨骼 丨 cyborg endoskeleton
+  description: 一个供生化人构建于其上的框架。远没有预想中那么吓人。 丨 A frame that cyborgs are built on. Significantly less spooky than expected.
   components:
   - type: Clickable
   - type: InteractionOutline

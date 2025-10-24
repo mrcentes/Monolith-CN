@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: Holopad
-  name: holopad
-  description: "A floor-mounted device for projecting holographic images."
+  name: 全息投影台 丨 holopad
+  description: 一种用于投射全息图像的落地式设备。 丨 "A floor-mounted device for projecting holographic images."
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Transform
@@ -107,8 +107,8 @@
         acts: ["Destruction"]
 
 - type: entity
-  name: long-range holopad
-  description: "A floor-mounted device for projecting holographic images to similar devices that are far away."
+  name: 远程全息台 丨 long-range holopad
+  description: 一种安装在地板上的设备，可将全息图像投射到远处的类似设备上。 丨 "A floor-mounted device for projecting holographic images to similar devices that are far away."
   parent: Holopad
   id: HolopadLongRange
   categories: [ HideSpawnMenu ] # Frontier
@@ -121,8 +121,8 @@
     ignoreTelephonesOnSameGrid: true
 
 - type: entity
-  name: quantum entangling holopad
-  description: "An floor-mounted device for projecting holographic images to similar devices at extreme distances."
+  name: 量子纠缠全息台 丨 quantum entangling holopad
+  description: 一种安装于地面、用于向极远距离外的类似设备投射全息影像的装置。 丨 "An floor-mounted device for projecting holographic images to similar devices at extreme distances."
   parent: Holopad
   id: HolopadUnlimitedRange
   categories: [ HideSpawnMenu ] # Frontier
@@ -135,8 +135,8 @@
     ignoreTelephonesOnSameGrid: true
 
 - type: entity
-  name: bluespace holopad
-  description: "An experimental floor-mounted device for projecting holographic images via bluespace."
+  name: 蓝空间全息台 丨 bluespace holopad
+  description: 一种通过蓝空间投射全息图像的实验性落地装置。 丨 "An experimental floor-mounted device for projecting holographic images via bluespace."
   parent: Holopad
   id: HolopadBluespace
   suffix: Unrestricted range
@@ -153,7 +153,7 @@
 # These are spawned by holopads
 - type: entity
   id: HolopadHologram
-  name: hologram
+  name: 全息图 丨 hologram
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Transform

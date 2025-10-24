@@ -12,8 +12,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerTechnologyDiskTerminal
-  name: research disk terminal # mono
-  description: A terminal used to print out research point disks. # mono
+  name: 研究磁盘终端 # 单声道 丨 research disk terminal # mono
+  description: 用于打印研究点磁盘的终端。# mono 丨 A terminal used to print out research point disks. # mono
   components:
   - type: Sprite
     noRot: true

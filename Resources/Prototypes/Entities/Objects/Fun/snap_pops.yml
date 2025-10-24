@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SnapPop
-  name: snap pop
-  description: Throw it at the floor and listen to it POP!
+  name: 啪嗒一声 丨 snap pop
+  description: 扔到地上，听它啪的一声！ 丨 Throw it at the floor and listen to it POP!
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseStorageItem
   id: SnapPopBox
-  name: snap pop box
-  description: Contains snap pops for a few minutes of popping fun!
+  name: 响炮盒 丨 snap pop box
+  description: 内含摔炮，可享受数分钟的爆破乐趣！ 丨 Contains snap pops for a few minutes of popping fun!
   components:
   - type: Item
     size: Normal

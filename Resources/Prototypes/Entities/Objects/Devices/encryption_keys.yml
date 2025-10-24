@@ -40,8 +40,8 @@
   abstract: true
   parent: BaseItem
   id: EncryptionKey
-  name: encryption key
-  description: A small cypher chip for headsets.
+  name: 加密密钥 丨 encryption key
+  description: 用于耳机的小型密码芯片。 丨 A small cypher chip for headsets.
   components:
   - type: EncryptionKey
   - type: Item
@@ -55,8 +55,8 @@
 - type: entity
   parent: [EncryptionKey, RecyclableItemDeviceTiny] # Frontier: added RecyclableItemDeviceTiny
   id: EncryptionKeyCommon
-  name: broadband encryption key
-  description: An encryption key for the broadband channel. Limited to a 6000 meters range.
+  name: 宽带加密密钥 丨 broadband encryption key
+  description: 宽带信道的加密密钥。有效范围限制在6000米内。 丨 An encryption key for the broadband channel. Limited to a 6000 meters range.
   components:
   - type: EncryptionKey
     channels:
@@ -71,9 +71,9 @@
 - type: entity
   parent: [EncryptionKey, RecyclableItemDeviceTiny] # Frontier: added RecyclableItemDeviceTiny, removed BaseCargoContraband
   id: EncryptionKeyCargo
-  name: cargo encryption key
+  name: 货物加密密钥 丨 cargo encryption key
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by supply employees.
+  description: 供员工使用的加密密钥。 丨 An encryption key used by supply employees.
   components:
   - type: EncryptionKey
     channels:
@@ -87,9 +87,9 @@
 - type: entity
   parent: [EncryptionKey, BaseCentcommCommandContraband] # Frontier: Added BaseCentcommCommandContraband, removed BaseCentcommContraband.
   id: EncryptionKeyCentCom
-  name: central command encryption key
+  name: 中央指挥部加密密钥 丨 central command encryption key
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by captain's bosses.
+  description: 船长上司使用的加密密钥。 丨 An encryption key used by captain's bosses.
   components:
   - type: EncryptionKey
     channels:
@@ -103,9 +103,9 @@
 - type: entity
   parent: [EncryptionKey, BaseC2ContrabandUnredeemable] # Frontier: BaseCentcommCommandContraband<BaseC2ContrabandUnredeemable
   id: EncryptionKeyStationMaster
-  name: station master encryption key
+  name: 站长加密密钥 丨 station master encryption key
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by station's bosses.
+  description: 站长使用的加密密钥。 丨 An encryption key used by station's bosses.
   components:
   - type: EncryptionKey
     channels:
@@ -148,9 +148,9 @@
 - type: entity
   parent: [EncryptionKey, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: EncryptionKeyCommand
-  name: TSF command encryption key # mono
+  name: TSF命令加密密钥 丨 TSF command encryption key # mono
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by TSF Command.
+  description: TSF命令使用的加密密钥。 丨 An encryption key used by TSF Command.
   components:
   - type: EncryptionKey
     channels:
@@ -166,9 +166,9 @@
 - type: entity
   parent: [EncryptionKey, RecyclableItemDeviceTiny] # Frontier: added RecyclableItemDeviceTiny, removed BaseEngineeringContraband
   id: EncryptionKeyEngineering
-  name: engineering encryption key
+  name: 工程加密密钥 丨 engineering encryption key
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by the engineers.
+  description: 工程师使用的加密密钥。 丨 An encryption key used by the engineers.
   components:
   - type: EncryptionKey
     channels:
@@ -182,8 +182,8 @@
 - type: entity
   parent: [EncryptionKey, RecyclableItemDeviceTiny] # Frontier: added RecyclableItemDeviceTiny, removed BaseMedicalContraband
   id: EncryptionKeyMedical
-  name: medical encryption key
-  description: An encryption key used by those who save lives.
+  name: 医疗加密密钥 丨 medical encryption key
+  description: 拯救生命者所用的加密密钥。 丨 An encryption key used by those who save lives.
   components:
   - type: EncryptionKey
     channels:
@@ -197,9 +197,9 @@
 - type: entity
   parent: [EncryptionKey, RecyclableItemDeviceTiny] # Frontier: added RecyclableItemDeviceTiny, removed BaseMedicalScienceContraband
   id: EncryptionKeyMedicalScience
-  name: med-sci encryption key
+  name: 医学科学加密密钥 丨 med-sci encryption key
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by someone who hasn't decided which side to take.
+  description: 一把尚未决定立场之人所用的加密密钥。 丨 An encryption key used by someone who hasn't decided which side to take.
   components:
   - type: EncryptionKey
     channels:
@@ -214,9 +214,9 @@
 - type: entity
   parent: [EncryptionKey, RecyclableItemDeviceTiny] # Frontier: added RecyclableItemDeviceTiny, removed BaseScienceContraband
   id: EncryptionKeyScience
-  name: science encryption key
+  name: 科学加密密钥 丨 science encryption key
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by scientists. Maybe it is plasmaproof?
+  description: 科学家使用的加密密钥。也许它是等离子防护的？ 丨 An encryption key used by scientists. Maybe it is plasmaproof?
   components:
   - type: EncryptionKey
     channels:
@@ -230,9 +230,9 @@
 - type: entity
   parent: [EncryptionKey, RecyclableItemDeviceTiny] # Frontier: added RecyclableItemDeviceTiny, removed BaseScienceContraband
   id: EncryptionKeyRobo
-  name: robotech encryption key
+  name: 机器人技术加密密钥 丨 robotech encryption key
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by robototech engineers. Maybe it has a LAH-6000 on it?
+  description: 一把由机器人技术工程师使用的加密密钥。或许上面还标有LAH-6000？ 丨 An encryption key used by robototech engineers. Maybe it has a LAH-6000 on it?
   components:
   - type: EncryptionKey
     channels:
@@ -246,9 +246,9 @@
 - type: entity
   parent: [ EncryptionKey, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityLawyerContraband<BaseC2ContrabandUnredeemable
   id: EncryptionKeySecurity
-  name: colonial security encryption key # mono
+  name: 殖民安全加密密钥 # 单声道 丨 colonial security encryption key # mono
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by Colonial security. # Mono
+  description: 殖民安全部门使用的加密密钥。# 单声道 丨 An encryption key used by Colonial security. # Mono
   components:
   - type: EncryptionKey
     channels:
@@ -262,9 +262,9 @@
 - type: entity
   parent: [EncryptionKey, RecyclableItemDeviceTiny] # Frontier: added RecyclableItemDeviceTiny, removed BaseCivilianContraband
   id: EncryptionKeyService
-  name: colonial staff encryption key # Mono
+  name: 殖民站人员加密密钥 丨 colonial staff encryption key # Mono
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
+  description: 服务人员使用的加密密钥，其职责是确保空间站人员充足、心情愉悦且环境整洁。 丨 An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
   components:
   - type: EncryptionKey
     channels:
@@ -278,9 +278,9 @@
 - type: entity
   parent: [EncryptionKey, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: EncryptionKeySyndie
-  name: blood-red encryption key
+  name: 血红色的加密密钥 丨 blood-red encryption key
   categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by... wait... Who is owner of this chip?
+  description: 一把加密密钥，被……等等……这枚芯片的主人是谁？ 丨 An encryption key used by... wait... Who is owner of this chip?
   components:
   - type: EncryptionKey
     channels:
@@ -325,8 +325,8 @@
 - type: entity
   parent: [EncryptionKey, BaseC3PirateContrabandHighValue] # Frontier: added BaseC3PirateContraband - Mono: Changed to HighValue
   id: EncryptionKeyFreelance
-  name: insurgency encryption key # mono
-  description: An encryption key used by insurgents. # Mono
+  name: 叛乱分子使用的加密密钥 # 单声道 丨 insurgency encryption key # mono
+  description: 叛乱分子使用的加密密钥。# 单声道 丨 An encryption key used by insurgents. # Mono
   components:
     - type: EncryptionKey
       channels:

@@ -1,7 +1,7 @@
 - type: entity
   id: TeslaCoil
-  name: tesla coil
-  description: A machine that converts lightning strikes into an electric current.
+  name: 特斯拉线圈 丨 tesla coil
+  description: 一种将闪电转化为电流的机器。 丨 A machine that converts lightning strikes into an electric current.
   placement:
     mode: SnapgridCenter
   components:
@@ -108,8 +108,8 @@
 
 - type: entity
   id: TeslaGroundingRod
-  name: grounding rod
-  description: A machine that keeps lightning from striking too far away.
+  name: 接地棒 丨 grounding rod
+  description: 一台防止雷电击中远处的机器。 丨 A machine that keeps lightning from striking too far away.
   placement:
     mode: SnapgridCenter
   components:

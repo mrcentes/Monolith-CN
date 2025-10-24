@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: ChameleonProjector
-  name: chameleon projector
-  description: Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
+  name: 变色龙投影仪 丨 chameleon projector
+  description: 全息寄生技术，用于生成周遭任意物体的硬光复制体。拾取或停用时伪装失效。 丨 Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
   components:
   - type: Sprite
     sprite: /Textures/Objects/Devices/chameleon_projector.rsi
@@ -24,7 +24,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: ChameleonDisguise
-  name: Urist McKleiner
+  name: 乌里斯特·麦克克莱纳 丨 Urist McKleiner
   components:
   # this and the name/desc get replaced, this is just placeholder incase something goes wrong
   - type: Sprite
@@ -40,8 +40,8 @@
 # actions
 - type: entity
   id: ActionDisguiseNoRot
-  name: Toggle Rotation
-  description: Use this to prevent your disguise from rotating, making it easier to hide in some scenarios.
+  name: 切换旋转 丨 Toggle Rotation
+  description: 使用此功能可防止伪装物旋转，在某些场景下更易于隐藏。 丨 Use this to prevent your disguise from rotating, making it easier to hide in some scenarios.
   components:
   - type: InstantAction
     icon: Interface/VerbIcons/refresh.svg.192dpi.png
@@ -50,8 +50,8 @@
 
 - type: entity
   id: ActionDisguiseAnchor
-  name: Toggle Anchored
-  description: For many objects you will want to be anchored to not be completely obvious.
+  name: 切换锚定状态 丨 Toggle Anchored
+  description: 对于许多对象，你会希望锚定不那么显眼。 丨 For many objects you will want to be anchored to not be completely obvious.
   components:
   - type: InstantAction
     icon:

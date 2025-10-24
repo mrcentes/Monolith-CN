@@ -2,8 +2,8 @@
 - type: entity
   abstract: true
   id: ShelfBase
-  name: shelf
-  description: A strange place to place, well, anything really. You feel like you shouldn't be seeing this.
+  name: 架子 丨 shelf
+  description: 一个奇怪的摆放之处，嗯，真的放什么都不太对劲。你觉得自己本不该看到这个。 丨 A strange place to place, well, anything really. You feel like you shouldn't be seeing this.
   placement:
     mode: SnapgridCenter
     snap:
@@ -51,8 +51,8 @@
   abstract: true
   id: ShelfBaseReinforced
   parent: ShelfBase
-  name: reinforced shelf
-  description: It looks as strong as reality itself.
+  name: 加固搁板 丨 reinforced shelf
+  description: 它看起来和现实本身一样坚固。 丨 It looks as strong as reality itself.
   components:
   - type: Lock
   - type: LockVisuals
@@ -81,8 +81,8 @@
 - type: entity
   id: ShelfWood
   parent: ShelfBase
-  name: wooden shelf
-  description: A convenient place to place, well, anything really.
+  name: 木架 丨 wooden shelf
+  description: 一个方便放置，嗯，几乎任何东西的地方。 丨 A convenient place to place, well, anything really.
   components:
   - type: Destructible
     thresholds:
@@ -111,8 +111,8 @@
 - type: entity
   id: ShelfMetal
   parent: ShelfBase
-  name: metal shelf
-  description: A sturdy place to place, well, anything really.
+  name: 金属架 丨 metal shelf
+  description: 一个稳固的存放处，嗯，真的什么都能放。 丨 A sturdy place to place, well, anything really.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/metal.rsi
@@ -146,8 +146,8 @@
 - type: entity
   id: ShelfGlass
   parent: ShelfBase
-  name: glass shelf
-  description: A fragile place to place, well, anything really.
+  name: 玻璃架 丨 glass shelf
+  description: 一个脆弱的容身之处，嗯，其实放什么都行。 丨 A fragile place to place, well, anything really.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/glass.rsi
@@ -182,8 +182,8 @@
 - type: entity
   id: ShelfRWood
   parent: ShelfBaseReinforced
-  name: sturdy wood shelf
-  description: A safe place to put your favorite bottle of whiskey.
+  name: 结实的木架 丨 sturdy wood shelf
+  description: 放置您心爱威士忌的安全之处。 丨 A safe place to put your favorite bottle of whiskey.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/wood.rsi
@@ -219,8 +219,8 @@
 - type: entity
   id: ShelfRMetal
   parent: ShelfBaseReinforced
-  name: sturdy metal shelf
-  description: A strong & shiny place to keep all your vials safe.
+  name: 坚固的金属架子 丨 sturdy metal shelf
+  description: 一个坚固闪亮的地方，妥善保管您的所有小瓶。 丨 A strong & shiny place to keep all your vials safe.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/metal.rsi
@@ -253,8 +253,8 @@
 - type: entity
   id: ShelfRGlass
   parent: ShelfBaseReinforced
-  name: sturdy glass shelf
-  description: Crystal clear reinforced glass doors to show off all your fancy bottles you definitely didn't sell a co-worker's favorite mothroach for.
+  name: 坚固的玻璃搁板 丨 sturdy glass shelf
+  description: 晶莹剔透的钢化玻璃门，用来展示你那些华丽瓶罐——你绝对没有为它们卖掉同事最爱的飞蛾蟑螂。 丨 Crystal clear reinforced glass doors to show off all your fancy bottles you definitely didn't sell a co-worker's favorite mothroach for.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/glass.rsi
@@ -288,8 +288,8 @@
 - type: entity
   id: ShelfBar
   parent: ShelfBase
-  name: bar shelf
-  description: Made out of the finest synthetic wood for all alcohol holding needs.
+  name: 吧台架 丨 bar shelf
+  description: 采用最优质的合成木材制成，满足所有酒类存放需求。 丨 Made out of the finest synthetic wood for all alcohol holding needs.
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Service/bar.rsi
@@ -336,8 +336,8 @@
 - type: entity
   id: ShelfKitchen
   parent: ShelfBase
-  name: kitchen shelf
-  description: Holds knifes, spice, and everything nice!
+  name: 厨房搁板 丨 kitchen shelf
+  description: 收纳刀具、香料，一切美好之物！ 丨 Holds knifes, spice, and everything nice!
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Service/kitchen.rsi
@@ -402,8 +402,8 @@
 - type: entity
   id: ShelfChemistry
   parent: ShelfBaseReinforced
-  name: chemical shelf
-  description: Keeps all your chemicals safe and out of the clow- er, public hands!
+  name: 化学品架 丨 chemical shelf
+  description: 将所有化学品安全存放，远离公众视线和接触！ 丨 Keeps all your chemicals safe and out of the clow- er, public hands!
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Medical/chemistry.rsi

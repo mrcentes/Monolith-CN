@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowRegular
-  name: arrow
-  description: You can feel the power of the steppe within you.
+  name: 箭 丨 arrow
+  description: 你能感受到体内草原的力量。 丨 You can feel the power of the steppe within you.
   components:
   - type: Sprite
     layers:
@@ -84,8 +84,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovised
-  name: glass shard arrow
-  description: The greyshirt's preferred projectile.
+  name: 玻璃碎片箭 丨 glass shard arrow
+  description: 灰衫偏爱的投射物。 丨 The greyshirt's preferred projectile.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovisedPlasma
-  name: plasma glass shard arrow
-  description: The greyshirt's preferred projectile. Now with extra lethality!
+  name: 等离子玻璃碎片箭 丨 plasma glass shard arrow
+  description: 灰衫军偏爱的投射物。如今杀伤力更胜以往！ 丨 The greyshirt's preferred projectile. Now with extra lethality!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovisedUranium
-  name: uranium glass shard arrow
-  description: The greyshirt's preferred projectile. Now with added radiation!
+  name: 铀玻璃碎片箭 丨 uranium glass shard arrow
+  description: 灰衫客偏爱的投射物。现已增添辐射效果！ 丨 The greyshirt's preferred projectile. Now with added radiation!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi

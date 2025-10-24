@@ -34,8 +34,8 @@
 - type: entity
   parent: PlasteelHusk
   id: PlasteelCore
-  name: plasteel core
-  description: An empty husk waiting for a positrionic brain
+  name: 塑钢核心 丨 plasteel core
+  description: 一具空壳，等待着正电子脑的植入。 丨 An empty husk waiting for a positrionic brain
   components:
   - type: Sprite
     sprite: Structures/Machines/plasteel_core.rsi

@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: SeedExtractor
-  name: seed extractor
+  name: 种子提取器 丨 seed extractor
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  description: Extracts seeds from produce.
+  description: 从农产品中提取种子。 丨 Extracts seeds from produce.
   components:
   - type: Sprite
     sprite: Structures/Machines/seed_extractor.rsi

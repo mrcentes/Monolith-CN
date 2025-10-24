@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackDuffel
-  name: duffel bag
-  description: A large duffel bag for holding extra things.
+  name: 行李包 丨 duffel bag
+  description: 一个用于装额外物品的大号旅行袋。 丨 A large duffel bag for holding extra things.
   categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: Sprite
@@ -59,8 +59,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelEngineering
-  name: engineering duffel bag
-  description: A large duffel bag for holding extra tools and supplies.
+  name: 工程工具包 丨 engineering duffel bag
+  description: 一个用于存放额外工具和补给品的大型工程包。 丨 A large duffel bag for holding extra tools and supplies.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/engineering.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelAtmospherics
-  name: atmospherics duffel bag
-  description: A large duffel bag made of fire resistant fibers. Smells like plasma.
+  name: 大气层帆布包 丨 atmospherics duffel bag
+  description: 一个由耐火纤维制成的大型筒状行李袋，散发着等离子体的气味。 丨 A large duffel bag made of fire resistant fibers. Smells like plasma.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/atmospherics.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelMedical
-  name: medical duffel bag
-  description: A large duffel bag for holding extra medical supplies.
+  name: 医疗行李袋 丨 medical duffel bag
+  description: 一个用于存放额外医疗用品的大型帆布包。 丨 A large duffel bag for holding extra medical supplies.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/medical.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel # Frontier: removed BaseCommandContraband
   id: ClothingBackpackDuffelCaptain
-  name: captain's duffel bag
-  description: A large duffel bag for holding extra captainly goods.
+  name: 船长的行李袋 丨 captain's duffel bag
+  description: 一个用于存放额外船长物品的大号帆布袋。 丨 A large duffel bag for holding extra captainly goods.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/captain.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelClown
-  name: clown duffel bag
-  description: A large duffel bag for holding extra honk goods.
+  name: 小丑旅行包 丨 clown duffel bag
+  description: 一个用于存放额外鸣响物品的大号圆筒包。 丨 A large duffel bag for holding extra honk goods.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/clown.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: [NFClothingDuffel, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband, ClothingBackpackDuffel<NFClothingDuffel
   id: ClothingBackpackDuffelSecurity
-  name: tactical duffel bag # Mono
-  description: A large duffel bag for holding extra security related goods.
+  name: 战术筒包 # 单色 丨 tactical duffel bag # Mono
+  description: 一个用于存放额外安保相关物品的大型筒状包。 丨 A large duffel bag for holding extra security related goods.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/security.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: [NFClothingDuffel, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable, ClothingBackpackDuffel<NFClothingDuffel
   id: ClothingBackpackDuffelBrigmedic
-  name: brigmedic duffel bag
-  description: A large duffel bag for holding extra medical related goods.
+  name: brigmedic 行李袋 丨 brigmedic duffel bag
+  description: 一个用于存放额外医疗相关物品的大型筒状行李袋。 丨 A large duffel bag for holding extra medical related goods.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/brigmedic.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelChemistry
-  name: chemistry duffel bag
-  description: A large duffel bag for holding extra beakers and test tubes.
+  name: 化学行李袋 丨 chemistry duffel bag
+  description: 一个用于存放多余烧杯和试管的大型化学工具包。 丨 A large duffel bag for holding extra beakers and test tubes.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/chemistry.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelVirology
-  name: virology duffel bag
-  description: A large duffel bag made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
+  name: 病毒学旅行包 丨 virology duffel bag
+  description: 一个由防过敏纤维制成的大型旅行包。其设计旨在帮助预防疾病传播。闻起来有猴子气味。 丨 A large duffel bag made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/virology.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelGenetics
-  name: genetics duffel bag
-  description: A large duffel bag for holding extra genetic mutations.
+  name: 遗传学行李袋 丨 genetics duffel bag
+  description: 一个用于存放额外基因突变的大型旅行包。 丨 A large duffel bag for holding extra genetic mutations.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/genetics.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelMime
-  name: mime duffel bag
-  description: A large duffel bag for holding... mime... stuff.
+  name: 哑剧演员行李袋 丨 mime duffel bag
+  description: 一个用来装……默剧……用品的大号旅行包。 丨 A large duffel bag for holding... mime... stuff.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/mime.rsi
@@ -165,8 +165,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelScience
-  name: science duffel bag
-  description: A large duffel bag for holding extra science related goods.
+  name: 科学帆布包 丨 science duffel bag
+  description: 一个用于存放额外科学相关物品的大号筒状行李袋。 丨 A large duffel bag for holding extra science related goods.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/science.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelHydroponics
-  name: hydroponics duffel bag
-  description: A large duffel bag for holding extra gardening tools.
+  name: 水培工具包 丨 hydroponics duffel bag
+  description: 一个用于存放额外园艺工具的大号手提包。 丨 A large duffel bag for holding extra gardening tools.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/hydroponics.rsi
@@ -183,8 +183,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelCargo
-  name: cargo duffel bag
-  description: A large duffel bag for stealing cargo's precious loot.
+  name: 货物筒袋 丨 cargo duffel bag
+  description: 一个用于偷窃货物珍贵战利品的大型帆布包。 丨 A large duffel bag for stealing cargo's precious loot.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/cargo.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelSalvage
-  name: salvage duffel bag
-  description: A large duffel bag for holding extra exotic treasures.
+  name: 打捞用大型行李袋 丨 salvage duffel bag
+  description: 一个用于存放额外异域珍宝的大型帆布包。 丨 A large duffel bag for holding extra exotic treasures.
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/salvage.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: [NFClothingDuffel, BaseC3Contraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3Contraband, added ContrabandClothing as parent
   id: ClothingBackpackDuffelSyndicate
-  name: syndicate duffel bag
-  description: A large duffel bag for holding various traitor goods.
+  name: 辛迪加行李袋 丨 syndicate duffel bag
+  description: 一个用于存放各类叛徒物品的大号旅行包。 丨 A large duffel bag for holding various traitor goods.
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -223,7 +223,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicate # Frontier: ClothingBackpackDuffelNFClothingDuffelSyndicate - Mono Revert
   id: ClothingBackpackDuffelSyndicateAmmo
-  name: syndicate duffel bag
+  name: 辛迪加杜弗包 丨 syndicate duffel bag
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -244,7 +244,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicate # Frontier: ClothingBackpackDuffelNFClothingDuffelSyndicate - Mono Revert
   id: ClothingBackpackDuffelSyndicateMedical
-  name: syndicate duffel bag
+  name: 辛迪加杜弗包 丨 syndicate duffel bag
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -265,8 +265,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelHolding
-  name: duffelbag of holding
-  description: A duffelbag that opens into a localized pocket of bluespace.
+  name: 次元空间旅行袋 丨 duffelbag of holding
+  description: 一个能打开通往局部蓝空间口袋的行李袋。 丨 A duffelbag that opens into a localized pocket of bluespace.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Duffels/holding.rsi # Frontier
@@ -304,8 +304,8 @@
 - type: entity
   parent: [ NFClothingDuffel, BaseCentcommContraband ] # Frontier: ClothingBackpackDuffel<NFClothingDuffel
   id: ClothingBackpackDuffelCBURN
-  name: CBURN duffel bag
-  description: A duffel bag containing a variety of biological containment equipment.
+  name: CBURN生物防护装备包 丨 CBURN duffel bag
+  description: 一个装有多种生物隔离设备的圆筒包。 丨 A duffel bag containing a variety of biological containment equipment.
   components:
   - type: Storage
     maxItemSize: Huge

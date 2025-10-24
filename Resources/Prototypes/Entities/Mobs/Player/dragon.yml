@@ -40,7 +40,6 @@
 # SPDX-FileCopyrightText: 2025 Errant
 # SPDX-FileCopyrightText: 2025 Ilya246
 # SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: MPL-2.0
 
@@ -48,8 +47,8 @@
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   id: BaseMobDragon
   suffix: ""
-  name: space dragon
-  description: A flying leviathan, loosely related to space carps.
+  name: 太空龙 丨 space dragon
+  description: 一条飞行的庞然巨兽，与太空鲤鱼有着远亲关系。 丨 A flying leviathan, loosely related to space carps.
   abstract: true
   components:
   - type: Body # Shitmed
@@ -60,8 +59,8 @@
     allowMovement: true
     allowSpeech: true
     makeSentient: true
-    name: ghost-role-information-space-dragon-name
-    description: ghost-role-information-space-dragon-description
+    name: 幽灵角色信息空间龙名称 丨 ghost-role-information-space-dragon-name
+    description: 幽灵角色信息空间龙描述 丨 ghost-role-information-space-dragon-description
     rules: ghost-role-information-space-dragon-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -218,6 +217,7 @@
   - type: Puller
     needsHands: false
   - type: NightVision # Goobstation - Nigthvision
+    color: "#808080"
     activateSound: null
     deactivateSound: null
 
@@ -249,8 +249,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: DragonsBreathGun
-  name: dragon's lung
-  description: For dragon's breathing.
+  name: 龙肺 丨 dragon's lung
+  description: 用于龙的呼吸。 丨 For dragon's breathing.
   components:
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 5
@@ -272,7 +272,7 @@
   suffix: Dungeon
   components:
   - type: GhostRole
-    description: ghost-role-information-space-dragon-dungeon-description
+    description: 幽灵角色信息空间龙地牢描述 丨 ghost-role-information-space-dragon-dungeon-description
     rules: ghost-role-information-dungeon-boss-rules # Frontier: ghost-role-information-space-dragon-dungeon-rules<ghost-role-information-dungeon-boss-rules
     raffle:
       settings: default
@@ -302,8 +302,8 @@
 
 - type: entity
   id: ActionSpawnRift
-  name: Summon Carp Rift
-  description: Summons a carp rift that will periodically spawns carps.
+  name: 召唤鲤跃渊 丨 Summon Carp Rift
+  description: 召唤一道鲤鱼裂隙，会定期生成鲤鱼。 丨 Summons a carp rift that will periodically spawns carps.
   components:
   - type: InstantAction
     icon:
@@ -315,8 +315,8 @@
 
 - type: entity
   id: ActionDevour
-  name: "[color=red]Devour[/color]"
-  description: Attempt to break a structure with your jaws or swallow a creature.
+  name: "[color=red]吞噬[/color] [color=red]Devour[/color]"
+  description: 尝试用你的颚部破坏一个结构，或吞下一个生物。 丨 Attempt to break a structure with your jaws or swallow a creature.
   components:
   - type: EntityTargetAction
     icon: { sprite : Interface/Actions/devour.rsi, state: icon }
@@ -327,8 +327,8 @@
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
   id: ActionDragonsBreath
-  name: "[color=orange]Dragon's Breath[/color]"
-  description: Spew out flames at anyone foolish enough to attack you!
+  name: "[color=orange]龙之吐息[/color] [color=orange]Dragon's Breath[/color]"
+  description: 向任何胆敢攻击你的蠢货喷出火焰！ 丨 Spew out flames at anyone foolish enough to attack you!
   components:
   - type: WorldTargetAction
     # TODO: actual sprite

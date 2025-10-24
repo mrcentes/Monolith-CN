@@ -30,8 +30,8 @@
 
 - type: entity
   id: AirAlarm
-  name: air alarm
-  description: An air alarm. Alarms... air?
+  name: 空袭警报 丨 air alarm
+  description: 空袭警报。警报……空袭？ 丨 An air alarm. Alarms... air?
   placement:
     mode: SnapgridCenter
     snap:
@@ -149,8 +149,8 @@
 
 - type: entity
   id: AirAlarmAssembly
-  name: air alarm assembly
-  description: An air alarm. Doesn't look like it'll be alarming air any time soon.
+  name: 空气警报器总成 丨 air alarm assembly
+  description: 一个空气警报器。看起来它暂时不会对空气发出警报了。 丨 An air alarm. Doesn't look like it'll be alarming air any time soon.
   placement:
     mode: SnapgridCenter
     snap:
@@ -180,8 +180,8 @@
 - type: entity
   id: AirAlarmXeno
   parent: AirAlarm
-  name: air alarm
-  description: An alien air alarm. Hopefully they didn't breathe poison.
+  name: 空气警报 丨 air alarm
+  description: 一个外星空气警报。希望他们没有吸入毒气。 丨 An alien air alarm. Hopefully they didn't breathe poison.
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi
@@ -195,8 +195,8 @@
 - type: entity
   id: AirAlarmAssemblyXeno
   parent: AirAlarmAssembly
-  name: air alarm assembly
-  description: An alien air alarm. Why are the wires pulsating?...
+  name: 空气警报器总成 丨 air alarm assembly
+  description: 一个外星空气警报装置。为什么电线在搏动？... 丨 An alien air alarm. Why are the wires pulsating?...
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi

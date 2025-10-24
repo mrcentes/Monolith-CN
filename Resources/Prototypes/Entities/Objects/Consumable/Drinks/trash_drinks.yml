@@ -37,11 +37,11 @@
 
 # These can still be used as containers
 - type: entity
-  name: base empty bottle
+  name: 底座空瓶 丨 base empty bottle
   id: DrinkBottleBaseEmpty
   parent: BaseItem
   abstract: true
-  description: An empty bottle.
+  description: 一个空瓶子。 丨 An empty bottle.
   suffix: Empty
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
   - type: DnaSubstanceTrace
 
 - type: entity
-  name: base empty bottle
+  name: 底座空瓶 丨 base empty bottle
   id: DrinkBottleBaseSmallEmpty
   parent: DrinkBottleBaseEmpty
   abstract: true
@@ -130,11 +130,11 @@
         maxVol: 50
 
 - type: entity
-  name: base empty carton
+  name: 底座空纸箱 丨 base empty carton
   id: DrinkCartonBaseEmpty
   parent: BaseItem
   abstract: true
-  description: An empty carton.
+  description: 一个空纸箱。 丨 An empty carton.
   suffix: Empty
   components:
   - type: Sprite
@@ -183,7 +183,7 @@
   - type: SpaceGarbage
 
 - type: entity
-  name: base empty bottle
+  name: 底座空瓶 丨 base empty bottle
   id: DrinkCartonBaseLargeEmpty
   parent: DrinkCartonBaseEmpty
   abstract: true
@@ -197,7 +197,7 @@
 
 # Containers
 - type: entity
-  name: Jailbreaker Verte bottle
+  name: 越狱者韦特瓶 丨 Jailbreaker Verte bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleAbsinthe
   components:
@@ -206,7 +206,7 @@
 
 
 - type: entity
-  name: alcohol bottle
+  name: 酒精瓶 丨 alcohol bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleAlcoClear
   components:
@@ -215,7 +215,7 @@
 
 
 - type: entity
-  name: ale bottle
+  name: 啤酒瓶 丨 ale bottle
   parent: DrinkBottleBaseSmallEmpty
   id: DrinkBottleAle
   components:
@@ -224,7 +224,7 @@
 
 
 - type: entity
-  name: beer bottle
+  name: 啤酒瓶 丨 beer bottle
   parent: DrinkBottleBaseSmallEmpty
   id: DrinkBottleBeer
   components:
@@ -233,7 +233,7 @@
 
 
 - type: entity
-  name: cognac bottle
+  name: 干邑酒瓶 丨 cognac bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleCognac
   components:
@@ -242,7 +242,7 @@
 
 
 - type: entity
-  name: Griffeater gin bottle
+  name: 格里菲特大金酒瓶 丨 Griffeater gin bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleGin
   components:
@@ -251,7 +251,7 @@
 
 
 - type: entity
-  name: gildlager bottle
+  name: 镀金瓶 丨 gildlager bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleGildlager
   components:
@@ -260,7 +260,7 @@
 
 
 - type: entity
-  name: coffee liqueur bottle
+  name: 咖啡利口酒瓶 丨 coffee liqueur bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleCoffeeLiqueur
   components:
@@ -269,7 +269,7 @@
 
 
 - type: entity
-  name: nt cahors bottle
+  name: nt卡奥尔酒瓶 丨 nt cahors bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleNTCahors
   components:
@@ -278,7 +278,7 @@
 
 
 - type: entity
-  name: patron bottle
+  name: 赞助瓶 丨 patron bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottlePatron
   components:
@@ -287,7 +287,7 @@
 
 
 - type: entity
-  name: poison wine bottle
+  name: 毒酒瓶 丨 poison wine bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottlePoisonWine
   components:
@@ -296,7 +296,7 @@
 
 
 - type: entity
-  name: rum bottle
+  name: 朗姆酒瓶 丨 rum bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleRum
   components:
@@ -305,7 +305,7 @@
 
 
 - type: entity
-  name: tequila bottle
+  name: 龙舌兰酒瓶 丨 tequila bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleTequila
   components:
@@ -314,7 +314,7 @@
 
 
 - type: entity
-  name: vermouth bottle
+  name: 苦艾酒瓶 丨 vermouth bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleVermouth
   components:
@@ -323,7 +323,7 @@
 
 
 - type: entity
-  name: vodka bottle
+  name: 伏特加酒瓶 丨 vodka bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleVodka
   components:
@@ -332,7 +332,7 @@
 
 
 - type: entity
-  name: whiskey bottle
+  name: 威士忌酒瓶 丨 whiskey bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleWhiskey
   components:
@@ -341,7 +341,7 @@
 
 
 - type: entity
-  name: wine bottle
+  name: 酒瓶 丨 wine bottle
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleWine
   components:
@@ -350,7 +350,7 @@
 
 
 - type: entity
-  name: lime juice carton
+  name: 青柠汁盒 丨 lime juice carton
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonLime
   components:
@@ -359,7 +359,7 @@
 
 
 - type: entity
-  name: orange juice carton
+  name: 橙汁纸盒 丨 orange juice carton
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonOrange
   components:
@@ -368,7 +368,7 @@
 
 
 - type: entity
-  name: tomato juice carton
+  name: 番茄汁纸盒 丨 tomato juice carton
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonTomato
   components:
@@ -377,7 +377,7 @@
 
 
 - type: entity
-  name: milk cream carton
+  name: 牛奶奶油盒 丨 milk cream carton
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonCream
   components:
@@ -386,7 +386,7 @@
 
 
 - type: entity
-  name: milk carton
+  name: 牛奶盒 丨 milk carton
   parent: DrinkCartonBaseLargeEmpty
   id: DrinkCartonMilk
   components:
@@ -394,7 +394,7 @@
     sprite: Objects/Consumable/Drinks/milk.rsi
 
 - type: entity
-  name: soy milk carton
+  name: 豆浆盒 丨 soy milk carton
   parent: DrinkCartonBaseLargeEmpty
   id: DrinkCartonSoyMilk
   components:
@@ -402,7 +402,7 @@
     sprite: Objects/Consumable/Drinks/soymilk.rsi
 
 - type: entity
-  name: oat milk carton
+  name: 燕麦牛奶盒 丨 oat milk carton
   parent: DrinkCartonBaseLargeEmpty
   id: DrinkCartonOatMilk
   components:

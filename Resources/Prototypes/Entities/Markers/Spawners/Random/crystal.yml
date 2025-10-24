@@ -1,5 +1,5 @@
 - type: entity
-  name: Crystal Spawner
+  name: 水晶刷怪笼 丨 Crystal Spawner
   suffix: 70%
   id: CrystalSpawner
   parent: MarkerBase

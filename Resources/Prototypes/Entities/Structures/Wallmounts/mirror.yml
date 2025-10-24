@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: Mirror
-  name: mirror
-  description: 'Mirror mirror on the wall , who''s the most robust of them all?'
+  name: 镜子 丨 mirror
+  description: 墙上的魔镜魔镜，谁是他们中最强大的？ 丨 'Mirror mirror on the wall , who''s the most robust of them all?'
   components:
   - type: WallMount
   - type: Sprite

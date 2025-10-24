@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, add ContrabandClothing
   id: ClothingOuterVestWeb
-  name: web vest
-  description: A synthetic armor vest. This one has added webbing and ballistic plates.
+  name: 网织背心 丨 web vest
+  description: 一件合成装甲背心。这款额外增加了织带和防弹板。 丨 A synthetic armor vest. This one has added webbing and ballistic plates.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/webvest.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ BaseC1Contraband, ClothingOuterStorageBase, AllowSuitStorageClothing] #web vest so it should have some pockets for ammo # Frontier: ClothingOuterVestWeb < "ClothingOuterStorageBase, AllowSuitStorageClothing"
   id: ClothingOuterVestWebMercenary # Frontier: Merc<Mercenary
-  name: mercenary web vest
-  description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
+  name: 佣兵网眼背心 丨 mercenary web vest
+  description: 一件由硬质合成材料制成的高品质装甲背心。尽管拥有强大的装甲板，却异常柔韧轻便。 丨 A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: [ClothingOuterArmorBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingOuterVestDetective
-  name: detective's vest
-  description: A hard-boiled private investigator's armored vest.
+  name: 侦探的防弹背心 丨 detective's vest
+  description: 一位硬汉派私家侦探的防弹背心。 丨 A hard-boiled private investigator's armored vest.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterVestHazard
-  name: hi-viz vest
-  description: A high-visibility vest used in work zones.
+  name: 高可见性背心 丨 hi-viz vest
+  description: 工作区使用的高可见性背心。 丨 A high-visibility vest used in work zones.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/hazard.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVest
-  name: vest
-  description: A thick vest with a rubbery, water-resistant shell.
+  name: 背心 丨 vest
+  description: 一件带有橡胶质感防水外壳的厚背心。 丨 A thick vest with a rubbery, water-resistant shell.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: [ClothingOuterBase, AllowSuitStorageClothingGasTanks]
   id: ClothingOuterVestTank
-  name: tank harness
-  description: A simple harness that can hold a gas tank.
+  name: 油箱固定带 丨 tank harness
+  description: 一种可固定气罐的简易背带。 丨 A simple harness that can hold a gas tank.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/tankharness.rsi

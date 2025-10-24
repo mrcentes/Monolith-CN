@@ -1,8 +1,8 @@
 - type: entity
-  name: basic lighter
+  name: 基本款打火机 丨 basic lighter
   parent: [BaseItem, RecyclableItemDeviceTiny] # Frontier: added ligters
   id: Lighter
-  description: "A simple plastic cigarette lighter."
+  description: 一个简单的塑料打火机。 丨 "A simple plastic cigarette lighter."
   components:
   - type: IgnitionSource
     ignited: false
@@ -100,10 +100,10 @@
       collection: lighterOffSounds
 
 - type: entity
-  name: cheap lighter
+  name: 廉价打火机 丨 cheap lighter
   parent: Lighter
   id: CheapLighter
-  description: "A dangerously inexpensive plastic lighter, don't burn your thumb!"
+  description: 一把便宜到危险的塑料打火机，当心别烧了你的拇指！ 丨 "A dangerously inexpensive plastic lighter, don't burn your thumb!"
   components:
   - type: Sprite
     sprite: Objects/Tools/lighters.rsi
@@ -129,10 +129,10 @@
         maxVol: 4 #uses less fuel than a welder, so this isnt as bad as it looks
 
 - type: entity
-  name: flippo lighter
+  name: 翻盖打火机 丨 flippo lighter
   parent: BaseItem
   id: FlippoLighter
-  description: "A rugged metal lighter, lasts quite a while."
+  description: 一款坚固耐用的金属打火机，续航持久。 丨 "A rugged metal lighter, lasts quite a while."
   components:
   - type: Sprite
     sprite: Objects/Tools/lighters.rsi
@@ -223,10 +223,10 @@
   - type: Engraveable # Frontier
 
 - type: entity
-  name: flippo engraved lighter
+  name: 雕花打火机 丨 flippo engraved lighter
   parent: FlippoLighter
   id: FlippoEngravedLighter
-  description: "A rugged golden lighter, lasts quite a while. Engravings serve no tactical advantage whatsoever."
+  description: 一款坚固的金色打火机，颇为耐用。刻字没有任何战术优势。 丨 "A rugged golden lighter, lasts quite a while. Engravings serve no tactical advantage whatsoever."
   components:
   - type: Sprite
     sprite: Objects/Tools/lighters.rsi

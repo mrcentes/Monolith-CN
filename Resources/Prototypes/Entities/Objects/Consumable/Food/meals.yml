@@ -8,7 +8,7 @@
   parent: FoodInjectableBase
   id: FoodMealBase
   abstract: true
-  description: A delicious meal, cooked with love.
+  description: 一餐用爱烹饪的美味佳肴。 丨 A delicious meal, cooked with love.
   components:
   - type: Item
     storedRotation: -90
@@ -27,10 +27,10 @@
 # Meals
 
 - type: entity
-  name: loaded baked potato
+  name: 满载烤土豆 丨 loaded baked potato
   parent: FoodMealBase
   id: FoodMealPotatoLoaded
-  description: Totally baked.
+  description: 完全烤好了。 丨 Totally baked.
   components:
   - type: FlavorProfile
     flavors:
@@ -41,10 +41,10 @@
 # Tastes like potato.
 
 - type: entity
-  name: space fries
+  name: 太空薯条 丨 space fries
   parent: FoodMealBase
   id: FoodMealFries
-  description: AKA, French Fries, Freedom Fries, etc.
+  description: 亦称，法式炸薯条、自由薯条等。 丨 AKA, French Fries, Freedom Fries, etc.
   components:
   - type: FlavorProfile
     flavors:
@@ -55,10 +55,10 @@
 # Tastes like fries, salt.
 
 - type: entity
-  name: cheesy fries
+  name: 芝士薯条 丨 cheesy fries
   parent: FoodMealBase
   id: FoodMealFriesCheesy
-  description: Fries. Covered in cheese. Duh.
+  description: 薯条。淋上芝士。这还用说。 丨 Fries. Covered in cheese. Duh.
   components:
   - type: FlavorProfile
     flavors:
@@ -70,10 +70,10 @@
 # Tastes like fries, cheese.
 
 - type: entity
-  name: carrot fries
+  name: 胡萝卜薯条 丨 carrot fries
   parent: FoodMealBase
   id: FoodMealFriesCarrot
-  description: Tasty fries from fresh carrots.
+  description: 新鲜胡萝卜制成的美味薯条。 丨 Tasty fries from fresh carrots.
   components:
   - type: FlavorProfile
     flavors:
@@ -94,10 +94,10 @@
 # Tastes like carrots, salt.
 
 - type: entity
-  name: nachos
+  name: 墨西哥玉米片 丨 nachos
   parent: FoodMealBase
   id: FoodMealNachos
-  description: Chips from Space Mexico.
+  description: 来自太空墨西哥的薯片。 丨 Chips from Space Mexico.
   components:
   - type: Food
     trash:
@@ -121,10 +121,10 @@
 # Tastes like nachos.
 
 - type: entity
-  name: cheesy nachos
+  name: 芝士玉米片 丨 cheesy nachos
   parent: FoodMealBase
   id: FoodMealNachosCheesy
-  description: The delicious combination of nachos and melting cheese.
+  description: 玉米片与融化的奶酪美味结合。 丨 The delicious combination of nachos and melting cheese.
   components:
   - type: Food
     trash:
@@ -151,10 +151,10 @@
 # Tastes like nachos, cheese.
 
 - type: entity
-  name: Cuban nachos
+  name: 古巴玉米片 丨 Cuban nachos
   parent: FoodMealBase
   id: FoodMealNachosCuban
-  description: That's some dangerously spicy nachos.
+  description: 这墨西哥玉米片可真够辣的。 丨 That's some dangerously spicy nachos.
   components:
   - type: Food
     trash:
@@ -182,10 +182,10 @@
 # Tastes like nachos, hot pepper.
 
 - type: entity
-  name: mint
+  name: 薄荷 丨 mint
   parent: FoodMealBase
   id: FoodMealMint
-  description: It's wafer thin.
+  description: 它薄如威化。 丨 It's wafer thin.
   components:
   - type: FlavorProfile
     flavors:
@@ -203,10 +203,10 @@
 # Tastes like parsnips, salt.
 
 - type: entity
-  name: eggplant parmigiana
+  name: 帕尔马干酪茄子 丨 eggplant parmigiana
   parent: FoodMealBase
   id: FoodMealEggplantParm
-  description: The only good recipe for eggplant.
+  description: 茄子帕尔玛的唯一好配方。 丨 The only good recipe for eggplant.
   components:
   - type: FlavorProfile
     flavors:
@@ -231,10 +231,10 @@
 # Tastes like eggplant, cheese.
 
 - type: entity
-  name: yaki imo
+  name: 烤红薯 丨 yaki imo
   parent: FoodMealBase
   id: FoodMealPotatoYaki
-  description: Made with roasted sweet potatoes!
+  description: 采用烤红薯制成！ 丨 Made with roasted sweet potatoes!
   components:
   - type: FlavorProfile
     flavors:
@@ -245,10 +245,10 @@
 # Tastes like sweet potato.
 
 - type: entity
-  name: Cuban carp
+  name: 古巴鲤鱼 丨 Cuban carp
   parent: FoodMealBase
   id: FoodMealCubancarp
-  description: A grifftastic sandwich that burns your tongue and then leaves it numb!
+  description: 一款辣得让人舌头先发烫后发麻的三明治！ 丨 A grifftastic sandwich that burns your tongue and then leaves it numb!
   components:
   - type: FlavorProfile
     flavors:
@@ -275,10 +275,10 @@
 # Tastes like fish, batter, hot peppers.
 
 - type: entity
-  name: corned beef and cabbage
+  name: 咸牛肉配卷心菜 丨 corned beef and cabbage
   parent: FoodMealBase
   id: FoodMealCornedbeef
-  description: Now you can feel like a real tourist vacationing in Ireland.
+  description: 现在你可以感觉自己像个真正的游客，在爱尔兰度假一样。 丨 Now you can feel like a real tourist vacationing in Ireland.
   components:
   - type: FlavorProfile
     flavors:
@@ -303,10 +303,10 @@
 # Tastes like meat, cabbage.
 
 - type: entity
-  name: filet migrawr
+  name: 菲力牛排嗷 丨 filet migrawr
   parent: FoodMealBase
   id: FoodMealBearsteak
-  description: Because eating bear wasn't manly enough.
+  description: 因为吃熊肉还不够彰显男子气概。 丨 Because eating bear wasn't manly enough.
   components:
   - type: FlavorProfile
     flavors:
@@ -331,10 +331,10 @@
 # Tastes like meat, salmon.
 
 - type: entity
-  name: pig in a blanket
+  name: 毯子裹猪肠 丨 pig in a blanket
   parent: FoodMealBase
   id: FoodMealPigblanket
-  description: A tiny sausage wrapped in a flakey, buttery roll. Free this pig from its blanket prison by eating it.
+  description: 一条裹在酥脆黄油卷里的小香肠。吃掉它，把这头小猪从毯子监狱里解放出来。 丨 A tiny sausage wrapped in a flakey, buttery roll. Free this pig from its blanket prison by eating it.
   components:
   - type: FlavorProfile
     flavors:
@@ -357,10 +357,10 @@
 # Tastes like meat, butter.
 
 - type: entity
-  name: bbq ribs
+  name: 烧烤肋排 丨 bbq ribs
   parent: FoodMealBase
   id: FoodMealRibs
-  description: BBQ ribs, slathered in a healthy coating of BBQ sauce. The least vegan thing to ever exist.
+  description: 烧烤肋排，涂上了厚厚一层烧烤酱。这是最不符合素食主义的东西了。 丨 BBQ ribs, slathered in a healthy coating of BBQ sauce. The least vegan thing to ever exist.
   components:
   - type: Food
     trash: 
@@ -390,10 +390,10 @@
 # Tastes like meat, smokey sauce.
 
 - type: entity
-  name: eggs benedict
+  name: 班尼迪克蛋 丨 eggs benedict
   parent: FoodMealBase
   id: FoodMealEggsbenedict
-  description: There is only one egg on this, how rude.
+  description: 这上面只有一个鸡蛋，太抠门了。 丨 There is only one egg on this, how rude.
   components:
   - type: FlavorProfile
     flavors:
@@ -419,10 +419,10 @@
 # Tastes like eggs, bacon, bun.
 
 - type: entity
-  name: cheese omelette
+  name: 芝士煎蛋卷 丨 cheese omelette
   parent: FoodMealBase
   id: FoodMealOmelette
-  description: Cheesy.
+  description: 奶酪味。 丨 Cheesy.
   components:
   - type: FlavorProfile
     flavors:
@@ -445,10 +445,10 @@
 # Tastes like egg, cheese.
 
 - type: entity
-  name: fried egg
+  name: 煎蛋 丨 fried egg
   parent: FoodMealBase
   id: FoodMealFriedegg
-  description: A fried egg, with a touch of salt and pepper.
+  description: 一个煎蛋，撒上少许盐和胡椒。 丨 A fried egg, with a touch of salt and pepper.
   components:
   - type: FlavorProfile
     flavors:
@@ -474,10 +474,10 @@
 # Tastes like egg, salt, pepper.
 
 - type: entity
-  name: milk ape
+  name: 奶猿 丨 milk ape
   parent: FoodMealBase
   id: FoodMealMilkape
-  description: The king of Jungle Thick.
+  description: 丛林之王厚奶猿。 丨 The king of Jungle Thick.
   components:
   - type: FlavorProfile
     flavors:
@@ -488,10 +488,10 @@
 # Tastes like milk, chocolate, the jungle.
 
 - type: entity
-  name: memory leek
+  name: 内存泄漏 丨 memory leek
   parent: FoodMealBase
   id: FoodMealMemoryleek
-  description: This should refresh your memory.
+  description: 这应该能让你想起来。 丨 This should refresh your memory.
   components:
   - type: FlavorProfile
     flavors:
@@ -510,10 +510,10 @@
 # Tastes like pain.
 
 - type: entity
-  name: salty sweet miso cola soup
+  name: 咸甜味噌可乐汤 丨 salty sweet miso cola soup
   parent: FoodMealBase
   id: DisgustingSweptSoup
-  description: Jesus christ.
+  description: 天啊。 丨 Jesus christ.
   components:
   - type: Sprite
     state: saltysweet
@@ -533,10 +533,10 @@
 # Tastes awesome.
 
 - type: entity
-  name: queso
+  name: 奶酪酱 丨 queso
   parent: FoodMealBase
   id: FoodMealQueso
-  description: A classic dipping sauce that you can't go wrong with.
+  description: 一款绝不会出错的经典蘸酱。 丨 A classic dipping sauce that you can't go wrong with.
   components:
     - type: FlavorProfile
       flavors:
@@ -546,10 +546,10 @@
 # Its queso! Everyone loves queso... Right?.
 
 - type: entity
-  name: sashimi
+  name: 生鱼片 丨 sashimi
   parent: FoodMealBase
   id: FoodMealSashimi
-  description: Its taste can only be described as "Exotic". The poisoning though? That's pretty common.
+  description: 它的味道只能用"异域风情"来形容。不过中毒嘛？倒是挺常见的。 丨 Its taste can only be described as "Exotic". The poisoning though? That's pretty common.
   components:
   - type: FlavorProfile
     flavors:
@@ -571,10 +571,10 @@
 # tastes exotic
 
 - type: entity
-  name: enchiladas
+  name: 墨西哥卷饼 丨 enchiladas
   parent: FoodMealBase
   id: FoodMealEnchiladas
-  description: Viva La Mexico!
+  description: 墨西哥万岁！ 丨 Viva La Mexico!
   components:
     - type: FlavorProfile
       flavors:
@@ -598,10 +598,10 @@
 # What do Europeans eat instead of enchiladas? 25.4 millimeter-iladas.
 
 - type: entity
-  name: melon fruit bowl
+  name: 蜜瓜果碗 丨 melon fruit bowl
   parent: FoodMealBase
   id: FoodSaladWatermelonFruitBowl
-  description: The only salad where you can eat the bowl.
+  description: 唯一一款连碗都能吃的沙拉。 丨 The only salad where you can eat the bowl.
   components:
   - type: FlavorProfile
     flavors:
@@ -629,10 +629,10 @@
     - Fruit
 
 - type: entity
-  name: corn in butter
+  name: 黄油玉米 丨 corn in butter
   parent: FoodMealBase
   id: FoodMealCornInButter
-  description: Buttery.
+  description: 黄油味。 丨 Buttery.
   components:
   - type: Food
     trash: 

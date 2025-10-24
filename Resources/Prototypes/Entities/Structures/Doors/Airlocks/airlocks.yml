@@ -156,7 +156,7 @@
 - type: entity
   parent: Airlock
   id: AirlockMaint
-  name: maintenance access
+  name: 维护通道 丨 maintenance access
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: Airlock
   id: AirlockHatch
-  name: airtight hatch
+  name: 密封舱门 丨 airtight hatch
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/hatch.rsi
@@ -198,7 +198,7 @@
 - type: entity
   parent: Airlock
   id: AirlockHatchMaintenance
-  name: maintenance hatch
+  name: 检修口 丨 maintenance hatch
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/hatch_maint.rsi

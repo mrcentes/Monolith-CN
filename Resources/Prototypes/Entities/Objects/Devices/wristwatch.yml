@@ -1,8 +1,8 @@
 - type: entity
   id: Wristwatch
   parent: BaseItem
-  name: wristwatch
-  description: A cheap watch for telling time. It rattles when you shake it. # Frontier: edited description.
+  name: 手表 丨 wristwatch
+  description: 一块用于看时间的廉价手表。摇晃时会发出咔嗒声。# 前沿：编辑过的描述。 丨 A cheap watch for telling time. It rattles when you shake it. # Frontier: edited description.
   components:
   - type: Sprite
     sprite: Objects/Devices/wristwatch.rsi
@@ -42,8 +42,8 @@
 - type: entity
   id: WristwatchGold
   parent: Wristwatch
-  name: gold watch
-  description: A fancy watch worth more than your kidney. It's heavy, so it must be real gold, right? # Frontier: edited description
+  name: 金表 丨 gold watch
+  description: 一块比你的肾还值钱的华丽手表。沉甸甸的，肯定是真金吧？#前沿：编辑描述 丨 A fancy watch worth more than your kidney. It's heavy, so it must be real gold, right? # Frontier: edited description
   components:
   - type: Sprite
     sprite: Objects/Devices/goldwatch.rsi

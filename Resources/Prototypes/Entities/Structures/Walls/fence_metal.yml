@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructure
   id: BaseFenceMetal
-  name: chain link fence
-  description: A metal piece of fencing cordoning off something likely very important.
+  name: 链环围栏 丨 chain link fence
+  description: 一段金属栅栏围住了某个可能极为重要的东西。 丨 A metal piece of fencing cordoning off something likely very important.
   abstract: true
   components:
   - type: MeleeSound
@@ -83,8 +83,8 @@
 - type: entity
   parent: BaseFenceMetal
   id: FenceMetalBroken
-  name: broken chain link fence
-  description: Someone got real mad at an inanimate object.
+  name: 破损的链节围栏 丨 broken chain link fence
+  description: 有人对一件无生命的物件大发雷霆。 丨 Someone got real mad at an inanimate object.
   components:
   - type: Sprite
     layers:
@@ -283,8 +283,8 @@
 - type: entity
   parent: BaseFenceMetal
   id: FenceMetalGate
-  name: chain link fence gate
-  description: You could use the door instead of vaulting over--if you're a COWARD, that is.
+  name: 链栅门 丨 chain link fence gate
+  description: 你可以走门，而不是翻过去——当然，前提是你是个胆小鬼。 丨 You could use the door instead of vaulting over--if you're a COWARD, that is.
   components:
   - type: Sprite
     layers:

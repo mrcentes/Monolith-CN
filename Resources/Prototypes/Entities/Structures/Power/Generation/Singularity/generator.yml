@@ -1,7 +1,7 @@
 - type: entity
   id: SingularityGenerator
-  name: gravitational singularity generator
-  description: An Odd Device which produces a Gravitational Singularity when set up. Comes with a temporary shutdown containment failsafe.
+  name: 引力奇点发生器 丨 gravitational singularity generator
+  description: 一台奇特装置，摆放后能产生引力奇点。附带临时关闭安全防护机制。 丨 An Odd Device which produces a Gravitational Singularity when set up. Comes with a temporary shutdown containment failsafe.
   placement:
     mode: SnapgridCenter
   components:

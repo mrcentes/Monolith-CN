@@ -73,10 +73,10 @@
 #1D2L3U4R
 
 - type: entity
-  name: Ian
+  name: 伊恩 丨 Ian
   parent: MobCorgi
   id: MobCorgiIan
-  description: Favorite pet corgi.
+  description: 最喜欢的宠物柯基犬。 丨 Favorite pet corgi.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -115,10 +115,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Old Ian
+  name: 老伊恩 丨 Old Ian
   parent: MobCorgiIan
   id: MobCorgiIanOld
-  description: Still the favorite pet corgi. Love his wheels.
+  description: 依然是最爱的柯基宠物。喜欢他的小轮子。 丨 Still the favorite pet corgi. Love his wheels.
   components:
   - type: Sprite
     layers:
@@ -140,10 +140,10 @@
     - id: MaterialHideCorgi
 
 - type: entity
-  name: Lisa
+  name: 莉莎 丨 Lisa
   parent: MobCorgiIan
   id: MobCorgiLisa
-  description: Ian's favorite corgi.
+  description: 伊恩最喜欢的柯基犬。 丨 Ian's favorite corgi.
   components:
   - type: Sprite
     layers:
@@ -163,10 +163,10 @@
       gender: female
 
 - type: entity
-  name: real mouse
+  name: 真老鼠 丨 real mouse
   parent: MobCorgiIan
   id: MobCorgiMouse
-  description: It's 100% a real hungry mouse.
+  description: 这绝对是只真的饿坏了的老鼠。 丨 It's 100% a real hungry mouse.
   components:
   - type: Sprite
     layers:
@@ -186,10 +186,10 @@
       gender: female
 
 - type: entity
-  name: Puppy Ian
+  name: 小狗伊恩 丨 Puppy Ian
   parent: MobCorgiPuppy
   id: MobCorgiIanPup
-  description: Favourite puppy corgi. Awww.
+  description: 最喜欢的小狗柯基。哇哦。 丨 Favourite puppy corgi. Awww.
   components:
   - type: Grammar
     attributes:
@@ -210,10 +210,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Runtime
+  name: 运行时间 丨 Runtime
   parent: MobCat
   id: MobCatRuntime
-  description: Professional mouse hunter. Escape artist.
+  description: 专业捕鼠高手。逃脱艺术家。 丨 Professional mouse hunter. Escape artist.
   components:
   - type: NpcFactionMember
     factions:
@@ -240,10 +240,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Exception
+  name: 例外 丨 Exception
   id: MobCatException
   parent: MobCatCalico
-  description: Ask nicely, and maybe they'll give you one of their spare lives.
+  description: 好好说，也许他们会把自己的备用生命分你一条。 丨 Ask nicely, and maybe they'll give you one of their spare lives.
   components:
   - type: NpcFactionMember
     factions:
@@ -267,10 +267,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Floppa
+  name: 弗洛帕 丨 Floppa
   id: MobCatFloppa
   parent: MobCatCaracal
-  description: He out here.
+  description: 他在这儿。 丨 He out here.
   components:
   - type: NpcFactionMember
     factions:
@@ -303,10 +303,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Bandito
+  name: 土匪 丨 Bandito
   parent: MobFerret
   id: MobBandito
-  description: Just a silly little guy!
+  description: 只是个傻乎乎的小家伙！ 丨 Just a silly little guy!
   components:
   - type: Grammar
     attributes:
@@ -324,10 +324,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Bingus
+  name: 宾格斯 丨 Bingus
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobBingus
-  description: Bingus my beloved...
+  description: 我心爱的宾古斯…… 丨 Bingus my beloved...
   components:
   - type: NpcFactionMember
     factions:
@@ -390,10 +390,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: McGriff
+  name: 麦格里夫 丨 McGriff
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobMcGriff
-  description: This dog can tell something smells around here, and that something is CRIME!
+  description: 这只狗能察觉到附近有不对劲的气味，而那不对劲的东西就是犯罪！ 丨 This dog can tell something smells around here, and that something is CRIME!
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -456,10 +456,10 @@
     stealGroup: AnimalMcGriff
 
 - type: entity
-  name: Paperwork
+  name: 文件工作 丨 Paperwork
   parent: MobSloth
   id: MobPaperwork
-  description: Took up a new job sorting books in the library after he got transferred from Space Station 13. He seems to be just as slow at this.
+  description: 他从13号空间站调任后，在图书馆找了份整理书籍的新工作。不过看起来他干这活也一样慢吞吞的。 丨 Took up a new job sorting books in the library after he got transferred from Space Station 13. He seems to be just as slow at this.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -496,10 +496,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Walter
+  name: 沃尔特 丨 Walter
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobWalter
-  description: He likes chems and treats. Walter.
+  description: 他喜欢化学品和零食。沃尔特。 丨 He likes chems and treats. Walter.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -562,10 +562,10 @@
     speechSounds: Dog
 
 - type: entity
-  name: Morty
+  name: 莫蒂 丨 Morty
   parent: MobPossum
   id: MobPossumMorty
-  description: The station's resident Didelphis virginiana. A sensitive but resilient kind of guy.
+  description: 车站的常住居民——弗吉尼亚负鼠。一个敏感却又坚韧的家伙。 丨 The station's resident Didelphis virginiana. A sensitive but resilient kind of guy.
   components:
   - type: InteractionPopup
     successChance: 1.0 # Hey, c'mon, this is Morty we're talking about here.
@@ -592,7 +592,7 @@
     - TauCetiBasic
 
 - type: entity
-  name: Morty
+  name: 莫蒂 丨 Morty
   parent: MobPossumMorty
   id: MobPossumMortyOld
   suffix: Old sprite
@@ -611,10 +611,10 @@
         Base: possum_dead_old
 
 - type: entity
-  name: Poppy # the Safety Possum
+  name: 波比 # 安全负鼠 丨 Poppy # the Safety Possum
   parent: MobPossumMorty
   id: MobPossumPoppy
-  description: It's an opossum, a small scavenging marsupial. It's wearing appropriate personal protective equipment.
+  description: 这是一只负鼠，一种小型食腐有袋动物。它佩戴着合适的个人防护装备。 丨 It's an opossum, a small scavenging marsupial. It's wearing appropriate personal protective equipment.
   components:
   - type: Grammar
     attributes:
@@ -634,10 +634,10 @@
         Base: poppy_dead
 
 - type: entity
-  name: Morticia
+  name: 莫蒂西亚 丨 Morticia
   parent: MobRaccoon
   id: MobRaccoonMorticia
-  description: A powerful creature of the night. Her eyeshadow is always on point.
+  description: 夜之力的强大生灵，她的眼影永远精致无瑕。 丨 A powerful creature of the night. Her eyeshadow is always on point.
   components:
   - type: InteractionPopup
     successChance: 0.7
@@ -662,10 +662,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Alexander
+  name: 亚历山大 丨 Alexander
   parent: MobPig
   id: MobAlexander
-  description: Chef's finest colleague.
+  description: 主厨最优秀的同事。 丨 Chef's finest colleague.
   components:
   - type: InteractionPopup
     successChance: 1
@@ -690,10 +690,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Renault
+  name: 雷诺 丨 Renault
   parent: MobFox
   id: MobFoxRenault
-  description: The captain's trustworthy fox.
+  description: 船长值得信赖的狐狸。 丨 The captain's trustworthy fox.
   components:
   - type: InteractionPopup
     successChance: 1
@@ -726,10 +726,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Hamlet
+  name: 哈姆雷特 丨 Hamlet
   parent: MobHamster
   id: MobHamsterHamlet
-  description: A grumpy, cute and fluffy hamster.
+  description: 一只脾气暴躁、可爱又毛茸茸的仓鼠。 丨 A grumpy, cute and fluffy hamster.
   components:
   - type: Sprite
     drawdepth: SmallMobs
@@ -748,8 +748,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: ghost-role-information-hamlet-name
-    description: ghost-role-information-hamlet-description
+    name: 幽灵角色信息哈姆雷特名称 丨 ghost-role-information-hamlet-name
+    description: 幽灵角色信息-哈姆雷特-描述 丨 ghost-role-information-hamlet-description
     rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: InteractionPopup
@@ -785,10 +785,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Shiva
+  name: 湿婆 丨 Shiva
   parent: MobGiantSpider
   id: MobSpiderShiva
-  description: The first defender of the station.
+  description: 空间站的第一位守护者。 丨 The first defender of the station.
   components:
   - type: InteractionPopup
     successChance: 0.5 # spider is mean
@@ -856,10 +856,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Willow
+  name: 柳条 丨 Willow
   parent: MobKangaroo
   id: MobKangarooWillow
-  description: Willow the boxing kangaroo.
+  description: 拳击袋鼠威洛。 丨 Willow the boxing kangaroo.
   components:
   - type: InteractionPopup
     successChance: 0.8
@@ -879,8 +879,8 @@
     - FootstepSound
   - type: GhostRole
     prob: 0.25
-    name: ghost-role-information-willow-name
-    description: ghost-role-information-willow-description
+    name: 柳树 丨 ghost-role-information-willow-name
+    description: 幽灵角色信息-柳树-描述 丨 ghost-role-information-willow-description
     rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: Loadout
@@ -893,10 +893,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Smile
+  name: 微笑 丨 Smile
   id: MobSlimesPet
   parent: [MobAdultSlimes, StripableInventoryBase]
-  description: This masterpiece has gone through thousands of experiments. But it is the sweetest creature in the world. Smile Slime!
+  description: 这件杰作历经了上千次实验，但它是世上最甜美的小生灵。微笑史莱姆！ 丨 This masterpiece has gone through thousands of experiments. But it is the sweetest creature in the world. Smile Slime!
   components:
   - type: Sprite
     layers:
@@ -967,8 +967,8 @@
   - type: MobPrice
     price: 3000 # it is a truly valuable creature
   - type: GhostRole
-    name: ghost-role-information-smile-name
-    description: ghost-role-information-smile-description
+    name: 幽灵角色信息微笑名称 丨 ghost-role-information-smile-name
+    description: 幽灵角色信息微笑描述 丨 ghost-role-information-smile-description
     rules: ghost-role-information-nonantagonist-rules
     raffle: null
   - type: Grammar
@@ -984,10 +984,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Pun Pun
+  name: 潘潘 丨 Pun Pun
   parent: MobMonkey
   id: MobMonkeyPunpun
-  description: A prominent representative of monkeys with unlimited access to alcohol.
+  description: 酗酒无度的猴子中的杰出代表。 丨 A prominent representative of monkeys with unlimited access to alcohol.
   components:
   - type: GhostRole
     prob: 1
@@ -995,8 +995,8 @@
     allowSpeech: true
     allowMovement: true
     prototype: MonkeyPunpun # Frontier
-    name: ghost-role-information-punpun-name
-    description: ghost-role-information-punpun-description
+    name: ghost-role-information-punpun-name 丨 ghost-role-information-punpun-name
+    description: 幽灵角色信息-普恩普恩-描述 丨 ghost-role-information-punpun-description
     rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: Butcherable
@@ -1028,10 +1028,10 @@
     - TauCetiBasic
 
 - type: entity
-  name: Tropico
+  name: 特罗皮科 丨 Tropico
   parent: MobCrab
   id: MobCrabAtmos
-  description: The noble and stalwart defender of Atmosia. Viva!
+  description: Atmosia高贵而坚定的守护者。万岁！ 丨 The noble and stalwart defender of Atmosia. Viva!
   components:
 #  - type: GhostRole
 #    prob: 1

@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseStorageItem, RecyclableItemClothSmall] # Frontier: added RecyclableItemClothSmall
   id: DiceBag
-  name: bag of dice
-  description: Contains all the luck you'll ever need.
+  name: 一袋骰子 丨 bag of dice
+  description: 内含你所需的所有好运。 丨 Contains all the luck you'll ever need.
   components:
   - type: StorageFill
     contents:
@@ -28,7 +28,7 @@
 - type: entity
   parent: DiceBag
   id: MagicDiceBag
-  name: bag of dice
+  name: 一袋骰子 丨 bag of dice
   components:
   - type: Sprite
     sprite: Objects/Fun/dice.rsi

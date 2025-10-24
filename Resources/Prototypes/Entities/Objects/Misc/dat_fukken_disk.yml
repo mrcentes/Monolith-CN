@@ -1,8 +1,8 @@
 - type: entity
-  name: nuclear authentication disk
+  name: 核认证盘 丨 nuclear authentication disk
   parent: [BaseItem, BaseC2ContrabandUnredeemable] # Frontier: BaseGrandTheftContraband<BaseC2ContrabandUnredeemable
   id: NukeDisk
-  description: A nuclear auth disk, capable of arming a nuke if used along with a code. Note from nanotrasen reads "THIS IS YOUR MOST IMPORTANT POSESSION"
+  description: 核认证盘，若与代码配合使用即可为核弹解锁。纳米特拉森的备注写道：“此为你最为重要的财产”。 丨 A nuclear auth disk, capable of arming a nuke if used along with a code. Note from nanotrasen reads "THIS IS YOUR MOST IMPORTANT POSESSION"
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -47,11 +47,11 @@
     - BlackMarket # Frontier
 
 - type: entity
-  name: nuclear authentication disk
+  name: 核认证盘 丨 nuclear authentication disk
   parent: [BaseItem, BaseC2ContrabandUnredeemable] # Frontier: BaseGrandTheftContraband<BaseC2ContrabandUnredeemable
   id: NukeDiskFake
   suffix: Fake
-  description: A nuclear auth disk, capable of arming a nuke if used along with a code. Note from nanotrasen reads "THIS IS YOUR MOST IMPORTANT POSESSION"
+  description: 一个核认证盘，若与代码配合使用即可为核弹解锁。纳米传讯的备注写道：“此乃你最为重要的持有物”。 丨 A nuclear auth disk, capable of arming a nuke if used along with a code. Note from nanotrasen reads "THIS IS YOUR MOST IMPORTANT POSESSION"
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup

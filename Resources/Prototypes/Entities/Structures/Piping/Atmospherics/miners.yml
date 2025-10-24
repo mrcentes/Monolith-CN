@@ -21,8 +21,8 @@
 
 - type: entity
   abstract: true
-  name: gas miner
-  description: Gases mined from the gas giant below (above?) flow out through this massive vent.
+  name: 气体采矿船 丨 gas miner
+  description: 从下方（上方？）气态巨行星开采的气体通过这个巨大的排气口涌出。 丨 Gases mined from the gas giant below (above?) flow out through this massive vent.
   id: GasMinerBase
   placement:
     mode: SnapgridCenter
@@ -56,7 +56,7 @@
     - type: RequiresGrid # Mono
 
 - type: entity
-  name: O2 gas miner
+  name: 氧气气体矿工 丨 O2 gas miner
   parent: GasMinerBase
   id: GasMinerOxygen
   suffix: Shuttle, 300kPa
@@ -67,7 +67,7 @@
       spawnGas: Oxygen
 
 - type: entity
-  name: O2 gas miner
+  name: 氧气气体矿工 丨 O2 gas miner
   parent: GasMinerOxygen
   id: GasMinerOxygenStation
   suffix: Station, 1000kPa
@@ -76,7 +76,7 @@
       maxExternalPressure: 1000
 
 - type: entity
-  name: O2 gas miner
+  name: 氧气气体矿工 丨 O2 gas miner
   parent: GasMinerOxygen
   id: GasMinerOxygenStationLarge
   suffix: Large Station, 4500kPa
@@ -85,7 +85,7 @@
       maxExternalPressure: 4500
 
 - type: entity
-  name: N2 gas miner
+  name: 氮气矿工 丨 N2 gas miner
   parent: GasMinerBase
   id: GasMinerNitrogen
   suffix: Shuttle, 300kPa
@@ -94,7 +94,7 @@
       spawnGas: Nitrogen
 
 - type: entity
-  name: N2 gas miner
+  name: 氮气矿工 丨 N2 gas miner
   parent: GasMinerNitrogen
   id: GasMinerNitrogenStation
   suffix: Station, 1000kPa
@@ -103,7 +103,7 @@
       maxExternalPressure: 1000
 
 - type: entity
-  name: N2 gas miner
+  name: 氮气矿工 丨 N2 gas miner
   parent: GasMinerNitrogen
   id: GasMinerNitrogenStationLarge
   suffix: Large Station, 4500kPa
@@ -112,7 +112,7 @@
       maxExternalPressure: 4500
 
 - type: entity
-  name: CO2 gas miner
+  name: 二氧化碳气体开采机 丨 CO2 gas miner
   parent: GasMinerBase
   id: GasMinerCarbonDioxide
   components:
@@ -120,7 +120,7 @@
       spawnGas: CarbonDioxide
 
 - type: entity
-  name: plasma gas miner
+  name: 等离子气化采矿机 丨 plasma gas miner
   parent: GasMinerBase
   id: GasMinerPlasma
   components:
@@ -129,7 +129,7 @@
       maxExternalPressure: 50 # Mono
 
 - type: entity
-  name: tritium gas miner
+  name: 氚气采矿机 丨 tritium gas miner
   parent: GasMinerBase
   id: GasMinerTritium
   components:
@@ -138,7 +138,7 @@
       maxExternalPressure: 50 # Mono
 
 - type: entity
-  name: frezon gas miner
+  name: 氟利昂气体矿工 丨 frezon gas miner
   parent: GasMinerBase
   id: GasMinerFrezon
   components:
@@ -147,7 +147,7 @@
       maxExternalPressure: 50 # Mono
 
 - type: entity
-  name: water vapor gas miner
+  name: 水蒸气气体矿工 丨 water vapor gas miner
   parent: GasMinerBase
   id: GasMinerWaterVapor
   components:
@@ -155,7 +155,7 @@
       spawnGas: WaterVapor
 
 - type: entity
-  name: ammonia gas miner
+  name: 氨气矿工 丨 ammonia gas miner
   parent: GasMinerBase
   id: GasMinerAmmonia
   components:
@@ -163,7 +163,7 @@
       spawnGas: Ammonia
 
 - type: entity
-  name: nitrous oxide gas miner
+  name: 一氧化二氮气体矿工 丨 nitrous oxide gas miner
   parent: GasMinerBase
   id: GasMinerNitrousOxide
   components:

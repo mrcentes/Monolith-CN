@@ -1,7 +1,7 @@
 - type: entity
   id: BoxingBell
-  name: boxing bell
-  description: Ding ding!
+  name: 拳击钟 丨 boxing bell
+  description: 叮叮！ 丨 Ding ding!
   placement:
     mode: SnapgridCenter
     snap:

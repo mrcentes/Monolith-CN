@@ -1,7 +1,7 @@
 - type: entity
-  name: deployable barrier
+  name: 可部署屏障 丨 deployable barrier
   id: DeployableBarrier
-  description: A deployable barrier. Swipe your ID card to lock/unlock it.
+  description: 可部署屏障。刷卡即可锁定或解锁。 丨 A deployable barrier. Swipe your ID card to lock/unlock it.
   parent: BaseStructure
   components:
   - type: Transform

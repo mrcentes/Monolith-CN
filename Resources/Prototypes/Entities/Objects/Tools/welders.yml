@@ -39,10 +39,10 @@
 # SPDX-License-Identifier: MPL-2.0
 
 - type: entity
-  name: welding tool
+  name: 焊接工具 丨 welding tool
   parent: BaseItem
   id: Welder
-  description: "Melts anything as long as it's fueled, don't forget your eye protection!"
+  description: 只要燃料充足，它能熔化一切，别忘了佩戴护目镜！ 丨 "Melts anything as long as it's fueled, don't forget your eye protection!"
   components:
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -174,10 +174,10 @@
     - Welder
 
 - type: entity
-  name: industrial welding tool
+  name: 工业焊接工具 丨 industrial welding tool
   parent: Welder
   id: WelderIndustrial
-  description: "An industrial welder with over double the fuel capacity."
+  description: 一台燃料容量翻倍有余的工业焊接机。 丨 "An industrial welder with over double the fuel capacity."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_industrial.rsi
@@ -195,10 +195,10 @@
     - WelderIndustrial
 
 - type: entity
-  name: advanced industrial welding tool
+  name: 高级工业焊接工具 丨 advanced industrial welding tool
   parent: WelderIndustrial
   id: WelderIndustrialAdvanced
-  description: "An advanced industrial welder with a raised capacity for fuel while also being faster at welding."
+  description: 一款先进的工业焊接工具，其燃料容量提升，焊接速度也更快。 丨 "An advanced industrial welder with a raised capacity for fuel while also being faster at welding."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_industrialadv.rsi
@@ -215,10 +215,10 @@
     speedModifier: 1.5
 
 - type: entity
-  name: experimental welding tool
+  name: 实验性焊接工具 丨 experimental welding tool
   parent: Welder
   id: WelderExperimental
-  description: "An experimental welder producing a plasma-like flame along with a heavily upgraded fuel capacity capable of self-fuel generation while being less harmful to the eyes."
+  description: 一款实验性焊接工具，能产生等离子态火焰，其大幅升级的燃料容量可实现自我燃料生成，同时对眼睛的伤害较小。 丨 "An experimental welder producing a plasma-like flame along with a heavily upgraded fuel capacity capable of self-fuel generation while being less harmful to the eyes."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_experimental.rsi
@@ -250,10 +250,10 @@
     - WelderExperimental
 
 - type: entity
-  name: emergency welding tool
+  name: 紧急焊接工具 丨 emergency welding tool
   parent: Welder
   id: WelderMini
-  description: "A miniature welder used during emergencies."
+  description: 一种在紧急情况下使用的微型焊接工具。 丨 "A miniature welder used during emergencies."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_mini.rsi

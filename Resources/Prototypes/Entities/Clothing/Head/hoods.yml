@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodBioGeneral
-  name: bio hood
+  name: 生物防护头罩 丨 bio hood
   suffix: Generic
-  description: A hood that protects the head and face from biological contaminants.
+  description: 一种保护头部和面部免受生物污染物侵害的头罩。 丨 A hood that protects the head and face from biological contaminants.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/general.rsi
@@ -24,9 +24,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioCmo
-  name: bio hood
+  name: 生物防护罩 丨 bio hood
   suffix: CMO
-  description: An advanced hood for chief medical officers that protects the head and face from biological contaminants.
+  description: 专为首席医疗官设计的先进防护头罩，可保护头部和面部免受生物污染物侵害。 丨 An advanced hood for chief medical officers that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -37,9 +37,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioJanitor
-  name: bio hood
+  name: 生物防护头罩 丨 bio hood
   suffix: Janitor
-  description: A hood that protects the head and face from biological contaminants.
+  description: 一种保护头部和面部免受生物污染物侵害的头罩。 丨 A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -50,9 +50,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioScientist
-  name: bio hood
+  name: 生物防护头罩 丨 bio hood
   suffix: Science
-  description: A hood that protects the head and face from biological contaminants.
+  description: 一种保护头部和面部免受生物污染物侵害的头罩。 丨 A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -63,9 +63,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioSecurity
-  name: bio hood
+  name: 生物防护头罩 丨 bio hood
   suffix: Security
-  description: A hood that protects the head and face from biological contaminants.
+  description: 一种保护头部和面部免受生物污染物侵害的头罩。 丨 A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -76,9 +76,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioVirology
-  name: bio hood
+  name: 生物防护头罩 丨 bio hood
   suffix: Virology
-  description: A hood that protects the head and face from biological contaminants.
+  description: 一种保护头部和面部免受生物污染物侵害的头罩。 丨 A hood that protects the head and face from biological contaminants.
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -90,8 +90,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodChaplainHood
   categories: [ HideSpawnMenu ]
-  name: chaplain's hood
-  description: Maximum piety in this star system.
+  name: 随军教士兜帽 丨 chaplain's hood
+  description: 本星系中的最大虔诚度。 丨 Maximum piety in this star system.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/chaplain.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: [ClothingHeadBase, ContrabandClothing] # Frontier: added ContrabandClothing as parent
   id: ClothingHeadHatHoodCulthood
-  name: cult hood
-  description: There's no cult without cult hoods.
+  name: 邪教兜帽 丨 cult hood
+  description: 没有教派，何来教派兜帽。 丨 There's no cult without cult hoods.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/cult.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodNunHood
-  name: nun hood
-  description: Maximum piety in this star system.
+  name: 修女头巾 丨 nun hood
+  description: 本星系中的最大虔诚度。 丨 Maximum piety in this star system.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/nun.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodRad
-  name: radiation hood
-  description: A hood of the hazmat suit, designed for protection from high radioactivity.
+  name: 辐射防护头罩 丨 radiation hood
+  description: 防辐射服的兜帽，专为防护高强度辐射而设计。 丨 A hood of the hazmat suit, designed for protection from high radioactivity.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/rad.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodGoliathCloak
-  name: goliath cloak hood
-  description: A hood of a goliath cloak, it is made from the hide of resilient fauna from a distant planet.
+  name: 歌利亚斗篷兜帽 丨 goliath cloak hood
+  description: 一件歌利亚斗篷的兜帽，由来自遥远星球的坚韧动物皮毛制成。 丨 A hood of a goliath cloak, it is made from the hide of resilient fauna from a distant planet.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/goliathcloak.rsi
@@ -185,8 +185,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodIan
   categories: [ HideSpawnMenu ]
-  name: ian hood
-  description: A hood to complete the 'Good boy' look.
+  name: 伊恩连帽衫 丨 ian hood
+  description: 一顶兜帽，成就“好男孩”造型。 丨 A hood to complete the 'Good boy' look.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/iansuit.rsi
@@ -200,8 +200,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodCarp
   categories: [ HideSpawnMenu ]
-  name: carp hood
-  description: A gnarly hood adorned with plastic space carp teeth.
+  name: 鲤鱼头罩 丨 carp hood
+  description: 一个装饰着塑料太空鲤鱼牙齿的粗糙引擎盖。 丨 A gnarly hood adorned with plastic space carp teeth.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/carpsuit.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodMoth
-  name: moth mask
-  description: A mask in the form of a moths head is usually made of lightweight materials. It mimics the shape of a moths head with large eyes and long antennae. Such masks are often used in cosplay, or when shooting movies and videos.
+  name: 蛾形面具 丨 moth mask
+  description: 飞蛾头形状的面具通常由轻质材料制成，它模仿飞蛾头部的形态，配有大眼睛和长触角。这类面具常用于角色扮演，或在拍摄电影和视频时使用。 丨 A mask in the form of a moths head is usually made of lightweight materials. It mimics the shape of a moths head with large eyes and long antennae. Such masks are often used in cosplay, or when shooting movies and videos.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/moth.rsi
@@ -254,7 +254,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterDefault
   categories: [ HideSpawnMenu ]
-  name: default winter coat hood
+  name: 默认冬季外套风帽 丨 default winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -265,7 +265,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterBartender
   categories: [ HideSpawnMenu ]
-  name: bartender winter coat hood
+  name: 酒保冬季外套兜帽 丨 bartender winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodbartender.rsi
@@ -276,8 +276,8 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCaptain
   categories: [ HideSpawnMenu ]
-  name: captain's winter coat hood
-  description: An expensive hood, to keep the captain's head warm.
+  name: 船长的冬季外套兜帽 丨 captain's winter coat hood
+  description: 一顶昂贵的兜帽，为船长保暖头部。 丨 An expensive hood, to keep the captain's head warm.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcaptain.rsi
@@ -288,7 +288,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCargo
   categories: [ HideSpawnMenu ]
-  name: cargo winter coat hood
+  name: 货物冬季外套兜帽 丨 cargo winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcargo.rsi
@@ -299,7 +299,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCE
   categories: [ HideSpawnMenu ]
-  name: chief engineer's winter coat hood
+  name: 总工程师的冬季外套兜帽 丨 chief engineer's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodce.rsi
@@ -310,8 +310,8 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCentcom
   categories: [ HideSpawnMenu ]
-  name: CentComm winter coat hood
-  description: A hood for keeping the central comander's head warm.
+  name: 中央司令部冬季外套兜帽 丨 CentComm winter coat hood
+  description: 为中央指挥官头部保暖所设计的兜帽。 丨 A hood for keeping the central comander's head warm.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcentcom.rsi
@@ -322,7 +322,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterChem
   categories: [ HideSpawnMenu ]
-  name: chemist winter coat hood
+  name: 化学家冬季连帽外套 丨 chemist winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodchemist.rsi
@@ -333,7 +333,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCMO
   categories: [ HideSpawnMenu ]
-  name: chief medical officer's winter coat hood
+  name: 首席医务官的冬季外套兜帽 丨 chief medical officer's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodcmo.rsi
@@ -344,7 +344,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterEngineer
   categories: [ HideSpawnMenu ]
-  name: engineer winter coat hood
+  name: 工程师冬季连帽外套 丨 engineer winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodengi.rsi
@@ -355,7 +355,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHOP
   categories: [ HideSpawnMenu ]
-  name: head of personnel's winter coat hood
+  name: 人事部主管的冬季外套兜帽 丨 head of personnel's winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhop.rsi
@@ -366,7 +366,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHOS
   categories: [ HideSpawnMenu ]
-  name: colonel's winter coat hood # Frontier: head of security<sheriff
+  name: 上校的冬季外套兜帽 # 边境：安保主管<警长 丨 colonel's winter coat hood # Frontier: head of security<sheriff
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhos.rsi
@@ -377,7 +377,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterHydro
   categories: [ HideSpawnMenu ]
-  name: hydroponics coat hood
+  name: 水培外套兜帽 丨 hydroponics coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodhydro.rsi
@@ -388,7 +388,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterJani
   categories: [ HideSpawnMenu ]
-  name: janitor coat hood
+  name: 看门人外套兜帽 丨 janitor coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodjani.rsi
@@ -399,7 +399,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMed
   categories: [ HideSpawnMenu ]
-  name: medic coat hood
+  name: 医用外套连帽衫 丨 medic coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodmed.rsi
@@ -410,7 +410,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMime
   categories: [ HideSpawnMenu ]
-  name: mime coat hood
+  name: 哑光涂层连帽 丨 mime coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodmime.rsi
@@ -421,7 +421,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterMiner
   categories: [ HideSpawnMenu ]
-  name: miner coat hood
+  name: 矿工外套兜帽 丨 miner coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodminer.rsi
@@ -432,7 +432,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterPara
   categories: [ HideSpawnMenu ]
-  name: paramedic coat hood
+  name: 护理人员外套兜帽 丨 paramedic coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodpara.rsi
@@ -443,7 +443,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterQM
   categories: [ HideSpawnMenu ]
-  name: quartermaster's coat hood
+  name: 军需官外套兜帽 丨 quartermaster's coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodqm.rsi
@@ -454,7 +454,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterRD
   categories: [ HideSpawnMenu ]
-  name: research director's coat hood
+  name: 研究主管的外套兜帽 丨 research director's coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodrd.rsi
@@ -465,7 +465,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterRobo
   categories: [ HideSpawnMenu ]
-  name: robotics coat hood
+  name: 机器人外套兜帽 丨 robotics coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodrobo.rsi
@@ -476,7 +476,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSci
   categories: [ HideSpawnMenu ]
-  name: scientist coat hood
+  name: 科学家外套兜帽 丨 scientist coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsci.rsi
@@ -487,7 +487,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSec
   categories: [ HideSpawnMenu ]
-  name: security coat hood
+  name: 安全外套兜帽 丨 security coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
@@ -498,7 +498,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSyndie
   categories: [ HideSpawnMenu ]
-  name: syndicate coat hood
+  name: 联合外套兜帽 丨 syndicate coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsyndicate.rsi
@@ -509,7 +509,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterWarden
   categories: [ HideSpawnMenu ]
-  name: warden's coat hood
+  name: 看守外套兜帽 丨 warden's coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi
@@ -520,7 +520,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterWeb
   categories: [ HideSpawnMenu ]
-  name: web coat hood
+  name: 网布外套帽兜 丨 web coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodweb.rsi
@@ -531,7 +531,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorBlack
   categories: [ HideSpawnMenu ]
-  name: black winter coat hood
+  name: 黑色冬季连帽外套 丨 black winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -551,7 +551,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorPurple
   categories: [ HideSpawnMenu ]
-  name: purple winter coat hood
+  name: 紫色冬季外套兜帽 丨 purple winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -571,7 +571,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorRed
   categories: [ HideSpawnMenu ]
-  name: red winter coat hood
+  name: 红色冬季外套兜帽 丨 red winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -591,7 +591,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorBlue
   categories: [ HideSpawnMenu ]
-  name: blue winter coat hood
+  name: 蓝色冬季外套连帽 丨 blue winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -611,7 +611,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorBrown
   categories: [ HideSpawnMenu ]
-  name: brown winter coat hood
+  name: 棕色冬季连帽外套 丨 brown winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -631,7 +631,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorGray
   categories: [ HideSpawnMenu ]
-  name: gray winter coat hood
+  name: 灰色冬季连帽外套 丨 gray winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -651,7 +651,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorGreen
   categories: [ HideSpawnMenu ]
-  name: green winter coat hood
+  name: 绿色冬季外套连帽 丨 green winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -671,7 +671,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorLightBrown
   categories: [ HideSpawnMenu ]
-  name: light brown winter coat hood
+  name: 浅棕色冬季连帽外套 丨 light brown winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -691,7 +691,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorOrange
   categories: [ HideSpawnMenu ]
-  name: orange winter coat hood
+  name: 橙色冬季连帽外套 丨 orange winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -711,7 +711,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorWhite
   categories: [ HideSpawnMenu ]
-  name: white winter coat hood
+  name: 白色冬季外套兜帽 丨 white winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -731,7 +731,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterColorYellow
   categories: [ HideSpawnMenu ]
-  name: yellow winter coat hood
+  name: 黄色冬季外套带兜帽 丨 yellow winter coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
@@ -750,8 +750,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodVoidCloak
-  name: void cloak hood
-  description: The hood of a void cloak. For those who have gone to the dark side of the force.
+  name: 虚空斗篷兜帽 丨 void cloak hood
+  description: 虚空斗篷的兜帽。献给那些投身原力黑暗面之人。 丨 The hood of a void cloak. For those who have gone to the dark side of the force.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/voidcloak.rsi

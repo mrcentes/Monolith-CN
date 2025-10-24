@@ -1,6 +1,6 @@
 - type: entity
-  name: pinpointer
-  description: A handheld tracking device. While typically far more capable, this one has been configured to lock onto certain signals. Keep upright to retain accuracy.
+  name: 定位器 丨 pinpointer
+  description: 一种手持追踪设备。虽然通常功能更为强大，但此设备已被设定为锁定特定信号。请保持直立以确保精度。 丨 A handheld tracking device. While typically far more capable, this one has been configured to lock onto certain signals. Keep upright to retain accuracy.
   parent: [BaseItem, RecyclableItemDeviceSmall] # Frontier: added RecyclableItemDeviceSmall
   id: PinpointerBase
   abstract: true
@@ -40,7 +40,7 @@
   - type: AnimationPlayer
 
 - type: entity
-  name: pinpointer
+  name: 探针 丨 pinpointer
   id: PinpointerNuclear
   parent: [ BaseC2ContrabandUnredeemable, PinpointerBase ] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   components:
@@ -49,8 +49,8 @@
     targetName: nuclear authentication disk
 
 - type: entity
-  name: syndicate pinpointer
-  description: Produced specifically for nuclear operative missions, get that disk!
+  name: 辛迪加定位器 丨 syndicate pinpointer
+  description: 专为核行动特工任务打造，夺取那张磁盘！ 丨 Produced specifically for nuclear operative missions, get that disk!
   id: PinpointerSyndicateNuclear
   parent: [ BaseC3SyndicateContraband, PinpointerBase ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   components:
@@ -69,8 +69,8 @@
     targetName: nuclear authentication disk
 
 - type: entity
-  name: universal pinpointer
-  description: A handheld tracking device that locks onto any physical entity while off. Keep upright to retain accuracy.
+  name: 通用定位器 丨 universal pinpointer
+  description: 一种手持追踪设备，关机状态下可锁定任意实体目标。保持直立状态以确保定位精度。 丨 A handheld tracking device that locks onto any physical entity while off. Keep upright to retain accuracy.
   id: PinpointerUniversal
   parent: PinpointerBase
   components:
@@ -94,8 +94,8 @@
 
 - type: entity
   parent: PinpointerBase
-  name: station pinpointer
-  description: A handheld tracking device that leads to the direction of any nearby station.
+  name: 站点定位器 丨 station pinpointer
+  description: 手持式追踪设备，可指引附近任何车站的方向。 丨 A handheld tracking device that leads to the direction of any nearby station.
   id: PinpointerStation
   suffix: Station
   components:

@@ -37,11 +37,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: bottle
+  name: 瓶子 丨 bottle
   parent: BaseItem
   id: BaseChemistryEmptyBottle
   abstract: true
-  description: A small bottle.
+  description: 一个小瓶子。 丨 A small bottle.
   components:
   - type: Tag
     tags:

@@ -6,7 +6,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorCaptain
-  name: visiting Captain ghost role
+  name: 拜访幽灵船长角色 丨 visiting Captain ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -20,7 +20,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorCE
-  name: visiting CE ghost role
+  name: 访问CE幽灵角色 丨 visiting CE ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -34,7 +34,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorCMO
-  name: visiting CMO ghost role
+  name: 访问首席营销官幽灵角色 丨 visiting CMO ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -48,7 +48,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorHOP
-  name: visiting HOP ghost role
+  name: 拜访HOP幽灵角色 丨 visiting HOP ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -62,7 +62,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorHOS
-  name: visiting HOS ghost role
+  name: 拜访HOS幽灵角色 丨 visiting HOS ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -76,7 +76,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorRD
-  name: visiting RD ghost role
+  name: 拜访RD幽灵角色 丨 visiting RD ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -90,7 +90,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorQM
-  name: visiting QM ghost role
+  name: 访问QM幽灵角色 丨 visiting QM ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -106,7 +106,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorSecurityCadet
-  name: visiting security cadet role
+  name: 访问安全学员角色 丨 visiting security cadet role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -120,7 +120,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorSecurityOfficer
-  name: visiting security officer ghost role
+  name: 访问安全官员幽灵角色 丨 visiting security officer ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -134,7 +134,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorDetective
-  name: visiting detective role
+  name: 访问侦探角色 丨 visiting detective role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -148,7 +148,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorWarden
-  name: visiting warden ghost role
+  name: 探访典狱长幽灵角色 丨 visiting warden ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -164,7 +164,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorCargoTechnician
-  name: visiting cargo technician ghost role
+  name: 访问货物技术员幽灵角色 丨 visiting cargo technician ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -175,7 +175,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorSalvageSpecialist
-  name: visiting salvage specialist ghost role
+  name: 访问打捞专家幽灵角色 丨 visiting salvage specialist ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -188,7 +188,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorAtmosTech
-  name: visiting atmospheric technician ghost role
+  name: 来访大气技术员幽灵角色 丨 visiting atmospheric technician ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -199,7 +199,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorTechnicalAssistant
-  name: visiting technical assistant ghost role
+  name: 访问技术助理幽灵角色 丨 visiting technical assistant ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -210,7 +210,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorEngineer
-  name: visiting engineer ghost role
+  name: 访问工程师幽灵角色 丨 visiting engineer ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -223,7 +223,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMedicalIntern
-  name: visiting medical intern ghost role
+  name: 访问医学生幽灵角色 丨 visiting medical intern ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -234,7 +234,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMedicalDoctor
-  name: visiting medical doctor ghost role
+  name: 出诊医生幽灵角色 丨 visiting medical doctor ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -245,7 +245,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorParamedic
-  name: visiting paramedic ghost role
+  name: 出诊医护幽灵角色 丨 visiting paramedic ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -256,7 +256,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorPsychologist
-  name: visiting psychologist ghost role
+  name: 访问心理学家幽灵角色 丨 visiting psychologist ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -267,7 +267,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorChemist
-  name: visiting chemist ghost role
+  name: 访问化学家幽灵角色 丨 visiting chemist ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -278,7 +278,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorVirologist
-  name: visiting virologist ghost role
+  name: 访问病毒学家幽灵角色 丨 visiting virologist ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -289,7 +289,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorGeneticist
-  name: visiting geneticist ghost role
+  name: 访问遗传学家幽灵角色 丨 visiting geneticist ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -300,7 +300,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorDentist
-  name: visiting dentist ghost role
+  name: 看牙医幽灵角色 丨 visiting dentist ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -313,7 +313,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorResearchAssistant
-  name: visiting research assistant ghost role
+  name: 访问研究助理幽灵角色 丨 visiting research assistant ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -324,7 +324,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorScientist
-  name: visiting scientist ghost role
+  name: 访问科学家幽灵角色 丨 visiting scientist ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -337,7 +337,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorBartender
-  name: visiting bartender ghost role
+  name: 客座调酒师幽灵角色 丨 visiting bartender ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -348,7 +348,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorBotanist
-  name: visiting botanist ghost role
+  name: 访问植物学家幽灵角色 丨 visiting botanist ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -359,7 +359,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorBoxer
-  name: visiting boxer ghost role
+  name: 来访的拳击手幽灵角色 丨 visiting boxer ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -370,7 +370,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorChaplain
-  name: visiting chaplain ghost role
+  name: 探访牧师幽灵角色 丨 visiting chaplain ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -381,7 +381,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorChef
-  name: visiting chef ghost role
+  name: 客座主厨幽灵角色 丨 visiting chef ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -392,7 +392,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorClown
-  name: visiting clown ghost role
+  name: 来访小丑幽灵角色 丨 visiting clown ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -403,7 +403,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorJanitor
-  name: visiting janitor ghost role
+  name: 到访的清洁工幽灵角色 丨 visiting janitor ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -414,7 +414,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorLawyer
-  name: visiting lawyer ghost role
+  name: 访问律师幽灵角色 丨 visiting lawyer ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -425,7 +425,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorLawyerCentcom
-  name: visiting centcom lawyer ghost role
+  name: 访问中央司令部的律师幽灵角色 丨 visiting centcom lawyer ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -436,7 +436,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorLibrarian
-  name: visiting librarian ghost role
+  name: 访问图书馆员幽灵角色 丨 visiting librarian ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -447,7 +447,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMusician
-  name: visiting musician ghost role
+  name: 客座音乐家幽灵角色 丨 visiting musician ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -458,7 +458,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMusicianFancy
-  name: visiting fancy musician ghost role
+  name: 拜访花哨的音乐家幽灵角色 丨 visiting fancy musician ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -469,7 +469,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMusicianRelaxed
-  name: visiting relaxed musician ghost role
+  name: 拜访放松的音乐家幽灵角色 丨 visiting relaxed musician ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -480,7 +480,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMime
-  name: visiting mime ghost role
+  name: 访问哑剧幽灵角色 丨 visiting mime ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -491,7 +491,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorReporter
-  name: visiting reporter ghost role
+  name: 特派记者幽灵角色 丨 visiting reporter ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -502,7 +502,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorServiceWorker
-  name: visiting service worker ghost role
+  name: 访问服务工作者幽灵角色 丨 visiting service worker ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -513,7 +513,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorZookeeper
-  name: visiting zookeeper ghost role
+  name: 访问动物园管理员幽灵角色 丨 visiting zookeeper ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -526,7 +526,7 @@
 
 - type: entity
   id: RandomHumanoidClownTroupeBanana
-  name: banana clown troupe
+  name: 香蕉小丑剧团 丨 banana clown troupe
   parent: RandomHumanoidVisitorClown
   categories: [ HideSpawnMenu ] # Frontier
   components:
@@ -539,7 +539,7 @@
 
 - type: entity
   id: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim Captain ghost role
+  name: 灾民船长幽灵角色 丨 disaster victim Captain ghost role
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   categories: [ HideSpawnMenu ] # Frontier
@@ -556,7 +556,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimCE
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim CE ghost role
+  name: 灾难受害者CE幽灵角色 丨 disaster victim CE ghost role
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   categories: [ HideSpawnMenu ] # Frontier
@@ -570,7 +570,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimCMO
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim CMO ghost role
+  name: 灾难受害者CMO幽灵角色 丨 disaster victim CMO ghost role
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   categories: [ HideSpawnMenu ] # Frontier
@@ -584,7 +584,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimHOP
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim HOP ghost role
+  name: 灾民希望幽灵角色 丨 disaster victim HOP ghost role
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   categories: [ HideSpawnMenu ] # Frontier
@@ -598,7 +598,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimHOS
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim HOS ghost role
+  name: 灾民HOS幽灵角色 丨 disaster victim HOS ghost role
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   categories: [ HideSpawnMenu ] # Frontier
@@ -612,7 +612,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimRD
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim RD ghost role
+  name: 灾民研发鬼魂角色 丨 disaster victim RD ghost role
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   categories: [ HideSpawnMenu ] # Frontier
@@ -626,7 +626,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimQM
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim QM ghost role
+  name: 灾民QM幽灵角色 丨 disaster victim QM ghost role
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   categories: [ HideSpawnMenu ] # Frontier
@@ -644,7 +644,7 @@
 - type: entity
   id: RandomHumanoidChallengeCargoTechnician
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster cargo technician ghost role
+  name: 灾难货物技术员幽灵角色 丨 disaster cargo technician ghost role
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   categories: [ HideSpawnMenu ] # Frontier
@@ -666,7 +666,7 @@
 
 - type: entity
   id: RandomHumanoidSyndieSoldierTeamLeader
-  name: syndicate team leader ghost role
+  name: 辛迪加团队头目幽灵角色 丨 syndicate team leader ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -677,7 +677,7 @@
 
 - type: entity
   id: RandomHumanoidSyndieSoldier
-  name: syndicate soldier ghost role
+  name: 辛迪加士兵幽灵角色 丨 syndicate soldier ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -688,7 +688,7 @@
 
 - type: entity
   id: RandomHumanoidSyndieVisitor
-  name: syndie disaster victim ghost role
+  name: 辛迪灾难受害者幽灵角色 丨 syndie disaster victim ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -699,7 +699,7 @@
 
 - type: entity
   id: RandomHumanoidPirateScooner
-  name: pirate crewman ghost role
+  name: 海盗船员幽灵角色 丨 pirate crewman ghost role
   suffix: scooner
   categories: [ HideSpawnMenu ] # Frontier
   components:
@@ -711,7 +711,7 @@
 
 - type: entity
   id: RandomHumanoidPirateCaptainScooner
-  name: pirate captain ghost role
+  name: 海盗船长幽灵角色 丨 pirate captain ghost role
   suffix: scooner
   categories: [ HideSpawnMenu ] # Frontier
   components:
@@ -725,7 +725,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorBlackmarketeer
-  name: visiting blackmarketeer ghost role
+  name: 探访黑市商人幽灵角色 丨 visiting blackmarketeer ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite
@@ -737,7 +737,7 @@
 
 - type: entity
   id: RandomHumanoidCossack
-  name: cossack ghost role
+  name: 哥萨克幽灵角色 丨 cossack ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite

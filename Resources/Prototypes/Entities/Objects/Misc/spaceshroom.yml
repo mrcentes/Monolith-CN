@@ -1,9 +1,9 @@
 - type: entity
-  name: spaceshroom
+  name: 太空蘑菇 丨 spaceshroom
   parent: BaseStructure
   id: Spaceshroom
   suffix: Structure
-  description: A cluster of wild mushrooms that likes to grow in dark, moist environments.
+  description: 一簇喜欢在阴暗潮湿环境中生长的野生蘑菇。 丨 A cluster of wild mushrooms that likes to grow in dark, moist environments.
   components:
     - type: Sprite
       sprite: Objects/Misc/spaceshroom.rsi
@@ -45,10 +45,10 @@
     maxAmount: 1
 
 - type: entity
-  name: spaceshroom
+  name: 太空菇 丨 spaceshroom
   parent: FoodProduceBase
   id: FoodSpaceshroom
-  description: A wild mushroom. There's no telling what effect it could have...
+  description: 野生蘑菇。无法预料它会带来何种效果…… 丨 A wild mushroom. There's no telling what effect it could have...
   components:
   - type: Produce
   - type: Sprite
@@ -125,10 +125,10 @@
 
 # Cooked Object
 - type: entity
-  name: cooked spaceshroom
+  name: 煮熟的空灵菇 丨 cooked spaceshroom
   parent: FoodProduceBase
   id: FoodSpaceshroomCooked
-  description: A wild mushroom that has been cooked through. It seems the heat has removed its chemical effects.
+  description: 一种经过彻底烹煮的野生蘑菇。高温似乎已消除了它的化学效用。 丨 A wild mushroom that has been cooked through. It seems the heat has removed its chemical effects.
   components:
   - type: FlavorProfile
     flavors:

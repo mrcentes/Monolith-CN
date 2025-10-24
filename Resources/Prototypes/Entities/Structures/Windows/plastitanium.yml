@@ -28,8 +28,8 @@
   id: PlastitaniumWindowBase
   parent: BaseStructure
   abstract: true
-  name: plastitanium window
-  description: Don't smudge up the glass down there.
+  name: 塑料钛窗 丨 plastitanium window
+  description: 别把下面的玻璃弄脏了。 丨 Don't smudge up the glass down there.
   placement:
     mode: SnapgridCenter
     snap:
@@ -75,7 +75,7 @@
 - type: entity
   id: PlastitaniumWindowSquareBase
   abstract: true
-  name: plastitanium window
+  name: 塑料钛窗 丨 plastitanium window
   parent: PlastitaniumWindowBase
   components:
   - type: Sprite
@@ -100,16 +100,16 @@
 
 - type: entity
   id: PlastitaniumWindowIndestructible
-  name: plastitanium window
+  name: 塑料钛窗 丨 plastitanium window
   parent: PlastitaniumWindowSquareBase
   suffix: indestructible
   # Frontier: colored indestructible windows
-  description: Skub knows this window is too hard to destroy.
+  description: Skub知道这扇窗户太难摧毁了。 丨 Skub knows this window is too hard to destroy.
   # End Frontier
 
 - type: entity
   id: PlastitaniumWindow
-  name: plastitanium window
+  name: 塑料钛窗 丨 plastitanium window
   parent: PlastitaniumWindowSquareBase
   components:
   - type: Destructible
@@ -158,7 +158,7 @@
 - type: entity
   id: PlastitaniumWindowDiagonalBase
   abstract: true
-  name: plastitanium window
+  name: 塑料钛窗 丨 plastitanium window
   parent: PlastitaniumWindowBase
   suffix: diagonal
   components:
@@ -198,16 +198,16 @@
 
 - type: entity
   id: PlastitaniumWindowDiagonalIndestructible
-  name: plastitanium window
+  name: 塑料钛窗 丨 plastitanium window
   parent: PlastitaniumWindowDiagonalBase
   suffix: diagonal, indestructible
   # Frontier: colored indestructible windows
-  description: Skub knows this window is too hard to destroy.
+  description: Skub知道这扇窗户太难摧毁了。 丨 Skub knows this window is too hard to destroy.
   # End Frontier
 
 - type: entity
   id: PlastitaniumWindowDiagonal
-  name: plastitanium window
+  name: 塑料钛窗 丨 plastitanium window
   parent: PlastitaniumWindowDiagonalBase
   suffix: diagonal
   components:

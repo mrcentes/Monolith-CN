@@ -1,8 +1,8 @@
 - type: entity
   id: SpectralLocatorUnpowered
   parent: BaseItem
-  name: spectral locator
-  description: Appears to be a modified anomaly locator. Seems very old.
+  name: 光谱定位器 丨 spectral locator
+  description: 似乎是一个经过改造的异常定位器。看起来年代非常久远。 丨 Appears to be a modified anomaly locator. Seems very old.
   suffix: Unpowered
   components:
   - type: Sprite
@@ -55,4 +55,4 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default

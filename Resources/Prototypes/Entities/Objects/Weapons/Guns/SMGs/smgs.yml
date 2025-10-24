@@ -49,10 +49,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: BaseSMG
+  name: 基础冲锋枪 丨 BaseSMG
   parent: BaseItem
   id: BaseWeaponSubMachineGun
-  description: A rooty tooty point and shooty.
+  description: 一把突突突的射击小枪枪。 丨 A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -86,7 +86,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志 丨 Magazine
         startingItem: Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -96,7 +96,7 @@
             - Magazine9x19mmSubMachineGunFMJ
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室 丨 Chamber
         startingItem: Cartridge9x19mmFMJ
         priority: 1
         whitelist:
@@ -128,10 +128,10 @@
   # Goobstation edit end
 
 - type: entity
-  name: MA PDW-58 Atreides (5.7x28mm)
+  name: MA PDW-58 阿特雷德斯（5.7x28mm） 丨 MA PDW-58 Atreides (5.7x28mm)
   parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband] # Frontier: BaseMajorContraband<BaseC3SyndicateContraband
   id: WeaponSubMachineGunAtreides
-  description: Midnight Arms Co. Streamlined SMG that's commonly found use among uprisings and criminals. Uses 5.7x28mm ammo.
+  description: 午夜武器公司制造的流线型冲锋枪，常见于起义组织和犯罪分子手中。使用5.7x28毫米弹药。 丨 Midnight Arms Co. Streamlined SMG that's commonly found use among uprisings and criminals. Uses 5.7x28mm ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -154,7 +154,7 @@
   - type: ItemSlots
     slots:
        gun_magazine:
-          name: Magazine
+          name: 杂志 丨 Magazine
           startingItem: Magazine57x28mmSubMachineGunFMJ
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -164,7 +164,7 @@
               - Magazine57x28mmSubMachineGunFMJ
           whitelistFailPopup: gun-magazine-whitelist-fail
        gun_chamber:
-          name: Chamber
+          name: 腔室 丨 Chamber
           startingItem: Cartridge57x28mmFMJ
           priority: 1
           whitelist:
@@ -172,10 +172,10 @@
               - Cartridge57x28mmFMJ
 
 - type: entity
-  name: CS C-20r submachine gun (9x19mm)
+  name: CS C-20r冲锋枪（9x19毫米口径） 丨 CS C-20r submachine gun (9x19mm)
   parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponSubMachineGunC20r
-  description: A Corporate-Era SMG, once used by Nuclear Operatives, it now finds purchase among The Ashen Republic. Uses 9x19mm ammo.
+  description: 一把企业时代的冲锋枪，曾为核行动特工所用，如今在灰烬共和国中觅得买家。使用9x19mm弹药。 丨 A Corporate-Era SMG, once used by Nuclear Operatives, it now finds purchase among The Ashen Republic. Uses 9x19mm ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -212,10 +212,10 @@
     price: 625
 
 - type: entity
-  name: TCA M-5 Drozd (.45 ACP)
+  name: TCA M-5 德罗兹德 (.45 ACP) 丨 TCA M-5 Drozd (.45 ACP)
   parent: [BaseWeaponSubMachineGun, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: WeaponSubMachineGunDrozd
-  description: An SMG that once found use among NT security forces, now has found itself as one of the most reliable boarding and anti-boarding weapons on the market. Uses .45 ACP ammo.
+  description: 曾供新东京安保部队使用的冲锋枪，如今已成为市场上最可靠的登船及反登船武器之一，使用.45 ACP弹药。 丨 An SMG that once found use among NT security forces, now has found itself as one of the most reliable boarding and anti-boarding weapons on the market. Uses .45 ACP ammo.
   components:
     - type: Item # Mono
       size: Large
@@ -253,7 +253,7 @@
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: Magazine
+          name: 杂志 丨 Magazine
           startingItem: Magazine45_ACPSubMachineGunFMJ
           insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/skm_magin.ogg # Mono
           ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/m16_magout.ogg # Mono
@@ -263,7 +263,7 @@
               - Magazine45_ACPSubMachineGunFMJ
           whitelistFailPopup: gun-magazine-whitelist-fail
         gun_chamber:
-          name: Chamber
+          name: 腔室 丨 Chamber
           startingItem: Cartridge45_ACPFMJ
           priority: 1
           whitelist:
@@ -281,10 +281,10 @@
 
 
 - type: entity
-  name: UI WT550 (4.6x30mm)
+  name: UI WT550冲锋枪（4.6x30mm口径） 丨 UI WT550 (4.6x30mm)
   parent: [ BaseWeaponSubMachineGun, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: WeaponSubMachineGunWt550
-  description: An excellent SMG, produced by a Black Market Arms Company known as Ullman Industries. Uses 4.6x30mm ammo. On the receiver is a label that says 'for authorized use only.'
+  description: 一把优秀的冲锋枪，由名为乌尔曼工业的黑市武器公司生产。使用4.6x30毫米弹药。机匣上贴有“仅限授权使用”的标签。 丨 An excellent SMG, produced by a Black Market Arms Company known as Ullman Industries. Uses 4.6x30mm ammo. On the receiver is a label that says 'for authorized use only.'
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
@@ -322,7 +322,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志 丨 Magazine
         startingItem: Magazine46x30mmSubMachineGunTopMountedFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -332,7 +332,7 @@
             - Magazine46x30mmSubMachineGunTopMountedFMJ
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室 丨 Chamber
         startingItem: Cartridge46x30mmFMJ
         priority: 1
         whitelist:

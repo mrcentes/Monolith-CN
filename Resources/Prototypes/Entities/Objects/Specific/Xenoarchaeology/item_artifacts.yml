@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: BaseXenoArtifactItem
-  name: alien artifact
-  description: A strange handheld alien device.
+  name: 外星器物 丨 alien artifact
+  description: 一个奇怪的手持外星装置。 丨 A strange handheld alien device.
   abstract: true
   components:
   - type: Sprite
@@ -106,8 +106,8 @@
 - type: entity
   id: ArtifactFragment
   parent: BaseItem
-  name: artifact fragment
-  description: A broken piece of an artifact. You could probably repair it if you had more.
+  name: 神器碎片 丨 artifact fragment
+  description: 一件文物的碎片。如果你有更多碎片，或许能将其修复。 丨 A broken piece of an artifact. You could probably repair it if you had more.
   components:
   - type: Sprite
     sprite: Objects/Specific/Xenoarchaeology/artifact_fragments.rsi

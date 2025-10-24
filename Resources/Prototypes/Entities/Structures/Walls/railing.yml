@@ -24,8 +24,8 @@
   parent: BaseStructure
   id: BaseRailing
   abstract: true
-  name: railing
-  description: Basic railing meant to protect idiots like you from falling.
+  name: 栏杆 丨 railing
+  description: 基本栏杆旨在防止像你这样的笨蛋掉下去。 丨 Basic railing meant to protect idiots like you from falling.
   components:
   - type: Sprite
     drawdepth: SmallObjects

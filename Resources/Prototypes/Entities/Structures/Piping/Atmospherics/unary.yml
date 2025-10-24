@@ -23,8 +23,8 @@
 - type: entity
   parent: [GasUnaryBase, AirSensorBase]
   id: GasVentPump
-  name: air vent
-  description: Has a valve and a pump attached to it.
+  name: 排气口 丨 air vent
+  description: 带有一个阀门和一个泵。 丨 Has a valve and a pump attached to it.
   placement:
     mode: SnapgridCenter
   components:
@@ -82,8 +82,8 @@
 - type: entity
   parent: GasUnaryBase
   id: GasPassiveVent
-  name: passive vent
-  description: It's an open vent.
+  name: 被动通风口 丨 passive vent
+  description: 这是一个开放式通风口。 丨 It's an open vent.
   placement:
     mode: SnapgridCenter
   components:
@@ -115,8 +115,8 @@
 - type: entity
   parent: [GasUnaryBase, AirSensorBase]
   id: GasVentScrubber
-  name: air scrubber
-  description: Has a valve and pump attached to it.
+  name: 空气洗涤器 丨 air scrubber
+  description: 带有一个阀门和泵。 丨 Has a valve and pump attached to it.
   placement:
     mode: SnapgridCenter
   components:
@@ -174,8 +174,8 @@
 - type: entity
   parent: GasUnaryBase
   id: GasOutletInjector
-  name: air injector
-  description: Has a valve and pump attached to it.
+  name: 空气喷射器 丨 air injector
+  description: 带有一个阀门和泵与之相连。 丨 Has a valve and pump attached to it.
   placement:
     mode: SnapgridCenter
   components:
@@ -218,7 +218,7 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: BaseGasThermoMachine
-  name: thermomachine
+  name: 热机 丨 thermomachine
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -273,8 +273,8 @@
 - type: entity
   parent: BaseGasThermoMachine
   id: GasThermoMachineFreezer
-  name: freezer
-  description: Cools gas in connected pipes.
+  name: 冷冻机 丨 freezer
+  description: 冷却连接管道中的气体。 丨 Cools gas in connected pipes.
   placement:
     mode: SnapgridCenter
   components:
@@ -318,8 +318,8 @@
 - type: entity
   parent: BaseGasThermoMachine
   id: GasThermoMachineHeater
-  name: heater
-  description: Heats gas in connected pipes.
+  name: 加热器 丨 heater
+  description: 加热连接管道中的气体。 丨 Heats gas in connected pipes.
   placement:
     mode: SnapgridCenter
   components:
@@ -363,8 +363,8 @@
 - type: entity
   parent: GasThermoMachineFreezer
   id: GasThermoMachineHellfireFreezer
-  name: hellfire freezer
-  description: An advanced machine that cools gas in connected pipes. Has the side effect of chilling the surrounding area. Cold as Hell!
+  name: 地狱火冷冻机 丨 hellfire freezer
+  description: 一台先进机器，用于冷却连接管道中的气体。其副作用是会使周围区域变得寒冷。冷得像地狱一般！ 丨 An advanced machine that cools gas in connected pipes. Has the side effect of chilling the surrounding area. Cold as Hell!
   components:
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/hellfirethermomachine.rsi
@@ -378,8 +378,8 @@
 - type: entity
   parent: GasThermoMachineHeater
   id: GasThermoMachineHellfireHeater
-  name: hellfire heater
-  description: An advanced machine that heats gas in connected pipes. Has the side effect of leaking heat into the surrounding area. Hot as Hell!
+  name: 地狱火加热器 丨 hellfire heater
+  description: 一种先进机器，用于加热连接管道中的气体。其副作用是向周围区域散发热量。炽热如地狱！ 丨 An advanced machine that heats gas in connected pipes. Has the side effect of leaking heat into the surrounding area. Hot as Hell!
   components:
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/hellfirethermomachine.rsi
@@ -393,8 +393,8 @@
 - type: entity
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
   id: BaseGasCondenser
-  name: condenser
-  description: Condenses gases into liquids. Now we just need some plumbing.
+  name: 冷凝器 丨 condenser
+  description: 将气体冷凝成液体。现在我们只需要一些管道系统。 丨 Condenses gases into liquids. Now we just need some plumbing.
   placement:
     mode: SnapgridCenter
   components:

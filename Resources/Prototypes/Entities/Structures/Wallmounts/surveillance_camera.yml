@@ -19,8 +19,8 @@
 - type: entity
   abstract: true
   id: SurveillanceCameraBase
-  name: camera
-  description: A surveillance camera. It's watching you. Kinda.
+  name: 摄像头 丨 camera
+  description: 一个监控摄像头。它正看着你呢。算是吧。 丨 A surveillance camera. It's watching you. Kinda.
   components:
   - type: Physics
     bodyType: Static
@@ -120,7 +120,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraConstructed
-  name: camera
+  name: 相机 丨 camera
   suffix: Constructed
   components:
     - type: DeviceNetwork
@@ -140,7 +140,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraEngineering
-  name: camera
+  name: 相机 丨 camera
   suffix: Engineering
   components:
   - type: DeviceNetwork
@@ -153,7 +153,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSecurity
-  name: camera
+  name: 相机 丨 camera
   suffix: Security
   components:
   - type: DeviceNetwork
@@ -166,7 +166,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraScience
-  name: camera
+  name: 相机 丨 camera
   suffix: Science
   components:
   - type: DeviceNetwork
@@ -179,7 +179,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSupply
-  name: camera
+  name: 相机 丨 camera
   suffix: Supply
   components:
   - type: DeviceNetwork
@@ -192,7 +192,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraCommand
-  name: camera
+  name: 相机 丨 camera
   suffix: Command
   components:
   - type: DeviceNetwork
@@ -205,7 +205,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraService
-  name: camera
+  name: 相机 丨 camera
   suffix: Service
   components:
   - type: DeviceNetwork
@@ -218,7 +218,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraMedical
-  name: camera
+  name: 相机 丨 camera
   suffix: Medical
   components:
   - type: DeviceNetwork
@@ -231,7 +231,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraGeneral
-  name: camera
+  name: 相机 丨 camera
   suffix: General
   components:
   - type: DeviceNetwork
@@ -243,8 +243,8 @@
 
 - type: entity
   id: SurveillanceCameraAssembly
-  name: camera
-  description: A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.
+  name: 摄像头 丨 camera
+  description: 一个监控摄像头。看起来暂时不会监视任何人。大概吧。 丨 A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.
   components:
     - type: Clickable
     - type: InteractionOutline
@@ -271,7 +271,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraTSF
-  name: camera
+  name: 相机 丨 camera
   suffix: TSF
   components:
   - type: DeviceNetwork
@@ -284,7 +284,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraRogue
-  name: camera
+  name: 相机 丨 camera
   suffix: Rogue
   components:
   - type: DeviceNetwork
@@ -297,7 +297,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraUSSP
-  name: camera
+  name: 相机 丨 camera
   suffix: USSP
   components:
   - type: DeviceNetwork

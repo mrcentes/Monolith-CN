@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseFlag
   id: BlankFlag
-  name: blank flag
-  description: Some piece of white cloth. Definitely not the flag of France.
+  name: 空白旗帜 丨 blank flag
+  description: 一块白布。绝对不是法国国旗。 丨 Some piece of white cloth. Definitely not the flag of France.
   components:
   - type: Sprite
     state: blank_flag
@@ -30,8 +30,8 @@
 - type: entity
   parent: BaseFlag
   id: NTFlag
-  name: Nanotrasen flag
-  description: Glory to NT! Wait, they really made a flag for a corporation?
+  name: Nanotrasen旗帜 丨 Nanotrasen flag
+  description: 光荣属于NT！等等，他们真的给一家公司做了旗帜？ 丨 Glory to NT! Wait, they really made a flag for a corporation?
   components:
   - type: Sprite
     state: NT_flag
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseFlag
   id: SyndieFlag
-  name: syndicate flag
-  description: Smells bloody. Death to NT!
+  name: 辛迪加旗帜 丨 syndicate flag
+  description: 闻起来有血腥味。NT去死！ 丨 Smells bloody. Death to NT!
   components:
   - type: Sprite
     state: syndie_flag
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseFlag
   id: LGBTQFlag
-  name: LGBTQ flag
-  description: "\"Be gay do crime\" flag."
+  name: LGBTQ旗帜 丨 LGBTQ flag
+  description: 搞基无罪，犯罪有理旗帜。 丨 "\Be gay do crime\" flag.
   components:
   - type: Sprite
     state: lgbtq_flag
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseFlag
   id: PirateFlag
-  name: pirate flag
-  description: Raise the jolly roger, scallywags!
+  name: 海盗旗 丨 pirate flag
+  description: 升起海盗旗，你们这些无赖！ 丨 Raise the jolly roger, scallywags!
   components:
   - type: Sprite
     state: pirate_flag
@@ -66,8 +66,8 @@
 - type: entity
   parent: BaseFlag
   id: UNSAFlag
-  name: UNSA flag
-  description: Flag of the Universal States of America. Yeehaw.
+  name: 美联旗 丨 UNSA flag
+  description: 通用美洲国国旗。耶哈。 丨 Flag of the Universal States of America. Yeehaw.
   components:
   - type: Sprite
     state: UNSA_flag

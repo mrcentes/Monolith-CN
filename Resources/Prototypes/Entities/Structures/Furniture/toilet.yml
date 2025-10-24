@@ -1,8 +1,8 @@
 - type: entity
-  name: toilet
+  name: 抽水马桶 丨 toilet
   id: BaseToilet
   parent: [ DisposalUnitBase, SeatBase ]
-  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
+  description: HT-451型，一款基于扭矩旋转的小型废弃物处理装置。这个看起来异常洁净。 丨 The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   abstract: true
   components:
   - type: Sprite
@@ -69,7 +69,7 @@
   - type: ToolOpenable
     openToolQualityNeeded: Prying
     closeToolQualityNeeded: Prying
-    name: secret-stash-toilet
+    name: 秘密藏匿马桶 丨 secret-stash-toilet
   - type: Drain
     autoDrain: false
   - type: StaticPrice
@@ -108,8 +108,8 @@
           Closed: { state: disposal-closed }
 
 - type: entity
-  name: toilet
-  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
+  name: 抽水马桶 丨 toilet
+  description: HT-451型，一款基于扭矩旋转的小型废弃物处理装置。这个看起来异常洁净。 丨 The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   id: ToiletEmpty
   parent: BaseToilet
   suffix: Empty
@@ -138,8 +138,8 @@
 - type: entity
   id: ToiletGoldenEmpty
   parent: BaseToilet
-  name: golden toilet
-  description: The HT-451G is the gold version of the device. It says on the side that it is made of the purest Mercurian gold and a real leather seat.
+  name: 金色马桶 丨 golden toilet
+  description: HT-451G是该设备的金色版本，侧面标注采用最纯净的水星黄金打造，并配有真皮座椅。 丨 The HT-451G is the gold version of the device. It says on the side that it is made of the purest Mercurian gold and a real leather seat.
   suffix: Empty
   components:
   - type: Sprite

@@ -70,8 +70,8 @@
       Medical: 0.8
 
 - type: entity
-  name: ointment
-  description: Used to treat those nasty burns. Less effective on caustic burns.
+  name: 药膏 丨 ointment
+  description: 用于治疗那些严重的烧伤。对腐蚀性烧伤效果较差。 丨 Used to treat those nasty burns. Less effective on caustic burns.
   parent: BaseHealingItem
   id: Ointment
   suffix: Full
@@ -127,8 +127,8 @@
     count: 10
 
 - type: entity
-  name: regenerative mesh
-  description: Used to treat even the nastiest burns. Also effective against caustic burns.
+  name: 再生网 丨 regenerative mesh
+  description: 用于治疗最严重的烧伤，对腐蚀性烧伤也有效。 丨 Used to treat even the nastiest burns. Also effective against caustic burns.
   parent: BaseHealingItem
   id: RegenerativeMesh
   suffix: Full
@@ -175,8 +175,8 @@
     count: 1
 
 - type: entity
-  name: bruise pack
-  description: A therapeutic gel pack and bandages designed to treat blunt-force trauma.
+  name: 瘀伤包 丨 bruise pack
+  description: 一款用于治疗钝器伤的治疗凝胶包和绷带。 丨 A therapeutic gel pack and bandages designed to treat blunt-force trauma.
   parent: BaseHealingItem
   id: Brutepack
   suffix: Full
@@ -227,8 +227,8 @@
     count: 10
 
 - type: entity
-  name: medicated suture
-  description: A suture soaked in medicine, treats blunt-force trauma effectively and closes wounds.
+  name: 药浸缝合线 丨 medicated suture
+  description: 一种浸泡过药物的缝合线，能有效治疗钝器伤并闭合伤口。 丨 A suture soaked in medicine, treats blunt-force trauma effectively and closes wounds.
   parent: BaseHealingItem
   id: MedicatedSuture
   suffix: Full
@@ -274,8 +274,8 @@
     count: 1
 
 - type: entity
-  name: blood pack
-  description: Contains a groundbreaking universal blood replacement created by Nanotrasen's advanced medical science.
+  name: 血包 丨 blood pack
+  description: 内含由纳诺特拉森先进医学科研所创制的突破性通用血液替代品。 丨 Contains a groundbreaking universal blood replacement created by Nanotrasen's advanced medical science.
   parent: BaseHealingItem
   id: Bloodpack
   suffix: Full
@@ -319,8 +319,8 @@
 - type: entity
   parent: BaseHealingItem
   id: Tourniquet
-  name: tourniquet
-  description: Stops bleeding! Hopefully.
+  name: 止血带 丨 tourniquet
+  description: 止血！但愿吧。 丨 Stops bleeding! Hopefully.
   components:
     - type: Tag
       tags:
@@ -351,8 +351,8 @@
           variation: 0.125
 
 - type: entity
-  name: roll of gauze
-  description: Some sterile gauze to wrap around bloody stumps.
+  name: 纱布卷 丨 roll of gauze
+  description: 一些无菌纱布，用来包裹血淋淋的残肢。 丨 Some sterile gauze to wrap around bloody stumps.
   parent: BaseHealingItem
   id: Gauze
   suffix: Full
@@ -407,8 +407,8 @@
     count: 10
 
 - type: entity
-  name: aloe cream
-  description: A topical cream for burns.
+  name: 芦荟乳膏 丨 aloe cream
+  description: 用于烧伤的局部乳膏。 丨 A topical cream for burns.
   parent: Ointment ##Yes it's a direct reskin
   id: AloeCream
   components:
@@ -422,8 +422,8 @@
 - type: entity
   parent: BaseHealingItem
   id: HealingToolbox
-  name: healing toolbox
-  description: A powerful toolbox imbued with robust energy. It can heal your wounds and fill you with murderous intent.
+  name: 治愈工具箱 丨 healing toolbox
+  description: 一个充满强大能量的治愈工具箱。它能疗愈你的创伤，并让你心中充满杀意。 丨 A powerful toolbox imbued with robust energy. It can heal your wounds and fill you with murderous intent.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -453,7 +453,7 @@
 
 # Pills
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Dexalin 10u
   parent: Pill
   id: PillDexalin
@@ -473,7 +473,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterDexalin
   suffix: Dexalin 10u, 7
@@ -486,7 +486,7 @@
       amount: 7
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Dylovene 10u
   parent: Pill
   id: PillDylovene
@@ -506,7 +506,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterDylovene
   suffix: Dylovene 10u, 5
@@ -519,7 +519,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Hyronalin 10u
   parent: Pill
   id: PillHyronalin
@@ -539,7 +539,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterHyronalin
   suffix: Hyronalin 10u, 5
@@ -552,7 +552,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Potassium iodide 10u
   parent: Pill
   id: PillPotassiumIodide
@@ -572,7 +572,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterPotassiumIodide
   suffix: Potassium iodide 10u, 5
@@ -585,7 +585,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Iron 10u
   parent: Pill
   id: PillIron
@@ -605,7 +605,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Copper 10u
   parent: Pill
   id: PillCopper
@@ -625,7 +625,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterIron
   suffix: Iron 10u, 5
@@ -638,7 +638,7 @@
       amount: 5
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterCopper
   suffix: Copper 10u, 5
@@ -651,7 +651,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Kelotane 10u
   parent: Pill
   id: PillKelotane
@@ -671,7 +671,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterKelotane
   suffix: Kelotane 10u, 5
@@ -684,7 +684,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Dermaline 10u
   parent: Pill
   id: PillDermaline
@@ -704,7 +704,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterDermaline
   suffix: Dermaline 10u, 5
@@ -717,7 +717,7 @@
       amount: 5
 
 - type: entity
-  name: space mirage
+  name: 太空幻象 丨 space mirage
   parent: Pill
   id: PillSpaceDrugs
   components:
@@ -730,7 +730,7 @@
           Quantity: 15
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Tricordrazine 10u
   parent: Pill
   id: PillTricordrazine
@@ -750,7 +750,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterTricordrazine
   suffix: Tricordrazine 10u, 5
@@ -763,7 +763,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Bicaridine 10u
   parent: Pill
   id: PillBicaridine
@@ -783,7 +783,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterBicaridine
   suffix: Bicaridine 10u, 5
@@ -796,7 +796,7 @@
       amount: 5
 
 - type: entity
-  name: pill
+  name: 药丸 丨 pill
   suffix: Charcoal 10u
   parent: Pill
   id: PillCharcoal
@@ -816,7 +816,7 @@
           Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: 药丸罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterCharcoal
   suffix: Charcoal 10u, 3
@@ -829,7 +829,7 @@
       amount: 3
 
 - type: entity
-  name: romerol pill
+  name: 罗梅罗尔药丸 丨 romerol pill
   parent: Pill
   id: PillRomerol
   components:
@@ -842,7 +842,7 @@
           Quantity: 10
 
 - type: entity
-  name: ambuzol pill
+  name: 安布唑尔药片 丨 ambuzol pill
   parent: Pill
   id: PillAmbuzol
   components:
@@ -855,7 +855,7 @@
           Quantity: 10
 
 - type: entity
-  name: ambuzol plus pill
+  name: 安布佐尔加强型药丸 丨 ambuzol plus pill
   parent: Pill
   id: PillAmbuzolPlus
   components:

@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseStructure, StructureWheeled, BaseC3ContrabandUnredeemable ] # Frontier: BaseMajorContraband<BaseC3ContrabandUnredeemable
   id: NuclearBomb
-  name: nuclear fission explosive
-  description: You probably shouldn't stick around to see if this is armed.
+  name: 核裂变爆炸物 丨 nuclear fission explosive
+  description: 你大概不该留在这儿看它是不是上了引信。 丨 You probably shouldn't stick around to see if this is armed.
   components:
   - type: Transform
     anchored: true
@@ -80,7 +80,7 @@
     intensitySlope: 5
     totalIntensity: 5000000
     diskSlot:
-      name: nuke-slot-component-slot-name-disk
+      name: 核弹插槽组件插槽名称磁盘 丨 nuke-slot-component-slot-name-disk
       insertSound:
         path: /Audio/Machines/terminal_insert_disc.ogg
       ejectSound:
@@ -131,9 +131,9 @@
 - type: entity
   parent: StorageTank
   id: NuclearBombKeg
-  name: nuclear fission explosive
+  name: 核裂变爆炸物 丨 nuclear fission explosive
   suffix: keg
-  description: You probably shouldn't stick around to see if this is armed. It has a tap on the side.
+  description: 你最好别在这儿逗留，看它是不是启动了。侧面有个开关。 丨 You probably shouldn't stick around to see if this is armed. It has a tap on the side.
   components:
   - type: Transform
     anchored: false

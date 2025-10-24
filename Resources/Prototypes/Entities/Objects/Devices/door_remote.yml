@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DoorRemoteDefault
-  name: door remote
-  description: A gadget which can open and bolt doors remotely.
+  name: 门远程装置 丨 door remote
+  description: 一种可以远程开关和闩门的装置。 丨 A gadget which can open and bolt doors remotely.
   abstract: true
   components:
   - type: Sprite
@@ -17,7 +17,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: DoorRemoteCommand
-  name: command door remote
+  name: 车门遥控器 丨 command door remote
   components:
   - type: Sprite
     layers:
@@ -33,7 +33,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: DoorRemoteSecurity
-  name: security door remote
+  name: 安全门遥控器 丨 security door remote
   components:
   - type: Sprite
     layers:
@@ -49,7 +49,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: DoorRemoteArmory
-  name: armory door remote
+  name: 军械库门遥控器 丨 armory door remote
   components:
   - type: Sprite
     layers:
@@ -65,7 +65,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: DoorRemoteService
-  name: service door remote
+  name: 服务门遥控器 丨 service door remote
   components:
   - type: Sprite
     layers:
@@ -81,7 +81,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: DoorRemoteResearch
-  name: research door remote
+  name: 研究门遥控 丨 research door remote
   components:
   - type: Sprite
     layers:
@@ -97,7 +97,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: DoorRemoteCargo
-  name: cargo door remote
+  name: 货舱门遥控器 丨 cargo door remote
   components:
   - type: Sprite
     layers:
@@ -113,7 +113,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: DoorRemoteMedical
-  name: medical door remote
+  name: 医用门遥控器 丨 medical door remote
   components:
   - type: Sprite
     layers:
@@ -129,7 +129,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: DoorRemoteEngineering
-  name: engineering door remote
+  name: 工程门遥控器 丨 engineering door remote
   components:
   - type: Sprite
     layers:
@@ -145,7 +145,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: DoorRemoteAll
-  name: super door remote
+  name: 超级门遥控器 丨 super door remote
   suffix: Admeme
   components:
   - type: Sprite

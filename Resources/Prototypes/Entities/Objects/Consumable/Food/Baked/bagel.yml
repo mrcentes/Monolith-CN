@@ -5,7 +5,7 @@
   id: FoodBagelBase
   parent: FoodInjectableBase
   abstract: true
-  description: A delicious bagel.
+  description: 一个美味的百吉饼。 丨 A delicious bagel.
   components:
   - type: FlavorProfile
     flavors:
@@ -23,14 +23,14 @@
 
 - type: entity
   id: FoodBagel
-  name: bagel
+  name: 贝果 丨 bagel
   parent: FoodBagelBase
 
 - type: entity
   id: FoodBagelPoppy
   parent: FoodBagelBase
-  name: poppy seed bagel
-  description: A delicious bagel topped with bicaridine-infused poppy seeds.
+  name: 罂粟籽百吉饼 丨 poppy seed bagel
+  description: 一个美味的百吉饼，上面撒满了注入比卡丁的罂粟籽。 丨 A delicious bagel topped with bicaridine-infused poppy seeds.
   components:
   - type: FlavorProfile
     flavors:
@@ -51,8 +51,8 @@
 - type: entity
   id: FoodBagelCotton
   parent: FoodBagelBase
-  name: cotton bagel
-  description: A delicious bagel made with cotton dough.
+  name: 棉花贝果 丨 cotton bagel
+  description: 一款用棉面团制作的美味贝果。 丨 A delicious bagel made with cotton dough.
   components:
   - type: FlavorProfile
     flavors:

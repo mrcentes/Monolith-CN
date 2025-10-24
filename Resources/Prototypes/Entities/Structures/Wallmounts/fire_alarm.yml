@@ -21,8 +21,8 @@
 
 - type: entity
   id: FireAlarm
-  name: fire alarm
-  description: A fire alarm. Spicy!
+  name: 火警报警器 丨 fire alarm
+  description: 火灾报警器。火辣！ 丨 A fire alarm. Spicy!
   components:
   - type: WallMount
   - type: ApcPowerReceiver
@@ -136,8 +136,8 @@
 
 - type: entity
   id: FireAlarmAssembly
-  name: fire alarm assembly
-  description: A fire alarm assembly. Very mild.
+  name: 火灾报警装置 丨 fire alarm assembly
+  description: 一个火灾报警装置。非常轻微。 丨 A fire alarm assembly. Very mild.
   components:
   - type: WallMount
   - type: Clickable
@@ -167,8 +167,8 @@
 - type: entity
   id: FireAlarmXeno
   parent: FireAlarm
-  name: fire alarm
-  description: An alien fire alarm. Works just the same!
+  name: 火灾报警器 丨 fire alarm
+  description: 一个外星火警报警器。功能完全一样！ 丨 An alien fire alarm. Works just the same!
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi
@@ -184,8 +184,8 @@
 - type: entity
   id: FireAlarmAssemblyXeno
   parent: FireAlarmAssembly
-  name: fire alarm assembly
-  description: An alien fire alarm assembly. Good luck with the wires.
+  name: 火灾报警装置 丨 fire alarm assembly
+  description: 一个外形奇特的火警报警装置。接线部分就祝你好运了。 丨 An alien fire alarm assembly. Good luck with the wires.
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi

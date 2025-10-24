@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, RecyclableItemDeviceSmall] # Frontier: added RecyclableItemDeviceSmall
   id: Holoprojector
-  name: holographic sign projector
-  description: A handy-dandy holographic projector that displays a janitorial sign.
+  name: 全息标志投影仪 丨 holographic sign projector
+  description: 一个方便的全息投影仪，可显示清洁工作标识。 丨 A handy-dandy holographic projector that displays a janitorial sign.
   components:
   - type: Item
     storedRotation: -90
@@ -16,7 +16,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 电源电池槽组件默认槽位名称 丨 power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: Sprite
     sprite: Objects/Devices/Holoprojectors/custodial.rsi
@@ -33,7 +33,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
 
 - type: entity
   parent: Holoprojector
@@ -45,7 +45,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
         startingItem: PowerCellMicroreactor
         disableEject: true
         swap: false
@@ -53,8 +53,8 @@
 - type: entity
   parent: Holoprojector
   id: HolofanProjector
-  name: holofan projector
-  description: Stop suicidal passengers from killing everyone during atmos emergencies.
+  name: 全息风扇投影仪 丨 holofan projector
+  description: 阻止有自杀倾向的乘客在大气紧急状况下危害全机人员。 丨 Stop suicidal passengers from killing everyone during atmos emergencies.
   components:
   - type: HolosignProjector
     signProto: HoloFan
@@ -81,13 +81,13 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
 
 - type: entity
   parent: Holoprojector
   id: HoloprojectorField
-  name: force field projector
-  description: Creates an impassable forcefield that won't let anything through. Close proximity may or may not cause cancer.
+  name: 力场投射器 丨 force field projector
+  description: 生成一道不可穿越的力场屏障，任何物体都无法通过。近距离接触可能诱发癌症，亦可能并无影响。 丨 Creates an impassable forcefield that won't let anything through. Close proximity may or may not cause cancer.
   components:
     - type: HolosignProjector
       signProto: HolosignForcefield
@@ -109,13 +109,13 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
 
 - type: entity
   parent: Holoprojector
   id: HoloprojectorSecurity
-  name: holobarrier projector
-  description: Creates a solid but fragile holographic barrier.
+  name: 全息屏障投影仪 丨 holobarrier projector
+  description: 生成一道坚固但脆弱的全息屏障。 丨 Creates a solid but fragile holographic barrier.
   components:
     - type: HolosignProjector
       signProto: HolosignSecurity
@@ -138,4 +138,4 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default

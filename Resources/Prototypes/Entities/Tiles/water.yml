@@ -11,8 +11,8 @@
 
 - type: entity
   id: FloorWaterEntity
-  name: water
-  description: A real thirst quencher.
+  name: 水 丨 water
+  description: 真正的解渴佳品。 丨 A real thirst quencher.
   placement:
     mode: SnapgridCenter
     snap:
@@ -77,8 +77,8 @@
 
 - type: entity
   id: MonoFloorWaterEntity
-  name: water
-  description: A real thirst quencher.
+  name: 水 丨 water
+  description: 真正的解渴佳品。 丨 A real thirst quencher.
   placement:
     mode: SnapgridCenter
     snap:

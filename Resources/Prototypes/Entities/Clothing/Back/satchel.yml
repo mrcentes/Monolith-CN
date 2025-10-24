@@ -34,8 +34,8 @@
 - type: entity
   parent: NFClothingBackpack # Frontier: ClothingBackpack<NFClothingBackpack
   id: ClothingBackpackSatchel
-  name: satchel
-  description: A trendy looking satchel.
+  name: 挎包 丨 satchel
+  description: 一款外观时尚的挎包。 丨 A trendy looking satchel.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/satchel.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelLeather
-  name: leather satchel
-  description: A trend-setting satchel from a bygone era.
+  name: 皮革挎包 丨 leather satchel
+  description: 一款来自旧时代的潮流引领者挎包。 丨 A trend-setting satchel from a bygone era.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/leather.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelEngineering
-  name: engineering satchel
-  description: A tough satchel with extra pockets.
+  name: 工程挎包 丨 engineering satchel
+  description: 一个带有额外口袋的坚固挎包。 丨 A tough satchel with extra pockets.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/engineering.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelAtmospherics
-  name: atmospherics satchel
-  description: A tough satchel made of fire resistant fibers. Smells like plasma.
+  name: 大气层帆布包 丨 atmospherics satchel
+  description: 一个由耐火纤维制成的结实挎包，散发着等离子体的气味。 丨 A tough satchel made of fire resistant fibers. Smells like plasma.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/atmospherics.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelClown
-  name: clown satchel
-  description: For fast running from security.
+  name: 小丑挎包 丨 clown satchel
+  description: 用于从安保处快速逃跑。 丨 For fast running from security.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/clown.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelMime
-  name: mime satchel
-  description: A satchel designed for the silent and expressive art of miming.
+  name: 默剧挎包 丨 mime satchel
+  description: 一款为无声而富有表现力的哑剧艺术设计的挎包。 丨 A satchel designed for the silent and expressive art of miming.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/mime.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelMedical
-  name: medical satchel
-  description: A sterile satchel used in medical departments.
+  name: 医用无菌包 丨 medical satchel
+  description: 医疗部门使用的无菌挎包。 丨 A sterile satchel used in medical departments.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/medical.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelChemistry
-  name: chemistry satchel
-  description: A sterile satchel with chemist colours.
+  name: 化学挎包 丨 chemistry satchel
+  description: 一个带有化学家色彩的消毒挎包。 丨 A sterile satchel with chemist colours.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/chemistry.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelVirology
-  name: virology satchel
-  description: A satchel made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
+  name: 病毒学挎包 丨 virology satchel
+  description: 这款挎包采用防过敏纤维制成，旨在帮助预防疾病传播。闻起来有猴子气味。 丨 A satchel made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/virology.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelGenetics
-  name: genetics satchel
-  description: A sterile satchel with geneticist colours.
+  name: 遗传学挎包 丨 genetics satchel
+  description: 一个带有遗传学家色彩的消毒挎包。 丨 A sterile satchel with geneticist colours.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/genetics.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelScience
-  name: science satchel
-  description: Useful for holding research materials.
+  name: 科学挎包 丨 science satchel
+  description: 用于存放研究材料。 丨 Useful for holding research materials.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/science.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: [ClothingBackpackSatchel, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
   id: ClothingBackpackSatchelSecurity
-  name: tactical satchel # Mono
-  description: A robust satchel for security related needs.
+  name: 战术挎包 丨 tactical satchel # Mono
+  description: 一款满足安防需求的坚固挎包。 丨 A robust satchel for security related needs.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/security.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: [ClothingBackpackSatchel, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingBackpackSatchelBrigmedic
-  name: brigmedic satchel
-  description: A sterile satchel for medical related needs.
+  name: 布里格梅迪克医疗包 丨 brigmedic satchel
+  description: 一个用于医疗相关需求的无菌挎包。 丨 A sterile satchel for medical related needs.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/brigmedic.rsi
@@ -159,8 +159,8 @@
 - type: entity
   parent: ClothingBackpackSatchel # Frontier: removed BaseCommandContraband
   id: ClothingBackpackSatchelCaptain
-  name: captain's satchel
-  description: An exclusive satchel for TSF officers.
+  name: 队长的挎包 丨 captain's satchel
+  description: TSF军官专属挎包。 丨 An exclusive satchel for TSF officers.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/captain.rsi
@@ -168,8 +168,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelHydroponics
-  name: hydroponics satchel
-  description: A satchel made of all natural fibers.
+  name: 水培挎包 丨 hydroponics satchel
+  description: 一个由全天然纤维制成的挎包。 丨 A satchel made of all natural fibers.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/hydroponics.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelCargo
-  name: cargo satchel
-  description: A robust satchel for stealing cargo's loot.
+  name: 货物挎包 丨 cargo satchel
+  description: 一款用于窃取货物战利品的坚固挎包。 丨 A robust satchel for stealing cargo's loot.
   components:
     - type: Sprite
       sprite: Clothing/Back/Satchels/cargo.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelSalvage
-  name: salvage satchel
-  description: A robust satchel for stashing your loot.
+  name: 抢救挎包 丨 salvage satchel
+  description: 一个用于藏匿战利品的坚固挎包。 丨 A robust satchel for stashing your loot.
   components:
     - type: Sprite
       sprite: Clothing/Back/Satchels/salvage.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelHolding
-  name: satchel of holding
-  description: A satchel that opens into a localized pocket of bluespace.
+  name: 储物袋 丨 satchel of holding
+  description: 一个开口通向局部蓝空口袋的挎包。 丨 A satchel that opens into a localized pocket of bluespace.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Satchels/holding.rsi # Frontier
