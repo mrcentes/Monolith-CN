@@ -553,7 +553,7 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandCybersun600
-  name: 赛博阳光：600周年纪念海报 丨 "Cybersun: 600 Years Commemorative Poster"
+  name: 赛博阳光：600周年纪念海报 丨 "Cybersun 600 Years Commemorative Poster"
   description: 一幅纪念Cybersun工业持续经营600周年的艺术海报。 丨 "An artistic poster commemorating 600 years of continual business for Cybersun Industries."
   components:
     - type: Sprite
@@ -770,7 +770,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyInternals
-  name: 安全须知：佩戴内部呼吸装置 丨 "Safety: Internals"
+  name: 安全须知：佩戴内部呼吸装置 丨 "Safety Internals"
   description: 一张指示观众在罕见无氧或空气有毒环境中佩戴内部呼吸装置的海报。 丨 "A poster instructing the viewer to wear internals in the rare environments where there is no oxygen or the air has been rendered toxic."
   components:
   - type: Sprite
@@ -779,7 +779,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyEyeProtection
-  name: 安全：眼部防护 丨 "Safety: Eye Protection"
+  name: 安全：眼部防护 丨 "Safety Eye Protection"
   description: 一张指示观众在处理化学品、烟雾或强光时佩戴眼部防护装置的海报。 丨 "A poster instructing the viewer to wear eye protection when dealing with chemicals, smoke, or bright lights."
   components:
   - type: Sprite
@@ -788,7 +788,7 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyReport
-  name: 安全：举报 丨 "Safety: Report"
+  name: 安全：举报 丨 "Safety Report"
   description: 一张指示观众向安全部队报告可疑活动的海报。 丨 "A poster instructing the viewer to report suspicious activity to the security force."
   components:
   - type: Sprite
