@@ -8,7 +8,7 @@
   parent: MarkerBase
   id: ScrapProcessorRollTrunk
   categories: [ HideSpawnMenu ]
-  name: scrap processor roll trunk
+  name: '废料处理机滚筒箱 | scrap processor roll trunk'
   components:
   - type: EntityTableSpawner
     offset: 0.0

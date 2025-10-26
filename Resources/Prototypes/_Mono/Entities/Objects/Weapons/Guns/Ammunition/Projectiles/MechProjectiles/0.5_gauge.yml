@@ -1,6 +1,6 @@
 - type: entity
   id: MechPelletShotgun
-  name: pellet (0.5 gauge)
+  name: '颗粒（0.5规格） | pellet (0.5 gauge)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:

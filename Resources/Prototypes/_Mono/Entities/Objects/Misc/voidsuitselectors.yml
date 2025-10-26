@@ -6,8 +6,8 @@
 # RD
 - type: entity
   id: UndeterminedVoidsuitRD
-  name: RD voidsuit selector
-  description: A small remote utilizing bluespace technology to drop in a voidsuit or hardsuit of your choosing.
+  name: '研发部虚空防护服选择器 | RD voidsuit selector'
+  description: '小型远程设备利用蓝空技术可随时调取您选择的防护服或硬质防护服。 | A small remote utilizing bluespace technology to drop in a voidsuit or hardsuit of your choosing.'
   parent: BaseItem
   components:
   - type: Sprite
@@ -28,8 +28,8 @@
 # Captain
 - type: entity
   id: UndeterminedVoidsuitCap
-  name: Captain voidsuit selector
-  description: A small remote utilizing bluespace technology to drop in a voidsuit or hardsuit of your choosing.
+  name: '舰长虚空防护服选择器 | Captain voidsuit selector'
+  description: '小型远程设备，利用蓝空技术传送您选择的虚空防护服或重型防护服。 | A small remote utilizing bluespace technology to drop in a voidsuit or hardsuit of your choosing.'
   parent: BaseItem
   components:
   - type: Sprite

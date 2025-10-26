@@ -6,9 +6,9 @@
 
 - type: entity
   id: ClothingBeltDrakeIndustries
-  name: drake industries webbing
+  name: '德雷克工业织带 | drake industries webbing'
   parent: NFClothingBeltStorageBase
-  description: Much less durable than the leather regular salvage rigs are made of, at least it comes in black. Painted with Drake Industries' colors.
+  description: '远不如常规打捞装备所用皮革耐用，但至少提供了黑色版本。采用德雷克工业配色涂装。 | Much less durable than the leather regular salvage rigs are made of, at least it comes in black. Painted with Drake Industries'' colors.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Belt/diwebbing.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband]
   id: ClothingBeltWebbingsNormalBlack
-  name: black chest rig
-  description: A set of tactical webbing worn by boarding parties.
+  name: '黑色战术胸挂 | black chest rig'
+  description: '登船小组使用的战术织带套装。 | A set of tactical webbing worn by boarding parties.'
   components:
   - type: StaticPrice
     price: 1000
@@ -38,8 +38,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC2ContrabandUnredeemable]
   id: ClothingBeltWebbingsNormalTSFMC
-  name: TSFMC chest rig
-  description: A set of tactical webbing worn by marines.
+  name: '陆战队战术携行具 | TSFMC chest rig'
+  description: '海军陆战队使用的战术织带套装。 | A set of tactical webbing worn by marines.'
   components:
   - type: StaticPrice
     price: 1000
@@ -54,8 +54,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband]
   id: ClothingBeltWebbingsNormalTan
-  name: tan chest rig
-  description: A set of tactical webbing worn by boarding parties.
+  name: '棕褐色胸挂 | tan chest rig'
+  description: '登船小组使用的战术织带套装。 | A set of tactical webbing worn by boarding parties.'
   components:
   - type: StaticPrice
     price: 1000
@@ -70,8 +70,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband]
   id: ClothingBeltWebbingsNormalRangerGreen
-  name: ranger green chest rig
-  description: A set of tactical webbing worn by boarding parties.
+  name: '游骑兵绿色战术胸挂 | ranger green chest rig'
+  description: '登船小组使用的战术织带套装。 | A set of tactical webbing worn by boarding parties.'
   components:
   - type: StaticPrice
     price: 1000
@@ -86,8 +86,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband]
   id: ClothingBeltWebbingsNormalOlive
-  name: olive chest rig
-  description: A set of tactical webbing worn by boarding parties.
+  name: '橄榄色战术胸挂 | olive chest rig'
+  description: '登船小组使用的战术织带套装。 | A set of tactical webbing worn by boarding parties.'
   components:
   - type: StaticPrice
     price: 1000
@@ -104,8 +104,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband]
   id: ClothingBeltWebbingsBigBase
-  name: large chest rig
-  description: A set of tactical webbing worn by boarding parties.
+  name: '大型胸挂 | large chest rig'
+  description: '一套供登船小组使用的战术携行具。 | A set of tactical webbing worn by boarding parties.'
   components:
   - type: StaticPrice
     price: 1500
@@ -125,8 +125,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband]
   id: ClothingBeltWebbingsBigBlack
-  name: black large chest rig
-  description: A set of tactical webbing worn by boarding parties.
+  name: '黑色大型胸挂 | black large chest rig'
+  description: '登船小组使用的战术织带套装。 | A set of tactical webbing worn by boarding parties.'
   components:
   - type: StaticPrice
     price: 1500
@@ -146,8 +146,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC2ContrabandUnredeemable]
   id: ClothingBeltWebbingsBigTSFMC
-  name: TSFMC large chest rig
-  description: A set of tactical webbing worn by marines.
+  name: '战术装具携行系统大型胸挂 | TSFMC large chest rig'
+  description: '海军陆战队使用的战术织带套装。 | A set of tactical webbing worn by marines.'
   components:
   - type: StaticPrice
     price: 1500
@@ -167,8 +167,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband]
   id: ClothingBeltWebbingsBigTan
-  name: tan large chest rig
-  description: A set of tactical webbing worn by boarding parties.
+  name: '棕褐色大型胸挂 | tan large chest rig'
+  description: '登船小组使用的战术织带套装。 | A set of tactical webbing worn by boarding parties.'
   components:
   - type: StaticPrice
     price: 1500
@@ -188,8 +188,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband]
   id: ClothingBeltWebbingsBigRangerGreen
-  name: ranger green large chest rig
-  description: A set of tactical webbing worn by boarding parties.
+  name: '游骑兵绿大型胸挂 | ranger green large chest rig'
+  description: '一套供登船小组使用的战术携行具。 | A set of tactical webbing worn by boarding parties.'
   components:
   - type: StaticPrice
     price: 1500
@@ -209,8 +209,8 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseC1Contraband]
   id: ClothingBeltWebbingsBigOlive
-  name: olive large chest rig
-  description: A set of tactical webbing worn by boarding parties.
+  name: '橄榄色大型胸挂 | olive large chest rig'
+  description: '一套供登船小组使用的战术织带装备。 | A set of tactical webbing worn by boarding parties.'
   components:
   - type: StaticPrice
     price: 1500

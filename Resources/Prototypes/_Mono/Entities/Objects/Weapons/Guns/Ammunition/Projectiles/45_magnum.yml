@@ -31,7 +31,7 @@
 
 - type: entity
   id: Bullet45_magnumFMJ
-  name: bullet (.45 magnum)
+  name: '子弹（点四五马格南） | bullet (.45 magnum)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -43,7 +43,7 @@
 
 - type: entity
   id: Bullet45_magnumPractice
-  name: bullet (.45 magnum practice)
+  name: '子弹（点四五马格南练习弹） | bullet (.45 magnum practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -54,7 +54,7 @@
 
 - type: entity
   id: Bullet45_magnumRubber
-  name: bullet (.45 magnum rubber)
+  name: '子弹（点四五马格南橡胶弹） | bullet (.45 magnum rubber)'
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -68,7 +68,7 @@
 - type: entity
   id: Bullet45_magnumIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (.45 magnum incendiary)
+  name: '子弹（点四五口径马格南燃烧弹） | bullet (.45 magnum incendiary)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -79,7 +79,7 @@
 
 - type: entity
   id: Bullet45_magnumAP
-  name: bullet (.45 magnum armor-piercing)
+  name: '子弹（点四五马格南穿甲弹） | bullet (.45 magnum armor-piercing)'
   parent: BaseBulletAP
   categories: [ HideSpawnMenu ]
   components:
@@ -91,7 +91,7 @@
 
 - type: entity
   id: Bullet45_magnumUranium
-  name: bullet (.45 magnum uranium)
+  name: '子弹（点四五马格南铀弹） | bullet (.45 magnum uranium)'
   parent: BaseBulletUranium
   categories: [ HideSpawnMenu ]
   components:
@@ -107,7 +107,7 @@
 - type: entity
   id: Bullet45_magnumHP
   parent: BaseBullet
-  name: bullet (.45 magnum hollow-point)
+  name: '子弹（点四五马格南空尖弹） | bullet (.45 magnum hollow-point)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -120,7 +120,7 @@
 - type: entity
   id: Bullet45_magnumRIP
   parent: BaseBullet
-  name: bullet (.45 magnum RIP)
+  name: '点四五马格南空尖弹 | bullet (.45 magnum RIP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -134,7 +134,7 @@
 - type: entity
   id: Bullet45_magnumPlasteelAP
   parent: BaseBullet
-  name: bullet (.45 magnum AP)
+  name: '点四五马格南穿甲弹 | bullet (.45 magnum AP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

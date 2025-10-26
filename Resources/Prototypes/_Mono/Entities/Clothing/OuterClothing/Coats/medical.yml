@@ -5,8 +5,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterDavidsJacket
-  name: EMT jacket
-  description: A bright yellow signal jacket, beloved by paramedics of the end of the 21st century.
+  name: '急救夹克 | EMT jacket'
+  description: '一件亮黄色信号夹克，深受21世纪末急救人员的喜爱。 | A bright yellow signal jacket, beloved by paramedics of the end of the 21st century.'
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/david_jacket.rsi

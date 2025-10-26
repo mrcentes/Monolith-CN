@@ -7,8 +7,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesMopp
-  name: MOPP gloves
-  description: High-quality rubber gloves, insulated for better CBRN protection.
+  name: 'MOPP防护手套 | MOPP gloves'
+  description: '高质量橡胶手套，具备绝缘特性以提供更佳CBRN防护。 | High-quality rubber gloves, insulated for better CBRN protection.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Hands/Gloves/mopp.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: [ ClothingHandsGlovesCombat, BaseC1Contraband ] # BaseSecurityEngineeringContraband<BaseC1Contraband
   id: ClothingHandsGlovesTacticalCombatTan
-  name: tan tactical combat gloves
-  description: These tactical gloves are fireproof and shock resistant.
+  name: '棕褐色战术作战手套 | tan tactical combat gloves'
+  description: '这些战术手套具有防火和防震功能。 | These tactical gloves are fireproof and shock resistant.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Hands/Gloves/tactical_combat_any.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: [ ClothingHandsGlovesCombat, BaseC1Contraband ] # BaseSecurityEngineeringContraband<BaseC1Contraband
   id: ClothingHandsGlovesTacticalCombatBlack
-  name: black tactical combat gloves
-  description: These tactical gloves are fireproof and shock resistant.
+  name: '黑色战术作战手套 | black tactical combat gloves'
+  description: '这些战术手套具有防火和抗震功能。 | These tactical gloves are fireproof and shock resistant.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Hands/Gloves/tactical_combat_any.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: [ ClothingHandsGlovesCombat, BaseC1Contraband ] # BaseSecurityEngineeringContraband<BaseC1Contraband
   id: ClothingHandsGlovesTacticalCombatRangerGreen
-  name: ranger green tactical combat gloves
-  description: These tactical gloves are fireproof and shock resistant.
+  name: '游骑兵绿色战术作战手套 | ranger green tactical combat gloves'
+  description: '这些战术手套具有防火和防震功能。 | These tactical gloves are fireproof and shock resistant.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Hands/Gloves/tactical_combat_any.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: [ ClothingHandsGlovesCombat, BaseC1Contraband ] # BaseSecurityEngineeringContraband<BaseC1Contraband
   id: ClothingHandsGlovesTacticalCombatOlive
-  name: olive tactical combat gloves
-  description: These tactical gloves are fireproof and shock resistant.
+  name: '橄榄色战术作战手套 | olive tactical combat gloves'
+  description: '这些战术手套具有防火和抗震功能。 | These tactical gloves are fireproof and shock resistant.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Hands/Gloves/tactical_combat_any.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: [ ClothingHandsGlovesCombat, BaseC1Contraband ] # BaseSecurityEngineeringContraband<BaseC1Contraband
   id: ClothingHandsGlovesTacticalCombatCoyoteBrown
-  name: coyote brown tactical combat gloves
-  description: These tactical gloves are fireproof and shock resistant.
+  name: '土狼棕色战术作战手套 | coyote brown tactical combat gloves'
+  description: '这些战术手套具有防火和防震功能。 | These tactical gloves are fireproof and shock resistant.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Hands/Gloves/tactical_combat_any.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: [ ClothingHandsGlovesCombat, BaseC1Contraband ] # BaseSecurityEngineeringContraband<BaseC1Contraband
   id: ClothingHandsGlovesTacticalCombatWhite
-  name: white tactical combat gloves
-  description: These tactical gloves are fireproof and shock resistant.
+  name: '白色战术作战手套 | white tactical combat gloves'
+  description: '这些战术手套具有防火和抗震功能。 | These tactical gloves are fireproof and shock resistant.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Hands/Gloves/tactical_combat_any.rsi
@@ -183,8 +183,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsConcussiveGauntlets
-  name: concussive gauntlets
-  description: A pair of gauntlets designed for mining usage, delivering shocks to shatter anything in their path. Expensive and powerful
+  name: '震荡护手 | concussive gauntlets'
+  description: '一对为采矿用途设计的护手，通过释放冲击波震碎沿途一切障碍。造价昂贵且威力强大 | A pair of gauntlets designed for mining usage, delivering shocks to shatter anything in their path. Expensive and powerful'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Hands/Gloves/concussive_gauntlets.rsi

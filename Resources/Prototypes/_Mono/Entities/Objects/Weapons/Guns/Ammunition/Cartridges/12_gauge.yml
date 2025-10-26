@@ -37,9 +37,9 @@
 
 - type: entity
   id: BaseShellShotgun12_gauge
-  name: shotgun shell (12 gauge)
+  name: '猎枪弹（12号口径） | shotgun shell (12 gauge)'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: added BaseC1Contraband
-  description: Standard shotgun round practically everywhere.
+  description: '标准霰弹枪弹几乎随处可见。 | Standard shotgun round practically everywhere.'
   abstract: true
   components:
   - type: Tag
@@ -69,7 +69,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeBeanbag
-  name: shotgun shell (12 gauge beanbag)
+  name: '猎枪弹（12号豆袋弹） | shotgun shell (12 gauge beanbag)'
   parent: BaseShellShotgun12_gauge # Frontier: remove BaseSecurityBartenderContraband
   components:
   - type: Tag
@@ -88,7 +88,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeSlug
-  name: shotgun shell (12 gauge slug)
+  name: '猎枪子弹（12号口径独头弹） | shotgun shell (12 gauge slug)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeFlare
-  name: flare shell (12 gauge flare)
+  name: '信号弹壳（12号信号弹） | flare shell (12 gauge flare)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Tag
@@ -121,7 +121,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeBuckshot
-  name: shotgun shell (12 gauge buckshot)
+  name: '猎枪子弹（12号铅径鹿弹） | shotgun shell (12 gauge buckshot)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeIncendiary
-  name: shotgun shell (12 gauge incendiary)
+  name: '猎枪子弹（12号口径燃烧弹） | shotgun shell (12 gauge incendiary)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -147,7 +147,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugePractice
-  name: shotgun shell (12 gauge practice)
+  name: '猎枪子弹（12号口径练习弹） | shotgun shell (12 gauge practice)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeTranquilizer
-  name: shotgun shell (12 gauge tranquilizer)
+  name: '猎枪子弹（12号镇静剂） | shotgun shell (12 gauge tranquilizer)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Tag
@@ -189,8 +189,8 @@
 
 - type: entity
   id: ShellShotgun12_gaugeImprovised
-  name: improvised shotgun shell (12 gauge)
-  description: A homemade shotgun shell that shoots painful glass shrapnel. The spread is so wide that it couldn't hit the broad side of a barn.
+  name: '自制霰弹枪子弹（12号口径） | improvised shotgun shell (12 gauge)'
+  description: '一种自制霰弹枪子弹，能射出令人剧痛的玻璃碎片。其散射范围过于宽泛，连谷仓的宽阔侧面都无法命中。 | A homemade shotgun shell that shoots painful glass shrapnel. The spread is so wide that it couldn''t hit the broad side of a barn.'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Tag
@@ -212,7 +212,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeUranium
-  name: shotgun shell (12 gauge uranium)
+  name: '猎枪子弹（12号口径铀弹） | shotgun shell (12 gauge uranium)'
   parent: BaseShellShotgun12_gauge
   components:
     - type: Sprite
@@ -228,7 +228,7 @@
 #anti-flesh:
 - type: entity
   id: ShellShotgun12_gaugeOOBuckshot
-  name: shotgun shell (12 gauge OO magnum buckshot)
+  name: '12号口径马格努姆大号铅弹 | shotgun shell (12 gauge OO magnum buckshot)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -241,7 +241,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeSlugRIP
-  name: shotgun shell (12 gauge RIP)
+  name: '猎枪子弹（12号径撕裂弹） | shotgun shell (12 gauge RIP)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -256,7 +256,7 @@
 #armor-piercing:
 - type: entity
   id: ShellShotgun12_gaugeSlugAP
-  name: shotgun shell (12 gauge armor-piercing slug)
+  name: '猎枪子弹（12号口径穿甲独头弹） | shotgun shell (12 gauge armor-piercing slug)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -270,7 +270,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeFlechette
-  name: shotgun shell (12 gauge flechette)
+  name: '霰弹枪弹（12号标枪弹） | shotgun shell (12 gauge flechette)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite

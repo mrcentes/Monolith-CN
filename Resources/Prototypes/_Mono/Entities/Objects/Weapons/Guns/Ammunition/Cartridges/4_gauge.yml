@@ -6,9 +6,9 @@
 
 - type: entity
   id: BaseShellShotgun23x75mm
-  name: shotgun shell (4 gauge)
+  name: '猎枪弹（4号径） | shotgun shell (4 gauge)'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: added BaseC1Contraband
-  description: Large shotgun round. Kicks like a mule, and will tear a chunk out of anything that doesnt have the armor to protect it.
+  description: '大型霰弹枪弹药。后坐力极强，足以在无装甲防护的物体上撕开巨大缺口。 | Large shotgun round. Kicks like a mule, and will tear a chunk out of anything that doesnt have the armor to protect it.'
   abstract: true
   components:
   - type: Tag
@@ -38,7 +38,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmBeanbag
-  name: shotgun shell (4 gauge beanbag)
+  name: '霰弹枪弹（4号口径豆袋弹） | shotgun shell (4 gauge beanbag)'
   parent: BaseShellShotgun23x75mm # Frontier: remove BaseSecurityBartenderContraband
   components:
   - type: Tag
@@ -56,7 +56,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmDozd
-  name: shotgun shell (4 gauge Dozd)
+  name: '猎枪弹（4号口径 多兹德） | shotgun shell (4 gauge Dozd)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmSlug
-  name: shotgun shell (4 gauge slug)
+  name: '猎枪弹（4号口径独头弹） | shotgun shell (4 gauge slug)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Sprite
@@ -84,7 +84,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmFlare
-  name: flare shell (4 gauge flare)
+  name: '照明弹壳（4号照明弹） | flare shell (4 gauge flare)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Tag
@@ -102,7 +102,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmBuckshot
-  name: shotgun shell (4 gauge buckshot)
+  name: '猎枪弹（四号口径鹿弹） | shotgun shell (4 gauge buckshot)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Sprite
@@ -114,7 +114,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmIncendiary
-  name: shotgun shell (4 gauge incendiary)
+  name: '猎枪弹（四号口径燃烧弹） | shotgun shell (4 gauge incendiary)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Sprite
@@ -128,7 +128,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmPractice
-  name: shotgun shell (4 gauge practice)
+  name: '四号口径练习用霰弹 | shotgun shell (4 gauge practice)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Sprite
@@ -142,7 +142,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmUranium
-  name: shotgun shell (4 gauge uranium)
+  name: '猎枪弹（4号口径铀弹） | shotgun shell (4 gauge uranium)'
   parent: BaseShellShotgun23x75mm
   components:
     - type: Sprite
@@ -156,7 +156,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmFlashbang
-  name: shotgun shell (4 gauge flashbang)
+  name: '猎枪弹（4号闪光震撼弹） | shotgun shell (4 gauge flashbang)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Tag
@@ -176,7 +176,7 @@
 #anti-flesh:
 - type: entity
   id: ShellShotgun23x75mmOOBuckshot
-  name: shotgun shell (4 gauge OO Buckshot)
+  name: '四号径鹿弹 | shotgun shell (4 gauge OO Buckshot)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Sprite
@@ -189,7 +189,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmSlugRIP
-  name: shotgun shell (4 gauge RIP)
+  name: '猎枪弹（4号径撕裂弹） | shotgun shell (4 gauge RIP)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Sprite
@@ -204,7 +204,7 @@
 #armor-piercing:
 - type: entity
   id: ShellShotgun23x75mmSlugAP
-  name: shotgun shell (4 gauge armor-piercing slug)
+  name: '猎枪子弹（4号口径穿甲独头弹） | shotgun shell (4 gauge armor-piercing slug)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Sprite
@@ -218,7 +218,7 @@
 
 - type: entity
   id: ShellShotgun23x75mmFlechette
-  name: shotgun shell (4 gauge flechette)
+  name: '霰弹枪弹（4号口径飞镖弹） | shotgun shell (4 gauge flechette)'
   parent: BaseShellShotgun23x75mm
   components:
   - type: Sprite

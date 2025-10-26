@@ -6,8 +6,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUNSAArmoredEva
-  name: armored EVA suit
-  description: A standard EVA suit modified by the UNSA as a cheap and nimble alternative to voidsuits for use by Vanguards.
+  name: '装甲舱外活动服 | armored EVA suit'
+  description: '由UNSA改造的标准舱外活动服，作为先驱者使用的虚空防护服替代品，具有成本低廉与机动灵活的特点。 | A standard EVA suit modified by the UNSA as a cheap and nimble alternative to voidsuits for use by Vanguards.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/armored_eva.rsi

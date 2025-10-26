@@ -7,8 +7,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterDrakeIndustriesTruckerPuffyVest
-  name: puffy vest
-  description: A flashy looking puffy and somewhat elastic vest. It makes an insane amount of noise at the slighest movement, but at least they bothered making some pockets on the inside.
+  name: '蓬松背心 | puffy vest'
+  description: '一件外观花哨且略带弹性的蓬松背心。稍有动作就会发出惊人的噪音，不过至少他们费心在内侧做了几个口袋。 | A flashy looking puffy and somewhat elastic vest. It makes an insane amount of noise at the slighest movement, but at least they bothered making some pockets on the inside.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Vests/DI-puffy-vest.rsi

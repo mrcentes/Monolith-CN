@@ -10,7 +10,7 @@
   suffix: POI, USSP
   components:
   - type: FaxMachine
-    name: "USSP Station Camelot"
+    name: '卡美洛特空间站 | USSP Station Camelot'
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -18,7 +18,7 @@
   suffix: POI, USSP Commisar
   components:
   - type: FaxMachine
-    name: "USSP Station Camelot Commisar"
+    name: '卡美洛特站政委 | USSP Station Camelot Commisar'
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -26,4 +26,4 @@
   suffix: POI, ASR Jupiter
   components:
   - type: FaxMachine
-    name: "ASR Jupiter-Class Carrier"
+    name: '木星级航空母舰 | ASR Jupiter-Class Carrier'

@@ -9,8 +9,8 @@
 - type: entity
   id: BannerNGC
   parent: BannerBase
-  name: TSF banner
-  description: A banner proudly displaying the stars of the Trans-Solar Federation.
+  name: '跨太阳系联邦旗帜 | TSF banner'
+  description: '一面自豪展示跨太阳联邦星辰的旗帜。 | A banner proudly displaying the stars of the Trans-Solar Federation.'
   components:
   - type: Sprite
     sprite: _Mono/Structures/Decoration/banner.rsi
@@ -22,8 +22,8 @@
 - type: entity
   id: BannerSHM
   parent: BannerBase
-  name:  SHM banner
-  description: A banner effectively representing the iconography of Steel Hammer Manufacturing Inc.
+  name: '钢锤制造公司标志横幅 | SHM banner'
+  description: '有效体现钢锤制造公司形象标识的横幅 | A banner effectively representing the iconography of Steel Hammer Manufacturing Inc.'
   components:
   - type: Sprite
     sprite: _Mono/Structures/Decoration/banner.rsi

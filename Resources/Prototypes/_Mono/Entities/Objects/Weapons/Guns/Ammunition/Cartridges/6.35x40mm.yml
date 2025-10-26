@@ -17,9 +17,9 @@
 
 - type: entity
   id: BaseCartridge635x40mmCaseless
-  name: cartridge (.25 rifle)
+  name: '点二五步枪子弹 | cartridge (.25 rifle)'
   parent: [ BaseCartridge, BaseC3SyndicateContrabandNoValue ] # Frontier: BaseSecurityContraband<BaseC3SyndicateContraband
-  description: Developed during corporate wars for subsonic weapons to keep a low-profile during operations.
+  description: '为在企业战争期间开发，供亚音速武器使用以便在行动中保持低调。 | Developed during corporate wars for subsonic weapons to keep a low-profile during operations.'
   abstract: true
   components:
   - type: Tag
@@ -41,7 +41,7 @@
 
 - type: entity
   id: Cartridge635x40mmCaseless
-  name: cartridge (635x40mm Caseless)
+  name: '弹药筒（635x40毫米无壳弹） | cartridge (635x40mm Caseless)'
   parent: BaseCartridge635x40mmCaseless
   components:
   - type: CartridgeAmmo
@@ -49,7 +49,7 @@
 
 - type: entity
   id: Cartridge635x40mmCaselessRubber
-  name: cartridge (635x40mm Caseless rubber)
+  name: '弹筒（635x40毫米无壳橡胶） | cartridge (635x40mm Caseless rubber)'
   parent: BaseCartridge635x40mmCaseless
   components:
   - type: CartridgeAmmo
@@ -57,7 +57,7 @@
 
 - type: entity
   id: Cartridge635x40mmCaselessPractice
-  name: cartridge (635x40mm Caseless practice)
+  name: '弹药筒（635x40毫米无壳训练弹） | cartridge (635x40mm Caseless practice)'
   parent: BaseCartridge635x40mmCaseless
   components:
   - type: CartridgeAmmo

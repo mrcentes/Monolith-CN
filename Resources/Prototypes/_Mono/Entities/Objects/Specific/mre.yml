@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: MRE
+  name: '即食口粮 | MRE'
   parent: BaseItem
   id: MonoMRE
-  description: A modern ready-to-eat ration, filled with bits of individually wrapped slop.
+  description: '一份现代即食口粮，装满独立包装的糊状食物块。 | A modern ready-to-eat ration, filled with bits of individually wrapped slop.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/mre_package.rsi

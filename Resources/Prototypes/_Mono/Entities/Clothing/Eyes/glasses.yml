@@ -8,8 +8,8 @@
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesBallisticGogglesRed
-  name: red ballistic goggles
-  description: A pair of ballistic goggles with red lenses and integrated health scanning microchips.
+  name: '红色防弹护目镜 | red ballistic goggles'
+  description: '一副带有红色镜片和集成健康扫描微芯片的防弹护目镜。 | A pair of ballistic goggles with red lenses and integrated health scanning microchips.'
   components:
   - type: StaticPrice
     price: 1500
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesBallisticGlassesRed
-  name: red ballistic glasses
-  description: A pair of ballistic glasses with red lenses and integrated health scanning microchips.
+  name: '红色防弹眼镜 | red ballistic glasses'
+  description: '一副带有红色镜片和集成健康扫描微芯片的防弹眼镜。 | A pair of ballistic glasses with red lenses and integrated health scanning microchips.'
   components:
   - type: StaticPrice
     price: 1500
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesBallisticGogglesGreen
-  name: green ballistic goggles
-  description: A pair of ballistic goggles with green lenses and integrated health scanning microchips.
+  name: '绿色防弹护目镜 | green ballistic goggles'
+  description: '一副带有绿色镜片和集成健康扫描微芯片的防弹护目镜。 | A pair of ballistic goggles with green lenses and integrated health scanning microchips.'
   components:
   - type: StaticPrice
     price: 1500
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesBallisticGlassesGreen
-  name: green ballistic glasses
-  description: A pair of ballistic glasses with green lenses and integrated health scanning microchips.
+  name: '绿色防弹眼镜 | green ballistic glasses'
+  description: '一副带有绿色镜片和集成健康扫描微芯片的防弹眼镜。 | A pair of ballistic glasses with green lenses and integrated health scanning microchips.'
   components:
   - type: StaticPrice
     price: 1500
@@ -112,8 +112,8 @@
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesBallisticGogglesOrange
-  name: orange ballistic goggles
-  description: A pair of ballistic goggles with orange lenses and integrated health scanning microchips.
+  name: '橙色防弹护目镜 | orange ballistic goggles'
+  description: '一副带有橙色镜片和集成健康扫描微芯片的防弹护目镜。 | A pair of ballistic goggles with orange lenses and integrated health scanning microchips.'
   components:
   - type: StaticPrice
     price: 1500
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesBallisticGlassesOrange
-  name: orange ballistic glasses
-  description: A pair of ballistic glasses with orange lenses and integrated health scanning microchips.
+  name: '橙色防弹眼镜 | orange ballistic glasses'
+  description: '一副橙色镜片的防弹眼镜，内置健康扫描微型芯片。 | A pair of ballistic glasses with orange lenses and integrated health scanning microchips.'
   components:
   - type: StaticPrice
     price: 1500

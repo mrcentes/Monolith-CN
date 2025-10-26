@@ -1,14 +1,14 @@
 wires-component-ui-on-receive-message-no-hands = You have no hands.
-wires-component-ui-on-receive-message-cannot-reach = You can't reach there!
-wires-component-ui-on-receive-message-need-wirecutters = You need to hold a wirecutter in your hand!
-wires-component-ui-on-receive-message-need-multitool = You need to hold a multitool in your hand!
-wires-component-ui-on-receive-message-cannot-pulse-cut-wire = You can't pulse a wire that's been cut!
-wires-component-ui-on-receive-message-cannot-cut-cut-wire = You can't cut a wire that's been cut!
-wires-component-ui-on-receive-message-cannot-mend-uncut-wire = You can't mend a wire that's been mended!
+wires-component-ui-on-receive-message-cannot-reach = 你够不到那儿！
+wires-component-ui-on-receive-message-need-wirecutters = 你需要在你的手里拿一个剪线钳！
+wires-component-ui-on-receive-message-need-multitool = 你需要手里拿着一个多功能工具！
+wires-component-ui-on-receive-message-cannot-pulse-cut-wire = 你不能脉冲一根被剪断的电线！
+wires-component-ui-on-receive-message-cannot-cut-cut-wire = 你不能剪断被剪断的电线！
+wires-component-ui-on-receive-message-cannot-mend-uncut-wire = 你无法修补已修好的电线！
 
 ## UI
 
-wires-menu-name-label = Wires
+wires-menu-name-label = 电线
 wires-menu-dead-beef-text = DEAD-BEEF
 wires-menu-help-popup =
     Click on the gold contacts with a multitool in hand to pulse their wire.

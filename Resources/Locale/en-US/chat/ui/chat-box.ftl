@@ -30,6 +30,6 @@ hud-chatbox-select-channel-Radio = 无线电
 hud-chatbox-channel-Notifications = 通知
 hud-chatbox-channel-Server = 服务器
 hud-chatbox-channel-CollectiveMind = 集体心智
-ud-chatbox-channel-Visual = 动作
+hud-chatbox-channel-Visual = 动作
 hud-chatbox-channel-Damage = 伤害
 hud-chatbox-channel-Unspecified = 未指定

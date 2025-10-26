@@ -21,7 +21,7 @@
 
 - type: entity
   id: BaseSpeedLoader45_magnum
-  name: "speed loader (.45 magnum)"
+  name: '快速装弹器（点四五马格南） | speed loader (.45 magnum)'
   parent: [ BaseItem, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   abstract: true
   components:
@@ -42,7 +42,7 @@
 
 - type: entity
   id: SpeedLoader45_magnumFMJ
-  name: "speed loader (.45 magnum FMJ)"
+  name: '快速装弹器（点四五马格南全金属被甲弹） | speed loader (.45 magnum FMJ)'
   parent: BaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
@@ -62,7 +62,7 @@
 
 - type: entity
   id: SpeedLoader45_magnumEmpty
-  name: "speed loader (.45 magnum any)"
+  name: '快速装弹器（适用于任何点四五马格南子弹） | speed loader (.45 magnum any)'
   parent: SpeedLoader45_magnumFMJ
   components:
   - type: BallisticAmmoProvider
@@ -80,7 +80,7 @@
 
 - type: entity
   id: SpeedLoader45_magnumIncendiary
-  name: "speed loader (.45 magnum incendiary)"
+  name: '快速装弹器（点四五口径马格南燃烧弹） | speed loader (.45 magnum incendiary)'
   parent: SpeedLoader45_magnumFMJ
   components:
   - type: BallisticAmmoProvider
@@ -88,7 +88,7 @@
 
 - type: entity
   id: SpeedLoader45_magnumPractice
-  name: "speed loader (.45 magnum practice)"
+  name: '快速装弹器（点四五马格南练习用） | speed loader (.45 magnum practice)'
   parent: BaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
@@ -108,7 +108,7 @@
 
 - type: entity
   id: SpeedLoader45_magnumAP
-  name: "speed loader (.45 magnum extreme armor-piercing)"
+  name: '快速装弹器（点四五马格南超强穿甲弹） | speed loader (.45 magnum extreme armor-piercing)'
   parent: BaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
@@ -128,7 +128,7 @@
 
 - type: entity
   id: SpeedLoader45_magnumUranium
-  name: "speed loader (.45 magnum uranium)"
+  name: '快速装弹器（点四五马格南铀弹） | speed loader (.45 magnum uranium)'
   parent: BaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
@@ -148,7 +148,7 @@
 
 - type: entity
   id: SpeedLoader45_magnumRubber
-  name: "speed loader (.45 magnum rubber)"
+  name: '快速装弹器（点四五马格南橡胶弹） | speed loader (.45 magnum rubber)'
   parent: BaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
@@ -170,7 +170,7 @@
 #anti-flesh ammo
 - type: entity
   id: SpeedLoader45_magnumHP
-  name: speed loader (.45 magnum hollow-point)
+  name: '快速装弹器（点四五马格努姆空尖弹） | speed loader (.45 magnum hollow-point)'
   parent: BaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
@@ -190,7 +190,7 @@
 
 - type: entity
   id: SpeedLoader45_magnumRIP
-  name: speed loader (.45 magnum RIP)
+  name: '快速装弹器（点四五马格南RIP） | speed loader (.45 magnum RIP)'
   parent: BaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
@@ -212,7 +212,7 @@
 
 - type: entity
   id: SpeedLoader45_magnumPlasteelAP
-  name: speed loader (.45 magnum AP)
+  name: '快速装弹器（点四五口径马格南穿甲弹） | speed loader (.45 magnum AP)'
   parent: BaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider

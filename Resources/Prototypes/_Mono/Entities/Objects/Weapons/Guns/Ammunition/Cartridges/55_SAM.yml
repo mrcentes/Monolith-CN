@@ -7,8 +7,8 @@
 - type: entity
   parent: [ BaseCartridge, BaseRestrictedContraband ]
   id: Cartridge55_SAM
-  name: cartridge (.55 Smart Magnum Action)
-  description: A .55 smart bullet with a quite heavy charge of booster propellant at the bottom.
+  name: '弹药筒（点五五智能马格南行动） | cartridge (.55 Smart Magnum Action)'
+  description: '一发点五五智能子弹，底部装有剂量颇大的助推发射药。 | A .55 smart bullet with a quite heavy charge of booster propellant at the bottom.'
   components:
   - type: Tag
     tags:

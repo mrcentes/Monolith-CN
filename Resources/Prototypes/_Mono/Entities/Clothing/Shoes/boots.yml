@@ -5,8 +5,8 @@
 - type: entity
   parent: ClothingShoesBootsJackFilled
   id: ClothingShoesTacticalSwatTan
-  name: tan tactical swat boots
-  description: A pair of tactical swat boots for when you want to turn up the heat.
+  name: '棕褐色战术特警靴 | tan tactical swat boots'
+  description: '一双战术特警靴，为提升行动强度而准备。 | A pair of tactical swat boots for when you want to turn up the heat.'
   components:
   - type: StaticPrice
     price: 900
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingShoesBootsJackFilled
   id: ClothingShoesTacticalSwatOlive
-  name: olive tactical swat boots
-  description: A pair of tactical swat boots for when you want to turn up the heat.
+  name: '橄榄色战术特警靴 | olive tactical swat boots'
+  description: '一双战术特警靴，专为提升行动强度而准备。 | A pair of tactical swat boots for when you want to turn up the heat.'
   components:
   - type: StaticPrice
     price: 900
@@ -59,8 +59,8 @@
 - type: entity
   parent: ClothingShoesBootsJackFilled
   id: ClothingShoesTacticalSwatBlack
-  name: black tactical swat boots
-  description: A pair of tactical swat boots for when you want to turn up the heat.
+  name: '黑色战术特警靴 | black tactical swat boots'
+  description: '一双战术特警靴，助你点燃战斗激情。 | A pair of tactical swat boots for when you want to turn up the heat.'
   components:
   - type: StaticPrice
     price: 900
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingShoesBootsJackFilled
   id: ClothingShoesTacticalSwatRangerGreen
-  name: ranger green tactical swat boots
-  description: A pair of tactical swat boots for when you want to turn up the heat.
+  name: '游骑兵绿战术特警靴 | ranger green tactical swat boots'
+  description: '一双战术特警靴，助你点燃战斗激情。 | A pair of tactical swat boots for when you want to turn up the heat.'
   components:
   - type: StaticPrice
     price: 900
@@ -113,8 +113,8 @@
 - type: entity
   parent: ClothingShoesBootsJackFilled
   id: ClothingShoesTacticalSwatCoyoteBrown
-  name: coyote brown tactical swat boots
-  description: A pair of tactical swat boots for when you want to turn up the heat.
+  name: '土狼棕战术特警靴 | coyote brown tactical swat boots'
+  description: '一双战术特警靴，助你点燃战斗激情。 | A pair of tactical swat boots for when you want to turn up the heat.'
   components:
   - type: StaticPrice
     price: 900
@@ -140,8 +140,8 @@
 - type: entity
   parent: ClothingShoesBootsJackFilled
   id: ClothingShoesTacticalSwatWhite
-  name: white tactical swat boots
-  description: A pair of tactical swat boots for when you want to turn up the heat.
+  name: '白色战术特警靴 | white tactical swat boots'
+  description: '一双战术特警靴，专为提升行动强度而设计。 | A pair of tactical swat boots for when you want to turn up the heat.'
   components:
   - type: StaticPrice
     price: 900

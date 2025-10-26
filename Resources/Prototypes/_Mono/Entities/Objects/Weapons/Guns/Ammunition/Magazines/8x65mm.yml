@@ -16,7 +16,7 @@
 
 - type: entity
   id: BaseMagazine8x65mm
-  name: STANAG magazine (8x65mm SKR)
+  name: 'STANAG弹匣（8x65毫米SKR） | STANAG magazine (8x65mm SKR)'
   parent: [BaseItem, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny
   abstract: true
   components:
@@ -50,7 +50,7 @@
 
 - type: entity
   id: Magazine8x65mmEmpty
-  name: STANAG magazine (8x65mm SKR any)
+  name: 'STANAG弹匣（兼容8x65毫米SKR任意型号） | STANAG magazine (8x65mm SKR any)'
   suffix: empty
   parent: BaseMagazine8x65mm
   components:
@@ -65,7 +65,7 @@
 
 - type: entity
   id: Magazine8x65mmSKR
-  name: STANAG magazine (8x65mm SKR)
+  name: 'STANAG弹匣（8x65毫米SKR） | STANAG magazine (8x65mm SKR)'
   parent: BaseMagazine8x65mm
   components:
   - type: BallisticAmmoProvider
@@ -79,7 +79,7 @@
 
 - type: entity
   id: Magazine8x65mmSKRIncendiary
-  name: STANAG magazine (8x65mm SKR incendiary)
+  name: 'STANAG弹匣（8x65毫米SKR燃烧弹） | STANAG magazine (8x65mm SKR incendiary)'
   parent: BaseMagazine8x65mm
   components:
   - type: BallisticAmmoProvider
@@ -93,7 +93,7 @@
 
 - type: entity
   id: Magazine8x65mmSKRPractice
-  name: STANAG magazine (8x65mm SKR practice)
+  name: 'STANAG弹匣（8x65毫米SKR训练弹用） | STANAG magazine (8x65mm SKR practice)'
   parent: BaseMagazine8x65mm
   components:
   - type: BallisticAmmoProvider
@@ -107,7 +107,7 @@
 
 - type: entity
   id: BaseMagazine8x65mmBox
-  name: SAW box (8x65mm SKR)
+  name: '锯盒（8x65毫米SKR） | SAW box (8x65mm SKR)'
   parent: [BaseItem, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny
   abstract: true
   components:
@@ -140,7 +140,7 @@
 
 - type: entity
   id: Magazine8x65mmEmptyBox
-  name: SAW box (8x65mm SKR any)
+  name: '锯盒（8x65毫米SKR任意型号） | SAW box (8x65mm SKR any)'
   suffix: empty
   parent: BaseMagazine8x65mmBox
   components:
@@ -155,7 +155,7 @@
 
 - type: entity
   id: Magazine8x65mmSKRBox
-  name: SAW box (8x65mm SKR)
+  name: '锯盒（8x65毫米SKR） | SAW box (8x65mm SKR)'
   parent: BaseMagazine8x65mmBox
   components:
   - type: BallisticAmmoProvider

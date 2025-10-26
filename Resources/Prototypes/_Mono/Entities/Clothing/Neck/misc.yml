@@ -9,8 +9,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNovaSharksLeatherJacket
-  name: Nova Sharks leather jacket
-  description: A leather jacket for any affiliated members of The Nova Sharks. Fits comfortably over most suits and rough enough to never bend to authority. 
+  name: '新星鲨鱼皮夹克 | Nova Sharks leather jacket'
+  description: '为新星鲨鱼会关联成员设计的皮夹克。可舒适地穿在大多数套装外，质地坚韧象征着永不向强权低头。 | A leather jacket for any affiliated members of The Nova Sharks. Fits comfortably over most suits and rough enough to never bend to authority.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Misc/NS-leather-jacket.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckUllimanOvercoat
-  name: U.I. overcoat
-  description: A speciallly made overcoat, able to fit over most hardsuits, made purely for style by Ulliman Industries. The synthetic fur even keeps your stone cold heart warm.
+  name: 'U.I.大衣 | U.I. overcoat'
+  description: '一件特制大衣，可适配多数硬质防护服，由乌利曼工业纯为风格打造。人造毛皮甚至能温暖你那石头般冰冷的心。 | A speciallly made overcoat, able to fit over most hardsuits, made purely for style by Ulliman Industries. The synthetic fur even keeps your stone cold heart warm.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Misc/overcoat.rsi

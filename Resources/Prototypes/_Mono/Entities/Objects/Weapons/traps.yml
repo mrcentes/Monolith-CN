@@ -5,8 +5,8 @@
 - type: entity
   id: ShotgunTrap
   parent: [ShuttleGunBase]
-  name: shotgun trap
-  description: A makeshift 4-gauge shotgun hooked up to a remote signaler.
+  name: '霰弹枪陷阱 | shotgun trap'
+  description: '临时制作的4号霰弹枪连接着远程信号装置。 | A makeshift 4-gauge shotgun hooked up to a remote signaler.'
   components:
   - type: Fixtures
     fixtures:
@@ -78,8 +78,8 @@
       
 - type: entity
   id: ShotgunTrapPacked
-  name: packed shotgun trap
-  description: A disassembled makeshift shotgun trap.
+  name: '已打包霰弹枪陷阱 | packed shotgun trap'
+  description: '一个拆解开的临时霰弹枪陷阱。 | A disassembled makeshift shotgun trap.'
   parent: BaseItem
   components:
   - type: SpawnAfterInteract
@@ -97,7 +97,7 @@
     node: shotgunTrap
     
 - type: entity
-  name: pressure plate
+  name: '压力板 | pressure plate'
   id: PressurePlate
   parent: BaseStructureDisableAnchoring
   placement:

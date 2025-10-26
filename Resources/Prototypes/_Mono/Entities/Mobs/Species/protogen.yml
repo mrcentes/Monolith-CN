@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMobSpeciesOrganic
   id: BaseMobProtogen
-  name: Urist McHardDrive
+  name: '乌里斯特·麦克哈德驱动器 | Urist McHardDrive'
   abstract: true
   components:
   - type: HarpySinger # Mono

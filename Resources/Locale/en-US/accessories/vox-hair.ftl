@@ -21,4 +21,4 @@ marking-VoxHairSurf = Vox Surf
 marking-VoxHairTielQuills = Vox Tiel Quills
 marking-VoxHairYasu = Vox Yasuhiro
 marking-VoxHairWiseBraid = Vox Wise Braids
-marking-VoxHairSpotty = Vox Spotty Hair
+marking-VoxHairSpotty = Vox Spotty Quills

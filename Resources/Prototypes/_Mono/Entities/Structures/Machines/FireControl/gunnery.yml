@@ -15,8 +15,8 @@
 - type: entity
   id: GunneryServerBase
   parent: BaseMachinePowered
-  name: gunnery control server
-  description: Manages the remote operation of ship weapons.
+  name: '火炮控制服务器 | gunnery control server'
+  description: '负责管理舰载武器的远程操控。 | Manages the remote operation of ship weapons.'
   components:
   - type: Sprite
     sprite: Structures/Machines/telecomms.rsi
@@ -60,7 +60,7 @@
 - type: entity
   id: GunneryServerLow
   parent: GunneryServerBase
-  name: low-power gunnery control server
+  name: '低功率火炮控制服务器 | low-power gunnery control server'
   components:
   - type: Machine
     board: MachineGCSLowCircuitboard
@@ -82,7 +82,7 @@
 - type: entity
   id: GunneryServerMedium
   parent: GunneryServerBase
-  name: medium-power gunnery control server
+  name: '中功率火炮控制服务器 | medium-power gunnery control server'
   components:
   - type: Machine
     board: MachineGCSMediumCircuitboard
@@ -104,7 +104,7 @@
 - type: entity
   id: GunneryServerHigh
   parent: GunneryServerBase
-  name: high-power gunnery control server
+  name: '大功率火炮控制服务器 | high-power gunnery control server'
   components:
   - type: Machine
     board: MachineGCSHighCircuitboard
@@ -126,7 +126,7 @@
 - type: entity
   id: GunneryServerUltra
   parent: [GunneryServerBase] # removed BaseStructureDisableToolUse
-  name: ultra-high-power gunnery control server
+  name: '超高功率火炮控制服务器 | ultra-high-power gunnery control server'
   components:
   - type: Machine
     board: MachineGCSUltraCircuitboard
@@ -150,7 +150,7 @@
 - type: entity
   id: GunneryServerOmega
   parent: [BaseStructureDisableToolUse, GunneryServerBase]
-  name: omega-high-power gunnery control server
+  name: '大功率火炮控制服务器 | omega-high-power gunnery control server'
   components:
   - type: Machine
     board: MachineGCSUltraCircuitboard
@@ -174,7 +174,7 @@
 - type: entity
   id: GunneryServerStation
   parent: [BaseStructureDisableToolUse, GunneryServerBase]
-  name: station gunnery control server
+  name: '站台炮术控制服务器 | station gunnery control server'
   components:
   - type: Machine
     board: MachineGCSStationCircuitboard
@@ -197,7 +197,7 @@
 - type: entity
   id: GunneryServerStationConsolesEnforced
   parent: [BaseStructureDisableToolUse, GunneryServerBase]
-  name: station gunnery control server
+  name: '站台炮术控制服务器 | station gunnery control server'
   suffix: Enforced Max Consoles
   components:
   - type: Machine
@@ -222,8 +222,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerGunneryConsole
-  name: gunnery control console
-  description: Interfaces with the gunnery control server to operate ship weapons.
+  name: '火炮控制台 | gunnery control console'
+  description: '与火控服务器交互以操作舰载武器。 | Interfaces with the gunnery control server to operate ship weapons.'
   placement:
     mode: SnapgridCenter
   components:

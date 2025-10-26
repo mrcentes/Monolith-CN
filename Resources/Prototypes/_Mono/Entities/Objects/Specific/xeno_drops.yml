@@ -5,8 +5,8 @@
 - type: entity # Note: TC worth 5x as much here than on wizden, like goob.
   parent: BaseHealingItem
   id: ResinJelly
-  name: resin jelly
-  description: An odd jelly, applying it will rapidly stimulate limb health at the cost of pain.
+  name: '树脂冻胶 | resin jelly'
+  description: '一种奇特胶体，涂抹后会以疼痛为代价快速刺激肢体健康。 | An odd jelly, applying it will rapidly stimulate limb health at the cost of pain.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Specific/Xeno/xeno_materials.rsi 
@@ -42,8 +42,8 @@
 - type: entity # Note: TC worth 5x as much here than on wizden, like goob.
   parent: BaseItem
   id: ChitinChunk
-  name: chitin chunk
-  description: A highly durable piece of chitin. Might fetch a rather high price.
+  name: '几丁质块 | chitin chunk'
+  description: '一块高度耐用的几丁质碎片。或许能卖出相当高的价格。 | A highly durable piece of chitin. Might fetch a rather high price.'
   components:
   - type: StaticPrice
     price: 2500

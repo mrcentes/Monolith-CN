@@ -8,9 +8,9 @@
 - type: entity
   id: BaseRdServerFaction
   parent: BaseMachinePowered
-  name: BaseRdServerFaction
+  name: '基础研发服务器派系 | BaseRdServerFaction'
   categories: [ HideSpawnMenu ]
-  description: Contains the collective knowledge of the faction.
+  description: '包含该派系的集体知识。 | Contains the collective knowledge of the faction.'
   components:
   - type: Sprite
     sprite: Structures/Machines/server.rsi
@@ -71,8 +71,8 @@
 - type: entity
   id: ResearchAndDevelopmentServerTSFMC
   parent: BaseRdServerFaction
-  name: TSFMC R&D server
-  description: Contains the collective knowledge of the TSFMC in this sector.
+  name: 'TSFMC研发服务器 | TSFMC R&D server'
+  description: '包含TSFMC在该领域的集体知识。 | Contains the collective knowledge of the TSFMC in this sector.'
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/server.rsi
@@ -97,8 +97,8 @@
 - type: entity
   id: ResearchAndDevelopmentServerRogues
   parent: BaseRdServerFaction
-  name: Rogue R&D server
-  description: Contains the collective knowledge of the Rogues in this sector.
+  name: '流亡者研发服务器 | Rogue R&D server'
+  description: '存放着该区域侠客们的集体智慧。 | Contains the collective knowledge of the Rogues in this sector.'
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/server.rsi
@@ -123,8 +123,8 @@
 - type: entity
   id: ResearchAndDevelopmentServerUssp
   parent: BaseRdServerFaction
-  name: USSP R&D server
-  description: Contains the collective knowledge of the USSP in this sector.
+  name: 'USSP研发服务器 | USSP R&D server'
+  description: '包含USSP在该领域的集体知识。 | Contains the collective knowledge of the USSP in this sector.'
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/server.rsi
@@ -149,8 +149,8 @@
 - type: entity
   id: ResearchAndDevelopmentServerDebug
   parent: BaseRdServerFaction
-  name: debug R&D server
-  description: Contains the collective knowledge of Everyone. Damn
+  name: '调试研发服务器 | debug R&D server'
+  description: '包含所有人的集体知识。该死 | Contains the collective knowledge of Everyone. Damn'
   components:
   - type: TechnologyDatabase
     supportedDisciplines:
@@ -176,8 +176,8 @@
 - type: entity
   parent: ResearchAndDevelopmentServer
   id: ResearchAndDevelopmentServerMerc
-  name: mercenary R&D server
-  description: Contains the collective knowledge of the crew.
+  name: '佣兵研发服务器 | mercenary R&D server'
+  description: '存储着全体船员的集体知识。 | Contains the collective knowledge of the crew.'
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/server.rsi

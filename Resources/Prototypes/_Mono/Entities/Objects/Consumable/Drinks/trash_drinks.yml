@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: cerveza cristal bottle
+  name: '水晶啤酒瓶 | cerveza cristal bottle'
   parent: DrinkBottleBaseSmallEmpty
   id: DrinkBottleCervezaCristal
   suffix: Admeme

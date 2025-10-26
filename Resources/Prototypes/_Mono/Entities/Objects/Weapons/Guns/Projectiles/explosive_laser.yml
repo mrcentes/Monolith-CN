@@ -23,10 +23,10 @@
     spawnedEntity: SimpleLaserExplosion
 
 - type: entity
-  name: explosive laser gun
+  name: '爆炸激光枪 | explosive laser gun'
   parent: [WeaponLaserCarbinePractice, BaseGunWieldable]
   id: explosivelasergun
-  description: Favoured by Nanotrasen Security for being cheap and easy to use.
+  description: '纳米特拉森安保部门因其价格低廉且易于使用而青睐此装备。 | Favoured by Nanotrasen Security for being cheap and easy to use.'
   components:
   - type: StaticPrice
     price: 420

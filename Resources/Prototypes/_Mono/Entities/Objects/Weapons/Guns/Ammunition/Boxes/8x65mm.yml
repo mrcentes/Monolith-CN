@@ -59,7 +59,7 @@
 - type: entity
   parent: BaseAmmoBox8x65mm
   id: AmmoBox8x65mmSKR
-  name: ammunition box (8x65mm SKR FMJ)
+  name: '弹药箱（8x65毫米SKR全金属被甲弹） | ammunition box (8x65mm SKR FMJ)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge8x65mmSKR
@@ -73,7 +73,7 @@
 - type: entity
   parent: BaseAmmoBox8x65mm
   id: AmmoBox8x65mmSKRPractice
-  name: ammunition box (8x65mm SKR practice)
+  name: '弹药箱（8x65毫米SKR训练弹） | ammunition box (8x65mm SKR practice)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge8x65mmSKRPractice
@@ -88,7 +88,7 @@
 - type: entity
   id: AmmoBox8x65mmSKRIncendiary
   parent: BaseAmmoBox8x65mm
-  name: ammunition box (8x65mm SKR incendiary)
+  name: '弹药箱（8x65毫米SKR燃烧弹） | ammunition box (8x65mm SKR incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge8x65mmSKRIncendiary

@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: GunneryControlComputerCircuitboard
-  name: gunnery control computer board
-  description: A computer printed circuit board for a gunnery control computer.
+  name: '火炮控制计算机电路板 | gunnery control computer board'
+  description: '用于火炮控制计算机的电脑印刷电路板。 | A computer printed circuit board for a gunnery control computer.'
   components:
     - type: Sprite
       state: cpu_command
@@ -36,7 +36,7 @@
   parent: StationAiUploadCircuitboard
   id: StationAiUploadCircuitboardUnlocked
   suffix: Unlocked
-  description: A computer printed circuit board for a AI upload console.
+  description: '人工智能上传控制台用计算机印刷电路板。 | A computer printed circuit board for a AI upload console.'
   components:
     - type: ComputerBoard
       prototype: StationAiUploadComputerUnlocked
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: EliteRadarCircuitboard
-  name: elite radar computer board
-  description: A computer printed circuit board for an elite radar computer.
+  name: '精英雷达计算机电路板 | elite radar computer board'
+  description: '一块用于精英雷达计算机的印刷电路板。 | A computer printed circuit board for an elite radar computer.'
   components:
   - type: Sprite
     state: cpu_command
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: StationRadarCircuitboard
-  name: overwatch radar computer board
-  description: A computer printed circuit board for a station radar computer.
+  name: '监视雷达计算机板 | overwatch radar computer board'
+  description: '用于雷达站计算机的印刷电路板。 | A computer printed circuit board for a station radar computer.'
   components:
   - type: Sprite
     state: cpu_command

@@ -6,7 +6,7 @@
 - type: entity
   id: SpawnMobWeaponTurretLaserTSFMC
   parent: MarkerBase
-  name: TSFMC laser turret spawner
+  name: 'TSFMC激光炮塔生成器 | TSFMC laser turret spawner'
   suffix: TSFMC, Frontier
   components:
   - type: Sprite
@@ -21,7 +21,7 @@
 - type: entity
   id: SpawnMobWeaponTurretTFSMC
   parent: MarkerBase
-  name: TSFMC ballistic turret spawner
+  name: '弹道炮塔生成器 | TSFMC ballistic turret spawner'
   suffix: TSFMC, Frontier
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   id: SpawnMobWeaponTurretUSSP
   parent: MarkerBase
-  name: USSP ballistic turret spawner
+  name: 'USSP弹道炮塔生成器 | USSP ballistic turret spawner'
   suffix: USSP
   components:
   - type: Sprite

@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: T1 random tech disks
+  name: 'T1随机技术磁盘 | T1 random tech disks'
   id: SpawnLootTechDisksT1
   parent: MarkerBasePlaceFree
   components:
@@ -34,7 +34,7 @@
     rareChance: 0.3
 
 - type: entity
-  name: T2 random faction tech disks
+  name: 'T2随机派系科技圆盘 | T2 random faction tech disks'
   id: SpawnLootTechDisksT2Faction
   parent: MarkerBasePlaceFree
   components:
@@ -69,7 +69,7 @@
     rareChance: 0.15
 
 - type: entity
-  name: T2 random mech tech disks
+  name: 'T2随机机械科技磁盘 | T2 random mech tech disks'
   id: SpawnLootTechDisksT2Mech
   parent: MarkerBasePlaceFree
   components:
@@ -100,7 +100,7 @@
     rareChance: 0.3
 
 - type: entity
-  name: T3 random mech tech disks
+  name: 'T3随机机甲科技磁盘 | T3 random mech tech disks'
   id: SpawnLootTechDisksT3Mech
   parent: MarkerBasePlaceFree
   components:
@@ -124,7 +124,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: T3 random fracture tech disks
+  name: 'T3随机断裂技术盘 | T3 random fracture tech disks'
   id: SpawnLootTechDisksT3Fracture
   parent: MarkerBasePlaceFree
   components:

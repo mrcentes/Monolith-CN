@@ -7,8 +7,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMercenaryWarlord
-  name: PMC WL-01
-  description: Nicknamed "Warlord",a former state-of-the-art technology in military equipment, now widespread among the mercenaries and black markets due to its schematics being revealed to the public, the warlord combat suit has been modified to withstand space depressurized atmosphere, rating it space capable.
+  name: '私人军事公司战帅01型 | PMC WL-01'
+  description: '绰号军阀的战斗服，曾是军事装备领域的尖端技术，因其设计图纸被公开而广泛流通于雇佣兵和黑市。该战斗服经过改装可适应太空失压环境，具备太空作战能力。 | Nicknamed "Warlord",a former state-of-the-art technology in military equipment, now widespread among the mercenaries and black markets due to its schematics being revealed to the public, the warlord combat suit has been modified to withstand space depressurized atmosphere, rating it space capable.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/merc_warlordsuit.rsi

@@ -7,7 +7,7 @@
 
 - type: entity
   id: ShipRailgunProjectile
-  name: M381 CHARON 280mm 26.5 kg slug
+  name: 'M381 卡戎 280毫米 26.5千克 弹头 | M381 CHARON 280mm 26.5 kg slug'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -44,8 +44,8 @@
 
 - type: entity
   id: CharonSlugAmmo
-  name: M381 CHARON 280mm 26.5kg slug cartridge
-  description: A all-in-one package containing the plasma gas for ionization in the linear accelerator and the slug itself.
+  name: 'M381 卡戎 280毫米 26.5千克 独头弹弹药筒 | M381 CHARON 280mm 26.5kg slug cartridge'
+  description: '一个集成包装，包含线性加速器中用于电离的等离子体气体以及弹头本身。 | A all-in-one package containing the plasma gas for ionization in the linear accelerator and the slug itself.'
   parent: BaseGrenade
   components:
   - type: Tag
@@ -68,7 +68,7 @@
 
 - type: entity
   id: ShipRailgunProjectileSubnuclear
-  name: M381 CHARON 280mm 26.5 kg slug
+  name: 'M381 卡戎 280毫米 26.5千克 弹头 | M381 CHARON 280mm 26.5 kg slug'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -105,8 +105,8 @@
 
 - type: entity
   id: CharonSubnuclearSlugAmmo
-  name: M381 CHARON 280mm 26.5kg subnuclear slug cartridge
-  description: A all-in-one package containing the plasma gas for ionization in the linear accelerator and the slug itself. This one carries a subnuclear payload.
+  name: 'M381 卡戎 280毫米 26.5公斤 亚核弹壳弹药筒 | M381 CHARON 280mm 26.5kg subnuclear slug cartridge'
+  description: '一体化封装套装，包含线性加速器中用于电离的等离子体气体以及弹头本身。该型号搭载亚核级有效载荷。 | A all-in-one package containing the plasma gas for ionization in the linear accelerator and the slug itself. This one carries a subnuclear payload.'
   parent: BaseGrenade
   components:
   - type: Tag

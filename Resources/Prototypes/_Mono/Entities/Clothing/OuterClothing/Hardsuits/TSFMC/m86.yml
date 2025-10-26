@@ -8,8 +8,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable]
   id: ClothingOuterHardsuitM86
-  name: M86 Mk.3(R) hardsuit
-  description: An armored hardsuit, designed to be an upgrade for the M82 series. The extra armor gives it some more weight to move around.
+  name: 'M86 Mk.3型强化装甲服 | M86 Mk.3(R) hardsuit'
+  description: '一款装甲式硬质防护服，旨在作为M82系列的升级型号。额外增加的装甲使其在移动时需要承受更多重量。 | An armored hardsuit, designed to be an upgrade for the M82 series. The extra armor gives it some more weight to move around.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m86.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: [EnergyShieldClothing, ClothingOuterHardsuitM86]
   id: ClothingOuterHardsuitM86Mk4
-  name: M86 Mk.4(B) hardsuit
-  description: A limited-production redesign proposal for the M86 Mk.3(R), outfitted with an inbuilt personal shield generator.
+  name: 'M86 Mk.4型重型防护服 | M86 Mk.4(B) hardsuit'
+  description: 'M86 Mk.4B型硬式防护服是M86 Mk.3R型的限量改款方案，配备内置个人护盾发生器。 | A limited-production redesign proposal for the M86 Mk.3(R), outfitted with an inbuilt personal shield generator.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m86_mk4.rsi

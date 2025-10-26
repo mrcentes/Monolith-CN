@@ -5,8 +5,8 @@
 - type: entity
   parent: FoodProduceBase
   id: FoodPilumaStalk
-  name: piluma stalk
-  description: A stalk harvested from the Piluma plant of the desert planet below. Hallucinogenic when consumed in excess.
+  name: '皮鲁玛茎秆 | piluma stalk'
+  description: '采自下方沙漠星球皮鲁玛植物的茎秆。过量食用会产生致幻效果。 | A stalk harvested from the Piluma plant of the desert planet below. Hallucinogenic when consumed in excess.'
   components:
   - type: Item
   - type: Sprite

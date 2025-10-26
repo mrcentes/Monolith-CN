@@ -5,8 +5,8 @@
 - type: entity
   parent: [GrenadeBase, BaseC3SyndicateContraband]
   id: PyrogelBomb
-  name: pyrogel bomb
-  description: Experimental bottle bomb technology.
+  name: '「热凝胶炸弹」 | pyrogel bomb'
+  description: '实验性瓶装炸弹技术。 | Experimental bottle bomb technology.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Bombs/pyrogelbomb.rsi
@@ -47,9 +47,9 @@
 - type: entity
   parent: DrinkBottleBaseEmpty
   id: PyrogelBombEmpty
-  name: pyrogel bomb
+  name: '火凝胶炸弹 | pyrogel bomb'
   suffix: empty
-  description: Cheap alternative to nukes. This one has no fuel.
+  description: '核武器的廉价替代品。这款没有燃料。 | Cheap alternative to nukes. This one has no fuel.'
   components:
   - type: SolutionContainerManager
     solutions:

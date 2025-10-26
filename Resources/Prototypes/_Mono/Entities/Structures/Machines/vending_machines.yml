@@ -13,7 +13,7 @@
 - type: entity
   parent: [VendingMachineAmmo, BaseStructureDisableAnchoring]
   id: VendingMachineAmmoPOIMercenary
-  name: PMC liberation station
+  name: 'PMC解放站 | PMC liberation station'
   suffix: POI, PMC
   components:
   - type: VendingMachine
@@ -24,8 +24,8 @@
 - type: entity
   parent: [VendingMachineAstroVend, BaseStructureDisableAnchoring]
   id: VendingMachineBluespaceDrive
-  name: DriveVend
-  description: Sells flatpacked bluespaces drives.
+  name: '驱动器贩卖机 | DriveVend'
+  description: '销售扁平包装蓝空间驱动器。 | Sells flatpacked bluespaces drives.'
   suffix: POI
   components:
   - type: VendingMachine
@@ -49,8 +49,8 @@
 - type: entity
   parent: [VendingMachineAstroVend, BaseStructureDisableAnchoring]
   id: VendingMachineUSSP
-  name: USSP Automated Requisition Vendor
-  description: Sells various USSP equipment.
+  name: 'USSP自动化采购供应商 | USSP Automated Requisition Vendor'
+  description: '销售各类USSP设备。 | Sells various USSP equipment.'
   suffix: POI
   components:
   - type: VendingMachine
@@ -76,15 +76,15 @@
 - type: entity
   parent: [BaseStructureDisableToolUse, VendingMachineSyndieContraband]
   id: VendingMachineSyndieContrabandPOI
-  name: ContraVend
+  name: '通缉令遍布多个行业 | ContraVend'
   suffix: POI
-  description: Wanted across multiple sectors!
+  description: '多个行业争相招募！ | Wanted across multiple sectors!'
 
 - type: entity
   parent: VendingMachine
   id: VendingMachineBarista
-  name: Barista Vendor
-  description: Sells a variety of coffees, teas, and pastries.
+  name: '咖啡茶点商贩 | Barista Vendor'
+  description: '出售各类咖啡、茶饮和糕点。 | Sells a variety of coffees, teas, and pastries.'
   suffix: POI
   components:
   - type: VendingMachine
@@ -123,8 +123,8 @@
 - type: entity
   parent: VendingMachineBarista
   id: VendingMachineBaristaShip
-  name: Barista Vendor
-  description: Sells a variety of coffees, teas, and pastries.
+  name: '咖啡茶点商贩 | Barista Vendor'
+  description: '销售多种咖啡、茶饮和糕点。 | Sells a variety of coffees, teas, and pastries.'
   suffix: "0.35%"
   components:
   - type: VendingMachine
@@ -142,8 +142,8 @@
 - type: entity
   parent: [VendingMachineAstroVend, BaseStructureDisableAnchoring]
   id: VendingMachinePMCclothingsPOI
-  name: Uncle Boris's surplus clothing vend
-  description: Sells various PMC and military surplus gears.
+  name: '鲍里斯大叔的军品服装摊位 | Uncle Boris''s surplus clothing vend'
+  description: '出售各类PMC与军用剩余装备。 | Sells various PMC and military surplus gears.'
   suffix: POI
   components:
   - type: VendingMachine
@@ -169,8 +169,8 @@
 - type: entity
   parent: [VendingMachineAstroVend, BaseStructureDisableAnchoring]
   id: VendingMachineTraderBaikal
-  name: Camelot Trade Goods Vendor
-  description: Sells various trade goods.
+  name: '卡美洛特商品贸易商 | Camelot Trade Goods Vendor'
+  description: '出售各类贸易商品。 | Sells various trade goods.'
   suffix: POI
   components:
   - type: VendingMachine
@@ -200,7 +200,7 @@
 - type: entity
   parent: VendingMachineTraderBaikal
   id: VendingMachineTraderDepot
-  name: Cargo Depot Trade Goods Vendor
+  name: '货栈贸易商品供应商 | Cargo Depot Trade Goods Vendor'
   components:
   - type: VendingMachine
     pack: TraderDepot
@@ -208,7 +208,7 @@
 - type: entity
   parent: VendingMachineTraderBaikal
   id: VendingMachineTraderDepotAlt
-  name: Cargo Depot Trade Goods Vendor
+  name: '货栈贸易商品供应商 | Cargo Depot Trade Goods Vendor'
   suffix: POI, Alt
   components:
   - type: VendingMachine
@@ -217,7 +217,7 @@
 - type: entity
   parent: VendingMachineTraderBaikal
   id: VendingMachineTraderTradeMall
-  name: Trade Mall Trade Goods Vendor
+  name: '贸易商城 贸易货物 供应商 | Trade Mall Trade Goods Vendor'
   components:
   - type: VendingMachine
     pack: TraderTradeMall

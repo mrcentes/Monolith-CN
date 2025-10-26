@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: ADS tender spawner
+  name: 'ADS招标生成器 | ADS tender spawner'
   id: SpawnRedactedBorg
   parent: MarkerBase
   components:
@@ -18,7 +18,7 @@
       state: derelict_icon
 
 - type: entity
-  name: ADS playtime-locked tender spawner
+  name: 'ADS游戏时间锁定幼体生成器 | ADS playtime-locked tender spawner'
   id: SpawnRedactedBorgPlaytime
   parent: MarkerBase
   components:
@@ -33,7 +33,7 @@
       state: derelict_icon
 
 - type: entity
-  name: chimera ghostrole spawner
+  name: '喀迈拉幽灵角色生成器 | chimera ghostrole spawner'
   id: SpawnChimeraGhostrole
   parent: MarkerBase
   components:
@@ -46,7 +46,7 @@
     - state: green
 
 - type: entity
-  name: asakim warrior spawner
+  name: '朝云战士生成器 | asakim warrior spawner'
   id: SpawnAsakimWarrior
   parent: MarkerBase
   components:

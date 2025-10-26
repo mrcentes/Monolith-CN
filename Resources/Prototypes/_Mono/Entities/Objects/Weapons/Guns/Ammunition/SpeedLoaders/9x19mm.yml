@@ -1,6 +1,6 @@
 - type: entity
   id: BaseSpeedLoader9x19mm
-  name: "speed loader (9x19mm FMJ)"
+  name: '快速装弹器（9x19毫米全金属被甲弹） | speed loader (9x19mm FMJ)'
   parent: BaseItem
   abstract: true
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: SpeedLoader9x19mmFMJ
-  name: "speed loader (9x19mm FMJ)"
+  name: '快速装弹器（9x19毫米全金属被甲弹） | speed loader (9x19mm FMJ)'
   parent: BaseSpeedLoader9x19mm
   components:
   - type: BallisticAmmoProvider
@@ -44,7 +44,7 @@
 
 - type: entity
   id: SpeedLoader9x19mmEmpty
-  name: "speed loader (9x19mm any)"
+  name: '九毫米通用快速装弹器 | speed loader (9x19mm any)'
   parent: SpeedLoader9x19mmFMJ
   components:
   - type: BallisticAmmoProvider
@@ -62,7 +62,7 @@
 
 - type: entity
   id: SpeedLoader9x19mmIncendiary
-  name: "speed loader (9x19mm incendiary)"
+  name: '快速装弹器（9x19毫米燃烧弹） | speed loader (9x19mm incendiary)'
   parent: BaseSpeedLoader9x19mm
   components:
   - type: BallisticAmmoProvider
@@ -82,7 +82,7 @@
 
 - type: entity
   id: SpeedLoader9x19mmPractice
-  name: "speed loader (9x19mm practice)"
+  name: '9毫米训练用快速装弹器 | speed loader (9x19mm practice)'
   parent: BaseSpeedLoader9x19mm
   components:
   - type: BallisticAmmoProvider
@@ -105,7 +105,7 @@
 
 - type: entity
   id: SpeedLoader9x19mmUranium
-  name: "speed loader (9x19mm uranium)"
+  name: '快速装弹器（9x19毫米铀弹） | speed loader (9x19mm uranium)'
   parent: BaseSpeedLoader9x19mm
   components:
   - type: BallisticAmmoProvider
@@ -128,7 +128,7 @@
 
 - type: entity
   id: SpeedLoader9x19mmRubber
-  name: "speed loader (9x19mm rubber)"
+  name: '快速装弹器（9x19毫米橡胶弹） | speed loader (9x19mm rubber)'
   parent: BaseSpeedLoader9x19mm
   components:
   - type: BallisticAmmoProvider

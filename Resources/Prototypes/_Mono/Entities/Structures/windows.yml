@@ -3,7 +3,7 @@
 - type: entity
   id: ReinforcedWindowOutpost
   suffix: OUTPOST ONLY
-  name: reinforced window
+  name: '加固窗户 | reinforced window'
   parent: ReinforcedWindow
   components:
   - type: Destructible

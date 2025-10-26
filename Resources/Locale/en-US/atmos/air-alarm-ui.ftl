@@ -2,46 +2,46 @@
 
 ## Window
 
-air-alarm-ui-access-denied = Insufficient access!
+air-alarm-ui-access-denied = 访问权限不足！
 
-air-alarm-ui-window-pressure-label = Pressure
-air-alarm-ui-window-temperature-label = Temperature
-air-alarm-ui-window-alarm-state-label = Status
+air-alarm-ui-window-pressure-label = 气压
+air-alarm-ui-window-temperature-label = 温度
+air-alarm-ui-window-alarm-state-label = 状态
 
-air-alarm-ui-window-address-label = Address
-air-alarm-ui-window-device-count-label = Total Devices
-air-alarm-ui-window-resync-devices-label = Resync
+air-alarm-ui-window-address-label = 地点
+air-alarm-ui-window-device-count-label = 设备总数
+air-alarm-ui-window-resync-devices-label = 重新同步
 
-air-alarm-ui-window-mode-label = Mode
-air-alarm-ui-window-auto-mode-label = Auto mode
+air-alarm-ui-window-mode-label = 模式
+air-alarm-ui-window-auto-mode-label = 自动模式
 
-air-alarm-ui-window-pressure = {$pressure} kPa
-air-alarm-ui-window-pressure-indicator = Pressure: [color={$color}]{$pressure} kPa[/color]
-air-alarm-ui-window-temperature = {$tempC} C ({$temperature} K)
-air-alarm-ui-window-temperature-indicator = Temperature: [color={$color}]{$tempC} C ({$temperature} K)[/color]
-air-alarm-ui-window-alarm-state = [color={$color}]{$state}[/color]
-air-alarm-ui-window-alarm-state-indicator = Status: [color={$color}]{$state}[/color]
+air-alarm-ui-window-pressure = {$pressure} 千帕
+air-alarm-ui-window-pressure-indicator = 气压: [color={$color}]{$pressure} 千帕[/color]
+air-alarm-ui-window-temperature = {$tempC} 摄氏度 ({$temperature} 开)
+air-alarm-ui-window-temperature-indicator = Temperature: [color={$color}]{$tempC} 摄氏度 ({$temperature} 开)[/color]
+air-alarm-ui-window-alarm-state = [color={$color}]{-air-alarm-state-name(state:$state)}[/color]
+air-alarm-ui-window-alarm-state-indicator = 状态: [color={$color}]{-air-alarm-state-name(state:$state)}[/color]
 
-air-alarm-ui-window-tab-vents = Vents
-air-alarm-ui-window-tab-scrubbers = Scrubbers
-air-alarm-ui-window-tab-sensors = Sensors
+air-alarm-ui-window-tab-vents = 通风口
+air-alarm-ui-window-tab-scrubbers = 虹吸器
+air-alarm-ui-window-tab-sensors = 传感器
 
-air-alarm-ui-gases = {$gas}: {$amount} mol ({$percentage}%)
-air-alarm-ui-gases-indicator = {$gas}: [color={$color}]{$amount} mol ({$percentage}%)[/color]
+air-alarm-ui-gases = {$gas}: {$amount} 摩尔 ({$percentage}%)
+air-alarm-ui-gases-indicator = {$gas}: [color={$color}]{$amount} 摩尔 ({$percentage}%)[/color]
 
-air-alarm-ui-mode-filtering = Filtering
-air-alarm-ui-mode-wide-filtering = Filtering (wide)
-air-alarm-ui-mode-fill = Fill
-air-alarm-ui-mode-panic = Panic
-air-alarm-ui-mode-none = None
+air-alarm-ui-mode-filtering = 过滤模式
+air-alarm-ui-mode-wide-filtering = 过滤模式（大范围模式）
+air-alarm-ui-mode-fill = 填充模式
+air-alarm-ui-mode-panic = 恐慌虹吸模式
+air-alarm-ui-mode-none = 无
 
 ## Widgets
 
 ### General
 
-air-alarm-ui-widget-enable = Enabled
-air-alarm-ui-widget-copy = Copy settings to similar devices
-air-alarm-ui-widget-copy-tooltip = Copies the settings of this device to all devices in this air alarm tab.
+air-alarm-ui-widget-enable = 已启用
+air-alarm-ui-widget-copy = 将设置复制到相同的设备上
+air-alarm-ui-widget-copy-tooltip = 将此设备的设置复制到此空气警报界面中的所有设备。
 air-alarm-ui-widget-ignore = Ignore
 air-alarm-ui-atmos-net-device-label = Address: {$address}
 

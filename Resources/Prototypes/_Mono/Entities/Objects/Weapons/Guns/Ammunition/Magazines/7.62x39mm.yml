@@ -7,7 +7,7 @@
 # Empty mags
 - type: entity
   id: BaseMagazine762x39mm
-  name: "magazine (7.62x39mm FMJ)"
+  name: '杂志（7.62x39毫米全金属被甲弹） | magazine (7.62x39mm FMJ)'
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband added RecyclableItemSteelTiny
   abstract: true
   components:
@@ -42,7 +42,7 @@
 # Magazines
 - type: entity
   id: Magazine762x39mmBox
-  name: "L6 SAW magazine box (7.62x39mm FMJ)"
+  name: 'L6 SAW弹匣盒（7.62x39毫米全金属被甲弹） | L6 SAW magazine box (7.62x39mm FMJ)'
   parent: BaseMagazine762x39mm
   components:
   - type: Tag
@@ -62,7 +62,7 @@
 
 - type: entity
   id: Magazine762x39mmFMJ
-  name: "magazine (7.62x39mm FMJ)"
+  name: '杂志（7.62x39毫米全金属被甲弹） | magazine (7.62x39mm FMJ)'
   parent: BaseMagazine762x39mm
   components:
   - type: BallisticAmmoProvider
@@ -76,7 +76,7 @@
 
 - type: entity
   id: Magazine762x39mmEmpty
-  name: "magazine (7.62x39mm any)"
+  name: '杂志（7.62x39毫米 任意型号） | magazine (7.62x39mm any)'
   suffix: empty
   parent: Magazine762x39mmFMJ
   components:
@@ -91,7 +91,7 @@
 
 - type: entity
   id: Magazine762x39mmPractice
-  name: "magazine (7.62x39mm practice)"
+  name: '杂志（7.62x39毫米训练弹） | magazine (7.62x39mm practice)'
   parent: BaseMagazine762x39mm
   components:
   - type: BallisticAmmoProvider
@@ -105,7 +105,7 @@
 
 - type: entity
   id: Magazine762x39mmUranium
-  name: "magazine (7.62x39mm uranium)"
+  name: '杂志（7.62x39毫米铀弹） | magazine (7.62x39mm uranium)'
   parent: BaseMagazine762x39mm
   components:
   - type: BallisticAmmoProvider
@@ -119,7 +119,7 @@
 
 - type: entity
   id: Magazine762x39mmIncendiary
-  name: "magazine (7.62x39mm incendiary)"
+  name: '杂志（7.62x39毫米燃烧弹） | magazine (7.62x39mm incendiary)'
   parent: Magazine762x39mmFMJ
   components:
   - type: BallisticAmmoProvider
@@ -133,7 +133,7 @@
 
 - type: entity
   id: Magazine762x39mmMaxim
-  name: "pan magazine (7.62x39mm FMJ)"
+  name: '泛杂志（7.62x39毫米全金属被甲弹） | pan magazine (7.62x39mm FMJ)'
   parent: BaseMagazine762x39mm
   components:
   - type: Tag
@@ -147,7 +147,7 @@
 
 - type: entity
   id: Magazine762x39mmPkBox
-  name: "PK munitions box (7.62x39mm FMJ)"
+  name: 'PK弹药箱（7.62x39毫米全金属被甲弹） | PK munitions box (7.62x39mm FMJ)'
   parent: BaseMagazine762x39mm
   components:
   - type: Tag
@@ -166,7 +166,7 @@
 
 - type: entity
   id: Magazine762x39mmRubber
-  name: "magazine (7.62x39mm rubber)"
+  name: '杂志（7.62x39毫米橡胶） | magazine (7.62x39mm rubber)'
   parent: Magazine762x39mmFMJ
   components:
   - type: BallisticAmmoProvider
@@ -181,7 +181,7 @@
 
 - type: entity
   id: Magazine762x39mmLowCapacityEmpty
-  name: "low cap magazine (7.62x39mm any)"
+  name: '小容量弹匣（任何七点六二乘三十九毫米型号） | low cap magazine (7.62x39mm any)'
   suffix: empty
   parent: Magazine762x39mmLowCapacityFMJ
   components:
@@ -202,7 +202,7 @@
 
 - type: entity
   id: Magazine762x39mmLowCapacityFMJ
-  name: "low cap magazine (7.62x39mm FMJ)"
+  name: '小容量弹匣（7.62x39毫米全金属被甲弹） | low cap magazine (7.62x39mm FMJ)'
   parent: Magazine762x39mmFMJ
   components:
   - type: Tag
@@ -222,7 +222,7 @@
 
 - type: entity
   id: Magazine762x39mmLowCapacityPractice
-  name: "low cap magazine (7.62x39mm practice)"
+  name: '小容量弹匣（7.62x39毫米训练用） | low cap magazine (7.62x39mm practice)'
   parent: Magazine762x39mmLowCapacityFMJ
   components:
   - type: BallisticAmmoProvider
@@ -236,7 +236,7 @@
 
 - type: entity
   id: Magazine762x39mmLowCapacityRubber
-  name: "low cap magazine (7.62x39mm rubber)"
+  name: '小容量弹匣（7.62x39毫米橡胶弹） | low cap magazine (7.62x39mm rubber)'
   parent: Magazine762x39mmLowCapacityFMJ
   components:
   - type: BallisticAmmoProvider
@@ -250,7 +250,7 @@
 
 - type: entity
   id: Magazine762x39mmLowCapacityUranium
-  name: "low cap magazine (7.62x39mm uranium)"
+  name: '小容量弹匣（7.62x39毫米铀弹） | low cap magazine (7.62x39mm uranium)'
   parent: Magazine762x39mmLowCapacityFMJ
   components:
   - type: BallisticAmmoProvider
@@ -264,7 +264,7 @@
 
 - type: entity
   id: Magazine762x39mmLowCapacityIncendiary
-  name: "low cap magazine (7.62x39mm incendiary)"
+  name: '小容量弹匣（7.62x39毫米燃烧弹） | low cap magazine (7.62x39mm incendiary)'
   parent: Magazine762x39mmLowCapacityFMJ
   components:
   - type: BallisticAmmoProvider
@@ -278,7 +278,7 @@
 
 - type: entity
   id: Magazine762x39mmSubsonic
-  name: "magazine (7.62x39mm subsonic)"
+  name: '弹匣（7.62x39毫米亚音速） | magazine (7.62x39mm subsonic)'
   parent: BaseMagazine762x39mm
   components:
   - type: Tag
@@ -301,7 +301,7 @@
 
 - type: entity
   id: MagazineDP29
-  name: "DP-29 magazine (7.62x39mm)"
+  name: 'DP29弹匣（7.62x39毫米） | DP-29 magazine (7.62x39mm)'
   parent: BaseMagazine762x39mm
   components:
   - type: Tag
@@ -325,7 +325,7 @@
 #anti-flesh:
 - type: entity
   id: Magazine762x39mmHP
-  name: "magazine (7.62x39mm hollow-point)"
+  name: '杂志（7.62x39毫米空尖弹） | magazine (7.62x39mm hollow-point)'
   parent: BaseMagazine762x39mm
   components:
   - type: BallisticAmmoProvider
@@ -339,7 +339,7 @@
 
 - type: entity
   id: Magazine762x39mmRIP
-  name: "magazine (7.62x39mm RIP)"
+  name: '杂志（7.62x39毫米撕裂弹） | magazine (7.62x39mm RIP)'
   parent: BaseMagazine762x39mm
   components:
   - type: BallisticAmmoProvider
@@ -355,7 +355,7 @@
 
 - type: entity
   id: Magazine762x39mmPlasteelAP
-  name: "magazine (7.62x39mm AP)"
+  name: '7点62毫米穿甲弹匣 | magazine (7.62x39mm AP)'
   parent: BaseMagazine762x39mm
   components:
   - type: BallisticAmmoProvider

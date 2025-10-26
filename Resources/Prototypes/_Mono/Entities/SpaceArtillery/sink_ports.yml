@@ -1,4 +1,4 @@
 - type: sinkPort
   id: SpaceArtilleryFire
-  name: "Fire Armament"
-  description: "Controls Space Artillery's firing mechanism."
+  name: '发射武器 | Fire Armament'
+  description: '控制空间火炮的发射机制。 | Controls Space Artillery''s firing mechanism.'

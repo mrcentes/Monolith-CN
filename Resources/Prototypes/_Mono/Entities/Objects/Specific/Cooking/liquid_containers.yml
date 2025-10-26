@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: kettle
+  name: '水壶 | kettle'
   parent: BaseBeaker
-  description: Used to boil water for tea.
+  description: '用于煮水泡茶。 | Used to boil water for tea.'
   id: Kettle
   components:
   - type: Spillable
@@ -38,9 +38,9 @@
     price: 25
 
 - type: entity
-  name: paper cup
+  name: '纸杯 | paper cup'
   parent: DrinkBaseCup
-  description: A paper cup for drinks.
+  description: '一个用于饮用的纸杯。 | A paper cup for drinks.'
   id: PaperCup
   components:
   - type: Spillable
@@ -76,8 +76,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTeapotEmpty
-  name: teapot
-  description: An elegant teapot. It simply oozes class.
+  name: '茶壶 | teapot'
+  description: '一把优雅的茶壶。尽显非凡格调。 | An elegant teapot. It simply oozes class.'
   suffix: Empty
   components:
   - type: Sprite

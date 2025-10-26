@@ -3,10 +3,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: cyborg tether gun
+  name: '赛博格牵引枪 | cyborg tether gun'
   parent: BaseItem
   id: WeaponTetherGunBorg
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: '通过操纵物体周围引力使其高速弹射。 | Manipulates gravity around objects to fling them at high velocities.'
   components:
   - type: Item
     storedRotation: -90
@@ -39,10 +39,10 @@
           False: { visible: false }
 
 - type: entity
-  name: cyborg force gun
+  name: '赛博重力枪 | cyborg force gun'
   parent: BaseItem
   id: WeaponForceGunBorg
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: '操控物体周围重力使其高速弹射。 | Manipulates gravity around objects to fling them at high velocities.'
   components:
   - type: Item
     storedRotation: -90

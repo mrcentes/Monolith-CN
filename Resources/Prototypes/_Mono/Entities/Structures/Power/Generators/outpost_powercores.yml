@@ -6,8 +6,8 @@
 - type: entity
   id: MachineOutpostCore
   parent: BaseGenerator
-  name: B.R0-200k Bluespace Reactor
-  description: A modified FTL drive, safely refitted to release large amounts of power consistently.
+  name: 'B点R0至20万蓝空反应堆 | B.R0-200k Bluespace Reactor'
+  description: '经过安全改装的可释放持续大量能量的超光速引擎。 | A modified FTL drive, safely refitted to release large amounts of power consistently.'
   suffix: 200kw
   placement:
     mode: SnapgridCenter

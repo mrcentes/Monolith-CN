@@ -22,8 +22,8 @@
 
 - type: entity
   id: UnfinishedMachineFrame3x3
-  name: machine frame (3x3)
-  description: A machine under construction. Needs more parts.
+  name: '机器框架（3x3） | machine frame (3x3)'
+  description: '正在建造中的机器。需要更多零件。 | A machine under construction. Needs more parts.'
   suffix: Unfinished
   placement:
     mode: SnapgridCenter
@@ -81,7 +81,7 @@
 
 - type: entity
   id: MachineFrame3x3
-  name: machine frame (3x3)
+  name: '机器框架（3x3） | machine frame (3x3)'
   suffix: Ready
   placement:
     mode: SnapgridCenter
@@ -150,7 +150,7 @@
 - type: entity
   id: MachineFrameDestroyed3x3
   parent: BaseStructureDynamic
-  name: destroyed machine frame (3x3)
+  name: '损毁机械框架（3x3） | destroyed machine frame (3x3)'
   placement:
     mode: SnapgridCenter
   components:

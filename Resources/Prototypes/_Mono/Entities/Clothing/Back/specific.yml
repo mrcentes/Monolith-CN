@@ -7,8 +7,8 @@
 - type: entity
   parent: NFClothingBackpack
   id: ClothingBackpackUSSP
-  name: USSP backpack
-  description: This is evidently repurposed from some industrial use.
+  name: 'USSP背包 | USSP backpack'
+  description: '这显然是从某种工业用途改造而来。 | This is evidently repurposed from some industrial use.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Backpacks/ussp.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelUSSP
-  name: USSP duffel bag
-  description: This is evidently repurposed from some industrial use.
+  name: 'USSP行李袋 | USSP duffel bag'
+  description: '这显然是从某种工业用途改造而来。 | This is evidently repurposed from some industrial use.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Duffels/ussp.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelUSSP
-  name: USSP satchel
-  description: This is evidently repurposed from some industrial use.
+  name: 'USSP挎包 | USSP satchel'
+  description: '这显然是从某种工业用途改造而来。 | This is evidently repurposed from some industrial use.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Satchels/ussp.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: NFClothingBackpack
   id: ClothingBackpackTsfmc
-  name: TSFMC backpack
-  description: Part of a standard marine load bearing system.
+  name: 'TSFMC背包 | TSFMC backpack'
+  description: '标准海军陆战队承载系统组件。 | Part of a standard marine load bearing system.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Backpacks/tsfmc.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
   id: ClothingBackpackDuffelTsfmc
-  name: TSFMC duffel bag
-  description: Part of a standard marine load bearing system.
+  name: 'TSFMC帆布行李袋 | TSFMC duffel bag'
+  description: '标准海军陆战队负重系统组件。 | Part of a standard marine load bearing system.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Duffels/tsfmc.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelTsfmc
-  name: TSFMC satchel
-  description: Part of a standard marine load bearing system.
+  name: 'TSFMC 挎包 | TSFMC satchel'
+  description: '标准船用承重系统组件。 | Part of a standard marine load bearing system.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Satchels/tsfmc.rsi

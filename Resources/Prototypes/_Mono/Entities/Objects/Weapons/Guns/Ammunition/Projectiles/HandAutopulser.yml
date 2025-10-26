@@ -4,7 +4,7 @@
 
 - type: entity
   id: HandheldAutopulserProjectile
-  name: plasma projectile
+  name: '等离子体射弹 | plasma projectile'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

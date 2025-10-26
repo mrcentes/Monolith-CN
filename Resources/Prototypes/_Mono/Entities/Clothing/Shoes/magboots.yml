@@ -7,8 +7,8 @@
 - type: entity
   parent: [ClothingShoesBootsMagBase]
   id: ClothingShoesBootsMagDrakeIndustries
-  name: painted magboots
-  description: Yep, that's just repainted science boots.
+  name: '涂漆磁力靴 | painted magboots'
+  description: '嗯，那只是重新涂装的科研靴子。 | Yep, that''s just repainted science boots.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Shoes/Boots/magboots-drake_industries.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: [ClothingShoesBootsMagBase]
   id: ClothingShoesBootsMagVoid
-  name: voidboots
-  description: Magboots enhanced with bluespace tethering technology, allowing you to walk on the void of space.
+  name: '虚空靴 | voidboots'
+  description: '装备了蓝空间锚定技术的磁力靴，使您能够在宇宙虚空中行走。 | Magboots enhanced with bluespace tethering technology, allowing you to walk on the void of space.'
   components:
   - type: Magboots
     requiresGrid: false
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingShoesBootsMagAdv
   id: ClothingShoesBootsMagAsakim
-  name: pre-fracture magboots
-  description: State-of-the-art magnetic boots made for combat with advanced harnesses.
+  name: '预断裂磁力靴 | pre-fracture magboots'
+  description: '采用先进固定系统的最先进磁力作战靴。 | State-of-the-art magnetic boots made for combat with advanced harnesses.'
   components:
   - type: FootstepModifier
     footstepSoundCollection:
@@ -43,8 +43,8 @@
 - type: entity
   parent: [ClothingShoesBootsMagSyndie]
   id: ClothingShoesBootsMagAshen
-  name: tactical magboots
-  description: Tactical magnetic boots that have a heavy magnetic pull and integrated thrusters for boarding. It can hold 0.75 L of gas.
+  name: '战术磁力靴 | tactical magboots'
+  description: '战术磁力靴具备强磁吸力和集成推进器，适用于登船作业。可容纳0.75升气体。 | Tactical magnetic boots that have a heavy magnetic pull and integrated thrusters for boarding. It can hold 0.75 L of gas.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Shoes/Boots/magboots-ashen.rsi

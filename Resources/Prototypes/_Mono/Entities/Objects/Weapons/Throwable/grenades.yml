@@ -6,8 +6,8 @@
 - type: entity
   parent: SmokeGrenade # Frontier: removed BaseEngineeringContraband
   id: NanolaminateFoamGrenade
-  name: nanolaminate foam grenade
-  description: An advanced version of a metal foam grenade. Instead of aluminium, the foam grows a nano-reinforced alloy in a large area, capable of sustaining much more damage than aluminium.
+  name: '纳米层压泡沫手榴弹 | nanolaminate foam grenade'
+  description: '金属泡沫手榴弹的进阶版本。该武器不再使用铝材料，而是能在广阔区域生成纳米增强合金泡沫，其抗损伤能力远超铝质泡沫。 | An advanced version of a metal foam grenade. Instead of aluminium, the foam grows a nano-reinforced alloy in a large area, capable of sustaining much more damage than aluminium.'
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/metalfoam.rsi
@@ -20,7 +20,7 @@
 
 - type: entity
   id: NanolaminateFoam
-  name: nanolaminate foam
+  name: '纳米层压泡沫 | nanolaminate foam'
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -29,8 +29,8 @@
 
 - type: entity
   id: FoamedNanolaminateMetal
-  name: foamed nanolaminate
-  description: "For sealing hull breaches."
+  name: '发泡纳米层压板 | foamed nanolaminate'
+  description: '用于密封船体裂缝。 | For sealing hull breaches.'
   parent: BaseFoamedMetal
   components:
   - type: Sprite

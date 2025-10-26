@@ -10,9 +10,9 @@
 - type: entity
   parent: BaseItem
   id: TechDiskBase
-  name: tech disk
+  name: '科技磁盘 | tech disk'
   suffix: DO NOT MAP
-  description: A disk capable of adding a specific research to a server.
+  description: '能够为服务器添加特定研究的技术磁盘。 | A disk capable of adding a specific research to a server.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Specific/Research/researchdisk.rsi

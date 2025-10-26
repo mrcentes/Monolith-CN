@@ -5,7 +5,7 @@
 
 - type: entity
   id: WeaponTurretLaserTSFMC
-  name: laser turret
+  name: '激光炮塔 | laser turret'
   suffix: TSFMC
   parent:
   - BaseTurretSearchBeam
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseWeaponTurretNF
   id: BaseMk290Sentry
-  name: MK-290 Sentry
-  description:
+  name: 'MK-290哨兵 | MK-290 Sentry'
+  description: MK-290哨兵 | 
     The MK-290 deployable sentry system designed in the old United Nations of Earth, and serving continued use with the TSF armed forces.
     Feeds from any 762x39mm magazine, however recent upgrades have allowed it to use 6.8x52mm caseless and 556x45mm to comply with TSF standard.
   abstract: true
@@ -96,7 +96,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine762x39mmBox
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -133,7 +133,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: null
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -167,8 +167,8 @@
 
 - type: entity # folded turret
   id: WeaponTurretMk290Packed
-  name: packed MK-290
-  description: A disassembled and packed MK-290 sentry system.
+  name: '已打包MK-290 | packed MK-290'
+  description: '一套拆解封装的MK-290哨戒系统。 | A disassembled and packed MK-290 sentry system.'
   suffix: TSFMC, Packed
   parent:
   - BaseC2ContrabandUnredeemable

@@ -5,8 +5,8 @@
 - type: entity
   id: MachineCarpCaller
   parent: [BaseMachinePowered, ConstructibleMachine]
-  name: carp caller
-  description: A device that seems interesting to wild space carp.
+  name: '鲤鱼召唤器 | carp caller'
+  description: '一种对野生太空鲤颇具吸引力的装置。 | A device that seems interesting to wild space carp.'
   components:
   - type: Fixtures
     fixtures:

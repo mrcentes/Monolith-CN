@@ -8,7 +8,7 @@ hypospray-volume-label = Volume: [color=white]{$currentVolume}/{$totalVolume}u[/
 
 ## Entity
 
-hypospray-component-inject-other-message = You inject {$other}.
+hypospray-component-inject-other-message = You inject {THE($other)}.
 hypospray-component-inject-self-message = You inject yourself.
 hypospray-component-inject-self-clumsy-message = Oops! You injected yourself.
 hypospray-component-empty-message = Nothing to inject.

@@ -22,7 +22,7 @@
 
 - type: entity
   id: Bullet8x65mmSKR
-  name: bullet (8x65mm SKR)
+  name: '子弹（8x65毫米SKR） | bullet (8x65mm SKR)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: Bullet8x65mmSKRPractice
-  name: bullet (8x65mm SKR practice)
+  name: '子弹（8x65毫米SKR练习弹） | bullet (8x65mm SKR practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -46,7 +46,7 @@
 - type: entity
   id: Bullet8x65mmSKRIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (8x65mm SKR incendiary)
+  name: '子弹（8x65毫米SKR燃烧弹） | bullet (8x65mm SKR incendiary)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

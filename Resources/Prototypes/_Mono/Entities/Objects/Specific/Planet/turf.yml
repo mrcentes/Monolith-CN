@@ -4,9 +4,9 @@
 
 - type: entity
   id: DesertStone
-  name: rock
+  name: '石头 | rock'
   parent: BaseItem
-  description: Its a stone.
+  description: '这是石头。 | Its a stone.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Misc/desert_stone.rsi
@@ -31,9 +31,9 @@
 
 - type: entity
   id: DesertSand
-  name: sand
+  name: '沙子 | sand'
   parent: BaseItem
-  description: Its just some sand.
+  description: '这不过是些沙子。 | Its just some sand.'
   suffix: Full
   components:
   - type: Sprite
@@ -89,7 +89,7 @@
             max: 5
 
 - type: entity
-  name: sand
+  name: '沙子 | sand'
   id: hydroponicsSand
   parent: hydroponicsSoil
   placement:
@@ -105,8 +105,8 @@
 
 - type: construction
   id: Sand
-  name: sand pile
-  description: Somehow works as a growing spot.
+  name: '沙堆 | sand pile'
+  description: '不知为何能作为生长点使用。 | Somehow works as a growing spot.'
   graph: SandGraph
   startNode: start
   targetNode: SandNode
@@ -133,7 +133,7 @@
       - !type:SnapToGrid { }
       steps:
       - tag: SandMaterial
-        name: desert sand
+        name: '沙漠之沙 | desert sand'
         icon:
           sprite: _Mono/Objects/Misc/desert_sand.rsi
           state: icon

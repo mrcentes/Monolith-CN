@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazine635x40mmCaseless
-  name: "magazine (635x40mm Caseless)"
+  name: '杂志（635x40毫米无弹壳） | magazine (635x40mm Caseless)'
   parent: [ BaseCartridge, BaseC3SyndicateContrabandNoValue, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC3SyndicateContraband, added RecyclableItemSteelTiny
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: BaseMagazine635x40mmCaselessShort
-  name: "caseless rifle short magazine (635x40mm Caseless)"
+  name: '无壳步枪短弹匣（635x40毫米无壳弹） | caseless rifle short magazine (635x40mm Caseless)'
   parent: BaseMagazine635x40mmCaseless
   abstract: true
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   id: BaseMagazine635x40mmCaselessPistol
-  name: "pistol magazine (635x40mm Caseless)"
+  name: '手枪弹匣（635x40毫米无壳弹） | pistol magazine (635x40mm Caseless)'
   parent: BaseMagazine635x40mmCaseless
   abstract: true
   components:
@@ -83,7 +83,7 @@
 
 - type: entity
   id: Magazine635x40mmCaselessBig
-  name: "box magazine (635x40mm Caseless)"
+  name: '盒式弹匣（635x40毫米无壳弹） | box magazine (635x40mm Caseless)'
   parent: BaseMagazine635x40mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -98,7 +98,7 @@
 
 - type: entity
   id: Magazine635x40mmCaselessPistol
-  name: "pistol magazine (635x40mm Caseless)"
+  name: '手枪弹匣（635x40毫米无壳弹） | pistol magazine (635x40mm Caseless)'
   parent: BaseMagazine635x40mmCaselessPistol
   components:
   - type: BallisticAmmoProvider
@@ -118,7 +118,7 @@
 
 - type: entity
   id: Magazine635x40mmCaselessPistolPractice
-  name: "pistol magazine (635x40mm Caseless practice)"
+  name: '手枪弹匣（635x40毫米无壳练习弹） | pistol magazine (635x40mm Caseless practice)'
   parent: BaseMagazine635x40mmCaselessPistol
   components:
   - type: BallisticAmmoProvider
@@ -138,7 +138,7 @@
 
 - type: entity
   id: Magazine635x40mmCaseless
-  name: "magazine (635x40mm Caseless)"
+  name: '杂志（635x40毫米无弹壳） | magazine (635x40mm Caseless)'
   parent: BaseMagazine635x40mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -152,7 +152,7 @@
 
 - type: entity
   id: Magazine635x40mmCaselessRubber
-  name: "magazine (635x40mm Caseless)"
+  name: '杂志（635x40毫米无弹壳） | magazine (635x40mm Caseless)'
   parent: BaseMagazine635x40mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -166,7 +166,7 @@
 
 - type: entity
   id: Magazine635x40mmCaselessPractice
-  name: "magazine (635x40mm Caseless practice)"
+  name: '杂志（635x40毫米无壳练习弹） | magazine (635x40mm Caseless practice)'
   parent: BaseMagazine635x40mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -180,7 +180,7 @@
 
 - type: entity
   id: Magazine635x40mmCaselessShort
-  name: "short magazine (635x40mm Caseless)"
+  name: '短弹匣（635x40毫米无弹壳） | short magazine (635x40mm Caseless)'
   parent: BaseMagazine635x40mmCaselessShort
   components:
   - type: BallisticAmmoProvider
@@ -195,7 +195,7 @@
 
 - type: entity
   id: Magazine635x40mmCaselessShortPractice
-  name: "short magazine (635x40mm Caseless practice)"
+  name: '短弹匣（635x40毫米无壳练习弹） | short magazine (635x40mm Caseless practice)'
   parent: BaseMagazine635x40mmCaselessShort
   components:
   - type: BallisticAmmoProvider

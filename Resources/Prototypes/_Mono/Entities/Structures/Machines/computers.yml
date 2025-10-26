@@ -1,8 +1,8 @@
 - type: entity
   id: StationAiUploadComputerUnlocked
   parent: StationAiUploadComputer
-  name: AI upload console
-  description: Used to update the laws of the vessel AI.
+  name: 'AI上传控制台 | AI upload console'
+  description: '用于更新舰载人工智能的法则。 | Used to update the laws of the vessel AI.'
   suffix: Unlocked
   components:
   - type: Computer

@@ -6,8 +6,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtTAF
-  name: trauma armed forces jumpskirt
-  description: Standard fatigues of the Trauma Armed Forces.
+  name: '创伤武装部队标准制服短裙 | trauma armed forces jumpskirt'
+  description: '创伤武装部队标准作训服。 | Standard fatigues of the Trauma Armed Forces.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpskirt/trauma.rsi

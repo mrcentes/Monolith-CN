@@ -24,7 +24,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   id: Bullet145x114mm
-  name: bullet (14.5x114mm)
+  name: '14、5毫米乘114毫米子弹 | bullet (14.5x114mm)'
   components:
   - type: Projectile
     damage:

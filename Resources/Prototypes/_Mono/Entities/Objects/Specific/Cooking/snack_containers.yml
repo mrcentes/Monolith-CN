@@ -6,8 +6,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxBiscuitSimple
-  name: Simple Biscuit Box
-  description: A box containing simple biscuits. Perfect for a snack!
+  name: '简易饼干盒 | Simple Biscuit Box'
+  description: '装有简易饼干的盒子。非常适合作为零食！ | A box containing simple biscuits. Perfect for a snack!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/cookiebox.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxBiscuitSugar
-  name: Sugar Biscuit Box
-  description: A box containing sugar biscuits. Perfect for a snack!
+  name: '糖饼干盒 | Sugar Biscuit Box'
+  description: '装有糖霜饼干的小盒子。非常适合作为零食！ | A box containing sugar biscuits. Perfect for a snack!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/cookiebox.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: FoodBoxBiscuitOatmeal
-  name: Oatmeal Biscuit Box
-  description: A box containing oatmeal biscuit. Perfect for a snack!
+  name: '燕麦饼干盒 | Oatmeal Biscuit Box'
+  description: '一盒包含燕麦饼干。非常适合作为零食！ | A box containing oatmeal biscuit. Perfect for a snack!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/cookiebox.rsi

@@ -3,10 +3,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: MRE prepacked sustenance bar
+  name: 'MRE预包装营养棒 | MRE prepacked sustenance bar'
   parent: BaseItem
   id: FoodMREPSB
-  description: A side of slop-bar to your MRE.
+  description: '配给餐附带的营养能量棒。 | A side of slop-bar to your MRE.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/mre_bar.rsi
@@ -54,11 +54,11 @@
     - Meat
 
 - type: entity
-  name: neapolitan sustenance bar
+  name: '那不勒斯营养棒 | neapolitan sustenance bar'
   parent: FoodMREPSBBase
   id: FoodMREPSBBarNeapolitan
   suffix: MRE
-  description: "A tasty sustenance bar. This one is neapolitan flavored: strawberry, vanilla, and chocolate."
+  description: '美味营养棒。这款为那不勒斯风味：草莓、香草与巧克力三重奏。 | A tasty sustenance bar. This one is neapolitan flavored: strawberry, vanilla, and chocolate.'
   components:
   - type: FlavorProfile
     flavors:
@@ -70,11 +70,11 @@
   - type: Item
 
 - type: entity
-  name: meat sustenance bar
+  name: '肉类营养棒 | meat sustenance bar'
   parent: FoodMREPSBBase
   id: FoodMREPSBBarMeat
   suffix: MRE
-  description: "A tasty sustenance bar. This one is meat and pepper flavored."
+  description: '美味补给棒。这款是肉椒风味。 | A tasty sustenance bar. This one is meat and pepper flavored.'
   components:
   - type: FlavorProfile
     flavors:
@@ -85,11 +85,11 @@
   - type: Item
 
 - type: entity
-  name: banana sustenance bar
+  name: '香蕉营养棒 | banana sustenance bar'
   parent: FoodMREPSBBase
   id: FoodMREPSBBarBanana
   suffix: MRE
-  description: "A tasty sustenance bar. This one is banana milkshake flavored: banana and milk."
+  description: '一款美味营养棒。这款是香蕉奶昔口味：香蕉与牛奶风味。 | A tasty sustenance bar. This one is banana milkshake flavored: banana and milk.'
   components:
   - type: FlavorProfile
     flavors:
@@ -100,11 +100,11 @@
   - type: Item
 
 - type: entity
-  name: brownie sustenance bar
+  name: '布朗尼营养棒 | brownie sustenance bar'
   parent: FoodMREPSBBase
   id: FoodMREPSBBarBrownie
   suffix: MRE
-  description: A tasty sustenance bar. This one is brownie flavored.
+  description: '美味营养棒。这款是布朗尼口味。 | A tasty sustenance bar. This one is brownie flavored.'
   components:
   - type: FlavorProfile
     flavors:
@@ -116,8 +116,8 @@
 - type: entity
   id: FoodSnackNutribrickMRE
   parent: FoodSnackNutribrick
-  name: MRE nutribrick
-  description: A carefully synthesized brick designed to contain the highest ratio of nutriment to volume. Might not taste like shit.
+  name: 'MRE营养压缩砖 | MRE nutribrick'
+  description: '精心合成的营养砖块，旨在实现营养与体积的最高比例。或许尝起来不会像糟粕。 | A carefully synthesized brick designed to contain the highest ratio of nutriment to volume. Might not taste like shit.'
   components:
   - type: Tag
     tags:
@@ -135,8 +135,8 @@
 - type: entity
   id: FoodSnackEnergyMRE
   parent: FoodSnackEnergy
-  name: MRE energy bar
-  description: An individually-wrapped energy bar.
+  name: '单兵即食能量棒 | MRE energy bar'
+  description: '独立包装的能量棒。 | An individually-wrapped energy bar.'
   components:
   - type: Tag
     tags:

@@ -7,10 +7,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: Big Leady (4 gauge)
+  name: '大铅弹（4号径） | Big Leady (4 gauge)'
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC3SyndicateContraband]
   id: WeaponShotgunBigLeady
-  description: A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant.
+  description: '一把巨型4号口径霰弹枪，专为消灭自动炮以下任何口径无法摧毁的目标而制造。 | A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant.'
   components: # intend for BigLeady to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     size: Normal
@@ -43,10 +43,10 @@
     vendPrice: 42300
 
 - type: entity
-  name: Big Johnny (4 gauge)
+  name: '大块头约翰尼（四号径） | Big Johnny (4 gauge)'
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC1Contraband]
   id: WeaponShotgunBigJohnny
-  description: A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant. This one is outfitted with various tactical additions and is made for CQC at the cost of low ammo capacity.
+  description: '一把巨型4号口径霰弹枪，专为消灭自动炮以下任何口径无法应对的目标而生。这款武器配备多种战术配件，专为近战设计，但代价是弹药容量较低。 | A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant. This one is outfitted with various tactical additions and is made for CQC at the cost of low ammo capacity.'
   components: # intend for BigLeady to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     size: Normal
@@ -82,10 +82,10 @@
     defaultColor: "#FF0000"
 
 - type: entity
-  name: Big Buddy (4 gauge)
+  name: '大伙伴（四号径） | Big Buddy (4 gauge)'
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC3SyndicateContraband]
   id: WeaponShotgunBigBuddy
-  description: A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant.
+  description: '一把巨型4号口径霰弹枪，专为消灭自动炮以下任何口径无法击杀的目标而制造。 | A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant.'
   components: # intend for BigBuddy to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     size: Normal
@@ -118,10 +118,10 @@
     vendPrice: 42300
 
 - type: entity
-  name: UW12-B Helopolis (12 gauge)
+  name: 'UW12-B赫利奥波利斯（12号口径） | UW12-B Helopolis (12 gauge)'
   parent: [BaseWeaponShotgun, BaseC1Contraband]
   id: WeaponShotgunHelopolis
-  description: The Union Wrightworks 12-gauge breaching model "Helopolis", a compact shotgun that sacrifices all combat ergonomics to better serve as a breaching tool. Breaks doors with slugs. Combat use unadvised.
+  description: '联合莱特工厂12号径破门型号「赫利奥波利斯」，一款紧凑型霰弹枪，为更好地充当破门工具而完全牺牲战斗人体工学。使用独头弹破门。不建议用于战斗。 | The Union Wrightworks 12-gauge breaching model "Helopolis", a compact shotgun that sacrifices all combat ergonomics to better serve as a breaching tool. Breaks doors with slugs. Combat use unadvised.'
   components:
   - type: Item
     size: Normal

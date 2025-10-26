@@ -13,8 +13,8 @@ admin-fax-stamp = Stamp icon:
 admin-fax-stamp-color = Stamp color:
 admin-fax-send = Send
 # Frontier: edit lock page 
-admin-fax-lock-page = Lock Page (uneditable)
-admin-fax-lock-page-tooltip = Lock the paper such that it cannot be edited at all.
+admin-fax-lock-page = Lock Page
+admin-fax-lock-page-tooltip = Lock the paper such that it cannot be edited even by things such as cybersun pens.
 # End Frontier
 
 # Frontier: stamp protection

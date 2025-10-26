@@ -1,6 +1,6 @@
 - type: entity
   id: SpeedLoader762x39mmFMJ
-  name: "speed loader (7.62x39mm FMJ)"
+  name: '7.62x39毫米全金属被甲弹快速装弹器 | speed loader (7.62x39mm FMJ)'
   parent: [ BaseItem, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   components:
   - type: Tag

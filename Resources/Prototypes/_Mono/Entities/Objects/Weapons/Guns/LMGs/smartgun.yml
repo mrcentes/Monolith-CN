@@ -3,10 +3,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: SKR-WS MLA-79 smart LMG (.160 smart)
+  name: 'SKR-WS MLA-79智能轻机枪（点160智能型） | SKR-WS MLA-79 smart LMG (.160 smart)'
   parent: [BaseWeaponLightMachineGun, BaseGunWieldable, BaseC2Contraband]
   id: WeaponSmartLmg
-  description: A military prototype that saw rare use in front-lines field testing. This is a refined version for standard production.
+  description: '一款在前线实地测试中罕见使用的军用原型。这是为标准化生产而优化的改良版本。 | A military prototype that saw rare use in front-lines field testing. This is a refined version for standard production.'
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml79a.rsi
@@ -34,7 +34,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: MagazineSmartLMG
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
@@ -44,7 +44,7 @@
           - MagazineSmartLMG
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: CartridgeSmart
         priority: 1
         whitelist:

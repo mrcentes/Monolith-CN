@@ -6,7 +6,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: CarpCallerMachineCircuitboard
-  name: carp caller machine board
+  name: '鲤鱼呼叫器机板 | carp caller machine board'
   components:
   - type: Sprite
     state: science
@@ -21,7 +21,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: ContainmentFieldGeneratorCircuitboard
-  name: containment field generator machine board
+  name: '围护场发电机板 | containment field generator machine board'
   components:
   - type: Sprite
     state: engineering
@@ -35,8 +35,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: SmartfridgeCircuitboard
-  name: smartfridge machine board
-  description: A machine printed circuit board for a smartfridge.
+  name: '智能冰箱机板 | smartfridge machine board'
+  description: '智能冰箱的机器印刷电路板。 | A machine printed circuit board for a smartfridge.'
   components:
   - type: MachineBoard
     prototype: SmartFridge

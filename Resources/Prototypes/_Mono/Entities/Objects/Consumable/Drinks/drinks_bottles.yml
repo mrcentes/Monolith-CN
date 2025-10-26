@@ -7,8 +7,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkIceCreamJug
-  name: ice cream jug
-  description: A jug full of sweet, homemade ice cream.
+  name: '冰淇淋罐 | ice cream jug'
+  description: '装满甜滋滋自制冰淇淋的壶。 | A jug full of sweet, homemade ice cream.'
   components:
   - type: SolutionContainerManager
     solutions:
@@ -24,8 +24,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkRootBearFloatJug
-  name: root beer float jug
-  description: Root beer, but now with ice cream on top. It truly is the magnum opus of Canadian summertime drinks.
+  name: '漂浮沙士壶 | root beer float jug'
+  description: '根汁啤酒，但如今顶部加上了冰淇淋。这确实是加拿大夏日饮品的巅峰之作。 | Root beer, but now with ice cream on top. It truly is the magnum opus of Canadian summertime drinks.'
   components:
   - type: SolutionContainerManager
     solutions:
@@ -41,9 +41,9 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkBeerCervezaCristalFull
-  name: cerveza cristal bottle
+  name: '水晶啤酒瓶 | cerveza cristal bottle'
   suffix: Admeme
-  description: A suspiciously cheap lager in a brown bottle. Emits a triumphant 'CERVEZA CRISTAAAL' when opened, as if it just won a prize for existing.
+  description: '装在棕色瓶中的廉价拉格啤酒，开瓶时会发出胜利般的呐喊声——塞维萨克里斯塔阿尔，仿佛因自身存在而获奖。 | A suspiciously cheap lager in a brown bottle. Emits a triumphant ''CERVEZA CRISTAAAL'' when opened, as if it just won a prize for existing.'
   components:
   - type: Item
     size: Small

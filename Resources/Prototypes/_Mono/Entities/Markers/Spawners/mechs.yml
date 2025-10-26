@@ -53,7 +53,7 @@
     - LightMechaSMG
 
 - type: entity
-  name: AF-28 Broadsword Spawner
+  name: 'AF28阔剑生成器 | AF-28 Broadsword Spawner'
   suffix: Filled
   id: SpawnMechAFInterceptorFilled
   parent: MarkerBase
@@ -66,7 +66,7 @@
     - AFInterceptorFilled
 
 - type: entity
-  name: AF-28-M Halberd Spawner
+  name: 'AF-28-M 戟兵生成器 | AF-28-M Halberd Spawner'
   suffix: Filled
   id: SpawnMechAFInterceptorMFilled
   parent: MarkerBase
@@ -79,7 +79,7 @@
     - AFInterceptorMFilled
 
 - type: entity
-  name: AF-28-G Sabre Spawner
+  name: 'AF-28-G军刀生成器 | AF-28-G Sabre Spawner'
   suffix: Filled
   id: SpawnMechAFInterceptorGFilled
   parent: MarkerBase

@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTSFMC
-  name: TSFMC type-45U combat uniform
-  description: A combat uniform in TSF Type-45U urban camouflage. Its outfitted with a blue TSF flag armband.
+  name: 'TSFMC型45U作战制服 | TSFMC type-45U combat uniform'
+  description: '一件采用TSF 45U型城市迷彩的战斗服。其配备有蓝色TSF标志臂章。 | A combat uniform in TSF Type-45U urban camouflage. Its outfitted with a blue TSF flag armband.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/tsfmc.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTSFMCDesert
-  name: TSFMC type-47D combat uniform
-  description: A combat uniform in TSF Type-47D desert camouflage. Its outfitted with a blue TSF flag armband.
+  name: 'TSFMC 47D型作战服 | TSFMC type-47D combat uniform'
+  description: '一件采用TSF 47-D型沙漠迷彩的战斗制服。该制服配备了蓝色TSF旗帜臂章。 | A combat uniform in TSF Type-47D desert camouflage. Its outfitted with a blue TSF flag armband.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/tsfmc_digital.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTsfmcMopp
-  name: TSFMC type-49C MOPP suit
-  description: A heavy protective suit. It'll slow you down a bit, but it'll make sure nothing you don't want gets in your body. Be the bane of all Chimeras.
+  name: 'TSFMC型49C化学防护服 | TSFMC type-49C MOPP suit'
+  description: '一件重型防护服。它会让你行动稍显迟缓，但能确保任何有害物质都无法侵入你的身体。成为所有奇美拉族群的克星。 | A heavy protective suit. It''ll slow you down a bit, but it''ll make sure nothing you don''t want gets in your body. Be the bane of all Chimeras.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/mopp-tsfmc.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTSFMCEngi
-  name: TSFMC engineer uniform
-  description: A combat uniform in TSF Type-45U urban camouflage. It has high-vis markings for engineers.
+  name: 'TSFMC工程师制服 | TSFMC engineer uniform'
+  description: '一件采用TSF四十五型城市迷彩的战斗服。带有工程师专用高可视度标识。 | A combat uniform in TSF Type-45U urban camouflage. It has high-vis markings for engineers.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/tsfmcengi.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformUSSP
-  name: USSP uniform
-  description: Standard fatigues of the USSP military.
+  name: 'USSP军服 | USSP uniform'
+  description: 'USSP军队的标准作训服。 | Standard fatigues of the USSP military.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/ussp.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformRogue
-  name: rogue field suit
-  description: A matte black tactical outfit worn by independent agents working on contracts. The red armband marks affiliation—loose as it may be.
+  name: '浪人野战服 | rogue field suit'
+  description: '哑光黑色战术服，由独立合约特工穿着。红色臂章标志着其隶属关系——尽管可能相当松散。 | A matte black tactical outfit worn by independent agents working on contracts. The red armband marks affiliation—loose as it may be.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/rogue/tactical.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformRoguePants
-  name: rogue field pants
-  description: A matte black tactical outfit worn by independent agents working on contracts. The red ar- wait it's just the pants?
+  name: '浪客野战长裤 | rogue field pants'
+  description: '一套哑光黑色战术装束，由独立合约特工穿着。红色装——等等，这仅仅是裤子？ | A matte black tactical outfit worn by independent agents working on contracts. The red ar- wait it''s just the pants?'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/rogue/shirtless.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformRogueJeans
-  name: rogue field suit (jeans)
-  description: A matte black shirt paired with jeans. Worn by independent agents who prefer fieldwork with a bit more flexibility. The red armband still signals uncertain allegiance.
+  name: '浪客野战服（牛仔裤款） | rogue field suit (jeans)'
+  description: '哑光黑衬衫搭配牛仔裤。专为偏好更灵活实地工作的独立特工设计。红色臂章仍暗示着立场未明。 | A matte black shirt paired with jeans. Worn by independent agents who prefer fieldwork with a bit more flexibility. The red armband still signals uncertain allegiance.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/rogue/tactical_jeans.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformRogueCargos
-  name: rogue field suit (cargos)
-  description: A matte black tactical top combined with durable brown cargo pants, suited for terrain-heavy contracts. Independent agents favor this blend of function and subtle defiance. The red armband stays—barely.
+  name: '浪客野战服（工装裤款） | rogue field suit (cargos)'
+  description: '哑光黑色战术上衣搭配耐磨棕色工装裤，专为复杂地形任务设计。独立行动者钟爱这种实用性与低调不羁的融合。红色臂章勉强得以保留。 | A matte black tactical top combined with durable brown cargo pants, suited for terrain-heavy contracts. Independent agents favor this blend of function and subtle defiance. The red armband stays—barely.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/rogue/tactical_cargo.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformRogueWarm
-  name: rogue warm field suit
-  description: A heavily insulated variant of the rogue field suit, lined for extreme environments. Built for survival without compromise.
+  name: '盗野战地保温服 | rogue warm field suit'
+  description: '一款高度绝缘的浪人野战服变体，专为极端环境加衬打造。为无妥协生存而生。 | A heavily insulated variant of the rogue field suit, lined for extreme environments. Built for survival without compromise.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/rogue/warm.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitATU
-  name: armed trauma unit jumpsuit
-  description: Standard fatigues of the Armed Trauma Unit.
+  name: '武装创伤部队标准作训服 | armed trauma unit jumpsuit'
+  description: '武装创伤部队的标准作训服。 | Standard fatigues of the Armed Trauma Unit.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/trauma.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformDrakeIndustriesHauler
-  name: hauler jumpsuit
-  description: Durable overalls with zippers here and there. It bears the colors of Drake Industries.
+  name: '搬运工连体服 | hauler jumpsuit'
+  description: '耐用的工装裤上零星点缀着拉链，采用了德雷克工业的标志性配色。 | Durable overalls with zippers here and there. It bears the colors of Drake Industries.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/di-hauler.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformDrakeIndustriesTrucker
-  name: trucker jumpsuit
-  description: This one has pocket for your smokes. Oh wait, no, it's a false pocket. Well, at least it's fashionable. It bears the colors of Drake Industries.
+  name: '卡车司机连体裤 | trucker jumpsuit'
+  description: '这件工装裤有个装烟的口袋。哦等等，不对，是个假口袋。不过至少很时髦。它带着德雷克工业的标志色。 | This one has pocket for your smokes. Oh wait, no, it''s a false pocket. Well, at least it''s fashionable. It bears the colors of Drake Industries.'
   suffix: Military
   components:
   - type: Sprite
@@ -252,8 +252,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformDrakeIndustriesWatchdog
-  name: watchdog jumpsuit
-  description: A sleek tracksuit designed to have decent camouflage in dark spaces. It bears the colors of Drake Industries.
+  name: '监察者连体服 | watchdog jumpsuit'
+  description: '一款流线型运动服，在黑暗空间中具备良好伪装效果。采用德雷克工业的标志性配色。 | A sleek tracksuit designed to have decent camouflage in dark spaces. It bears the colors of Drake Industries.'
   suffix: Military
   components:
   - type: Sprite
@@ -304,8 +304,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitCCEBasic
-  name: CCE combat uniform (basic)
-  description: Woodland CCE camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.
+  name: 'CCE作战制服（基础款） | CCE combat uniform (basic)'
+  description: '林地CCE迷彩作战服。太空迷彩款…这件轻度使用过，仍保留原始迷彩图案。 | Woodland CCE camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.'
   components:
   - type: StaticPrice
     price: 700
@@ -321,8 +321,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitCCEWorn
-  name: CCE combat uniform (worn)
-  description: Woodland CCE camouflaged combat suit. Camo in space... This one has been used quite a lot and has darkenned over time.
+  name: 'CCE作战制服（已穿着） | CCE combat uniform (worn)'
+  description: '林地CCE迷彩作战服。太空迷彩款……这件使用痕迹明显，因年代久远颜色已加深。 | Woodland CCE camouflaged combat suit. Camo in space... This one has been used quite a lot and has darkenned over time.'
   components:
   - type: StaticPrice
     price: 700
@@ -338,8 +338,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitCCEBleached
-  name: CCE combat uniform (bleached)
-  description: Woodland CCE camouflaged combat suit. Camo in space... This one has been bleached for some reasons.
+  name: 'CCE作战制服（漂白款） | CCE combat uniform (bleached)'
+  description: '林地CCE迷彩作战服。太空迷彩款…这件因某些原因被漂白了。 | Woodland CCE camouflaged combat suit. Camo in space... This one has been bleached for some reasons.'
   components:
   - type: StaticPrice
     price: 700
@@ -355,8 +355,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitCCEDesert
-  name: CCE combat uniform (desert)
-  description: Desert CCE camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.
+  name: 'CCE作战制服（沙漠款） | CCE combat uniform (desert)'
+  description: '沙漠CCE迷彩作战服。太空迷彩款…这件轻度使用，保留原始迷彩图案。 | Desert CCE camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.'
   components:
   - type: StaticPrice
     price: 700
@@ -372,8 +372,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitGrassland
-  name: Grassland combat uniform
-  description: Grassland camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.
+  name: '草原作战制服 | Grassland combat uniform'
+  description: '草原迷彩作战服。太空迷彩款…此件轻度使用，保留原始迷彩图案。 | Grassland camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.'
   components:
   - type: StaticPrice
     price: 700
@@ -389,8 +389,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitMudland
-  name: Mudland combat uniform
-  description: Mudland camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.
+  name: '泥地作战制服 | Mudland combat uniform'
+  description: '泥地迷彩作战服。太空迷彩款…此件轻度使用，保留原始迷彩图案。 | Mudland camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.'
   components:
   - type: StaticPrice
     price: 700
@@ -406,8 +406,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitMisko
-  name: Misko combat uniform
-  description: Misko camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.
+  name: '米斯科战斗制服 | Misko combat uniform'
+  description: '米斯科迷彩战斗服。太空迷彩款…此件轻度使用，保留原始迷彩图案。 | Misko camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.'
   components:
   - type: StaticPrice
     price: 700
@@ -423,8 +423,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitLampartFlag
-  name: Lampart combat uniform
-  description: Lampart camouflaged combat suit with some odd flag stitched to it. Camo in space... This one has been lightly used and retain its original camo.
+  name: 'Lampart作战制服 | Lampart combat uniform'
+  description: '带有奇怪缝制旗帜的 Lampart 迷彩作战服。太空迷彩…这件轻度使用过，仍保留原始迷彩图案。 | Lampart camouflaged combat suit with some odd flag stitched to it. Camo in space... This one has been lightly used and retain its original camo.'
   components:
   - type: StaticPrice
     price: 700
@@ -440,8 +440,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitLampart
-  name: Lampart combat uniform
-  description: Lampart camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.
+  name: 'Lampart作战制服 | Lampart combat uniform'
+  description: 'Lampart迷彩战斗服。太空迷彩款…这件轻度使用且保留原始迷彩。 | Lampart camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.'
   components:
   - type: StaticPrice
     price: 700
@@ -457,8 +457,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitSummerFloraFlag
-  name: Summer flora combat uniform
-  description: Summer flora camouflaged combat suit with some odd flag stitched to it. Camo in space... This one has been lightly used and retain its original camo.
+  name: '夏季花卉迷彩作战服 | Summer flora combat uniform'
+  description: '夏季植物迷彩作战服上缝着些奇怪的旗帜。太空迷彩…这件使用程度较轻，仍保持着原始迷彩图案。 | Summer flora camouflaged combat suit with some odd flag stitched to it. Camo in space... This one has been lightly used and retain its original camo.'
   components:
   - type: StaticPrice
     price: 700
@@ -474,8 +474,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitSummerFlora
-  name: Summer flora combat uniform
-  description: Summer flora camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.
+  name: '夏季植物迷彩作战服 | Summer flora combat uniform'
+  description: '夏季植物迷彩作战服。太空迷彩款…此件轻度使用，保留原始迷彩图案。 | Summer flora camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.'
   components:
   - type: StaticPrice
     price: 700
@@ -491,8 +491,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitUrbanWhite
-  name: white urban combat uniform
-  description: Misko camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.
+  name: '白色城市作战制服 | white urban combat uniform'
+  description: '米斯柯迷彩作战服。太空迷彩款…此套轻度使用，保留原始迷彩图案。 | Misko camouflaged combat suit. Camo in space... This one has been lightly used and retain its original camo.'
   components:
   - type: StaticPrice
     price: 700
@@ -508,8 +508,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitDigitalBlack
-  name: black digital combat uniform
-  description: Digital camouflaged combat suit. Camo in space...
+  name: '黑色数码作战制服 | black digital combat uniform'
+  description: '数码迷彩作战服。太空迷彩… | Digital camouflaged combat suit. Camo in space...'
   components:
   - type: StaticPrice
     price: 700
@@ -530,8 +530,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitDigitalBlue
-  name: blue digital combat uniform
-  description: Digital camouflaged combat suit. Camo in space...
+  name: '蓝色数码作战服 | blue digital combat uniform'
+  description: '数码迷彩作战服。太空迷彩… | Digital camouflaged combat suit. Camo in space...'
   components:
   - type: StaticPrice
     price: 700
@@ -547,8 +547,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitDigitalRed
-  name: red digital combat uniform
-  description: Digital camouflaged combat suit. Camo in space...
+  name: '红色数码作战服 | red digital combat uniform'
+  description: '数码迷彩作战服。太空迷彩款… | Digital camouflaged combat suit. Camo in space...'
   components:
   - type: StaticPrice
     price: 700
@@ -564,8 +564,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCombatSuitDigitalGreenTan
-  name: green and tan digital combat uniform
-  description: Digital camouflaged combat suit. Camo in space...
+  name: '绿色与棕褐色数码作战制服 | green and tan digital combat uniform'
+  description: '数码迷彩作战服。太空迷彩… | Digital camouflaged combat suit. Camo in space...'
   components:
   - type: StaticPrice
     price: 700

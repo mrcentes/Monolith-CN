@@ -8,7 +8,7 @@
 
 - type: entity
   id: InstantEffectEMP
-  name: instant EMP effect
+  name: '瞬时电磁脉冲效果 | instant EMP effect'
   components:
   - type: TriggerOnSpawn
   - type: DeleteOnTrigger
@@ -20,7 +20,7 @@
 # LIGHTNING
 
 - type: entity
-  name: ionised lightning
+  name: '电离闪电 | ionised lightning'
   id: LightningEMP
   parent: BaseLightning
   categories: [ HideSpawnMenu ]

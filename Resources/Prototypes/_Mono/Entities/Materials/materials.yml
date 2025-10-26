@@ -10,7 +10,7 @@
 - type: material
   id: Synthalloy
   stackEntity: MaterialSynthalloy1
-  name: materials-synthalloy
+  name: '材料合成合金 | materials-synthalloy'
   unit: materials-unit-sheet
   icon: { sprite: /Textures/_Mono/Objects/Materials/synthalloy.rsi, state: synthalloy }
   color: "#FFFFFF"
@@ -19,8 +19,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialSynthalloy
-  name: synthalloy
-  description: An experimental polymer developed by the TSF for high-stress applications. Reinforced with a plasteel nanoweave, and infused with gaseous plasma.
+  name: '合成合金 | synthalloy'
+  description: '一种由TSF为高应力应用开发的实验性聚合物。采用塑钢纳米纤维增强，并注入气态等离子体。 | An experimental polymer developed by the TSF for high-stress applications. Reinforced with a plasteel nanoweave, and infused with gaseous plasma.'
   suffix: Full
   components:
   - type: Stack
@@ -56,7 +56,7 @@
 - type: material
   id: Pyrogel
   stackEntity: MaterialPyrogel1
-  name: materials-pyrogel
+  name: '材料-派罗杰 | materials-pyrogel'
   unit: materials-unit-sheet
   icon: { sprite: _Mono/Objects/Materials/pyrogel.rsi, state: icon }
   color: "#C0C0C0"
@@ -65,8 +65,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialPyrogel
-  name: pyrogel
-  description: Paycheck Bratva's experimental chemical gel.
+  name: '热凝凝胶 | pyrogel'
+  description: 'Paycheck Bratva实验用化学凝胶。 | Paycheck Bratva''s experimental chemical gel.'
   suffix: Full
   components:
   - type: Stack
@@ -94,7 +94,7 @@
 - type: material
   id: Iridite
   stackEntity: SheetIridite1
-  name: materials-iridite
+  name: '材料虹彩处理 | materials-iridite'
   unit: materials-unit-sheet
   icon: { sprite: /Textures/_Mono/Objects/Materials/iridite.rsi, state: iridite }
   color: "#252229"
@@ -103,8 +103,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialIridite
-  name: iridite
-  description: A complex alloy synthesized from atmospheric gases, commonly used outside of the sector for heavy industrial machinery, nanofibers, and high-grade computers.
+  name: '铱化合金 | iridite'
+  description: '一种从大气气体中合成的复杂合金，通常在该领域外用于重型工业机械、纳米纤维及高端计算机。 | A complex alloy synthesized from atmospheric gases, commonly used outside of the sector for heavy industrial machinery, nanofibers, and high-grade computers.'
   suffix: Full
   components:
   - type: Sprite
@@ -162,7 +162,7 @@
 - type: material
   id: Plastitanium
   stackEntity: SheetPlastitanium1
-  name: materials-plastitanium
+  name: '材料-塑钛合金 | materials-plastitanium'
   unit: materials-unit-sheet
   icon: { sprite: /Textures/_Mono/Objects/Materials/plastitanium.rsi, state: plastitanium }
   color: "#5c5c5c"
@@ -171,8 +171,8 @@
 - type: entity
   parent: MaterialBase
   id: SheetPlastitanium
-  name: plastitanium
-  description: A commonly produced high-strength alloy. Even if its rare here, its extremely abundant in core sectors.
+  name: '塑钛 | plastitanium'
+  description: '一种常见的高强度合金。虽然在此处较为稀有，但在核心区域储量极为丰富。 | A commonly produced high-strength alloy. Even if its rare here, its extremely abundant in core sectors.'
   suffix: Full
   components:
   - type: Sprite

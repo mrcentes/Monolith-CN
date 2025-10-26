@@ -6,8 +6,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHelmetHeavyUSSP
-  name: USSP heavy helmet
-  description: A heavy helmet ballistic helmet, it offers decent protection.
+  name: 'USSP重型头盔 | USSP heavy helmet'
+  description: '重型头盔防弹头盔，提供良好防护。 | A heavy helmet ballistic helmet, it offers decent protection.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Helmets/ussp_combat_heavy_helmet.rsi

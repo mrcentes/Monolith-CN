@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatUSSPOfficerCap
-  name: USSP officer cap
-  description: A green cap used by officer of the USSP.
+  name: 'USSP军官帽 | USSP officer cap'
+  description: '美国太空总署军官使用的绿色军帽。 | A green cap used by officer of the USSP.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hats/ussp_officer_cap.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatUSSPCommissarCap
-  name: USSP commisar cap
-  description: A white cap used by commisars of the USSP.
+  name: 'USSP政委帽 | USSP commisar cap'
+  description: 'USSP政委使用的白色军帽。 | A white cap used by commisars of the USSP.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hats/ussp_commissar_cap.rsi

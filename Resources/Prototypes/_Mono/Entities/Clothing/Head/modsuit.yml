@@ -10,8 +10,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetUSSPVaryag
-  name: Shlem Varyaga
-  description: Sealed, reinforced, and intimidating.
+  name: '施莱姆·瓦里亚加 | Shlem Varyaga'
+  description: '密封坚固，气势慑人。 | Sealed, reinforced, and intimidating.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -97,8 +97,8 @@
 - type: entity
   parent: [BaseClothingModsuitHelmet, ShowMedicalIcons, ShowSecurityIcons]
   id: ClothingModsuitHelmetUSSPZastavnik
-  name: Shlem Zastavnik
-  description: A reinforced helmet with deep armor plating and visor shielding. Favored by serzhants for frontline presence.
+  name: '护盾头盔 | Shlem Zastavnik'
+  description: '带有深层装甲板和面罩防护的强化头盔。深受前线作战军士们的青睐。 | A reinforced helmet with deep armor plating and visor shielding. Favored by serzhants for frontline presence.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -188,8 +188,8 @@
 - type: entity
   parent: [BaseClothingModsuitHelmet, ShowMedicalIcons, ShowSecurityIcons]
   id: ClothingModsuitHelmetRogue
-  name: RX-01 modsuit helmet
-  description: Does not currently feature an AI companion- note to self, sell helmet AI as separate purchase.
+  name: 'RX-01模组套装头盔 | RX-01 modsuit helmet'
+  description: '目前不具备人工智能伴侣功能——提醒自己，将头盔人工智能作为单独商品出售。 | Does not currently feature an AI companion- note to self, sell helmet AI as separate purchase.'
   categories: [HideSpawnMenu]
   components:
   - type: Appearance
@@ -288,8 +288,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetVolta
-  name: Volta Modsuit Helmet
-  description: A reinforced sapper's plate, reimburced with higher quality CCTV and military-grade flashlight, doesn't make you look any better though.
+  name: '伏打模块化战术头盔 | Volta Modsuit Helmet'
+  description: '加固的工兵护板，配备更高质量监控摄像头与军用级手电筒，不过并未让你的外观更出众。 | A reinforced sapper''s plate, reimburced with higher quality CCTV and military-grade flashlight, doesn''t make you look any better though.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

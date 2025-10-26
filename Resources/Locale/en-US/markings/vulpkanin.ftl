@@ -1,48 +1,48 @@
 # Frontier: all entries capitalized
-marking-VulpEar-vulp = Vulpkanin Ears (Base)
-marking-VulpEar-vulp-inner = Vulpkanin Ears (Inner)
-marking-VulpEar = Vulpkanin
+marking-VulpEar-vulp = Vulpkanin耳朵（基础）
+marking-VulpEar-vulp-inner = Vulpkanin耳朵（内侧）
+marking-VulpEar = 狐耳
 
-marking-VulpEarFade-vulp = Vulpkanin Ears (Base)
-marking-VulpEarFade-vulp-fade = Vulpkanin Ears (Fade)
-marking-VulpEarFade = Vulpkanin (Fade)
+marking-VulpEarFade-vulp = Vulpkanin耳朵 (Base)
+marking-VulpEarFade-vulp-fade = Vulpkanin耳朵 (Fade)
+marking-VulpEarFade = 瓦普卡宁 (淡出)
 
-marking-VulpEarSharp-vulp = Vulpkanin Ears (Base)
-marking-VulpEarSharp-vulp-sharp = Vulpkanin Ears (Sharp)
-marking-VulpEarSharp = Vulpkanin (Sharp)
+marking-VulpEarSharp-vulp = Vulpkanin耳朵 (Base)
+marking-VulpEarSharp-vulp-sharp = Vulpkanin耳朵 (Sharp)
+marking-VulpEarSharp = 狐人 (尖耳)
 
-marking-VulpEarJackal-jackal = Jackal Ears (Base)
-marking-VulpEarJackal-jackal-inner = Jackal Ears (Inner)
-marking-VulpEarJackal = Vulpkanin Jackal
+marking-VulpEarJackal-jackal = 胡狼耳朵 (基础)
+marking-VulpEarJackal-jackal-inner = 胡狼耳朵（内侧）
+marking-VulpEarJackal = 狐犬
 
-marking-VulpEarTerrier-terrier = Terrier Ears (Base)
-marking-VulpEarTerrier-terrier-inner = Terrier Ears (Inner)
-marking-VulpEarTerrier = Vulpkanin Terrier
+marking-VulpEarTerrier-terrier = 梗犬耳朵 (Base)
+marking-VulpEarTerrier-terrier-inner = 梗犬耳朵 (内侧)
+marking-VulpEarTerrier = 沃尔普卡宁梗犬
 
 marking-VulpEarWolf-wolf = Wolf Ears (Base)
 marking-VulpEarWolf-wolf-inner = Wolf Ears (Inner)
 marking-VulpEarWolf = Vulpkanin Wolf
 
-marking-VulpEarFennec-fennec = Fennec Ears (Base)
-marking-VulpEarFennec-fennec-inner = Fennec Ears (Inner)
-marking-VulpEarFennec = Vulpkanin Fennec
+marking-VulpEarFennec-fennec = Fennec ears (Base)
+marking-VulpEarFennec-fennec-inner = 芬内克耳（内侧）
+marking-VulpEarFennec = Vulpkanin 芬尼克
 
-marking-VulpEarFox-fox = Fox Ears
-marking-VulpEarFox = Vulpkanin Fox
+marking-VulpEarFox-fox = 狐狸耳朵 (基础)
+marking-VulpEarFox = 狐犬福克斯
 
-marking-VulpEarOtie-otie = Otie Ears (Base)
-marking-VulpEarOtie-otie-inner = Otie Ears (Inner)
+marking-VulpEarOtie-otie = 奥提耳朵 (基础)
+marking-VulpEarOtie-otie-inner = 奥提耳朵（内侧）
 marking-VulpEarOtie = Vulpkanin Otie
 
 marking-VulpEarTajaran-msai = Tajaran Ears (Base)
 marking-VulpEarTajaran-msai-inner = Tajaran Ears (Inner)
 marking-VulpEarTajaran = Vulpkanin Tajaran
 
-marking-VulpEarShock-shock = Shock Ears
-marking-VulpEarShock = Vulpkanin Shock
+marking-VulpEarShock-shock = 震惊耳朵 (基础)
+marking-VulpEarShock = Vulpkanin 休克
 
-marking-VulpEarCoyote-coyote = Coyote Ears
-marking-VulpEarCoyote = Vulpkanin Coyote
+marking-VulpEarCoyote-coyote = 郊狼耳朵 (基础)
+marking-VulpEarCoyote = Vulpkanin 郊狼
 
 marking-VulpEarDalmatian-dalmatian = Dalmatian Ears
 marking-VulpEarDalmatian = Vulpkanin Dalmatian
@@ -54,7 +54,7 @@ marking-VulpSnoutAlt = Vulpkanin Muzzle 2
 
 marking-VulpSnout-muzzle = Muzzle
 marking-VulpSnout-nose = Nose
-marking-VulpSnout = Vulpkanin Muzzle
+marking-VulpSnout = Vulpkanin 吻部
 
 marking-VulpSnoutSharp-muzzle_sharp = Muzzle
 marking-VulpSnoutSharp-nose = Nose
@@ -65,24 +65,24 @@ marking-VulpSnoutFade-nose = Nose
 marking-VulpSnoutFade = Vulpkanin Muzzle (Fade)
 
 marking-VulpSnoutNose-nose = Nose
-marking-VulpSnoutNose = Vulpkanin Nose
+marking-VulpSnoutNose = Vulpkanin 鼻子
 
-marking-VulpSnoutMask-mask = Mask
+marking-VulpSnoutMask-mask = 面具
 marking-VulpSnoutMask-nose = Nose
-marking-VulpSnoutMask = Vulpkanin Mask
+marking-VulpSnoutMask = Vulpkanin面具
 
-marking-VulpSnoutVulpine-vulpine = Vulpine (Base)
+marking-VulpSnoutVulpine-vulpine = 狐
 marking-VulpSnoutVulpine-vulpine-lines = Vulpine (Lines)
-marking-VulpSnoutVulpine = Vulpkanin Vulpine
+marking-VulpSnoutVulpine = Vulpkanin 狐型
 
 marking-VulpSnoutSwift-vulpine-lines = Swift
 marking-VulpSnoutSwift = Vulpkanin Swift
 
-marking-VulpSnoutBlaze-blaze = Blaze
-marking-VulpSnoutBlaze = Vulpkanin Blaze
+marking-VulpSnoutBlaze-blaze = 火焰
+marking-VulpSnoutBlaze = Vulpkanin 火焰斑
 
-marking-VulpSnoutPatch-patch = Patch
-marking-VulpSnoutPatch = Vulpkanin Patch
+marking-VulpSnoutPatch-patch = 斑块
+marking-VulpSnoutPatch = 瓦普卡宁斑块
 
 
 marking-VulpHeadTiger-tiger_head = Tiger Stripes
@@ -119,9 +119,9 @@ marking-VulpTailAltTip-vulp_alt = Vulpkanin Tail (Base)
 marking-VulpTailAltTip-vulp_alt-tip = Vulpkanin Tail (Tip)
 marking-VulpTailAltTip = Vulpkanin (Alt, Tip)
 
-marking-VulpTailLong-long = Long Tail (Base)
-marking-VulpTailLong-long-tip = Long Tail (Tip)
-marking-VulpTailLong = Vulpkanin Long
+marking-VulpTailLong-long = 长尾 (基础)
+marking-VulpTailLong-long-tip = 长尾（尖）
+marking-VulpTailLong = 狐尾长
 
 marking-VulpTailFox-fox = Fox Tail (Base)
 marking-VulpTailFox-fox-fade = Fox Tail (Fade)
@@ -154,9 +154,9 @@ marking-VulpTailCoyoteWag = Vulpkanin Coyote (Wag)
 marking-VulpTailCorgiWag-corgi_wag = Corgi Tail
 marking-VulpTailCorgiWag = Vulpkanin Corgi (Wag)
 
-marking-VulpTailHusky-husky-inner = Husky Tail (Inner)
-marking-VulpTailHusky-husky-outer = Husky Tail (Outer)
-marking-VulpTailHusky = Vulpkanin Husky
+marking-VulpTailHusky-husky-inner = 哈士奇尾巴 (内侧)
+marking-VulpTailHusky-husky-outer = 哈士奇尾巴（外侧）
+marking-VulpTailHusky = 胡狼犬哈士奇
 
 marking-VulpTailHuskyAlt-husky = Husky Tail
 marking-VulpTailHuskyAlt = Vulpkanin Husky (Alt)
@@ -168,27 +168,27 @@ marking-VulpTailFox3-fox3 = Fox Tail (Base)
 marking-VulpTailFox3-fox3-tip = Fox Tail (Tip)
 marking-VulpTailFox3 = Vulpkanin Fox 3
 
-marking-VulpTailFennec-fennec = Fennec Tail
-marking-VulpTailFennec = Vulpkanin Fennec
+marking-VulpTailFennec-fennec = Fennec tail (Base)
+marking-VulpTailFennec = Vulpkanin 耳廓狐
 
 marking-VulpTailOtie-otie = Otie Tail
 marking-VulpTailOtie = Vulpkanin Otie
 
-marking-VulpTailFluffy-fluffy = Fluffy Tail
-marking-VulpTailFluffy = Vulpkanin Fluffy
+marking-VulpTailFluffy-fluffy = 毛茸茸的尾巴（基础款）
+marking-VulpTailFluffy = 狐尾绒毛
 
 marking-VulpTailDalmatianWag-dalmatian_wag = Dalmatian Tail
 marking-VulpTailDalmatianWag = Vulpkanin Dalmatian (Wag)
 
 
-marking-VulpBellyCrest-belly_crest = Belly
-marking-VulpBellyCrest = Vulpkanin Belly Crest
+marking-VulpBellyCrest-belly_crest = 腹部
+marking-VulpBellyCrest = Vulpkanin 腹部冠斑
 
-marking-VulpBellyFull-belly_full = Belly
-marking-VulpBellyFull = Vulpkanin Belly 1
+marking-VulpBellyFull-belly_full = 腹部
+marking-VulpBellyFull = Vulp腹部饱满
 
-marking-VulpBellyFox-belly_fox = Belly
-marking-VulpBellyFox = Vulpkanin Belly 2
+marking-VulpBellyFox-belly_fox = 腹部
+marking-VulpBellyFox = 狐腹狐
 
 
 marking-VulpBodyPointsCrest-points_crest = Points (Crest)
@@ -227,29 +227,29 @@ marking-VulpPointsSharpArms-points_sharp-arms = Points (Sharp)
 marking-VulpPointsSharpArms = Vulpkanin Points Arms (Sharp)
 
 
-marking-VulpHairAdhara = Adhara
-marking-VulpHairAnita = Anita
-marking-VulpHairApollo = Apollo
-marking-VulpHairBelle = Belle
-marking-VulpHairBraided = Braided Hair
-marking-VulpHairBun = Bun
-marking-VulpHairCleanCut = Clean Cut
-marking-VulpHairCurl = Curl
-marking-VulpHairHawk = Hawk
-marking-VulpHairJagged = Jagged
-marking-VulpHairJeremy = Jeremy
-marking-VulpHairKajam = Kajam
+marking-VulpHairAdhara = 阿达拉
+marking-VulpHairAnita = 安妮塔
+marking-VulpHairApollo = 阿波罗
+marking-VulpHairBelle = 贝儿
+marking-VulpHairBraided = 编发
+marking-VulpHairBun = 发髻
+marking-VulpHairCleanCut = 利落短发
+marking-VulpHairCurl = 卷曲
+marking-VulpHairHawk = 鹰
+marking-VulpHairJagged = 锯齿状
+marking-VulpHairJeremy = 杰里米
+marking-VulpHairKajam = 卡贾姆
 marking-VulpHairKeid = Keid
-marking-VulpHairKleeia = Kleeia
+marking-VulpHairKleeia = 克蕾雅
 marking-VulpHairMizar = Mizar
-marking-VulpHairPunkBraided = Punk Braided
-marking-VulpHairRaine = Raine
-marking-VulpHairRough = Rough
-marking-VulpHairShort = Short Hair
-marking-VulpHairShort2 = Short Hair 2
-marking-VulpHairSpike = Spike
+marking-VulpHairPunkBraided = 庞克辫子
+marking-VulpHairRaine = 雷恩
+marking-VulpHairRough = 粗糙
+marking-VulpHairShort = 短发
+marking-VulpHairShort2 = 短发 2
+marking-VulpHairSpike = 尖刺
 
-marking-VulpFacialHairRuff = Ruff
-marking-VulpFacialHairElder = Elder
-marking-VulpFacialHairElderChin = Elder Chin
-marking-VulpFacialHairKita = Kita
+marking-VulpFacialHairRuff = 颈毛
+marking-VulpFacialHairElder = 长老
+marking-VulpFacialHairElderChin = 年长者的下巴
+marking-VulpFacialHairKita = 北

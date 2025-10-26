@@ -4,9 +4,9 @@
 
 - type: entity
   id: ChimeraFleshKudzu
-  name: chimera hive biomass
+  name: '奇美拉集群生物质 | chimera hive biomass'
   parent: BaseKudzu
-  description: A rapidly growing cluster of chimera biomass. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  description: '快速增长的奇美拉生物质集群。你为何停下来观察它？！ | A rapidly growing cluster of chimera biomass. WHY ARE YOU STOPPING TO LOOK AT IT?!'
   placement:
     mode: SnapgridCenter
     snap:

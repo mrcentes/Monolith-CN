@@ -14,8 +14,8 @@
   - MobNonHumanHostileBase
   - MobStepTriggerImmune
   id: MonoBaseMobLetoferol
-  name: chimera fleshbeast
-  description: A horribly mutated whatever-this-once-was.
+  name: '嵌合体血肉兽 | chimera fleshbeast'
+  description: '一只严重变异的不知名生物残骸。 | A horribly mutated whatever-this-once-was.'
   abstract: true
   components:
   - type: HTN
@@ -181,8 +181,8 @@
   - MonoBaseMobLetoferol
   - StripableInventoryBase
   id: MonoBaseMobLetoferolHumanoid
-  name: chimera fleshbeast
-  description: A once sentient being covered in putrid flesh and bone. You can see a glimpse of humanity left in its eyes, like whoever it was is still awake.
+  name: '缝合血肉兽 | chimera fleshbeast'
+  description: '曾具智慧的生物，如今覆满腐肉与枯骨。残存的人性微光仍在眼眸中闪烁，仿佛那个灵魂始终未曾沉眠。 | A once sentient being covered in putrid flesh and bone. You can see a glimpse of humanity left in its eyes, like whoever it was is still awake.'
   abstract: true
   components:
   - type: HTN

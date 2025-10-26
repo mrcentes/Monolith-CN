@@ -3,11 +3,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: kangaroo # exact same
+  name: '袋鼠 | kangaroo # exact same'
   parent:
   - MobKangaroo
   id: MobKangarooPlanet
-  description: A large marsupial herbivore. It has powerful hind legs, with nails that resemble long claws.
+  description: '一种大型有袋类食草动物。它拥有强健的后肢，指甲形似长爪。 | A large marsupial herbivore. It has powerful hind legs, with nails that resemble long claws.'
   components:
   - type: GhostRole
     prob: 0.0

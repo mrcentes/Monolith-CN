@@ -25,7 +25,7 @@
 
 - type: entity
   id: Bullet9x19mmFMJ
-  name: bullet (9x19mm FMJ)
+  name: '子弹（9x19毫米全金属被甲弹） | bullet (9x19mm FMJ)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -37,7 +37,7 @@
 
 - type: entity
   id: Bullet9x19mmPractice
-  name: bullet (9x19mm practice)
+  name: '子弹（9x19毫米练习弹） | bullet (9x19mm practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -48,7 +48,7 @@
 
 - type: entity
   id: Bullet9x19mmRubber
-  name: bullet (9x19mm rubber)
+  name: '子弹（9x19毫米橡胶） | bullet (9x19mm rubber)'
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -60,7 +60,7 @@
 - type: entity
   id: Bullet9x19mmIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (9x19mm incendiary)
+  name: '子弹（9x19毫米燃烧弹） | bullet (9x19mm incendiary)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -73,7 +73,7 @@
 - type: entity
   id: Bullet9x19mmUranium
   parent: BaseBulletUranium
-  name: bullet (9x19mm uranium)
+  name: '子弹（9x19毫米铀弹） | bullet (9x19mm uranium)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -86,7 +86,7 @@
 # Upstream
 - type: entity
   id: Bullet9x19mmEmp
-  name: bullet (9x19mm emp)
+  name: '子弹（9x19毫米电磁脉冲） | bullet (9x19mm emp)'
   parent: BaseBulletEmp
   categories: [ HideSpawnMenu ]
   components:
@@ -100,7 +100,7 @@
 - type: entity
   id: Bullet9x19mmHP
   parent: BaseBullet
-  name: bullet (9x19mm hollow-point)
+  name: '子弹（9x19毫米空尖弹） | bullet (9x19mm hollow-point)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -113,7 +113,7 @@
 - type: entity
   id: Bullet9x19mmRIP
   parent: BaseBullet
-  name: bullet (9x19mm RIP)
+  name: '子弹（9x19毫米RIP） | bullet (9x19mm RIP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -128,7 +128,7 @@
 - type: entity
   id: Bullet9x19mmPlasteelAP
   parent: BaseBullet
-  name: bullet (9x19mm AP)
+  name: '子弹（9x19毫米穿甲弹） | bullet (9x19mm AP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

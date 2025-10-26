@@ -39,7 +39,7 @@
 
 - type: entity
   id: Pellet12_gaugeSlug
-  name: Pellet12_gauge (12 gauge slug)
+  name: '颗粒12号径（12号径独头弹） | Pellet12_gauge (12 gauge slug)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -55,7 +55,7 @@
 
 - type: entity
   id: Pellet12_gaugeBeanbag
-  name: beanbag (12 gauge)
+  name: '豆袋弹（12号口径） | beanbag (12 gauge)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -72,7 +72,7 @@
 
 - type: entity
   id: Pellet12_gauge
-  name: Pellet12_gauge (12 gauge)
+  name: '颗粒12号径（12号径） | Pellet12_gauge (12 gauge)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -97,7 +97,7 @@
 
 - type: entity
   id: Pellet12_gaugeIncendiary
-  name: Pellet12_gauge (12 gauge incendiary)
+  name: 'Pellet12号铅径（12号燃烧弹） | Pellet12_gauge (12 gauge incendiary)'
   categories: [ HideSpawnMenu ]
   parent: BaseBulletIncendiary
   components:
@@ -125,7 +125,7 @@
 
 - type: entity
   id: Pellet12_gaugePractice
-  name: Pellet12_gauge (12 gauge practice)
+  name: 'Pellet12号径（12号径练习弹） | Pellet12_gauge (12 gauge practice)'
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
   components:
@@ -149,7 +149,7 @@
 
 - type: entity
   id: Pellet12_gaugeImprovised
-  name: improvised Pellet12_gauge
+  name: '临时改装12号口径弹丸 | improvised Pellet12_gauge'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -175,7 +175,7 @@
 
 - type: entity
   id: Pellet12_gaugeTranquilizer
-  name: Pellet12_gauge (12 gauge tranquilizer)
+  name: 'Pellet12号霰弹（12号镇静剂） | Pellet12_gauge (12 gauge tranquilizer)'
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
   components:
@@ -202,7 +202,7 @@
 
 - type: entity
   id: Pellet12_gaugeFlare
-  name: Pellet12_gauge (12 gauge flare)
+  name: 'Pellet12号径（12号径信号弹） | Pellet12_gauge (12 gauge flare)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Physics
@@ -249,7 +249,7 @@
 
 - type: entity
   id: Pellet12_gaugeUranium
-  name: Pellet12_gauge (12 gauge uranium)
+  name: '颗粒12号径铀（12号径铀） | Pellet12_gauge (12 gauge uranium)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -275,7 +275,7 @@
 
 - type: entity
   id: Pellet12_gaugeGrapeshot #tally fucking ho
-  name: grapeshot Pellet12_gauge
+  name: '葡萄弹 12号口径 | grapeshot Pellet12_gauge'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -303,7 +303,7 @@
 
 - type: entity
   id: Pellet12_gaugeGlass
-  name: glass shard
+  name: '玻璃碎片 | glass shard'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -336,7 +336,7 @@
 #anti-flesh ammo
 - type: entity
   id: Pellet12_gaugeOOBuckshot
-  name: Pellet12_gauge (12 gauge OO magnum buckshot)
+  name: 'Pellet12号径（12号径OO型马格努姆大型铅弹） | Pellet12_gauge (12 gauge OO magnum buckshot)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -361,7 +361,7 @@
 
 - type: entity
   id: Pellet12_gaugeSlugRIP
-  name: Pellet12_gauge (12 gauge RIP)
+  name: '颗粒12号径（12号径撕裂弹） | Pellet12_gauge (12 gauge RIP)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -378,7 +378,7 @@
 #armor-piercing ammo
 - type: entity
   id: Pellet12_gaugeSlugAP
-  name: Pellet12_gauge (12 gauge armor-piercing slug)
+  name: 'Pellet12号径（12号径穿甲独头弹） | Pellet12_gauge (12 gauge armor-piercing slug)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -397,7 +397,7 @@
 
 - type: entity
   id: Pellet12_gaugeFlechette
-  name: Pellet12_gauge (12 gauge flechette)
+  name: '颗粒12号径（12号镖弹） | Pellet12_gauge (12 gauge flechette)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

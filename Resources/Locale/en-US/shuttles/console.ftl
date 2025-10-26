@@ -3,7 +3,7 @@ shuttle-pilot-end = Stopped piloting
 
 shuttle-console-in-ftl = Currently in FTL
 shuttle-console-mass = Too large to FTL
-shuttle-console-prevent = Unable to pilot this ship
+shuttle-console-prevent = You are unable to pilot this ship
 shuttle-console-in-expedition = FTL is unavailable during expeditions
 shuttle-console-no-powered-ftl-drive = No FTL drive detected
 shuttle-console-ftl-drive-unpowered = FTL drive detected but not powered
@@ -16,20 +16,20 @@ shuttle-console-position = Position:
 shuttle-console-position-value = {$X}, {$Y}
 shuttle-console-orientation = Orientation:
 shuttle-console-orientation-value  = {$angle}
-shuttle-console-linear-velocity = Linear Velocity:
+shuttle-console-linear-velocity = Linear velocity:
 shuttle-console-linear-velocity-value = {$X}, {$Y}
-shuttle-console-angular-velocity = Angular Velocity:
+shuttle-console-angular-velocity = Angular velocity:
 shuttle-console-angular-velocity-value = {$angularVelocity}
 
 shuttle-console-unknown = Unknown
 shuttle-console-iff-label = {$name} ({$distance}m)
-shuttle-console-exclusion = Exclusion Area
+shuttle-console-exclusion = Exclusion area
 
 # Buttons
 shuttle-console-strafing = Strafing Mode
 shuttle-console-nav-settings = Settings
 shuttle-console-iff-toggle = Show IFF
-shuttle-console-dock-toggle = Show Docks
+shuttle-console-dock-toggle = Show docks
 shuttle-console-iffshuttles-toggle = Show Shuttles
 
 # MAP
@@ -44,15 +44,15 @@ shuttle-console-ftl-state-Invalid = Invalid
 
 shuttle-console-map-settings = Settings
 shuttle-console-ftl-button = FTL
-shuttle-console-map-rebuild = Scan
-shuttle-console-map-beacons = Show Beacons
+shuttle-console-map-rebuild = Scan for objects
+shuttle-console-map-beacons = Show beacons
 
-shuttle-console-no-signal = No Signal
+shuttle-console-no-signal = No signal
 
-shuttle-console-map-objects = Sector Objects
+shuttle-console-map-objects = Sector objects
 
 # DOCK
-shuttle-console-docked = Docked Objects
+shuttle-console-docked = Docked objects
 
 shuttle-console-view = View
 shuttle-console-undock = Undock
@@ -63,5 +63,5 @@ shuttle-console-ftl-lock-disabled = Disabled
 shuttle-console-dock = Dock
 shuttle-console-docks-label = Docks
 
-shuttle-console-undock-fail = Undocking Failed
-shuttle-console-dock-fail = Docking Failed
+shuttle-console-undock-fail = Undocking failed
+shuttle-console-dock-fail = Docking failed

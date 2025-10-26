@@ -7,8 +7,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandUNSA
-  name: UNSA vanguard armband
-  description: An armband bearing the flag of the Universal States of America, worn by Vanguards for indentification.
+  name: '美利坚合众国先锋队臂章 | UNSA vanguard armband'
+  description: '一条印有合众国旗帜的臂章，由先锋队员佩戴用于身份识别。 | An armband bearing the flag of the Universal States of America, worn by Vanguards for indentification.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_UNSA.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandUSA
-  name: USA armband
-  description: An armband bearing the flag of the United States of America, worn by true patriots.
+  name: '美国国旗臂章 | USA armband'
+  description: '一条印有美利坚合众国国旗的臂章，为真正爱国者所佩戴。 | An armband bearing the flag of the United States of America, worn by true patriots.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_USA.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandWhite
-  name: white armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '白色臂章 | white armband'
+  description: '基础彩色臂带，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandGray
-  name: gray armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '灰色臂章 | gray armband'
+  description: '基础彩色臂带，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandBlack
-  name: black armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '黑色臂环 | black armband'
+  description: '基础彩色臂带，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandDarkRed
-  name: dark red armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '暗红色臂章 | dark red armband'
+  description: '基础色战术臂章，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandRed
-  name: red armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '红色臂章 | red armband'
+  description: '基础彩色臂带，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandDarkGreen
-  name: dark green armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '深绿色臂章 | dark green armband'
+  description: '基础彩色臂带，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandGreen
-  name: green armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '绿色臂章 | green armband'
+  description: '基础彩色臂带，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandDarkBlue
-  name: dark blue armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '深蓝色臂章 | dark blue armband'
+  description: '基础色战术臂章，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandBlue
-  name: blue armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '蓝色臂章 | blue armband'
+  description: '基础彩色臂带，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandDarkPurple
-  name: dark purple armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '深紫色臂章 | dark purple armband'
+  description: '基础色战术臂章，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandPurple
-  name: purple armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '紫色臂章 | purple armband'
+  description: '基础彩色臂带，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -250,8 +250,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandDarkYellow
-  name: dark yellow armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '深黄色臂章 | dark yellow armband'
+  description: '基础彩色臂带，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi
@@ -269,8 +269,8 @@
 - type: entity
   parent: ClothingArmbandBase
   id: ClothingArmbandYellow
-  name: yellow armband
-  description: A basic colored armband for tactical or fashion purpose.
+  name: '黄色臂章 | yellow armband'
+  description: '基础彩色臂带，适用于战术或时尚用途。 | A basic colored armband for tactical or fashion purpose.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Armbands/armband_any.rsi

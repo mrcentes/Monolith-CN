@@ -8,8 +8,8 @@
 - type: entity
   id: SyringeCase
   parent: [ BaseStorageItem, BaseBagOpenClose ]
-  name: syringe case
-  description: A robust carrying case that helps keep travel supplies of medicine organized.
+  name: '注射器盒 | syringe case'
+  description: '一个坚固的收纳盒，便于整理旅行所需的药品补给。 | A robust carrying case that helps keep travel supplies of medicine organized.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Misc/syringecase.rsi
@@ -69,8 +69,8 @@
 - type: entity
   id: SyringeCaseAlt
   parent: SyringeCase
-  name: medipen case
-  description: A robust carrying case that helps with keeping your medipens organized.
+  name: '医用药笔盒 | medipen case'
+  description: '坚固携带盒，助您妥善整理医疗笔。 | A robust carrying case that helps with keeping your medipens organized.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Misc/syringecase_alt.rsi

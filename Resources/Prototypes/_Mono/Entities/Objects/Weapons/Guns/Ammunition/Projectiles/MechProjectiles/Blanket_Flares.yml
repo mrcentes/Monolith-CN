@@ -1,6 +1,6 @@
 - type: entity
   id: BlanketFlare
-  name: Signal Emitter
+  name: '信号发射器 | Signal Emitter'
   categories: [ HideSpawnMenu ]
   components:
   - type: Physics

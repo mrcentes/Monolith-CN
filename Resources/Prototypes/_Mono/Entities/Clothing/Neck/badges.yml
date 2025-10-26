@@ -8,8 +8,8 @@
   parent: ClothingNeckBase
   id: ClothingNeckMonoCompanyBadgeBase
   abstract: true
-  name: company badge
-  description: You belong nowhere, vagrant.
+  name: '工牌 | company badge'
+  description: '你无处可归，漂泊者。 | You belong nowhere, vagrant.'
   components:
   - type: Item
     size: Tiny
@@ -22,8 +22,8 @@
 - type: entity
   parent: ClothingNeckMonoCompanyBadgeBase
   id: ClothingNeckDrakeIndustriesBadge
-  name: Drake Industries company badge
-  description: To show off you're part of Drake Industries! Looks like some cheap plastic with a silver colored spray on top.
+  name: '德雷克工业公司工牌 | Drake Industries company badge'
+  description: '为了展示你是德雷克工业的一员！看起来像是廉价塑料喷了层银色涂料。 | To show off you''re part of Drake Industries! Looks like some cheap plastic with a silver colored spray on top.'
   components:
   - type: Sprite
     state: DI-badge

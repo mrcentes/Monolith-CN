@@ -6,8 +6,8 @@
 - type: entity
   parent: NFClothingOuterEVASuitBase
   id: ClothingOuterEVASuitDME
-  name: DME EVA Suit
-  description: An EVA suit with a built-in helmet commonly issued to wealthy traders.
+  name: 'DME舱外活动服 | DME EVA Suit'
+  description: '一款内置头盔的舱外航天服，通常配发给富裕贸易商。 | An EVA suit with a built-in helmet commonly issued to wealthy traders.'
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Suits/eva_color.rsi

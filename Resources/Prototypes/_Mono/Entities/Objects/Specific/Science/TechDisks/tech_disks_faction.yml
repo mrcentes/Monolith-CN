@@ -9,8 +9,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskSynthalloy
-  name: pre-fracture synthalloy faction tech disk
-  description: A disk capable of adding early synthalloy production processes to a server's recipes. Less efficient than modern synthalloy methods.
+  name: '前断裂合成合金派系技术磁盘 | pre-fracture synthalloy faction tech disk'
+  description: '能够为服务器配方添加早期合成合金生产工艺的磁盘。效率低于现代合成合金生产方法。 | A disk capable of adding early synthalloy production processes to a server''s recipes. Less efficient than modern synthalloy methods.'
   components:
   - type: Sprite
     layers:
@@ -28,8 +28,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskEnergyWeapons
-  name: pre-fracture energy weapon faction tech disk
-  description: A disk capable of adding energy weapons and shields to a server's recipes, for faction techfabs.
+  name: '预断裂能量武器派系技术盘 | pre-fracture energy weapon faction tech disk'
+  description: '可为阵营科技工厂服务器配方添加能量武器与护盾的技术磁盘。 | A disk capable of adding energy weapons and shields to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -51,8 +51,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTSFAnnie
-  name: TSF Annie faction tech disk
-  description: A disk capable of adding the M-27 Annie and its ammo to a server's recipes, for faction techfabs.
+  name: 'TSF安妮阵营科技磁盘 | TSF Annie faction tech disk'
+  description: '一张能够为派系技术工厂添加M-27安妮及其弹药配方的技术磁盘。 | A disk capable of adding the M-27 Annie and its ammo to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -72,8 +72,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTSFLecter
-  name: TSF Lecter faction tech disk
-  description: A disk capable of adding the M-6 Lecter and its ammo to a server's recipes, for faction techfabs.
+  name: 'TSF莱克特阵营技术磁盘 | TSF Lecter faction tech disk'
+  description: '一张可为阵营技术工厂添加M-6莱克特及其弹药配方的技术磁盘。 | A disk capable of adding the M-6 Lecter and its ammo to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -90,8 +90,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTSFDrozd
-  name: TSF Drozd faction tech disk
-  description: A disk capable of adding the M-5 Drozd and its ammo to a server's recipes, for faction techfabs.
+  name: 'TSF Drozd阵营技术磁盘 | TSF Drozd faction tech disk'
+  description: '该磁盘可为阵营技术工厂服务器配方添加M-5 Drozd突击步枪及其弹药。 | A disk capable of adding the M-5 Drozd and its ammo to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -111,8 +111,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTSFBandit
-  name: TSF Bandit faction tech disk
-  description: A disk capable of adding the MR-3 Bandit and its ammo to a server's recipes, for faction techfabs.
+  name: 'TSF匪帮技术磁盘 | TSF Bandit faction tech disk'
+  description: '该磁盘可为阵营技术工厂添加MR-3强盗及其弹药至服务器配方库。 | A disk capable of adding the MR-3 Bandit and its ammo to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -132,8 +132,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTSFICWS
-  name: TSF ICWS faction tech disk
-  description: A disk capable of adding the XLR-556 ICWS and its ammo to a server's recipes, for faction techfabs.
+  name: 'TSF ICWS阵营技术磁盘 | TSF ICWS faction tech disk'
+  description: '一张可为阵营技术制造台添加XLR-556 ICWS及其弹药配方的磁盘。 | A disk capable of adding the XLR-556 ICWS and its ammo to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -156,8 +156,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskUniversalShipAmmo
-  name: universal ship ammo faction tech disk
-  description: A disk capable of adding 150mm shells, M381 slugs, and ASM-220 torpedoes to a server's recipes, for faction techfabs.
+  name: '通用舰船弹药阵营科技磁盘 | universal ship ammo faction tech disk'
+  description: '该磁盘可为阵营科技制造台添加150毫米炮弹、M381弹头及ASM-220鱼雷至服务器配方库。 | A disk capable of adding 150mm shells, M381 slugs, and ASM-220 torpedoes to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -180,8 +180,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskUniversalShipAmmoAdvanced
-  name: advanced universal ship ammo faction tech disk
-  description: A disk capable of adding 150mm shells, M381 slugs, and ASM-220 torpedoes to a server's recipes, for faction techfabs. This one has advanced stuff too!
+  name: '高级通用舰船弹药派系技术磁盘 | advanced universal ship ammo faction tech disk'
+  description: '该磁盘可为阵营科技制造台添加150毫米炮弹、M381弹头及ASM-220鱼雷至服务器配方库，其中还包含进阶技术内容！ | A disk capable of adding 150mm shells, M381 slugs, and ASM-220 torpedoes to a server''s recipes, for faction techfabs. This one has advanced stuff too!'
   components:
   - type: Sprite
     layers:
@@ -208,8 +208,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskRogueTools
-  name: ASR equipment faction tech disk
-  description: A disk capable of adding various tools of Rogues to a server's recipes, for faction techfabs.
+  name: 'ASR装备阵营技术磁盘 | ASR equipment faction tech disk'
+  description: '一张可为阵营技术制造台添加流亡者各类工具配方的磁盘。 | A disk capable of adding various tools of Rogues to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -228,8 +228,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskRogueToolsAdvanced
-  name: high-tech ASR equipment faction tech disk
-  description: A disk capable of adding the hacking equipment of Rogues to a server's recipes, for faction techfabs.
+  name: '高科技ASR阵营技术磁盘 | high-tech ASR equipment faction tech disk'
+  description: '一张能够将罗格派系黑客设备添加到服务器制造配方中的磁盘，适用于派系技术制造台。 | A disk capable of adding the hacking equipment of Rogues to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -248,8 +248,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskC20r
-  name: ASR C-20r faction tech disk
-  description: A disk capable of adding the C-20r and its ammo to a server's recipes, for faction techfabs.
+  name: 'ASR C-20r 阵营技术磁盘 | ASR C-20r faction tech disk'
+  description: '一张可为阵营技术制造台添加C-20r及其弹药配方的磁盘。 | A disk capable of adding the C-20r and its ammo to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -269,8 +269,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskM90
-  name: ASR M-90 faction tech disk
-  description: A disk capable of adding the M-90 and its ammo to a server's recipes, for faction techfabs.
+  name: 'ASR M-90 阵营技术磁盘 | ASR M-90 faction tech disk'
+  description: '一张能够将M-90及其弹药添加到服务器制造配方中的磁盘，适用于阵营技术工厂。 | A disk capable of adding the M-90 and its ammo to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -290,8 +290,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskBulldog
-  name: ASR bulldog faction tech disk
-  description: A disk capable of adding the Bulldog and its ammo to a server's recipes, for faction techfabs.
+  name: 'ASR斗牛犬阵营科技盘 | ASR bulldog faction tech disk'
+  description: '一张可为派系技术工厂添加斗牛犬及其弹药配方的技术磁盘。 | A disk capable of adding the Bulldog and its ammo to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -313,8 +313,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskHristov
-  name: ASR Hristov faction tech disk
-  description: A disk capable of adding the Hristov and its ammo to a server's recipes, for faction techfabs.
+  name: 'ASR赫里斯托夫阵营科技磁盘 | ASR Hristov faction tech disk'
+  description: '一张可为阵营技术工厂添加赫里斯托夫及其弹药配方的技术磁盘。 | A disk capable of adding the Hristov and its ammo to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:
@@ -332,8 +332,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskMla73
-  name: ASR MLA-73 faction tech disk
-  description: A disk capable of adding the MLA-73 and its ammo to a server's recipes, for faction techfabs.
+  name: 'ASR MLA-73 阵营技术磁盘 | ASR MLA-73 faction tech disk'
+  description: '一张可为阵营技术装配台添加MLA-73及其弹药制造配方的技术磁盘。 | A disk capable of adding the MLA-73 and its ammo to a server''s recipes, for faction techfabs.'
   components:
   - type: Sprite
     layers:

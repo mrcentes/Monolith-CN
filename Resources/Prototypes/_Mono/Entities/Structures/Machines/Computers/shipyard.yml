@@ -7,8 +7,8 @@
 - type: entity
   id: ComputerShipyardUSSP
   parent: ComputerShipyardBase
-  name: USSP shipyard console
-  description: Used to buy ships from USSP naval reserves.
+  name: 'USSP造船厂控制台 | USSP shipyard console'
+  description: '用于从USSP海军储备购买船只。 | Used to buy ships from USSP naval reserves.'
   components:
   - type: ActivatableUI
     key: enum.ShipyardConsoleUiKey.Ussp
@@ -36,8 +36,8 @@
 - type: entity
   id: ComputerShipyardSHM
   parent: ComputerShipyardBase
-  name: SHM shipyard console
-  description: Used to transfer ships from the SHM employ reserves.
+  name: 'SHM船厂控制台 | SHM shipyard console'
+  description: '用于从SHM雇佣储备中调拨船只。 | Used to transfer ships from the SHM employ reserves.'
   components:
   - type: ActivatableUI
     key: enum.ShipyardConsoleUiKey.SHM
@@ -64,8 +64,8 @@
 - type: entity
   id: ComputerShipyardDrakeIndustries
   parent: ComputerShipyardBase
-  name: drake industries shipyard console
-  description: Used by Drake Industries affiliates to purchase specialty cargo shuttles.
+  name: '德雷克工业造船厂控制台 | drake industries shipyard console'
+  description: '德雷克工业集团关联企业用于购买专用货运穿梭机。 | Used by Drake Industries affiliates to purchase specialty cargo shuttles.'
   components:
   - type: ActivatableUI
     key: enum.ShipyardConsoleUiKey.DrakeIndustries

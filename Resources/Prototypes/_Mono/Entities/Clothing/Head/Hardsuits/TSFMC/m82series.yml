@@ -7,8 +7,8 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, BaseC2ContrabandUnredeemable]
   id: ClothingHeadHelmetHardsuitM82
-  name: M82 helmet
-  description: The interchangeable helmet system for the majority of M82 hardsuits. Outfitted with a basic NVG system.
+  name: 'M82头盔 | M82 helmet'
+  description: '适用于多数M82硬质防护服的可替换头盔系统。配备基础夜视装置。 | The interchangeable helmet system for the majority of M82 hardsuits. Outfitted with a basic NVG system.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/m82.rsi

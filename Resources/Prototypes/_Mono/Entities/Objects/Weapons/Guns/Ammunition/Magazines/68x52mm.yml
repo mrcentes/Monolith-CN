@@ -4,7 +4,7 @@
 
 - type: entity
   id: BaseMagazine68x52mmCaseless
-  name: "magazine (6.8x52mm STANAG Caseless)"
+  name: '杂志（6.8x52毫米 STANAG 无壳弹） | magazine (6.8x52mm STANAG Caseless)'
   parent: [ BaseCartridge, RecyclableItemSteelTiny ]
   abstract: true
   components:
@@ -38,7 +38,7 @@
 
 - type: entity
   id: BaseMagazine68x52mmCaselessShort
-  name: "caseless rifle short magazine (6.8x52mm STANAG Caseless)"
+  name: '无壳步枪短弹匣（6.8x52毫米 STANAG 无壳弹） | caseless rifle short magazine (6.8x52mm STANAG Caseless)'
   parent: BaseMagazine68x52mmCaseless
   abstract: true
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   id: Magazine68x52mmCaselessBig
-  name: "box magazine (6.8x52mm STANAG Caseless)"
+  name: '盒式弹匣（6.8×52毫米无壳STANAG标准） | box magazine (6.8x52mm STANAG Caseless)'
   parent: BaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -72,7 +72,7 @@
 
 - type: entity
   id: Magazine68x52mmCaseless
-  name: "magazine (6.8x52mm STANAG Caseless)"
+  name: '杂志（6.8x52毫米 STANAG 无壳弹） | magazine (6.8x52mm STANAG Caseless)'
   parent: BaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -86,7 +86,7 @@
 
 - type: entity
   id: Magazine68x52mmCaselessPractice
-  name: "magazine (6.8x52mm STANAG Caseless practice)"
+  name: '杂志（6.8x52毫米 STANAG 无壳训练弹） | magazine (6.8x52mm STANAG Caseless practice)'
   parent: BaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -100,7 +100,7 @@
 
 - type: entity
   id: Magazine68x52mmCaselessEmpty
-  name: "magazine (6.8x52mm STANAG Caseless any)"
+  name: '杂志（6.8x52毫米 STANAG 无壳弹任意型号） | magazine (6.8x52mm STANAG Caseless any)'
   parent: BaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -114,7 +114,7 @@
 
 - type: entity
   id: Magazine68x52mmCaselessShort
-  name: "short magazine (6.8x52mm STANAG Caseless)"
+  name: '短弹匣（6.8x52毫米 STANAG 无壳弹） | short magazine (6.8x52mm STANAG Caseless)'
   parent: BaseMagazine68x52mmCaselessShort
   components:
   - type: BallisticAmmoProvider
@@ -129,7 +129,7 @@
 
 - type: entity
   id: Magazine68x52mmCaselessShortPractice
-  name: "short magazine (6.8x52mm STANAG Caseless practice)"
+  name: '短弹匣（6.8x52毫米STANAG无壳训练弹） | short magazine (6.8x52mm STANAG Caseless practice)'
   parent: BaseMagazine68x52mmCaselessShort
   components:
   - type: BallisticAmmoProvider
@@ -144,7 +144,7 @@
 
 - type: entity
   id: Magazine68x52mmCaselessRubber
-  name: "magazine (6.8x52mm STANAG Caseless rubber)"
+  name: '杂志（6.8x52毫米 STANAG 无壳橡胶弹） | magazine (6.8x52mm STANAG Caseless rubber)'
   parent: BaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider

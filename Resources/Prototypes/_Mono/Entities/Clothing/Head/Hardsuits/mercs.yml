@@ -7,8 +7,8 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, BaseC3SyndicateContraband, ClothingHeadSuitWithLightBase]
   id: ClothingHelmetHardsuitMercenaryWarlord
-  name: WL-01 helmet
-  description: A heavy headgear piece accompanying the Warlord suit, it offers flash inmunity aswell mass scanner support.
+  name: 'WL-01头盔 | WL-01 helmet'
+  description: '重型头饰部件，与督军套装搭配使用，可提供闪光免疫并支持群体扫描功能。 | A heavy headgear piece accompanying the Warlord suit, it offers flash inmunity aswell mass scanner support.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/merc_warlordsuit.rsi

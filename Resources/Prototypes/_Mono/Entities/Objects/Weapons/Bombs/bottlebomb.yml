@@ -5,8 +5,8 @@
 - type: entity
   parent: [GrenadeBase, BaseC3SyndicateContraband]
   id: BottleBomb
-  name: bottle bomb
-  description: Cheap alternative to nukes.
+  name: '瓶装炸弹 | bottle bomb'
+  description: '核武器的廉价替代品。 | Cheap alternative to nukes.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Bombs/bottlebomb.rsi
@@ -47,9 +47,9 @@
 - type: entity
   parent: DrinkBottleBaseEmpty
   id: BottleBombEmpty
-  name: bottle bomb
+  name: '瓶装炸弹 | bottle bomb'
   suffix: empty
-  description: Cheap alternative to nukes. This one has no fuel.
+  description: '核武器廉价替代品。这个没有燃料。 | Cheap alternative to nukes. This one has no fuel.'
   components:
   - type: SolutionContainerManager
     solutions:

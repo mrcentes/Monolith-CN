@@ -6,9 +6,9 @@
 
 - type: entity
   id: TechDiskPrinter
-  name: tech disk printer
+  name: '科技磁盘打印机 | tech disk printer'
   parent: [BaseStructureDisableToolUse, BaseMachine]
-  description: A machine that automatically prints tech disks every 7.5 minutes from automatically scavenged pre-Fracture data. Needs 120kW of HV power to function.
+  description: '一台能够自动从断裂前数据中采集信息并每7.5分钟生成科技圆盘的机器。需要120千瓦高压电力才能运作。 | A machine that automatically prints tech disks every 7.5 minutes from automatically scavenged pre-Fracture data. Needs 120kW of HV power to function.'
   components:
   - type: PowerConsumer
     voltage: High
@@ -82,7 +82,7 @@
     color: "#00AACC"
 
 - type: entity
-  name: tech disk printer spawnable disks
+  name: '科技磁盘打印机可生成磁盘 | tech disk printer spawnable disks'
   id: SpawnLootTechDiskPrinter
   parent: MarkerBasePlaceFree
   components:
@@ -99,7 +99,7 @@
     - SpawnLootTechDisksPrinterT2
 
 - type: entity
-  name: tech disk printer disks
+  name: '技术磁盘打印机磁盘 | tech disk printer disks'
   id: SpawnLootTechDisksPrinterT1
   parent: MarkerBasePlaceFree
   suffix: "Tech Disk Printer T1"
@@ -135,7 +135,7 @@
     rareChance: 0.15
 
 - type: entity
-  name: tech disk printer disks
+  name: '技术磁盘打印机磁盘 | tech disk printer disks'
   id: SpawnLootTechDisksPrinterT2
   parent: MarkerBasePlaceFree
   suffix: "Tech Disk Printer T2"
@@ -162,7 +162,7 @@
     rareChance: 0.15
 
 - type: entity
-  name: tech disk printer disks
+  name: '技术磁盘打印机磁盘 | tech disk printer disks'
   id: SpawnLootTechDisksPrinterT3
   parent: MarkerBasePlaceFree
   suffix: "Tech Disk Printer T3"
@@ -189,7 +189,7 @@
     rareChance: 0.15
 
 - type: entity
-  name: tech disk printer disks
+  name: '技术磁盘打印机磁盘 | tech disk printer disks'
   id: SpawnLootTechDisksPrinterT4
   parent: MarkerBasePlaceFree
   suffix: "Tech Disk Printer T4"

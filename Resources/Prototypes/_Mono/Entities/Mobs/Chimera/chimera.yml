@@ -11,7 +11,7 @@
 - type: entity
   parent: MonoBaseMobLetoferolHumanoid
   id: MobLetoferolHorror
-  name: chimera fleshbeast
+  name: '嵌合体血肉兽 | chimera fleshbeast'
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 2.7
@@ -57,11 +57,11 @@
   parent: MobLetoferolHorror
   id: MobLetoferolHorrorGhostrole
   suffix: Ghostrole
-  name: chimera fleshbeast
+  name: '嵌合体血肉兽 | chimera fleshbeast'
   components:
   - type: GhostRole
-    name: ghost-role-information-chimera-name
-    description: ghost-role-information-chimera-description
+    name: '奇美拉幽灵角色信息名称 | ghost-role-information-chimera-name'
+    description: '幽灵角色信息奇美拉描述 | ghost-role-information-chimera-description'
     rules: ghost-role-information-chimera-rules
     raffle:
       settings: default
@@ -75,7 +75,7 @@
   - MonoBaseMobLetoferol
   - BaseMobFlesh
   id: MobLetoferolBeast
-  name: chimera fleshbeast
+  name: '嵌合体血肉兽 | chimera fleshbeast'
   components:
   - type: Sprite
     drawdepth: Mobs

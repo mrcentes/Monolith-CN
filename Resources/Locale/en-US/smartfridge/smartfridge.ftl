@@ -5,6 +5,6 @@ smart-fridge-component-search-filter = Search...
 smart-fridge-component-title = SmartFridge
 smart-fridge-list-item = {$item} [{$amount}]
 #Mono
-smart-fridge-request-generic = Freshness not guaranteed
+smart-fridge-request-generic = All sales final
 #Mono
-smart-fridge-request-chemistry = Request refills from your chemist
+smart-fridge-request-chemistry = Request refills from chemistry

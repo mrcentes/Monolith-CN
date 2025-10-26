@@ -12,8 +12,8 @@
 - type: entity
   parent: [ClothingNeckBase] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
   id: ClothingNeckCloakUssp
-  name: Commissar parade cloak
-  description: An exquisite white, red, blue and gold cloak fitting for those who can assert dominance over their troops.
+  name: '政委阅兵斗篷 | Commissar parade cloak'
+  description: '一件精美白红蓝金四色相间的斗篷，适合能够对部队确立威信之人。 | An exquisite white, red, blue and gold cloak fitting for those who can assert dominance over their troops.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Cloaks/ussp.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBlack
-  name: black cloak
-  description: A black cloak, looks old.
+  name: '黑色斗篷 | black cloak'
+  description: '一件黑色斗篷，看起来有些陈旧。 | A black cloak, looks old.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Cloaks/blackcloak.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakRogueCommander
-  name: Rogue commander's cloak
-  description: An Ashenveil Cell-Comm cloak, only given to those who have proven their loyalty and worth to the cause. Some say Ashenveil never would've formed beyond a prisoner colony if it wasn't for the Syndicate Remnants elevating them.
+  name: '叛军指挥官斗篷 | Rogue commander''s cloak'
+  description: '一件灰帷核心指挥官斗篷，仅授予那些为事业证明忠诚与价值之人。据说若非辛迪加残党鼎力扶持，灰帷组织根本不可能从囚犯殖民地发展壮大。 | An Ashenveil Cell-Comm cloak, only given to those who have proven their loyalty and worth to the cause. Some say Ashenveil never would''ve formed beyond a prisoner colony if it wasn''t for the Syndicate Remnants elevating them.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Cloaks/ashenveilcloak.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCOG
-  name: Old robe
-  description: An ancient crimson draping from a now-defunct cult.
+  name: '旧长袍 | Old robe'
+  description: '一件来自已消亡教派的古老深红色长袍。 | An ancient crimson draping from a now-defunct cult.'
   components:
   - type: Sprite
     scale: 0.6, 0.6

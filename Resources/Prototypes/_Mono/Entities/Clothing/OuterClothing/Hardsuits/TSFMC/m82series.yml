@@ -8,8 +8,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable]
   id: ClothingOuterHardsuitM82c
-  name: M82c hardsuit
-  description: A hardsuit issued to marines operating in low-pressure and high-risk environments. Specialized in bullet protection.
+  name: 'M82c硬质防护服 | M82c hardsuit'
+  description: '专为低压高风险环境作战的海军陆战队配发的硬质防护服。特化防弹功能。 | A hardsuit issued to marines operating in low-pressure and high-risk environments. Specialized in bullet protection.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingOuterHardsuitM82c
   id: ClothingOuterHardsuitM82b
-  name: M82b hardsuit
-  description: Corpsman variant of the M82c outfitted with caustic and radiological shielding. Some of the blunt-absorbent gel layer is sacrificed for the NBC protection.
+  name: 'M82b硬质防护服 | M82b hardsuit'
+  description: 'M82c防护服的医护兵变体配备腐蚀性和辐射防护层。为核生化防护牺牲了部分钝力吸收凝胶层。 | Corpsman variant of the M82c outfitted with caustic and radiological shielding. Some of the blunt-absorbent gel layer is sacrificed for the NBC protection.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82b.rsi

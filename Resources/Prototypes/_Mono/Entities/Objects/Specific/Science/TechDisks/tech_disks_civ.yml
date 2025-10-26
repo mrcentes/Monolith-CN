@@ -8,8 +8,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskBluespaceBags
-  name: pre-fracture bluespace storage tech disk
-  description: A disk capable of adding advanced bluespace storage to a server's recipes.
+  name: '预装裂隙超空间存储技术盘 | pre-fracture bluespace storage tech disk'
+  description: '一张能够为服务器配方添加高级蓝空存储技术的磁盘。 | A disk capable of adding advanced bluespace storage to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -38,8 +38,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskCivBluespaceBags
-  name: civilian bluespace storage tech disk
-  description: A disk capable of adding basic bluespace storage to a server's recipes.
+  name: '民用级超时空存储技术磁盘 | civilian bluespace storage tech disk'
+  description: '能够为服务器配方添加基础超空间存储技术的光盘。 | A disk capable of adding basic bluespace storage to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -58,8 +58,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskCivMicroreactors
-  name: civilian high-efficiency power cells tech disk
-  description: A disk capable of adding microreactors and hyper-capacity cells to a server's recipes.
+  name: '民用高效电池技术磁盘 | civilian high-efficiency power cells tech disk'
+  description: '一张能够为服务器配方添加微型反应堆和超容量电池的技术磁盘。 | A disk capable of adding microreactors and hyper-capacity cells to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -77,8 +77,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskCivAdvancedTools
-  name: civilian power tools tech disk
-  description: A disk capable of adding jaws of life and power drills to a server's recipes.
+  name: '民用电动工具技术磁盘 | civilian power tools tech disk'
+  description: '一张能够为服务器配方增加救生钳和强力钻头的技术磁盘。 | A disk capable of adding jaws of life and power drills to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -96,8 +96,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskCivBackpackWaterTank
-  name: civilian power washer tech disk
-  description: A disk capable of adding high-capacity fluid sprays & tanks to a server's recipes. It would never be used for a flamethrower, I swear!
+  name: '民用高压清洗技术磁盘 | civilian power washer tech disk'
+  description: '一张能够为服务器配方添加大容量流体喷雾与储罐的技术磁盘。我发誓这绝对不可能被用来制作火焰喷射器！ | A disk capable of adding high-capacity fluid sprays & tanks to a server''s recipes. It would never be used for a flamethrower, I swear!'
   components:
   - type: Sprite
     layers:
@@ -115,8 +115,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskCivShipComps
-  name: civilian ship components tech disk
-  description: A disk capable of adding basic shields and FTL drives to a server's recipes.
+  name: '民用飞船组件技术磁盘 | civilian ship components tech disk'
+  description: '一张能够为服务器配方添加基础护盾和超光速推进器的技术磁盘。 | A disk capable of adding basic shields and FTL drives to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -134,8 +134,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskCivCTLA50
-  name: civilian CTLA-50 tech disk
-  description: A disk capable of adding CTLA-50/25 FTL drives to a server's recipes.
+  name: '民用CTLA-50技术磁盘 | civilian CTLA-50 tech disk'
+  description: '能够为服务器制造配方添加CTLA-50/25超光速驱动器的技术磁盘。 | A disk capable of adding CTLA-50/25 FTL drives to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -153,8 +153,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskCivMS250
-  name: civilian MS-250 shield tech disk
-  description: A disk capable of adding MS-250/MS-100 shield boards to a server's recipes.
+  name: '民用MS-250护盾技术磁盘 | civilian MS-250 shield tech disk'
+  description: '一种能够为服务器配方添加MS-250或MS-100防护板的技术磁盘。 | A disk capable of adding MS-250/MS-100 shield boards to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -172,8 +172,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskSpeedBoots
-  name: pre-fracture speed manipulation tech disk
-  description: A disk capable of adding speed boots to a server's recipes.
+  name: '预断裂速度调控技术盘 | pre-fracture speed manipulation tech disk'
+  description: '一张能为服务器配方添加速度增益的技术磁盘。 | A disk capable of adding speed boots to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -191,8 +191,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskFtl
-  name: pre-fracture bluespace drive tech disk
-  description: A disk capable of adding FTL drives to a server's recipes.
+  name: '预断裂超空间驱动技术磁盘 | pre-fracture bluespace drive tech disk'
+  description: '一张能够为服务器配方添加超光速驱动器的技术磁盘。 | A disk capable of adding FTL drives to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -212,8 +212,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskShields
-  name: pre-fracture shield technology tech disk
-  description: A disk capable of adding ship shield tech to a server's recipes.
+  name: '预断裂护盾技术磁盘 | pre-fracture shield technology tech disk'
+  description: '能够为服务器配方添加飞船护盾技术的圆盘。 | A disk capable of adding ship shield tech to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -233,8 +233,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskRCD
-  name: rapid matter manipulation tech disk
-  description: A disk capable of adding RCD equipment to a server's recipes.
+  name: '快速物质操纵技术磁盘 | rapid matter manipulation tech disk'
+  description: '一张能够为服务器配方添加快速物质处理技术设备的磁盘。 | A disk capable of adding RCD equipment to a server''s recipes.'
   components:
   - type: Sprite
     layers:

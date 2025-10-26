@@ -5,8 +5,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatUNSABeer
-  name: beer hat
-  description: A true patriot's choice of headwear. Made by the UNSA for enhanced piloting capabilites.
+  name: '啤酒帽 | beer hat'
+  description: '真正爱国者的头饰选择。由联合国太空联盟制造以提升驾驶能力。 | A true patriot''s choice of headwear. Made by the UNSA for enhanced piloting capabilites.'
   components:
   - type: Tag
     tags:

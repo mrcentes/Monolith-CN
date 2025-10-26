@@ -8,8 +8,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingModsuitGauntletsUSSPVaryag
-  name: Ruki Varyaga
-  description: Pressure-sealing and shock-resistant gauntlets.
+  name: '鲁基·瓦里亚加 | Ruki Varyaga'
+  description: '压力密封与抗震护手。 | Pressure-sealing and shock-resistant gauntlets.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingModsuitGauntletsUSSPZastavnik
-  name: Kuvshiny Zastavnika
-  description: Oversized gauntlets with reinforced knuckles and integrated crush dampeners.
+  name: '库夫希内·扎斯塔夫尼卡 | Kuvshiny Zastavnika'
+  description: '超大护手甲，带有强化指节与内置缓冲装置。 | Oversized gauntlets with reinforced knuckles and integrated crush dampeners.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -82,8 +82,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingModsuitGauntletsRogue
-  name: RX-01 modsuit gauntlets
-  description: Non-conductive mesh, pressure-sealed seams. Surprisingly legal. Proudly produced in Sector by Ullman Industries.
+  name: 'RX-01改装服臂铠 | RX-01 modsuit gauntlets'
+  description: '非导电网面，压力密封接缝。意外合规。由乌尔曼工业在塞托区自豪出品。 | Non-conductive mesh, pressure-sealed seams. Surprisingly legal. Proudly produced in Sector by Ullman Industries.'
   categories: [HideSpawnMenu]
   components:
   - type: Appearance
@@ -121,8 +121,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingModsuitGauntletsVolta
-  name: Volta Modsuit Gauntlets
-  description: Oil stained modular suit gloves for easily pushing buttons on an RCD.
+  name: '伏打模块护臂 | Volta Modsuit Gauntlets'
+  description: '油污斑驳的模块化防护手套，便于操作RCD设备按钮。 | Oil stained modular suit gloves for easily pushing buttons on an RCD.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

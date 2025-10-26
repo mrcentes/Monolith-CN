@@ -10,8 +10,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatWideBrimmedWhite
-  name: white wide-brimmed hat
-  description: Works great as frisbee substitute.
+  name: '白色宽檐帽 | white wide-brimmed hat'
+  description: '可作为飞盘替代品使用效果极佳。 | Works great as frisbee substitute.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hats/greyscale_widebrim_hat.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatWideBrimmedPurple
-  name: purple wide-brimmed hat
-  description: Works great as frisbee substitute.
+  name: '紫色宽檐帽 | purple wide-brimmed hat'
+  description: '可作为飞盘替代品使用效果极佳。 | Works great as frisbee substitute.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hats/greyscale_widebrim_hat.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatWideBrimmedRed
-  name: red wide-brimmed hat
-  description: Works great as frisbee substitute.
+  name: '红色宽檐帽 | red wide-brimmed hat'
+  description: '可作为飞盘替代品使用效果极佳。 | Works great as frisbee substitute.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hats/greyscale_widebrim_hat.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatWideBrimmedGreen
-  name: green wide-brimmed hat
-  description: Works great as frisbee substitute.
+  name: '绿色宽檐帽 | green wide-brimmed hat'
+  description: '可作为飞盘替代品使用效果极佳。 | Works great as frisbee substitute.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hats/greyscale_widebrim_hat.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatWideBrimmedBlue
-  name: blue wide-brimmed hat
-  description: Works great as frisbee substitute.
+  name: '蓝色宽檐帽 | blue wide-brimmed hat'
+  description: '可作为飞盘替代品使用效果极佳。 | Works great as frisbee substitute.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hats/greyscale_widebrim_hat.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadHatWideBrimmedYellow
-  name: yellow wide-brimmed hat
-  description: Works great as frisbee substitute.
+  name: '黄色宽檐帽 | yellow wide-brimmed hat'
+  description: '可作为飞盘替代品使用效果极佳。 | Works great as frisbee substitute.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hats/greyscale_widebrim_hat.rsi

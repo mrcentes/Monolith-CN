@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseTradeItemVolatile
   id: TradeGoodAmmo
-  name: ammo crate
-  description: A sealed crate of ammunition. A label on the side indicates it as explosive if damaged.
+  name: '弹药箱 | ammo crate'
+  description: '一个密封的弹药箱。箱体侧面的标签注明若遭损坏可能引发爆炸。 | A sealed crate of ammunition. A label on the side indicates it as explosive if damaged.'
   components:
   - type: Sprite
     state: ammo
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodSupplies
-  name: supplies crate
-  description: A sealed crate of generic supplies.
+  name: '补给箱 | supplies crate'
+  description: '一个密封的通用物资板条箱。 | A sealed crate of generic supplies.'
   components:
   - type: Sprite
     state: supplies
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodMedicalSupplies
-  name: medical supplies crate
-  description: A sealed crate of medical supplies.
+  name: '医疗物资箱 | medical supplies crate'
+  description: '一个密封的医疗物资箱。 | A sealed crate of medical supplies.'
   components:
   - type: Sprite
     state: supplies-med
@@ -70,8 +70,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodChemicalSupplies
-  name: chemical supplies crate
-  description: A sealed crate of chemical supplies.
+  name: '化学物资箱 | chemical supplies crate'
+  description: '一箱密封的化学补给品。 | A sealed crate of chemical supplies.'
   components:
   - type: Sprite
     state: chems
@@ -81,8 +81,8 @@
 - type: entity
   parent: BaseTradeItemVolatile
   id: TradeGoodChemicalsVolatile
-  name: volatile chemical supplies crate
-  description: A sealed crate of volatile chemicals. A label on the side indicates it as explosive if damaged.
+  name: '易挥发化学品补给箱 | volatile chemical supplies crate'
+  description: '一个装有易挥发化学品的密封箱。箱体侧面的标签注明若破损可能引发爆炸。 | A sealed crate of volatile chemicals. A label on the side indicates it as explosive if damaged.'
   components:
   - type: Sprite
     state: chems-volatile
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodFissionFuel
-  name: fission reactor fuel crate
-  description: A sealed crate of packaged nuclear fuel rods. Radioactive. Handle with care.
+  name: '裂变反应堆燃料箱 | fission reactor fuel crate'
+  description: '一个装有封装核燃料棒的密封箱。具有放射性。请小心搬运。 | A sealed crate of packaged nuclear fuel rods. Radioactive. Handle with care.'
   components:
   - type: Sprite
     state: fission
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseTradeItemVolatile
   id: TradeGoodFusionFuel
-  name: fusion reactor fuel crate
-  description: A sealed crate of packaged D-T fuel cells for use in large fusion reactors. Radioactive and volatile if damaged. Handle with care.
+  name: '聚变反应堆燃料箱 | fusion reactor fuel crate'
+  description: '一个封装着供大型核聚变反应堆使用的氘氚燃料电池板条箱。若破损具有放射性及挥发性。请小心搬运。 | A sealed crate of packaged D-T fuel cells for use in large fusion reactors. Radioactive and volatile if damaged. Handle with care.'
   components:
   - type: Sprite
     state: fusion
@@ -146,8 +146,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodWeaponParts
-  name: weapon parts crate
-  description: A sealed crate of various firearm components.
+  name: '武器零件箱 | weapon parts crate'
+  description: '一个装有各类枪械零件的密封板条箱。 | A sealed crate of various firearm components.'
   components:
   - type: Sprite
     state: weapon-components
@@ -157,8 +157,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodScrap
-  name: scrap crate
-  description: A sealed crate of scrap and salvage.
+  name: '废料箱 | scrap crate'
+  description: '一个装满废弃零件和回收物资的密封板条箱。 | A sealed crate of scrap and salvage.'
   components:
   - type: Sprite
     state: scrap
@@ -168,8 +168,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodLuxuries
-  name: luxury goods crate
-  description: A sealed crate of luxuries.
+  name: '奢侈品板条箱 | luxury goods crate'
+  description: '一个密封的奢侈品板条箱。 | A sealed crate of luxuries.'
   components:
   - type: Sprite
     state: luxury
@@ -179,8 +179,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodEquipment
-  name: equipment crate
-  description: A sealed crate of various pieces of equipment and gear.
+  name: '装备箱 | equipment crate'
+  description: '一个装有各类装备和器材的密封板条箱。 | A sealed crate of various pieces of equipment and gear.'
   components:
   - type: Sprite
     state: equipment
@@ -190,8 +190,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodComponents
-  name: components crate
-  description: A sealed crate of various machine parts.
+  name: '零部件板条箱 | components crate'
+  description: '一个密封的各种机器零件板条箱。 | A sealed crate of various machine parts.'
   components:
   - type: Sprite
     state: components
@@ -201,8 +201,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodShipComponents
-  name: ship components crate
-  description: A sealed crate of various ship parts.
+  name: '船舶部件板条箱 | ship components crate'
+  description: '一个装有各种船舶零件的密封板条箱。 | A sealed crate of various ship parts.'
   components:
   - type: Sprite
     state: ship-components
@@ -212,8 +212,8 @@
 - type: entity
   parent: BaseTradeItemVolatile
   id: TradeGoodFertilizer
-  name: fertilizer crate
-  description: A sealed crate of fertilizer. A label on the side indicates it as explosive if damaged.
+  name: '肥料板条箱 | fertilizer crate'
+  description: '一个密封的肥料箱。箱体侧面的标签注明若遭损坏可能引发爆炸。 | A sealed crate of fertilizer. A label on the side indicates it as explosive if damaged.'
   components:
   - type: Sprite
     state: fertilizer
@@ -223,8 +223,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodFabric
-  name: fabric crate
-  description: A sealed crate of various fabrics.
+  name: '布料板条箱 | fabric crate'
+  description: '一个装满各种织物的密封板条箱。 | A sealed crate of various fabrics.'
   components:
   - type: Sprite
     state: fabric
@@ -234,8 +234,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodMetals
-  name: metals crate
-  description: A sealed crate of various metals.
+  name: '金属板条箱 | metals crate'
+  description: '一个密封的各种金属板条箱。 | A sealed crate of various metals.'
   components:
   - type: Sprite
     state: metal

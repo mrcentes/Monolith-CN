@@ -5,8 +5,8 @@
 - type: entity
   id: MachineShieldMS100Circuitboard
   parent: BaseMachineCircuitboard
-  name: MS-100 shield generator board
-  description: A machine board for a shield generator.
+  name: 'MS-100护盾发生器机板 | MS-100 shield generator board'
+  description: '盾牌发生器的机器板。 | A machine board for a shield generator.'
   components:
     - type: Sprite
       state: security
@@ -25,8 +25,8 @@
 - type: entity
   id: MachineShieldMS250Circuitboard
   parent: BaseMachineCircuitboard
-  name: MS-250 shield generator board
-  description: A machine board for a shield generator.
+  name: 'MS-250护盾发生器机板 | MS-250 shield generator board'
+  description: '盾牌发生器的机器板。 | A machine board for a shield generator.'
   components:
   - type: Sprite
     state: security
@@ -47,8 +47,8 @@
 - type: entity
   id: MachineShieldMS500Circuitboard
   parent: BaseMachineCircuitboard
-  name: MS-500 shield generator board
-  description: A machine board for a shield generator.
+  name: 'MS-500护盾发生器机板 | MS-500 shield generator board'
+  description: '盾牌发生器的机器板。 | A machine board for a shield generator.'
   components:
   - type: Sprite
     state: security

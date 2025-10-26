@@ -7,8 +7,8 @@
 - type: entity
   parent: CrateTradeBaseSecure
   id: CrateTradeSecureSalvage
-  name: abandoned cargo crate
-  description: Forgotten export from an era bygone. The exterior has held fast, keeping its contents commercially viable despite countless cycles of solar radiation. The label indicates a fivefold freight commission upon delivery.
+  name: '废弃货箱 | abandoned cargo crate'
+  description: '被遗忘的旧时代出口品。尽管历经无数次日晒辐射，外部结构依然牢固，内部货物仍具商业价值。标签注明交货时可获五倍运费佣金。 | Forgotten export from an era bygone. The exterior has held fast, keeping its contents commercially viable despite countless cycles of solar radiation. The label indicates a fivefold freight commission upon delivery.'
   components:
   - type: TradeCrate
     valueAtDestination: 15000
@@ -48,8 +48,8 @@
 - type: entity
   parent: [ BaseC3SyndicateContraband, CrateGenericSteel ] # Frontier: Added BaseC3SyndicateContraband
   id: CrateNanotrasen
-  name: Nanotrasen crate
-  description: A white and blue crate with the Nanotrasen Symbol.
+  name: '纳米传输箱 | Nanotrasen crate'
+  description: '一个印有纳诺特拉森标志的蓝白色板条箱。 | A white and blue crate with the Nanotrasen Symbol.'
   components:
   - type: Icon
     sprite: _Mono/Structures/Storage/Crates/nanotrasen.rsi

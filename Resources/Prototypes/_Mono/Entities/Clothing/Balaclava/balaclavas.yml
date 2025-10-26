@@ -8,8 +8,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskBlack
-  name: black ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '黑色滑雪面罩头套 | black ski mask balaclava'
+  description: '彩色面罩让你看起来更具威慑力。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskGray
-  name: gray ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '灰色滑雪面罩巴拉克拉法帽 | gray ski mask balaclava'
+  description: '一款彩色滑雪面罩让你看起来更具威胁感。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskWhite
-  name: white ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '白色滑雪面罩巴拉克拉法帽 | white ski mask balaclava'
+  description: '一款彩色滑雪面罩，让你看起来更具威胁感。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskRed
-  name: red ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '红色滑雪面罩巴拉克拉法帽 | red ski mask balaclava'
+  description: '一款彩色滑雪面罩，让你看起来更具威胁感。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskGreen
-  name: green ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '绿色滑雪面罩巴拉克拉法帽 | green ski mask balaclava'
+  description: '一款彩色滑雪面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskBlue
-  name: blue ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '蓝色滑雪面罩巴拉克拉瓦帽 | blue ski mask balaclava'
+  description: '一款彩色面罩，让你看起来更具威胁感。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskPurple
-  name: purple ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '紫色滑雪面罩巴拉克拉法帽 | purple ski mask balaclava'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -172,8 +172,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskYellow
-  name: yellow ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '黄色滑雪面罩巴拉克拉法帽 | yellow ski mask balaclava'
+  description: '一款彩色滑雪面罩，让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskTan
-  name: tan ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '棕褐色滑雪面罩巴拉克拉法帽 | tan ski mask balaclava'
+  description: '一款彩色滑雪面罩，让你显得气势汹汹。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskRangerGreen
-  name: ranger green ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '游侠绿滑雪面罩巴拉克拉法帽 | ranger green ski mask balaclava'
+  description: '一款彩色面罩，让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -244,8 +244,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskCoyoteBrown
-  name: coyote brown ski mask balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '郊狼棕色滑雪面罩巴拉克拉法帽 | coyote brown ski mask balaclava'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -270,8 +270,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthBlack
-  name: black ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '黑色滑雪面罩头套（嘴部） | black ski mask balaclava (mouth)'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask_mouth.rsi
@@ -294,8 +294,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthGray
-  name: gray ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '灰色滑雪面罩巴拉克拉瓦帽（嘴部） | gray ski mask balaclava (mouth)'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask_mouth.rsi
@@ -318,8 +318,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthWhite
-  name: white ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '白色滑雪面罩巴拉克拉法帽（嘴部） | white ski mask balaclava (mouth)'
+  description: '一款彩色面罩，让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask_mouth.rsi
@@ -338,8 +338,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthRed
-  name: red ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '红色滑雪面罩头套（嘴部） | red ski mask balaclava (mouth)'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask_mouth.rsi
@@ -362,8 +362,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthGreen
-  name: green ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '绿色滑雪面罩巴拉克拉瓦帽（嘴部） | green ski mask balaclava (mouth)'
+  description: '彩色面罩让你看起来更具威胁性。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask_mouth.rsi
@@ -386,8 +386,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthBlue
-  name: blue ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '蓝色滑雪面罩头套（嘴部） | blue ski mask balaclava (mouth)'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask_mouth.rsi
@@ -410,8 +410,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthPurple
-  name: purple ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '紫色滑雪面罩巴拉克拉法帽（嘴部） | purple ski mask balaclava (mouth)'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask_mouth.rsi
@@ -434,8 +434,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthYellow
-  name: yellow ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '黄色滑雪面罩巴拉克拉瓦帽（嘴部） | yellow ski mask balaclava (mouth)'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask_mouth.rsi
@@ -458,8 +458,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthTan
-  name: tan ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '棕褐色滑雪面罩巴拉克拉瓦头套（嘴部） | tan ski mask balaclava (mouth)'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -482,8 +482,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthRangerGreen
-  name: ranger green ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '游侠绿滑雪面罩巴拉克拉法帽（嘴部） | ranger green ski mask balaclava (mouth)'
+  description: '一款彩色面罩，让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -506,8 +506,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaSkiMaskMouthCoyoteBrown
-  name: coyote brown ski mask balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '郊狼棕色滑雪面罩巴拉克拉瓦帽（嘴部） | coyote brown ski mask balaclava (mouth)'
+  description: '一款彩色面罩，让你看起来更具威胁感。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -532,8 +532,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicBlack
-  name: black classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '黑色经典巴拉克拉法帽 | black classic balaclava'
+  description: '一款彩色巴拉克拉瓦帽让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic.rsi
@@ -556,8 +556,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicGray
-  name: gray classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '灰色经典巴拉克拉瓦头套 | gray classic balaclava'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic.rsi
@@ -580,8 +580,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicWhite
-  name: white classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '白色经典巴拉克拉瓦头套 | white classic balaclava'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic.rsi
@@ -600,8 +600,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicRed
-  name: red classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '红色经典巴拉克拉瓦帽 | red classic balaclava'
+  description: '一款彩色巴拉克拉瓦帽让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic.rsi
@@ -624,8 +624,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicGreen
-  name: green classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '绿色经典款巴拉克拉法帽 | green classic balaclava'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic.rsi
@@ -648,8 +648,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicBlue
-  name: blue classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '蓝色经典巴拉克拉瓦帽 | blue classic balaclava'
+  description: '一款彩色面罩，让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic.rsi
@@ -672,8 +672,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicPurple
-  name: purple classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '紫色经典款巴拉克拉法帽 | purple classic balaclava'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic.rsi
@@ -696,8 +696,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicYellow
-  name: yellow classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '黄色经典巴拉克拉瓦帽 | yellow classic balaclava'
+  description: '一款彩色面罩，让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic.rsi
@@ -720,8 +720,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicTan
-  name: tan classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '棕褐色经典巴拉克拉法帽 | tan classic balaclava'
+  description: '一款彩色巴拉克拉瓦头套，令您显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -744,8 +744,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicRangerGreen
-  name: ranger green classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '游骑兵绿经典款巴拉克拉瓦帽 | ranger green classic balaclava'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -768,8 +768,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicCoyoteBrown
-  name: coyote brown classic balaclava
-  description: A colored balaclava to make you look menacing.
+  name: '土狼棕色经典巴拉克拉瓦头套 | coyote brown classic balaclava'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -794,8 +794,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthBlack
-  name: black classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '黑色经典巴拉克拉瓦头套（口部） | black classic balaclava (mouth)'
+  description: '一款彩色面罩，令您显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic_mouth.rsi
@@ -818,8 +818,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthGray
-  name: gray classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '灰色经典款巴拉克拉瓦头套（口部） | gray classic balaclava (mouth)'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic_mouth.rsi
@@ -842,8 +842,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthWhite
-  name: white classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '白色经典巴拉克拉瓦头套（嘴部） | white classic balaclava (mouth)'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic_mouth.rsi
@@ -862,8 +862,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthRed
-  name: red classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '红色经典巴拉克拉瓦头套（嘴部） | red classic balaclava (mouth)'
+  description: '一款彩色面罩让你看起来更具威胁感。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic_mouth.rsi
@@ -886,8 +886,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthGreen
-  name: green classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '绿色经典款巴拉克拉瓦头套（嘴部） | green classic balaclava (mouth)'
+  description: '一款彩色面罩让你看起来更具威胁感。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic_mouth.rsi
@@ -910,8 +910,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthBlue
-  name: blue classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '蓝色经典巴拉克拉瓦头套（嘴部） | blue classic balaclava (mouth)'
+  description: '一款彩色面罩，让你看起来更具威胁感。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic_mouth.rsi
@@ -934,8 +934,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthPurple
-  name: purple classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '紫色经典巴拉克拉瓦头套（嘴部） | purple classic balaclava (mouth)'
+  description: '一款彩色面罩让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic_mouth.rsi
@@ -958,8 +958,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthYellow
-  name: yellow classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '黄色经典巴拉克拉瓦头套（口部） | yellow classic balaclava (mouth)'
+  description: '一款彩色面罩，让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_classic_mouth.rsi
@@ -982,8 +982,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthTan
-  name: tan classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '棕褐色经典巴拉克拉瓦头套（嘴部） | tan classic balaclava (mouth)'
+  description: '一款彩色面罩，让你显得气势逼人。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -1006,8 +1006,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthRangerGreen
-  name: ranger green classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '游骑兵绿经典款巴拉克拉瓦头套（口部） | ranger green classic balaclava (mouth)'
+  description: '一款彩色面罩让你看起来更具威慑力。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi
@@ -1030,8 +1030,8 @@
 - type: entity
   parent: ClothingBalaclavaBase
   id: ClothingBalaclavaClassicMouthCoyoteBrown
-  name: coyote brown classic balaclava (mouth)
-  description: A colored balaclava to make you look menacing.
+  name: '郊狼棕色经典巴拉克拉瓦头套（嘴部） | coyote brown classic balaclava (mouth)'
+  description: '一款彩色面罩，让您看起来更具威慑力。 | A colored balaclava to make you look menacing.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Balaclavas/balaclava_ski_mask.rsi

@@ -5,7 +5,7 @@
 - type: entity
   id: BorgModuleAdvancedWeapon
   parent: [ BaseBorgModule, BaseProviderBorgModule, BaseC3SyndicateContraband ]
-  name: advanced weapon cyborg module
+  name: '高级武器改造模块 | advanced weapon cyborg module'
   components:
   - type: Sprite
     layers:

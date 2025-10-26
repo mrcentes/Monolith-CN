@@ -1,6 +1,6 @@
 - type: entity
   id: MechCoilgunSabot
-  name: 3cm sabot
+  name: '三厘米弹托 | 3cm sabot'
   parent: BulletRocketEmp
   categories: [ HideSpawnMenu ]
   components:

@@ -1,7 +1,7 @@
 anomaly-component-contact-damage = The anomaly sears off your skin!
 
-anomaly-vessel-component-anomaly-assigned = Anomaly assigned to vessel.
-anomaly-vessel-component-not-assigned = This vessel is not assigned to any anomaly. Try using a scanner on it.
+anomaly-vessel-component-anomaly-assigned = 异常分配给船舶
+anomaly-vessel-component-not-assigned = 这艘船没有被分配到任何异常。试着用扫描仪扫描一下。
 anomaly-vessel-component-assigned = This vessel is currently assigned to an anomaly.
 anomaly-vessel-component-upgrade-output = point output
 
@@ -57,7 +57,7 @@ anomaly-sync-connect-verb-text = Attach anomaly
 anomaly-sync-connect-verb-message = Attach a nearby anomaly to {THE($machine)}.
 
 anomaly-generator-ui-title = Anomaly Generator
-anomaly-generator-fuel-display = Bananium:
+anomaly-generator-fuel-display = Fuel:
 anomaly-generator-cooldown = Cooldown: [color=gray]{$time}[/color]
 anomaly-generator-no-cooldown = Cooldown: [color=gray]Complete[/color]
 anomaly-generator-yes-fire = Status: [color=forestgreen]Ready[/color]

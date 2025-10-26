@@ -6,8 +6,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockBarista
-  name: BaristaVend Restock
-  description: A box filled with tea pouches, cups, and barista supplies. Load it into a Barista Vendor to restock. A label reads "FOR AUTHORIZED BARISTAS ONLY. TAMPERING WILL RUIN THE FLAVOR."
+  name: '咖啡师补给箱 | BaristaVend Restock'
+  description: '装满茶包、杯子和咖啡师用品的箱子。将其装入咖啡师自动售货机即可完成补货。标签上写着「仅供认证咖啡师使用。擅自拆封将破坏风味」。 | A box filled with tea pouches, cups, and barista supplies. Load it into a Barista Vendor to restock. A label reads "FOR AUTHORIZED BARISTAS ONLY. TAMPERING WILL RUIN THE FLAVOR."'
   components:
   - type: VendingMachineRestock
     canRestock:

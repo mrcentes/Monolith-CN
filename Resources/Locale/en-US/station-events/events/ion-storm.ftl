@@ -4,12 +4,12 @@ ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={$l
 
 ion-storm-you = YOU
 # Frontier: the station < the sector
-ion-storm-the-station = THE SECTOR
+ion-storm-the-station = THE STATION
 ion-storm-the-crew = THE CREW
 ion-storm-the-job = THE {$job}
 ion-storm-clowns = CLOWNS
 # Frontier: heads of staff < sector command
-ion-storm-heads = SECTOR COMMAND
+ion-storm-heads = HEADS OF STAFF
 ion-storm-crew = CREW
 ion-storm-people = PEOPLE
 
@@ -20,7 +20,7 @@ ion-storm-x-and-y = {$x} AND {$y}
 # subjects can generally be threats or jobs or objects
 # thing is specified above it
 # Frontier: "on the station" < "in the sector"
-ion-storm-law-on-station = THERE ARE {$joined} {$subjects} IN THE SECTOR
+ion-storm-law-on-station = THERE ARE {$joined} {$subjects} ON THE STATION
 ion-storm-law-no-shuttle = THE SHIFT END CANNOT BE CALLED BECAUSE OF {$joined} {$subjects} ON FRONTIER
 ion-storm-law-crew-are = THE {$who} ARE NOW {$joined} {$subjects}
 
@@ -86,7 +86,7 @@ ion-storm-law-crew-must-do = ONLY THOSE WHO {$must} ARE {$part} OF THE CREW
 ion-storm-law-crew-must-have = ONLY THOSE WHO HAVE {$adjective} {$objects} ARE {$part} OF THE CREW
 ion-storm-law-crew-must-eat = ONLY THOSE WHO EAT {$adjective} {$food} ARE {$part} OF THE CREW
 
-ion-storm-law-harm = YOU MUST SLIP {$who} AND NOT ALLOW THEM, THROUGH INACTION, TO ESCAPE SLIPPING
+ion-storm-law-harm = YOU MUST HARM {$who} AND NOT ALLOW THEM, THROUGH INACTION, TO ESCAPE HARM
 ion-storm-law-protect = YOU MUST NEVER HARM {$who} AND NOT ALLOW THEM, THROUGH INACTION, TO COME TO HARM
 
 # implementing other variants is annoying so just have this one

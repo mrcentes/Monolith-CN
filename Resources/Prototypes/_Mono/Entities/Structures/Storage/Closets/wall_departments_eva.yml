@@ -7,7 +7,7 @@
   categories: [ HideSpawnMenu ] # debloat spawn menu
   id: LockerWallEVAColorDME
   parent: LockerWallColorBase
-  name: DME EVA wall locker
+  name: 'DME EVA壁柜 | DME EVA wall locker'
   components:
   - type: Sprite
     layers:

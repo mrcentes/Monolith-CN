@@ -4,8 +4,8 @@
 
 - type: entity
   id: CatwalkMono
-  name: mono catwalk
-  description: A catwalk for easier EVA maneuvering and cable placement.
+  name: '单条猫道 | mono catwalk'
+  description: '便于舱外活动操作与线缆布设的检修走道。 | A catwalk for easier EVA maneuvering and cable placement.'
   placement:
     mode: SnapgridCenter
   components:
@@ -116,13 +116,13 @@
       - tool: Cutting
 
 - type: construction
-  name: steel mono catwalk
+  name: '钢制单体走道 | steel mono catwalk'
   id: SteelMonoCatwalk
   graph: SteelMonoCatwalk
   startNode: start
   targetNode: MonoCatwalk
   category: construction-category-structures
-  description: Just like a lattice. Except it looks better.
+  description: '就像网格一样。不过看起来更美观。 | Just like a lattice. Except it looks better.'
   conditions:
   - !type:TileNotBlocked
     failIfSpace: false
@@ -164,13 +164,13 @@
       - tool: Cutting
 
 - type: construction
-  name: dark mono catwalk
+  name: '暗黑单色猫步 | dark mono catwalk'
   id: DarkMonoCatwalk
   graph: DarkMonoCatwalk
   startNode: start
   targetNode: MonoCatwalk
   category: construction-category-structures
-  description: Just like a lattice. Except it looks better.
+  description: '如同网格一般。只是看起来更美观。 | Just like a lattice. Except it looks better.'
   conditions:
   - !type:TileNotBlocked
     failIfSpace: false
@@ -212,13 +212,13 @@
       - tool: Cutting
 
 - type: construction
-  name: white mono catwalk
+  name: '白色单色猫步 | white mono catwalk'
   id: WhiteMonoCatwalk
   graph: WhiteMonoCatwalk
   startNode: start
   targetNode: MonoCatwalk
   category: construction-category-structures
-  description: Just like a lattice. Except it looks better.
+  description: '如同网格一般。只是看起来更美观。 | Just like a lattice. Except it looks better.'
   conditions:
   - !type:TileNotBlocked
     failIfSpace: false

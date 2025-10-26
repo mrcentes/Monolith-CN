@@ -4,7 +4,7 @@
 
 #Pills
 - type: entity
-  name: pill canister
+  name: '药片罐 | pill canister'
   parent: PillCanister
   id: PillCanisterStrange
   suffix: Strange, 10

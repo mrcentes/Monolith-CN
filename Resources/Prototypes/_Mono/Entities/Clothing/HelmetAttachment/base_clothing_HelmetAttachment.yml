@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHelmetAttachmentBase
   id: ClothingHeadHelmetAttachmentBlock
-  name: Blocked
-  description: Can't fit anything there
+  name: '阻塞 | Blocked'
+  description: '那里无法放置任何东西 | Can''t fit anything there'
   components:
   - type: Sprite
     sprite: Markers/cross.rsi

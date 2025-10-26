@@ -5,8 +5,8 @@
 - type: entity
   id: GaryTranslator
   parent: [ TranslatorPoweredBase ]
-  name: gary translator
-  description: Translates speech between Gary and Andromeda Standard. Haha, Gary!
+  name: '加里翻译器 | gary translator'
+  description: '在盖瑞语与仙女座标准语之间进行翻译。哈哈，盖瑞！ | Translates speech between Gary and Andromeda Standard. Haha, Gary!'
   components:
   - type: HandheldTranslator
     spoken:

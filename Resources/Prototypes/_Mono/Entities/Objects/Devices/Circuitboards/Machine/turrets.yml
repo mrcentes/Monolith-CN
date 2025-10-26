@@ -5,8 +5,8 @@
 - type: entity
   id: WeaponTurretM25Circuitboard
   parent: BaseMachineCircuitboard
-  name: M25 mining pulsar machine board
-  description: A machine printed circuit board for an M25 mining pulsar.
+  name: 'M25采矿脉冲星机用电路板 | M25 mining pulsar machine board'
+  description: 'M25 采矿脉冲星机器的印刷电路板。 | A machine printed circuit board for an M25 mining pulsar.'
   suffix: Machine Board
   components:
   - type: Sprite

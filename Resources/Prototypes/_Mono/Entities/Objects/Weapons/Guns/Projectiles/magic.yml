@@ -2,8 +2,8 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: ProjectileBabyDragonsBreath
-  name: baby dragon's breath
-  description: Try not to get toasted.
+  name: '幼龙吐息 | baby dragon''s breath'
+  description: '小心别被烤焦了。 | Try not to get toasted.'
   components:
   - type: PointLight
     color: "#E25822"

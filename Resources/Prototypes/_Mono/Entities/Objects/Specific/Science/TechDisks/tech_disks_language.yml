@@ -8,8 +8,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskCivTranslationBasic
-  name: civilian species translation technology disk
-  description: A disk capable of adding species-specific translators to a server's recipes.
+  name: '民用物种翻译技术磁盘 | civilian species translation technology disk'
+  description: '能够为服务器配方添加物种专属翻译器的圆盘。 | A disk capable of adding species-specific translators to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -37,8 +37,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTranslationPreFracture
-  name: pre-fracture advanced translation technology disk
-  description: A disk capable of adding translators and implant translators to a server's recipes.
+  name: '预断裂高级翻译技术盘 | pre-fracture advanced translation technology disk'
+  description: '能够为服务器配方添加翻译器和植入翻译器的磁盘。 | A disk capable of adding translators and implant translators to a server''s recipes.'
   components:
   - type: Sprite
     layers:

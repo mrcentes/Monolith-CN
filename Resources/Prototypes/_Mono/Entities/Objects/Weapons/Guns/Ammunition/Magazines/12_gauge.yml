@@ -21,7 +21,7 @@
 
 - type: entity
   id: BaseMagazine12_gauge
-  name: ammo drum (12 gauge shells)
+  name: '弹药鼓（12号霰弹） | ammo drum (12 gauge shells)'
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
   abstract: true
   components:
@@ -56,7 +56,7 @@
 
 - type: entity
   id: Magazine12_gaugeEmpty
-  name: ammo drum (12 gauge shells any)
+  name: '弹药鼓（任意12号霰弹） | ammo drum (12 gauge shells any)'
   suffix: empty
   parent: BaseMagazine12_gauge
   components:
@@ -65,7 +65,7 @@
 
 - type: entity
   id: Magazine12_gaugeBuckshot
-  name: ammo drum (12 gauge buckshot)
+  name: '弹药鼓（12号铅径鹿弹） | ammo drum (12 gauge buckshot)'
   parent: BaseMagazine12_gauge
   components:
   - type: BallisticAmmoProvider
@@ -79,7 +79,7 @@
 
 - type: entity
   id: Magazine12_gaugeBeanbag
-  name: ammo drum (12 gauge beanbags)
+  name: '弹药鼓（12号豆袋弹） | ammo drum (12 gauge beanbags)'
   parent: BaseMagazine12_gauge
   components:
   - type: BallisticAmmoProvider
@@ -93,7 +93,7 @@
 
 - type: entity
   id: Magazine12_gaugeSlug
-  name: ammo drum (12 gauge slug)
+  name: '弹药鼓（12号独头弹） | ammo drum (12 gauge slug)'
   parent: BaseMagazine12_gauge
   components:
   - type: BallisticAmmoProvider
@@ -107,7 +107,7 @@
 
 - type: entity
   id: Magazine12_gaugeIncendiary
-  name: ammo drum (12 gauge incendiary)
+  name: '弹药鼓（12号燃烧弹） | ammo drum (12 gauge incendiary)'
   parent: BaseMagazine12_gauge
   components:
   - type: BallisticAmmoProvider
@@ -121,7 +121,7 @@
 
 - type: entity
   id: Magazine12_gaugeUranium
-  name: ammo drum (12 gauge uranium)
+  name: '弹药鼓（12号铀弹） | ammo drum (12 gauge uranium)'
   parent: BaseMagazine12_gauge
   components:
   - type: BallisticAmmoProvider
@@ -135,7 +135,7 @@
 
 - type: entity
   id: Magazine12_gaugePractice
-  name: ammo drum (12 gauge practice)
+  name: '弹药鼓（12号口径练习弹） | ammo drum (12 gauge practice)'
   parent: BaseMagazine12_gauge
   components:
   - type: BallisticAmmoProvider
@@ -151,7 +151,7 @@
 #anti-flesh ammo
 - type: entity
   id: Magazine12_gaugeOOBuckshot
-  name: ammo drum (12 gauge OO magnum buckshot)
+  name: '弹药鼓（12号口径OO型马格南鹿弹） | ammo drum (12 gauge OO magnum buckshot)'
   parent: BaseMagazine12_gauge
   components:
   - type: BallisticAmmoProvider
@@ -165,7 +165,7 @@
 
 - type: entity
   id: Magazine12_gaugeSlugRIP
-  name: ammo drum (12 gauge RIP)
+  name: '弹药鼓（12号径RIP弹） | ammo drum (12 gauge RIP)'
   parent: BaseMagazine12_gauge
   components:
   - type: BallisticAmmoProvider
@@ -180,7 +180,7 @@
 #armor-piercing ammo
 - type: entity
   id: Magazine12_gaugeSlugAP
-  name: ammo drum (12 gauge armor-piercing slug)
+  name: '弹药鼓（12号口径穿甲独头弹） | ammo drum (12 gauge armor-piercing slug)'
   parent: BaseMagazine12_gauge
   components:
   - type: BallisticAmmoProvider
@@ -194,7 +194,7 @@
 
 - type: entity
   id: Magazine12_gaugeFlechette
-  name: ammo drum (12 gauge flechette)
+  name: '弹药鼓（12号镖弹） | ammo drum (12 gauge flechette)'
   parent: BaseMagazine12_gauge
   components:
   - type: BallisticAmmoProvider

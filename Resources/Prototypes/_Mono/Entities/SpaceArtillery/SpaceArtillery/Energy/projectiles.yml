@@ -16,7 +16,7 @@
 
 - type: entity
   id: ShipMediumPlasmaProjectile
-  name: plasma projectile
+  name: '等离子体射弹 | plasma projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -55,7 +55,7 @@
 
 - type: entity
   id: ShipAutopulserPlasmaProjectile
-  name: plasma projectile
+  name: '等离子体射弹 | plasma projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -95,7 +95,7 @@
 
 - type: entity
   id: ShipGlassingBeamPlasmaProjectile
-  name: plasma projectile
+  name: '等离子体射弹 | plasma projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -135,7 +135,7 @@
 
 - type: entity
   id: ShipM25Projectile
-  name: M25 projectile
+  name: 'M25抛射体 | M25 projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -169,7 +169,7 @@
 
 - type: entity
   id: ShipRubiconProjectile
-  name: EMP projectile
+  name: 'EMP抛射体 | EMP projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -204,7 +204,7 @@
 
 - type: entity
   id: ShipDymereProjectile
-  name: Ionized Gas Projectile
+  name: '电离气体射弹 | Ionized Gas Projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -244,7 +244,7 @@
 
 - type: entity
   id: ShipNeutronProjectile
-  name: neutron projectile
+  name: '中子抛射体 | neutron projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -282,7 +282,7 @@
 
 - type: entity
   id: ShipIonProjectile
-  name: ion shot
+  name: '离子射击 | ion shot'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

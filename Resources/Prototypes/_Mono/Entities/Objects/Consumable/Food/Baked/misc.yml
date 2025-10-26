@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: simple biscuit
+  name: '简单饼干 | simple biscuit'
   parent: FoodBakedBase
   id: FoodBakedBiscuitSimple
-  description: A simple dry biscuit, perfect pair for some tea or coffee.
+  description: '一块简单的干饼干，与茶或咖啡堪称完美搭配。 | A simple dry biscuit, perfect pair for some tea or coffee.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/Baked/misc.rsi
@@ -17,10 +17,10 @@
     - SimpleBiscuit
 
 - type: entity
-  name: sugar biscuit
+  name: '糖衣饼干 | sugar biscuit'
   parent: FoodBakedBase
   id: FoodBakedBiscuitSugar
-  description: A biscuit with a sugar coating, perfect pair for some tea or coffee.
+  description: '裹着糖衣的饼干，与茶或咖啡是绝配。 | A biscuit with a sugar coating, perfect pair for some tea or coffee.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/Baked/misc.rsi
@@ -30,10 +30,10 @@
     - SugarBiscuit
 
 - type: entity
-  name: oatmeal biscuit
+  name: '燕麦饼干 | oatmeal biscuit'
   parent: FoodBakedBase
   id: FoodBakedBiscuitOatmeal
-  description: A biscuit made with oatmeal, perfect pair for some tea or coffee.
+  description: '一款用燕麦制作的饼干，与茶或咖啡是绝佳搭配。 | A biscuit made with oatmeal, perfect pair for some tea or coffee.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/Baked/misc.rsi

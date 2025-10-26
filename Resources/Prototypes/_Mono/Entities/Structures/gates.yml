@@ -6,8 +6,8 @@
 - type: entity
   parent: BaseLogicItem
   id: SignalTimerItem
-  name: timer
-  description: Sends a signal after a specified time after receiving a signal.
+  name: '定时器 | timer'
+  description: '在接收到信号后的指定时间发送信号。 | Sends a signal after a specified time after receiving a signal.'
   components:
   - type: Sprite
     layers:

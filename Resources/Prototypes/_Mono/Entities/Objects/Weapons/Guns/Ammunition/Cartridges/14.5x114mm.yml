@@ -19,8 +19,8 @@
 - type: entity
   parent: [ BaseCartridge, BaseC2Contraband ] # Frontier: BaseMajorContraband<BaseC2Contraband
   id: Cartridge145x114mm
-  name: cartridge (14.5x114mm)
-  description: Even larger anti-material round, capable of punching through any armor and barriers without difficulty.
+  name: '子弹（14.5x114毫米） | cartridge (14.5x114mm)'
+  description: '更大尺寸的反器材弹药，能够轻易贯穿任何装甲与障碍物。 | Even larger anti-material round, capable of punching through any armor and barriers without difficulty.'
   components:
   - type: Tag
     tags:

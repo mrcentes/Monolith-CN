@@ -4,8 +4,8 @@
 
 - type: job
   id: TsfMarsocFTL
-  name: ghost-role-information-marsoc-ftl-name
-  description: ghost-role-information-marsoc-description
+  name: '幽灵角色信息火星安全部队超光速名称 | ghost-role-information-marsoc-ftl-name'
+  description: '幽灵角色信息火星特种部队快速战术小组描述 | ghost-role-information-marsoc-description'
   playTimeTracker: JobTsfMarsocFTL
   requirements:
   - !type:OverallPlaytimeRequirement
@@ -36,8 +36,8 @@
 
 - type: job
   id: TsfMarsoc
-  name: ghost-role-information-marsoc-operative-name
-  description: ghost-role-information-marsoc-description
+  name: '火星作战人员代号 | ghost-role-information-marsoc-operative-name'
+  description: '幽灵角色信息火星作战描述 | ghost-role-information-marsoc-description'
   playTimeTracker: JobTsfMarsoc
   requirements:
   - !type:OverallPlaytimeRequirement

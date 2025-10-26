@@ -7,8 +7,8 @@
 - type: entity
   parent: NFClothingDuffel
   id: ClothingBackpackDuffelDrakeIndustries 
-  name: drake industries duffel
-  description: One heavy sack. Some effort was put in to make it lighter to no avail. It bears the colors of Drake Industries.
+  name: '德雷克工业行李包 | drake industries duffel'
+  description: '一个沉重的包裹。人们曾尝试让它更轻便却无济于事。它带有德雷克工业的标志性配色。 | One heavy sack. Some effort was put in to make it lighter to no avail. It bears the colors of Drake Industries.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Duffels/di.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: NFClothingDuffel
   id: ClothingBackpackDuffelTacticalDuffelTan
-  name: tan tactical duffel
-  description: One heavy sack. Some effort was put in to make it lighter to no avail.
+  name: '棕褐色战术行李袋 | tan tactical duffel'
+  description: '一个沉重的包裹。曾尝试减轻其重量却徒劳无功。 | One heavy sack. Some effort was put in to make it lighter to no avail.'
   components:
   - type: StaticPrice
     price: 700
@@ -46,8 +46,8 @@
 - type: entity
   parent: NFClothingDuffel
   id: ClothingBackpackDuffelTacticalDuffelOlive
-  name: olive tactical duffel
-  description: One heavy sack. Some effort was put in to make it lighter to no avail.
+  name: '橄榄色战术桶包 | olive tactical duffel'
+  description: '一个沉重的行囊。人们曾费心让它轻便些，却徒劳无功。 | One heavy sack. Some effort was put in to make it lighter to no avail.'
   components:
   - type: StaticPrice
     price: 700
@@ -73,8 +73,8 @@
 - type: entity
   parent: NFClothingDuffel
   id: ClothingBackpackDuffelTacticalDuffelBlack
-  name: black tactical duffel
-  description: One heavy sack. Some effort was put in to make it lighter to no avail.
+  name: '黑色战术行李袋 | black tactical duffel'
+  description: '一个沉重的包裹。曾尝试减轻其重量却徒劳无功。 | One heavy sack. Some effort was put in to make it lighter to no avail.'
   components:
   - type: StaticPrice
     price: 700
@@ -100,8 +100,8 @@
 - type: entity
   parent: NFClothingDuffel
   id: ClothingBackpackDuffelTacticalDuffelRangerGreen
-  name: ranger green tactical duffel
-  description: One heavy sack. Some effort was put in to make it lighter to no avail.
+  name: '游骑兵绿色战术行李袋 | ranger green tactical duffel'
+  description: '一个沉重的包裹。已尝试减轻其重量但未见成效。 | One heavy sack. Some effort was put in to make it lighter to no avail.'
   components:
   - type: StaticPrice
     price: 700
@@ -127,8 +127,8 @@
 - type: entity
   parent: NFClothingDuffel
   id: ClothingBackpackDuffelTacticalDuffelCoyoteBrown
-  name: coyote brown tactical duffel
-  description: One heavy sack. Some effort was put in to make it lighter to no avail.
+  name: '土狼棕色战术行李袋 | coyote brown tactical duffel'
+  description: '一个沉重的行囊。已尝试减轻其重量却未见成效。 | One heavy sack. Some effort was put in to make it lighter to no avail.'
   components:
   - type: StaticPrice
     price: 700
@@ -154,8 +154,8 @@
 - type: entity
   parent: NFClothingDuffel
   id: ClothingBackpackDuffelTacticalDuffelWhite
-  name: white tactical duffel
-  description: One heavy sack. Some effort was put in to make it lighter to no avail.
+  name: '白色战术桶包 | white tactical duffel'
+  description: '一个沉重的行囊。已尝试减轻其重量却未见成效。 | One heavy sack. Some effort was put in to make it lighter to no avail.'
   components:
   - type: StaticPrice
     price: 700

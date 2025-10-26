@@ -7,10 +7,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: fentanyl crystal
+  name: '芬太尼晶体 | fentanyl crystal'
   parent: [ BaseItem, BaseC3ChemContraband ]
   id: FentanylSolidified
-  description: 5u of Fentanyl solidified with Tricordrazine. Worth a lot.
+  description: '5单位吩坦尼与三氯哒嗪固化而成。价值不菲。 | 5u of Fentanyl solidified with Tricordrazine. Worth a lot.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Misc/fentanyl.rsi

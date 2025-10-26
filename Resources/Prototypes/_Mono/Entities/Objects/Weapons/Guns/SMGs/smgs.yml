@@ -11,10 +11,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: SKR-WS MLA-73 (635x40mm caseless)
+  name: 'SKR-WS MLA-73（635×40毫米无壳弹） | SKR-WS MLA-73 (635x40mm caseless)'
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable, BaseC2Contraband] # Frontier: added BaseC2Contraband
   id: WeaponSubMachineGunMla73
-  description: A reliable PDW design, commonly issued to pilots and AFV crewmen. This one has been modified with an integral suppressor. Legends around this weapons say it's a Corporate-Era schematic that's been built by The Ashen Republic.
+  description: '一款可靠的个人防御武器设计，通常配发给飞行员和装甲战车乘员。此版本加装了内置消音器。据传闻该武器采用企业时代的设计图，由灰烬共和国制造。 | A reliable PDW design, commonly issued to pilots and AFV crewmen. This one has been modified with an integral suppressor. Legends around this weapons say it''s a Corporate-Era schematic that''s been built by The Ashen Republic.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/mla73.rsi
@@ -40,7 +40,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine635x40mmCaseless
         insertSound: /Audio/Weapons/Guns/MagIn/hpistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
@@ -50,7 +50,7 @@
           - Magazine635x40mmCaseless
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge635x40mmCaseless
         priority: 1
         whitelist:
@@ -63,10 +63,10 @@
   - type: Appearance
 
 - type: entity
-  name: NCI AK-220 (9x19mm)
+  name: 'NCI AK-220型九毫米冲锋枪 | NCI AK-220 (9x19mm)'
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable, BaseC1Contraband]
   id: WeaponSubMachineGunAK220
-  description: A mass produced 9x19mm bullpup SMG. The design originates from the USSP, but various TSF and ASR manufacturers produce it via licenses or suspiciously similar "original" designs.
+  description: '一款量产的9x19毫米无托结构冲锋枪。该设计源自USSP，但多家TSF与ASR制造商通过授权许可或可疑的相似原创设计进行生产。 | A mass produced 9x19mm bullpup SMG. The design originates from the USSP, but various TSF and ASR manufacturers produce it via licenses or suspiciously similar "original" designs.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/ak220.rsi
@@ -98,7 +98,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/cm82_magin.ogg
         ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/pistol_alt_magout.ogg
@@ -107,7 +107,7 @@
           tags:
           - Magazine9x19mmSubMachineGunFMJ
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge9x19mmFMJ
         priority: 1
         whitelist:
@@ -122,10 +122,10 @@
     price: 500
 
 - type: entity
-  name: LWC Vector (9x19mm)
+  name: 'LWC Vector冲锋枪（9x19毫米口径） | LWC Vector (9x19mm)'
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable, BaseC2Contraband] # Frontier: added BaseC2Contraband
   id: WeaponSubMachineGunVector9x19mm
-  description: An excellent fully automatic SMG. Uses 9x19mm ammo.
+  description: '一款优秀的全自动冲锋枪。使用9x19毫米弹药。 | An excellent fully automatic SMG. Uses 9x19mm ammo.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/vector.rsi
@@ -154,7 +154,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -163,7 +163,7 @@
           tags:
             - Magazine9x19mmSubMachineGunFMJ
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge9x19mmFMJ
         priority: 1
         whitelist:
@@ -179,10 +179,10 @@
   - type: Appearance
 
 - type: entity
-  name: LWC Vector (.45 ACP)
+  name: 'LWC Vector冲锋枪（点45口径） | LWC Vector (.45 ACP)'
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable, BaseC2Contraband] # Frontier: added BaseC2Contraband
   id: WeaponSubMachineGunVector45_ACP
-  description: An excellent fully automatic SMG. Uses .45 ACP ammo.
+  description: '一款优秀的全自动冲锋枪。使用点45口径自动手枪弹。 | An excellent fully automatic SMG. Uses .45 ACP ammo.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/vector.rsi
@@ -211,7 +211,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -220,7 +220,7 @@
           tags:
             - Magazine45_ACPSubMachineGunFMJ
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge45_ACPFMJ
         priority: 1
         whitelist:
@@ -237,10 +237,10 @@
 
 #Pre-corpowar 45 magnum rare vector 
 - type: entity
-  name: NTSF-HCLM-45 (.45 magnum)
+  name: 'NTSF重型口径轻机枪（点四五马格南） | NTSF-HCLM-45 (.45 magnum)'
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponSubMachineGunVectorNtsfHclm
-  description: The NTSF Heavy Caliber Light Machinegun. A very high-quality heavy SMG chambered in .45 magnum for use for the Nano Trasen Security Force and NT spec-ops.
+  description: 'NTSF重型口径轻机枪。一款为纳米特拉森安全部队及NT特种部队定制的高品质重型冲锋枪，使用点四五马格南弹药。 | The NTSF Heavy Caliber Light Machinegun. A very high-quality heavy SMG chambered in .45 magnum for use for the Nano Trasen Security Force and NT spec-ops.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/NTSF-HCLM-45rsi
@@ -265,7 +265,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine45_magnumPistolFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -276,7 +276,7 @@
             - Magazine45_magnumPistolHighCapacityFMJ
             - Magazine45_magnumSubMachineGunFMJ
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge45_magnumFMJ
         priority: 1
         whitelist:
@@ -291,10 +291,10 @@
 # merc guns
 
 - type: entity
-  name: LWC Knallstock (9x19mm/.45 ACP)
+  name: 'LWC克纳尔斯托克冲锋枪（9x19毫米/点45 ACP） | LWC Knallstock (9x19mm/.45 ACP)'
   parent: [ BaseWeaponSubMachineGun, BaseGunWieldable, BaseC2Contraband ] # Frontier: added BaseC2Contraband
   id: WeaponSubMachineGunKnallstock
-  description: A rugged and reliable SMG using large, rapid fire bursts. Accepts 9x19 or .45 ACP pistol magazines. Watch out for its ammo consumption.
+  description: '一款坚固耐用的冲锋枪，采用大容量快速连发射击模式。可使用9x19毫米或.45 ACP手枪弹匣。需注意其弹药消耗量。 | A rugged and reliable SMG using large, rapid fire bursts. Accepts 9x19 or .45 ACP pistol magazines. Watch out for its ammo consumption.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/knallstock.rsi
@@ -326,7 +326,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine45_ACPPistolFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -336,7 +336,7 @@
           - Magazine45_ACPPistolFMJ
           - Magazine9x19mmPistolFMJ
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge45_ACPFMJ
         priority: 1
         whitelist:
@@ -356,10 +356,10 @@
 
 #weaker typewriter for libvend
 - type: entity
-  name: PA Keyboard (.45 ACP)
+  name: 'PA键盘（点四五ACP） | PA Keyboard (.45 ACP)'
   parent: WeaponSubMachineGunTypewriter
   id: WeaponSubMachineGunTypewriterPMC
-  description: A modern take on the classic design used by mobsters throughout space and time. This one is an offbrand mercenary version of the typewritter nicknamed the "keyboard", its barrel heat rapidly which reduce accuracy. Uses .45 ACP ammo.
+  description: '对时空暴徒经典设计的现代演绎。这款非品牌佣兵版打字机绰号键盘，枪管升温迅速会降低精度。使用点四五ACP弹药。 | A modern take on the classic design used by mobsters throughout space and time. This one is an offbrand mercenary version of the typewritter nicknamed the "keyboard", its barrel heat rapidly which reduce accuracy. Uses .45 ACP ammo.'
   components:
   - type: GunWieldBonus
     minAngle: -27
@@ -375,10 +375,10 @@
 
 #old drozd sprite SMG
 - type: entity
-  name: HWM Firestarter (.45 ACP)
+  name: 'HWM点火器（点四五口径自动手枪弹） | HWM Firestarter (.45 ACP)'
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable, BaseC2Contraband] # Frontier: added BaseC2Contraband
   id: WeaponSubMachineGunFirestarter
-  description: An excellent fully automatic SMG. Uses .45 ACP ammo.
+  description: '一款优秀的全自动冲锋枪，使用点四五口径弹药。 | An excellent fully automatic SMG. Uses .45 ACP ammo.'
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/SMGs/drozd.rsi
@@ -403,7 +403,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -412,7 +412,7 @@
           tags:
             - Magazine45_ACPSubMachineGunFMJ
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge45_ACPFMJ
         priority: 1
         whitelist:

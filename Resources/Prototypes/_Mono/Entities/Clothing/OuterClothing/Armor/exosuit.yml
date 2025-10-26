@@ -1,9 +1,9 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseC2ContrabandUnredeemable, ContrabandClothing ]
   id: ClothingOuterExosuitAurora
-  name: M-320X AURORA exosuit
+  name: 'M-320X极光外骨骼 | M-320X AURORA exosuit'
   suffix: SelfUnremovable
-  description: An experimental exosuit designed for the future of warfare. Despite not having any head covering, the utilization of new nanomachine technology allows it to protect the wearer from the pressure and cold of space.
+  description: '一款为未来战争设计的实验性外骨骼装备。尽管没有任何头部覆盖装置，但通过运用新型纳米机器人技术，它能够保护穿戴者抵御太空环境的压力与严寒。 | An experimental exosuit designed for the future of warfare. Despite not having any head covering, the utilization of new nanomachine technology allows it to protect the wearer from the pressure and cold of space.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Armor/aurora.rsi

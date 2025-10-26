@@ -1,6 +1,6 @@
 - type: entity
   id: 280mmRocket
-  name: 280mm "Spearfish" Rocket
+  name: '280毫米「鱼叉」火箭 | 280mm "Spearfish" Rocket'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

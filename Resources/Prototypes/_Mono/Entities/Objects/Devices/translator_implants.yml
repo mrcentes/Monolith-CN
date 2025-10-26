@@ -5,8 +5,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: GaryTranslatorImplant
-  name: gary translator implant
-  description: An implant that helps you speak and understand the language of Gary.
+  name: '加里翻译器植入体 | gary translator implant'
+  description: '一种帮助您说懂加里语的植入体。 | An implant that helps you speak and understand the language of Gary.'
   categories: [ HideSpawnMenu ]
   components:
   - type: TranslatorImplant

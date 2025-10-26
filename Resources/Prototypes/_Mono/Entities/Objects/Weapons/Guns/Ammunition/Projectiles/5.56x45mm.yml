@@ -26,7 +26,7 @@
 
 - type: entity
   id: Bullet556x45mmFMJ
-  name: bullet (5.56x45mm FMJ)
+  name: '子弹（5.56x45毫米全金属被甲弹） | bullet (5.56x45mm FMJ)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -38,7 +38,7 @@
 
 - type: entity
   id: Bullet556x45mmPractice
-  name: bullet (5.56x45mm practice)
+  name: '子弹（5.56x45毫米练习弹） | bullet (5.56x45mm practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -49,7 +49,7 @@
 
 - type: entity
   id: Bullet556x45mmRubber
-  name: bullet (5.56x45mm rubber)
+  name: '子弹（5.56x45毫米橡胶弹） | bullet (5.56x45mm rubber)'
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -61,7 +61,7 @@
 - type: entity
   id: Bullet556x45mmIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (5.56x45mm incendiary)
+  name: '5点56毫米燃烧子弹 | bullet (5.56x45mm incendiary)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -73,7 +73,7 @@
 - type: entity
   id: Bullet556x45mmUranium
   parent: BaseBulletUranium
-  name: bullet (5.56x45mm uranium)
+  name: '子弹（5.56x45毫米铀弹） | bullet (5.56x45mm uranium)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -88,7 +88,7 @@
 - type: entity
   id: Bullet556x45mmHP
   parent: BaseBullet
-  name: bullet (5.56x45mm hollow-point)
+  name: '5点56毫米空尖弹 | bullet (5.56x45mm hollow-point)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -101,7 +101,7 @@
 - type: entity
   id: Bullet556x45mmRIP
   parent: BaseBullet
-  name: bullet (5.56x45mm RIP)
+  name: '子弹（5.56x45毫米RIP） | bullet (5.56x45mm RIP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -116,7 +116,7 @@
 - type: entity
   id: Bullet556x45mmPlasteelAP
   parent: BaseBullet
-  name: bullet (5.56x45mm AP)
+  name: '子弹（5.56x45毫米穿甲弹） | bullet (5.56x45mm AP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

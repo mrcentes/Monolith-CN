@@ -7,9 +7,9 @@
 
 - type: entity
   id: LaserDrill
-  name: automated laser drill
+  name: '自动化激光钻机 | automated laser drill'
   parent: BaseMachine
-  description: A large automated drill that digs up random materials when powered with 50 kW of HV. Only works on expedition planets.
+  description: '大型自动化激光钻机，在接入50千瓦高压电时可随机挖掘材料，仅适用于远征行星。 | A large automated drill that digs up random materials when powered with 50 kW of HV. Only works on expedition planets.'
   components:
   - type: PowerConsumer
     voltage: High
@@ -69,7 +69,7 @@
     node: laserDrill
 
 - type: entity
-  name: random ores
+  name: '随机矿石 | random ores'
   id: SpawnLootOres15
   parent: MarkerBasePlaceFree
   suffix: "Laser Drill, 15"

@@ -1,30 +1,30 @@
 # Frontier: all entries capitalized
 marking-TattooHiveChest-tattoo_hive_chest = Back Tattoo (Hive)
-marking-TattooHiveChest = Back Tattoo (Hive)
+marking-TattooHiveChest = 背部纹身（蜂巢）
 
-marking-TattooNightlingChest-tattoo_nightling = Chest Tattoo (Nightling)
-marking-TattooNightlingChest = Chest Tattoo (Nightling)
+marking-TattooNightlingChest-tattoo_nightling = 胸部纹身(nightling)
+marking-TattooNightlingChest = 胸部纹身 (Nightling)
 
-marking-TattooSilverburghLeftLeg-tattoo_silverburgh_l_leg = Left Leg Tattoo (Silverburg)
-marking-TattooSilverburghLeftLeg = Left Leg Tattoo (Silverburg)
+marking-TattooSilverburghLeftLeg-tattoo_silverburgh_l_leg = 左腿纹身（Silverburg）
+marking-TattooSilverburghLeftLeg = 左腿纹身（Silverburg）
 
-marking-TattooSilverburghRightLeg-tattoo_silverburgh_r_leg = Right Leg Tattoo (Silverburg)
-marking-TattooSilverburghRightLeg = Right Leg Tattoo (Silverburg)
+marking-TattooSilverburghRightLeg-tattoo_silverburgh_r_leg = 右腿纹身（Silverburg）
+marking-TattooSilverburghRightLeg = 右腿纹身（Silverburg）
 
-marking-TattooCampbellLeftArm-tattoo_campbell_l_arm = Left Arm Tattoo (Campbelle)
-marking-TattooCampbellLeftArm = Left Arm Tattoo (Campbelle)
+marking-TattooCampbellLeftArm-tattoo_campbell_l_arm = 左臂纹身（Campbelle）
+marking-TattooCampbellLeftArm = 左臂纹身(Campbelle)
 
-marking-TattooCampbellRightArm-tattoo_campbell_r_arm = Right Arm Tattoo (Campbelle)
-marking-TattooCampbellRightArm = Right Arm Tattoo (Campbelle)
+marking-TattooCampbellRightArm-tattoo_campbell_r_arm = 右臂纹身（Campbelle）
+marking-TattooCampbellRightArm = 右臂纹身 (Campbelle)
 
-marking-TattooCampbellLeftLeg-tattoo_campbell_l_leg = Left Leg Tattoo (Campbelle)
-marking-TattooCampbellLeftLeg = Left Leg Tattoo (Campbelle)
+marking-TattooCampbellLeftLeg-tattoo_campbell_l_leg = 左腿纹身 (Campbelle)
+marking-TattooCampbellLeftLeg = 左腿纹身 (Campbelle)
 
-marking-TattooCampbellRightLeg-tattoo_campbell_r_leg = Right Leg Tattoo (Campbelle)
-marking-TattooCampbellRightLeg = Right Leg Tattoo (Campbelle)
+marking-TattooCampbellRightLeg-tattoo_campbell_r_leg = 右腿纹身（Campbelle）
+marking-TattooCampbellRightLeg = 右腿纹身(Campbelle)
 
-marking-TattooEyeRight-tattoo_eye_r = Right Eye
-marking-TattooEyeRight = Right Eye
+marking-TattooEyeRight-tattoo_eye_r = 右眼
+marking-TattooEyeRight = 右眼
 
-marking-TattooEyeLeft-tattoo_eye_l = Left Eye
-marking-TattooEyeLeft = Left Eye
+marking-TattooEyeLeft-tattoo_eye_l = 左眼
+marking-TattooEyeLeft = 左眼

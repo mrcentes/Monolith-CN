@@ -5,8 +5,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintWarlordSuit
-  name: PMC combat suit WarlorD blueprint
-  description: A blueprint with a schematic of an Warlord suit. It can be inserted into an autolathe or a techfab.
+  name: 'PMC战斗服军阀蓝图 | PMC combat suit WarlorD blueprint'
+  description: '一张绘有军阀动力甲示意图的蓝图。可插入自动车床或技术制造台使用。 | A blueprint with a schematic of an Warlord suit. It can be inserted into an autolathe or a techfab.'
   components:
   - type: Blueprint
     providedRecipes:

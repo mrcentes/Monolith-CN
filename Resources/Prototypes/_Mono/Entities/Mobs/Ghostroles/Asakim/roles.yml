@@ -4,7 +4,7 @@
 - type: entity
   parent: MobAsakim
   id: MobAsakimGhostrole
-  name: asakim warrior
+  name: '朝云战士 | asakim warrior'
   suffix: Asakim
   components:
   - type: RandomHumanoidAppearance
@@ -16,8 +16,8 @@
     prototypes: [AsakimGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-asakim-name
-    description: ghost-role-information-asakim-description
+    name: '浅上明 | ghost-role-information-asakim-name'
+    description: '幽灵角色信息浅上描述 | ghost-role-information-asakim-description'
     rules: ghost-role-information-asakim-rules
     raffle:
       settings: default

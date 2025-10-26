@@ -39,7 +39,7 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallReinforcedDiagonalOutpost
-  name: reinforced wall
+  name: '加固墙体 | reinforced wall'
   suffix: diagonal, OUTPOST ONLY
   placement:
     mode: SnapgridCenter
@@ -107,7 +107,7 @@
 - type: entity
   parent: WallPlastitaniumDiagonal
   id: WallPlastitaniumDiagonalOutpost
-  name: plastitanium wall
+  name: '塑钛墙 | plastitanium wall'
   suffix: diagonal, OUTPOST ONLY
   placement:
     mode: SnapgridCenter
@@ -133,7 +133,7 @@
 - type: entity
   parent: WallPlastitanium
   id: WallPlastitaniumCapital
-  name: reinforced plastitanium wall
+  name: '强化塑钛墙 | reinforced plastitanium wall'
   suffix: CAPITAL ONLY
   components:
   - type: Fixtures
@@ -168,7 +168,7 @@
 - type: entity
   parent: WallPlastitaniumDiagonal
   id: WallPlastitaniumDiagonalCapital
-  name: reinforced plastitanium wall
+  name: '强化塑钛墙 | reinforced plastitanium wall'
   suffix: diagonal, CAPITAL ONLY
   placement:
     mode: SnapgridCenter

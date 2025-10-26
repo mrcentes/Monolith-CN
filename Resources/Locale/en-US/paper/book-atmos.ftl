@@ -16,7 +16,7 @@ book-text-atmos-distro = The distribution network, or "distro" for short, is the
 
         You can validate the distro pressure with a gas analyzer, but keep in mind that high demand due to things like spacings can cause the distro to be below the set target pressure for extended periods. So, if you see a dip in pressure, don't panic - it might be temporary.
 
-book-text-atmos-waste = The waste network is the primary system responsible for keeping the air on the station free of contaminants.
+book-text-atmos-waste = 废物网络是负责保持空间站空气不受污染的主要系统。
 
         You can identify the relevant pipes by their Pleasing Dull Red color or by using a tray scanner to trace which pipes are connected to the scrubbers on the station.
 
@@ -26,7 +26,7 @@ book-text-atmos-waste = The waste network is the primary system responsible for 
 
         The waste network can also be used to diagnose atmospheric issues on the station. High levels of a waste gas may suggest a large leak, while the presence of non-waste gases may indicate a scrubber configuration or physical connection issue. If the gases are at a high temperature, it could indicate a fire.
 
-book-text-atmos-alarms = Air alarms are located throughout stations to allow management and monitoring of the local atmosphere.
+book-text-atmos-alarms = 空气警报器遍布空间站各处，用于对局部大气进行管理与监控。
 
             The air alarm interface provides technicians with a list of connected sensors, their readings, and the ability to adjust thresholds. These thresholds are used to determine the alarm condition of the air alarm. Technicians can also use the interface to set target pressures for vents and configure the operating speeds and targeted gases for scrubbers.
 

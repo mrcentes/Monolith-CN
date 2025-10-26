@@ -11,8 +11,8 @@
 - type: entity
   id: FactionLathe
   parent: BaseLatheLube
-  name: military multi-purpose assembler
-  description: Prints out items researched with TSFMC/Rogue R&D servers.
+  name: '军用多用途组装机 | military multi-purpose assembler'
+  description: '输出通过TSFMC或Rogue研发服务器研究的物品。 | Prints out items researched with TSFMC/Rogue R&D servers.'
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi

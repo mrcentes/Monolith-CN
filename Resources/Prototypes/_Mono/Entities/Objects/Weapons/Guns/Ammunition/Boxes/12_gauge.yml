@@ -16,7 +16,7 @@
 - type: entity
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeBeanbag
-  name: shotgun shell box (12 gauge beanbag)
+  name: '霰弹枪弹盒（12号豆袋弹） | shotgun shell box (12 gauge beanbag)'
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgun12_gaugeBeanbag
@@ -33,7 +33,7 @@
       - state: beanbag
 
 - type: entity
-  name: shotgun shell box (12 gauge buckshot)
+  name: '霰弹枪弹盒（12号铅径鹿弹） | shotgun shell box (12 gauge buckshot)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeBuckshot
   components:
@@ -48,7 +48,7 @@
       - state: lethal
 
 - type: entity
-  name: shotgun shell box (12 gauge slug)
+  name: '霰弹枪弹盒（12号口径独头弹） | shotgun shell box (12 gauge slug)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeSlug
   components:
@@ -67,7 +67,7 @@
       - state: slug
 
 - type: entity
-  name: flare shell box (12 gauge flare)
+  name: '照明弹壳盒（12号照明弹） | flare shell box (12 gauge flare)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeFlare
   components:
@@ -86,7 +86,7 @@
       - state: flare
 
 - type: entity
-  name: shotgun shell box (12 gauge incendiary)
+  name: '霰弹枪弹盒（12号口径燃烧弹） | shotgun shell box (12 gauge incendiary)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeIncendiary
   components:
@@ -105,7 +105,7 @@
       - state: incendiary
 
 - type: entity
-  name: shotgun shell box (12 gauge uranium)
+  name: '猎枪弹盒（12号铀弹） | shotgun shell box (12 gauge uranium)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeUranium
   components:
@@ -124,7 +124,7 @@
       - state: uranium
 
 - type: entity
-  name: shotgun shell box (12 gauge practice)
+  name: '霰弹枪弹盒（12号口径练习弹） | shotgun shell box (12 gauge practice)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugePractice
   components:
@@ -143,7 +143,7 @@
       - state: practice
 
 - type: entity
-  name: shotgun shell box (12 gauge tranquilizer)
+  name: '猎枪弹盒（12号镇静剂） | shotgun shell box (12 gauge tranquilizer)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeTranquilizer
   components:
@@ -164,7 +164,7 @@
 # Mono AP syst
 #anti-flesh:
 - type: entity
-  name: shotgun shell box (12 gauge OO magnum buckshot)
+  name: '霰弹枪弹盒（12号径双倍大号鹿弹） | shotgun shell box (12 gauge OO magnum buckshot)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeOOBuckshot
   components:
@@ -179,7 +179,7 @@
       - state: magnum-buckshot
 
 - type: entity
-  name: shotgun shell box (12 gauge RIP)
+  name: '猎枪弹盒（12号径防暴弹） | shotgun shell box (12 gauge RIP)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeSlugRIP
   components:
@@ -199,7 +199,7 @@
 
 #armor-piercing:
 - type: entity
-  name: shotgun shell box (12 gauge armor-piercing slug)
+  name: '霰弹枪弹盒（12号口径穿甲独头弹） | shotgun shell box (12 gauge armor-piercing slug)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeSlugAP
   components:
@@ -218,7 +218,7 @@
       - state: slugAP
 
 - type: entity
-  name: shotgun shell box (12 gauge flechette)
+  name: '猎枪弹盒（12号镖弹） | shotgun shell box (12 gauge flechette)'
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeFlechette
   components:

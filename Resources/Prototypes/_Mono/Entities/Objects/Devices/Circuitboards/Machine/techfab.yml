@@ -5,8 +5,8 @@
 - type: entity
   id: MilitaryTechfabMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: military multi-purpose assembler machine board
-  description: A machine printed circuit board for a military assembler.
+  name: '军用多功能组装机电路板 | military multi-purpose assembler machine board'
+  description: '军用组装机的机器印刷电路板。 | A machine printed circuit board for a military assembler.'
   components:
   - type: Sprite
     state: security

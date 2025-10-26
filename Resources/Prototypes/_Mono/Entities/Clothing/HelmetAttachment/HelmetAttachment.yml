@@ -9,8 +9,8 @@
 - type: entity
   parent: [ClothingHelmetAttachmentBase, ClothingBackpack]
   id: ClothingHelmetAttachmentGogglesCoverOlive
-  name: olive goggles cover
-  description: Goggles cover to fit your goggle when not in use, worn in the helmet attachment slot.
+  name: '橄榄色护目镜盖 | olive goggles cover'
+  description: '护目镜罩可在闲置时贴合镜体，可安装在头盔插槽中佩戴。 | Goggles cover to fit your goggle when not in use, worn in the helmet attachment slot.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/HelmetAttachment/goggles_cover_olive.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: [ClothingHelmetAttachmentBase, ClothingBackpack]
   id: ClothingHelmetAttachmentGogglesCoverTan
-  name: tan goggles cover
-  description: Goggles cover to fit your goggle when not in use, worn in the helmet attachment slot.
+  name: '棕褐色护目镜盖 | tan goggles cover'
+  description: '护目镜罩可在闲置时贴合镜体，佩戴于头盔插槽中。 | Goggles cover to fit your goggle when not in use, worn in the helmet attachment slot.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/HelmetAttachment/goggles_cover_tan.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: [ClothingHelmetAttachmentBase, ClothingBackpack]
   id: ClothingHelmetAttachmentGogglesCoverBlack
-  name: black goggles cover
-  description: Goggles cover to fit your goggle when not in use, worn in the helmet attachment slot.
+  name: '黑色护目镜盖 | black goggles cover'
+  description: '护目镜罩可在闲置时贴合镜体，置于头盔插槽中佩戴。 | Goggles cover to fit your goggle when not in use, worn in the helmet attachment slot.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/HelmetAttachment/goggles_cover_black.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: [ClothingHelmetAttachmentBase, ClothingBackpack]
   id: ClothingHelmetAttachmentGogglesCoverRedDigital
-  name: red digital goggles cover
-  description: Goggles cover to fit your goggle when not in use, worn in the helmet attachment slot.
+  name: '红色数码护目镜盖 | red digital goggles cover'
+  description: '护目镜罩可在闲置时贴合镜体，可安装在头盔插槽中佩戴。 | Goggles cover to fit your goggle when not in use, worn in the helmet attachment slot.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/HelmetAttachment/goggles_cover_digital_red.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: ClothingHelmetAttachmentBase
   id: ClothingHelmetAttachmentNVGsBasic
-  name: basic night vision goggles
-  description: A pair of basic optoelectronics night vision goggles with high sensibility to flashes, worn in the helmet attachment slot.
+  name: '基础夜视镜 | basic night vision goggles'
+  description: '一副基础光电夜视镜，对闪光具有高敏感度，可安装在头盔附件槽中。 | A pair of basic optoelectronics night vision goggles with high sensibility to flashes, worn in the helmet attachment slot.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/HelmetAttachment/basic_optoelectronics_nvgs.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingHelmetAttachmentBase
   id: ClothingHelmetAttachmentInfraredBasic
-  name: basic thermal vision goggles
-  description: A pair of basic thermal vision goggles with high sensibility to flashes, worn in the helmet attachment slot.
+  name: '基础热成像护目镜 | basic thermal vision goggles'
+  description: '一副基础热成像护目镜，对闪光具有高敏感度，可安装在头盔附件槽中。 | A pair of basic thermal vision goggles with high sensibility to flashes, worn in the helmet attachment slot.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/HelmetAttachment/basic_optoelectronics_infrared.rsi

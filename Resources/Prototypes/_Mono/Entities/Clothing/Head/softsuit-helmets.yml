@@ -6,7 +6,7 @@
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetDME
-  name: DME EVA Helmet
+  name: 'DME EVA头盔 | DME EVA Helmet'
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

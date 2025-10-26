@@ -50,8 +50,8 @@
 - type: entity
   id: MachineDriveCTLA25Circuitboard
   parent: BaseMachineCircuitboard
-  name: CTLA-25 bluespace drive board
-  description: A machine board for a bluespace drive.
+  name: 'CTLA-25超光速推进器控制板 | CTLA-25 bluespace drive board'
+  description: '一块用于超光速推进器的机器主板。 | A machine board for a bluespace drive.'
   components:
   - type: Sprite
     state: security
@@ -72,8 +72,8 @@
 - type: entity
   id: MachineGCSLowCircuitboard
   parent: BaseMachineCircuitboard
-  name: low-power gunnery control server board
-  description: A machine board for a GCS.
+  name: '低功率火炮控制服务器板 | low-power gunnery control server board'
+  description: '用于火炮控制系统的机器板卡。 | A machine board for a GCS.'
   components:
   - type: Sprite
     state: security
@@ -89,8 +89,8 @@
 - type: entity
   id: MachineGCSMediumCircuitboard
   parent: BaseMachineCircuitboard
-  name: medium-power gunnery control server board
-  description: A machine board for a GCS.
+  name: '中功率火炮控制服务器板 | medium-power gunnery control server board'
+  description: '用于炮火控制系统的中型机器板。 | A machine board for a GCS.'
   components:
   - type: Sprite
     state: security
@@ -106,8 +106,8 @@
 - type: entity
   id: MachineGCSHighCircuitboard
   parent: BaseMachineCircuitboard
-  name: high-power gunnery control server board
-  description: A machine board for a GCS.
+  name: '大功率火炮控制服务器板 | high-power gunnery control server board'
+  description: '用于炮术控制服务器的主机板 | A machine board for a GCS.'
   components:
   - type: Sprite
     state: security
@@ -123,8 +123,8 @@
 - type: entity
   id: MachineGCSUltraCircuitboard
   parent: BaseMachineCircuitboard
-  name: ultra-high-power gunnery control server board
-  description: A machine board for a GCS.
+  name: '超高功率火炮控制服务器板 | ultra-high-power gunnery control server board'
+  description: '用于炮控系统的机器板卡。 | A machine board for a GCS.'
   components:
   - type: Sprite
     state: security
@@ -140,8 +140,8 @@
 - type: entity
   id: MachineGCSStationCircuitboard
   parent: BaseMachineCircuitboard
-  name: station gunnery control server board
-  description: A machine board for a GCS.
+  name: '站台火炮控制服务器板 | station gunnery control server board'
+  description: '用于炮台控制系统的机器板。 | A machine board for a GCS.'
   components:
   - type: Sprite
     state: security
@@ -157,8 +157,8 @@
 - type: entity
   id: MachineDriveCTLA25sCircuitboard
   parent: BaseMachineCircuitboard
-  name: CTLA-25s bluespace drive board
-  description: A machine board for an advanced bluespace drive.
+  name: 'CTLA-25s超光速驱动板 | CTLA-25s bluespace drive board'
+  description: '高级蓝空间驱动器的机器板。 | A machine board for an advanced bluespace drive.'
   components:
   - type: Sprite
     state: security
@@ -179,8 +179,8 @@
 - type: entity
   id: MachineDriveCTLA50Circuitboard
   parent: BaseMachineCircuitboard
-  name: CTLA-50 bluespace drive board
-  description: A machine board for an advanced bluespace drive.
+  name: 'CTLA-50超光速推进器机载板 | CTLA-50 bluespace drive board'
+  description: '用于高级蓝空驱动器的机器板。 | A machine board for an advanced bluespace drive.'
   components:
   - type: Sprite
     state: security

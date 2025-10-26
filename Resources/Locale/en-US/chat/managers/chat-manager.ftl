@@ -25,11 +25,11 @@ chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} An
 # Einstein Engines - Language begin (changing colors for text based on language color in handler)
 # For the message in double quotes, the font/color/bold/italic elements are repeated twice, outside the double quotes and inside.
 # The outside elements are for formatting the double quotes, and the inside elements are for formatting the text in speech bubbles ([BubbleContent]).
-chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}]{$message}[/color][/font][/BubbleContent]"[/font]
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][font="{$fontType}" size={$fontSize}][bold][color={$color}]{$message}[/color][/font][/bold][/BubbleContent]"[/font]
+chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font]
+chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{$entityName}[/Name][/bold][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][bold]{$message}[/bold][/BubbleContent]"[/font]
 
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] whispers, "[BubbleContent][color={$color}][font="{$fontType}"]{$message}[/font][/color][/BubbleContent][font size=11]"[/italic][/font]
-chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Someone[/BubbleHeader] whispers, "[BubbleContent][color={$color}][font="{$fontType}"]{$message}[/color][/font][/BubbleContent][font size=11]"[/italic][/font]
+chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] whispers,"[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
+chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Someone[/BubbleHeader] whispers, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
 # Einstein Engines - Language end
 
 # chat-manager-language-prefix = ({ $language }){" "} - Removed so it doesn't show up, not wanted, but part of the language system.
@@ -49,8 +49,8 @@ chat-manager-send-admin-dead-chat-wrap-message = {$adminChannelName}: [bold]([Bu
 chat-manager-send-admin-chat-wrap-message = {$adminChannelName}: [bold]{$playerName}:[/bold] {$message}
 chat-manager-send-admin-announcement-wrap-message = [bold]{$adminChannelName}: {$message}[/bold]
 
-chat-manager-send-hook-ooc-wrap-message = OOC: [bold](DC) {$senderName}:[/bold] {$message}
-chat-manager-send-hook-admin-wrap-message = ADMIN: [bold](DC) {$senderName}:[/bold] {$message}
+chat-manager-send-hook-ooc-wrap-message = OOC: [bold](D){$senderName}:[/bold] {$message}
+chat-manager-send-hook-admin-wrap-message = ADMIN: [bold](D){$senderName}:[/bold] {$message}
 chat-manager-send-hook-dead-wrap-message = ADMIN: [bold](DC) {$senderName}:[/bold] {$message}
 
 chat-manager-dead-channel-name = DEAD
@@ -61,7 +61,7 @@ chat-manager-send-collective-mind-chat-wrap-message-admin = {$source} ({$channel
 chat-manager-collective-mind-channel-name = collective mind
 
 chat-manager-rate-limited = You are sending messages too quickly!
-chat-manager-rate-limit-admin-announcement = Player { $player } breached chat rate limits. Watch them if this is a regular occurence.
+chat-manager-rate-limit-admin-announcement = Rate limit warning: { $player }
 
 ## Speech verbs for chat
 

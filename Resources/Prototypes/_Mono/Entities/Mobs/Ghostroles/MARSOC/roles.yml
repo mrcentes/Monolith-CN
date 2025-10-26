@@ -6,14 +6,14 @@
 - type: entity
   parent: MobHumanMarsocBase
   id: MobHumanMarsocFTL
-  name: MARSOC fire team leader
+  name: '马尔斯科火力小组组长 | MARSOC fire team leader'
   components:
   - type: Loadout
     prototypes: [MarsocFTLGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-marsoc-ftl-name
-    description: ghost-role-information-marsoc-description
+    name: '幽灵角色信息火星安全部队超光速名称 | ghost-role-information-marsoc-ftl-name'
+    description: '幽灵角色信息火星特种部队快速战术小组描述 | ghost-role-information-marsoc-description'
     rules: ghost-role-information-marsoc-rules
     raffle:
       settings: short
@@ -22,14 +22,14 @@
 - type: entity
   parent: MobHumanMarsocBase
   id: MobHumanMarsocOperative
-  name: MARSOC operative
+  name: '海军陆战队特种作战司令部特战员 | MARSOC operative'
   components:
   - type: Loadout
     prototypes: [MarsocOperativeGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-marsoc-operative-name
-    description: ghost-role-information-marsoc-description
+    name: '火星作战司令部特工代号 | ghost-role-information-marsoc-operative-name'
+    description: '幽灵角色信息火星作战描述 | ghost-role-information-marsoc-description'
     rules: ghost-role-information-marsoc-rules
     raffle:
       settings: short
@@ -38,14 +38,14 @@
 - type: entity
   parent: MobHumanMarsocBase
   id: MobHumanMarsocMarksman
-  name: MARSOC marksman
+  name: '海军陆战队特种作战司令部狙击手 | MARSOC marksman'
   components:
   - type: Loadout
     prototypes: [MarsocMarksmanGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-marsoc-marksman-name
-    description: ghost-role-information-marsoc-description
+    name: '幽灵角色信息火星特种部队狙击手名称 | ghost-role-information-marsoc-marksman-name'
+    description: '幽灵角色信息火星特种部队侦察兵描述 | ghost-role-information-marsoc-description'
     rules: ghost-role-information-marsoc-rules
     raffle:
       settings: short
@@ -54,14 +54,14 @@
 - type: entity
   parent: MobHumanMarsocBase
   id: MobHumanMarsocCorpsman
-  name: MARSOC corpsman
+  name: '马绍尔特种部队医护兵 | MARSOC corpsman'
   components:
   - type: Loadout
     prototypes: [MarsocCorpsmanGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-marsoc-corpsman-name
-    description: ghost-role-information-marsoc-description
+    name: '幽灵角色信息火星特种部队医护兵名称 | ghost-role-information-marsoc-corpsman-name'
+    description: '幽灵角色信息火星特种部队医护兵名称 | ghost-role-information-marsoc-description'
     rules: ghost-role-information-marsoc-rules
     raffle:
       settings: short
@@ -72,14 +72,14 @@
 - type: entity
   parent: MobHumanMarsocBase
   id: MobHumanMarsocSGO
-  name: MARSOC smart gun operator
+  name: '陆战队特种作战司令部智能枪械操作员 | MARSOC smart gun operator'
   components:
   - type: Loadout
     prototypes: [MarsocSGOGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-marsoc-sgo-name
-    description: ghost-role-information-marsoc-description
+    name: '幽灵角色信息火星特种作战群特别行动组名称 | ghost-role-information-marsoc-sgo-name'
+    description: '幽灵角色信息火星行动描述 | ghost-role-information-marsoc-description'
     rules: ghost-role-information-marsoc-rules
     raffle:
       settings: short
@@ -88,14 +88,14 @@
 - type: entity
   parent: MobHumanMarsocBase
   id: MobHumanMarsocAutorifleman
-  name: MARSOC autorifleman
+  name: 'MARSOC自动步枪手 | MARSOC autorifleman'
   components:
   - type: Loadout
     prototypes: [MarsocAutoriflemanGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-marsoc-autorifleman-name
-    description: ghost-role-information-marsoc-description
+    name: '幽灵角色信息火星作战自动步枪手名称 | ghost-role-information-marsoc-autorifleman-name'
+    description: '幽灵角色信息海军陆战队自动步枪兵描述 | ghost-role-information-marsoc-description'
     rules: ghost-role-information-marsoc-rules
     raffle:
       settings: short
@@ -105,7 +105,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanMarsocBase
-  name: operative base
+  name: '作战基地 | operative base'
   suffix: Human, Base
   components:
   - type: RandomHumanoidAppearance
@@ -117,8 +117,8 @@
     prototypes: [MarsocOperativeGear]
     roleLoadout: [RoleSurvivalTankOnly]
   - type: GhostRole
-    name: ghost-role-information-marsoc-operative-name
-    description: ghost-role-information-marsoc-description
+    name: '火星作战人员代号 | ghost-role-information-marsoc-operative-name'
+    description: '幽灵角色信息火星作战描述 | ghost-role-information-marsoc-description'
     rules: ghost-role-information-marsoc-rules
     raffle:
       settings: short

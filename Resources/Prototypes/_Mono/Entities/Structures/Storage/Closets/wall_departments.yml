@@ -6,7 +6,7 @@
 - type: entity
   id: LockerWallColorDME
   parent: LockerWallColorBase
-  name: DME wall locker
+  name: 'DME壁柜 | DME wall locker'
   suffix: DME, Company
   components:
   - type: Sprite

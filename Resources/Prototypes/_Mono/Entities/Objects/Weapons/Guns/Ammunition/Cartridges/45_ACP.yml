@@ -31,9 +31,9 @@
 
 - type: entity
   id: BaseCartridge45_ACP
-  name: cartridge (.45 ACP FMJ)
+  name: '子弹（零点四五英寸自动手枪全金属被甲弹） | cartridge (.45 ACP FMJ)'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
-  description: Heavier alternative to 9x19mm for handguns and SMGs.
+  description: '手枪和冲锋枪的9x19毫米弹药重型替代方案。 | Heavier alternative to 9x19mm for handguns and SMGs.'
   abstract: true
   components:
   - type: Tag
@@ -54,7 +54,7 @@
 
 - type: entity
   id: Cartridge45_ACPFMJ
-  name: cartridge (.45 ACP FMJ)
+  name: '子弹（点四五自动手枪全金属被甲弹） | cartridge (.45 ACP FMJ)'
   parent: BaseCartridge45_ACP
   components:
   - type: CartridgeAmmo
@@ -62,7 +62,7 @@
 
 - type: entity
   id: Cartridge45_ACPPractice
-  name: cartridge (.45 ACP practice)
+  name: '子弹（点四五自动手枪练习弹） | cartridge (.45 ACP practice)'
   parent: BaseCartridge45_ACP
   components:
   - type: CartridgeAmmo
@@ -77,7 +77,7 @@
 
 - type: entity
   id: Cartridge45_ACPIncendiary
-  name: cartridge (.45 ACP incendiary)
+  name: '子弹（零点四五英寸自动手枪 incendiary） | cartridge (.45 ACP incendiary)'
   parent: BaseCartridge45_ACP
   components:
   - type: CartridgeAmmo
@@ -92,7 +92,7 @@
 
 - type: entity
   id: Cartridge45_ACPUranium
-  name: cartridge (.45 ACP uranium)
+  name: '子弹（零点四五英寸自动手枪铀弹） | cartridge (.45 ACP uranium)'
   parent: BaseCartridge45_ACP
   components:
   - type: CartridgeAmmo
@@ -108,7 +108,7 @@
 # Upstream
 - type: entity
   id: Cartridge45_ACPRubber
-  name: cartridge (.45 ACP rubber)
+  name: '子弹（点四五口径橡胶） | cartridge (.45 ACP rubber)'
   parent: BaseCartridge45_ACP
   components:
   - type: CartridgeAmmo
@@ -124,7 +124,7 @@
 # Frontier
 - type: entity
   id: Cartridge45_ACPEmp
-  name: cartridge (.45 ACP emp)
+  name: '弹匣（点四五ACP增强型） | cartridge (.45 ACP emp)'
   parent: BaseCartridge45_ACP
   components:
   - type: CartridgeAmmo
@@ -138,7 +138,7 @@
 #anti-flesh:
 - type: entity
   id: Cartridge45_ACPHP
-  name: cartridge (.45 ACP hollow-point)
+  name: '子弹（零点四五英寸自动手枪弹空尖弹） | cartridge (.45 ACP hollow-point)'
   parent: BaseCartridge45_ACP
   components:
   - type: CartridgeAmmo
@@ -153,7 +153,7 @@
 
 - type: entity
   id: Cartridge45_ACPRIP
-  name: cartridge (.45 ACP RIP)
+  name: '子弹（点四五自动手枪弹侵彻弹） | cartridge (.45 ACP RIP)'
   parent: BaseCartridge45_ACP
   components:
   - type: CartridgeAmmo
@@ -170,7 +170,7 @@
 
 - type: entity
   id: Cartridge45_ACPPlasteelAP
-  name: cartridge (.45 ACP AP)
+  name: '子弹（点四五ACP穿甲弹） | cartridge (.45 ACP AP)'
   parent: BaseCartridge45_ACP
   components:
   - type: CartridgeAmmo

@@ -1,10 +1,10 @@
 ## UI
 cargo-console-menu-title = Cargo request console
-cargo-console-menu-account-name-label = Account name:{" "}
+cargo-console-menu-account-name-label = Account:{" "}
 cargo-console-menu-account-name-none-text = None
 cargo-console-menu-shuttle-name-label = Shuttle name:{" "}
 cargo-console-menu-shuttle-name-none-text = None
-cargo-console-menu-points-label = Credits:{" "}
+cargo-console-menu-points-label = Balance:{" "}
 cargo-console-menu-shuttle-status-label = Shuttle status:{" "}
 cargo-console-menu-shuttle-status-away-text = Away
 cargo-console-menu-order-capacity-label = Order capacity:{" "}
@@ -16,7 +16,7 @@ cargo-console-menu-requests-label = Requests
 cargo-console-menu-orders-label = Orders
 cargo-console-menu-order-reason-description = Reasons: {$reason}
 cargo-console-menu-populate-categories-all-text = All
-cargo-console-menu-populate-orders-cargo-order-row-product-name-text = {$productName} (x{$orderAmount}) by {$orderRequester}
+cargo-console-menu-populate-orders-cargo-order-row-product-name-text = {$productName} (x{$orderAmount}) by {$orderRequester} from [color={$accountColor}]{$account}[/color]
 cargo-console-menu-cargo-order-row-approve-button = Approve
 cargo-console-menu-cargo-order-row-cancel-button = Cancel
 
@@ -34,7 +34,7 @@ cargo-console-unlock-approved-order-broadcast = [bold]{$productName} x{$orderAmo
 cargo-console-nf-no-bank-account = No bank account found
 
 cargo-console-paper-print-name = Order #{$orderNumber}
-cargo-console-paper-print-text =
+cargo-console-paper-print-text =[head=2]Order #{$orderNumber}[/head]
     Order #{$orderNumber}
     Item: {$itemName}
     Quantity: {$orderQuantity}

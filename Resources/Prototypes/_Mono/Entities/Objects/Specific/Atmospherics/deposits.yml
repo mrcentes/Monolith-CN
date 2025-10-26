@@ -6,8 +6,8 @@
 - type: entity
   id: BaseDeepGasDeposit
   parent: BaseGasDeposit
-  name: deep gas deposit
-  description: Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.
+  name: '深层天然气矿床 | deep gas deposit'
+  description: '深层固化元素储量，通常指常温下呈气态的物质，可通过钻探、加热及管道输送方式提取。当易开采气体耗尽后，该储量应能提供持续无限的供应。 | Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.'
   abstract: true
   placement:
     mode: SnapgridCenter

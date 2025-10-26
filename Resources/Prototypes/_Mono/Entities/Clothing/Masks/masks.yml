@@ -8,8 +8,8 @@
 - type: entity
   parent: ClothingMaskGasExplorer
   id: ClothingMaskDrakeIndustries
-  name: drake industries respirator
-  description: A pretty uncommon design in the sector. Following industrial rebreather models, it affixes on the jaw and covers the lower part of the wearer's face. It's filters are connected internally. It bears the colors of Drake Industries.
+  name: '德雷克工业呼吸器 | drake industries respirator'
+  description: '该领域相当罕见的设计。遵循工业再生呼吸器模型，它固定在下颌并覆盖佩戴者面部下半部分。其过滤器为内部连接。采用德雷克工业的标志性配色。 | A pretty uncommon design in the sector. Following industrial rebreather models, it affixes on the jaw and covers the lower part of the wearer''s face. It''s filters are connected internally. It bears the colors of Drake Industries.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Mask/gasdi.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: [ ClothingMaskDrakeIndustries , BaseC3ContrabandNoValue ]
   id: ClothingMaskDrakeIndustriesWatchdog
-  name: watchdog respirator
-  description: A clunky respirator following the original design from Drake Industries. This one comes wih a polarized visor to protect the eyes during hostile encounters.
+  name: '监察者呼吸器 | watchdog respirator'
+  description: '一款遵循德雷克工业原始设计的笨重呼吸器。此型号配备偏光面罩，可在敌对遭遇中保护眼部。 | A clunky respirator following the original design from Drake Industries. This one comes wih a polarized visor to protect the eyes during hostile encounters.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Mask/gasdi-watchdog.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingMaskGasExplorer
   id: ClothingMaskCOG
-  name: depricated cult mask
-  description: A metal mask with a damaged right eye. The functioning one glows with a blue hue.
+  name: '废弃邪教面具 | depricated cult mask'
+  description: '金属面具，右眼破损。完好的那只眼睛泛着蓝色幽光。 | A metal mask with a damaged right eye. The functioning one glows with a blue hue.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Mask/cogmask.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingMaskGasExplorer
   id: ClothingMaskSOM40
-  name: S.O.M. 40 gasmask
-  description: Special. Operation. Mask. number 40. A tactical combat gas mask made to fit over a balaclava.
+  name: 'S O M 40型防毒面具 | S.O.M. 40 gasmask'
+  description: '特种作战面罩40号。一种可罩在头套上使用的战术作战防毒面具。 | Special. Operation. Mask. number 40. A tactical combat gas mask made to fit over a balaclava.'
   components:
   - type: StaticPrice
     price: 1100
@@ -68,8 +68,8 @@
 - type: entity
   parent: ClothingMaskGasExplorer
   id: ClothingMaskSOM41
-  name: S.O.M. 41 gasmask
-  description: Special. Operation. Mask. number 41. A tactical combat gas mask made to fit over a balaclava.
+  name: 'SOM 41型防毒面具 | S.O.M. 41 gasmask'
+  description: '特种作战面罩41号。一种可罩在头套上使用的战术作战防毒面具。 | Special. Operation. Mask. number 41. A tactical combat gas mask made to fit over a balaclava.'
   components:
   - type: StaticPrice
     price: 1100
@@ -84,8 +84,8 @@
 - type: entity
   parent: ClothingMaskGasExplorer
   id: ClothingMaskSOM42
-  name: S.O.M. 42 gasmask
-  description: Special. Operation. Mask. number 42. A tactical combat gas mask made to fit over a balaclava.
+  name: '特种作战面罩42型防毒面具 | S.O.M. 42 gasmask'
+  description: '特种作战面罩42型。专为贴合巴拉克拉瓦头套设计的战术作战防毒面具。 | Special. Operation. Mask. number 42. A tactical combat gas mask made to fit over a balaclava.'
   components:
   - type: StaticPrice
     price: 1100

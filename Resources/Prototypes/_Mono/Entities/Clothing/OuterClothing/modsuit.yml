@@ -10,8 +10,8 @@
 - type: entity
   parent: [ ClothingOuterBase, GeigerCounterClothing ] # Mono - add geiger
   id: ClothingModsuitChestplateUSSPVaryag
-  name: Panzerkorps Varyag
-  description: Thick plating fused with internal atmosphere control.
+  name: '泛洋装甲军团 | Panzerkorps Varyag'
+  description: '厚重装甲与内部大气调控系统相融合。 | Thick plating fused with internal atmosphere control.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -65,8 +65,8 @@
 - type: entity
   parent: [ ClothingOuterBase, GeigerCounterClothing ] # Mono - add geiger
   id: ClothingModsuitChestplateUSSPZastavnik
-  name: Brust Zastavnika
-  description: An imposing armored shell designed to absorb punishment and maintain stability under pressure.
+  name: '布斯特扎斯塔夫尼卡 | Brust Zastavnika'
+  description: '坚固的装甲外壳设计用于承受冲击并在压力下保持稳定。 | An imposing armored shell designed to absorb punishment and maintain stability under pressure.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -120,8 +120,8 @@
 - type: entity
   parent: [ ClothingOuterBase, GeigerCounterClothing ] # Mono - add geiger
   id: ClothingModsuitChestplateRogue
-  name: RX-01 modsuit chestplate
-  description: The chestpiece has some warning label on the inside about radiation leaks- and a note next to it 'Remove this label in the final product - Felix
+  name: 'RX-01模组套装胸甲 | RX-01 modsuit chestplate'
+  description: '胸甲内侧贴有关于辐射泄漏的警告标签——旁边还附有一行备注「最终产品需移除此标签——菲利克斯」 | The chestpiece has some warning label on the inside about radiation leaks- and a note next to it ''Remove this label in the final product - Felix'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -178,8 +178,8 @@
 - type: entity
   parent: [ ClothingOuterBase, GeigerCounterClothing ] # Mono - add geiger
   id: ClothingModsuitChestplateVolta
-  name: Volta Modsuit Chestplate
-  description: Reinforced military modification of Sapper Modsuit, featuring better bullet resistance.
+  name: '伏特模组护甲胸铠 | Volta Modsuit Chestplate'
+  description: '强化军事改装的工兵模组护甲，具备更优异的防弹性能。 | Reinforced military modification of Sapper Modsuit, featuring better bullet resistance.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

@@ -6,8 +6,8 @@
 - type: entity
   id: MachineHeavyFTLDriveCore
   parent: [BaseStructureDisableToolUse, BaseStructureDestructible, BaseMachinePowered]
-  name: CTLA-160 heavy bluespace core
-  description: A FTL drive that extends a ship's FTL range to ~25 kilometers.
+  name: 'CTLA-160重型超空间核心 | CTLA-160 heavy bluespace core'
+  description: '一部能将飞船超光速航行范围延伸至约25公里的超光速引擎。 | A FTL drive that extends a ship''s FTL range to ~25 kilometers.'
   placement:
     mode: SnapgridCenter
   components:
@@ -54,8 +54,8 @@
 - type: entity
   id: MachineHeavyFTLDriveConsole
   parent: [BaseStructureDisableToolUse, BaseStructureDestructible, BaseMachinePowered]
-  name: CTLA-160 heavy bluespace console
-  description: A console for a CTLA-160 heavy BSD. Just a power monitoring console to you, since you can't understand the rest.
+  name: 'CTLA-160重型蓝空控制台 | CTLA-160 heavy bluespace console'
+  description: '这是CTLA-160重型蓝空驱动器的控制台。对你而言只是电力监控界面，毕竟其他功能你也理解不了。 | A console for a CTLA-160 heavy BSD. Just a power monitoring console to you, since you can''t understand the rest.'
   placement:
     mode: SnapgridCenter
   components:

@@ -5,8 +5,8 @@
 
 - type: entity
   id: LetoferolSpikeGun
-  name: letoferol bone spike
-  description: Shoots a short salvo of bone spikes.
+  name: '莱托费罗骨刺 | letoferol bone spike'
+  description: '射出一连串短促的骨刺。 | Shoots a short salvo of bone spikes.'
   categories: [ HideSpawnMenu ]
   components:
   - type: RechargeBasicEntityAmmo
@@ -41,7 +41,7 @@
 
 - type: entity
   id: LetoferolHorrorSpike
-  name: letoferol bone spike
+  name: '来托菲罗骨刺 | letoferol bone spike'
   parent: DartAberrantFleshHorrorSpike
   categories: [ HideSpawnMenu ]
   components:
@@ -63,8 +63,8 @@
 - type: entity
   id: ActionLetoferolSpike
   categories: [ HideSpawnMenu ]
-  name: "[color=yellow]Bone Spike[/color]"
-  description: "Shoot a short salvo of bone spikes laced with [color=yellow]letoferol[/color]."
+  name: '「骨刺」 | [color=yellow]Bone Spike[/color]'
+  description: '发射一连串带有「来托菲醇」的骨刺短连射。 | Shoot a short salvo of bone spikes laced with [color=yellow]letoferol[/color].'
   components:
   - type: WorldTargetAction
     icon: { sprite : _NF/Mobs/Aliens/flesh.rsi, state: spike }

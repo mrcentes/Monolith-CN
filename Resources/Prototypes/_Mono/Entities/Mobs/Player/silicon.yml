@@ -85,7 +85,7 @@
 
 - type: entity
   id: AiHeldMono
-  description: Components added / removed from an entity that gets inserted into an AI core.
+  description: '从实体中添加或移除并插入人工智能核心的组件。 | Components added / removed from an entity that gets inserted into an AI core.'
   categories: [ HideSpawnMenu ]
   abstract: true
   components:
@@ -174,8 +174,8 @@
 - type: entity
   id: BorgChassisRedacted
   parent: BaseBorgChassisRedacted
-  name: remnant automated defense system tender
-  description: A tender to a automated drone ship, to keep internal mechanisms intact.
+  name: '残余自动化防御系统维护船 | remnant automated defense system tender'
+  description: '向自动化无人机舰船发出的招标，旨在保持内部机械结构完好无损。 | A tender to a automated drone ship, to keep internal mechanisms intact.'
   components:
   - type: Sprite
     layers:
@@ -236,7 +236,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: '动力电池插槽组件默认插槽名称 | power-cell-slot-component-slot-name-default'
         startingItem: PowerCellAntiqueProto
   - type: RandomMetadata
     nameSegments: [MonoRedactedBorgNameset]
@@ -247,8 +247,8 @@
   suffix: Ghost
   components:
   - type: GhostRole
-    name: ghost-role-information-redacted-borg
-    description: ghost-role-information-redacted-borg-description
+    name: '幽灵角色信息已编辑的博格 | ghost-role-information-redacted-borg'
+    description: '幽灵角色信息已编辑博格描述 | ghost-role-information-redacted-borg-description'
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -261,8 +261,8 @@
   suffix: Ghost, Playtime
   components:
   - type: GhostRole
-    name: ghost-role-information-redacted-borg
-    description: ghost-role-information-redacted-borg-description
+    name: '已编辑的博格幽灵角色信息 | ghost-role-information-redacted-borg'
+    description: '幽灵角色信息已编辑博格描述 | ghost-role-information-redacted-borg-description'
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -302,8 +302,8 @@
   - type: SiliconLawProvider
     laws: Redacted
   - type: GhostRole
-    name: ghost-role-information-redacted-core
-    description: ghost-role-information-redacted-core-description
+    name: '幽灵角色信息核心部分已编辑 | ghost-role-information-redacted-core'
+    description: '幽灵角色信息核心描述 | ghost-role-information-redacted-core-description'
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -388,8 +388,8 @@
   - type: SiliconLawProvider
     laws: VesselLawset
   - type: GhostRole
-    name: ghost-role-information-vessel-core
-    description: ghost-role-information-vessel-core-description
+    name: '舰船核心幽灵角色信息 | ghost-role-information-vessel-core'
+    description: '幽灵角色信息舰船核心描述 | ghost-role-information-vessel-core-description'
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -455,8 +455,8 @@
   - type: SiliconLawProvider
     laws: TSFMCLawset
   - type: GhostRole
-    name: ghost-role-information-tsfmc-core
-    description: ghost-role-information-tsfmc-core-description
+    name: '幽灵角色信息核心模块 | ghost-role-information-tsfmc-core'
+    description: '幽灵角色信息传输核心描述 | ghost-role-information-tsfmc-core-description'
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -535,8 +535,8 @@
   - type: SiliconLawProvider
     laws: RogueLawset
   - type: GhostRole
-    name: ghost-role-information-rogue-core
-    description: ghost-role-information-rogue-core-description
+    name: '幽灵角色信息：盗贼核心 | ghost-role-information-rogue-core'
+    description: '幽灵角色信息核心盗贼描述 | ghost-role-information-rogue-core-description'
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default

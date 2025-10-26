@@ -11,10 +11,10 @@
 # SPDX-License-Identifier: MPL-2.0
 
 - type: entity
-  name: high-frequency blade
+  name: '高频刀片 | high-frequency blade'
   parent: [BaseC2ContrabandUnredeemable, Katana]
   id: WeaponHFKatana
-  description: A high-frequency blade. It's incredibly powerful. # Why the glorp would a katana be modified to have a HF blade :nerd::point_up:
+  description: '高频刀刃。威力无比强大。为何要把武士刀改装成高频刀刃呢？书呆子指上方 | A high-frequency blade. It''s incredibly powerful. # Why the glorp would a katana be modified to have a HF blade :nerd::point_up:'
   components:
    - type: Sprite
      sprite: _Mono/Objects/Weapons/Melee/hfblade.rsi
@@ -47,10 +47,10 @@
      id: TSFEnergyWeapon
 
 - type: entity
-  name: VT-7 high-frequency blade
+  name: 'VT-7高频刀刃 | VT-7 high-frequency blade'
   parent: [BaseC3SyndicateContraband, Katana] # we dont want the construction node, so we dont copy off the other HF katana
   id: WeaponVT7
-  description: A high-frequency blade tuned with ill-advised modifications designed to sunder armor.
+  description: '一把经过不当改装的高频刀刃，专为撕裂装甲而调整。 | A high-frequency blade tuned with ill-advised modifications designed to sunder armor.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Melee/murasama.rsi
@@ -82,10 +82,10 @@
     - VT7
 
 - type: entity
-  name: VT-7 HF blade "Murasama"
+  name: 'VT-7高频刀刃「村雨」 | VT-7 HF blade "Murasama"'
   parent: [BaseC3SyndicateContraband, Katana] # we dont want the construction node, so we dont copy off the other HF katana
   id: WeaponMurasama
-  description: You're the boss.
+  description: '您是老板。 | You''re the boss.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Melee/murasama.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: BaseMeleeWeaponEnergy
   id: WeaponPhaseBlade
-  name: nano-laminate phaseblade
-  description: A heavy bladed weapon with a wicked edge, commonly seen in the hands of pre-fracture warriors. Can be activated to adjust to combat needs
+  name: '纳米层压相位刃 | nano-laminate phaseblade'
+  description: '重型刃状武器，配备锋利刃口，常见于裂变前战士手中。可启动调节以适应作战需求。 | A heavy bladed weapon with a wicked edge, commonly seen in the hands of pre-fracture warriors. Can be activated to adjust to combat needs'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Melee/phaseblade.rsi

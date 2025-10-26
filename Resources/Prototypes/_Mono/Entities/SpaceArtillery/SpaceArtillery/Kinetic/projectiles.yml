@@ -14,7 +14,7 @@
 
 - type: entity
   id: ShipMiniRailgunProjectile
-  name: M194 CHARONETTE 280mm 10.25 kg slug
+  name: 'M194 夏洛内特 280毫米 10.25公斤 弹头 | M194 CHARONETTE 280mm 10.25 kg slug'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -79,7 +79,7 @@
 
 - type: entity
   id: 20mmBulletArmorPiercing
-  name: 20mm AP bullet
+  name: '20毫米穿甲弹 | 20mm AP bullet'
   parent: 20mmBulletBase
   categories: [ HideSpawnMenu ]
   components:
@@ -124,7 +124,7 @@
 
 - type: entity
   id: ShipDravonProjectile
-  name: DRAVON 57mm projectile
+  name: 'DRAVON 57毫米抛射体 | DRAVON 57mm projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -161,7 +161,7 @@
 
 - type: entity
   id: 90mmBulletBase
-  name: shell
+  name: '壳层 | shell'
   parent: BaseBulletTrigger
   abstract: true
   categories: [ HideSpawnMenu ]
@@ -219,7 +219,7 @@
 
 - type: entity
   id: ShipLongbowProjectile
-  name: longbow 140mm HEAT projectile
+  name: '长弓140毫米破甲弹 | longbow 140mm HEAT projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -258,7 +258,7 @@
 
 - type: entity
   id: ShipCyrexaProjectile
-  name: CYREXA 220mm projectile
+  name: 'CYREXA 220毫米炮弹 | CYREXA 220mm projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -298,7 +298,7 @@
 
 - type: entity
   id: ShipBoforsProjectile
-  name: Bofors 255mm projectile
+  name: '博福斯255毫米炮弹 | Bofors 255mm projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -338,7 +338,7 @@
 
 - type: entity
   id: ShipKargilProjectile
-  name: Kargil 203mm projectile
+  name: '卡吉尔203毫米炮弹 | Kargil 203mm projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -378,8 +378,8 @@
 
 - type: entity
   id: ShipHadesProjectile
-  name: HADES 305mm projectile
-  description: I feel a primal fear. The omen comes for me.
+  name: '哈迪斯305毫米炮弹 | HADES 305mm projectile'
+  description: '我感到一种原始的恐惧。征兆正向我逼近。 | I feel a primal fear. The omen comes for me.'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -421,7 +421,7 @@
 
 - type: entity
   id: AdderBullet
-  name: AdderBullet
+  name: '加法子弹 | AdderBullet'
   parent: 20mmBulletBase
   categories: [ HideSpawnMenu ]
   components:
@@ -476,7 +476,7 @@
 
 - type: entity
   id: ShipHydraProjectile
-  name: Hydra 200mm projectile
+  name: '九头蛇200毫米炮弹 | Hydra 200mm projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

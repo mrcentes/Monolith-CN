@@ -1,2 +1,2 @@
 item-toggle-activate = Activate
-item-toggle-deactivate = Deactivate
+item-toggle-deactivate = 关闭

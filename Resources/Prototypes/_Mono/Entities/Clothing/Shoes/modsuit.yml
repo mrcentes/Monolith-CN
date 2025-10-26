@@ -20,8 +20,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsUSSPVaryag
-  name: Marshevyye Varyag
-  description: Heavy-duty boots designed for combat and EVA.
+  name: '马尔舍维耶·瓦良格 | Marshevyye Varyag'
+  description: '专为战斗和舱外活动设计的重型靴。 | Heavy-duty boots designed for combat and EVA.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsUSSPZastavnik
-  name: Sapogi Zastavnika
-  description: Thick, reinforced boots with magnetic stabilizers and shock absorption.
+  name: '扎斯塔夫尼卡磁稳减震加固靴 | Sapogi Zastavnika'
+  description: '厚实加固的靴体配备磁力稳定装置与减震系统。 | Thick, reinforced boots with magnetic stabilizers and shock absorption.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -110,8 +110,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsRogue
-  name: RX-01 modsuit boots
-  description: Magnetized to help you avoid slips, trips, and Feds.
+  name: 'RX-01改装靴 | RX-01 modsuit boots'
+  description: '磁吸设计助您避免滑倒、绊倒和联邦探员。 | Magnetized to help you avoid slips, trips, and Feds.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance
@@ -156,8 +156,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingModsuitBootsVolta
-  name: Volta Modsuit Boots
-  description: Made to get militaristically oily.
+  name: '伏打模块作战靴 | Volta Modsuit Boots'
+  description: '专为军事化油润需求而打造。 | Made to get militaristically oily.'
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

@@ -8,8 +8,8 @@
 - type: entity
   parent: [ WeaponPistolAnaconda, BaseC3PirateContraband ]
   id: WeaponPistolHawk4
-  name: LWC HAWK-4 I.S
-  description: A modified, heavy Anaconda for the purpose of assassinating high value targets. This rare prototype is capable of printing armor penetrating bullets. A laser and holographic sight alongside a matte black chassis with a custom-built integrated silencer make for an exceedingly deadly stealth weapon, only fit for a true Commander of the Ashen Republic.
+  name: '灰鹰四型集成消音版 | LWC HAWK-4 I.S'
+  description: '专为刺杀高价值目标而改造的重型蟒蛇式手枪。这款稀有原型能够打印穿甲弹。激光全息瞄具搭配哑光黑机身及定制一体化消音器，造就这款极致的致命潜行武器，唯灰烬共和国的真正指挥官方可匹配。 | A modified, heavy Anaconda for the purpose of assassinating high value targets. This rare prototype is capable of printing armor penetrating bullets. A laser and holographic sight alongside a matte black chassis with a custom-built integrated silencer make for an exceedingly deadly stealth weapon, only fit for a true Commander of the Ashen Republic.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Pistols/hawk4.rsi
@@ -46,7 +46,7 @@
 
 - type: entity
   id: BulletHawk
-  name: bullet (7x30mm caseless)
+  name: '子弹（7x30毫米无壳弹） | bullet (7x30mm caseless)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

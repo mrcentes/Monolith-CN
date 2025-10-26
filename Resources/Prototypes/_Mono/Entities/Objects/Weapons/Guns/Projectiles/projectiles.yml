@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 - type: entity
-  name: 45_magnum bolt
+  name: '45口径马格努姆螺栓 | 45_magnum bolt'
   id: BulletEnergyGun45_magnum
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -46,7 +46,7 @@
 - type: entity
   parent: BulletDisabler
   id: BulletDisablerShock
-  name: disabler bolt
+  name: '禁用螺栓 | disabler bolt'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

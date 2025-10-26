@@ -9,7 +9,7 @@
 - type: entity
   id: ShieldGeneratorPOI
   parent: ShieldGenerator
-  name: FS-421 "Fortress" Outpost Shield Generator
+  name: 'FS-421堡垒前哨护盾发生器 | FS-421 "Fortress" Outpost Shield Generator'
   suffix: POI ONLY
   components:
   - type: ShipShieldEmitter
@@ -78,7 +78,7 @@
 - type: entity
   id: ShieldGeneratorTSFCapital
   parent: ShieldGenerator
-  name: LM-212 "Vanguard" Capital Shield Generator
+  name: 'LM-212 先锋型首都护盾发生器 | LM-212 "Vanguard" Capital Shield Generator'
   suffix: TSF CAPITAL ONLY
   components:
   - type: ShipShieldEmitter
@@ -147,7 +147,7 @@
 - type: entity
   id: ShieldGenerator
   parent: BaseMachinePowered
-  name: MS-500 "Titan" Shield Generator
+  name: 'MS-500「泰坦」护盾发生器 | MS-500 "Titan" Shield Generator'
   suffix: ADS ONLY
   components:
   - type: AmbientOnPowered
@@ -262,7 +262,7 @@
 - type: entity
   id: ShieldGeneratorMedium
   parent: ShieldGenerator
-  name: MS-250 "Aegis" Shield Generator
+  name: 'MS-250型「神盾」护盾发生器 | MS-250 "Aegis" Shield Generator'
   suffix: ADS ONLY, SCI VOUCHER SHIPS ONLY
   components:
   - type: ShipShieldEmitter
@@ -345,7 +345,7 @@
 - type: entity
   id: ShieldGeneratorSmall
   parent: ShieldGenerator
-  name: MS-100 "Sentinel" Shield Generator
+  name: 'MS-100哨兵护盾发生器 | MS-100 "Sentinel" Shield Generator'
   components:
   - type: ShipShieldEmitter
     healPerSecond: 300 # Mono

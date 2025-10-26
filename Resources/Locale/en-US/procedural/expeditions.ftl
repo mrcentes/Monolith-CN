@@ -76,9 +76,9 @@ salvage-air-mod-volatile-atmosphere = Volatile atmosphere
 
 salvage-dungeon-mod-lava-brig = Lava Brig
 # Frontier: labs<Labs
-salvage-dungeon-mod-snowy-labs = Snowy Labs
+salvage-dungeon-mod-snowy-labs = Snowy labs
 # Frontier: Experiment<Experiment Site
-salvage-dungeon-mod-experiment = Experiment Site
+salvage-dungeon-mod-experiment = Experiment
 # Frontier: Haunted<Haunted Cave
-salvage-dungeon-mod-haunted = Haunted Cave
+salvage-dungeon-mod-haunted = Haunted
 salvage-dungeon-mod-mineshaft = Mineshaft

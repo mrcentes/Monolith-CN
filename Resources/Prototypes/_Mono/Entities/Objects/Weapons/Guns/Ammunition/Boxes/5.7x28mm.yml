@@ -25,7 +25,7 @@
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
   id: BaseAmmoBox57x28mm
-  name: ammunition box (5.7x28mm FMJ)
+  name: '弹药箱（5.7x28毫米全金属被甲弹） | ammunition box (5.7x28mm FMJ)'
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -63,7 +63,7 @@
 - type: entity
   parent: BaseAmmoBox57x28mm
   id: AmmoBox57x28mmFMJ
-  name: ammunition box (5.7x28mm FMJ)
+  name: '弹药箱（5.7x28毫米全金属被甲弹） | ammunition box (5.7x28mm FMJ)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge57x28mmFMJ
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseAmmoBox57x28mm
   id: AmmoBox57x28mmPractice
-  name: ammunition box (5.7x28mm practice)
+  name: '弹药箱（5.7x28毫米训练弹） | ammunition box (5.7x28mm practice)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge57x28mmPractice
@@ -92,7 +92,7 @@
 - type: entity
   parent: BaseAmmoBox57x28mm
   id: AmmoBox57x28mmIncendiary
-  name: ammunition box (5.7x28mm incendiary)
+  name: '弹药箱（5.7x28毫米燃烧弹） | ammunition box (5.7x28mm incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge57x28mmIncendiary
@@ -107,7 +107,7 @@
 - type: entity
   id: AmmoBox57x28mmUranium
   parent: BaseAmmoBox57x28mm
-  name: ammunition box (5.7x28mm uranium)
+  name: '弹药箱（5.7x28毫米铀弹） | ammunition box (5.7x28mm uranium)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge57x28mmUranium
@@ -123,7 +123,7 @@
 - type: entity
   parent: BaseAmmoBox57x28mm
   id: AmmoBox57x28mmRubber
-  name: ammunition box (5.7x28mm rubber)
+  name: '弹药箱（5点7乘28毫米橡胶弹） | ammunition box (5.7x28mm rubber)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge57x28mmRubber
@@ -139,7 +139,7 @@
 - type: entity
   parent: BaseAmmoBox57x28mm
   id: AmmoBox57x28mmEmp
-  name: ammunition box (5.7x28mm emp)
+  name: '弹药箱（5点7乘28毫米电磁脉冲） | ammunition box (5.7x28mm emp)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge57x28mmEmp
@@ -156,7 +156,7 @@
 - type: entity
   parent: BaseAmmoBox57x28mm
   id: AmmoBox57x28mmHP
-  name: ammunition box (5.7x28mm hollow-point)
+  name: '弹药箱（5.7x28毫米空尖弹） | ammunition box (5.7x28mm hollow-point)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge57x28mmHP
@@ -171,7 +171,7 @@
 - type: entity
   parent: BaseAmmoBox57x28mm
   id: AmmoBox57x28mmRIP
-  name: ammunition box (5.7x28mm RIP)
+  name: '弹药箱（5.7x28毫米RIP） | ammunition box (5.7x28mm RIP)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge57x28mmRIP
@@ -188,7 +188,7 @@
 - type: entity
   parent: BaseAmmoBox57x28mm
   id: AmmoBox57x28mmPlasteelAP
-  name: ammunition box (5.7x28mm AP)
+  name: '弹药箱（5.7x28毫米穿甲弹） | ammunition box (5.7x28mm AP)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge57x28mmPlasteelAP
@@ -204,7 +204,7 @@
 - type: entity
   parent: BaseAmmoBox57x28mm
   id: AmmoBox57x28mmBigFMJ
-  name: big ammunition box (5.7x28mm FMJ)
+  name: '大型弹药箱（5.7x28毫米全金属被甲弹） | big ammunition box (5.7x28mm FMJ)'
   suffix: Big
   components:
   - type: Item

@@ -6,7 +6,7 @@
 - type: entity
   parent: BasePDA
   id: BaseUSSPPDA
-  description: A basic personal computer for access restriction and organization, manufactured in the USSP.
+  description: '一台用于访问限制和组织管理的基础型个人计算机，由USSP制造。 | A basic personal computer for access restriction and organization, manufactured in the USSP.'
   abstract: true
   components:
   - type: CartridgeLoader
@@ -36,7 +36,7 @@
 - type: entity
   parent: BasePDA
   id: BaseUSSPMedicPDA
-  description: A basic personal computer for access restriction and organization, manufactured in the USSP.
+  description: '一台用于访问限制和组织管理的基础型个人计算机，由USSP制造。 | A basic personal computer for access restriction and organization, manufactured in the USSP.'
   abstract: true
   components:
   - type: CartridgeLoader
@@ -67,7 +67,7 @@
 - type: entity
   parent: BaseUSSPPDA
   id: USSPRiflemanPDA
-  name: USSP rifleman PDA
+  name: '美军步枪手个人数字助理 | USSP rifleman PDA'
   components:
   - type: Pda
     id: USSPRiflemanIDCard
@@ -85,7 +85,7 @@
 - type: entity
   parent: BaseUSSPMedicPDA
   id: USSPMedicPDA
-  name: USSP combat medic PDA
+  name: '美军战斗医护掌上电脑 | USSP combat medic PDA'
   components:
   - type: Pda
     id: USSPMedicIDCard
@@ -104,7 +104,7 @@
 - type: entity
   parent: BaseUSSPPDA
   id: USSPCorporalPDA
-  name: USSP efreitor PDA
+  name: '美国海军上等兵个人数字助理 | USSP efreitor PDA'
   components:
   - type: Pda
     id: USSPCorporalIDCard
@@ -121,7 +121,7 @@
 - type: entity
   parent: BaseUSSPPDA
   id: USSPSergeantPDA
-  name: USSP serzhant PDA
+  name: '美军士官掌上电脑 | USSP serzhant PDA'
   components:
   - type: Pda
     id: USSPSergeantIDCard
@@ -139,7 +139,7 @@
 - type: entity
   parent: BaseUSSPPDA
   id: USSPCommissarPDA
-  name: USSP commissar PDA
+  name: '美国海军政委掌上电脑 | USSP commissar PDA'
   components:
   - type: Pda
     id: USSPCommissarIDCard
@@ -157,8 +157,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: TsfEngiPDA
-  name: TSFMC engineer PDA
-  description: A standard TSFMC personal computer.
+  name: 'TSFMC工程师掌上电脑 | TSFMC engineer PDA'
+  description: '标准TSFMC工程师个人计算机。 | A standard TSFMC personal computer.'
   components:
   - type: Pda
     id: TsfEngiIDCard
@@ -188,8 +188,8 @@
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, SheriffPDA]
   id: MarsocFTLPDA
-  name: TSFMC MARSOC fire team leader PDA
-  description: A standard TSFMC personal computer.
+  name: 'TSFMC 海军陆战队特种作战小组领队掌上电脑 | TSFMC MARSOC fire team leader PDA'
+  description: '一台标准的TSFMC个人计算机。 | A standard TSFMC personal computer.'
   components:
   - type: Pda
     id: TsfMarsocFTLIDCard
@@ -213,8 +213,8 @@
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, SheriffPDA]
   id: MarsocPDA
-  name: TSFMC MARSOC operative PDA
-  description: A standard TSFMC personal computer.
+  name: 'TSFMC海军陆战队特种作战司令部特工掌上电脑 | TSFMC MARSOC operative PDA'
+  description: '一台标准的TSFMC个人计算机。 | A standard TSFMC personal computer.'
   components:
   - type: Pda
     id: TsfMarsocIDCard

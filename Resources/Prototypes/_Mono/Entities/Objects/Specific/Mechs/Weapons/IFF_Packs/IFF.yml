@@ -4,8 +4,8 @@
 
 - type: entity
   id: IFFMechaBlueSquare
-  name: Blue IFF Mech Strobe SQUARE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '蓝色敌我识别机甲频闪灯方形 | Blue IFF Mech Strobe SQUARE'
+  description: '一种安装在机甲上的廉价频闪装置，可释放特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -20,8 +20,8 @@
 
 - type: entity
   id: IFFMechaBlueCircle
-  name: Blue IFF Mech Strobe CIRCLE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '蓝色敌我识别机甲频闪灯 环形 | Blue IFF Mech Strobe CIRCLE'
+  description: '一种安装在机甲上的廉价闪光装置，可释放特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -36,8 +36,8 @@
 
 - type: entity
   id: IFFMechaBlueTriangle
-  name: Blue IFF Mech Strobe TRIANGLE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '蓝色敌我识别机甲频闪灯 三角形 | Blue IFF Mech Strobe TRIANGLE'
+  description: '一种安装在机甲上的廉价频闪装置，可释放特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -52,8 +52,8 @@
 
 - type: entity
   id: IFFMechaRedSquare
-  name: Red IFF Mech Strobe SQUARE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '红色敌我识别机甲频闪灯方形 | Red IFF Mech Strobe SQUARE'
+  description: '一种安装在机甲上的廉价频闪装置，可释放特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -68,8 +68,8 @@
 
 - type: entity
   id: IFFMechaRedCircle
-  name: Red IFF Mech Strobe CIRCLE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '红色敌我识别机甲频闪灯 环形 | Red IFF Mech Strobe CIRCLE'
+  description: '一种安装在机甲上的廉价闪光装置，可释放特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -84,8 +84,8 @@
 
 - type: entity
   id: IFFMechaRedTriangle
-  name: Red IFF Mech Strobe TRIANGLE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '红色敌我识别机甲频闪灯三角型 | Red IFF Mech Strobe TRIANGLE'
+  description: '廉价机械闪光装置，可发出特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -100,8 +100,8 @@
 
 - type: entity
   id: IFFMechaYellowSquare
-  name: Yellow IFF Mech Strobe SQUARE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '黄色敌我识别机甲频闪灯方形 | Yellow IFF Mech Strobe SQUARE'
+  description: '廉价机械频闪灯，可发出特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -116,8 +116,8 @@
 
 - type: entity
   id: IFFMechaYellowCircle
-  name: Yellow IFF Mech Strobe CIRCLE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '黄色敌我识别机甲频闪灯 环形 | Yellow IFF Mech Strobe CIRCLE'
+  description: '廉价机械频闪灯，可发出特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -132,8 +132,8 @@
 
 - type: entity
   id: IFFMechaYellowTriangle
-  name: Yellow IFF Mech Strobe TRIANGLE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '黄色敌我识别机甲频闪灯三角形 | Yellow IFF Mech Strobe TRIANGLE'
+  description: '廉价机械频闪器，可发出特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -148,8 +148,8 @@
 
 - type: entity
   id: IFFMechaGreenSquare
-  name: Green IFF Mech Strobe SQUARE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '绿色敌我识别机甲频闪灯 方形 | Green IFF Mech Strobe SQUARE'
+  description: '一种安装在机甲上的廉价频闪装置，可释放特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -164,8 +164,8 @@
 
 - type: entity
   id: IFFMechaGreenCircle
-  name: Green IFF Mech Strobe CIRCLE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '绿色敌我识别机甲信标环 | Green IFF Mech Strobe CIRCLE'
+  description: '一种安装在机甲上的廉价闪光装置，可释放特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:
@@ -180,8 +180,8 @@
 
 - type: entity
   id: IFFMechaGreenTriangle
-  name: Green IFF Mech Strobe TRIANGLE
-  description: A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.
+  name: '绿色敌我识别机甲频闪灯 三角形 | Green IFF Mech Strobe TRIANGLE'
+  description: '一种安装在机甲上的廉价频闪装置，可释放特定雷达信号。使干扰手段失效。 | A cheap strobe attached to mechs to give off a certain radar signature. Makes jamming useless.'
   suffix: Mech Weapon, IFF
   parent: [ SpecialMechEquipment, IFFMechMountEquipment ]
   components:

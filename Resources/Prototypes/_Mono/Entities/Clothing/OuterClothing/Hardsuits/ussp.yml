@@ -10,8 +10,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUsspL27
-  name: USSP L-27 tacsuit
-  description: The standard combat suit of USSP naval operations.
+  name: 'USSP L-27战术作战服 | USSP L-27 tacsuit'
+  description: 'USSP海军行动的标准作战服。 | The standard combat suit of USSP naval operations.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ussp_combat.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUsspL10
-  name: USSP L-10 lightsuit
-  description: An old USSP model of combat suit that is still in use in the frontlines.
+  name: 'USSP L-10型轻型作战服 | USSP L-10 lightsuit'
+  description: '一款仍在战线服役的老式USSP作战服型号。 | An old USSP model of combat suit that is still in use in the frontlines.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ussp_combat_light.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUsspL10A
-  name: USSP L-10-A lightsuit
-  description: An old USSP model of combat suit that is still in use in the frontlines.
+  name: 'USSP L-10-A型轻型作战服 | USSP L-10-A lightsuit'
+  description: '一款仍在战线服役的旧型号USSP作战服。 | An old USSP model of combat suit that is still in use in the frontlines.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ussp_combat_light_officer.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUsspM10
-  name: USSP M-10 scoutsuit
-  description: A new prototype of combat suit using the old L-10 as a baseline. It has a integrated mass scanner in his helmet.
+  name: 'USSP M-10侦察作战服 | USSP M-10 scoutsuit'
+  description: '以旧款L-10为基础研发的新型作战服原型。其头盔内集成有质量扫描仪。 | A new prototype of combat suit using the old L-10 as a baseline. It has a integrated mass scanner in his helmet.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ussp_combat_lightmk2.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUsspL30
-  name: USSP L-30 Naval Commissar parade hardsuit.
-  description: A highly decorated hardsuit with upgraded mobility and higher quality lighter armor plates to quickly convey orders on the frontline. (or not be sweaty in a parade)
+  name: 'USSP L-30海军政委阅兵用硬质护甲。 | USSP L-30 Naval Commissar parade hardsuit.'
+  description: '一款功勋卓著的硬式防护服，配备增强机动性与更优质轻量化装甲板，便于在前线快速传达指令。或在阅兵中保持清爽体感。 | A highly decorated hardsuit with upgraded mobility and higher quality lighter armor plates to quickly convey orders on the frontline. (or not be sweaty in a parade)'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ussp_commissar_parade.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitOfficerCombat
-  name: USSP UF-16 "Voenkom" commissar tacsuit
-  description: Developed by Union armament manufacturers for use by members of the commissariat on the frontlines. Features enhanced plating for survivability, allowing commanders to continue to give orders even while under heavy fire.
+  name: 'USSP UF-16 军事委员战术套装 | USSP UF-16 "Voenkom" commissar tacsuit'
+  description: '由联盟军火制造商开发，供前线政委人员使用。该战术服配备增强型护甲以提升生存能力，使指挥官能在猛烈火力下持续下达作战指令。 | Developed by Union armament manufacturers for use by members of the commissariat on the frontlines. Features enhanced plating for survivability, allowing commanders to continue to give orders even while under heavy fire.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ussp_officer_combat.rsi

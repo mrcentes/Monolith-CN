@@ -7,8 +7,8 @@
 - type: entity
   parent: [ BaseCartridge, BaseRestrictedContraband ]
   id: CartridgeSmart
-  name: cartridge (.160 smart)
-  description: A .160 smart bullet with a small charge of booster propellant at the bottom.
+  name: '弹药（点一六零智能型） | cartridge (.160 smart)'
+  description: '一枚底部装有少量助推推进剂的点一六零智能子弹。 | A .160 smart bullet with a small charge of booster propellant at the bottom.'
   components:
   - type: Tag
     tags:

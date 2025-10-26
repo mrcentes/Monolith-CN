@@ -1,6 +1,6 @@
-delete-verb-get-data-text = Delete
+delete-verb-get-data-text = 删除
 edit-solutions-verb-get-data-text = Edit Solutions
-explode-verb-get-data-text = Explode
+explode-verb-get-data-text = 爆破
 ahelp-verb-get-data-text = Message
 admin-verbs-admin-logs-entity = Entity Logs
 admin-verbs-teleport-to = Teleport To

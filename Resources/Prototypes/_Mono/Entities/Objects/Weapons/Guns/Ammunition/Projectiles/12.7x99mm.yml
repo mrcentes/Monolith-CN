@@ -7,7 +7,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   id: Bullet127x99mm
-  name: bullet (12.7x99mm anti-material)
+  name: '子弹（12.7x99毫米反器材） | bullet (12.7x99mm anti-material)'
   components:
   - type: Projectile
     damage:
@@ -23,7 +23,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: Bullet127x99mmExplosive
-  name: bullet (12.7x99mm high-explosive)
+  name: '子弹（12、7x99毫米高爆弹） | bullet (12.7x99mm high-explosive)'
   components:
   - type: Projectile
     damage:

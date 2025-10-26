@@ -10,8 +10,8 @@
 - type: entity
   id: MachineFTLDrive
   parent: BaseMachinePowered
-  name: CTLA-25 bluespace drive
-  description: A FTL drive that extends a ship's FTL range to ~5 kilometers. Does not stack.
+  name: 'CTLA-25蓝空驱动器 | CTLA-25 bluespace drive'
+  description: '一种超光速驱动器，可将飞船的超光速航行范围扩展至约5公里。效果不可叠加。 | A FTL drive that extends a ship''s FTL range to ~5 kilometers. Does not stack.'
   placement:
     mode: SnapgridCenter
   components:
@@ -107,8 +107,8 @@
 - type: entity
   parent: MachineFTLDrive
   id: MachineFTLDrive50
-  name: CTLA-50 bluespace drive
-  description: A FTL drive that extends a ship's FTL range to ~10 kilometers. Does not stack.
+  name: 'CTL-50型蓝空驱动器 | CTLA-50 bluespace drive'
+  description: '一种超光速驱动器，可将飞船的超光速航行范围延伸至约10公里。效果不可叠加。 | A FTL drive that extends a ship''s FTL range to ~10 kilometers. Does not stack.'
   components:
   - type: Sprite
     sprite: _Mono/Structures/ShuttleComponents/drive.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: MachineFTLDrive
   id: MachineFTLDrive25S
-  name: CTLA-25s bluespace drive
-  description: An advanced FTL drive that extends a ship's FTL range to ~5 kilometers, but with upgrades to allow for faster recharge and flight times. Does not stack.
+  name: 'CTLA-25s蓝空驱动器 | CTLA-25s bluespace drive'
+  description: '一种先进超光速驱动器，可将飞船超光速航行范围扩展至约5公里，并通过升级实现更快的充能与航行速度。效果不可叠加。 | An advanced FTL drive that extends a ship''s FTL range to ~5 kilometers, but with upgrades to allow for faster recharge and flight times. Does not stack.'
   components:
   - type: Sprite
     sprite: _Mono/Structures/ShuttleComponents/drive.rsi

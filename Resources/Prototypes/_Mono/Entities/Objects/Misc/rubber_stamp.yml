@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 - type: entity
-  name: paycheck bratva's rubber stamp
+  name: '薪水支票兄弟会的橡皮图章 | paycheck bratva''s rubber stamp'
   parent: RubberStampBase
   id: RubberStampPaycheckBratva
   categories: [ DoNotMap ]

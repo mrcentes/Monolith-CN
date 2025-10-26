@@ -7,8 +7,8 @@
 - type: entity
   parent: ComputerRadar
   id: ComputerEliteRadar
-  name: elite radar computer
-  description: A radar using rare, pre-fracture bluespace technology to detect enemies from even farther away.
+  name: '精英雷达计算机 | elite radar computer'
+  description: '采用稀有裂解前蓝空技术的雷达，能够从更远距离侦测敌人。 | A radar using rare, pre-fracture bluespace technology to detect enemies from even farther away.'
   components:
   - type: Sprite
     layers:
@@ -38,8 +38,8 @@
 - type: entity
   parent: ComputerEliteRadar
   id: ComputerStationRadar
-  name: overwatch radar computer
-  description: A visual uplink to a station's advanced, long-range intelligence suite, allowing commanders to have eyes on unfolding combat at all times.
+  name: '俯瞰雷达计算机 | overwatch radar computer'
+  description: '与站点先进远程情报系统的可视化数据链接，使指挥官能够随时掌握实时战况。 | A visual uplink to a station''s advanced, long-range intelligence suite, allowing commanders to have eyes on unfolding combat at all times.'
   components:
   - type: DetectionRangeMultiplier
     infraredMultiplier: 2 # up from 1

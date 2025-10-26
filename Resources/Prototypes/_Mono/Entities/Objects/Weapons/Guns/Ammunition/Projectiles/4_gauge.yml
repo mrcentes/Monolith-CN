@@ -39,7 +39,7 @@
 
 - type: entity
   id: Pellet23x75mmSlug
-  name: pellet (4 gauge slug)
+  name: '颗粒弹（4号独头弹） | pellet (4 gauge slug)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -56,7 +56,7 @@
 
 - type: entity
   id: Pellet23x75mmFlashbang
-  name: pellet (4 gauge flashbang)
+  name: '颗粒弹（4号闪光弹） | pellet (4 gauge flashbang)'
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   components:
@@ -73,7 +73,7 @@
 
 - type: entity
   id: Pellet23x75mmBeanbag
-  name: beanbag (4 gauge)
+  name: '豆袋沙发（4号规格） | beanbag (4 gauge)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -90,7 +90,7 @@
 
 - type: entity
   id: Pellet23x75mmBuckshot
-  name: pellet (4 gauge)
+  name: '颗粒弹（4号口径） | pellet (4 gauge)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -115,7 +115,7 @@
 
 - type: entity
   id: Pellet23x75mmIncendiary
-  name: pellet (4 gauge incendiary)
+  name: '颗粒（4号燃烧弹） | pellet (4 gauge incendiary)'
   categories: [ HideSpawnMenu ]
   parent: BaseBulletIncendiary
   components:
@@ -143,7 +143,7 @@
 
 - type: entity
   id: Pellet23x75mmPractice
-  name: pellet (4 gauge practice)
+  name: '颗粒弹（4号练习弹） | pellet (4 gauge practice)'
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
   components:
@@ -167,7 +167,7 @@
 
 - type: entity
   id: Pellet23x75mmFlare
-  name: pellet (4 gauge flare)
+  name: '颗粒（4号信号弹） | pellet (4 gauge flare)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Physics
@@ -214,7 +214,7 @@
 
 - type: entity
   id: Pellet23x75mmUranium
-  name: pellet (4 gauge uranium)
+  name: '颗粒（4号铀） | pellet (4 gauge uranium)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -240,7 +240,7 @@
 
 - type: entity
   id: Pellet23x75mmDozd
-  name: pellet (4 gauge)
+  name: '颗粒弹（4号口径） | pellet (4 gauge)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -267,7 +267,7 @@
 #anti-flesh ammo
 - type: entity
   id: Pellet23x75mmOOBuckshot
-  name: Pellet23x75mm (4 gauge OO magnum buckshot)
+  name: '颗粒弹23x75毫米（4号径双倍径大型铅弹） | Pellet23x75mm (4 gauge OO magnum buckshot)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -292,7 +292,7 @@
 
 - type: entity
   id: Pellet23x75mmSlugRIP
-  name: Pellet23x75mm (4 gauge RIP)
+  name: '颗粒弹23x75毫米（4号径空尖弹） | Pellet23x75mm (4 gauge RIP)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -309,7 +309,7 @@
 #armor-piercing ammo
 - type: entity
   id: Pellet23x75mmSlugAP
-  name: Pellet23x75mm (4 gauge armor-piercing slug)
+  name: '颗粒23x75毫米（4号穿甲独头弹） | Pellet23x75mm (4 gauge armor-piercing slug)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -328,7 +328,7 @@
 
 - type: entity
   id: Pellet23x75mmFlechette
-  name: Pellet23x75mm (4 gauge flechette)
+  name: '颗粒弹23x75毫米（4号镖弹） | Pellet23x75mm (4 gauge flechette)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

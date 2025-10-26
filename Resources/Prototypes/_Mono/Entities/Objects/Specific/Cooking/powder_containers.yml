@@ -6,8 +6,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerBlackTeaPouch
-  name: black tea pouch
-  description: A pouch of black tea powder. Good for brewing tea!
+  name: '黑茶粉包 | black tea pouch'
+  description: '一小袋红茶粉。适合泡茶！ | A pouch of black tea powder. Good for brewing tea!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/teabags.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerGreenTeaPouch
-  name: green tea pouch
-  description: A pouch of green tea powder. Good for brewing tea!
+  name: '绿茶粉袋 | green tea pouch'
+  description: '一小袋绿茶粉。适合泡茶！ | A pouch of green tea powder. Good for brewing tea!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/teabags.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerChamomileTeaPouch
-  name: chamomile tea pouch
-  description: A pouch of chamomile tea powder. Good for brewing tea!
+  name: '洋甘菊茶包 | chamomile tea pouch'
+  description: '一小袋洋甘菊茶粉。适合冲泡茶饮！ | A pouch of chamomile tea powder. Good for brewing tea!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/teabags.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerBerryTeaPouch
-  name: berry tea pouch
-  description: A pouch of berry tea powder. Good for brewing tea!
+  name: '浆果茶包 | berry tea pouch'
+  description: '一袋浆果茶粉。适合冲泡茶饮！ | A pouch of berry tea powder. Good for brewing tea!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/teabags.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerFruitTeaPouch
-  name: fruit tea pouch
-  description: A pouch of fruit tea powder. Good for brewing tea!
+  name: '果茶包 | fruit tea pouch'
+  description: '一袋水果茶粉。适合冲泡茶饮！ | A pouch of fruit tea powder. Good for brewing tea!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/teabags.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerYorkshireTeaPouch
-  name: yorkshire tea pouch
-  description: A pouch of Yorkshire tea powder. Good for brewing tea!
+  name: '约克郡茶包 | yorkshire tea pouch'
+  description: '一袋约克郡茶粉。适合冲泡茶饮！ | A pouch of Yorkshire tea powder. Good for brewing tea!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/teabags.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerDecafBlackTeaPouch
-  name: decaf black tea pouch
-  description: A pouch of decaf black tea powder. Good for brewing tea!
+  name: '无咖啡因黑茶包 | decaf black tea pouch'
+  description: '一袋无咖啡因红茶粉。适合冲泡茶饮！ | A pouch of decaf black tea powder. Good for brewing tea!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/teabags.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerSyndicateTeaPouch
-  name: syndie tea pouch
-  description: A pouch of suspiciously spicy tea powder. Good for brewing... something!
+  name: '辛迪茶包 | syndie tea pouch'
+  description: '一包可疑的辛辣茶粉。适合冲泡…某种饮品！ | A pouch of suspiciously spicy tea powder. Good for brewing... something!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/teabags.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerCoffeePouch
-  name: coffee grounds pouch
-  description: A pouch of coffee grounds. Good for brewing coffee!
+  name: '咖啡渣包 | coffee grounds pouch'
+  description: '一袋咖啡粉。适合冲泡咖啡！ | A pouch of coffee grounds. Good for brewing coffee!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/teabags.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: ReagentPacketBase
   id: ReagentContainerDecafCoffeePouch
-  name: decaf coffee grounds pouch
-  description: A pouch of decaffeinated coffee grounds. Good for brewing coffee!
+  name: '无咖啡因咖啡粉袋 | decaf coffee grounds pouch'
+  description: '一袋无咖啡因咖啡粉。适合冲泡咖啡！ | A pouch of decaffeinated coffee grounds. Good for brewing coffee!'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/teabags.rsi

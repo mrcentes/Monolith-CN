@@ -14,7 +14,7 @@ book-text-escalation = When it comes to getting robusted, it's all about strateg
 
         Remember, it's all about conserving energy. Let your opponent do some of the escalation for you - it's a win-win!
 
-book-text-escalation-security = Get it right and you'll have the whole station calling you shitsec. Get it wrong and you'll face harmbatoning from the gods. Personally, I always aim for the former...
+book-text-escalation-security = 做得好，全站都会尊称你为狗屁安保。搞砸了，就等着挨神仙们的警棍吧。我个人嘛，向来只追求前者……
 
         They say the pen is mightier than the sword, but you don't have a sword, you have a stun baton, and as soon as you start writing, any suspect is going to leave.
 

@@ -14,10 +14,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: VFD MR-8C DMR (8x65mm SKR)
+  name: 'VFD MR-8C精确射手步枪（8x65毫米SKR） | VFD MR-8C DMR (8x65mm SKR)'
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponRifleMR8C
-  description: The DMR variant of the MR-8 series, firing with incredible accuracy. Chambered in 8x65mm SKR. A label on the side reads "FOR MILITARY USE ONLY".
+  description: 'MR-8系列的精确射手步枪变体，具有惊人的射击精度。使用8x65mm SKR弹药。侧面标签标注「仅限军用」。 | The DMR variant of the MR-8 series, firing with incredible accuracy. Chambered in 8x65mm SKR. A label on the side reads "FOR MILITARY USE ONLY".'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/mr8c.rsi
@@ -46,7 +46,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine8x65mmSKR
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
@@ -56,7 +56,7 @@
             - Magazine8x65mmSKR
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge8x65mmSKR
         priority: 1
         whitelist:
@@ -86,10 +86,10 @@
     pvsIncrease: 1
 
 - type: entity
-  name: NCI AK-502 (7.62x39mm)
+  name: 'NCI AK-502型步枪（7.62x39毫米口径） | NCI AK-502 (7.62x39mm)'
   parent: [BaseWeaponRifle, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponRifleAK502
-  description: A standard-issue USSP combat rifle. Uses 7.62x39mm ammo.
+  description: '一款标准制式的USSP战斗步枪。使用7.62x39毫米弹药。 | A standard-issue USSP combat rifle. Uses 7.62x39mm ammo.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/ak502.rsi
@@ -117,7 +117,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine762x39mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
@@ -127,7 +127,7 @@
           - Magazine762x39mmFMJ
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge762x39mmFMJ
         priority: 1
         whitelist:
@@ -148,10 +148,10 @@
     id: StandardFactionLongarm
 
 - type: entity
-  name: VFD XLR-556 ICWS (5.56x45mm)
+  name: 'VFD XLR-556 ICWS（5.56×45毫米） | VFD XLR-556 ICWS (5.56x45mm)'
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponRifleXlr556
-  description: A proposed next-gen "rifle" for TSF standard infantry. Chambered in 5.56x45mm rifle rounds, its RPM is incredible - but with great firerate comes great fire control...
+  description: '为TSF标准步兵设计的次世代步枪方案。采用5.56x45毫米步枪弹，其射速极为惊人——但高射速也带来了火力控制的挑战。 | A proposed next-gen "rifle" for TSF standard infantry. Chambered in 5.56x45mm rifle rounds, its RPM is incredible - but with great firerate comes great fire control...'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/xlr556.rsi
@@ -186,7 +186,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine556x45mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
@@ -196,7 +196,7 @@
           - Magazine556x45mmFMJ
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge556x45mmFMJ
         priority: 1
         whitelist:
@@ -219,10 +219,10 @@
 
 #Mercenary vulcan
 - type: entity
-  name: HWM FCM-C "Vulcan" (7.62x51mm)
+  name: '赫斯塔尔兵工厂民用中型战斗步枪「火神」式（7.62x51毫米） | HWM FCM-C "Vulcan" (7.62x51mm)'
   parent: WeaponRifleVulcan
   id: WeaponRifleVulcanFCMC
-  description: The Herstal Weapon Manufacture "Vulcan" Civilian Medium combat rifle (Fusil de Combat Moyen Civil) in 762x51mm, this civilian version only has semi-automatic mode and reduced firerate.
+  description: '赫斯塔尔武器制造公司火神民用中型战斗步枪采用762x51毫米弹药，此民用版本仅具备半自动模式并降低了射速。 | The Herstal Weapon Manufacture "Vulcan" Civilian Medium combat rifle (Fusil de Combat Moyen Civil) in 762x51mm, this civilian version only has semi-automatic mode and reduced firerate.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/WeaponRifleVulcanFCMC.rsi
@@ -246,7 +246,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine762x51mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -257,7 +257,7 @@
             - Magazine762x51mmLowCapacityFMJ
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge762x51mmFMJ
         priority: 1
         whitelist:
@@ -269,10 +269,10 @@
 
 #Mercenary lecter
 - type: entity
-  name: HWM FCL "Prometheus" (5.56x45mm)
+  name: '赫斯塔尔武器制造公司普罗米修斯型轻型战斗步枪（5.56x45毫米口径） | HWM FCL "Prometheus" (5.56x45mm)'
   parent: [BaseWeaponRifle, BaseC1Contraband]
   id: WeaponRiflePrometheus
-  description: The Herstal Weapon Manufacture "Prometheus" Light combat rifle (Fusil de Combat Léger) in 556x45mm. Made to be mass producable for fight against xenos. Its firerate is decent with burst being superior and accuracy poor.
+  description: '赫斯塔尔武器制造公司普罗米修斯型轻战斗步枪，口径5.56x45毫米。该武器为实现大规模生产以对抗外星生物而设计，射速适中，点射性能优异，但精准度较差。 | The Herstal Weapon Manufacture "Prometheus" Light combat rifle (Fusil de Combat Léger) in 556x45mm. Made to be mass producable for fight against xenos. Its firerate is decent with burst being superior and accuracy poor.'
   components:
   - type: Item # Mono
     size: Huge
@@ -311,7 +311,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine556x45mmFMJ # Mono
         insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/m16_magin.ogg # Mono
         ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/skm_magout.ogg # Mono
@@ -321,7 +321,7 @@
             - Magazine556x45mmFMJ # Mono
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge556x45mmFMJ # Mono
         priority: 1
         whitelist:
@@ -340,10 +340,10 @@
     price: 1500
 
 - type: entity
-  name: SKR-WS MLA-34 smartgun (.160 smart) # TODO - make like 5.56 level smartgun ammo for these
+  name: 'SKR-WS MLA-34智能手枪（点160智能弹）注：需制作类似5.56规格的智能手枪弹药适配此型号 | SKR-WS MLA-34 smartgun (.160 smart) # TODO - make like 5.56 level smartgun ammo for these'
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2Contraband]
   id: WeaponRifleMla34
-  description: A limited-production special smartgun made as a self-defense weapon for untrained ship crew.
+  description: '限量生产的特殊智能枪械，作为未经训练舰船船员的自我防卫武器。 | A limited-production special smartgun made as a self-defense weapon for untrained ship crew.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/mla34.rsi
@@ -374,7 +374,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: MagazineSmart
         insertSound: /Audio/Weapons/Guns/MagIn/hpistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
@@ -384,7 +384,7 @@
           - MagazineSmart
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: CartridgeSmart
         priority: 1
         whitelist:
@@ -424,10 +424,10 @@
 #Pre-fracture NT lecter/prometheus
 
 - type: entity
-  name: NTSF-LTR-556 (5.56x45mm,6.8x52mm Caseless)
+  name: 'NTSF-LTR-556突击步枪（5.56x45毫米及6.8x52毫米无壳弹通用型） | NTSF-LTR-556 (5.56x45mm,6.8x52mm Caseless)'
   parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
   id: WeaponRifleNtsfLtr
-  description: An old pre-fracture gun. The Nano Trasen Security Forces and Special Forces's Light Tactical Rifle chambered in 5.56x45mm, also accepts 6.8x52mm due to it being a brand new caliber of its time and being a prototype. This rifle is of high-quality with plastitanium internal and plasteel furnitures.
+  description: '一把旧时代的断裂前武器。纳米特拉森安全部队与特种部队列装的轻型战术步枪，原采用5.56x45毫米口径，因适配当时全新规格的6.8x52毫米无壳弹原型而具备双口径兼容能力。这款步枪品质卓越，内部构件采用塑钛合金，外部配件则使用塑钢材质。 | An old pre-fracture gun. The Nano Trasen Security Forces and Special Forces''s Light Tactical Rifle chambered in 5.56x45mm, also accepts 6.8x52mm due to it being a brand new caliber of its time and being a prototype. This rifle is of high-quality with plastitanium internal and plasteel furnitures.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/NTSF-LTR-556
@@ -458,7 +458,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: '杂志 | Magazine'
         startingItem: Magazine556x45mmFMJ
         insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/m16_magin.ogg
         ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/skm_magout.ogg
@@ -469,7 +469,7 @@
             - Magazine556x45mmFMJ
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: '腔室 | Chamber'
         startingItem: Cartridge556x45mmFMJ
         priority: 1
         whitelist:

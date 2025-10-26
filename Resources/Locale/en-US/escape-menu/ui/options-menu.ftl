@@ -235,7 +235,7 @@ ui-options-function-loadout8 = 热键栏配置 8
 ui-options-function-loadout9 = 热键栏配置 9
 ui-options-function-loadout0 = 热键栏配置 0
 
-ui-options-function-shuttle-strafe-up = 驾驶向上平移
+ui-options-function-shuttle-strafe-up = 向上平移
 ui-options-function-shuttle-strafe-right = 向右平移
 ui-options-function-shuttle-strafe-left = 向左平移
 ui-options-function-shuttle-strafe-down = 向下平移

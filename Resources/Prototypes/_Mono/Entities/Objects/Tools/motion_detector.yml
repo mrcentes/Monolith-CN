@@ -13,10 +13,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: motion detector
+  name: '运动探测器 | motion detector'
   parent: BaseHandheldComputer
   id: MotionDetector
-  description: A handheld motion detector. Detects people not in the same company of the user.
+  description: '手持式运动探测器。可探测与使用者不同单位的人员。 | A handheld motion detector. Detects people not in the same company of the user.'
   components:
   - type: Item
   - type: Sprite
@@ -74,7 +74,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: '动力电池插槽组件默认插槽名称 | power-cell-slot-component-slot-name-default'
 
 - type: entity
   id: MotionDetectorBorg
@@ -84,7 +84,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: '动力电池插槽组件默认插槽名称 | power-cell-slot-component-slot-name-default'
         startingItem: PowerCellMicroreactor
         disableEject: true
         swap: false

@@ -6,8 +6,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelDrakeIndustries 
-  name: drake industries satchel
-  description: The synthetic cloth it's made off looks pretty cheap, is that buckle coming off ? It bears the colors of Drake Industries
+  name: '德雷克工业挎包 | drake industries satchel'
+  description: '它采用的人造布料看起来相当廉价，那个搭扣是不是快脱落了？上面还带有德雷克工业的标志色 | The synthetic cloth it''s made off looks pretty cheap, is that buckle coming off ? It bears the colors of Drake Industries'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Satchels/di.rsi

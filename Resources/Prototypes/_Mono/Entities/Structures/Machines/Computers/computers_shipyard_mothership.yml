@@ -9,7 +9,7 @@
   id: BaseCarrierComputer
   parent: [BaseStructureDisableToolUse, BaseStructureDestructible, ComputerShipyard]
   suffix: Carrier
-  description: Used on carriers to purchase and sell ships without returning to a station.
+  description: '在航母上使用，无需返回空间站即可购买和出售船只。 | Used on carriers to purchase and sell ships without returning to a station.'
   abstract: true
   components:
   - type: ActivatableUI
@@ -24,7 +24,7 @@
 - type: entity
   id: SellOnlyCarrierComputer
   parent: BaseCarrierComputer
-  name: sell only shipyard console
+  name: '仅出售造船厂控制台 | sell only shipyard console'
 
 # EXAMPLE LISTING - DO NOT UNCOMMENT
 #- type: entity
@@ -41,7 +41,7 @@
 - type: entity
   id: MiningCarrierComputer
   parent: BaseCarrierComputer
-  name: mining carrier console
+  name: '矿用运输车控制台 | mining carrier console'
   components:
   - type: ShipyardListing
     shuttles:
@@ -51,7 +51,7 @@
 - type: entity
   id: HiveCarrierComputer
   parent: BaseCarrierComputer
-  name: zephyr carrier console
+  name: '和风载体控制台 | zephyr carrier console'
   components:
   - type: ShipyardListing
     shuttles:
@@ -60,7 +60,7 @@
 - type: entity
   id: TSFCarrierComputer
   parent: BaseCarrierComputer
-  name: TSF carrier console
+  name: 'TSF运营商控制台 | TSF carrier console'
   components:
   - type: ShipyardListing
     shuttles:
@@ -71,7 +71,7 @@
 - type: entity
   id: LedokolAttatchmentComputer
   parent: BaseCarrierComputer
-  name: ledokol attatchment console
+  name: '破冰船附件控制台 | ledokol attatchment console'
   components:
   - type: ShipyardListing
     shuttles:
@@ -82,7 +82,7 @@
 - type: entity
   id: WindreignCarrierComputer
   parent: BaseCarrierComputer
-  name: windreign shipyard console
+  name: '风临船坞控制台 | windreign shipyard console'
   components:
   - type: ShipyardListing
     shuttles:
@@ -92,8 +92,8 @@
 - type: entity
   id: JupiterCarrierComputer
   parent: BaseCarrierComputer
-  name: jupiter shipyard console
-  description: Lighter shipyard using the Jupiter's internal hangars, doesn't have access to the full roster of Ashen Republic ships.
+  name: '木星造船厂控制台 | jupiter shipyard console'
+  description: '轻型船坞使用木星级内部机库，无法使用灰烬共和国全部舰船名录。 | Lighter shipyard using the Jupiter''s internal hangars, doesn''t have access to the full roster of Ashen Republic ships.'
   components:
   - type: ShipyardListing
     shuttles:

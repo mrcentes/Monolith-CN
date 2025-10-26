@@ -3,7 +3,7 @@ book-text-plasma-trap = Heheheheh, no way in hell they're going to get at our st
       You know how to drain it when we need it out.
        - J.
 
-book-text-holoparasite-info = Thanks for choosing our holoparasite package!
+book-text-holoparasite-info = 感谢您选择我们的全息寄生体套餐！
       At cybersun, we pride ourselves on cutting-edge military and industrial technology, and greatly appreciate your contribution to our establishment!
       Guardians are helpful and intelligent beings which nest within your body, completely immune to common hazards such as pressure, temperature and even bullets!
       You have purchased the holoparasite package, which contains a holoparasite activator, an instruction booklet, and our softcap merchandise.
@@ -16,7 +16,7 @@ book-text-holoparasite-info = Thanks for choosing our holoparasite package!
       WARNING: Guardians are metaphysical beings, but draw from your HEALTH in order to exist. Direct damage done to guardians will be partially transferred to you!
       Cybersun inc. is not responsible for complete annihilation following the misuse of Holoparasite technology.
 
-book-text-ame-scribbles = I don't know if you're trained already, so I hope this'll help.
+book-text-ame-scribbles = 我不知道你是否已经接受过训练，所以希望这个能帮上忙。
       AME controller needs LV power and an HV wire to output to. Check the area with a crowbar if you aren't sure.
       There should be an empty room next to where you found this, that room's wired for the AME.
       You can put an AME anywhere if you can get the wires to it, though.
@@ -27,7 +27,7 @@ book-text-ame-scribbles = I don't know if you're trained already, so I hope this
       Higher will burn the engine out and eventually make it explode. Don't.
       Don't forget to refuel it, it tends to stop at the worst possible time.
 
-book-text-agrichemkit-manual = Thank you for choosing the safe-for-all-ages Rogue Agri-Chem is Fun! chemistry kit, the best learning-adjacent toy of 2468! Be prepared to discover all about the biggest innovations in agriculture since people buried fish with their corn seeds.
+book-text-agrichemkit-manual = 感谢您选择老少皆宜的 NanoTrasen 农业化学趣味套装——这款荣获2468年度最佳启蒙教育玩具的化学实验箱！准备好探索自人类将鱼埋入玉米种子以来农业领域最重大的创新奇迹吧。
 
       Contents:
       5 handily labeled 30u bottles, 1 each of nitrogen, phosphorus, hydrogen, potassium, and ethanol
@@ -53,7 +53,7 @@ book-text-agrichemkit-manual = Thank you for choosing the safe-for-all-ages Rogu
       Unstable mutagen is entirely safe when used as a fertilizer, and NanoTrasen takes no responsibility for dead crops, excessive water bills, newly sentient plants asking existential questions, or flora-strangled farmhands that may coincidentally occur while using it.
       Do not drink unstable mutagen. Wash your hands thoroughly after handing. Wash your eyes if you have looked at unstable mutagen for over 30 minutes in a 24 hour period. Store in a dark room between 293–295K. Do not use on corporate holidays. If you begin hearing voices telling you to drink unstable mutagen, please contact your doctor, head of personnel, or exorcist.
 
-book-text-combat-bakery-kit = Thank you for choosing our combat bakery kit!
+book-text-combat-bakery-kit = 感谢您选择我们的战斗面包房套装！
       Enclosed are two (2) CyberSun patented Throwing Croissants, and one (1) patent-pending Baguette Sword.
       The included Donk Co. microwave board can construct a microwave capable of baking more weapons.
       Just like the baked weapons, be sure to eat this note after use. Good luck, agent.

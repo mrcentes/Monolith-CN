@@ -7,8 +7,8 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseC3SyndicateContraband]
   id: ClothingHeadHelmetHardsuitViperGroupStandard
-  name: JACKAL mk.II viper hardsuit helmet
-  description: A hardsuit helmet with signature markings of the Viper Group. Has a built-in nightvision system.
+  name: '胡狼mk.II毒蛇重型防护头盔 | JACKAL mk.II viper hardsuit helmet'
+  description: '带有蝰蛇小队标志性标记的硬质头盔。配备内置夜视系统。 | A hardsuit helmet with signature markings of the Viper Group. Has a built-in nightvision system.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/viper_group_standard.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseC3SyndicateContraband, ShowMedicalIcons]
   id: ClothingHeadHelmetHardsuitViperGroupMedic
-  name: IMP mk.III viper hardsuit helmet
-  description: A hardsuit helmet with signature markings of the Viper Group. Has a built-in medical HUD complemented by thermal pulse systems.
+  name: 'IMP mk.III 毒蛇硬质防护头盔 | IMP mk.III viper hardsuit helmet'
+  description: '带有蝰蛇小组标志性标记的硬质防护头盔。配备内置医疗平视显示器并辅以热脉冲系统。 | A hardsuit helmet with signature markings of the Viper Group. Has a built-in medical HUD complemented by thermal pulse systems.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/viper_group_medic.rsi

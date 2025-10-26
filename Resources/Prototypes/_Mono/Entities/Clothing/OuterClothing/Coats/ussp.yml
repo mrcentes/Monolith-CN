@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatUSSP
-  name: USSP officer coat
-  description: A comfy coat used by the officers of the USSP.
+  name: 'USSP军官大衣 | USSP officer coat'
+  description: 'USSP军官使用的舒适外套。 | A comfy coat used by the officers of the USSP.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Coats/ussp_coat.rsi

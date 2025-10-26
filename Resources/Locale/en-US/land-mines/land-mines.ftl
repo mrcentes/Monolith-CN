@@ -1,1 +1,1 @@
-﻿land-mine-triggered = You step on the { $mine }!
+﻿land-mine-triggered = 你踩到了 { $mine }!

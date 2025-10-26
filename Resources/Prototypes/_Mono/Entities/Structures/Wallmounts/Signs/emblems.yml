@@ -52,8 +52,8 @@
 - type: entity
   parent: EmblemBase
   id: EmblemDrakeIndustries
-  name: Drake Industries Emblem
-  description: "The emblem of Drake Industries, shining in an ivory white. Looks really expensive, or at least that's the aim."
+  name: '德雷克工业徽章 | Drake Industries Emblem'
+  description: '德雷克工业徽章，闪耀着象牙白光泽。看起来确实很昂贵，至少这是设计初衷。 | The emblem of Drake Industries, shining in an ivory white. Looks really expensive, or at least that''s the aim.'
   components:
   - type: Sprite
     state: Drake_Industries_Emblem
@@ -78,8 +78,8 @@
 - type: entity
   parent: EmblemBroken
   id: EmblemBrokenDrakeIndustries
-  name: "Silvery metal bits"
-  description: "A few scraps of shattered metal inteweaved with welding marks, uncovering some cheap pale red alloys underneath a thin silver layer."
+  name: '银色金属碎屑 | Silvery metal bits'
+  description: '几块碎裂金属片交织着焊痕，薄薄银层下露出廉价淡红合金的质地。 | A few scraps of shattered metal inteweaved with welding marks, uncovering some cheap pale red alloys underneath a thin silver layer.'
   components:
   - type: Sprite
     state: Drake_Industries_Emblem_Broken
@@ -89,8 +89,8 @@
 - type: entity
   parent: EmblemBase
   id: EmblemSteelHammer
-  name: Steel Hammer Manufacturing Emblem
-  description: "The emblem of Steel Hammer Manufacturing, made in painted plasteel - just like their hulls."
+  name: '钢铁锤制造厂徽章 | Steel Hammer Manufacturing Emblem'
+  description: '钢铁锤制造厂徽章，采用彩绘塑料钢制成——正如其船体材质。 | The emblem of Steel Hammer Manufacturing, made in painted plasteel - just like their hulls.'
   components:
   - type: Sprite
     state: Steel_Hammer_Emblem
@@ -114,8 +114,8 @@
 - type: entity
   parent: EmblemBroken
   id: EmblemBrokenSteelHammer
-  name: "Silvery metal bits"
-  description: "A few scraps of chipped paint and shattered metal, the remnants of a plasteel symbol."
+  name: '银白色金属碎屑 | Silvery metal bits'
+  description: '几片剥落的漆屑与碎裂金属，是塑钢徽章残留的痕迹。 | A few scraps of chipped paint and shattered metal, the remnants of a plasteel symbol.'
   components:
   - type: Sprite
     state: Steel_Hammer_Emblem_Broken

@@ -6,8 +6,8 @@
 - type: entity
   parent: NFBaseBlueprintArmory
   id: BlueprintLauncherRocket
-  name: RPG-7 Blueprint
-  description: A blueprint with a schematic of RPG-7 and the ammo for it. It can be inserted into an autolathe or a techfab.
+  name: 'RPG-7蓝图 | RPG-7 Blueprint'
+  description: '一张包含RPG-7及其弹药示意图的蓝图。可插入自动车床或技术制造台使用。 | A blueprint with a schematic of RPG-7 and the ammo for it. It can be inserted into an autolathe or a techfab.'
   components:
   - type: Blueprint
     providedRecipes:
@@ -18,8 +18,8 @@
 - type: entity
   parent: NFBaseBlueprintArmory
   id: BlueprintWeaponRifleNtsfLtr
-  name: NTSF-LTR-556 Blueprint
-  description: A blueprint for the recipe of the NTSF-LTR-556. It can be inserted into an autolathe or a techfab.
+  name: 'NTSF-LTR-556蓝图 | NTSF-LTR-556 Blueprint'
+  description: 'NTSF-LTR-556配方蓝图。可插入自动车床或科技制造台使用。 | A blueprint for the recipe of the NTSF-LTR-556. It can be inserted into an autolathe or a techfab.'
   components:
   - type: Blueprint
     providedRecipes:
@@ -28,8 +28,8 @@
 - type: entity
   parent: NFBaseBlueprintArmory
   id: BlueprintWeaponSubMachineGunVectorNtsfHclm
-  name: NTSF-HCLM-45 Blueprint
-  description: A blueprint for the recipe of the NTSF-HCLM-45. It can be inserted into an autolathe or a techfab.
+  name: 'NTSF-HCLM-45蓝图 | NTSF-HCLM-45 Blueprint'
+  description: 'NTSF-HCLM-45配方蓝图。可插入自动车床或技术制造台使用。 | A blueprint for the recipe of the NTSF-HCLM-45. It can be inserted into an autolathe or a techfab.'
   components:
   - type: Blueprint
     providedRecipes:

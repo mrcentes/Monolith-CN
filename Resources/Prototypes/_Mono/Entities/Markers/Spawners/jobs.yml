@@ -6,7 +6,7 @@
 - type: entity
   id: SpawnPointUSSPRifleman
   parent: SpawnPointJobBase
-  name: USSP Rifleman
+  name: '美军步枪手 | USSP Rifleman'
   components:
   - type: SpawnPoint
     job_id: USSPRifleman
@@ -17,7 +17,7 @@
 - type: entity
   id: SpawnPointUSSPMedic
   parent: SpawnPointJobBase
-  name: USSP Combat Medic
+  name: '美军战斗医护兵 | USSP Combat Medic'
   components:
   - type: SpawnPoint
     job_id: USSPMedic
@@ -28,7 +28,7 @@
 - type: entity
   id: SpawnPointUSSPCorporal
   parent: SpawnPointJobBase
-  name: USSP Efreitor
+  name: '美国军士长埃弗雷托 | USSP Efreitor'
   components:
   - type: SpawnPoint
     job_id: USSPCorporal
@@ -39,7 +39,7 @@
 - type: entity
   id: SpawnPointUSSPSergeant
   parent: SpawnPointJobBase
-  name: USSP Serzhant
+  name: '美国海军军士长 | USSP Serzhant'
   components:
   - type: SpawnPoint
     job_id: USSPSergeant
@@ -50,7 +50,7 @@
 - type: entity
   id: SpawnPointUSSPCommissar
   parent: SpawnPointJobBase
-  name: USSP Commissar
+  name: '美军政委 | USSP Commissar'
   components:
   - type: SpawnPoint
     job_id: USSPCommissar
@@ -61,7 +61,7 @@
 - type: entity
   id: SpawnPointMdMedic
   parent: SpawnPointJobBase
-  name: Emergency Responder
+  name: '紧急响应人员 | Emergency Responder'
   components:
   - type: SpawnPoint
     job_id: MdMedic
@@ -74,7 +74,7 @@
 - type: entity
   id: SpawnPointTsfEngi
   parent: SpawnPointJobBase
-  name: TSF Engineer
+  name: 'TSF工程师 | TSF Engineer'
   components:
   - type: SpawnPoint
     job_id: TsfEngineer

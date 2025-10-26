@@ -4,7 +4,7 @@
 
 - type: entity
   id: BaseFlora
-  description: Plant of goodies.
+  description: '美食工厂。 | Plant of goodies.'
   abstract: true
   components:
   - type: SpriteFade
@@ -62,8 +62,8 @@
 - type: entity
   parent: BaseFlora
   id: FloraOrakimPlant
-  name: orakim plant
-  description: A large bush native to the planet below. Thrives in desert environments.
+  name: '欧拉金植株 | orakim plant'
+  description: '原生于此行星的大型灌木。在沙漠环境中茁壮生长。 | A large bush native to the planet below. Thrives in desert environments.'
   components:
   - type: Sprite
     layers:
@@ -104,8 +104,8 @@
 - type: entity
   parent: BaseFlora
   id: FloraPilumaPlant
-  name: piluma plant
-  description: A cluster of tall stalks. Edible for food and water, but hallucinogenic in nature.
+  name: '皮鲁玛植物 | piluma plant'
+  description: '一簇高大茎秆。可食用获取食物和水分，但本身具有致幻特性。 | A cluster of tall stalks. Edible for food and water, but hallucinogenic in nature.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Flora/flora_32x.rsi

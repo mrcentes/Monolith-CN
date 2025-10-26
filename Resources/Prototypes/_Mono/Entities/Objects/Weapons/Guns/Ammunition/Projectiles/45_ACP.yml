@@ -25,7 +25,7 @@
 
 - type: entity
   id: Bullet45_ACPFMJ
-  name: bullet (.45 ACP FMJ)
+  name: '子弹（点四五自动手枪弹全金属被甲） | bullet (.45 ACP FMJ)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -37,7 +37,7 @@
 
 - type: entity
   id: Bullet45_ACPPractice
-  name: bullet (.45 ACP practice)
+  name: '子弹（点四五自动手枪练习弹） | bullet (.45 ACP practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -48,7 +48,7 @@
 
 - type: entity
   id: Bullet45_ACPRubber
-  name: bullet (.45 ACP rubber)
+  name: '子弹（点四五自动手枪橡胶弹） | bullet (.45 ACP rubber)'
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -60,7 +60,7 @@
 - type: entity
   id: Bullet45_ACPIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (.45 ACP incendiary)
+  name: '子弹（零点四五英寸自动手枪穿甲燃烧弹） | bullet (.45 ACP incendiary)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -73,7 +73,7 @@
 - type: entity
   id: Bullet45_ACPUranium
   parent: BaseBulletUranium
-  name: bullet (.45 ACP uranium)
+  name: '子弹（点四五口径铀制） | bullet (.45 ACP uranium)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -86,7 +86,7 @@
 # Upstream
 - type: entity
   id: Bullet45_ACPEmp
-  name: bullet (.45 ACP emp)
+  name: '点四五口径空包弹 | bullet (.45 ACP emp)'
   parent: BaseBulletEmp
   categories: [ HideSpawnMenu ]
   components:
@@ -101,7 +101,7 @@
 - type: entity
   id: Bullet45_ACPHP
   parent: BaseBullet
-  name: bullet (.45 hollow-point)
+  name: '子弹（零点四五英寸空尖弹） | bullet (.45 hollow-point)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -114,7 +114,7 @@
 - type: entity
   id: Bullet45_ACPRIP
   parent: BaseBullet
-  name: bullet (.45 RIP)
+  name: '点四五口径空尖弹 | bullet (.45 RIP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -129,7 +129,7 @@
 - type: entity
   id: Bullet45_ACPPlasteelAP
   parent: BaseBullet
-  name: bullet (.45 AP)
+  name: '点四五穿甲弹 | bullet (.45 AP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

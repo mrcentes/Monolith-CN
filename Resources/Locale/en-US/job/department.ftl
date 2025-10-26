@@ -1,10 +1,10 @@
 department-Cargo = Cargo
-department-Civilian = Civilian
+department-Civilian = 平民
 # department-Command = Command # Frontier: redefined in _NF
-department-CentralCommand = Central Command
-department-Engineering = Engineering
+department-CentralCommand = 中央司令部
+department-Engineering = 工程部
 # department-Medical = Medical # Mono: redefined in _NF
 # department-Security = Security # Frontier: redefined in _NF
-department-Science = Science
-department-Silicon = Silicon
-department-Specific = Station specific
+department-Science = 科研部
+department-Silicon = 硅基
+department-Specific = 特殊工作

@@ -6,8 +6,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadBPHelmetLight
-  name: light ballistic helmet
-  description: A light ballistic helmet to protect against small arms.
+  name: '轻型防弹头盔 | light ballistic helmet'
+  description: '轻型防弹头盔用于防护小型武器。 | A light ballistic helmet to protect against small arms.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Helmets/security.rsi

@@ -24,7 +24,7 @@
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
   id: BaseAmmoBox45_magnum
-  name: ammunition box (.45 magnum FMJ)
+  name: '弹药箱（点四五口径马格南全金属被甲弹） | ammunition box (.45 magnum FMJ)'
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -59,7 +59,7 @@
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumFMJ
-  name: ammunition box (.45 magnum FMJ)
+  name: '弹药箱（点四五口径马格南全金属被甲弹） | ammunition box (.45 magnum FMJ)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_magnumFMJ
@@ -73,7 +73,7 @@
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumPractice
-  name: ammunition box (.45 magnum practice)
+  name: '弹药箱（点四五马格南训练弹） | ammunition box (.45 magnum practice)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_magnumPractice
@@ -88,7 +88,7 @@
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumIncendiary
-  name: ammunition box (.45 magnum incendiary)
+  name: '弹药箱（点四五口径马格努姆燃烧弹） | ammunition box (.45 magnum incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_magnumIncendiary
@@ -103,7 +103,7 @@
 - type: entity
   id: AmmoBox45_magnumUranium
   parent: BaseAmmoBox45_magnum
-  name: ammunition box (.45 magnum uranium)
+  name: '弹药箱（点四五马格南铀弹） | ammunition box (.45 magnum uranium)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_magnumUranium
@@ -119,7 +119,7 @@
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumRubber
-  name: ammunition box (.45 magnum rubber)
+  name: '弹药箱（点四五马格南橡胶弹） | ammunition box (.45 magnum rubber)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_magnumRubber
@@ -135,7 +135,7 @@
 - type: entity
   id: AmmoBox45_magnumAP
   parent: BaseAmmoBox45_magnum
-  name: ammunition box (.45 magnum extreme armor-piercing)
+  name: '弹药箱（点四五马格南超强穿甲弹） | ammunition box (.45 magnum extreme armor-piercing)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_magnumAP
@@ -152,7 +152,7 @@
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumHP
-  name: ammunition box (.45 magnum hollow-point)
+  name: '弹药箱（点四五马格南空尖弹） | ammunition box (.45 magnum hollow-point)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_magnumHP
@@ -167,7 +167,7 @@
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumRIP
-  name: ammunition box (.45 magnum RIP)
+  name: '弹药箱（点四五马格南穿甲弹） | ammunition box (.45 magnum RIP)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_magnumRIP
@@ -184,7 +184,7 @@
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumPlasteelAP
-  name: ammunition box (.45 magnum AP)
+  name: '弹药箱（点四五马格南穿甲弹） | ammunition box (.45 magnum AP)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_magnumPlasteelAP
@@ -200,7 +200,7 @@
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumBigFMJ
-  name: big ammunition box (.45 magnum FMJ)
+  name: '大型弹药箱（点四五口径马格南全金属被甲弹） | big ammunition box (.45 magnum FMJ)'
   suffix: Big
   components:
   - type: Item

@@ -8,8 +8,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckPonchoBlack
-  name: black cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it's itchy, stuffy, and a little baggy - but at least it's not cold. This one is black.
+  name: '黑色寒冷天气斗篷 | black cold weather poncho'
+  description: '这款防寒斗篷号称是抵御恶劣天气的杰作。实际上它既扎人又闷热，还有点显臃肿——但至少确实不冷。此款为黑色。 | The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it''s itchy, stuffy, and a little baggy - but at least it''s not cold. This one is black.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/black.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoBlackStripe
-  name: rogue cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it's itchy, stuffy, and a little baggy - but at least it's not cold. This one is black with red markings.
+  name: '盗贼严寒天气斗篷 | rogue cold weather poncho'
+  description: '这款防寒斗篷号称是户外防护的杰作。实际上它既扎人又闷热，还有点显臃肿——但至少确实不冷。此款为黑底红纹配色。 | The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it''s itchy, stuffy, and a little baggy - but at least it''s not cold. This one is black with red markings.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/blackstripe.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoArctic
-  name: cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it's itchy, stuffy, and a little baggy - but at least it's not cold.
+  name: '防寒斗篷 | cold weather poncho'
+  description: '防寒斗篷，号称是抵御恶劣天气的杰作。实际上它既扎人又闷热，还有点松垮——但至少它不冷。 | The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it''s itchy, stuffy, and a little baggy - but at least it''s not cold.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/arctic.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSyndicate
-  name: black and red cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it's itchy, stuffy, and a little baggy - but at least it's not cold. This one seems vaguely sinister...
+  name: '黑红色寒天斗篷 | black and red cold weather poncho'
+  description: '这款防寒斗篷，号称是抵御恶劣天气的防护杰作。实际上它既扎人又闷热，还有些松垮——但至少不算寒冷。这件斗篷隐隐透着不祥之感…… | The Cold Weather Poncho, advertised as a masterpiece of elemental protection. The truth is that it''s itchy, stuffy, and a little baggy - but at least it''s not cold. This one seems vaguely sinister...'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/syndicate.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallPink
-  name: small pink cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size. This one is pink and white.
+  name: '粉色小型防寒斗篷 | small pink cold weather poncho'
+  description: '这款防寒斗篷被誉为元素防护的杰作，此时尚款式采用较小尺寸，呈现粉白双色设计。 | The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size. This one is pink and white.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/pinksmall.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallRed
-  name: small red cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size with a cuter design. This one is red and black.
+  name: '小型红色御寒斗篷 | small red cold weather poncho'
+  description: '防寒斗篷，被誉为元素防护的杰作。这款时尚版本采用更小巧的尺寸与更萌的设计，配色为红黑相间。 | The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size with a cuter design. This one is red and black.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/redsmall.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallPurple
-  name: small purple cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size with a cuter design. This one is purple with a fish decal.
+  name: '小型紫色御寒斗篷 | small purple cold weather poncho'
+  description: '防寒斗篷，被誉为元素防护的杰作。这款时尚版本采用更小巧的尺寸与更萌的设计，通体紫色并饰有鱼类贴花。 | The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size with a cuter design. This one is purple with a fish decal.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/purplesmall.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallOrange
-  name: small orange cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size. This one is shockingly orange.
+  name: '小型橙色御寒斗篷 | small orange cold weather poncho'
+  description: '这款防寒斗篷被誉为元素防护的杰作，此时尚款式采用较小版型，其亮眼橙色令人惊艳。 | The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This stylish rendition comes in a smaller size. This one is shockingly orange.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/orangesmall.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallBlack
-  name: small black cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This rendition comes in a smaller size. This one is black.
+  name: '小型黑色寒天斗篷 | small black cold weather poncho'
+  description: '防寒斗篷，被誉为元素防护的杰作。此版本采用较小尺寸，配色为黑色。 | The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This rendition comes in a smaller size. This one is black.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/blacksmall.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: ClothingNeckPonchoBlack
   id: ClothingNeckPonchoSmallWhite
-  name: small cold weather poncho
-  description: The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This rendition comes in a smaller size.
+  name: '小型防寒斗篷 | small cold weather poncho'
+  description: '这款防寒斗篷，被誉为元素防护的杰作。此版本为较小尺寸。 | The Cold Weather Poncho, advertised as a masterpiece of elemental protection. This rendition comes in a smaller size.'
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Ponchos/whitesmall.rsi

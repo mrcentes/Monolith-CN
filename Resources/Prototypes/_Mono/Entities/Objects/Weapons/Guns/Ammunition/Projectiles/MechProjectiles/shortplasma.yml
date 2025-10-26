@@ -1,6 +1,6 @@
 - type: entity
   id: MechPlasmaProjectile
-  name: plasma ball
+  name: '等离子球 | plasma ball'
   parent: BulletRocket
   categories: [ HideSpawnMenu ]
   components:

@@ -17,9 +17,9 @@
 
 - type: entity
   id: WeaponTurretL85Autocannon
-  name: L85 20mm autocannon
+  name: 'L85型20毫米自动炮 | L85 20mm autocannon'
   parent: BallisticArtillery
-  description: A light 20mm ballistic autocannon designed for rapid fire and suppressing smaller targets at close range. Cheap, light, and can be remotely activated or linked up to a GCS.
+  description: '一款轻型20毫米弹道自动炮，专为近距离快速射击和压制小型目标设计。造价低廉、重量轻便，可远程启动或连接至地面控制系统。 | A light 20mm ballistic autocannon designed for rapid fire and suppressing smaller targets at close range. Cheap, light, and can be remotely activated or linked up to a GCS.'
   components:
   - type: StaticPrice
     price: 250
@@ -88,9 +88,9 @@
 
 - type: entity
   id: WeaponTurretRAC30
-  name: RAC-30 Draupnir Autocannon
+  name: 'RAC-30 德罗普尼尔自动炮 | RAC-30 Draupnir Autocannon'
   parent: BallisticArtillery
-  description: A more heavy duty rapid rife autocannon, firing a hail of rounds much like its namesake became a hail of spears.
+  description: '重型速射自动炮，其弹幕如雨倾泻，恰似其名源神话中化作枪雨的神矛。 | A more heavy duty rapid rife autocannon, firing a hail of rounds much like its namesake became a hail of spears.'
   components:
   - type: StaticPrice
     price: 1000
@@ -159,9 +159,9 @@
 
 - type: entity
   id: WeaponTurretDravon
-  name: ADBP-7 DRAVON 57mm Autocannon
+  name: 'ADBP-7 德拉文57毫米自动炮 | ADBP-7 DRAVON 57mm Autocannon'
   parent: BallisticArtillery
-  description: A single-barrel autocannon made by Aetherion Dynamics. Medium artillery piece with high fire rate but relatively low impact, firing HEAT shells to damage ship armor and systems. Can be remotely activated or linked up to a GCS.
+  description: '由以太动力制造的单管自动炮。中等口径火炮，射速较高但杀伤力相对较低，发射破甲弹以破坏舰船装甲与系统。可远程激活或连接至全局作战系统。 | A single-barrel autocannon made by Aetherion Dynamics. Medium artillery piece with high fire rate but relatively low impact, firing HEAT shells to damage ship armor and systems. Can be remotely activated or linked up to a GCS.'
   components:
   - type: StaticPrice
     price: 650
@@ -222,9 +222,9 @@
 
 - type: entity
   id: WeaponTurretAK570
-  name: AK570 90mm heavy autocannon
+  name: 'AK570型90毫米重型自动炮 | AK570 90mm heavy autocannon'
   parent: BallisticArtillery
-  description: A dual-barrel, heavy 90mm autocannon firing general-purpose APHE rounds, effective for sustained fire against medium targets. Can be remotely activated or linked up to a GCS.
+  description: '双管重型90毫米自动炮，发射通用穿甲榴弹，能对中型目标实施持续有效打击。支持远程启动或与地面控制系统连接。 | A dual-barrel, heavy 90mm autocannon firing general-purpose APHE rounds, effective for sustained fire against medium targets. Can be remotely activated or linked up to a GCS.'
   components:
   - type: StaticPrice
     price: 1000
@@ -290,9 +290,9 @@
 
 - type: entity
   id: WeaponTurretCyrexa
-  name: CYREXA 220mm cannon
+  name: 'CYREXA 220毫米加农炮 | CYREXA 220mm cannon'
   parent: BallisticArtilleryUnanchorable
-  description: A main battery with dual barrels, delivering rapid, punishing salvos at extreme range. Fires 220mm auto shells with slightly reduced brute strength. Can be remotely activated or linked up to a GCS.
+  description: '主炮采用双联装炮管，可在超远距离实施快速毁灭性齐射。发射220毫米自动炮弹，略微降低原始强度。支持远程启动或连接地面控制站。 | A main battery with dual barrels, delivering rapid, punishing salvos at extreme range. Fires 220mm auto shells with slightly reduced brute strength. Can be remotely activated or linked up to a GCS.'
   components:
   - type: StaticPrice
     price: 15000
@@ -370,9 +370,9 @@
 
 - type: entity
   id: WeaponTurretHades
-  name: HADES 305mm cannon
+  name: 'HADES 305毫米加农炮 | HADES 305mm cannon'
   parent: BallisticArtilleryUnanchorable
-  description: One of the largest chemical-based kinetic weapons in the sector. Its power is only rivaled by mass drivers such as the M381.
+  description: '本区域最大的化学动能武器之一。其威力仅能由M381等质量加速器相匹敌。 | One of the largest chemical-based kinetic weapons in the sector. Its power is only rivaled by mass drivers such as the M381.'
   components:
   - type: StaticPrice
     price: 30000
@@ -450,9 +450,9 @@
 
 - type: entity
   id: WeaponTurretLongbow
-  name: L65 Mk.5 "Longbow" heavy autocannon
+  name: 'L65 Mk5「长弓」重型自动加农炮 | L65 Mk.5 "Longbow" heavy autocannon'
   parent: BallisticArtilleryUnanchorable
-  description: Fires 140mm HEAT shells in a 10 round burst from an internal autoloader.
+  description: '通过内置自动装弹机以十连发模式发射140毫米破甲弹。 | Fires 140mm HEAT shells in a 10 round burst from an internal autoloader.'
   components:
   - type: StaticPrice
     price: 15000
@@ -530,9 +530,9 @@
 
 - type: entity
   id: WeaponTurretCharonette
-  name: M194 CHARONETTE mass driver
+  name: 'M194卡戎奈特质量加速器 | M194 CHARONETTE mass driver'
   parent: BallisticArtilleryUnanchorable
-  description: A smaller, more compact railgun that fires a large slug at rapid velocity, capable of big damage to enemy ships. Medium linear accelerator, can be remotely activated or linked up to a GCS.
+  description: '小型紧凑型轨道炮，可高速发射大型弹丸，对敌舰造成巨大破坏。中型线性加速器，支持远程启动或连接至地面控制系统。 | A smaller, more compact railgun that fires a large slug at rapid velocity, capable of big damage to enemy ships. Medium linear accelerator, can be remotely activated or linked up to a GCS.'
   components:
   - type: StaticPrice
     price: 17500
@@ -604,9 +604,9 @@
 
 - type: entity
   id: WeaponTurretBofors
-  name: Bofors 255mm cannon
+  name: '博福斯255毫米加农炮 | Bofors 255mm cannon'
   parent: BallisticArtilleryUnanchorable
-  description: A single-barrel, heavy artillery cannon designed for cruisers, delivering massive impact with each long-range shot. Can be remotely activated or linked up to a GCS.
+  description: '单筒重型火炮，专为巡洋舰设计，每次远程射击都能产生巨大冲击力。可远程启动或连接至地面控制站。 | A single-barrel, heavy artillery cannon designed for cruisers, delivering massive impact with each long-range shot. Can be remotely activated or linked up to a GCS.'
   components:
   - type: StaticPrice
     price: 15000
@@ -680,9 +680,9 @@
 
 - type: entity
   id: WeaponTurretKargil
-  name: Kargil 203mm cannon
+  name: 'Kargil 203毫米加农炮 | Kargil 203mm cannon'
   parent: BallisticArtilleryUnanchorable
-  description: A cruiser artillery cannon that launches devastating 203mm shells for long-range ship-to-ship combat. Can be remotely activated or linked up to a GCS.
+  description: '一种巡洋舰火炮，可发射破坏力强大的203毫米炮弹用于远程舰对舰作战。能够远程启动或与地面控制系统链接。 | A cruiser artillery cannon that launches devastating 203mm shells for long-range ship-to-ship combat. Can be remotely activated or linked up to a GCS.'
   components:
   - type: StaticPrice
     price: 12500
@@ -758,9 +758,9 @@
 
 - type: entity
   id: WeaponTurretAdderScattercannon
-  name: Adder scattercannon
+  name: '蝮蛇散射炮 | Adder scattercannon'
   parent: BallisticArtillery
-  description: A large, twin-barrelled scatter cannon, firing burts of cannister shot to shred any incoming missiles or potential boarders. Uses a self loading mechanism similar to the anaconda hangun.
+  description: '大型双管霰弹炮，可发射霰弹幕击毁来袭导弹或潜在登船目标。采用与蟒蛇手枪相似的自装填机制。 | A large, twin-barrelled scatter cannon, firing burts of cannister shot to shred any incoming missiles or potential boarders. Uses a self loading mechanism similar to the anaconda hangun.'
   components:
   - type: StaticPrice
     price: 250
@@ -827,9 +827,9 @@
 
 - type: entity
   id: WeaponTurretFang
-  name: Fang heavy 100mm autocannon
+  name: '獠牙重型100毫米自动加农炮 | Fang heavy 100mm autocannon'
   parent: BallisticArtillery
-  description: A heavy 100mm autocannon of syndicate design, created during the corporate war. Made for shattering the hulls of NT crusiers. Uses a self loading mechanism similar to the anaconda hangun.
+  description: '方重型100毫米自动加农炮，辛迪加设计的重型自动火炮，企业战争期间制造。专为击碎北极星巡洋舰舰体而设计。采用与蟒蛇手枪相似的自装填机制。 | A heavy 100mm autocannon of syndicate design, created during the corporate war. Made for shattering the hulls of NT crusiers. Uses a self loading mechanism similar to the anaconda hangun.'
   components:
   - type: StaticPrice
     price: 2000
@@ -888,9 +888,9 @@
 
 - type: entity
   id: WeaponTurretHydra
-  name: Hydra 200mm battery
+  name: '九头蛇200毫米炮组 | Hydra 200mm battery'
   parent: BallisticArtilleryUnanchorable
-  description: A main cannnonade of syndicate origin, the hydra is a monstrous tri-barreled battery of pain, designed to shatter NT's toughest vessels. Loads with a similar mechanism as the anaconda handgun.
+  description: '主要炮击源自辛迪加，九头蛇是一座恐怖的三管痛苦炮台，专为击碎神经漫游者最坚固舰船而设计。其装填机制与蝮蛇手枪类似。 | A main cannnonade of syndicate origin, the hydra is a monstrous tri-barreled battery of pain, designed to shatter NT''s toughest vessels. Loads with a similar mechanism as the anaconda handgun.'
   components:
   - type: StaticPrice
     price: 20000

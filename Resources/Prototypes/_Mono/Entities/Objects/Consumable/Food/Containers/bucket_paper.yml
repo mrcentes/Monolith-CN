@@ -1,8 +1,8 @@
 - type: entity
-  name: paper bucket
+  name: '纸桶 | paper bucket'
   parent: BaseItem
   id: BucketPaper
-  description: A disposable paper liner for buckets of fried food.
+  description: '油炸食品桶用一次性纸质内衬。 | A disposable paper liner for buckets of fried food.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Consumable/Food/bucket_paper.rsi

@@ -5,9 +5,9 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: teaspoon # It's essentially a reskinned dropped for rp-flavor.
+  name: '茶匙 # 本质上是为了角色扮演风味而重新包装的滴管。 | teaspoon # It''s essentially a reskinned dropped for rp-flavor.'
   parent: Dropper
-  description: A small spoon used for transferring minimal amount of powder to cups.
+  description: '用于将微量粉末转移至杯中的小勺。 | A small spoon used for transferring minimal amount of powder to cups.'
   id: Teaspoon
   components:
   - type: Sprite

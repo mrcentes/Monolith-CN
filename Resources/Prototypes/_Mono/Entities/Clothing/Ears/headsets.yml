@@ -5,7 +5,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltTsfmc
-  name: TSFMC over-ear headset
+  name: 'TSFMC头戴式耳机 | TSFMC over-ear headset'
   components:
   - type: ContainerFill
     containers:
@@ -21,7 +21,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltTsfmcCommander
-  name: TSFMC command over-ear headset
+  name: 'TSFMC指挥型头戴式耳机 | TSFMC command over-ear headset'
   components:
   - type: ContainerFill
     containers:
@@ -35,7 +35,7 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetTsfmc
-  name: TSFMC headset
+  name: 'TSFMC耳机 | TSFMC headset'
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
@@ -50,7 +50,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltTsfmcMarsoc
-  name: TSFMC MARSOC over-ear headset
+  name: 'TSFMC 海军陆战队特种作战司令部头戴式耳机 | TSFMC MARSOC over-ear headset'
   components:
   - type: ContainerFill
     containers:
@@ -70,7 +70,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltTsfmcMarsocFtl
-  name: TSFMC MARSOC command over-ear headset
+  name: 'TSFMC 海军陆战队特种作战司令部头戴式耳机 | TSFMC MARSOC command over-ear headset'
   components:
   - type: ContainerFill
     containers:
@@ -85,7 +85,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetUSSPCommand
-  name: USSP command headset
+  name: '美国航天司令部指挥耳机 | USSP command headset'
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
@@ -101,7 +101,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetUSSP
-  name: USSP headset
+  name: 'USSP头戴式耳机 | USSP headset'
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi

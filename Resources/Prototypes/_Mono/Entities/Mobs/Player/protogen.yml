@@ -6,7 +6,7 @@
 
 - type: entity
   save: false
-  name: Urist McHardDrive
+  name: '乌里斯特·麦克哈德驱动器 | Urist McHardDrive'
   parent: BaseMobProtogen
   id: MobProtogen
   components:

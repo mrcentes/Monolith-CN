@@ -1,6 +1,6 @@
 - type: entity
   id: 120mmBulletHE
-  name: 120mm Shell
+  name: '120毫米炮弹 | 120mm Shell'
   parent: BulletRocket
   categories: [ HideSpawnMenu ]
   components:
