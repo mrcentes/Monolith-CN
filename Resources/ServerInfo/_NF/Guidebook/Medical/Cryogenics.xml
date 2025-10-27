@@ -1,12 +1,12 @@
 <Document>
-# Cryogenics
-Cryogenics can be a bit daunting to understand, but hopefully, quick run through of this diagram, you'll learn how to work it! So, let's go over what each part does:
+# 低温学 (Cryogenics)
+低温学可能有点令人望而生畏，但希望通过快速浏览这张图解，你就能学会如何操作它！那么，我们来看看每个部分的功能：
 
-- Air in: Air comes in here through the distro or an air tank, giving those inside something to breathe, and the freezer something to chill.
-- Gas pump: Limits the network pressure, so those in the tube aren't crushed.
-- Freezer: Chills the air, and by extension, patients in the tube, so Cryoxadone can activate.
-- Gas filters: Removes waste gas (Carbon Dioxide and Nitrous Oxide) from the loop.
-- Air out: Waste gasses go here, either into a storage tank, or into the waste network.
+- 进气口 (Air in): 空气通过气体管道（distro）或气罐从这里进入，为舱内的人提供呼吸条件，也为冷冻机提供冷却介质。
+- 气体泵 (Gas pump): 限制管网压力，以免舱内的人被气压给压坏了。
+- 冷冻机 (Freezer): 冷却空气，进而冷却舱内的病人，以便 低温治疗剂-冷冻酮 (Cryoxadone)能够生效。
+- 气体过滤器 (Gas filters): 从气体循环中移除废气（二氧化碳和一氧化二氮）。
+- 出气口 (Air out): 废气从这里排出，可以进入一个储存罐，或者排入废气管道。
 <Box>
 <GuideEntityEmbed Entity="GasPipeBend" Rotation="90"/>
 <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
@@ -31,20 +31,19 @@ Cryogenics can be a bit daunting to understand, but hopefully, quick run through
 <GuideEntityEmbed Entity="GasPressurePump" Rotation="90"/>
 <GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
 </Box>
+并非每种管道布局都和这个一模一样，但希望这足以让你对它的基本运作方式有个大致了解。
 
-Not every network will look like this, but hopefully, it's enough to give you the basic gist of how it's functioning.
+重要提示： 防寒服装（以及Hardsuit）会降低乃至让低温治疗完全失效。在将病患放入冷冻舱之前，请务必脱掉他们的防寒衣物。
 
-An important thing to note, winter clothing (and hardsuits) will make cryogenic treatment less, or completely ineffective. Be sure to remove cold preventative clothing before placing people in the pod.
+## 使用冷冻舱 (Using the Pod)
 
-## Using the Pod
+一旦设备设置完毕，你将需要低温药物（全部列在下方）。当病人被冷却时，这些药物各自提供治疗效果，并且应该用烧杯直接装入冷冻舱。请注意，病人在冷却到适宜温度之前不会开始愈合，所以在放入烧杯之前稍等片刻可能是值得的。
 
-Once things have been set up, you're going to require cryogenic medications (all listed below). They each provide healing when a patient is chilled, and should be loaded into the pod directly with a beaker. Do note, patients won't begin to heal until they've chilled to the appropriate temperature, it may be worthwhile to wait a bit before placing a beaker inside.
+## 补充信息 :
 
-## Additional Information:
+气体泵的标准压力是 100.325 kPa。低温药物在温度低于 213K 的条件下起效（Opporozidone 需要低于 150K以下生效），但标准做法是将冷冻机设置为 100K 以实现更快的冷冻。
 
-The standard pressure for a gas pump is 100.325 kpa. Cryogenics medicines work at under 213K (150K for Opporozidone), but it is standard practice to set the freezer to 100K for faster freezing.
-
-Cryo pods filter out each cryogenic medicine from the beaker in the pod, injecting a small, steady amount of each into the patient. This allows for medicine to be administered twice as efficiently than with injection or oral administration.
+冷冻舱会从舱内的烧杯中过滤出每一种低温药物，并以一个稳定的小剂量持续注入病人体内。这使得药物的摄入效率比注射或口服高出两倍。
 
 <GuideReagentEmbed Reagent="Aloxadone"/>
 <GuideReagentEmbed Reagent="Cryoxadone"/>

@@ -1,52 +1,52 @@
 <Document>
   # I.P.C.
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
-  An IPC (short for Integrated Positronic Chassis) is a type of sentient robot and is considered an [color=yellow]independent individual[/color], meaning [color=red]they are not guided by any laws of robotics[/color]. IPCs cannot be hacked by Emags because they do not have to follow any predefined directives in their system. [color=red]IPCs are silicon-based beings, so doctors do not have the skills to repair them.[/color]
+  IPC（集成正电子底盘 Integrated Positronic Chassis 的缩写）是一种有感知能力的机器人，被视为 [color=yellow]独立的个体[/color]，这意味着 [color=red]他们不受任何机器人法则的约束[/color]。IPC 无法被Emags破解，因为他们的系统中没有任何需要遵循的预设指令。[color=red]IPC 是硅基生命，因此医生不具备修复他们的技能。[/color]
 
   <Box>
     <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
   </Box>
-  Like borgs, IPCs have a positronic brain as their processing source. However, unlike them, IPCs can't be assembled. "It's cheaper to create a shell that obeys you than one that doesn't! *wink*"
+  与博格机器人（borgs）一样，IPC 也使用正电子脑作为其处理核心。然而，与博格不同的是，IPC 无法被（单纯用零件）组装出来。“制造一个会服从你的外壳，可比制造一个不服从的要便宜多了！*wink*"
 
-  ## Recharging an IPC
+  ## 给IPC 充电
    <Box>
     <GuideEntityEmbed Entity="APCBasic" Caption="APC Terminal"/>
     <GuideEntityEmbed Entity="BorgCharger" Caption="Borg Charger"/>
     <GuideEntityEmbed Entity="PowerCellMedium" Caption="Power Cell"/>
   </Box>
-  IPCs can be recharged in three different ways:
+  IPC 可以通过三种不同的方式充电：
 
-  APC Terminal: IPCs can use APC terminals to recharge. Press [color=yellow]Alt + left click[/color] on a terminal as many times as needed to fully recharge.
+APC 终端： IPC 可以使用 APC 终端进行充电。根据需要多次 [color=yellow]Alt + 左键点击[/color] 终端即可充满。
 
-  Borg Rechargers: IPCs can use borg rechargers to recharge. Always prioritize the ones outside of the Sci area to avoid headaches.
+机械人充电器： IPC 可以使用机械人充电器进行充电。请优先使用科学区域之外的充电器，以避免不必要的麻烦。
 
-  Power Cell: IPCs have an internal power cell that serves as their battery. They can simply swap it out by opening the hatch and manually replacing it.
+电源电池： IPC 体内有一个作为其电池的内部电源。他们只需打开维修口并手动更换即可。
 
-  ## Integrated Radio
+  ## 集成无线电
   <Box>
     <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Encryption key"/>
   </Box>
 
-  IPCs do [bold]not[/bold] use external radios because they already have one built in. They only need to get an encryption key from a radio. By clicking on an IPC with a [color=yellow]wire cutter[/color], you can remove their keys.
-  You can find new keys around the station or remove one from a sector radio using a [color=yellow]screwdriver[/color].
+  IPC [bold]不需要[/bold]额外的无线电设备，们体内已经内置了一个。他们只需要从无线电设备中获取加密密钥即可。用 [color=yellow]剪线钳[/color] 点击 IPC，就可以移除他们的密钥。
+你可以在空间站各处找到新的密钥，或者用 [color=yellow]螺丝刀[/color] 从区域无线电中拆出一个。
 
-  ## Repairing
+  ## 维修
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Welder"/>
-    Welders can be used to repair [color=yellow]Brute[/color] damage.
+    焊枪可用于修复 [color=yellow]创伤 (Brute)[/color]。
   </Box>
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="CableApcStack" Caption="Cables (any type)"/>
-    Cables can be used to repair [color=yellow]Burns[/color].
+    电缆 (Cables)可用于修复 [color=yellow]烧伤 (Burns)[/color]。
   </Box>
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="SheetGlass" Caption="Glass Sheets (any type)"/>
-    Glass Sheets can be used to repair [color=yellow]Blindness[/color].
+    玻璃板可用于修复 [color=yellow]失明 (Blindness)[/color]。
   </Box>
   <Box HorizontalAlignment="Stretch">
-    In the event an IPC dies, after being fully repaired, it should be restarted using the [color=yellow]"Restart"[/color] button (located by right-clicking).
+    万一 IPC 死亡，在完全修复后，应按下 [color=yellow]“重启 (Restart)”[/color] 按钮来重新启动它。（通过右键菜单点击寻找）
 
-    [color=red]NEVER ELECTROCUTE AN IPC with a defibrillator or in any other way while it is dead, as this will cause the battery to discharge energy rays outward![/color]
+    [color=red]请勿在 IPC 死亡后用除颤器或任何其他方式对其进行电击，因为这会导致其电池向外释放能量射线！[/color]
   </Box>
 
 </Document>
