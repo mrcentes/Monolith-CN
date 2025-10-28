@@ -1,30 +1,29 @@
 <Document>
   <Box>
-    <GuideEntityEmbed Entity="BannerMedical" Caption="Director of Care"/>
+    <GuideEntityEmbed Entity="BannerMedical" Caption="医疗总监"/>
   </Box>
-  # Director of Care
+  # 医疗总监 (Director of Clinic)
 
-  DoC shift objectives:
+  医疗总监轮班目标：
 
-  1) Ensure the health and well-being of the sector's populace.
+  1) 确保本星区民众的健康与福祉。
 
-  2) Foster collaboration and coordinate efforts of medical teams where possible.
+  2) 在可能的情况下，促进医疗团队之间的合作并协调其行动。
 
-  3) Encourage medical mentorship, either personally, time permitting, or by finding appropriate placement for interns.
+  3) 鼓励开展医疗指导，时间允许的话可亲自进行，或为实习生寻找合适的岗位安排。
 
-  4) Compensate medical teams for their work in assisting with the above three goals.
+  4) 对协助完成上述三项目标的医疗团队给予酬劳。
 
-  ## Your Ledger
+  ## 你的账本
 
-  To compensate medical teams and station staff you have been provided a discretionary fund.
+  为酬谢医疗团队和空间站员工，你已获发一笔可自由支配的资金（discretionary fund）。
 
-  Nanotrasen is prepared to provide additional resources for the successful return of each medical bounty.
+  对于每成功送回一个医疗赏金目标，纳米传讯都准备提供额外的资源。
 
-  ## The Medical Dispatch Center
+  ## 医疗调度中心 (The Medical Dispatch Center)
 
-  As a new DoC, the maintenance of the Medical Dispatch Center is one of your responsibilities. Consider hiring contractors as needed to ensure it is kept in good working order.
+  作为一名新任的医疗总监，维护医疗调度中心是你的职责之一。如有需要，可考虑雇用承包商以确保其维持良好运作。
 
-  The shift DoC is not expected to remain at the Medical Dispatch Center. You are encouraged to be present where needed and act in a capacity that best fulfills your primary goals.
+  本轮班的医疗总监无需一直待在医疗调度中心。我们鼓励你出现在需要你的地方，并以最能实现你主要目标的方式履行职责。
 
-</Document>  
-
+</Document>
