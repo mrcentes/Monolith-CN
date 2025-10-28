@@ -1,10 +1,10 @@
 <Document>
-# Chemist
-Now you've done it. You picked the one job where -math- is mandatory. Grab your beaker, pull up a chair, and get cracking, it's time to cook up some chems.
+# 化学家
+现在你可选对了——这可是个必须和数学打交道的职位。拿起你的烧杯，拉过椅子，开始干活吧，是时候调配些化学品了。
 
-While chemists primarily make medications, there's a very wide variety of chemicals that can be made, all of which are showcased in the Chemicals entry of the Guidebook.
+虽然化学家主要制造药物，但实际上可以制作的化学品种类非常广泛，所有这些都在指南书的"化学品"条目中有所展示。
 
-[textlink="Click here to see a complete list of chemicals." link="Chemicals"]
+[textlink="点击此处查看化学品完整列表." link="Chemicals"]
 
 ## Equipment:
 
@@ -22,25 +22,25 @@ While chemists primarily make medications, there's a very wide variety of chemic
     <GuideEntityEmbed Entity="PillCanister"/>
   </Box>
 
-## The Basics:
-Chemistry is fairly straightforward once you know what to expect. Here's a simple, step-by-step process on how to begin.
+## 基础操作：
+一旦你了解了流程，化学操作就相当简单了。以下是如何入门的简单步骤指南：
 
-- Grab a beaker, Pill Canister, and if desired, some Bottles.
-- Place the beaker in the Chemical Dispenser, and Pill Canister (or bottle) in the Chem Master.
-- Open the Chemical Dispenser UI, and make your mix. Recipes are in other sections of the guidebook.
-- Alt-click the dispenser to remove your beaker, and place it in the Chem Master.
-- Open the Chem Master UI. On the Input tab, move your mix into the buffer.
-- Move to the Output tab, customise your pill, and press the Create button.
-- Alt-click the Chem Master to get the pill bottle out. You may have to remove the beaker first.
-- Click on a table, crate, or another surface to empty the pill bottle if desired. Alternatively, store or empty it into another storage container.
+- 拿一个烧杯 (Beaker)、一个药瓶 (Pill Canister)，如果需要的话，再拿一些瓶子(Bottle)。
+- 将烧杯放入化学分配机 (Chemical Dispenser)，将药瓶（或瓶子）放入化学大师机。
+- 打开化学分配机的界面，制作你的混合物。配方在指南的其他章节中。
+- Alt+点击分配机以取出你的烧杯，然后将其放入化学大师机。
+- 打开化学大师机 (Chem Master)的界面。在“输入”选项卡中，将你的混合物移入缓冲区。
+- 移动到“输出” (Output)选项卡，定制你的药片，然后按下“制造” (Create)按钮。
+- Alt+点击化学大师机 (Chem Master)以取出药瓶。你可能需要先取出烧杯。
+- 如果需要，点击桌子、箱子或其他表面以倒空药瓶。或者，将其储存或倒到另一个容器中。
 
-That's it, you've made your first set of pills! Consider checking with Medical Doctors and other crew to see what else may be requested, refilling the medical kits in medbay storage, or just experimenting!
+好了，你生产出了第一组药片！可以考虑咨询一下医生和其他船员，看看还有什么需求，补充医疗储存区里的医疗包，或者干脆进行化学实验！
 
-You can also use the hand labeler to organize individual bottles or bags without using the Chem Master labeling system.
+你也可以使用手动贴标机来标记单个药瓶或袋子，而无需使用化学大师的标签系统。
 
-## Extra Content:
+## 扩展内容：
 
-Speaking of experimentation, there are a few more toy you can use when it comes to chemistry. This job requires a lot of trial and error, but it was worth mentioning that these things exist! It's up to you to figure out what to make with them.
+说到实验，在化学方面你还可以使用更多"玩具"。这个职位需要大量的尝试和纠错，但还是这些东西值得一提的！至于用它们来制造什么，就取决于你了。
 
   <Box>
     <GuideEntityEmbed Entity="ModularGrenade"/>

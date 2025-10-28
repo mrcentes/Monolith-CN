@@ -1,6 +1,6 @@
-character-setup-gui-character-setup-label = Character setup
+character-setup-gui-character-setup-label = 角色设置
 character-setup-gui-character-setup-adminremarks-button = 管理员备注
-character-setup-gui-character-setup-stats-button = 属性
+character-setup-gui-character-setup-stats-button = 统计时长
 character-setup-gui-character-setup-rules-button = 规则
 character-setup-gui-character-setup-close-button = 关闭
 character-setup-gui-create-new-character-button = 创建新角色

@@ -453,7 +453,7 @@
 
 # Pills
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Dexalin 10u
   parent: Pill
   id: PillDexalin
@@ -473,7 +473,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterDexalin
   suffix: Dexalin 10u, 7
@@ -486,7 +486,7 @@
       amount: 7
 
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Dylovene 10u
   parent: Pill
   id: PillDylovene
@@ -506,7 +506,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterDylovene
   suffix: Dylovene 10u, 5
@@ -519,7 +519,7 @@
       amount: 5
 
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Hyronalin 10u
   parent: Pill
   id: PillHyronalin
@@ -539,7 +539,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterHyronalin
   suffix: Hyronalin 10u, 5
@@ -552,7 +552,7 @@
       amount: 5
 
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Potassium iodide 10u
   parent: Pill
   id: PillPotassiumIodide
@@ -572,7 +572,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterPotassiumIodide
   suffix: Potassium iodide 10u, 5
@@ -585,7 +585,7 @@
       amount: 5
 
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Iron 10u
   parent: Pill
   id: PillIron
@@ -605,7 +605,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Copper 10u
   parent: Pill
   id: PillCopper
@@ -625,7 +625,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterIron
   suffix: Iron 10u, 5
@@ -638,7 +638,7 @@
       amount: 5
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterCopper
   suffix: Copper 10u, 5
@@ -651,7 +651,7 @@
       amount: 5
 
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Kelotane 10u
   parent: Pill
   id: PillKelotane
@@ -671,7 +671,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterKelotane
   suffix: Kelotane 10u, 5
@@ -684,7 +684,7 @@
       amount: 5
 
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Dermaline 10u
   parent: Pill
   id: PillDermaline
@@ -704,7 +704,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterDermaline
   suffix: Dermaline 10u, 5
@@ -730,7 +730,7 @@
           Quantity: 15
 
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Tricordrazine 10u
   parent: Pill
   id: PillTricordrazine
@@ -750,7 +750,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterTricordrazine
   suffix: Tricordrazine 10u, 5
@@ -763,7 +763,7 @@
       amount: 5
 
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Bicaridine 10u
   parent: Pill
   id: PillBicaridine
@@ -783,7 +783,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterBicaridine
   suffix: Bicaridine 10u, 5
@@ -796,7 +796,7 @@
       amount: 5
 
 - type: entity
-  name: 药丸 丨 pill
+  name: 药片 丨 pill
   suffix: Charcoal 10u
   parent: Pill
   id: PillCharcoal
@@ -816,7 +816,7 @@
           Quantity: 10
 
 - type: entity
-  name: 药丸罐 丨 pill canister
+  name: 药片罐 丨 pill canister
   parent: PillCanister
   id: PillCanisterCharcoal
   suffix: Charcoal 10u, 3
@@ -829,7 +829,7 @@
       amount: 3
 
 - type: entity
-  name: 罗梅罗尔药丸 丨 romerol pill
+  name: 罗梅罗尔药片 丨 romerol pill
   parent: Pill
   id: PillRomerol
   components:
@@ -855,7 +855,7 @@
           Quantity: 10
 
 - type: entity
-  name: 安布佐尔加强型药丸 丨 ambuzol plus pill
+  name: 安布佐尔加强型药片 丨 ambuzol plus pill
   parent: Pill
   id: PillAmbuzolPlus
   components:

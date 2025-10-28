@@ -1,13 +1,13 @@
 <Document>
-# Medical Doctor
-It's time to heal. Or at least, try to heal, anyway. Medical Doctors are the primary caretakers of every boo boo and ouchie crewmembers get on the station, be it a small scratch, or boiled skin.
+# 医生
+是时候救死扶伤了——或者说，至少尽力一试。医生是空间站上所有船员"哎哟"和"好痛"的主要照料者，无论是一点小擦伤，还是被烫烂的皮肤。
 
-This guide will give you a basic outline of the treatment options you have available, triage, and other avenues of care.
+本指南将为你提供一个关于可用治疗方案、伤员检伤分类以及其他护理途径的基本大纲。
 
-## The Basics
-There are two ways to tell what's ailing someone: Taking a scan (with a health analyzer or a medical PDA), or examining them, with a shift-click, and clicking the heart symbol.
+基础知识
+有两种方法可以判断某人身体不适的原因：进行身体扫描（使用健康分析仪或医疗PDA），或者通过Shift+点击,并在选项中点击心形图标进行检查。
 
-Using a health analyzer is often more powerful than examination, as some things (such as poison, or radiation) don't show up on examination. However, using an analyzer has its drawbacks, as it makes noise and uses up a battery.
+使用健康分析仪通常比粗略检查更有效，因为某些情况（例如中毒或辐射）在粗略的身体检查中不会显示。然而，使用分析仪也有缺点，因为它会产生噪音并消耗电池。
 <Box>
 <GuideEntityEmbed Entity="SignExamroom" Caption="examine patient"/>
 <GuideEntityEmbed Entity="MedicalPDA"/>
@@ -15,20 +15,20 @@ Using a health analyzer is often more powerful than examination, as some things 
 <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
 </Box>
 
-## Medication and Treatment Options
-Before we go any further, it's probably a good idea to go over damage types, and what will heal them. The wiki has more extensive info available, but these are commonly used.
+## 药物与治疗方案
+在我们继续之前，最好先了解一下伤害类型以及相应的治疗方法。Wiki上有更详尽的信息，但以下是常用的几种。
 
-An important note: Most medication has an overdose level, which will cause harm to your patient. Chemicals also take time to metabolise in pill form, if you want things to act quickly, use a syringe.
+重要提示：大多数药物都有一个OD (过量)值，超过该阈值会对你的病人造成伤害。此外，药丸形式的化学物质需要时间代谢，如你需要药物尽可能快的起效，请使用注射器。
 
-- Brute Damage: Bicaridine or Bruise Packs
-- Burn Damage: Dermaline or Ointment
-- Toxin (Poison): Dylovene
-- Toxin (Radiation) Hyronalin or Arithrazine
-- Airloss: Dexaline or Inaprovaline
-- Bloodloss: Dexaline (Examine the patient, if pale, they still need blood or iron.)
-- Bleeding: Tranexamic acid and Gauze (Bleeding can also be cauterized with burn damage.)
+-   钝伤 (Brute Damage): 联二卡定 (Bicaridine) 或 瘀伤包 (Bruise Packs)
+-   烧伤 (Burn Damage): 德莫林 (Dermaline) 或 药膏 (Ointment)
+-   毒素 (Toxin (Poison)): 迪洛芬 (Dylovene)
+-   辐射 (Toxin (Radiation)): 海洛那林 (Hyronalin) 或 阿里嗪 (Arithrazine)
+-   窒息 (Airloss): 德沙林 (Dexaline) 或 依那普林 (Inaprovaline)
+-   失血 (Bloodloss): 德沙林 (Dexaline) (检查病人，如果脸色苍白，他们仍然需要输血或补铁。)
+-   流血 (Bleeding): 氨甲环酸 (Tranexamic acid) 和 纱布 (Gauze) (流血也可以通过烧灼止血。)
 
-Many stations are stocked with kits in storage, and all medics have some equipment in their starting belt.
+许多空间站的储物区里都备有医疗箱，并且所有医生的初始腰带上都带有一些装备。
 
 <Box>
 <GuideEntityEmbed Entity="MedkitFilled"/>
@@ -46,27 +46,27 @@ Many stations are stocked with kits in storage, and all medics have some equipme
 <GuideEntityEmbed Entity="Gauze"/>
 </Box>
 
-## Basic Treatment and Triage
-Examine your patient, and note down the important details: Are they alive? Bleeding? What type of damage?
+## 基础治疗与分诊
+检查你的病人，并记下重要的细节：他们还活着吗？在流血吗？是什么类型的伤害？
 
-If alive, treat them as best as you can. Patients are in critical condition at 100 damage, and dead at 200. Keep this in mind when choosing how to treat them. Emergency Pens and Epinephrine are often used to keep patients stable.
+如果还活着，尽你所能去治疗他们。病人受到100点伤害时处于濒死状态，200点时死亡。在选择如何治疗时要记住这一点。紧急医疗笔 (Emergency Pens) 和 肾上腺素 (Epinephrine) 常用于维持病人生命体征稳定。
 
-If possible, buckle them to a medical bed, if you need time to treat them, strap them to a stasis bed instead. Just keep in mind that metabolism (and by extension, healing chemicals) are slowed to a crawl when on stasis, they'll need to be taken off of it for the medicine to be effective. (But Blood Packs, Ointment, and Brute packs all work as normal.)
+如果可能，将他们固定到医疗床上；如果你需要足够的时间来治疗他们，则将他们固定绑在静滞床 (stasis bed)上。但请记住，在静滞状态下，新陈代谢（以及治疗性化学物质的代谢）会慢到几乎停止，需要将他们从床上解下来才能让药物生效。（但血袋、药膏和瘀伤包仍能正常工作。）
 <Box>
 <GuideEntityEmbed Entity="MedicalBed"/>
 <GuideEntityEmbed Entity="StasisBed"/>
 </Box>
-## Assessing Corpses
-You can't save them all, sometimes, death happens. Depending on the [color=#a4885c]status[/color] of the body, there are a few things that can be done.
+## 评估尸体
+您无法拯救所有人，死亡有时不可避免。根据尸体的[color=#a4885c]状态[/color]，可以采取几种措施。
 
-1. Do they have a soul attached? You can tell if, when examining, the following phrase is displayed: "Their soul has departed." If this isn't displayed, there is still a player who can be revived.
+1. 他们的灵魂是否还在？通过检查时是否显示"他们的灵魂已经离去" ("Their soul has departed.")来判断。如果未显示此信息，则玩家仍可以被复苏。
 
-2. Is the body rotting? If it is, sadly, they'll have to be cloned. A rotting body can't be brought back with a defibrillator. (See Cloning)
+2. 尸体是否在腐烂？如果是，很遗憾，只能通过克隆来复苏。腐烂的尸体无法用除颤器救活。（参见克隆条目）
 
-3. If they have a soul, and aren't rotten, it's possible to revive them. Consider storing the body in a morgue tray if you don't have enough time to revive someone, as the body will rot if you wait too long.
+3. 如果灵魂尚在且身体未完全腐烂，则有机会复苏他们。如果您没有足够时间立即复活某人，考虑将尸体存放在停尸房的托盘里，因为等待过久尸体会随时间腐烂。
 
-## Revival
-Not counting airloss, Defibrillator's can be used to revive patients under 200 total damage. Chemicals don't metabolise in the dead, but brute packs and ointment can still patch them up. Use them to bring their numbers down enough for revival.
+## 复苏
+在不考虑窒息的情况下，除颤器可用于复活总伤害低于200的病人。化学物质在死者体内不会代谢，但瘀伤包和药膏仍然可以治疗他们。用这些来治疗，将他们的伤害数值降到足够低的程度以便复活。
 
 <Box>
 <GuideEntityEmbed Entity="Brutepack"/>
