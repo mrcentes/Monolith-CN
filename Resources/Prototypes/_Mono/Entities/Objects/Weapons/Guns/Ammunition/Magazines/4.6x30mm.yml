@@ -271,7 +271,7 @@
 #Start SubMachineGun mags
 - type: entity
   id: BaseMagazine46x30mmSubMachineGunFMJ
-  name: 'SMG杂志（4.6x30毫米全金属被甲弹） | SMG magazine (4.6x30mm FMJ)'
+  name: 'SMG弹匣（4.6x30毫米全金属被甲弹） | SMG magazine (4.6x30mm FMJ)'
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseSecurityContraband<BaseC1Contraband
   abstract: true
   components:
@@ -304,7 +304,7 @@
 
 - type: entity
   id: Magazine46x30mmSubMachineGunFMJ
-  name: 'SMG杂志（4.6x30毫米全金属被甲弹） | SMG magazine (4.6x30mm FMJ)'
+  name: 'SMG弹匣（4.6x30毫米全金属被甲弹） | SMG magazine (4.6x30mm FMJ)'
   parent: BaseMagazine46x30mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -323,7 +323,7 @@
 
 - type: entity
   id: Magazine46x30mmSubMachineGunEmpty
-  name: 'SMG杂志（4.6x30毫米任意型号） | SMG magazine (4.6x30mm any)'
+  name: 'SMG弹匣（4.6x30毫米任意型号） | SMG magazine (4.6x30mm any)'
   suffix: empty
   parent: BaseMagazine46x30mmSubMachineGunFMJ
   components:
@@ -352,7 +352,7 @@
 
 - type: entity
   id: Magazine46x30mmSubMachineGunUranium
-  name: 'SMG杂志（4.6x30毫米铀弹） | SMG magazine (4.6x30mm uranium)'
+  name: 'SMG弹匣（4.6x30毫米铀弹） | SMG magazine (4.6x30mm uranium)'
   parent: BaseMagazine46x30mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -367,7 +367,7 @@
 - type: entity
   parent: BaseMagazine46x30mmSubMachineGunFMJ
   id: Magazine46x30mmSubMachineGunIncendiary
-  name: 'SMG杂志（4.6x30毫米燃烧弹） | SMG magazine (4.6x30mm incendiary)'
+  name: 'SMG弹匣（4.6x30毫米燃烧弹） | SMG magazine (4.6x30mm incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge46x30mmIncendiary
@@ -396,7 +396,7 @@
 # Frontier
 - type: entity
   id: Magazine46x30mmSubMachineGunEmp
-  name: 'SMG杂志（4.6x30毫米电磁脉冲弹） | SMG magazine (4.6x30mm emp)'
+  name: 'SMG弹匣（4.6x30毫米电磁脉冲弹） | SMG magazine (4.6x30mm emp)'
   parent: BaseMagazine46x30mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -413,7 +413,7 @@
 #anti-flesh ammo
 - type: entity
   id: Magazine46x30mmSubMachineGunHP
-  name: 'SMG杂志（4.6x30毫米空尖弹） | SMG magazine (4.6x30mm hollow-point)'
+  name: 'SMG弹匣（4.6x30毫米空尖弹） | SMG magazine (4.6x30mm hollow-point)'
   parent: BaseMagazine46x30mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -428,7 +428,7 @@
 
 - type: entity
   id: Magazine46x30mmSubMachineGunRIP
-  name: 'SMG杂志（4.6x30毫米RIP） | SMG magazine (4.6x30mm RIP)'
+  name: 'SMG弹匣（4.6x30毫米RIP） | SMG magazine (4.6x30mm RIP)'
   parent: BaseMagazine46x30mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -445,7 +445,7 @@
 
 - type: entity
   id: Magazine46x30mmSubMachineGunPlasteelAP
-  name: 'SMG杂志（4.6x30毫米穿甲弹） | SMG magazine (4.6x30mm AP)'
+  name: 'SMG弹匣（4.6x30毫米穿甲弹） | SMG magazine (4.6x30mm AP)'
   parent: BaseMagazine46x30mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -462,7 +462,7 @@
 #Start TopMounted mags
 - type: entity
   id: Magazine46x30mmSubMachineGunTopMountedFMJ
-  name: 'WT550杂志（4.6x30毫米顶置式） | WT550 magazine (4.6x30mm top-mounted)'
+  name: 'WT550弹匣（4.6x30毫米顶置式） | WT550 magazine (4.6x30mm top-mounted)'
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
   components:
   - type: Tag
@@ -494,7 +494,7 @@
 
 - type: entity
   id: Magazine46x30mmSubMachineGunTopMountedEmpty
-  name: 'WT550杂志（4.6x30毫米顶置任意式） | WT550 magazine (4.6x30mm top-mounted any)'
+  name: 'WT550弹匣（4.6x30毫米顶置任意式） | WT550 magazine (4.6x30mm top-mounted any)'
   parent: Magazine46x30mmSubMachineGunTopMountedFMJ
   components:
   - type: BallisticAmmoProvider

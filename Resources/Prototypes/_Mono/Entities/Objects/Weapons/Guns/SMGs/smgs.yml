@@ -40,7 +40,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine635x40mmCaseless
         insertSound: /Audio/Weapons/Guns/MagIn/hpistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
@@ -98,7 +98,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/cm82_magin.ogg
         ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/pistol_alt_magout.ogg
@@ -154,7 +154,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -211,7 +211,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -235,7 +235,7 @@
     defaultColor: "#FF0000"
   - type: Appearance
 
-#Pre-corpowar 45 magnum rare vector 
+#Pre-corpowar 45 magnum rare vector
 - type: entity
   name: 'NTSF重型口径轻机枪（点四五马格南） | NTSF-HCLM-45 (.45 magnum)'
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable, BaseC2ContrabandUnredeemable]
@@ -265,7 +265,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine45_magnumPistolFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -326,7 +326,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine45_ACPPistolFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -403,7 +403,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg

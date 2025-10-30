@@ -1,1 +1,1 @@
-job-supervisors-doc = Director of Care
+job-supervisors-doc = 医疗总监

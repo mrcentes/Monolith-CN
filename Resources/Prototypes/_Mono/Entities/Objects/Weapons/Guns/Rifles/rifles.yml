@@ -46,7 +46,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine8x65mmSKR
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
@@ -117,7 +117,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine762x39mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
@@ -186,7 +186,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine556x45mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
@@ -246,7 +246,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine762x51mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -311,7 +311,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine556x45mmFMJ # Mono
         insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/m16_magin.ogg # Mono
         ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/skm_magout.ogg # Mono
@@ -374,7 +374,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: MagazineSmart
         insertSound: /Audio/Weapons/Guns/MagIn/hpistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
@@ -458,7 +458,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine556x45mmFMJ
         insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/m16_magin.ogg
         ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/skm_magout.ogg

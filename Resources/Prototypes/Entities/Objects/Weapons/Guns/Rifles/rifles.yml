@@ -72,7 +72,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine762x39mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -140,7 +140,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine762x39mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -196,7 +196,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine68x52mmCaseless # Mono
         insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/m16_magin.ogg # Mono
         ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/skm_magout.ogg # Mono

@@ -92,7 +92,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine9x19mmPistolFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -150,7 +150,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine9x19mmPistolFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -276,7 +276,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine635x40mmCaselessPistol
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -323,7 +323,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine45_ACPPistolFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -371,7 +371,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine45_magnumPistolFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg

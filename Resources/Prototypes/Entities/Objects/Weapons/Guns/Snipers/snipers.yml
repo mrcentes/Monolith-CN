@@ -164,7 +164,7 @@
     price: 1250
 
 - type: entity
-  name: 火枪 丨 musket
+  name: 防火门 丨 musket
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseGunMelee, BaseC2Contraband ] # Frontier: BaseMinorContraband<BaseC2Contraband, add BaseGunMelee
   id: Musket
   description: 这玩意儿早在你出生前就该进博物馆了。使用145x114毫米弹药。 丨 This should've been in a museum long before you were born. Uses 145x114mm ammo.

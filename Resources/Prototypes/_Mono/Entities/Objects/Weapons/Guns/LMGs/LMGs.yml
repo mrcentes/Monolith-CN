@@ -41,7 +41,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: MagazineDP29
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
@@ -112,7 +112,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine8x65mmSKRBox
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
@@ -185,7 +185,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine762x39mmBox
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
@@ -264,7 +264,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: AmmoBox68x52mmCaseless
         insertSound: /Audio/Weapons/Guns/MagIn/lmg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/lmg_magout.ogg
@@ -358,7 +358,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: AmmoBox762x51mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/lmg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/lmg_magout.ogg

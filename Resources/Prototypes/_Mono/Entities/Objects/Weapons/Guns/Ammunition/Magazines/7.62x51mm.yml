@@ -7,7 +7,7 @@
 # Empty mags
 - type: entity
   id: BaseMagazine762x51mm
-  name: '杂志（7.62x51毫米全金属被甲弹） | magazine (7.62x51mm FMJ)'
+  name: '弹匣（7.62x51毫米全金属被甲弹） | magazine (7.62x51mm FMJ)'
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband added RecyclableItemSteelTiny
   abstract: true
   components:
@@ -42,7 +42,7 @@
 # Magazines
 - type: entity
   id: Magazine762x51mmFMJ
-  name: '杂志（7.62x51毫米全金属被甲弹） | magazine (7.62x51mm FMJ)'
+  name: '弹匣（7.62x51毫米全金属被甲弹） | magazine (7.62x51mm FMJ)'
   parent: BaseMagazine762x51mm
   components:
   - type: BallisticAmmoProvider
@@ -56,7 +56,7 @@
 
 - type: entity
   id: Magazine762x51mmEmpty
-  name: '杂志（7.62x51毫米任意型号） | magazine (7.62x51mm any)'
+  name: '弹匣（7.62x51毫米任意型号） | magazine (7.62x51mm any)'
   suffix: empty
   parent: Magazine762x51mmFMJ
   components:
@@ -71,7 +71,7 @@
 
 - type: entity
   id: Magazine762x51mmPractice
-  name: '杂志（7.62x51毫米训练弹） | magazine (7.62x51mm practice)'
+  name: '弹匣（7.62x51毫米训练弹） | magazine (7.62x51mm practice)'
   parent: BaseMagazine762x51mm
   components:
   - type: BallisticAmmoProvider
@@ -85,7 +85,7 @@
 
 - type: entity
   id: Magazine762x51mmUranium
-  name: '杂志（7.62x51毫米铀弹） | magazine (7.62x51mm uranium)'
+  name: '弹匣（7.62x51毫米铀弹） | magazine (7.62x51mm uranium)'
   parent: BaseMagazine762x51mm
   components:
   - type: BallisticAmmoProvider
@@ -99,7 +99,7 @@
 
 - type: entity
   id: Magazine762x51mmIncendiary
-  name: '杂志（7.62x51毫米燃烧弹） | magazine (7.62x51mm incendiary)'
+  name: '弹匣（7.62x51毫米燃烧弹） | magazine (7.62x51mm incendiary)'
   parent: Magazine762x51mmFMJ
   components:
   - type: BallisticAmmoProvider
@@ -113,7 +113,7 @@
 
 - type: entity
   id: Magazine762x51mmRubber
-  name: '杂志（7.62x51毫米橡胶弹） | magazine (7.62x51mm rubber)'
+  name: '弹匣（7.62x51毫米橡胶弹） | magazine (7.62x51mm rubber)'
   parent: Magazine762x51mmFMJ
   components:
   - type: BallisticAmmoProvider
@@ -227,7 +227,7 @@
 #anti-flesh:
 - type: entity
   id: Magazine762x51mmHP
-  name: '杂志（7.62x51毫米空尖弹） | magazine (7.62x51mm hollow-point)'
+  name: '弹匣（7.62x51毫米空尖弹） | magazine (7.62x51mm hollow-point)'
   parent: BaseMagazine762x51mm
   components:
   - type: BallisticAmmoProvider
@@ -241,7 +241,7 @@
 
 - type: entity
   id: Magazine762x51mmRIP
-  name: '杂志（7.62x51毫米RIP） | magazine (7.62x51mm RIP)'
+  name: '弹匣（7.62x51毫米RIP） | magazine (7.62x51mm RIP)'
   parent: BaseMagazine762x51mm
   components:
   - type: BallisticAmmoProvider

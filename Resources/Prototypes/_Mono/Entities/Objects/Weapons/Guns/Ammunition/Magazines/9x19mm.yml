@@ -299,7 +299,7 @@
 #Start SubMachineGun mags
 - type: entity
   id: BaseMagazine9x19mmSubMachineGunFMJ
-  name: 'SMG杂志（9x19毫米全金属被甲弹） | SMG magazine (9x19mm FMJ)'
+  name: 'SMG弹匣（9x19毫米全金属被甲弹） | SMG magazine (9x19mm FMJ)'
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseSecurityContraband<BaseC1Contraband
   abstract: true
   components:
@@ -332,7 +332,7 @@
 
 - type: entity
   id: Magazine9x19mmSubMachineGunFMJ
-  name: 'SMG杂志（9x19毫米全金属被甲弹） | SMG magazine (9x19mm FMJ)'
+  name: 'SMG弹匣（9x19毫米全金属被甲弹） | SMG magazine (9x19mm FMJ)'
   parent: BaseMagazine9x19mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -351,7 +351,7 @@
 
 - type: entity
   id: Magazine9x19mmSubMachineGunEmpty
-  name: 'SMG杂志（9x19毫米任意型号） | SMG magazine (9x19mm any)'
+  name: 'SMG弹匣（9x19毫米任意型号） | SMG magazine (9x19mm any)'
   suffix: empty
   parent: BaseMagazine9x19mmSubMachineGunFMJ
   components:
@@ -380,7 +380,7 @@
 
 - type: entity
   id: Magazine9x19mmSubMachineGunUranium
-  name: 'SMG杂志（9x19毫米铀弹） | SMG magazine (9x19mm uranium)'
+  name: 'SMG弹匣（9x19毫米铀弹） | SMG magazine (9x19mm uranium)'
   parent: BaseMagazine9x19mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -395,7 +395,7 @@
 - type: entity
   parent: BaseMagazine9x19mmSubMachineGunFMJ
   id: Magazine9x19mmSubMachineGunIncendiary
-  name: 'SMG杂志（9x19毫米燃烧弹） | SMG magazine (9x19mm incendiary)'
+  name: 'SMG弹匣（9x19毫米燃烧弹） | SMG magazine (9x19mm incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge9x19mmIncendiary
@@ -408,7 +408,7 @@
 
 - type: entity
   id: Magazine9x19mmSubMachineGunRubber
-  name: 'SMG杂志（9x19毫米橡胶弹） | SMG magazine (9x19mm rubber)'
+  name: 'SMG弹匣（9x19毫米橡胶弹） | SMG magazine (9x19mm rubber)'
   parent: BaseMagazine9x19mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -424,7 +424,7 @@
 # Frontier
 - type: entity
   id: Magazine9x19mmSubMachineGunEmp
-  name: 'SMG杂志（9x19毫米电磁脉冲） | SMG magazine (9x19mm emp)'
+  name: 'SMG弹匣（9x19毫米电磁脉冲） | SMG magazine (9x19mm emp)'
   parent: BaseMagazine9x19mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -441,7 +441,7 @@
 #anti-flesh ammo
 - type: entity
   id: Magazine9x19mmSubMachineGunHP
-  name: 'SMG杂志（9x19毫米空尖弹） | SMG magazine (9x19mm hollow-point)'
+  name: 'SMG弹匣（9x19毫米空尖弹） | SMG magazine (9x19mm hollow-point)'
   parent: BaseMagazine9x19mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -456,7 +456,7 @@
 
 - type: entity
   id: Magazine9x19mmSubMachineGunRIP
-  name: 'SMG杂志（9x19毫米RIP） | SMG magazine (9x19mm RIP)'
+  name: 'SMG弹匣（9x19毫米RIP） | SMG magazine (9x19mm RIP)'
   parent: BaseMagazine9x19mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -473,7 +473,7 @@
 
 - type: entity
   id: Magazine9x19mmSubMachineGunPlasteelAP
-  name: 'SMG杂志（9x19毫米穿甲弹） | SMG magazine (9x19mm AP)'
+  name: 'SMG弹匣（9x19毫米穿甲弹） | SMG magazine (9x19mm AP)'
   parent: BaseMagazine9x19mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider

@@ -1,4 +1,4 @@
-game-hud-open-escape-menu-button-tooltip = Open escape menu.
+game-hud-open-escape-menu-button-tooltip = 打开游戏菜单
 game-hud-open-guide-menu-button-tooltip = 打开指南书菜单
 game-hud-open-character-menu-button-tooltip = 打开角色菜单
 game-hud-open-emotes-menu-button-tooltip= 打开表情菜单

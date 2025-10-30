@@ -263,7 +263,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         priority: 2
         whitelist:
           tags:

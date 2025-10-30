@@ -86,7 +86,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -154,7 +154,7 @@
   - type: ItemSlots
     slots:
        gun_magazine:
-          name: 杂志 丨 Magazine
+          name: 弹匣 丨 Magazine
           startingItem: Magazine57x28mmSubMachineGunFMJ
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -253,7 +253,7 @@
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: 杂志 丨 Magazine
+          name: 弹匣 丨 Magazine
           startingItem: Magazine45_ACPSubMachineGunFMJ
           insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/skm_magin.ogg # Mono
           ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/m16_magout.ogg # Mono
@@ -322,7 +322,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine46x30mmSubMachineGunTopMountedFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg

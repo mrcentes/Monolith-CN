@@ -309,7 +309,7 @@
 #Start SubMachineGun mags
 - type: entity
   id: BaseMagazine45_magnumSubMachineGunFMJ
-  name: 'SMG杂志（点四五马格南全金属被甲弹） | SMG magazine (.45 magnum FMJ)'
+  name: 'SMG弹匣（点四五马格南全金属被甲弹） | SMG magazine (.45 magnum FMJ)'
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseSecurityContraband<BaseC1Contraband
   abstract: true
   components:
@@ -342,7 +342,7 @@
 
 - type: entity
   id: Magazine45_magnumSubMachineGunFMJ
-  name: 'SMG杂志（点四五马格南全金属被甲弹） | SMG magazine (.45 magnum FMJ)'
+  name: 'SMG弹匣（点四五马格南全金属被甲弹） | SMG magazine (.45 magnum FMJ)'
   parent: BaseMagazine45_magnumSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -361,7 +361,7 @@
 
 - type: entity
   id: Magazine45_magnumSubMachineGunEmpty
-  name: 'SMG杂志（点四五马格南任何型号） | SMG magazine (.45 magnum any)'
+  name: 'SMG弹匣（点四五马格南任何型号） | SMG magazine (.45 magnum any)'
   suffix: empty
   parent: BaseMagazine45_magnumSubMachineGunFMJ
   components:
@@ -376,7 +376,7 @@
 
 - type: entity
   id: Magazine45_magnumSubMachineGunPractice
-  name: 'SMG杂志（点四五马格南练习弹） | SMG magazine (.45 magnum practice)'
+  name: 'SMG弹匣（点四五马格南练习弹） | SMG magazine (.45 magnum practice)'
   parent: BaseMagazine45_magnumSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -390,7 +390,7 @@
 
 - type: entity
   id: Magazine45_magnumSubMachineGunUranium
-  name: 'SMG杂志（点四五马格南铀弹） | SMG magazine (.45 magnum uranium)'
+  name: 'SMG弹匣（点四五马格南铀弹） | SMG magazine (.45 magnum uranium)'
   parent: BaseMagazine45_magnumSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -405,7 +405,7 @@
 - type: entity
   parent: BaseMagazine45_magnumSubMachineGunFMJ
   id: Magazine45_magnumSubMachineGunIncendiary
-  name: 'SMG杂志（点四五马格南燃烧弹） | SMG magazine (.45 magnum incendiary)'
+  name: 'SMG弹匣（点四五马格南燃烧弹） | SMG magazine (.45 magnum incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_magnumIncendiary
@@ -418,7 +418,7 @@
 
 - type: entity
   id: Magazine45_magnumSubMachineGunRubber
-  name: 'SMG杂志（点四五马格南橡胶弹） | SMG magazine (.45 magnum rubber)'
+  name: 'SMG弹匣（点四五马格南橡胶弹） | SMG magazine (.45 magnum rubber)'
   parent: BaseMagazine45_magnumSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -435,7 +435,7 @@
 #anti-flesh ammo
 - type: entity
   id: Magazine45_magnumSubMachineGunHP
-  name: 'SMG杂志（点四五马格南空尖弹） | SMG magazine (.45 magnum hollow-point)'
+  name: 'SMG弹匣（点四五马格南空尖弹） | SMG magazine (.45 magnum hollow-point)'
   parent: BaseMagazine45_magnumSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -450,7 +450,7 @@
 
 - type: entity
   id: Magazine45_magnumSubMachineGunRIP
-  name: 'SMG杂志（点四五马格南RIP） | SMG magazine (.45 magnum RIP)'
+  name: 'SMG弹匣（点四五马格南RIP） | SMG magazine (.45 magnum RIP)'
   parent: BaseMagazine45_magnumSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -467,7 +467,7 @@
 
 - type: entity
   id: Magazine45_magnumSubMachineGunPlasteelAP
-  name: 'SMG杂志（点四五马格南穿甲弹） | SMG magazine (.45 magnum AP)'
+  name: 'SMG弹匣（点四五马格南穿甲弹） | SMG magazine (.45 magnum AP)'
   parent: BaseMagazine45_magnumSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
