@@ -2,7 +2,7 @@
   id: BaseFirelock
   abstract: true
   parent: BaseStructure
-  name: 防火门 丨 firelock
+  name: 防火闸 丨 firelock
   description: 使用撬棍。 丨 Apply crowbar.
   components:
     - type: AtmosAlarmable
