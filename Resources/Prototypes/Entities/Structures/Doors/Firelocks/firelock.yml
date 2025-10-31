@@ -145,7 +145,7 @@
 - type: entity
   id: FirelockGlass
   parent: Firelock
-  name: 玻璃防火门 丨 glass firelock
+  name: 玻璃防火闸 丨 glass firelock
   components:
     - type: StationAiWhitelist
     - type: Sprite
@@ -171,7 +171,7 @@
 - type: entity
   id: FirelockEdge
   parent: Firelock
-  name: 防火门 丨 firelock
+  name: 防火闸 丨 firelock
   components:
     - type: StationAiWhitelist
     - type: Sprite
