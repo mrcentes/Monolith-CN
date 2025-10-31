@@ -28,7 +28,7 @@
                            Orientation="Vertical">
         <!-- FTL Lock Section -->
         <controls1:StripeBack MinSize="48 48">
-            <controls:Label Text="{controls:Loc '对接同步FTL'}" HorizontalAlignment="Center"/>
+            <controls:Label Text="{controls:Loc '对接时同步FTL'}" HorizontalAlignment="Center"/>
         </controls1:StripeBack>
         <controls:PanelContainer VerticalExpand="True" HorizontalExpand="True" Margin="4 4 4 4">
             <controls:PanelContainer.PanelOverride>
