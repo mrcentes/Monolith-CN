@@ -1645,55 +1645,66 @@
 - type: jukebox
   id: 差一步DJ
   name: 差一步DJ
-  path: /Audio/Jukebox/差一步DJ.ogg
+  path: 
+    path: /Audio/Jukebox/差一步DJ.ogg
   
 - type: jukebox
   id: 逮虾户
   name: 逮虾户
-  path: /Audio/Jukebox/逮虾户.ogg
+  path: 
+    path: /Audio/Jukebox/逮虾户.ogg
   
 - type: jukebox
   id: 高空舰队Tanc_a_Lelek
   name: 高空舰队Tanc_a_Lelek
-  path: /Audio/Jukebox/高空舰队Tanc_a_Lelek.ogg
+  path: 
+    path: /Audio/Jukebox/高空舰队Tanc_a_Lelek.ogg
   
 - type: jukebox
   id: 哈基米音乐_速子科技
   name: 哈基米音乐_速子科技
-  path: /Audio/Jukebox/哈基米音乐_速子科技.ogg
+  path: 
+    path: /Audio/Jukebox/哈基米音乐_速子科技.ogg
   
 - type: jukebox
   id: 警灯一开悠哉游哉
   name: 警灯一开悠哉游哉
-  path: /Audio/Jukebox/警灯一开悠哉游哉.ogg
+  path: 
+    path: /Audio/Jukebox/警灯一开悠哉游哉.ogg
   
 - type: jukebox
   id: 难得真兄弟
   name: 难得真兄弟
-  path: /Audio/Jukebox/难得真兄弟.ogg
+  path: 
+    path: /Audio/Jukebox/难得真兄弟.ogg
   
 - type: jukebox
   id: 瑞瓦肖我的家乡
   name: 瑞瓦肖我的家乡
-  path: /Audio/Jukebox/瑞瓦肖我的家乡.ogg
+  path: 
+    path: /Audio/Jukebox/瑞瓦肖我的家乡.ogg
   
 - type: jukebox
   id: 速度与激情东京漂移
   name: 速度与激情东京漂移
-  path: /Audio/Jukebox/速度与激情东京漂移.ogg
+  path: 
+    path: /Audio/Jukebox/速度与激情东京漂移.ogg
   
 - type: jukebox
   id: 天真的橡皮大运的小曲
   name: 天真的橡皮大运的小曲
-  path: /Audio/Jukebox/天真的橡皮大运的小曲.ogg
+  path: 
+    path: /Audio/Jukebox/天真的橡皮大运的小曲.ogg
   
 - type: jukebox
   id: 想赢的人脸上是没有笑容的
   name: 想赢的人脸上是没有笑容的
-  path: /Audio/Jukebox/想赢的人脸上是没有笑容的.ogg
+  path: 
+    path: /Audio/Jukebox/想赢的人脸上是没有笑容的.ogg
   
 - type: jukebox
   id: 羊爸开大运的小曲
   name: 羊爸开大运的小曲
-  path: /Audio/Jukebox/羊爸开大运的小曲.ogg
+  path: 
+    path: /Audio/Jukebox/羊爸开大运的小曲.ogg
   
