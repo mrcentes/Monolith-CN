@@ -1,57 +1,82 @@
 <Document>
-# Monolith Rules
+游戏规则 必看!
+首先，本源码有以下势力阵营:
+TSFMC（联邦） 
+USSF（苏军） 
+ASR（基本上是海盗） 
+平民(无武装舰船，Med，远征队等)  
 
-## Foreword
+PVP灰度机制
 
-Servers are often a diluted mess of rules and restrictions that hinder players' creative abilities and freedom to craft their own experiences.
+宣战，即为一方同意开战并且使用无线电告知对方，必须在伤害行为出现前告知即为
+宣战。
+双方宣战，即为双方同时向对方宣战。
 
-We do expect, at the very least, that you [bold]stay in-character, adhere to the setting, and engage in quality roleplay to the best of your abilities[/bold].
+平民船，中立阵营（雇佣兵，医疗船，工程船），军方（联邦，俄军）对平民与其他中立阵营，必须双方互相同时宣战才可对战。
 
-This ensures your enjoyment and enhances the experience for the other players around you.
+联邦，俄军，默认互相敌对，单方宣战即可开战（必须在电台中通知），正常模式下不允许攻击对方空间站。
 
-# Rule List
+海盗默认与所有阵营敌对，单方宣战即可，其他阵营也可以单方宣战即可攻击海盗，海盗不允许攻击（宣战舰战）无武装舰船（新手/破产保护机制），海盗可以劫掠（上船劫道）无武装舰船，但应尽量避免伤害性行为。（新手/破产保护机制）。海盗的空间站可以被攻击。
 
-All of the below rules apply at all times, including between rounds, in-game, and elsewhere in our community.
+Ghost Role白名单角色可以向管理员申请（按F1)，Ghost Role中自动护卫舰和蜥蜴双人舰需要遵守对应规则，自动AI护卫舰（ADS）不属于任何阵营，与所有阵营敌对，仅需无线电宣战即可开战，所有阵营无需宣战即可直接攻击自动护卫舰，自动护卫舰不允许攻击无武装舰船。（新手/破产保护机制）
 
-[color=red][italic]If any of the links do not work, use the guidebook version on the escape or (Numpad 0) menus.[/italic][/color]
-[color=red][italic]These rules are expected to be read in their entirety.[/italic][/color]
+主要空间站(600m安全区保护):Colo
+ 
+TSFMC旗舰
+ 
+次要空间站(200m安全区保护回合时间4h后失效):Camelot
+  
+TSFMC二号出生点
+ 
+Cargo A,B,C,D
+ 
+Trade Mall
+ 
+Crazy Casey’Casino
+ 
+Edison Power Plant
+ 
+Expeditionary Lodge
+ 
+Med
+ 
+ThePit
+ 
+Tinnias Rest
+ 
 
-## Core Rules
-These are the core rules of Monolith:
-- 1. [textlink="Use common sense." link="MonolithRuleCoreOneCommonSense"]
-- 2. [textlink="Respect each other." link="MonolithRuleCoreTwoRespect"]
-- 3. [textlink="Do not engage in cheating or exploits." link="MonolithRuleCoreThreeCheatingExploits"]
-- 4. [textlink="Do not use alternative accounts." link="MonolithRuleCoreFourAlternativeAccounts"]
-- 5. [textlink="All communication must be in English." link="MonolithRuleCoreFiveLanguages"]
+主要空间站附近(colo,TSF)600m内为安全区域，次要空间站(TM,Med,ca)200m内为安全区域,在游戏回合4h后失效，安全区域内禁止敌对行为，若正在战斗中靠近请及时驶离，正在交战的舰船不受到安全区保护。海盗等与所有阵营敌对势力的空间站与不受到保护。
+在手持pda中可查看回合时长
+ 
 
-## Roleplay Rules
-These are the roleplay rules of Monolith:
-- 1. [textlink="Do not break character." link="MonolithRuleRoleplayOneBreakCharacter"]
-- 2. [textlink="Avoid misusing in-character text chat." link="MonolithRuleRoleplayTwoTextChat"]
-- 3. [textlink="Type with proper grammar in in-character text chat." link="MonolithRuleRoleplayThreeProperGrammar"]
-- 4. [textlink="Build upon the contributions of others." link="MonolithRuleRoleplayFourCharacterActions"]
-- 5. [textlink="Erotic roleplay is prohibited." link="MonolithRuleRoleplayFiveEroticRoleplay"]
-- 6. [textlink="Do not metagame." link="MonolithRuleRoleplaySixMetagame"]
-- 7. [textlink="Safe Zones" link="MonolithRuleRoleplaySevenSafeZones"]
-- 8. [textlink="Do not abandon your faction role." link="MonolithRuleRoleplayEightFactionRoles"]
+敌对势力（海盗，反派舰船等） 在安全区域附近逗留时间过长可喊话驱离，数次警告后并未离开可以直接宣战并攻击。
 
-## Conflict Rules
-These are the conflict rules of Monolith:
-- 1. [textlink="Avoid random deathmatch." link="MonolithRuleConflictOneRandomDeathmatch"]
-- 2. [textlink="Adhere to the new life rule." link="MonolithRuleConflictTwoNewLife"]
-- 3. [textlink="Engage in fair play when making demands." link="MonolithRuleConflictThreeFairPlay"]
-- 4. [textlink="Follow the conditions for portstriking." link="MonolithRuleConflictFourPortStriking"]
+如果你的舰船全灭了复活后想再战需要再次宣战，宣战不随复活继承。
 
-## Admin Decisions
-- [color=yellow][bold]All admin decisions are final.[/bold][/color]
-- Rules are enforced to the [color=yellow]spirit of the rules[/color] and subject to admin interpretation.
-- Admins may disregard any/all rules if they deem it in the best interest of the current round, the server, and/or the community.
-- Admins are accountable for their actions. Abuse of admin privileges will be dealt with by staff.
+正常模式下禁止攻击主，次要空间站或者在空间站出生点附近守家行为（有新船出生了直接打或者抢）。
 
-## General Information
-- Disconnecting from or ignoring/evading admin-helps will result in an [color=red]appeal-only ban[/color].
-- Admins are not obligated to cover player losses, deaths or delays.
--- This includes, but is not limited to: ship deeds, money, respawns and revivals.
--- Any action taken is at the staff's discretion, and depends on the circumstances.
+在游戏回合时长超过4小时时，次要站点（TM，Cam等）的安全区失效，在附近及其停靠舰船不受到规则保护，空间站有可能被敌对势力袭击甚至占领。
+
+自卫反击情况下以上规则失效。（你无缘由遭到了攻击）
+
+舰船丢失/白船机制/劫掠机制
+
+玩家如果全船死亡，复活的即使是同一个角色，其之前所有的船也无法直接作为本人所有。
+
+无人所有的船在无人宣布拥有权10分钟后可以合法掠夺，但是必须在无线电通告其他人，并且确定此舰船无人所有。
+
+若有人所有的船被掠夺，舰船所有者可以合法索要赔偿或者自卫反击。
+
+无人所有的船不是随意掠夺的借口，若多次故意掠夺有人所有的船即视为违法服务器规定。
+
+海盗可以劫掠有人所有的船。在劫掠无武装舰船时应尽量使用非致命武器降低损伤，若直接使用杀伤性武器多次破坏杀害无武装舰船将会被Bowink。（新手/破产保护机制）
+
+海盗可以控制无人占领的空间站，但必须在无线电中宣布占领，其他阵营可无条件攻击被海盗宣布占领的空间站内的海盗以此夺回空间站。
+
+游戏内容规则
+禁止Self antg行为，禁止跨回合仇恨，安全区内禁止主动攻击，若非必要请尽量不要IC IN OOC，一切规则执行解释权由管理员所有。
+
+祝你游玩愉快。
+
 
 </Document>
