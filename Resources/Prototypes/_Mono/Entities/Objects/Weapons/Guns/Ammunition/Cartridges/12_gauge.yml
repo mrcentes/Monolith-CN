@@ -228,7 +228,7 @@
 #anti-flesh:
 - type: entity
   id: ShellShotgun12_gaugeOOBuckshot
-  name: '12号口径马格努姆大号铅弹 | shotgun shell (12 gauge OO magnum buckshot)'
+  name: '12号口径马格南大号铅弹 | shotgun shell (12 gauge OO magnum buckshot)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite

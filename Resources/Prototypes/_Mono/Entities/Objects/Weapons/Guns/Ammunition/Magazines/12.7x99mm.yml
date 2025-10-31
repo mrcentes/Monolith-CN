@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazine127x99mm
-  name: '弹匣（12.7x99毫米） | magazine (12.7x99mm)'
+  name: '弹匣（12.7x99mm ） | magazine (12.7x99mm)'
   parent: [ BaseItem, BaseC3PirateContraband ]
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: Magazine127x99mmEmpty
-  name: '杂志（12、7x99毫米空弹） | magazine (12.7x99mm empty)'
+  name: '弹匣（12、7x99mm 空弹） | magazine (12.7x99mm empty)'
   parent: BaseMagazine127x99mm
   components:
   - type: BallisticAmmoProvider
@@ -42,7 +42,7 @@
 
 - type: entity
   id: Magazine127x99mm
-  name: '杂志（12、7x99毫米反器材） | magazine (12.7x99mm anti-material)'
+  name: '弹匣（12、7x99mm 反器材） | magazine (12.7x99mm anti-material)'
   parent: BaseMagazine127x99mm
   components:
   - type: BallisticAmmoProvider
@@ -50,7 +50,7 @@
 
 - type: entity
   id: Magazine127x99mmExplosive
-  name: '杂志（12、7x99毫米高爆弹） | magazine (12.7x99mm high-explosive)'
+  name: '弹匣（12、7x99mm 高爆弹） | magazine (12.7x99mm high-explosive)'
   parent: BaseMagazine127x99mm
   components:
   - type: BallisticAmmoProvider

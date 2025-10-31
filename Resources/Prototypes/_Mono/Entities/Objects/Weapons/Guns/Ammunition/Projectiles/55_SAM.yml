@@ -7,7 +7,7 @@
 
 - type: entity
   id: Bullet55_SAM
-  name: '子弹（零点五五萨姆） | bullet (.55 SAM)'
+  name: '子弹（.55 萨姆） | bullet (.55 SAM)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

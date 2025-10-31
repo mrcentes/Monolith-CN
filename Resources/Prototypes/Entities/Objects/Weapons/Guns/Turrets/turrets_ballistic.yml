@@ -97,7 +97,7 @@
   id: WeaponTurretXeno
   name: 异形炮塔 丨 xeno turret
   suffix: Xeno
-  description: 发射9毫米酸性射弹。 丨 Shoots 9mm acid projectiles.
+  description: 发射9mm 酸性射弹。 丨 Shoots 9mm acid projectiles.
   components:
   - type: NpcFactionMember
     factions:

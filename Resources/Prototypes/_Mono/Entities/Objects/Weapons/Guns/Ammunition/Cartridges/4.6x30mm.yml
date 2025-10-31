@@ -6,7 +6,7 @@
 
 - type: entity
   id: BaseCartridge46x30mm
-  name: '弹药（4.6x30毫米全金属被甲弹） | cartridge (4.6x30mm FMJ)'
+  name: '弹药（4.6x30mm 全金属被甲弹） | cartridge (4.6x30mm FMJ)'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: '一种轻型穿甲弹，由旧世界于1990年代为单兵自卫武器研发。 | A light AP round developed for PDWs in the 1990s, by an older world.'
   abstract: true
@@ -29,7 +29,7 @@
 
 - type: entity
   id: Cartridge46x30mmFMJ
-  name: '弹药筒（4.6x30毫米全金属被甲弹） | cartridge (4.6x30mm FMJ)'
+  name: '子弹（4.6x30mm 全金属被甲弹） | cartridge (4.6x30mm FMJ)'
   parent: BaseCartridge46x30mm
   components:
   - type: CartridgeAmmo
@@ -37,7 +37,7 @@
 
 - type: entity
   id: Cartridge46x30mmPractice
-  name: '弹药筒（4.6x30毫米训练弹） | cartridge (4.6x30mm practice)'
+  name: '子弹（4.6x30mm 训练弹） | cartridge (4.6x30mm practice)'
   parent: BaseCartridge46x30mm
   components:
   - type: CartridgeAmmo
@@ -52,7 +52,7 @@
 
 - type: entity
   id: Cartridge46x30mmIncendiary
-  name: '子弹（4.6x30毫米燃烧弹） | cartridge (4.6x30mm incendiary)'
+  name: '子弹（4.6x30mm 燃烧弹） | cartridge (4.6x30mm incendiary)'
   parent: BaseCartridge46x30mm
   components:
   - type: CartridgeAmmo
@@ -67,7 +67,7 @@
 
 - type: entity
   id: Cartridge46x30mmUranium
-  name: '弹药筒（4.6x30毫米铀弹） | cartridge (4.6x30mm uranium)'
+  name: '子弹（4.6x30mm 铀弹） | cartridge (4.6x30mm uranium)'
   parent: BaseCartridge46x30mm
   components:
   - type: CartridgeAmmo
@@ -83,7 +83,7 @@
 # Upstream
 - type: entity
   id: Cartridge46x30mmRubber
-  name: '子弹（4.6x30毫米橡胶弹） | cartridge (4.6x30mm rubber)'
+  name: '子弹（4.6x30mm 橡胶弹） | cartridge (4.6x30mm rubber)'
   parent: BaseCartridge46x30mm
   components:
   - type: CartridgeAmmo
@@ -99,7 +99,7 @@
 # Frontier
 - type: entity
   id: Cartridge46x30mmEmp
-  name: '弹药筒（4.6x30毫米电磁脉冲） | cartridge (4.6x30mm emp)'
+  name: '子弹（4.6x30mm 电磁脉冲） | cartridge (4.6x30mm emp)'
   parent: BaseCartridge46x30mm
   components:
   - type: CartridgeAmmo
@@ -113,7 +113,7 @@
 #anti-flesh:
 - type: entity
   id: Cartridge46x30mmHP
-  name: '子弹（4.6x30毫米空尖弹） | cartridge (4.6x30mm hollow-point)'
+  name: '子弹（4.6x30mm 空尖弹） | cartridge (4.6x30mm hollow-point)'
   parent: BaseCartridge46x30mm
   components:
   - type: CartridgeAmmo
@@ -128,7 +128,7 @@
 
 - type: entity
   id: Cartridge46x30mmRIP
-  name: '弹药筒（4.6x30毫米RIP） | cartridge (4.6x30mm RIP)'
+  name: '子弹（4.6x30mm RIP） | cartridge (4.6x30mm RIP)'
   parent: BaseCartridge46x30mm
   components:
   - type: CartridgeAmmo
@@ -145,7 +145,7 @@
 
 - type: entity
   id: Cartridge46x30mmPlasteelAP
-  name: '弹药筒（4.6x30毫米穿甲弹） | cartridge (4.6x30mm AP)'
+  name: '子弹（4.6x30mm 穿甲弹） | cartridge (4.6x30mm AP)'
   parent: BaseCartridge46x30mm
   components:
   - type: CartridgeAmmo

@@ -25,7 +25,7 @@
   parent: [VendingMachineAstroVend, BaseStructureDisableAnchoring]
   id: VendingMachineBluespaceDrive
   name: '驱动器贩卖机 | DriveVend'
-  description: '销售扁平包装蓝空间驱动器。 | Sells flatpacked bluespaces drives.'
+  description: '销售蓝空驱动器组装包。 | Sells flatpacked bluespaces drives.'
   suffix: POI
   components:
   - type: VendingMachine

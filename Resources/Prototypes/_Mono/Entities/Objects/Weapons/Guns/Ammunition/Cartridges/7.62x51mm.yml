@@ -31,7 +31,7 @@
 
 - type: entity
   id: BaseCartridge762x51mm
-  name: '子弹（7.62x51毫米全金属被甲弹） | cartridge (7.62x51mm FMJ)'
+  name: '子弹（7.62x51mm 全金属被甲弹） | cartridge (7.62x51mm FMJ)'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: '一款尺寸适中的全威力弹药。 | A decently sized full-power round.'
   abstract: true
@@ -54,7 +54,7 @@
 
 - type: entity
   id: Cartridge762x51mmFMJ
-  name: '子弹（7.62x51毫米全金属被甲弹） | cartridge (7.62x51mm FMJ)'
+  name: '子弹（7.62x51mm 全金属被甲弹） | cartridge (7.62x51mm FMJ)'
   parent: BaseCartridge762x51mm
   components:
   - type: CartridgeAmmo
@@ -62,7 +62,7 @@
 
 - type: entity
   id: Cartridge762x51mmPractice
-  name: '枪弹（7.62x51毫米练习弹） | cartridge (7.62x51mm practice)'
+  name: '枪弹（7.62x51mm 练习弹） | cartridge (7.62x51mm practice)'
   parent: BaseCartridge762x51mm
   components:
   - type: CartridgeAmmo
@@ -77,7 +77,7 @@
 
 - type: entity
   id: Cartridge762x51mmIncendiary
-  name: '子弹（7.62x51毫米燃烧弹） | cartridge (7.62x51mm incendiary)'
+  name: '子弹（7.62x51mm 燃烧弹） | cartridge (7.62x51mm incendiary)'
   parent: BaseCartridge762x51mm
   components:
   - type: CartridgeAmmo
@@ -92,7 +92,7 @@
 
 - type: entity
   id: Cartridge762x51mmUranium
-  name: '子弹（7.62x51毫米铀弹） | cartridge (7.62x51mm uranium)'
+  name: '子弹（7.62x51mm 铀弹） | cartridge (7.62x51mm uranium)'
   parent: BaseCartridge762x51mm
   components:
   - type: CartridgeAmmo
@@ -107,7 +107,7 @@
 
 - type: entity
   id: Cartridge762x51mmRubber
-  name: '子弹（7.62x51毫米橡胶） | cartridge (7.62x51mm rubber)'
+  name: '子弹（7.62x51mm 橡胶） | cartridge (7.62x51mm rubber)'
   parent: BaseCartridge762x51mm
   components:
   - type: CartridgeAmmo
@@ -124,7 +124,7 @@
 #anti-flesh:
 - type: entity
   id: Cartridge762x51mmHP
-  name: '子弹（7.62x51毫米空尖弹） | cartridge (7.62x51mm hollow-point)'
+  name: '子弹（7.62x51mm 空尖弹） | cartridge (7.62x51mm hollow-point)'
   parent: BaseCartridge762x51mm
   components:
   - type: CartridgeAmmo
@@ -139,7 +139,7 @@
 
 - type: entity
   id: Cartridge762x51mmRIP
-  name: '弹匣（7.62x51毫米RIP） | cartridge (7.62x51mm RIP)'
+  name: '弹匣（7.62x51mm RIP） | cartridge (7.62x51mm RIP)'
   parent: BaseCartridge762x51mm
   components:
   - type: CartridgeAmmo
@@ -156,7 +156,7 @@
 
 - type: entity
   id: Cartridge762x51mmPlasteelAP
-  name: '子弹（7.62x51毫米穿甲弹） | cartridge (7.62x51mm AP)'
+  name: '子弹（7.62x51mm 穿甲弹） | cartridge (7.62x51mm AP)'
   parent: BaseCartridge762x51mm
   components:
   - type: CartridgeAmmo

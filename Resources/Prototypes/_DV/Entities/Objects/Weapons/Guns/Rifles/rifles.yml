@@ -12,10 +12,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: HWM FCM "Vulcan" (7.62x51mm)
+  name: HWM FCM-C 火神步枪(7.62x51mm)
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC1Contraband] # Frontier: add BaseC1Contraband
   id: WeaponRifleVulcan
-  description: One of the heaviest small arms to grace Security's armory, The Herstal Weapon Manufacture FCM (Fusil de Combat Moyen) "Vulcan", this rifle is a modern take on a classic, informally dubbed the "Right Arm of the Free World". Uses 7.62x51mm ammo.
+  description: 作为赫斯陶武器公司为安保部队配装的最重型的单兵武器之一，FCM（中型战斗步枪）“火神”在经典设计上融入了现代理念，被非正式地誉为“自由世界的右臂”。采用7.62×51mm弹药。
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Rifles/vulcan.rsi

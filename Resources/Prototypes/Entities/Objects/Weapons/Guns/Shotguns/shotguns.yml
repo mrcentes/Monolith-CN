@@ -191,7 +191,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: Magazine12_gaugeBuckshot
         priority: 2
         whitelist:

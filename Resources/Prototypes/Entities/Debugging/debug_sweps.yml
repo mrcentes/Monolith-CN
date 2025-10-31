@@ -25,7 +25,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: MagazinePistolDebug
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -43,7 +43,7 @@
 
 - type: entity
   id: MagazinePistolDebug
-  name: 砰，死掉的杂志 丨 bang, ded mag
+  name: 砰，死掉的弹匣 丨 bang, ded mag
   parent: BaseMagazine9x19mm
   suffix: DEBUG
   components:

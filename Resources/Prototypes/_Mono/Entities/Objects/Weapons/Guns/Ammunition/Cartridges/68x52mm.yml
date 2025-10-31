@@ -4,8 +4,8 @@
 
 - type: entity
   id: BaseCartridge68x52mmCaseless
-  name: '弹药（6.8x52毫米 STANAG 无壳弹） | cartridge (6.8x52mm STANAG Caseless)'
-  description: '在近期TSF标准化项目中研发的新型无壳中间威力弹药，借鉴了旧时企业战争期间无壳弹药的经验，旨在提升各领域步枪的性能。 | A new intermediate caseless round developed in recent TSF standardization programs, using experience from old corporate war caseless ammunition to enhance the performance of rifles across the sectors.'
+  name: '弹药（6.8x52mm  STANAG 无壳弹） | cartridge (6.8x52mm STANAG Caseless)'
+  description: '在近期TSF标准化项目中研发的新型无壳中间威力弹药，借鉴了旧时公司战争期间无壳弹药的经验，旨在提升各领域步枪的性能。 | A new intermediate caseless round developed in recent TSF standardization programs, using experience from old corporate war caseless ammunition to enhance the performance of rifles across the sectors.'
   parent: BaseCartridge
   abstract: true
   components:
@@ -28,7 +28,7 @@
 
 - type: entity
   id: Cartridge68x52mmCaseless
-  name: '弹匣（6.8×52毫米 STANAG 无壳弹） | cartridge (6.8x52mm STANAG Caseless)'
+  name: '弹匣（6.8×52mm  STANAG 无壳弹） | cartridge (6.8x52mm STANAG Caseless)'
   parent: BaseCartridge68x52mmCaseless
   components:
   - type: CartridgeAmmo
@@ -36,7 +36,7 @@
 
 - type: entity
   id: Cartridge68x52mmCaselessRubber
-  name: '弹药筒（6.8×52毫米 STANAG 无壳橡胶弹） | cartridge (6.8x52mm STANAG Caseless rubber)'
+  name: '子弹（6.8×52mm  STANAG 无壳橡胶弹） | cartridge (6.8x52mm STANAG Caseless rubber)'
   parent: BaseCartridge68x52mmCaseless
   components:
   - type: CartridgeAmmo
@@ -44,7 +44,7 @@
 
 - type: entity
   id: Cartridge68x52mmCaselessPractice
-  name: '弹药筒（6.8x52毫米 STANAG 无壳训练弹） | cartridge (6.8x52mm STANAG Caseless practice)'
+  name: '子弹（6.8x52mm  STANAG 无壳训练弹） | cartridge (6.8x52mm STANAG Caseless practice)'
   parent: BaseCartridge68x52mmCaseless
   components:
   - type: CartridgeAmmo

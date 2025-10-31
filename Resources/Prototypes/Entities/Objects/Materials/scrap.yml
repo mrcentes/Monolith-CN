@@ -319,7 +319,7 @@
 - type: entity
   parent: BaseScrap
   id: ScrapFirelock3
-  name: 火枪枪机框架 丨 firelock frame
+  name: 防火门框架 丨 firelock frame
   components:
   - type: Sprite
     layers:

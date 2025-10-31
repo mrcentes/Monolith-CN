@@ -247,8 +247,8 @@
   suffix: Ghost
   components:
   - type: GhostRole
-    name: '幽灵角色信息已编辑的博格 | ghost-role-information-redacted-borg'
-    description: '幽灵角色信息已编辑博格描述 | ghost-role-information-redacted-borg-description'
+    name: '幽灵角色-已编辑的博格 | ghost-role-information-redacted-borg'
+    description: '幽灵角色-已编辑博格描述 | ghost-role-information-redacted-borg-description'
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -455,8 +455,8 @@
   - type: SiliconLawProvider
     laws: TSFMCLawset
   - type: GhostRole
-    name: '幽灵角色信息核心模块 | ghost-role-information-tsfmc-core'
-    description: '幽灵角色信息传输核心描述 | ghost-role-information-tsfmc-core-description'
+    name: '幽灵角色-TSFMC AI模块 | ghost-role-information-tsfmc-core'
+    description: '幽灵角色-TSFMC AI模块 | ghost-role-information-tsfmc-core-description'
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default

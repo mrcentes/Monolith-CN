@@ -33,7 +33,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 - type: entity
   id: BaseMagazine45_ACP
-  name: '手枪弹匣（点四五自动手枪弹全金属被甲） | pistol magazine (.45 ACP FMJ)'
+  name: '手枪弹匣（.45 自动手枪弹全金属被甲） | pistol magazine (.45 ACP FMJ)'
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
   abstract: true
   components:
@@ -67,7 +67,7 @@
 #Start Pistol mags
 - type: entity
   id: Magazine45_ACPPistolFMJ
-  name: '手枪弹匣（点四五自动手枪弹全金属被甲） | pistol magazine (.45 ACP FMJ)'
+  name: '手枪弹匣（.45 自动手枪弹全金属被甲） | pistol magazine (.45 ACP FMJ)'
   parent: BaseMagazine45_ACP
   components:
   - type: BallisticAmmoProvider
@@ -81,7 +81,7 @@
 
 - type: entity
   id: Magazine45_ACPPistolEmpty
-  name: '手枪弹匣（点四五ACP任意型号） | pistol magazine (.45 ACP any)'
+  name: '手枪弹匣（.45 ACP任意型号） | pistol magazine (.45 ACP any)'
   suffix: empty
   parent: Magazine45_ACPPistolFMJ
   components:
@@ -96,7 +96,7 @@
 
 - type: entity
   id: Magazine45_ACPPistolIncendiary
-  name: '手枪弹匣（点四五口径自动手枪用燃烧弹） | pistol magazine (.45 ACP incendiary)'
+  name: '手枪弹匣（.45 口径自动手枪用燃烧弹） | pistol magazine (.45 ACP incendiary)'
   parent: Magazine45_ACPPistolFMJ
   components:
   - type: BallisticAmmoProvider
@@ -110,7 +110,7 @@
 
 - type: entity
   id: Magazine45_ACPPistolPractice
-  name: '手枪弹匣（点四五ACP练习） | pistol magazine (.45 ACP practice)'
+  name: '手枪弹匣（.45 ACP练习） | pistol magazine (.45 ACP practice)'
   parent: BaseMagazine45_ACP
   components:
   - type: BallisticAmmoProvider
@@ -124,7 +124,7 @@
 
 - type: entity
   id: Magazine45_ACPPistolUranium
-  name: '手枪弹匣（点四五口径铀制） | pistol magazine (.45 ACP uranium)'
+  name: '手枪弹匣（.45 口径铀制） | pistol magazine (.45 ACP uranium)'
   parent: BaseMagazine45_ACP
   components:
   - type: BallisticAmmoProvider
@@ -139,7 +139,7 @@
 #Upstream
 - type: entity
   id: Magazine45_ACPPistolRubber
-  name: '手枪弹匣（点四五ACP橡胶弹） | pistol magazine (.45 ACP rubber)'
+  name: '手枪弹匣（.45 ACP橡胶弹） | pistol magazine (.45 ACP rubber)'
   parent: BaseMagazine45_ACP
   components:
   - type: BallisticAmmoProvider
@@ -156,7 +156,7 @@
 #anti-flesh ammo
 - type: entity
   id: Magazine45_ACPPistolHP
-  name: '手枪弹匣（点四五ACP空尖弹） | pistol magazine (.45 ACP hollow-point)'
+  name: '手枪弹匣（.45 ACP空尖弹） | pistol magazine (.45 ACP hollow-point)'
   parent: BaseMagazine45_ACP
   components:
   - type: BallisticAmmoProvider
@@ -171,7 +171,7 @@
 
 - type: entity
   id: Magazine45_ACPPistolRIP
-  name: '手枪弹匣（点四五ACP空尖弹） | pistol magazine (.45 ACP RIP)'
+  name: '手枪弹匣（.45 ACP空尖弹） | pistol magazine (.45 ACP RIP)'
   parent: BaseMagazine45_ACP
   components:
   - type: BallisticAmmoProvider
@@ -188,7 +188,7 @@
 
 - type: entity
   id: Magazine45_ACPPistolPlasteelAP
-  name: '手枪弹匣（点四五ACP穿甲弹） | pistol magazine (.45 ACP AP)'
+  name: '手枪弹匣（.45 ACP穿甲弹） | pistol magazine (.45 ACP AP)'
   parent: BaseMagazine45_ACP
   components:
   - type: BallisticAmmoProvider
@@ -205,7 +205,7 @@
 #Start HighCapacity mags
 - type: entity
   id: BaseMagazine45_ACPPistolHighCapacityFMJ
-  name: '冲锋手枪弹匣（点四五自动手枪弹全金属被甲） | machine pistol magazine (.45 ACP FMJ)'
+  name: '冲锋手枪弹匣（.45 自动手枪弹全金属被甲） | machine pistol magazine (.45 ACP FMJ)'
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseC1Contraband
   abstract: true
   components:
@@ -238,7 +238,7 @@
 
 - type: entity
   id: Magazine45_ACPPistolHighCapacityEmpty
-  name: '机枪手枪弹匣（点四五ACP任意型号） | machine pistol magazine (.45 ACP any)'
+  name: '机枪手枪弹匣（.45 ACP任意型号） | machine pistol magazine (.45 ACP any)'
   suffix: empty
   parent: BaseMagazine45_ACPPistolHighCapacityFMJ
   components:
@@ -253,7 +253,7 @@
 
 - type: entity
   id: Magazine45_ACPPistolHighCapacityFMJ
-  name: '冲锋手枪弹匣（点四五自动手枪弹全金属被甲弹） | machine pistol magazine (.45 ACP FMJ)'
+  name: '冲锋手枪弹匣（.45 自动手枪弹全金属被甲弹） | machine pistol magazine (.45 ACP FMJ)'
   parent: BaseMagazine45_ACPPistolHighCapacityFMJ
   components:
   - type: BallisticAmmoProvider
@@ -267,7 +267,7 @@
 
 - type: entity
   id: Magazine45_ACPPistolHighCapacityPractice
-  name: '冲锋手枪弹匣（点四五ACP练习用） | machine pistol magazine (.45 ACP practice)'
+  name: '冲锋手枪弹匣（.45 ACP练习用） | machine pistol magazine (.45 ACP practice)'
   parent: BaseMagazine45_ACPPistolHighCapacityFMJ
   components:
   - type: BallisticAmmoProvider
@@ -281,7 +281,7 @@
 
 - type: entity
   id: Magazine45_ACPPistolHighCapacityRubber
-  name: '冲锋手枪弹匣（点四五橡胶子弹） | machine pistol magazine (.45 ACP rubber)'
+  name: '冲锋手枪弹匣（.45 橡胶子弹） | machine pistol magazine (.45 ACP rubber)'
   parent: BaseMagazine45_ACPPistolHighCapacityFMJ
   components:
   - type: BallisticAmmoProvider
@@ -298,7 +298,7 @@
 #Start SubMachineGun mags
 - type: entity
   id: BaseMagazine45_ACPSubMachineGunFMJ
-  name: 'SMG杂志（点四五自动手枪弹全金属被甲） | SMG magazine (.45 ACP FMJ)'
+  name: 'SMG弹匣（.45 自动手枪弹全金属被甲） | SMG magazine (.45 ACP FMJ)'
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseSecurityContraband<BaseC1Contraband
   abstract: true
   components:
@@ -331,7 +331,7 @@
 
 - type: entity
   id: Magazine45_ACPSubMachineGunFMJ
-  name: 'SMG杂志（点四五自动手枪弹全金属被甲） | SMG magazine (.45 ACP FMJ)'
+  name: 'SMG弹匣（.45 自动手枪弹全金属被甲） | SMG magazine (.45 ACP FMJ)'
   parent: BaseMagazine45_ACPSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -350,7 +350,7 @@
 
 - type: entity
   id: Magazine45_ACPSubMachineGunEmpty
-  name: 'SMG杂志（点四五ACP任何型号） | SMG magazine (.45 ACP any)'
+  name: 'SMG弹匣（.45 ACP任何型号） | SMG magazine (.45 ACP any)'
   suffix: empty
   parent: BaseMagazine45_ACPSubMachineGunFMJ
   components:
@@ -365,7 +365,7 @@
 
 - type: entity
   id: Magazine45_ACPSubMachineGunPractice
-  name: 'SMG杂志（点四五ACP练习） | SMG magazine (.45 ACP practice)'
+  name: 'SMG弹匣（.45 ACP练习） | SMG magazine (.45 ACP practice)'
   parent: BaseMagazine45_ACPSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -379,7 +379,7 @@
 
 - type: entity
   id: Magazine45_ACPSubMachineGunUranium
-  name: 'SMG杂志（点四五口径铀制） | SMG magazine (.45 ACP uranium)'
+  name: 'SMG弹匣（.45 口径铀制） | SMG magazine (.45 ACP uranium)'
   parent: BaseMagazine45_ACPSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -394,7 +394,7 @@
 - type: entity
   parent: BaseMagazine45_ACPSubMachineGunFMJ
   id: Magazine45_ACPSubMachineGunIncendiary
-  name: 'SMG杂志（点四五口径ACP燃烧弹） | SMG magazine (.45 ACP incendiary)'
+  name: 'SMG弹匣（.45 口径ACP燃烧弹） | SMG magazine (.45 ACP incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPIncendiary
@@ -407,7 +407,7 @@
 
 - type: entity
   id: Magazine45_ACPSubMachineGunRubber
-  name: 'SMG杂志（点四五ACP橡胶弹） | SMG magazine (.45 ACP rubber)'
+  name: 'SMG弹匣（.45 ACP橡胶弹） | SMG magazine (.45 ACP rubber)'
   parent: BaseMagazine45_ACPSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -423,7 +423,7 @@
 # Frontier
 - type: entity
   id: Magazine45_ACPSubMachineGunEmp
-  name: 'SMG杂志（点四五ACP增强型） | SMG magazine (.45 ACP emp)'
+  name: 'SMG弹匣（.45 ACP增强型） | SMG magazine (.45 ACP emp)'
   parent: BaseMagazine45_ACPSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -440,7 +440,7 @@
 #anti-flesh ammo
 - type: entity
   id: Magazine45_ACPSubMachineGunHP
-  name: 'SMG杂志（点四五ACP空尖弹） | SMG magazine (.45 ACP hollow-point)'
+  name: 'SMG弹匣（.45 ACP空尖弹） | SMG magazine (.45 ACP hollow-point)'
   parent: BaseMagazine45_ACPSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -455,7 +455,7 @@
 
 - type: entity
   id: Magazine45_ACPSubMachineGunRIP
-  name: 'SMG杂志（点四五ACP子弹RIP型号） | SMG magazine (.45 ACP RIP)'
+  name: 'SMG弹匣（.45 ACP子弹RIP型号） | SMG magazine (.45 ACP RIP)'
   parent: BaseMagazine45_ACPSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -472,7 +472,7 @@
 
 - type: entity
   id: Magazine45_ACPSubMachineGunPlasteelAP
-  name: 'SMG杂志（点四五ACP穿甲弹） | SMG magazine (.45 ACP AP)'
+  name: 'SMG弹匣（.45 ACP穿甲弹） | SMG magazine (.45 ACP AP)'
   parent: BaseMagazine45_ACPSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -489,7 +489,7 @@
 #Start TopMounted mags
 - type: entity
   id: Magazine45_ACPSubMachineGunTopMountedFMJ
-  name: '顶置弹匣（点四五ACP顶置型） | top-mounted magazine (.45 ACP top-mounted)'
+  name: '顶置弹匣（.45 ACP顶置型） | top-mounted magazine (.45 ACP top-mounted)'
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
   components:
   - type: Tag
@@ -521,7 +521,7 @@
 
 - type: entity
   id: Magazine45_ACPSubMachineGunTopMountedEmpty
-  name: '顶置弹匣（点四五ACP顶置式任意型号） | top-mounted magazine (.45 ACP top-mounted any)'
+  name: '顶置弹匣（.45 ACP顶置式任意型号） | top-mounted magazine (.45 ACP top-mounted any)'
   parent: Magazine45_ACPSubMachineGunTopMountedFMJ
   components:
   - type: BallisticAmmoProvider

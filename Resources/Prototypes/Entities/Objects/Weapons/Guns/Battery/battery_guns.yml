@@ -152,7 +152,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: 杂志 丨 Magazine
+        name: 弹匣 丨 Magazine
         startingItem: PowerCellSmall
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -398,7 +398,7 @@
   name: LWC脉冲卡宾枪 丨 LWC pulse carbine
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseC2ContrabandUnredeemable] # Frontier: added BaseC2ContrabandUnredeemable
   id: WeaponPulseCarbine
-  description: 一把为"机关"与神出鬼没的"冬至"所青睐的高科技能量卡宾枪。枪柄处贴有"仅限授权使用"的标签。 丨 A high tech energy carbine favoured by The Agency and the ever-elusive Winter Solstice. On the handle is a label that says 'for authorized use only.'
+  description: 一把受到"机构" (The Agency)与神出鬼没的"冬至" (Winter Solstice)所青睐的高科技能量卡宾枪。枪柄处贴有"仅限授权使用"的标签。 丨 A high tech energy carbine favoured by The Agency and the ever-elusive Winter Solstice. On the handle is a label that says 'for authorized use only.'
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
@@ -631,7 +631,7 @@
     # - Antagonists # Frontier: removed guidebook entry
 
 - type: entity
-  name: 失能手枪 丨 disabler SMG
+  name: 失能冲锋枪 丨 disabler SMG
   parent: [ BaseWeaponBattery, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: WeaponDisablerSMG
   description: 高级武器，可使有机目标精疲力竭，逐渐虚弱直至瘫倒。握把上贴有“仅限授权使用”的标签。 丨 Advanced weapon that exhausts organic targets, weakening them until they collapse. On the handle is a label that says 'for authorized use only.'
@@ -789,7 +789,7 @@
     - Sidearm
 
 - type: entity
-  name: C.H.I.M.P. 手炮 丨 C.H.I.M.P. handcannon
+  name: C.H.I.M.P. 手持发射器 丨 C.H.I.M.P. handcannon
   parent: [BaseWeaponBatterySmall, BaseC1Contraband] # Frontier: BaseScienceContraband<BaseC1Contraband
   id: WeaponPistolCHIMP
   description: 虽然它只是个小不点C.H.I.M.P.，可不代表它的威力不如A.P.E.。 丨 Just because it's a little C.H.I.M.P. doesn't mean it can't punch like an A.P.E.
@@ -835,10 +835,10 @@
     price: 100
 
 - type: entity
-  name: 实验性黑猩猩手持火炮 丨 experimental C.H.I.M.P. handcannon
+  name: 实验性C.H.I.M.P手持发射器 丨 experimental C.H.I.M.P. handcannon
   parent: [WeaponPistolCHIMP, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponPistolCHIMPUpgraded
-  description: 这把实验型C.H.I.M.P.手炮的威力似乎比寻常型号更胜一筹…… 丨 This C.H.I.M.P. seems to have a greater punch than is usual...
+  description: 这把实验型C.H.I.M.P.手持发射器的威力似乎比寻常型号更胜一筹…… 丨 This C.H.I.M.P. seems to have a greater punch than is usual...
   components:
   - type: BatteryWeaponFireModes
     fireModes:

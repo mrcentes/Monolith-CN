@@ -235,7 +235,7 @@
   id: WeaponTurretSerpentMissile
   name: '蛇式鱼雷发射器 | Serpent torpedo launcher'
   parent: BallisticArtillery
-  description: '蛇式鱼雷发射器：联合体在企业战争期间研发的轻型鱼雷发射装置，采用与蟒蛇系统类似的自动装弹机制。 | A light torpedo launcher developed by the Syndicate during the corporate war, uses similar systems to the anaconda for self loading munitons.'
+  description: '蛇式鱼雷发射器：联合体在公司战争期间研发的轻型鱼雷发射装置，采用与蟒蛇系统类似的自动装弹机制。 | A light torpedo launcher developed by the Syndicate during the corporate war, uses similar systems to the anaconda for self loading munitons.'
   components:
   - type: StaticPrice
     price: 5000

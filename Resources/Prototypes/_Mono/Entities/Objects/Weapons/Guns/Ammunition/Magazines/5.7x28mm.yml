@@ -6,7 +6,7 @@
 
 - type: entity
   id: BaseMagazine57x28mm
-  name: '手枪弹匣（5.7x28毫米全金属被甲弹） | pistol magazine (5.7x28mm FMJ)'
+  name: '手枪弹匣（5.7x28mm 全金属被甲弹） | pistol magazine (5.7x28mm FMJ)'
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
   abstract: true
   components:
@@ -40,7 +40,7 @@
 #Start Pistol mags
 - type: entity
   id: Magazine57x28mmPistolFMJ
-  name: '手枪弹匣（5.7x28毫米全金属被甲弹） | pistol magazine (5.7x28mm FMJ)'
+  name: '手枪弹匣（5.7x28mm 全金属被甲弹） | pistol magazine (5.7x28mm FMJ)'
   parent: BaseMagazine57x28mm
   components:
   - type: BallisticAmmoProvider
@@ -54,7 +54,7 @@
 
 - type: entity
   id: Magazine57x28mmPistolEmpty
-  name: '手枪弹匣（5.7x28毫米通用型号） | pistol magazine (5.7x28mm any)'
+  name: '手枪弹匣（5.7x28mm 通用型号） | pistol magazine (5.7x28mm any)'
   suffix: empty
   parent: Magazine57x28mmPistolFMJ
   components:
@@ -69,7 +69,7 @@
 
 - type: entity
   id: Magazine57x28mmPistolIncendiary
-  name: '手枪弹匣（5.7x28毫米燃烧弹） | pistol magazine (5.7x28mm incendiary)'
+  name: '手枪弹匣（5.7x28mm 燃烧弹） | pistol magazine (5.7x28mm incendiary)'
   parent: Magazine57x28mmPistolFMJ
   components:
   - type: BallisticAmmoProvider
@@ -83,7 +83,7 @@
 
 - type: entity
   id: Magazine57x28mmPistolPractice
-  name: '手枪弹匣（5.7x28毫米训练弹） | pistol magazine (5.7x28mm practice)'
+  name: '手枪弹匣（5.7x28mm 训练弹） | pistol magazine (5.7x28mm practice)'
   parent: BaseMagazine57x28mm
   components:
   - type: BallisticAmmoProvider
@@ -97,7 +97,7 @@
 
 - type: entity
   id: Magazine57x28mmPistolUranium
-  name: '手枪弹匣（5.7x28毫米铀弹） | pistol magazine (5.7x28mm uranium)'
+  name: '手枪弹匣（5.7x28mm 铀弹） | pistol magazine (5.7x28mm uranium)'
   parent: BaseMagazine57x28mm
   components:
   - type: BallisticAmmoProvider
@@ -112,7 +112,7 @@
 #Upstream
 - type: entity
   id: Magazine57x28mmPistolRubber
-  name: '手枪弹匣（5.7x28毫米橡胶弹） | pistol magazine (5.7x28mm rubber)'
+  name: '手枪弹匣（5.7x28mm 橡胶弹） | pistol magazine (5.7x28mm rubber)'
   parent: BaseMagazine57x28mm
   components:
   - type: BallisticAmmoProvider
@@ -129,7 +129,7 @@
 #anti-flesh ammo
 - type: entity
   id: Magazine57x28mmPistolHP
-  name: '手枪弹匣（5.7x28毫米空尖弹） | pistol magazine (5.7x28mm hollow-point)'
+  name: '手枪弹匣（5.7x28mm 空尖弹） | pistol magazine (5.7x28mm hollow-point)'
   parent: BaseMagazine57x28mm
   components:
   - type: BallisticAmmoProvider
@@ -144,7 +144,7 @@
 
 - type: entity
   id: Magazine57x28mmPistolRIP
-  name: '手枪弹匣（5.7x28毫米RIP） | pistol magazine (5.7x28mm RIP)'
+  name: '手枪弹匣（5.7x28mm RIP） | pistol magazine (5.7x28mm RIP)'
   parent: BaseMagazine57x28mm
   components:
   - type: BallisticAmmoProvider
@@ -161,7 +161,7 @@
 
 - type: entity
   id: Magazine57x28mmPistolPlasteelAP
-  name: '手枪弹匣（5.7x28毫米穿甲弹） | pistol magazine (5.7x28mm AP)'
+  name: '手枪弹匣（5.7x28mm 穿甲弹） | pistol magazine (5.7x28mm AP)'
   parent: BaseMagazine57x28mm
   components:
   - type: BallisticAmmoProvider
@@ -178,7 +178,7 @@
 #Start HighCapacity mags
 - type: entity
   id: BaseMagazine57x28mmPistolHighCapacityFMJ
-  name: '冲锋手枪弹匣（5.7x28毫米全金属被甲弹） | machine pistol magazine (5.7x28mm FMJ)'
+  name: '冲锋手枪弹匣（5.7x28mm 全金属被甲弹） | machine pistol magazine (5.7x28mm FMJ)'
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseC1Contraband
   abstract: true
   components:
@@ -211,7 +211,7 @@
 
 - type: entity
   id: Magazine57x28mmPistolHighCapacityEmpty
-  name: '机关手枪弹匣（5.7x28毫米通用型） | machine pistol magazine (5.7x28mm any)'
+  name: '冲锋手枪弹匣（5.7x28mm 通用型） | machine pistol magazine (5.7x28mm any)'
   suffix: empty
   parent: BaseMagazine57x28mmPistolHighCapacityFMJ
   components:
@@ -226,7 +226,7 @@
 
 - type: entity
   id: Magazine57x28mmPistolHighCapacityFMJ
-  name: '冲锋手枪弹匣（5.7x28毫米全金属被甲弹） | machine pistol magazine (5.7x28mm FMJ)'
+  name: '冲锋手枪弹匣（5.7x28mm 全金属被甲弹） | machine pistol magazine (5.7x28mm FMJ)'
   parent: BaseMagazine57x28mmPistolHighCapacityFMJ
   components:
   - type: BallisticAmmoProvider
@@ -240,7 +240,7 @@
 
 - type: entity
   id: Magazine57x28mmPistolHighCapacityPractice
-  name: '机关手枪弹匣（5.7x28毫米训练弹） | machine pistol magazine (5.7x28mm practice)'
+  name: '冲锋手枪弹匣（5.7x28mm 训练弹） | machine pistol magazine (5.7x28mm practice)'
   parent: BaseMagazine57x28mmPistolHighCapacityFMJ
   components:
   - type: BallisticAmmoProvider
@@ -254,7 +254,7 @@
 
 - type: entity
   id: Magazine57x28mmPistolHighCapacityRubber
-  name: '机关手枪弹匣（5.7x28毫米橡胶子弹） | machine pistol magazine (5.7x28mm rubber)'
+  name: '冲锋手枪弹匣（5.7x28mm 橡胶子弹） | machine pistol magazine (5.7x28mm rubber)'
   parent: BaseMagazine57x28mmPistolHighCapacityFMJ
   components:
   - type: BallisticAmmoProvider
@@ -271,7 +271,7 @@
 #Start SubMachineGun mags
 - type: entity
   id: BaseMagazine57x28mmSubMachineGunFMJ
-  name: 'SMG杂志（5.7x28毫米全金属被甲弹） | SMG magazine (5.7x28mm FMJ)'
+  name: 'SMG弹匣（5.7x28mm 全金属被甲弹） | SMG magazine (5.7x28mm FMJ)'
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseSecurityContraband<BaseC1Contraband
   abstract: true
   components:
@@ -304,7 +304,7 @@
 
 - type: entity
   id: Magazine57x28mmSubMachineGunFMJ
-  name: 'SMG杂志（5.7x28毫米全金属被甲弹） | SMG magazine (5.7x28mm FMJ)'
+  name: 'SMG弹匣（5.7x28mm 全金属被甲弹） | SMG magazine (5.7x28mm FMJ)'
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -323,7 +323,7 @@
 
 - type: entity
   id: Magazine57x28mmSubMachineGunEmpty
-  name: 'SMG杂志（5.7x28毫米通用型） | SMG magazine (5.7x28mm any)'
+  name: 'SMG弹匣（5.7x28mm 通用型） | SMG magazine (5.7x28mm any)'
   suffix: empty
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   components:
@@ -338,7 +338,7 @@
 
 - type: entity
   id: Magazine57x28mmSubMachineGunPractice
-  name: 'SMG弹匣（5.7x28毫米训练用） | SMG magazine (5.7x28mm practice)'
+  name: 'SMG弹匣（5.7x28mm 训练用） | SMG magazine (5.7x28mm practice)'
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -352,7 +352,7 @@
 
 - type: entity
   id: Magazine57x28mmSubMachineGunUranium
-  name: 'SMG杂志（5.7x28毫米铀弹） | SMG magazine (5.7x28mm uranium)'
+  name: 'SMG弹匣（5.7x28mm 铀弹） | SMG magazine (5.7x28mm uranium)'
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -367,7 +367,7 @@
 - type: entity
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   id: Magazine57x28mmSubMachineGunIncendiary
-  name: 'SMG杂志（5.7x28毫米燃烧弹） | SMG magazine (5.7x28mm incendiary)'
+  name: 'SMG弹匣（5.7x28mm 燃烧弹） | SMG magazine (5.7x28mm incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge57x28mmIncendiary
@@ -380,7 +380,7 @@
 
 - type: entity
   id: Magazine57x28mmSubMachineGunRubber
-  name: 'SMG杂志（5点7乘28毫米橡胶弹） | SMG magazine (5.7x28mm rubber)'
+  name: 'SMG弹匣（5点7乘28mm 橡胶弹） | SMG magazine (5.7x28mm rubber)'
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -396,7 +396,7 @@
 # Frontier
 - type: entity
   id: Magazine57x28mmSubMachineGunEmp
-  name: 'SMG弹匣（5.7x28毫米电磁脉冲弹） | SMG magazine (5.7x28mm emp)'
+  name: 'SMG弹匣（5.7x28mm 电磁脉冲弹） | SMG magazine (5.7x28mm emp)'
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -413,7 +413,7 @@
 #anti-flesh ammo
 - type: entity
   id: Magazine57x28mmSubMachineGunHP
-  name: 'SMG杂志（5.7x28毫米空尖弹） | SMG magazine (5.7x28mm hollow-point)'
+  name: 'SMG弹匣（5.7x28mm 空尖弹） | SMG magazine (5.7x28mm hollow-point)'
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -428,7 +428,7 @@
 
 - type: entity
   id: Magazine57x28mmSubMachineGunRIP
-  name: 'SMG杂志（5.7x28毫米RIP） | SMG magazine (5.7x28mm RIP)'
+  name: 'SMG弹匣（5.7x28mm RIP） | SMG magazine (5.7x28mm RIP)'
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -445,7 +445,7 @@
 
 - type: entity
   id: Magazine57x28mmSubMachineGunPlasteelAP
-  name: 'SMG杂志（5.7x28毫米穿甲弹） | SMG magazine (5.7x28mm AP)'
+  name: 'SMG弹匣（5.7x28mm 穿甲弹） | SMG magazine (5.7x28mm AP)'
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
@@ -462,7 +462,7 @@
 #Start TopMounted mags
 - type: entity
   id: Magazine57x28mmSubMachineGunTopMountedFMJ
-  name: '顶置弹匣（5.7x28毫米上置式） | top-mounted magazine (5.7x28mm top-mounted)'
+  name: '顶置弹匣（5.7x28mm 上置式） | top-mounted magazine (5.7x28mm top-mounted)'
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
   components:
   - type: Tag
@@ -494,7 +494,7 @@
 
 - type: entity
   id: Magazine57x28mmSubMachineGunTopMountedEmpty
-  name: '顶置弹匣（5.7x28毫米顶置式） | top-mounted magazine (5.7x28mm top-mounted any)'
+  name: '顶置弹匣（5.7x28mm 顶置式） | top-mounted magazine (5.7x28mm top-mounted any)'
   parent: Magazine57x28mmSubMachineGunTopMountedFMJ
   components:
   - type: BallisticAmmoProvider

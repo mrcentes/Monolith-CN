@@ -2,7 +2,7 @@
   id: BaseFirelock
   abstract: true
   parent: BaseStructure
-  name: 火枪 丨 firelock
+  name: 防火闸 丨 firelock
   description: 使用撬棍。 丨 Apply crowbar.
   components:
     - type: AtmosAlarmable
@@ -145,7 +145,7 @@
 - type: entity
   id: FirelockGlass
   parent: Firelock
-  name: 玻璃火枪 丨 glass firelock
+  name: 玻璃防火闸 丨 glass firelock
   components:
     - type: StationAiWhitelist
     - type: Sprite
@@ -171,7 +171,7 @@
 - type: entity
   id: FirelockEdge
   parent: Firelock
-  name: 火枪 丨 firelock
+  name: 防火闸 丨 firelock
   components:
     - type: StationAiWhitelist
     - type: Sprite

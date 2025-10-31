@@ -25,7 +25,7 @@
 
 - type: entity
   id: Bullet57x28mmFMJ
-  name: '子弹（5.7x28毫米全金属被甲弹） | bullet (5.7x28mm FMJ)'
+  name: '子弹（5.7x28mm 全金属被甲弹） | bullet (5.7x28mm FMJ)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -37,7 +37,7 @@
 
 - type: entity
   id: Bullet57x28mmPractice
-  name: '子弹（5.7x28毫米训练弹） | bullet (5.7x28mm practice)'
+  name: '子弹（5.7x28mm 训练弹） | bullet (5.7x28mm practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -48,7 +48,7 @@
 
 - type: entity
   id: Bullet57x28mmRubber
-  name: '子弹（5.7x28毫米橡胶弹） | bullet (5.7x28mm rubber)'
+  name: '子弹（5.7x28mm 橡胶弹） | bullet (5.7x28mm rubber)'
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -60,7 +60,7 @@
 - type: entity
   id: Bullet57x28mmIncendiary
   parent: BaseBulletIncendiary
-  name: '子弹（5.7x28毫米燃烧弹） | bullet (5.7x28mm incendiary)'
+  name: '子弹（5.7x28mm 燃烧弹） | bullet (5.7x28mm incendiary)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -72,7 +72,7 @@
 - type: entity
   id: Bullet57x28mmUranium
   parent: BaseBulletUranium
-  name: '子弹（5.7x28毫米铀弹） | bullet (5.7x28mm uranium)'
+  name: '子弹（5.7x28mm 铀弹） | bullet (5.7x28mm uranium)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -84,7 +84,7 @@
 # Upstream
 - type: entity
   id: Bullet57x28mmEmp
-  name: '子弹（5.7x28毫米电磁脉冲弹） | bullet (5.7x28mm emp)'
+  name: '子弹（5.7x28mm 电磁脉冲弹） | bullet (5.7x28mm emp)'
   parent: BaseBulletEmp
   categories: [ HideSpawnMenu ]
   components:
@@ -99,7 +99,7 @@
 - type: entity
   id: Bullet57x28mmHP
   parent: BaseBullet
-  name: '子弹（5.7x28毫米空尖弹） | bullet (5.7x28mm hollow-point)'
+  name: '子弹（5.7x28mm 空尖弹） | bullet (5.7x28mm hollow-point)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -112,7 +112,7 @@
 - type: entity
   id: Bullet57x28mmRIP
   parent: BaseBullet
-  name: '子弹（5点7乘28毫米RIP） | bullet (5.7x28mm RIP)'
+  name: '子弹（5点7乘28mm RIP） | bullet (5.7x28mm RIP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -127,7 +127,7 @@
 - type: entity
   id: Bullet57x28mmPlasteelAP
   parent: BaseBullet
-  name: '子弹（5.7x28毫米穿甲弹） | bullet (5.7x28mm AP)'
+  name: '子弹（5.7x28mm 穿甲弹） | bullet (5.7x28mm AP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

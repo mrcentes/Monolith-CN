@@ -1,47 +1,48 @@
+
 <Document>
-  # Colossus Shipyards
+  # 巨像造船厂
 
-To assist in developing the Colossus Sector, shuttles from SHM or various corporations can be rented for use.
-All rentals last for one shift. Rented shuttles return to the corporate parent company at the end of shift.
-The value of shuttles is returned to the purchaser when ended through a ship console.
-To avoid losses, [bold]make sure you end your rental before ending your shift[/bold].
+为了协助开发巨像星域，可以租用来自SHM或各公司的飞船。
+所有租用期为单个班次。租用的飞船在轮班结束时会返回给其母公司。
+通过飞船控制台结束租用时，飞船的购买金额将返还给购买者。
+为避免损失，[bold]请确保在结束轮班前结束你的租用[/bold]。
 
-## Shipyard Console
+## 船坞控制台
   <Box>
     <GuideEntityEmbed Entity="PassengerIDCard"/>
     <GuideEntityEmbed Entity="SpaceCash1000"/>
     <GuideEntityEmbed Entity="ComputerShipyard"/>
   </Box>
-  To rent a ship:
-- Eject the ID card from your PDA.
-- Insert the ID card into an unused [color=#cccc00]shipyard console[/color].
-- Use the shipyard console to bring up its interface.
-- Select the ship you would like to rent.
-- Press the Purchase button on the console.
-- Press the Eject button to remove your ID from the console.
-- Reinsert your ID card into your PDA.
+  租用飞船步骤：
+- 从你的PDA中弹出ID卡。
+- 将ID卡插入一个未占用的[color=#cccc00]船坞控制台[/color]。
+- 使用控制台调出操作界面
+- 选择想要租用的飞船型号
+- 按下控制台上的"购买"按钮
+- 按下"弹出"按钮取回ID卡
+- 将ID卡重新插入PDA
 
-Congratulations, you're now the Captain of your own ship!
+恭喜，你现在是你自己飞船的船长了！
 
-To end your rental:
-- Make sure your rented ship is docked with Colonial Outpost.
-- Make sure nobody is aboard the ship.
-- Eject the ID card [bold]used to purchase the ship[/bold] from your PDA.
-- Insert the ID card into an unused [color=#cccc00]shipyard console[/color].
-- Use the shipyard console to bring up its interface.
-- Press the Sell button on the console. The value will be deposited into your bank account.
-- Press the Eject button to remove your ID from the console.
-- Reinsert your ID card into your PDA.
+要结束你的租用：
+- 确保你租用的飞船已与殖民哨站对接。
+- 确保船上没有人。
+- 从你的PDA中弹出[bold]用于购买飞船的[/bold]ID卡。
+- 将ID卡插入一个未使用的[color=#cccc00]船坞控制台[/color]。
+- 使用船坞控制台调出其界面。
+- 按下控制台上的“出售”按钮。价值将被存入你的银行账户。
+- 按下“弹出”按钮以从控制台中取出你的ID。
+- 将你的ID卡重新插入PDA。
 
-## Provisions
+## 补给
   <Box>
     <GuideEntityEmbed Entity="LockerCaptain"/>
     <GuideEntityEmbed Entity="SuitStorageBase"/>
     <GuideEntityEmbed Entity="LockerParamedic"/>
   </Box>
-  Ships come equipped with the tools and supplies needed to perform one or more tasks in the Colossus Sector (e.g. mining, research, medical, food services).
+  飞船配备了在巨像星域执行一项或多项任务所需的工具和物资（例如采矿、研究、医疗、餐饮服务）。
 
-Ships, especially larger ones, work best with a crew. Refer to the [bold]Hiring[/bold] section for more info.
-Space is a lonely, dangerous place, and you'll have a much better time when you work with a crew.
+飞船，尤其是大型飞船，与船员一起工作效果最佳。有关更多信息，请参阅[bold]雇佣[/bold]部分。
+太空是一个孤独而危险的地方，与船员一起工作，你将度过更愉快的时光。
 
 </Document>

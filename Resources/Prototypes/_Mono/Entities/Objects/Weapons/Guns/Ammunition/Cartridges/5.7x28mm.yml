@@ -6,8 +6,8 @@
 
 - type: entity
   id: BaseCartridge57x28mm
-  name: '弹药（5.7x28毫米全金属被甲弹） | cartridge (5.7x28mm FMJ)'
-  description: '一种小型单兵自卫武器弹药。内部伤害高于4.6毫米弹药，但穿甲能力较弱。曾因造价高昂而声名狼藉。 | A small PDW cartridge. More internal damage than 4.6, but less armor-piercing capabilities. Formerly infamous for its high cost.'
+  name: '弹药（5.7x28mm 全金属被甲弹） | cartridge (5.7x28mm FMJ)'
+  description: '一种小型单兵自卫武器弹药。内部伤害高于4.6mm 弹药，但穿甲能力较弱。曾因造价高昂而声名狼藉。 | A small PDW cartridge. More internal damage than 4.6, but less armor-piercing capabilities. Formerly infamous for its high cost.'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   abstract: true
   components:
@@ -29,7 +29,7 @@
 
 - type: entity
   id: Cartridge57x28mmFMJ
-  name: '子弹（5.7x28毫米全金属被甲弹） | cartridge (5.7x28mm FMJ)'
+  name: '子弹（5.7x28mm 全金属被甲弹） | cartridge (5.7x28mm FMJ)'
   parent: BaseCartridge57x28mm
   components:
   - type: CartridgeAmmo
@@ -37,7 +37,7 @@
 
 - type: entity
   id: Cartridge57x28mmPractice
-  name: '弹药筒（5.7x28毫米训练弹） | cartridge (5.7x28mm practice)'
+  name: '子弹（5.7x28mm 训练弹） | cartridge (5.7x28mm practice)'
   parent: BaseCartridge57x28mm
   components:
   - type: CartridgeAmmo
@@ -52,7 +52,7 @@
 
 - type: entity
   id: Cartridge57x28mmIncendiary
-  name: '子弹（5.7x28毫米燃烧弹） | cartridge (5.7x28mm incendiary)'
+  name: '子弹（5.7x28mm 燃烧弹） | cartridge (5.7x28mm incendiary)'
   parent: BaseCartridge57x28mm
   components:
   - type: CartridgeAmmo
@@ -67,7 +67,7 @@
 
 - type: entity
   id: Cartridge57x28mmUranium
-  name: '弹药筒（5.7x28毫米铀弹） | cartridge (5.7x28mm uranium)'
+  name: '子弹（5.7x28mm 铀弹） | cartridge (5.7x28mm uranium)'
   parent: BaseCartridge57x28mm
   components:
   - type: CartridgeAmmo
@@ -83,7 +83,7 @@
 # Upstream
 - type: entity
   id: Cartridge57x28mmRubber
-  name: '子弹（5.7x28毫米橡胶弹） | cartridge (5.7x28mm rubber)'
+  name: '子弹（5.7x28mm 橡胶弹） | cartridge (5.7x28mm rubber)'
   parent: BaseCartridge57x28mm
   components:
   - type: CartridgeAmmo
@@ -99,7 +99,7 @@
 # Frontier
 - type: entity
   id: Cartridge57x28mmEmp
-  name: '弹匣（5.7x28毫米电磁脉冲） | cartridge (5.7x28mm emp)'
+  name: '弹匣（5.7x28mm 电磁脉冲） | cartridge (5.7x28mm emp)'
   parent: BaseCartridge57x28mm
   components:
   - type: CartridgeAmmo
@@ -113,7 +113,7 @@
 #anti-flesh:
 - type: entity
   id: Cartridge57x28mmHP
-  name: '子弹（5.7x28毫米空尖弹） | cartridge (5.7x28mm hollow-point)'
+  name: '子弹（5.7x28mm 空尖弹） | cartridge (5.7x28mm hollow-point)'
   parent: BaseCartridge57x28mm
   components:
   - type: CartridgeAmmo
@@ -128,7 +128,7 @@
 
 - type: entity
   id: Cartridge57x28mmRIP
-  name: '子弹（5.7x28毫米RIP） | cartridge (5.7x28mm RIP)'
+  name: '子弹（5.7x28mm RIP） | cartridge (5.7x28mm RIP)'
   parent: BaseCartridge57x28mm
   components:
   - type: CartridgeAmmo
@@ -145,7 +145,7 @@
 
 - type: entity
   id: Cartridge57x28mmPlasteelAP
-  name: '子弹（5.7x28毫米穿甲弹） | cartridge (5.7x28mm AP)'
+  name: '子弹（5.7x28mm 穿甲弹） | cartridge (5.7x28mm AP)'
   parent: BaseCartridge57x28mm
   components:
   - type: CartridgeAmmo

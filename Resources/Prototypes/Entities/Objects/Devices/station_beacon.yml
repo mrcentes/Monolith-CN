@@ -99,8 +99,8 @@
 - type: entity
   parent: BaseItem
   id: StationBeaconPart
-  name: 站标信标平板包装 丨 station beacon flatpack
-  description: 用于建造站点信标的扁平包装材料。 丨 A flatpack used for constructing a station beacon.
+  name: 站标信标组装包 丨 station beacon flatpack
+  description: 用于建造站点信标的组装包。 丨 A flatpack used for constructing a station beacon.
   components:
   - type: Item
     size: Small

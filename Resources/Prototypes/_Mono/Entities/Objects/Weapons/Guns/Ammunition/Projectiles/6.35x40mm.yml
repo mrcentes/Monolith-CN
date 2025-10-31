@@ -20,7 +20,7 @@
 
 - type: entity
   id: Bullet635x40mmCaseless
-  name: '子弹（635x40毫米无壳弹） | bullet (635x40mm Caseless)'
+  name: '子弹（635x40mm 无壳弹） | bullet (635x40mm Caseless)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -32,7 +32,7 @@
 
 - type: entity
   id: Bullet635x40mmCaselessPractice
-  name: '子弹（635x40毫米无壳练习弹） | bullet (635x40mm Caseless practice)'
+  name: '子弹（635x40mm 无壳练习弹） | bullet (635x40mm Caseless practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -43,7 +43,7 @@
 
 - type: entity
   id: Bullet635x40mmCaselessRubber
-  name: '子弹（635x40毫米无壳橡胶） | bullet (635x40mm Caseless rubber)'
+  name: '子弹（635x40mm 无壳橡胶） | bullet (635x40mm Caseless rubber)'
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:

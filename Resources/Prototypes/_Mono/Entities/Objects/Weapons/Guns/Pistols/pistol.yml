@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: 'U I 智能手枪MK5（点五五智能行动马格南） | U.I Smart Pistol MK5 (.55 SAM)'
+  name: 'U I 智能手枪MK5（.55 SAM马格南） | U.I Smart Pistol MK5 (.55 SAM)'
   parent: [BaseWeaponPistol, BaseGunWieldable, BaseC3SyndicateContraband]
   id: WeaponPistolUllmanSmartMagnumMK5
   description: '乌尔曼工业研发的原型智能手枪，采用五点五智能行动马格南弹药，专为战斗场景下的精准性与适应性设计。该武器配备先进瞄准系统，采用流线型外观设计。 | A prototype smart pistol developed by Ullman Industries that uses .55 Smart Action Magnum, designed for precision and adaptability in combat situations. It features advanced targeting systems and a sleek design.'
@@ -34,7 +34,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: Magazine55_SAMPistol
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg

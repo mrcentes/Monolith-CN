@@ -1,6 +1,6 @@
 - type: entity
   id: 60mmMechShell
-  name: '60毫米炮弹 | 60mm shell'
+  name: '60mm 炮弹 | 60mm shell'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

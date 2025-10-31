@@ -1,6 +1,6 @@
 - type: entity
   id: Bullet20mm_ACPFMJ_Mech
-  name: '20毫米炮弹 | 20mm shell'
+  name: '20mm 炮弹 | 20mm shell'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

@@ -32,7 +32,7 @@
 
 - type: entity
   id: BaseCartridge556x45mm
-  name: '子弹（5.56x45毫米全金属被甲） | cartridge (5.56x45mm FMJ)'
+  name: '子弹（5.56x45mm 全金属被甲） | cartridge (5.56x45mm FMJ)'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: '一种极为常见的步枪用中间型弹药。 | An extremely-common intermediate cartridge for rifles.'
   abstract: true
@@ -55,7 +55,7 @@
 
 - type: entity
   id: Cartridge556x45mmFMJ
-  name: '子弹（5.56x45毫米全金属被甲弹） | cartridge (5.56x45mm FMJ)'
+  name: '子弹（5.56x45mm 全金属被甲弹） | cartridge (5.56x45mm FMJ)'
   parent: BaseCartridge556x45mm
   components:
   - type: CartridgeAmmo
@@ -63,7 +63,7 @@
 
 - type: entity
   id: Cartridge556x45mmPractice
-  name: '弹药筒（5.56x45毫米练习弹） | cartridge (5.56x45mm practice)'
+  name: '子弹（5.56x45mm 练习弹） | cartridge (5.56x45mm practice)'
   parent: BaseCartridge556x45mm
   components:
   - type: CartridgeAmmo
@@ -78,7 +78,7 @@
 
 - type: entity
   id: Cartridge556x45mmIncendiary
-  name: '子弹（5.56x45毫米燃烧弹） | cartridge (5.56x45mm incendiary)'
+  name: '子弹（5.56x45mm 燃烧弹） | cartridge (5.56x45mm incendiary)'
   parent: BaseCartridge556x45mm
   components:
   - type: CartridgeAmmo
@@ -93,7 +93,7 @@
 
 - type: entity
   id: Cartridge556x45mmUranium
-  name: '子弹（5.56x45毫米铀弹） | cartridge (5.56x45mm uranium)'
+  name: '子弹（5.56x45mm 铀弹） | cartridge (5.56x45mm uranium)'
   parent: BaseCartridge556x45mm
   components:
   - type: CartridgeAmmo
@@ -108,7 +108,7 @@
 
 - type: entity
   id: Cartridge556x45mmRubber
-  name: '子弹（5.56x45毫米橡胶） | cartridge (5.56x45mm rubber)'
+  name: '子弹（5.56x45mm 橡胶） | cartridge (5.56x45mm rubber)'
   parent: BaseCartridge556x45mm
   components:
   - type: CartridgeAmmo
@@ -125,7 +125,7 @@
 #anti-flesh:
 - type: entity
   id: Cartridge556x45mmHP
-  name: '子弹（5.56x45毫米空尖弹） | cartridge (5.56x45mm hollow-point)'
+  name: '子弹（5.56x45mm 空尖弹） | cartridge (5.56x45mm hollow-point)'
   parent: BaseCartridge556x45mm
   components:
   - type: CartridgeAmmo
@@ -140,7 +140,7 @@
 
 - type: entity
   id: Cartridge556x45mmRIP
-  name: '子弹（5.56x45毫米空尖弹） | cartridge (5.56x45mm RIP)'
+  name: '子弹（5.56x45mm 空尖弹） | cartridge (5.56x45mm RIP)'
   parent: BaseCartridge556x45mm
   components:
   - type: CartridgeAmmo
@@ -157,7 +157,7 @@
 
 - type: entity
   id: Cartridge556x45mmPlasteelAP
-  name: '子弹（5.56x45毫米穿甲弹） | cartridge (5.56x45mm AP)'
+  name: '子弹（5.56x45mm 穿甲弹） | cartridge (5.56x45mm AP)'
   parent: BaseCartridge556x45mm
   components:
   - type: CartridgeAmmo

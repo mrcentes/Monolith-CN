@@ -31,7 +31,7 @@
 
 - type: entity
   id: BaseCartridge762x39mm
-  name: '子弹（7.62x39毫米全金属被甲弹） | cartridge (7.62x39mm FMJ)'
+  name: '子弹（7.62x39mm 全金属被甲弹） | cartridge (7.62x39mm FMJ)'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: '这种子弹起源于400多年前，曾用于多个民兵组织和军队的步枪中。 | Originating from over 400 years ago, this round has seen use in the rifles of multiple militias and militaries alike.'
   abstract: true
@@ -54,7 +54,7 @@
 
 - type: entity
   id: Cartridge762x39mmFMJ
-  name: '子弹（7.62x39毫米全金属被甲弹） | cartridge (7.62x39mm FMJ)'
+  name: '子弹（7.62x39mm 全金属被甲弹） | cartridge (7.62x39mm FMJ)'
   parent: BaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
@@ -62,7 +62,7 @@
 
 - type: entity
   id: Cartridge762x39mmPractice
-  name: '子弹（7.62x39毫米训练弹） | cartridge (7.62x39mm practice)'
+  name: '子弹（7.62x39mm 训练弹） | cartridge (7.62x39mm practice)'
   parent: BaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
@@ -77,7 +77,7 @@
 
 - type: entity
   id: Cartridge762x39mmIncendiary
-  name: '子弹（7.62x39毫米燃烧弹） | cartridge (7.62x39mm incendiary)'
+  name: '子弹（7.62x39mm 燃烧弹） | cartridge (7.62x39mm incendiary)'
   parent: BaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
@@ -92,7 +92,7 @@
 
 - type: entity
   id: Cartridge762x39mmUranium
-  name: '子弹（7.62x39毫米铀弹） | cartridge (7.62x39mm uranium)'
+  name: '子弹（7.62x39mm 铀弹） | cartridge (7.62x39mm uranium)'
   parent: BaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
@@ -107,7 +107,7 @@
 
 - type: entity
   id: Cartridge762x39mmRubber
-  name: '子弹（7.62x39毫米橡胶） | cartridge (7.62x39mm rubber)'
+  name: '子弹（7.62x39mm 橡胶） | cartridge (7.62x39mm rubber)'
   parent: BaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
@@ -122,7 +122,7 @@
 
 - type: entity
   id: Cartridge762x39mmSubsonic
-  name: '子弹（7.62x39毫米亚音速） | cartridge (7.62x39mm subsonic)'
+  name: '子弹（7.62x39mm 亚音速） | cartridge (7.62x39mm subsonic)'
   parent: BaseCartridge762x39mm
   components:
   - type: Tag
@@ -144,7 +144,7 @@
 #anti-flesh:
 - type: entity
   id: Cartridge762x39mmHP
-  name: '子弹（7.62x39毫米空尖弹） | cartridge (7.62x39mm hollow-point)'
+  name: '子弹（7.62x39mm 空尖弹） | cartridge (7.62x39mm hollow-point)'
   parent: BaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
@@ -159,7 +159,7 @@
 
 - type: entity
   id: Cartridge762x39mmRIP
-  name: '子弹（7.62x39毫米RIP） | cartridge (7.62x39mm RIP)'
+  name: '子弹（7.62x39mm RIP） | cartridge (7.62x39mm RIP)'
   parent: BaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
@@ -176,7 +176,7 @@
 
 - type: entity
   id: Cartridge762x39mmPlasteelAP
-  name: '子弹（7.62x39毫米穿甲弹） | cartridge (7.62x39mm AP)'
+  name: '子弹（7.62x39mm 穿甲弹） | cartridge (7.62x39mm AP)'
   parent: BaseCartridge762x39mm
   components:
   - type: CartridgeAmmo

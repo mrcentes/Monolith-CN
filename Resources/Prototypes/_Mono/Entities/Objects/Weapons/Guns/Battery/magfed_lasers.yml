@@ -31,7 +31,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         whitelist:
           tags:
           - MilitaryPowerCellMG
@@ -87,7 +87,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: '杂志 | Magazine'
+        name: '弹匣 | Magazine'
         startingItem: PulsedPlasmaLaserCanister
         whitelist:
           tags:

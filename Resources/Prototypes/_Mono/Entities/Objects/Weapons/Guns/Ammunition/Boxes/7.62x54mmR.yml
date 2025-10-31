@@ -8,7 +8,7 @@
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
   id: BaseAmmoBox762x54mmR
-  name: '弹药箱（7.62x54毫米R全金属被甲弹） | ammunition box (7.62x54mmR FMJ)'
+  name: '弹药箱（7.62x54mm R全金属被甲弹） | ammunition box (7.62x54mmR FMJ)'
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -46,7 +46,7 @@
 - type: entity
   parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRFMJ
-  name: '弹药箱（7.62x54毫米R全金属被甲弹） | ammunition box (7.62x54mmR FMJ)'
+  name: '弹药箱（7.62x54mm R全金属被甲弹） | ammunition box (7.62x54mmR FMJ)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge762x54mmRFMJ
@@ -60,7 +60,7 @@
 - type: entity
   parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRPractice
-  name: '弹药箱（7.62x54毫米R练习弹） | ammunition box (7.62x54mmR practice)'
+  name: '弹药箱（7.62x54mm R练习弹） | ammunition box (7.62x54mmR practice)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge762x54mmRPractice
@@ -75,7 +75,7 @@
 - type: entity
   parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRIncendiary
-  name: '弹药箱（7.62x54毫米R燃烧弹） | ammunition box (7.62x54mmR incendiary)'
+  name: '弹药箱（7.62x54mm R燃烧弹） | ammunition box (7.62x54mmR incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge762x54mmRIncendiary
@@ -90,7 +90,7 @@
 - type: entity
   id: AmmoBox762x54mmRUranium
   parent: BaseAmmoBox762x54mmR
-  name: '弹药箱（7.62x54毫米R铀弹） | ammunition box (7.62x54mmR uranium)'
+  name: '弹药箱（7.62x54mm R铀弹） | ammunition box (7.62x54mmR uranium)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge762x54mmRUranium
@@ -106,7 +106,7 @@
 - type: entity
   parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRRubber
-  name: '弹药箱（7.62x54毫米橡胶弹） | ammunition box (7.62x54mmR rubber)'
+  name: '弹药箱（7.62x54mm 橡胶弹） | ammunition box (7.62x54mmR rubber)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge762x54mmRRubber
@@ -123,7 +123,7 @@
 - type: entity
   parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRHP
-  name: '弹药箱（7.62x54毫米R空尖弹） | ammunition box (7.62x54mmR hollow-point)'
+  name: '弹药箱（7.62x54mm R空尖弹） | ammunition box (7.62x54mmR hollow-point)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge762x54mmRHP
@@ -138,7 +138,7 @@
 - type: entity
   parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRRIP
-  name: '弹药箱（7.62x54毫米R穿甲弹） | ammunition box (7.62x54mmR RIP)'
+  name: '弹药箱（7.62x54mm R穿甲弹） | ammunition box (7.62x54mmR RIP)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge762x54mmRRIP
@@ -155,7 +155,7 @@
 - type: entity
   parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRPlasteelAP
-  name: '弹药箱（7.62x54毫米R穿甲弹） | ammunition box (7.62x54mmR AP)'
+  name: '弹药箱（7.62x54mm R穿甲弹） | ammunition box (7.62x54mmR AP)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge762x54mmRPlasteelAP
@@ -171,7 +171,7 @@
 - type: entity
   parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRBigFMJ
-  name: '大型弹药箱（7.62x54毫米R全金属被甲弹） | big ammunition box (7.62x54mmR FMJ)'
+  name: '大型弹药箱（7.62x54mm R全金属被甲弹） | big ammunition box (7.62x54mmR FMJ)'
   suffix: Big
   components:
   - type: Item

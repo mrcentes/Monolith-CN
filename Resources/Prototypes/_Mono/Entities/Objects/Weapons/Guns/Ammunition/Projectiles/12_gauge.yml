@@ -336,7 +336,7 @@
 #anti-flesh ammo
 - type: entity
   id: Pellet12_gaugeOOBuckshot
-  name: 'Pellet12号径（12号径OO型马格努姆大型铅弹） | Pellet12_gauge (12 gauge OO magnum buckshot)'
+  name: 'Pellet12号径（12号径OO型马格南大型铅弹） | Pellet12_gauge (12 gauge OO magnum buckshot)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
