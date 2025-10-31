@@ -8,9 +8,9 @@
 
 - type: entity
   id: WeaponRifleAK410
-  name: 'NCI AK-410（7.62x54毫米R型） | NCI AK-410 (7.62x54mmR)'
+  name: 'NCI AK-410（7.62x54mm R型） | NCI AK-410 (7.62x54mmR)'
   parent: [ BaseWeaponRifle, BaseC1Contraband ]
-  description: '牛犊式精确射手步枪，使用7.62x54毫米R弹匣供弹，专为现代化USSP远距离步兵武器系统而研发。 | Bullpup DMR feeding from 762x54mmR magazines, developed to modernize USSP long-range infantry weapons.'
+  description: '牛犊式精确射手步枪，使用7.62x54mm R弹匣供弹，专为现代化USSP远距离步兵武器系统而研发。 | Bullpup DMR feeding from 762x54mmR magazines, developed to modernize USSP long-range infantry weapons.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Snipers/ak410.rsi

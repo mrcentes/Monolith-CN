@@ -21,7 +21,7 @@
 
 - type: entity
   id: BaseSpeedLoader556x45mm
-  name: '弹匣装填器（5.56x45毫米全金属被甲弹） | speed loader (5.56x45mm FMJ)'
+  name: '弹匣装填器（5.56x45mm 全金属被甲弹） | speed loader (5.56x45mm FMJ)'
   parent: BaseItem
   abstract: true
   components:
@@ -42,7 +42,7 @@
 
 - type: entity
   id: SpeedLoader556x45mmFMJ
-  name: '弹匣装填器（5.56x45毫米全金属被甲弹） | speed loader (5.56x45mm FMJ)'
+  name: '弹匣装填器（5.56x45mm 全金属被甲弹） | speed loader (5.56x45mm FMJ)'
   parent: BaseSpeedLoader556x45mm
   components:
   - type: BallisticAmmoProvider
@@ -65,7 +65,7 @@
 
 - type: entity
   id: SpeedLoader556x45mmEmpty
-  name: '弹匣快速装填器（适用5.56x45毫米任意型号） | speed loader (5.56x45mm any)'
+  name: '弹匣快速装填器（适用5.56x45mm 任意型号） | speed loader (5.56x45mm any)'
   parent: SpeedLoader556x45mmFMJ
   components:
   - type: BallisticAmmoProvider
@@ -83,7 +83,7 @@
 
 - type: entity
   id: SpeedLoader556x45mmIncendiary
-  name: '弹匣装填器（5.56x45毫米燃烧弹） | speed loader (5.56x45mm incendiary)'
+  name: '弹匣装填器（5.56x45mm 燃烧弹） | speed loader (5.56x45mm incendiary)'
   parent: BaseSpeedLoader556x45mm
   components:
   - type: BallisticAmmoProvider
@@ -103,7 +103,7 @@
 
 - type: entity
   id: SpeedLoader556x45mmPractice
-  name: '弹匣装填器（5.56x45毫米训练弹） | speed loader (5.56x45mm practice)'
+  name: '弹匣装填器（5.56x45mm 训练弹） | speed loader (5.56x45mm practice)'
   parent: BaseSpeedLoader556x45mm
   components:
   - type: BallisticAmmoProvider
@@ -126,7 +126,7 @@
 
 - type: entity
   id: SpeedLoader556x45mmUranium
-  name: '弹匣装填器（5.56x45毫米铀弹） | speed loader (5.56x45mm uranium)'
+  name: '弹匣装填器（5.56x45mm 铀弹） | speed loader (5.56x45mm uranium)'
   parent: BaseSpeedLoader556x45mm
   components:
   - type: BallisticAmmoProvider
@@ -149,7 +149,7 @@
 
 - type: entity
   id: SpeedLoader556x45mmRubber
-  name: '弹匣快速装填器（5.56x45毫米橡胶训练弹） | speed loader (5.56x45mm rubber)'
+  name: '弹匣快速装填器（5.56x45mm 橡胶训练弹） | speed loader (5.56x45mm rubber)'
   parent: BaseSpeedLoader556x45mm
   components:
   - type: BallisticAmmoProvider

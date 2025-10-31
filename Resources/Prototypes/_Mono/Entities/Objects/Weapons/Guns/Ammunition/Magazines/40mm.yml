@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazine40mm
-  name: '40毫米榴弹 | 40mm grenade cartridge'
+  name: '40mm 榴弹 | 40mm grenade cartridge'
   parent: [ BaseCartridge, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   abstract: true
   components:
@@ -41,14 +41,14 @@
 
 - type: entity
   id: Magazine40mmEmpty
-  name: '40毫米榴弹 | 40mm grenade cartridge'
+  name: '40mm 榴弹 | 40mm grenade cartridge'
   parent: BaseMagazine40mm
   components:
   - type: BallisticAmmoProvider
 
 - type: entity
   id: Magazine40mmFrag
-  name: '40毫米榴弹 | frag 40mm grenade cartridge'
+  name: '40mm 榴弹 | frag 40mm grenade cartridge'
   parent: BaseMagazine40mm
   components:
   - type: BallisticAmmoProvider
@@ -56,7 +56,7 @@
 
 - type: entity
   id: Magazine40mmEMP
-  name: 'EMP 40毫米榴弹 | EMP 40mm grenade cartridge'
+  name: 'EMP 40mm 榴弹 | EMP 40mm grenade cartridge'
   parent: BaseMagazine40mm
   components:
   - type: BallisticAmmoProvider
@@ -64,7 +64,7 @@
 
 - type: entity
   id: Magazine40mmFlash
-  name: '闪光40毫米榴弹弹壳 | flash 40mm grenade cartridge'
+  name: '闪光40mm 榴弹弹壳 | flash 40mm grenade cartridge'
   parent: BaseMagazine40mm
   components:
   - type: BallisticAmmoProvider
@@ -72,7 +72,7 @@
 
 - type: entity
   id: Magazine40mmBlast
-  name: '爆破用40毫米榴弹 | blast 40mm grenade cartridge'
+  name: '爆破用40mm 榴弹 | blast 40mm grenade cartridge'
   parent: BaseMagazine40mm
   components:
   - type: BallisticAmmoProvider
@@ -80,7 +80,7 @@
 
 - type: entity
   id: Magazine40mmBaton
-  name: '40毫米榴弹发射器用弹筒 | baton 40mm grenade cartridge'
+  name: '40mm 榴弹发射器用弹筒 | baton 40mm grenade cartridge'
   parent: BaseMagazine40mm
   components:
   - type: BallisticAmmoProvider

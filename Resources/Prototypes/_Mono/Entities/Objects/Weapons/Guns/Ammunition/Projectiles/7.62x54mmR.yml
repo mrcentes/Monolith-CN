@@ -24,7 +24,7 @@
 
 - type: entity
   id: Bullet762x54mmRFMJ
-  name: '7点62毫米有缘全被甲弹 | bullet (7.62x54mmR FMJ)'
+  name: '7点62mm 有缘全被甲弹 | bullet (7.62x54mmR FMJ)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -36,7 +36,7 @@
 
 - type: entity
   id: Bullet762x54mmRPractice
-  name: '子弹（7.62x54毫米R练习弹） | bullet (7.62x54mmR practice)'
+  name: '子弹（7.62x54mm R练习弹） | bullet (7.62x54mmR practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -47,7 +47,7 @@
 
 - type: entity
   id: Bullet762x54mmRRubber
-  name: '子弹（7.62x54毫米R橡胶弹） | bullet (7.62x54mmR rubber)'
+  name: '子弹（7.62x54mm R橡胶弹） | bullet (7.62x54mmR rubber)'
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -59,7 +59,7 @@
 - type: entity
   id: Bullet762x54mmRIncendiary
   parent: BaseBulletIncendiary
-  name: '子弹（7.62x54毫米R燃烧弹） | bullet (7.62x54mmR incendiary)'
+  name: '子弹（7.62x54mm R燃烧弹） | bullet (7.62x54mmR incendiary)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -71,7 +71,7 @@
 - type: entity
   id: Bullet762x54mmRUranium
   parent: BaseBulletUranium
-  name: '子弹（7.62x54毫米R铀弹） | bullet (7.62x54mmR uranium)'
+  name: '子弹（7.62x54mm R铀弹） | bullet (7.62x54mmR uranium)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -85,7 +85,7 @@
 - type: entity
   id: Bullet762x54mmRHP
   parent: BaseBullet
-  name: '7点62毫米R型空尖弹 | bullet (7.62x54mmR hollow-point)'
+  name: '7点62mm R型空尖弹 | bullet (7.62x54mmR hollow-point)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -98,7 +98,7 @@
 - type: entity
   id: Bullet762x54mmRRIP
   parent: BaseBullet
-  name: '子弹（7.62x54毫米R高速弹） | bullet (7.62x54mmR RIP)'
+  name: '子弹（7.62x54mm R高速弹） | bullet (7.62x54mmR RIP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -113,7 +113,7 @@
 - type: entity
   id: Bullet762x54mmRPlasteelAP
   parent: BaseBullet
-  name: '7点62毫米口径穿甲弹 | bullet (7.62x54mmR AP)'
+  name: '7点62mm 口径穿甲弹 | bullet (7.62x54mmR AP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

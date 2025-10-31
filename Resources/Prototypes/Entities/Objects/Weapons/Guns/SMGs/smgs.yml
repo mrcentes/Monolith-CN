@@ -131,7 +131,7 @@
   name: MA PDW-58 阿特雷德斯（5.7x28mm） 丨 MA PDW-58 Atreides (5.7x28mm)
   parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband] # Frontier: BaseMajorContraband<BaseC3SyndicateContraband
   id: WeaponSubMachineGunAtreides
-  description: 午夜武器公司制造的流线型冲锋枪，常见于起义组织和犯罪分子手中。使用5.7x28毫米弹药。 丨 Midnight Arms Co. Streamlined SMG that's commonly found use among uprisings and criminals. Uses 5.7x28mm ammo.
+  description: 午夜武器公司制造的流线型冲锋枪，常见于起义组织和犯罪分子手中。使用5.7x28mm 弹药。 丨 Midnight Arms Co. Streamlined SMG that's commonly found use among uprisings and criminals. Uses 5.7x28mm ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -172,7 +172,7 @@
               - Cartridge57x28mmFMJ
 
 - type: entity
-  name: CS C-20r冲锋枪（9x19毫米口径） 丨 CS C-20r submachine gun (9x19mm)
+  name: CS C-20r冲锋枪（9x19mm 口径） 丨 CS C-20r submachine gun (9x19mm)
   parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponSubMachineGunC20r
   description: 一把企业时代的冲锋枪，曾为核行动特工所用，如今在灰烬共和国中觅得买家。使用9x19mm弹药。 丨 A Corporate-Era SMG, once used by Nuclear Operatives, it now finds purchase among The Ashen Republic. Uses 9x19mm ammo.
@@ -284,7 +284,7 @@
   name: UI WT550冲锋枪（4.6x30mm口径） 丨 UI WT550 (4.6x30mm)
   parent: [ BaseWeaponSubMachineGun, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: WeaponSubMachineGunWt550
-  description: 一把优秀的冲锋枪，由名为乌尔曼工业的黑市武器公司生产。使用4.6x30毫米弹药。机匣上贴有“仅限授权使用”的标签。 丨 An excellent SMG, produced by a Black Market Arms Company known as Ullman Industries. Uses 4.6x30mm ammo. On the receiver is a label that says 'for authorized use only.'
+  description: 一把优秀的冲锋枪，由名为乌尔曼工业的黑市武器公司生产。使用4.6x30mm 弹药。机匣上贴有“仅限授权使用”的标签。 丨 An excellent SMG, produced by a Black Market Arms Company known as Ullman Industries. Uses 4.6x30mm ammo. On the receiver is a label that says 'for authorized use only.'
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi

@@ -25,7 +25,7 @@ guide-entry-misc = Miscellaneous
 
 guide-entry-fentanyl = Fentanyl Production
 guide-entry-letoferol = Letoferol & Chimeras
-guide-entry-asakim = Asakim
+guide-entry-asakim = 朝圣者
 guide-entry-radios = Broadband & Shortband
 guide-entry-gridclaimer = Claiming Debris
 guide-entry-armorexplanation = Armor Mechanics

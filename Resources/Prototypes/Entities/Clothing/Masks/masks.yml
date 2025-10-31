@@ -210,7 +210,7 @@
   parent: ClothingMaskBreathMedical
   id: ClothingMaskBreathMedicalSecurity
   name: 军用式医用口罩 丨 military-style medical mask
-  description: 一种带有轻微防护层、可抵御物理损伤和病毒的医用口罩，类似第一次企业战争期间医疗部队使用的款式。 丨 A medical mask with a small layer of protection against damage and viruses, similar to the one used in the medical units of the first corporate war.
+  description: 一种带有轻微防护层、可抵御物理损伤和病毒的医用口罩，类似第一次公司战争期间医疗部队使用的款式。 丨 A medical mask with a small layer of protection against damage and viruses, similar to the one used in the medical units of the first corporate war.
   components:
   - type: Item
     size: Tiny

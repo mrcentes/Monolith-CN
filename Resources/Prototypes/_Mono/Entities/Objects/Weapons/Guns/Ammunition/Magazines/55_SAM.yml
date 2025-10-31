@@ -6,7 +6,7 @@
 
 - type: entity
   id: Magazine55_SAMPistol
-  name: '手枪弹匣（点五五萨姆） | pistol magazine (.55 SAM)'
+  name: '手枪弹匣（.55 萨姆） | pistol magazine (.55 SAM)'
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
   components:
   - type: Tag
@@ -37,7 +37,7 @@
 
 - type: entity
   id: Magazine55_SAMPistolHighCapacity
-  name: '机枪手枪弹匣（零点五五毫米特种弹药） | machine pistol magazine (.55 SAM)'
+  name: '机枪手枪弹匣（.55 mm 特种弹药） | machine pistol magazine (.55 SAM)'
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseC1Contraband
   components:
   - type: Tag

@@ -25,7 +25,7 @@
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
   id: BaseAmmoBox45_ACP
-  name: '弹药箱（点四五自动手枪弹全金属被甲） | ammunition box (.45 ACP FMJ)'
+  name: '弹药箱（.45 自动手枪弹全金属被甲） | ammunition box (.45 ACP FMJ)'
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -63,7 +63,7 @@
 - type: entity
   parent: BaseAmmoBox45_ACP
   id: AmmoBox45_ACPFMJ
-  name: '弹药箱（点四五自动手枪弹全金属被甲） | ammunition box (.45 ACP FMJ)'
+  name: '弹药箱（.45 自动手枪弹全金属被甲） | ammunition box (.45 ACP FMJ)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPFMJ
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseAmmoBox45_ACP
   id: AmmoBox45_ACPPractice
-  name: '弹药箱（点四五自动手枪练习弹） | ammunition box (.45 ACP practice)'
+  name: '弹药箱（.45 自动手枪练习弹） | ammunition box (.45 ACP practice)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPPractice
@@ -92,7 +92,7 @@
 - type: entity
   parent: BaseAmmoBox45_ACP
   id: AmmoBox45_ACPIncendiary
-  name: '弹药箱（点四五口径穿甲燃烧弹） | ammunition box (.45 ACP incendiary)'
+  name: '弹药箱（.45 口径穿甲燃烧弹） | ammunition box (.45 ACP incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPIncendiary
@@ -107,7 +107,7 @@
 - type: entity
   id: AmmoBox45_ACPUranium
   parent: BaseAmmoBox45_ACP
-  name: '弹药箱（点四五口径铀弹） | ammunition box (.45 ACP uranium)'
+  name: '弹药箱（.45 口径铀弹） | ammunition box (.45 ACP uranium)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPUranium
@@ -123,7 +123,7 @@
 - type: entity
   parent: BaseAmmoBox45_ACP
   id: AmmoBox45_ACPRubber
-  name: '弹药箱（点四五橡胶子弹） | ammunition box (.45 ACP rubber)'
+  name: '弹药箱（.45 橡胶子弹） | ammunition box (.45 ACP rubber)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPRubber
@@ -139,7 +139,7 @@
 - type: entity
   parent: BaseAmmoBox45_ACP
   id: AmmoBox45_ACPEmp
-  name: '弹药箱（点四五自动手枪弹空） | ammunition box (.45 ACP emp)'
+  name: '弹药箱（.45 自动手枪弹空） | ammunition box (.45 ACP emp)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPEmp
@@ -156,7 +156,7 @@
 - type: entity
   parent: BaseAmmoBox45_ACP
   id: AmmoBox45_ACPHP
-  name: '弹药箱（点四五口径空尖弹） | ammunition box (.45 ACP hollow-point)'
+  name: '弹药箱（.45 口径空尖弹） | ammunition box (.45 ACP hollow-point)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPHP
@@ -171,7 +171,7 @@
 - type: entity
   parent: BaseAmmoBox45_ACP
   id: AmmoBox45_ACPRIP
-  name: '弹药箱（点45 ACP RIP型） | ammunition box (.45 ACP RIP)'
+  name: '弹药箱（.45  ACP RIP型） | ammunition box (.45 ACP RIP)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPRIP
@@ -187,7 +187,7 @@
 - type: entity
   parent: BaseAmmoBox45_ACP
   id: AmmoBox45_ACPPlasteelAP
-  name: '弹药箱（点四五口径穿甲弹） | ammunition box (.45 ACP AP)'
+  name: '弹药箱（.45 口径穿甲弹） | ammunition box (.45 ACP AP)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPPlasteelAP
@@ -203,7 +203,7 @@
 - type: entity
   parent: BaseAmmoBox45_ACP
   id: AmmoBox45_ACPBigFMJ
-  name: '大型弹药箱（点四五自动手枪弹全金属被甲） | big ammunition box (.45 ACP FMJ)'
+  name: '大型弹药箱（.45 自动手枪弹全金属被甲） | big ammunition box (.45 ACP FMJ)'
   suffix: Big
   components:
   - type: Item

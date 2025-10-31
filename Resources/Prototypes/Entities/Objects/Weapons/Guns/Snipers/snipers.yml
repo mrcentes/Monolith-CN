@@ -106,7 +106,7 @@
   # Goobstation edit end
 
 - type: entity
-  name: NCI 卡尔达肖夫-莫辛步枪（7.62x54毫米R） 丨 NCI Kardashev-Mosin (7.62x54mmR)
+  name: NCI 卡尔达肖夫-莫辛步枪（7.62x54mm R） 丨 NCI Kardashev-Mosin (7.62x54mmR)
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseGunMelee, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added BaseGunMelee
   id: WeaponSniperMosin
   description: 一把用于狩猎，或无尽堑壕战的武器。使用762x54mmR弹药。配备刺刀。# 边境：刺刀 丨 A weapon for hunting, or endless trench warfare. Uses 762x54mmR ammo. Equipped with bayonet. # Frontier: bayonet
@@ -132,7 +132,7 @@
   name: SKR-WS M96赫里斯托夫反器材步枪（14.5x114mm） 丨 SKR-WS M96 Hristov (14.5x114mm)
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponSniperHristov
-  description: 便携式反器材步枪，发射高速14.5毫米子弹，使用14.5x114毫米弹药。 丨 A portable anti-material rifle. Fires high velocity 14.5mm shells. Uses 145x114mm ammo.
+  description: 便携式反器材步枪，发射高速14.5mm 子弹，使用14.5x114mm 弹药。 丨 A portable anti-material rifle. Fires high velocity 14.5mm shells. Uses 145x114mm ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/hristov.rsi
@@ -167,7 +167,7 @@
   name: 防火门 丨 musket
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseGunMelee, BaseC2Contraband ] # Frontier: BaseMinorContraband<BaseC2Contraband, add BaseGunMelee
   id: Musket
-  description: 这玩意儿早在你出生前就该进博物馆了。使用145x114毫米弹药。 丨 This should've been in a museum long before you were born. Uses 145x114mm ammo.
+  description: 这玩意儿早在你出生前就该进博物馆了。使用145x114mm 弹药。 丨 This should've been in a museum long before you were born. Uses 145x114mm ammo.
   components:
   - type: Sharp
   - type: Item

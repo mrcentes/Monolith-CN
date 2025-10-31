@@ -7,7 +7,7 @@
 
 - type: entity
   id: ShipTarnyxProjectile
-  name: '塔尔尼克斯150毫米电磁脉冲弹 | TARNYX 150mm EMP projectile'
+  name: '塔尔尼克斯150mm 电磁脉冲弹 | TARNYX 150mm EMP projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -39,8 +39,8 @@
 
 - type: entity
   id: 150mmEmpShell
-  name: '150毫米电磁脉冲弹 | 150mm EMP shell'
-  description: '一种化学推进的电磁脉冲炮弹，用于TARNYX等150毫米火炮。没什么特别之处。 | A chemically-propelled EMP shell, used in 150mm cannons such as the TARNYX. Nothing fancy.'
+  name: '150mm 电磁脉冲弹 | 150mm EMP shell'
+  description: '一种化学推进的电磁脉冲炮弹，用于TARNYX等150mm 火炮。没什么特别之处。 | A chemically-propelled EMP shell, used in 150mm cannons such as the TARNYX. Nothing fancy.'
   parent: BaseGrenade
   components:
   - type: Tag
@@ -67,7 +67,7 @@
 
 - type: entity
   id: ShipTarnyxApProjectile
-  name: '塔尔尼克斯150毫米穿甲弹 | TARNYX 150mm AP projectile'
+  name: '塔尔尼克斯150mm 穿甲弹 | TARNYX 150mm AP projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -92,8 +92,8 @@
 
 - type: entity
   id: 150mmApShell
-  name: '150毫米穿甲弹 | 150mm AP shell'
-  description: '一种用于150毫米火炮的化学动力穿甲弹。效果并不理想，因为大多数150毫米火炮都是为电磁脉冲弹优化的。这是种粗制滥造的产物，肯定无法通过TSFN的检验标准。 | A chemically-propelled AP shell for 150mm cannons. Its not very good, as most 150mm cannons are optimized for EMP shells. Its a crude method, and it certainly wouldn''t pass a TSFN inspection.'
+  name: '150mm 穿甲弹 | 150mm AP shell'
+  description: '一种用于150mm 火炮的化学动力穿甲弹。效果并不理想，因为大多数150mm 火炮都是为电磁脉冲弹优化的。这是种粗制滥造的产物，肯定无法通过TSFN的检验标准。 | A chemically-propelled AP shell for 150mm cannons. Its not very good, as most 150mm cannons are optimized for EMP shells. Its a crude method, and it certainly wouldn''t pass a TSFN inspection.'
   parent: BaseGrenade
   components:
   - type: Tag

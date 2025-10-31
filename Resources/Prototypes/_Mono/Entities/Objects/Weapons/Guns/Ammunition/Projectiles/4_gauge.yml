@@ -267,7 +267,7 @@
 #anti-flesh ammo
 - type: entity
   id: Pellet23x75mmOOBuckshot
-  name: '颗粒弹23x75毫米（4号径双倍径大型铅弹） | Pellet23x75mm (4 gauge OO magnum buckshot)'
+  name: '颗粒弹23x75mm （4号径双倍径大型铅弹） | Pellet23x75mm (4 gauge OO magnum buckshot)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -292,7 +292,7 @@
 
 - type: entity
   id: Pellet23x75mmSlugRIP
-  name: '颗粒弹23x75毫米（4号径空尖弹） | Pellet23x75mm (4 gauge RIP)'
+  name: '颗粒弹23x75mm （4号径空尖弹） | Pellet23x75mm (4 gauge RIP)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -309,7 +309,7 @@
 #armor-piercing ammo
 - type: entity
   id: Pellet23x75mmSlugAP
-  name: '颗粒23x75毫米（4号穿甲独头弹） | Pellet23x75mm (4 gauge armor-piercing slug)'
+  name: '颗粒23x75mm （4号穿甲独头弹） | Pellet23x75mm (4 gauge armor-piercing slug)'
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -328,7 +328,7 @@
 
 - type: entity
   id: Pellet23x75mmFlechette
-  name: '颗粒弹23x75毫米（4号镖弹） | Pellet23x75mm (4 gauge flechette)'
+  name: '颗粒弹23x75mm （4号镖弹） | Pellet23x75mm (4 gauge flechette)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

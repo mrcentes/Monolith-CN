@@ -7,7 +7,7 @@
   parent: [ BaseCartridge, BaseC3PirateContraband ]
   description: '大型反器材子弹，能够轻易穿透装甲和墙壁。 | Large anti-material round, capable of punching through armor and walls easily.'
   id: Cartridge127x99mm
-  name: '弹药筒（12.7x99毫米反器材） | cartridge (12.7x99mm anti-material)'
+  name: '子弹（12.7x99mm 反器材） | cartridge (12.7x99mm anti-material)'
   components:
   - type: Tag
     tags:
@@ -28,7 +28,7 @@
 - type: entity
   parent: [ BaseCartridge, BaseC3PirateContraband ]
   id: Cartridge127x99mmExplosive
-  name: '弹药筒（12.7x99毫米高爆弹） | cartridge (12.7x99mm high-explosive)'
+  name: '子弹（12.7x99mm 高爆弹） | cartridge (12.7x99mm high-explosive)'
   components:
   - type: Tag
     tags:

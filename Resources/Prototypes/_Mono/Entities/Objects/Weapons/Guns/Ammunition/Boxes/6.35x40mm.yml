@@ -53,7 +53,7 @@
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaseless
-  name: '弹药箱（635x40毫米无壳弹） | ammunition box (635x40mm Caseless)'
+  name: '弹药箱（635x40mm 无壳弹） | ammunition box (635x40mm Caseless)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge635x40mmCaseless
@@ -67,7 +67,7 @@
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaselessPractice
-  name: '弹药箱（635x40毫米无壳练习弹） | ammunition box (635x40mm Caseless practice)'
+  name: '弹药箱（635x40mm 无壳练习弹） | ammunition box (635x40mm Caseless practice)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge635x40mmCaselessPractice
@@ -82,7 +82,7 @@
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaselessBigRubber
-  name: '大型弹药箱（635x40毫米无壳橡胶弹） | big ammunition box (635x40mm Caseless rubber)'
+  name: '大型弹药箱（635x40mm 无壳橡胶弹） | big ammunition box (635x40mm Caseless rubber)'
   suffix: Big
   components:
   - type: Item
@@ -108,7 +108,7 @@
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaselessRubber
-  name: '弹药箱（635x40毫米无壳橡胶弹） | ammunition box (635x40mm Caseless rubber)'
+  name: '弹药箱（635x40mm 无壳橡胶弹） | ammunition box (635x40mm Caseless rubber)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge635x40mmCaselessRubber
@@ -124,7 +124,7 @@
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaselessBig
-  name: '大型弹药箱（635x40毫米无壳弹） | big ammunition box (635x40mm Caseless)'
+  name: '大型弹药箱（635x40mm 无壳弹） | big ammunition box (635x40mm Caseless)'
   suffix: Big
   components:
   - type: Item

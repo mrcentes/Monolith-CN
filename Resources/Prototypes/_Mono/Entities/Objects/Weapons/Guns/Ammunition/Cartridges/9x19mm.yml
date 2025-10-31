@@ -31,7 +31,7 @@
 
 - type: entity
   id: BaseCartridge9x19mm
-  name: '子弹（9x19毫米全金属被甲弹） | cartridge (9x19mm FMJ)'
+  name: '子弹（9x19mm 全金属被甲弹） | cartridge (9x19mm FMJ)'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: '通用手枪子弹。易于操控，对无护甲肉体具有良好效果。 | Generic pistol round. Easy to handle, with a decent effect on unarmored flesh.'
   abstract: true
@@ -54,7 +54,7 @@
 
 - type: entity
   id: Cartridge9x19mmFMJ
-  name: '子弹（9x19毫米全金属被甲弹） | cartridge (9x19mm FMJ)'
+  name: '子弹（9x19mm 全金属被甲弹） | cartridge (9x19mm FMJ)'
   parent: BaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
@@ -62,7 +62,7 @@
 
 - type: entity
   id: Cartridge9x19mmPractice
-  name: '弹药筒（9x19毫米练习弹） | cartridge (9x19mm practice)'
+  name: '子弹（9x19mm 练习弹） | cartridge (9x19mm practice)'
   parent: BaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
@@ -77,7 +77,7 @@
 
 - type: entity
   id: Cartridge9x19mmIncendiary
-  name: '子弹（9毫米燃烧弹） | cartridge (9x19mm incendiary)'
+  name: '子弹（9mm 燃烧弹） | cartridge (9x19mm incendiary)'
   parent: BaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
@@ -92,7 +92,7 @@
 
 - type: entity
   id: Cartridge9x19mmUranium
-  name: '弹药筒（9x19毫米铀弹） | cartridge (9x19mm uranium)'
+  name: '子弹（9x19mm 铀弹） | cartridge (9x19mm uranium)'
   parent: BaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
@@ -108,7 +108,7 @@
 # Upstream
 - type: entity
   id: Cartridge9x19mmRubber
-  name: '弹药筒（9x19毫米橡胶弹） | cartridge (9x19mm rubber)'
+  name: '子弹（9x19mm 橡胶弹） | cartridge (9x19mm rubber)'
   parent: BaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
@@ -124,7 +124,7 @@
 # Frontier
 - type: entity
   id: Cartridge9x19mmEmp
-  name: '弹药筒（9x19毫米电磁脉冲） | cartridge (9x19mm emp)'
+  name: '子弹（9x19mm 电磁脉冲） | cartridge (9x19mm emp)'
   parent: BaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
@@ -138,7 +138,7 @@
 #anti-flesh:
 - type: entity
   id: Cartridge9x19mmHP
-  name: '子弹（9x19毫米空尖弹） | cartridge (9x19mm hollow-point)'
+  name: '子弹（9x19mm 空尖弹） | cartridge (9x19mm hollow-point)'
   parent: BaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
@@ -153,7 +153,7 @@
 
 - type: entity
   id: Cartridge9x19mmRIP
-  name: '弹药筒（9x19毫米RIP） | cartridge (9x19mm RIP)'
+  name: '子弹（9x19mm RIP） | cartridge (9x19mm RIP)'
   parent: BaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
@@ -170,7 +170,7 @@
 
 - type: entity
   id: Cartridge9x19mmPlasteelAP
-  name: '弹药筒（9x19毫米穿甲弹） | cartridge (9x19mm AP)'
+  name: '子弹（9x19mm 穿甲弹） | cartridge (9x19mm AP)'
   parent: BaseCartridge9x19mm
   components:
   - type: CartridgeAmmo

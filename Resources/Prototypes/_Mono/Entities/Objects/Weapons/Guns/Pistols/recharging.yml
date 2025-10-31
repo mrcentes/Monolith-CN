@@ -46,7 +46,7 @@
 
 - type: entity
   id: BulletHawk
-  name: '子弹（7x30毫米无壳弹） | bullet (7x30mm caseless)'
+  name: '子弹（7x30mm 无壳弹） | bullet (7x30mm caseless)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

@@ -79,7 +79,7 @@
   - type: ItemSlots
     slots:
       board_slot:
-        name: 扁平包装物品槽位名称 丨 flatpacker-item-slot-name
+        name: 组装包物品槽位名称 丨 flatpacker-item-slot-name
         whitelist:
           components:
           - MachineBoard

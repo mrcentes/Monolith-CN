@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseItem
   id: BaseXenoArtifactItem
-  name: 外星器物 丨 alien artifact
+  name: 外星文物 丨 alien artifact
   description: 一个奇怪的手持外星装置。 丨 A strange handheld alien device.
   abstract: true
   components:

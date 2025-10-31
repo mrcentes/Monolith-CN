@@ -31,7 +31,7 @@
 
 - type: entity
   id: BaseCartridge762x54mmR
-  name: '全威力步枪弹（7.62x54毫米R全金属被甲弹） | cartridge (7.62x54mmR FMJ)'
+  name: '全威力步枪弹（7.62x54mm R全金属被甲弹） | cartridge (7.62x54mmR FMJ)'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: '一种全威力步枪弹，常用于精确射手步枪和民用栓动步枪。 | A full-power rifle round commonly used in DMRs and civilian bolt-action rifles.'
   abstract: true
@@ -54,7 +54,7 @@
 
 - type: entity
   id: Cartridge762x54mmRFMJ
-  name: '子弹（7.62x54毫米R全金属被甲弹） | cartridge (7.62x54mmR FMJ)'
+  name: '子弹（7.62x54mm R全金属被甲弹） | cartridge (7.62x54mmR FMJ)'
   parent: BaseCartridge762x54mmR
   components:
   - type: CartridgeAmmo
@@ -62,7 +62,7 @@
 
 - type: entity
   id: Cartridge762x54mmRPractice
-  name: '子弹（7.62x54毫米R练习弹） | cartridge (7.62x54mmR practice)'
+  name: '子弹（7.62x54mm R练习弹） | cartridge (7.62x54mmR practice)'
   parent: BaseCartridge762x54mmR
   components:
   - type: CartridgeAmmo
@@ -77,7 +77,7 @@
 
 - type: entity
   id: Cartridge762x54mmRIncendiary
-  name: '子弹（7.62x54毫米R燃烧弹） | cartridge (7.62x54mmR incendiary)'
+  name: '子弹（7.62x54mm R燃烧弹） | cartridge (7.62x54mmR incendiary)'
   parent: BaseCartridge762x54mmR
   components:
   - type: CartridgeAmmo
@@ -92,7 +92,7 @@
 
 - type: entity
   id: Cartridge762x54mmRUranium
-  name: '子弹（7.62x54毫米R铀弹） | cartridge (7.62x54mmR uranium)'
+  name: '子弹（7.62x54mm R铀弹） | cartridge (7.62x54mmR uranium)'
   parent: BaseCartridge762x54mmR
   components:
   - type: CartridgeAmmo
@@ -107,7 +107,7 @@
 
 - type: entity
   id: Cartridge762x54mmRRubber
-  name: '子弹（7.62x54毫米R橡胶弹） | cartridge (7.62x54mmR rubber)'
+  name: '子弹（7.62x54mm R橡胶弹） | cartridge (7.62x54mmR rubber)'
   parent: BaseCartridge762x54mmR
   components:
   - type: CartridgeAmmo
@@ -124,7 +124,7 @@
 #anti-flesh:
 - type: entity
   id: Cartridge762x54mmRHP
-  name: '子弹（7.62x54毫米R空尖弹） | cartridge (7.62x54mmR hollow-point)'
+  name: '子弹（7.62x54mm R空尖弹） | cartridge (7.62x54mmR hollow-point)'
   parent: BaseCartridge762x54mmR
   components:
   - type: CartridgeAmmo
@@ -139,7 +139,7 @@
 
 - type: entity
   id: Cartridge762x54mmRRIP
-  name: '弹药筒（7.62x54毫米R RIP型） | cartridge (7.62x54mmR RIP)'
+  name: '子弹（7.62x54mm R RIP型） | cartridge (7.62x54mmR RIP)'
   parent: BaseCartridge762x54mmR
   components:
   - type: CartridgeAmmo
@@ -156,7 +156,7 @@
 
 - type: entity
   id: Cartridge762x54mmRPlasteelAP
-  name: '子弹（7.62x54毫米R穿甲弹） | cartridge (7.62x54mmR AP)'
+  name: '子弹（7.62x54mm R穿甲弹） | cartridge (7.62x54mmR AP)'
   parent: BaseCartridge762x54mmR
   components:
   - type: CartridgeAmmo

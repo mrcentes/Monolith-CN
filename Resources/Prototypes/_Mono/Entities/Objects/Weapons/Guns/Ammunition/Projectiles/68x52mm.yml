@@ -4,7 +4,7 @@
 
 - type: entity
   id: Bullet68x52mmCaseless
-  name: '子弹（6.8×52毫米无壳弹） | bullet (6.8x52mm Caseless)'
+  name: '子弹（6.8×52mm 无壳弹） | bullet (6.8x52mm Caseless)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -16,7 +16,7 @@
 
 - type: entity
   id: Bullet68x52mmCaselessPractice
-  name: '子弹（6.8x52毫米无壳练习弹） | bullet (6.8x52mm Caseless practice)'
+  name: '子弹（6.8x52mm 无壳练习弹） | bullet (6.8x52mm Caseless practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -27,7 +27,7 @@
 
 - type: entity
   id: Bullet68x52mmCaselessRubber
-  name: '子弹（6.8×52毫米无壳橡胶弹） | bullet (6.8x52mm Caseless rubber)'
+  name: '子弹（6.8×52mm 无壳橡胶弹） | bullet (6.8x52mm Caseless rubber)'
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:

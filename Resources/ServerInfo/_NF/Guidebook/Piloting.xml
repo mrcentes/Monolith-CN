@@ -1,35 +1,35 @@
 <Document>
-  # Piloting
+  # 驾驶
   <Box>
     <GuideEntityEmbed Entity="ComputerShuttle"/>
   </Box>
-  To move a shuttle, you first need to click on the [color=#a4885c]shuttle console[/color] in its cockpit. After clicking the shuttle console, you should see a radar view of the space around your shuttle.
+  要让你的船动起来，你首先需要点击驾驶舱里的[color=#a4885c]穿梭机控制台[/color]。点击穿梭机控制台后，你应该会看到穿梭机周围空间的雷达视图。
 
-Newly purchased shuttles start docked with Colonial Outpost. To undock, follow these steps:
+新购买的飞船初始停靠在殖民哨站。若要脱离对接，请按照以下步骤操作：
 
-- Tell people you are undocking using the shortband channel ([color=#CC6633]:d[/color]). Include your ship's callsign, which can be found on the NAV screen (e.g. "[color=#CC6633]:d Sabine CIV-123 undocking.[/color]")
-- Click on the DOCK tab, disconnect any airlocks that are docked to the station.
-- Return to the NAV tab.
+- 使用短波频道（[color=#CC6633]:d[/color]）告知他人你正在脱离对接。请包含你飞船的呼号/识别号，该呼号/识别号可以在导航（NAV）屏幕上找到（例如：“[color=#CC6633]:d Sabine CIV-123 正在脱离对接。[/color]”）
+- 点击“对接”（DOCK）选项卡，断开所有与空间站对接的气闸。
+- 返回“导航”（NAV）选项卡。
 
-- To move a shuttle, the default controls (for a QWERTY keyboard) are:
+- 移动飞船的默认控制（对于QWERTY键盘）如下：
 
--[color=#028ed9][keybind="ShuttleStrafeUp"/][/color] & [color=#028ed9][keybind="ShuttleStrafeDown"/][/color]: Move forward and backward.
--[color=#028ed9][keybind="ShuttleStrafeLeft"/][/color] & [color=#028ed9][keybind="ShuttleStrafeRight"/][/color]: Move left and right.
--[color=#028ed9][keybind="ShuttleRotateLeft"/][/color] & [color=#028ed9][keybind="ShuttleRotateRight"/][/color]: Rotate left and right.
--[color=#028ed9][keybind="ShuttleBrake"/][/color]: Slow down.
--[color=#028ed9][keybind="ShuttleBrake"/][/color] + [color=#028ed9]any input[/color]: Move and rotate slowly.
+-[color=#028ed9][keybind="ShuttleStrafeUp"/][/color] & [color=#028ed9][keybind="ShuttleStrafeDown"/][/color]: 向前和向后移动。
+-[color=#028ed9][keybind="ShuttleStrafeLeft"/][/color] & [color=#028ed9][keybind="ShuttleStrafeRight"/][/color]: 向左和向右移动。
+-[color=#028ed9][keybind="ShuttleRotateLeft"/][/color] & [color=#028ed9][keybind="ShuttleRotateRight"/][/color]: 向左和向右旋转。
+-[color=#028ed9][keybind="ShuttleBrake"/][/color]: 减速。
+-[color=#028ed9][keybind="ShuttleBrake"/][/color] + [color=#028ed9]任意输入[/color]: 缓慢移动和旋转。
 
-# Docking
+# 对接
   <Box>
     <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
   </Box>
-  [bold]Before docking your ship with:[/bold]
-- [bold][color=#979797]Another ship[/color][/bold], it is best practice to announce your intention to dock over the traffic channel ([color=#CC6633]:d[/color]).
-- [bold][color=#ffd700]Colonial Outpost[/color][/bold], stop 200m out, request permission to dock from the Station Traffic Controller (STC) over the traffic radio channel ([color=#CC6633]:d[/color]).
-- [bold][color=#ffa500]Another station[/color][/bold], docks are first come, first serve. Be courteous and leave space where possible.
+  [bold]在你的飞船与以下目标对接之前：[/bold]
+- [bold][color=#979797]另一艘飞船[/color][/bold]，最佳做法是通过交通频道（[color=#CC6633]:d[/color]）宣布你的对接意图。
+- [bold][color=#ffd700]殖民前哨站[/color][/bold]，在200米外停下，通过交通无线电频道（[color=#CC6633]:d[/color]）向空间站交通管制员（STC）请求对接许可。
+- [bold][color=#ffa500]另一个空间站[/color][/bold]，对接遵循"先到先得"的原则。请保持礼貌，并尽可能留出空间。
 
-To dock the ship:
-- Pilot towards the target so a set of its airlocks are nearby a set of airlocks of the target.
-- When very close, click on the DOCK tab for a closer view.
-- When next to the airlock, you can click "Dock" when highlighted to attach to the target.
+要对接飞船：
+- 驾驶飞船朝向目标，使其一组气闸靠近目标的另一组气闸。
+- 当距离非常近时，点击“对接”（DOCK）选项卡以获得更近的视图。
+- 当靠近气闸时，你可以在“对接”（Dock）按钮高亮时点击以连接到目标对接口。
 </Document>

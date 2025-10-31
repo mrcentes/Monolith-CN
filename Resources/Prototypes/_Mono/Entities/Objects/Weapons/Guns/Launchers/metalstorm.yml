@@ -8,7 +8,7 @@
   name: 'NT-WS Mk.348 冰雹定向动能脉冲武器 | NT-WS Mk.348 "Hailstorm" directed kinetic pulse weapon'
   parent: BaseItem
   id: WeaponLauncherMk348
-  description: '一款笨重的多管武器，发射4.6x30毫米弹药。通过弹箱供弹，弹箱会在枪体内部移动并为各枪管分配弹药。庆幸吧，不必维护这套糟糕机械的人是你。 | A bulky multi-barreled weapon firing 4.6x30mm. Ammo is fed via boxes, which is moved inside the gun to each respective barrel. Be glad you aren''t the one having to maintain this awful mechanism.'
+  description: '一款笨重的多管武器，发射4.6x30mm 弹药。通过弹箱供弹，弹箱会在枪体内部移动并为各枪管分配弹药。庆幸吧，不必维护这套糟糕机械的人是你。 | A bulky multi-barreled weapon firing 4.6x30mm. Ammo is fed via boxes, which is moved inside the gun to each respective barrel. Be glad you aren''t the one having to maintain this awful mechanism.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Launchers/mk348.rsi

@@ -87,7 +87,7 @@
 
 - type: entity
   id: 40mmGrenadeBaton
-  name: '40毫米防暴弹 | 40mm baton grenade'
+  name: '40mm 防暴弹 | 40mm baton grenade'
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -104,7 +104,7 @@
 
 - type: entity
   id: 40mmGrenadeThermobaric
-  name: '40毫米温压榴弹 | 40mm thermobaric grenade'
+  name: '40mm 温压榴弹 | 40mm thermobaric grenade'
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -121,7 +121,7 @@
 
 - type: entity
   id: 40mmGrenadeFlash
-  name: '40毫米闪光弹 | 40mm flash grenade'
+  name: '40mm 闪光弹 | 40mm flash grenade'
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -138,7 +138,7 @@
 
 - type: entity
   id: 40mmGrenadeFragmentation
-  name: '40毫米杀伤榴弹 | 40mm Fragmentation grenade'
+  name: '40mm 杀伤榴弹 | 40mm Fragmentation grenade'
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo
@@ -155,7 +155,7 @@
 
 - type: entity
   id: 40mmGrenadeEMP
-  name: '40毫米电磁脉冲手榴弹 | 40mm EMP grenade'
+  name: '40mm 电磁脉冲手榴弹 | 40mm EMP grenade'
   parent: BaseGrenade
   components:
   - type: CartridgeAmmo

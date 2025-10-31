@@ -140,10 +140,10 @@
   # Goobstation edit end
 
 - type: entity
-  name: LWC PT-45A 蝰蛇手枪（9x19毫米口径） 丨 LWC PT-45A viper (9x19mm)
+  name: LWC PT-45A 蝰蛇手枪（9x19mm 口径） 丨 LWC PT-45A viper (9x19mm)
   parent: [BaseWeaponPistol, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponPistolViper
-  description: 一把小巧、易于隐藏但威力稍逊的改装手枪，配备全自动机匣，使用9x19毫米弹药。虽然蝮蛇枪的制造蓝图已失传，但企业战争期间留存数量极为庞大，已无需再生产新品。 丨 A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses 9x19mm ammo. While the schematics to build new Vipers has been lost, they are so abundant from the Corporate War that building new ones is no longer required.
+  description: 一把小巧、易于隐藏但威力稍逊的改装手枪，配备全自动机匣，使用9x19mm 弹药。虽然蝮蛇枪的制造蓝图已失传，但公司战争期间留存数量极为庞大，已无需再生产新品。 丨 A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses 9x19mm ammo. While the schematics to build new Vipers has been lost, they are so abundant from the Corporate War that building new ones is no longer required.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
@@ -178,10 +178,10 @@
       path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/viper_fire.ogg
 
 - type: entity
-  name: LWC PT-45C 毒蛇手枪（9x19毫米） 丨 LWC PT-45C echis (9x19mm)
+  name: LWC PT-45C 毒蛇手枪（9x19mm ） 丨 LWC PT-45C echis (9x19mm)
   parent: [ BaseItem, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponPistolEchis
-  description: 一种供生化人使用的蝰蛇手枪。通过内置的弹药制造器即时生成9x19毫米子弹，该制造器可缓慢自动充能。 丨 A viper for use by cyborgs. Creates 9x19mm on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: 一种供生化人使用的蝰蛇手枪。通过内置的弹药制造器即时生成9x19mm 子弹，该制造器可缓慢自动充能。 丨 A viper for use by cyborgs. Creates 9x19mm on the fly from an internal ammo fabricator, which slowly self-charges.
   components:
   - type: Gun
     fireRate: 5
@@ -216,7 +216,7 @@
   name: LWC雇佣兵PT-45C毒蛇手枪（9x19mm） 丨 LWC mercenary PT-45C echis (9x19mm)
   parent: [ BaseItem, BaseC1Contraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponPistolMercenaryEchis
-  description: 专为生化人设计的蝰蛇手枪，经重新设计以适应雇佣兵用途。通过内置弹药制造器即时生成9x19毫米弹药，该制造器可缓慢自动充能。 丨 A viper for use by cyborgs, redesigned for mercenary use. Creates 9x19mm on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: 专为生化人设计的蝰蛇手枪，经重新设计以适应雇佣兵用途。通过内置弹药制造器即时生成9x19mm 弹药，该制造器可缓慢自动充能。 丨 A viper for use by cyborgs, redesigned for mercenary use. Creates 9x19mm on the fly from an internal ammo fabricator, which slowly self-charges.
   components:
   - type: Gun
     fireRate: 5
@@ -301,7 +301,7 @@
   name: MA Mk-58 (.45 ACP) 丨 MA Mk-58 (.45 ACP)
   parent: [BaseWeaponPistol, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable<BaseC1Contraband to match weapon description
   id: WeaponPistolMk58
-  description: 马克58进攻型手枪，整个银河系中存量最多的随身武器。常被称作企业战争残片，它曾被使用至最后一刻。使用.45 ACP弹药。 丨 The Mark 58 Offensive Handgun, the most abundant sidearm in the entire galaxy. Commonly called a Corporate War fragment, it was used until the bitter end. Uses .45 ACP ammo.
+  description: 马克58进攻型手枪，整个银河系中存量最多的随身武器。常被称作公司战争残片，它曾被使用至最后一刻。使用.45 ACP弹药。 丨 The Mark 58 Offensive Handgun, the most abundant sidearm in the entire galaxy. Commonly called a Corporate War fragment, it was used until the bitter end. Uses .45 ACP ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi

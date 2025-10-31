@@ -25,7 +25,7 @@
 
 - type: entity
   id: Bullet46x30mm
-  name: '子弹（4.6x30毫米全金属被甲弹） | bullet (4.6x30mm FMJ)'
+  name: '子弹（4.6x30mm 全金属被甲弹） | bullet (4.6x30mm FMJ)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -37,7 +37,7 @@
 
 - type: entity
   id: Bullet46x30mmPractice
-  name: '子弹（4.6x30毫米训练弹） | bullet (4.6x30mm practice)'
+  name: '子弹（4.6x30mm 训练弹） | bullet (4.6x30mm practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -49,7 +49,7 @@
 
 - type: entity
   id: Bullet46x30mmRubber
-  name: '子弹（4.6x30毫米橡胶弹） | bullet (4.6x30mm rubber)'
+  name: '子弹（4.6x30mm 橡胶弹） | bullet (4.6x30mm rubber)'
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -62,7 +62,7 @@
 - type: entity
   id: Bullet46x30mmIncendiary
   parent: BaseBulletIncendiary
-  name: '子弹（4.6x30毫米燃烧弹） | bullet (4.6x30mm incendiary)'
+  name: '子弹（4.6x30mm 燃烧弹） | bullet (4.6x30mm incendiary)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -75,7 +75,7 @@
 - type: entity
   id: Bullet46x30mmUranium
   parent: BaseBulletUranium
-  name: '子弹（4.6x30毫米铀弹） | bullet (4.6x30mm uranium)'
+  name: '子弹（4.6x30mm 铀弹） | bullet (4.6x30mm uranium)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -88,7 +88,7 @@
 # Upstream
 - type: entity
   id: Bullet46x30mmEmp
-  name: '子弹（4.6x30毫米电磁脉冲） | bullet (4.6x30mm emp)'
+  name: '子弹（4.6x30mm 电磁脉冲） | bullet (4.6x30mm emp)'
   parent: BaseBulletEmp
   categories: [ HideSpawnMenu ]
   components:
@@ -104,7 +104,7 @@
 - type: entity
   id: Bullet46x30mmHP
   parent: BaseBullet
-  name: '子弹（4.6x30毫米空尖弹） | bullet (4.6x30mm hollow-point)'
+  name: '子弹（4.6x30mm 空尖弹） | bullet (4.6x30mm hollow-point)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -117,7 +117,7 @@
 - type: entity
   id: Bullet46x30mmRIP
   parent: BaseBullet
-  name: '子弹（4.6x30毫米RIP） | bullet (4.6x30mm RIP)'
+  name: '子弹（4.6x30mm RIP） | bullet (4.6x30mm RIP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -132,7 +132,7 @@
 - type: entity
   id: Bullet46x30mmPlasteelAP
   parent: BaseBullet
-  name: '子弹（4.6x30毫米穿甲弹） | bullet (4.6x30mm AP)'
+  name: '子弹（4.6x30mm 穿甲弹） | bullet (4.6x30mm AP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

@@ -23,7 +23,7 @@
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
   id: BaseAmmoBox556x45mm
-  name: '弹药箱（5.56x45毫米全金属被甲弹） | ammunition box (5.56x45mm FMJ)'
+  name: '弹药箱（5.56x45mm 全金属被甲弹） | ammunition box (5.56x45mm FMJ)'
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -61,7 +61,7 @@
 - type: entity
   parent: BaseAmmoBox556x45mm
   id: AmmoBox556x45mmFMJ
-  name: '弹药箱（5.56x45毫米全金属被甲弹） | ammunition box (5.56x45mm FMJ)'
+  name: '弹药箱（5.56x45mm 全金属被甲弹） | ammunition box (5.56x45mm FMJ)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge556x45mmFMJ
@@ -75,7 +75,7 @@
 - type: entity
   parent: BaseAmmoBox556x45mm
   id: AmmoBox556x45mmPractice
-  name: '弹药箱（5.56x45毫米训练弹） | ammunition box (5.56x45mm practice)'
+  name: '弹药箱（5.56x45mm 训练弹） | ammunition box (5.56x45mm practice)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge556x45mmPractice
@@ -90,7 +90,7 @@
 - type: entity
   parent: BaseAmmoBox556x45mm
   id: AmmoBox556x45mmIncendiary
-  name: '弹药箱（5.56x45毫米燃烧弹） | ammunition box (5.56x45mm incendiary)'
+  name: '弹药箱（5.56x45mm 燃烧弹） | ammunition box (5.56x45mm incendiary)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge556x45mmIncendiary
@@ -105,7 +105,7 @@
 - type: entity
   id: AmmoBox556x45mmUranium
   parent: BaseAmmoBox556x45mm
-  name: '弹药箱（5.56x45毫米铀弹） | ammunition box (5.56x45mm uranium)'
+  name: '弹药箱（5.56x45mm 铀弹） | ammunition box (5.56x45mm uranium)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge556x45mmUranium
@@ -121,7 +121,7 @@
 - type: entity
   parent: BaseAmmoBox556x45mm
   id: AmmoBox556x45mmRubber
-  name: '弹药箱（5.56x45毫米橡胶弹） | ammunition box (5.56x45mm rubber)'
+  name: '弹药箱（5.56x45mm 橡胶弹） | ammunition box (5.56x45mm rubber)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge556x45mmRubber
@@ -138,7 +138,7 @@
 - type: entity
   parent: BaseAmmoBox556x45mm
   id: AmmoBox556x45mmHP
-  name: '弹药箱（5.56x45毫米空尖弹） | ammunition box (5.56x45mm hollow-point)'
+  name: '弹药箱（5.56x45mm 空尖弹） | ammunition box (5.56x45mm hollow-point)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge556x45mmHP
@@ -153,7 +153,7 @@
 - type: entity
   parent: BaseAmmoBox556x45mm
   id: AmmoBox556x45mmRIP
-  name: '弹药箱（5.56x45毫米RIP） | ammunition box (5.56x45mm RIP)'
+  name: '弹药箱（5.56x45mm RIP） | ammunition box (5.56x45mm RIP)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge556x45mmRIP
@@ -170,7 +170,7 @@
 - type: entity
   parent: BaseAmmoBox556x45mm
   id: AmmoBox556x45mmPlasteelAP
-  name: '弹药箱（5.56x45毫米穿甲弹） | ammunition box (5.56x45mm AP)'
+  name: '弹药箱（5.56x45mm 穿甲弹） | ammunition box (5.56x45mm AP)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge556x45mmPlasteelAP
@@ -186,7 +186,7 @@
 - type: entity
   parent: BaseAmmoBox556x45mm
   id: AmmoBox556x45mmBigFMJ
-  name: '大型弹药箱（5.56x45毫米全金属被甲弹） | big ammunition box (5.56x45mm FMJ)'
+  name: '大型弹药箱（5.56x45mm 全金属被甲弹） | big ammunition box (5.56x45mm FMJ)'
   suffix: Big
   components:
   - type: Item
@@ -210,7 +210,7 @@
 - type: entity
   parent: AmmoBox556x45mmBigFMJ
   id: AmmoBox556x45mmBigRubber
-  name: '弹药箱（5.56x45毫米橡胶弹） | ammunition box (5.56x45mm rubber)'
+  name: '弹药箱（5.56x45mm 橡胶弹） | ammunition box (5.56x45mm rubber)'
   components:
   - type: BallisticAmmoProvider
     capacity: 210

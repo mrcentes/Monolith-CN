@@ -1,6 +1,6 @@
 - type: entity
   id: SpeedLoader762x54mmRFMJ
-  name: '弹夹装填器（7.62x54毫米R全金属被甲弹） | speed loader (7.62x54mmR FMJ)'
+  name: '弹夹装填器（7.62x54mm R全金属被甲弹） | speed loader (7.62x54mmR FMJ)'
   parent: [ BaseItem, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   components:
   - type: Tag

@@ -789,7 +789,7 @@
     - Sidearm
 
 - type: entity
-  name: C.H.I.M.P. 手炮 丨 C.H.I.M.P. handcannon
+  name: C.H.I.M.P. 手持发射器 丨 C.H.I.M.P. handcannon
   parent: [BaseWeaponBatterySmall, BaseC1Contraband] # Frontier: BaseScienceContraband<BaseC1Contraband
   id: WeaponPistolCHIMP
   description: 虽然它只是个小不点C.H.I.M.P.，可不代表它的威力不如A.P.E.。 丨 Just because it's a little C.H.I.M.P. doesn't mean it can't punch like an A.P.E.
@@ -835,10 +835,10 @@
     price: 100
 
 - type: entity
-  name: 实验性黑猩猩手持火炮 丨 experimental C.H.I.M.P. handcannon
+  name: 实验性C.H.I.M.P手持发射器 丨 experimental C.H.I.M.P. handcannon
   parent: [WeaponPistolCHIMP, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponPistolCHIMPUpgraded
-  description: 这把实验型C.H.I.M.P.手炮的威力似乎比寻常型号更胜一筹…… 丨 This C.H.I.M.P. seems to have a greater punch than is usual...
+  description: 这把实验型C.H.I.M.P.手持发射器的威力似乎比寻常型号更胜一筹…… 丨 This C.H.I.M.P. seems to have a greater punch than is usual...
   components:
   - type: BatteryWeaponFireModes
     fireModes:

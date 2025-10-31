@@ -30,7 +30,7 @@
 # Empty mags
 - type: entity
   id: BaseMagazine556x45mm
-  name: '弹匣（5.56x45毫米全金属被甲弹） | magazine (5.56x45mm FMJ)'
+  name: '弹匣（5.56x45mm 全金属被甲弹） | magazine (5.56x45mm FMJ)'
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
   abstract: true
   components:
@@ -64,7 +64,7 @@
 # Magazines
 - type: entity
   id: Magazine556x45mmFMJ
-  name: '弹匣（5.56x45毫米全金属被甲弹） | magazine (5.56x45mm FMJ)'
+  name: '弹匣（5.56x45mm 全金属被甲弹） | magazine (5.56x45mm FMJ)'
   parent: BaseMagazine556x45mm
   components:
   - type: BallisticAmmoProvider
@@ -78,7 +78,7 @@
 
 - type: entity
   id: Magazine556x45mmEmpty
-  name: '弹匣（5.56x45毫米任意型号） | magazine (5.56x45mm any)'
+  name: '弹匣（5.56x45mm 任意型号） | magazine (5.56x45mm any)'
   suffix: empty
   parent: Magazine556x45mmFMJ
   components:
@@ -93,7 +93,7 @@
 
 - type: entity
   id: Magazine556x45mmIncendiary
-  name: '弹匣（5.56x45毫米燃烧弹） | magazine (5.56x45mm incendiary)'
+  name: '弹匣（5.56x45mm 燃烧弹） | magazine (5.56x45mm incendiary)'
   parent: Magazine556x45mmFMJ
   components:
   - type: BallisticAmmoProvider
@@ -107,7 +107,7 @@
 
 - type: entity
   id: Magazine556x45mmPractice
-  name: '弹匣（5.56x45毫米训练弹） | magazine (5.56x45mm practice)'
+  name: '弹匣（5.56x45mm 训练弹） | magazine (5.56x45mm practice)'
   parent: BaseMagazine556x45mm
   components:
   - type: BallisticAmmoProvider
@@ -121,7 +121,7 @@
 
 - type: entity
   id: Magazine556x45mmUranium
-  name: '弹匣（5.56x45毫米铀弹） | magazine (5.56x45mm uranium)'
+  name: '弹匣（5.56x45mm 铀弹） | magazine (5.56x45mm uranium)'
   parent: BaseMagazine556x45mm
   components:
   - type: BallisticAmmoProvider
@@ -135,7 +135,7 @@
 
 - type: entity
   id: Magazine556x45mmRubber
-  name: '弹匣（5.56x45毫米橡胶弹） | magazine (5.56x45mm rubber)'
+  name: '弹匣（5.56x45mm 橡胶弹） | magazine (5.56x45mm rubber)'
   parent: BaseMagazine556x45mm
   components:
   - type: BallisticAmmoProvider
@@ -151,7 +151,7 @@
 - type: entity
   parent: BaseMagazine556x45mm
   id: MagazineNovaliteC1Empty
-  name: '弹匣（5.56x45毫米通用型） | clip (5.56x45mm any)'
+  name: '弹匣（5.56x45mm 通用型） | clip (5.56x45mm any)'
   suffix: empty
   components:
   - type: Tag
@@ -184,7 +184,7 @@
 - type: entity
   parent: MagazineNovaliteC1Empty
   id: MagazineNovaliteC1
-  name: '子弹（5.56x45毫米全金属被甲弹） | clip (5.56x45mm FMJ)'
+  name: '子弹（5.56x45mm 全金属被甲弹） | clip (5.56x45mm FMJ)'
   suffix: full
   components:
   - type: BallisticAmmoProvider
@@ -199,7 +199,7 @@
 - type: entity
   parent: MagazineNovaliteC1Empty
   id: MagazineNovaliteC1Rubber
-  name: '弹匣（5.56x45毫米橡胶弹） | clip (5.56x45mm rubber)'
+  name: '弹匣（5.56x45mm 橡胶弹） | clip (5.56x45mm rubber)'
   suffix: full
   components:
   - type: BallisticAmmoProvider
@@ -215,7 +215,7 @@
 #anti-flesh:
 - type: entity
   id: Magazine556x45mmHP
-  name: '弹匣（5.56x45毫米空尖弹） | magazine (5.56x45mm hollow-point)'
+  name: '弹匣（5.56x45mm 空尖弹） | magazine (5.56x45mm hollow-point)'
   parent: BaseMagazine556x45mm
   components:
   - type: BallisticAmmoProvider
@@ -229,7 +229,7 @@
 
 - type: entity
   id: Magazine556x45mmRIP
-  name: '弹匣（5.56x45毫米空尖弹） | magazine (5.56x45mm RIP)'
+  name: '弹匣（5.56x45mm 空尖弹） | magazine (5.56x45mm RIP)'
   parent: BaseMagazine556x45mm
   components:
   - type: BallisticAmmoProvider
@@ -245,7 +245,7 @@
 
 - type: entity
   id: Magazine556x45mmPlasteelAP
-  name: '弹匣（5.56x45毫米穿甲弹） | magazine (5.56x45mm AP)'
+  name: '弹匣（5.56x45mm 穿甲弹） | magazine (5.56x45mm AP)'
   parent: BaseMagazine556x45mm
   components:
   - type: BallisticAmmoProvider

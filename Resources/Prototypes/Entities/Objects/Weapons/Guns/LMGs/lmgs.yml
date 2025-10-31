@@ -38,7 +38,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: 基础武器轻机枪 丨 BaseWeaponLightMachineGun
+  name: 基础轻机枪 丨 BaseWeaponLightMachineGun
   parent: BaseItem
   id: BaseWeaponLightMachineGun
   description: 一把突突突的突突枪。 丨 A rooty tooty point and shooty.
@@ -132,10 +132,10 @@
   # Goobstation edit end
 
 - type: entity
-  name: PA L6B班用自动武器（7.62x39毫米口径） 丨 PA L6B SAW (7.62x39mm)
+  name: PA L6B班用自动武器（7.62x39mm 口径） 丨 PA L6B SAW (7.62x39mm)
   id: WeaponLightMachineGunL6
   parent: [BaseWeaponLightMachineGun, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  description: 一把制作相当传统的轻机枪，配有漆面悦目的木质握把。使用7.62x39毫米弹药。现已停产，成为大断裂时期人类贪婪与野心的遗物。 丨 A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses 7.62x39mm ammo. No longer in production, it serves as a remnant of humanity's greed and ambition during The Fracture.
+  description: 一把制作相当传统的轻机枪，配有漆面悦目的木质握把。使用7.62x39mm 弹药。现已停产，成为大断裂时期人类贪婪与野心的遗物。 丨 A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses 7.62x39mm ammo. No longer in production, it serves as a remnant of humanity's greed and ambition during The Fracture.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi
@@ -157,7 +157,7 @@
   name: PA L6C 行伍（7.62x39mm） 丨 PA L6C ROW (7.62x39mm)
   id: WeaponLightMachineGunL6C
   parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: added BaseC3SyndicateContraband
-  description: 一款供生化人使用的L6班用自动武器。通过内置的弹药制造器实时生成7.62x39毫米弹药，该制造器可缓慢自动充能。 丨 A L6 SAW for use by cyborgs. Creates 762x39mm ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: 一款供生化人使用的L6班用自动武器。通过内置的弹药制造器实时生成7.62x39mm 弹药，该制造器可缓慢自动充能。 丨 A L6 SAW for use by cyborgs. Creates 762x39mm ammo on the fly from an internal ammo fabricator, which slowly self-charges.
   components:
     - type: Gun
       minAngle: 4

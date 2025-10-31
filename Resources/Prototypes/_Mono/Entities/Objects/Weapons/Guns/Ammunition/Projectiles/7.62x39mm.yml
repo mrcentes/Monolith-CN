@@ -32,7 +32,7 @@
 
 - type: entity
   id: Bullet762x39mmFMJ
-  name: '子弹（7.62x39毫米全金属被甲弹） | bullet (7.62x39mm FMJ)'
+  name: '子弹（7.62x39mm 全金属被甲弹） | bullet (7.62x39mm FMJ)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -44,7 +44,7 @@
 
 - type: entity
   id: Bullet762x39mmPractice
-  name: '子弹（7.62x39毫米练习弹） | bullet (7.62x39mm practice)'
+  name: '子弹（7.62x39mm 练习弹） | bullet (7.62x39mm practice)'
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -55,7 +55,7 @@
 
 - type: entity
   id: Bullet762x39mmRubber
-  name: '子弹（7.62x39毫米橡胶弹） | bullet (7.62x39mm rubber)'
+  name: '子弹（7.62x39mm 橡胶弹） | bullet (7.62x39mm rubber)'
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -67,7 +67,7 @@
 - type: entity
   id: Bullet762x39mmIncendiary
   parent: BaseBulletIncendiary
-  name: '子弹（7.62x39毫米燃烧弹） | bullet (7.62x39mm incendiary)'
+  name: '子弹（7.62x39mm 燃烧弹） | bullet (7.62x39mm incendiary)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -79,7 +79,7 @@
 - type: entity
   id: Bullet762x39mmUranium
   parent: BaseBulletUranium
-  name: '子弹（7.62x39毫米铀弹） | bullet (7.62x39mm uranium)'
+  name: '子弹（7.62x39mm 铀弹） | bullet (7.62x39mm uranium)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -90,7 +90,7 @@
 
 - type: entity
   id: Bullet762x39mmSubsonic
-  name: '子弹（7.62x39毫米亚音速） | bullet (7.62x39mm subsonic)'
+  name: '子弹（7.62x39mm 亚音速） | bullet (7.62x39mm subsonic)'
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -106,7 +106,7 @@
 - type: entity
   id: Bullet762x39mmHP
   parent: BaseBullet
-  name: '子弹（7.62x39毫米空尖弹） | bullet (7.62x39mm hollow-point)'
+  name: '子弹（7.62x39mm 空尖弹） | bullet (7.62x39mm hollow-point)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -119,7 +119,7 @@
 - type: entity
   id: Bullet762x39mmRIP
   parent: BaseBullet
-  name: '子弹（7.62x39毫米RIP） | bullet (7.62x39mm RIP)'
+  name: '子弹（7.62x39mm RIP） | bullet (7.62x39mm RIP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -134,7 +134,7 @@
 - type: entity
   id: Bullet762x39mmPlasteelAP
   parent: BaseBullet
-  name: '子弹（7.62x39毫米穿甲弹） | bullet (7.62x39mm AP)'
+  name: '子弹（7.62x39mm 穿甲弹） | bullet (7.62x39mm AP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

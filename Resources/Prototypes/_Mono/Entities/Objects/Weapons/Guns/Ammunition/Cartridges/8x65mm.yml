@@ -21,7 +21,7 @@
 
 - type: entity
   id: BaseCartridge8x65mmSKR
-  name: '弹药（8x65毫米SKR） | cartridge (8x65mm SKR)'
+  name: '弹药（8x65mm SKR） | cartridge (8x65mm SKR)'
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: '一种实验性高性能弹药。TSF武装力量所有军种中高威力步枪的标准弹药。 | An experimental high performance round. Standard round for high-power rifles across all branches of the TSF''s armed forces.'
   abstract: true
@@ -44,7 +44,7 @@
 
 - type: entity
   id: Cartridge8x65mmSKR
-  name: '弹药筒（8x65毫米SKR全金属被甲弹） | cartridge (8x65mm SKR FMJ)'
+  name: '子弹（8x65mm SKR全金属被甲弹） | cartridge (8x65mm SKR FMJ)'
   parent: BaseCartridge8x65mmSKR
   components:
   - type: CartridgeAmmo
@@ -52,7 +52,7 @@
 
 - type: entity
   id: Cartridge8x65mmSKRPractice
-  name: '枪弹（8x65毫米SKR练习弹） | cartridge (8x65mm SKR practice)'
+  name: '枪弹（8x65mm SKR练习弹） | cartridge (8x65mm SKR practice)'
   parent: BaseCartridge8x65mmSKR
   components:
   - type: CartridgeAmmo
@@ -67,7 +67,7 @@
 
 - type: entity
   id: Cartridge8x65mmSKRIncendiary
-  name: '弹药筒（8x65毫米SKR燃烧弹） | cartridge (8x65mm SKR incendiary)'
+  name: '子弹（8x65mm SKR燃烧弹） | cartridge (8x65mm SKR incendiary)'
   parent: BaseCartridge8x65mmSKR
   components:
   - type: CartridgeAmmo

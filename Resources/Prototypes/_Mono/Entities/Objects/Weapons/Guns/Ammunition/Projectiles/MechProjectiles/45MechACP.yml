@@ -1,6 +1,6 @@
 - type: entity
   id: Bullet45_ACPFMJ_Mech
-  name: '子弹（点四五自动手枪弹全金属被甲） | bullet (.45 ACP FMJ)'
+  name: '子弹（.45 自动手枪弹全金属被甲） | bullet (.45 ACP FMJ)'
   parent: Bullet45_ACPFMJ
   categories: [ HideSpawnMenu ]
   components:

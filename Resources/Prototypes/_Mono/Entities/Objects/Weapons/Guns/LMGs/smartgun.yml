@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: 'SKR-WS MLA-79智能轻机枪（点160智能型） | SKR-WS MLA-79 smart LMG (.160 smart)'
+  name: 'SKR-WS MLA-79智能轻机枪（.160 智能型） | SKR-WS MLA-79 smart LMG (.160 smart)'
   parent: [BaseWeaponLightMachineGun, BaseGunWieldable, BaseC2Contraband]
   id: WeaponSmartLmg
   description: '一款在前线实地测试中罕见使用的军用原型。这是为标准化生产而优化的改良版本。 | A military prototype that saw rare use in front-lines field testing. This is a refined version for standard production.'
