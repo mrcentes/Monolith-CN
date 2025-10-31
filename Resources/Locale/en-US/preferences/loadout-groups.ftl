@@ -2,21 +2,21 @@
 loadout-group-species-restriction = This item is not available for your current species.
 
 # Miscellaneous
-loadout-group-trinkets = Trinkets
-loadout-group-glasses = Glasses
-loadout-group-backpack = Backpack
-loadout-group-instruments = Instruments
-loadout-group-survival-basic = Survival Box
-loadout-group-survival-extended = Extended Survival Box
-loadout-group-survival-clown = Clown Survival Box
-loadout-group-survival-medical = Medical Survival Box
-loadout-group-survival-security = Security Survival Box
-loadout-group-survival-syndicate = Github is forcing me to write text that is literally twice-impossible for the player to ever see, send help
-loadout-group-breath-tool = Species-dependent breath tools
-loadout-group-tank-harness = Species-specific survival equipment
-loadout-group-EVA-tank = Species-specific gas tank
-loadout-group-pocket-tank-double = Species-specific double emergency tank in pocket
-loadout-group-survival-mime = Mime Survival Box
+loadout-group-trinkets = 饰品
+loadout-group-glasses = 眼镜
+loadout-group-backpack = 背包
+loadout-group-instruments = 乐器
+loadout-group-survival-basic = 求生盒
+loadout-group-survival-extended = 大型求生盒
+loadout-group-survival-clown = 小丑求生盒
+loadout-group-survival-medical = 医疗求生盒
+loadout-group-survival-security = 安保求生盒
+loadout-group-survival-syndicate = Github 逼我写下这段玩家永远不可能看到的文本，救命
+loadout-group-breath-tool = 种族专属呼吸工具
+loadout-group-tank-harness = 种族专属维生装备
+loadout-group-EVA-tank = 种族专属气瓶
+loadout-group-pocket-tank-double = 口袋里的种族专属双份应急氧气瓶
+loadout-group-survival-mime = 默剧求生盒
 
 # Command
 loadout-group-captain-head = Captain head

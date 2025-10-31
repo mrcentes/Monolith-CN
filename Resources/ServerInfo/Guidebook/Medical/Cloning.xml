@@ -1,20 +1,20 @@
 <Document>
-# Cloning
-If all else fails, patients will need to be cloned. This should only be used as a last resort, if recovery is impossible. This is most often the case when the body has started to rot, or if they have excessive amounts of damage.
+# 克隆
+如果所有其他方法都失败了，患者将需要进行克隆。这应该仅在复苏无望时，作为最后的手段。最常见的情况是身体已经开始腐烂，或者他们承受了过量的伤害。
 
-Cloning itself is relatively simple. (Assuming the network is set.) Just drag a body into the scanner, check the cloning console, and clone! If they've taken cellular damage, or have rotted for too long, the results can be... less than pleasant.
+克隆过程本身相对简单（假设克隆设备已设置妥当）。只需将尸体拖入扫描仪，检查克隆控制台，然后开始克隆！如果他们遭受了细胞损伤，或者腐烂时间过长，结果可能……不尽如人意。
 
-As a note: Cloning isn't always available, and it would be best not to rely on it. 
+请注意：克隆并非总是可用，最好不要依赖它。
 <Box>
 <GuideEntityEmbed Entity="ComputerCloningConsole" Caption="cloning console"/>
 <GuideEntityEmbed Entity="MedicalScanner"/>
 <GuideEntityEmbed Entity="CloningPod"/>
 <GuideEntityEmbed Entity="NetworkConfigurator"/>
 </Box>
-## Biomass
-Creating a clone requires biomass, which, gruesomely, involves recycling organic material. Be it crew members without a soul, station pets, or hostile creatures that have been 'taken care of', things can often be recycled.
+## 生物质
+创建克隆体需要生物质，而这过程颇为可怖，涉及回收有机材料。无论是没有灵魂的船员、空间站宠物，还是已被"处理"掉的敌对生物，通常都可以进行回收。
 
-Dragging a body onto the biomass reclaimer (with your cursor) will mulch it for re-use. If it's a crew member, it's common practice to strip the body and return departmental gear before doing such.
+将一具尸体（用光标）拖到生物质回收器上，即可将其粉碎以供再利用。如果是一名船员，通常的做法是在扔进去之前，剥除其装备并归还部门物品。
 <Box>
 <GuideEntityEmbed Entity="BiomassReclaimer"/>
 <GuideEntityEmbed Entity="MaterialBiomass"/>

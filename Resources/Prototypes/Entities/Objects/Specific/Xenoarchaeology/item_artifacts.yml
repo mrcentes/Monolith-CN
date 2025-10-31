@@ -106,7 +106,7 @@
 - type: entity
   id: ArtifactFragment
   parent: BaseItem
-  name: 神器碎片 丨 artifact fragment
+  name: 文物碎片 丨 artifact fragment
   description: 一件文物的碎片。如果你有更多碎片，或许能将其修复。 丨 A broken piece of an artifact. You could probably repair it if you had more.
   components:
   - type: Sprite
