@@ -230,17 +230,10 @@
 
 #Mercenary vulcan
 - type: entity
-<<<<<<< Updated upstream
-  name: HWM FCM-C Vulcan瓦尔坎步枪 (7.62x51mm)
-  parent: WeaponRifleVulcan
-  id: WeaponRifleVulcanFCMC
-  description: 赫斯塔尔武器制造公司瓦尔坎民用中型战斗步枪（Fusil de Combat Moyen Civil），口径为762x51毫米，这款民用版本仅具有半自动模式且射速较低。
-=======
   name: HWM FCM-C 民用型"火神"步枪(7.62x51mm)
   parent: WeaponRifleVulcan
   id: WeaponRifleVulcanFCMC
   description: '赫斯塔尔武器制造公司的火神式民用中型战斗步枪,采用762x51mm 弹药。此民用版本仅具备半自动模式并降低了射速。 | The Herstal Weapon Manufacture "Vulcan" Civilian Medium combat rifle (Fusil de Combat Moyen Civil) in 762x51mm, this civilian version only has semi-automatic mode and reduced firerate.'
->>>>>>> Stashed changes
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/WeaponRifleVulcanFCMC.rsi
