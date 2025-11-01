@@ -38,7 +38,7 @@ frontier-lobby-nfsd-description = TSFMC前进作战基地是TSF武装扩张至�
    - 上缴违禁品
 
 frontier-lobby-pirate-subtext = ASR-灰烬共和国 行动指挥中心。
-frontier-lobby-pirate-description = 这是灰烬共和国反抗军聚集的终极藏身处。在此你可以：
+frontier-lobby-pirate-description = 这是灰烬共和国反抗军聚集的终极据点。在此你可以：
    - 组建抵抗队伍
    - 寻找可加入的船员队伍
    - 与其他灰烬共和国抵抗者交流

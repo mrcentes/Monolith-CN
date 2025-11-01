@@ -15,7 +15,7 @@
 - type: pointOfInterest
   id: Polaris
   parent: BasePOI
-  name: 'Polaris Bioresearch Center'
+  name: '北极星 生物研究中心'
   minimumDistance: 10000
   maximumDistance: 15000
   spawnGroup: Optional
@@ -28,7 +28,7 @@
 
 - type: gameMap
   id: Polaris
-  mapName: 'Polaris Bioresearch Center'
+  mapName: '北极星 生物研究中心'
   mapPath: /Maps/_Mono/POI/Dungeons/polaris.yml
   minPlayers: 0
   stations:

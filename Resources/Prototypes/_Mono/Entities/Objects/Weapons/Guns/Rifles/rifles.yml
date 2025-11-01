@@ -14,10 +14,17 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
+<<<<<<< Updated upstream
   name: VFD MR-8C DMR 步枪(8x65mm SKR)
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponRifleMR8C
   description: MR-8 系列的 DMR 变种，射击精度极高。使用 8x65mm SKR 弹药。侧面有一个标签写着仅供军用。
+=======
+  name: 'VFD MR-8C 精准射手步枪（8x65mm SKR） | VFD MR-8C DMR (8x65mm SKR)'
+  parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
+  id: WeaponRifleMR8C
+  description: 'MR-8系列的精准射手步枪变体，具有惊人的射击精度。使用8x65mm SKR弹药。侧面标签标注「仅限军用」。 | The DMR variant of the MR-8 series, firing with incredible accuracy. Chambered in 8x65mm SKR. A label on the side reads "FOR MILITARY USE ONLY".'
+>>>>>>> Stashed changes
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/mr8c.rsi
@@ -148,7 +155,11 @@
     id: StandardFactionLongarm
 
 - type: entity
+<<<<<<< Updated upstream
   name: VFD XLR-556 ICWS步枪 (5.56x45mm)
+=======
+  name: 'VFD XLR-556 ICWS步枪（5.56×45mm ） | VFD XLR-556 ICWS (5.56x45mm)'
+>>>>>>> Stashed changes
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponRifleXlr556
   description: 为TSF标准步兵提出的次世代步枪。使用5.56x45毫米步枪子弹，其射速极高——但高射速也需要出色的火控能力……
@@ -219,10 +230,17 @@
 
 #Mercenary vulcan
 - type: entity
+<<<<<<< Updated upstream
   name: HWM FCM-C Vulcan瓦尔坎步枪 (7.62x51mm)
   parent: WeaponRifleVulcan
   id: WeaponRifleVulcanFCMC
   description: 赫斯塔尔武器制造公司瓦尔坎民用中型战斗步枪（Fusil de Combat Moyen Civil），口径为762x51毫米，这款民用版本仅具有半自动模式且射速较低。
+=======
+  name: HWM FCM-C 民用型"火神"步枪(7.62x51mm)
+  parent: WeaponRifleVulcan
+  id: WeaponRifleVulcanFCMC
+  description: '赫斯塔尔武器制造公司的火神式民用中型战斗步枪,采用762x51mm 弹药。此民用版本仅具备半自动模式并降低了射速。 | The Herstal Weapon Manufacture "Vulcan" Civilian Medium combat rifle (Fusil de Combat Moyen Civil) in 762x51mm, this civilian version only has semi-automatic mode and reduced firerate.'
+>>>>>>> Stashed changes
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/WeaponRifleVulcanFCMC.rsi

@@ -14,7 +14,7 @@
   abstract: true
   parent: BaseShipVoucher
   id: BaseShipLPC
-  name: '舰船轻质生产单元 | ship LPC'
+  name: '舰船 LPC | ship LPC'
   description: '包含造船厂控制台生产特定设计所需的必要数据。 | Contains the necessary data for a shipyard console to produce a certain design.'
   components:
   - type: Sprite
@@ -25,7 +25,7 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPBasic
-  name: 'USSP基础航天飞机许可证 | USSP basic shuttle LPC'
+  name: 'USSP 基础航天飞机许可证 | USSP basic shuttle LPC'
   description: '一张授权获取基础USSP穿梭机的小型卡片。 | A small card that authorizes the acquisition of a basic USSP shuttle.'
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPIntermediate
-  name: 'USSP中级航天梭许可证 | USSP intermediate shuttle LPC'
+  name: 'USSP 中级航天飞机许可证 | USSP intermediate shuttle LPC'
   description: '一张授权获取中级USSP穿梭机的小型卡片。 | A small card that authorizes the acquisition of an intermediate USSP shuttle.'
   components:
   - type: Sprite
@@ -67,7 +67,7 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPAdvanced
-  name: 'USSP高级航天飞机许可证 | USSP advanced shuttle LPC'
+  name: 'USSP 高级航天飞机 LPC | USSP advanced shuttle LPC'
   description: '一张授权获取高级USSP航天飞机的小型卡片。 | A small card that authorizes the acquisition of an advanced USSP shuttle.'
   components:
   - type: Sprite
@@ -86,7 +86,7 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPLedokol
-  name: 'USSP 破冰船 LPC | USSP ledokol LPC'
+  name: 'USSP ledokol-破冰船 LPC | USSP ledokol LPC'
   description: '一张授权获取破冰船的小型卡片。 | A small card that authorizes the acquisition of a Ledokol.'
   components:
   - type: Sprite
@@ -104,8 +104,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPLedokolRam
-  name: 'USSP莱多科尔内存条LPC | USSP ledokol ram LPC'
-  description: '一张授权获取破冰船内存的小卡片。 | A small card that authorizes the acquisition of a Ledokol ram.'
+  name: 'USSP ledokol-破冰船 LPC | USSP ledokol ram LPC'
+  description: '一张授权获取破冰船的小卡片。 | A small card that authorizes the acquisition of a Ledokol ram.'
   components:
   - type: Sprite
     layers:
@@ -122,7 +122,7 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPLedokolAttatchment
-  name: 'USSP破冰船附件LPC | USSP ledokol attatchment LPC'
+  name: 'USSP 破冰船部件采购 LPC | USSP ledokol attatchment LPC'
   description: '一张授权获取破冰船附件的小型卡片。 | A small card that authorizes the acquisition of a Ledokol attatchment.'
   components:
   - type: Sprite
@@ -140,7 +140,7 @@
 - type: entity
   parent: ShipVoucherNfsdBailiff
   id: ShipVoucherTsfmcColonel
-  name: 'TSFMC上校舰船凭证 | TSFMC colonel ship voucher'
+  name: 'TSFMC上校 舰船兑换券 | TSFMC colonel ship voucher'
   description: '允许购买两艘任意尺寸的TSFMC舰船，并可采购北极星级舰船。售罄不可购。 | Allows for two TSFMC ship purchases of any size, and allows for the procurement of a Polaris. Destroyed on sale.'
   components:
   - type: ShipyardVoucher
@@ -158,8 +158,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherProwler
-  name: 'ASR徘徊者低阶采购卡 | ASR prowler LPC'
-  description: '一张授权采购徘徊者的小型卡片。 | A small card that authorizes the procurement of a Prowler.'
+  name: 'ASR prowler LPC | ASR prowler LPC'
+  description: '一张授权采购prowler的小型卡片。 | A small card that authorizes the procurement of a Prowler.'
   components:
   - type: Sprite
     layers:
@@ -178,8 +178,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherFlyssa
-  name: 'TSF飞萨级驱逐舰采购卡 | TSF flyssa LPC'
-  description: '一张记录从旗舰储备中采购飞梭萨级驱逐舰数据的小卡片。 | A small card that contains the data for the procurement of a Flyssa-class destroyer from the flagship''s reserves.'
+  name: 'TSF flyssa-飞萨级驱逐舰 LPC | TSF flyssa LPC'
+  description: '一张记录从旗舰储备中采购flyssa-飞萨级驱逐舰数据的小卡片。 | A small card that contains the data for the procurement of a Flyssa-class destroyer from the flagship''s reserves.'
   components:
   - type: Sprite
     layers:
@@ -198,8 +198,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherPolaris
-  name: '北极星级护卫舰LPC | TSF polaris LPC'
-  description: '一张小型卡片，内含从旗舰储备中采购极光级护卫舰所需数据。 | A small card that contains the data for the procurement of a Polaris-class frigate from the flagship''s reserves.'
+  name: '北极星级护卫舰 LPC | TSF polaris LPC'
+  description: '一张小型卡片，内含从旗舰储备中采购北极星级护卫舰所需数据。 | A small card that contains the data for the procurement of a Polaris-class frigate from the flagship''s reserves.'
   components:
   - type: Sprite
     layers:

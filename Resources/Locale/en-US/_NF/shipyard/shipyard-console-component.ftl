@@ -1,13 +1,13 @@
 ## UI
 shipyard-console-invalid-vessel = 无法购买舰船：
-shipyard-console-menu-title = 船坞菜单
+shipyard-console-menu-title = 造船厂菜单
 shipyard-console-menu-listing-free = 免费
 shipyard-console-menu-listing-voucher = 兑换券
-shipyard-console-docking = {$owner}的{$vessel}穿梭艇正在入港。
-shipyard-console-leaving = {$owner} 的穿梭机 {$vessel} 已被 {$player} 出售。
+shipyard-console-docking = {$owner}的{$vessel}舰船正在入港。
+shipyard-console-leaving = {$owner} 的舰船 {$vessel} 已被 {$player} 出售。
 shipyard-console-docking-secret = 检测到未注册舰船进入您所在星区。
 shipyard-console-leaving-secret = 检测到未注册舰船离开您所在星区。
-shipyard-commands-purchase-desc = 从网格文件生成指定的穿梭机并进行FTL对接。
+shipyard-commands-purchase-desc = 从网格文件生成指定的舰船并进行FTL对接。
 shipyard-console-no-idcard = 未检测到ID卡。
 shipyard-console-already-deeded = ID卡已绑定舰船合同。
 shipyard-console-invalid-station = 非有效空间站。
@@ -36,7 +36,7 @@ shipyard-console-menu-class-label = 类型：
 shipyard-console-menu-engine-label = 引擎：
 
 shipyard-console-purchase-available = 购买
-shipyard-console-guidebook = 手册
+shipyard-console-guidebook = 详细
 shipyard-console-unassign-deed = 解除绑定
 shipyard-console-deed-unassigned = 已成功解除ID卡与舰船合同的绑定。
 shipyard-console-confirm-unassign = 确认操作？

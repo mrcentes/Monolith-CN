@@ -388,7 +388,7 @@
   - type: SiliconLawProvider
     laws: VesselLawset
   - type: GhostRole
-    name: '舰船核心幽灵角色信息 | ghost-role-information-vessel-core'
+    name: '舰船-AI核心 | ghost-role-information-vessel-core'
     description: '幽灵角色信息舰船核心描述 | ghost-role-information-vessel-core-description'
     rules: ghost-role-information-silicon-rules
     raffle:
