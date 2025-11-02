@@ -5,7 +5,7 @@
 - type: entity
   parent: BaseDispenser
   id: BaseCargoChute
-  name: '货物交接基槽 | base cargo turn-in chute'
+  name: '货仓投递口 | base cargo turn-in chute'
   abstract: true
   description: '一台配有管道系统的机器，管道通向空间站内部深处，用于接收贸易契约所需的出口货物。 | A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.'
   components:
@@ -27,7 +27,7 @@
 
 - type: entity
   id: PaperWrittenDispenserInstructions
-  name: '货物分配器使用说明 | cargo dispenser instructions'
+  name: '货仓分配器使用说明 | cargo dispenser instructions'
   parent: Paper
   components:
   - type: Paper
@@ -38,7 +38,7 @@
 - type: entity
   parent: BaseCargoChute
   id: CargoChuteDepot
-  name: '货物仓库投递槽 | cargo depot turn-in chute'
+  name: '货仓仓库投递口 | cargo depot turn-in chute'
   description: '一台连接管道系统的机器，这些管道通向货物仓库深处，用于接收出口商品以换取贸易契约。 | A machine with piping systems that lead into the bowels of the cargo depot, accepting export goods for trade deeds.'
   components:
   - type: Dispenser
@@ -55,7 +55,7 @@
 - type: entity
   parent: BaseCargoChute
   id: CargoChuteDepotAlt
-  name: '备用货物仓库投入滑槽 | alternate cargo depot turn-in chute'
+  name: '备用货仓货物投递口 | alternate cargo depot turn-in chute'
   description: '一台配有管道系统的机器，管道通向货站深处，用于接收贸易契约的出口货物。 | A machine with piping systems that lead into the bowels of the cargo depot, accepting export goods for trade deeds.'
   components:
   - type: Dispenser
@@ -72,7 +72,7 @@
 - type: entity
   parent: BaseCargoChute
   id: CargoChuteTradeMall
-  name: '贸易商城货物投放槽 | Trade Mall cargo turn-in chute'
+  name: '贸易商城货物投递口 | Trade Mall cargo turn-in chute'
   description: '一台带有管道系统的机器，管道通向车站深处，用于接收出口商品以换取贸易凭证。 | A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.'
   components:
   - type: Dispenser
@@ -94,7 +94,7 @@
 - type: entity
   parent: BaseCargoChute
   id: CargoChuteBaikal
-  name: '卡美洛货物递交滑槽 | Camelot cargo turn-in chute'
+  name: '卡美洛货物投递口 | Camelot cargo turn-in chute'
   description: '一台连接管道系统并通向空间站深处的机器，用于接收贸易契约所需的出口货物。 | A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.'
   components:
   - type: Dispenser
@@ -115,7 +115,7 @@
 - type: entity
   parent: BaseCargoChute
   id: CargoChuteTSFMC
-  name: 'TSFMC货物交接滑槽 | TSFMC cargo turn-in chute'
+  name: 'TSFMC货物投递口 | TSFMC cargo turn-in chute'
   description: '一台配有管道系统的机器，管道通向空间站内部深处，用于接收贸易契约所需的出口货物。 | A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.'
   components:
   - type: Dispenser
@@ -137,7 +137,7 @@
 - type: entity
   parent: BaseCargoChute
   id: CargoChuteHideout
-  name: 'ASR藏身处货物交接滑槽 | ASR hideout cargo turn-in chute'
+  name: 'ASR据点货物投递口 | ASR hideout cargo turn-in chute'
   description: '一台连接管道系统并通向空间站深处的机器，用于接收贸易契约所需的出口货物。 | A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.'
   components:
   - type: Dispenser
@@ -160,7 +160,7 @@
 - type: entity
   parent: BaseCargoChute
   id: CargoChuteJupiter
-  name: '木星号货物移交槽 | ASR jupiter cargo turn-in chute'
+  name: '木星号货物投递口 | ASR jupiter cargo turn-in chute'
   description: '一台配有管道系统的机器，管道通向运输船内部深处，用于接收贸易契约所需的出口货物。 | A machine with piping systems that lead into the bowels of the carrier, accepting export goods for trade deeds.'
   components:
   - type: Dispenser
@@ -202,7 +202,7 @@
 - type: entity
   parent: BaseCargoChute
   id: CargoChuteExped
-  name: '远征旅舍货物投递滑槽 | expedition lodge cargo turn-in chute'
+  name: '远征旅舍货物投递口 | expedition lodge cargo turn-in chute'
   description: '一台连接管道系统并通向站点深处的机器，用于接收贸易契约所需的出口货物。 | A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.'
   components:
   - type: Dispenser

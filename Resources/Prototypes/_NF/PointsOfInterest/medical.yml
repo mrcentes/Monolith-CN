@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Medical
   parent: BasePOI
-  name: 'Medical Dispatch'
+  name: '医疗调度中心'
   minimumDistance: 2650
   maximumDistance: 4400
   spawnGroup: Required
@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: Medical
-  mapName: 'Medical Dispatch'
+  mapName: '医疗调度中心'
   mapPath: /Maps/_NF/POI/medical.yml
   minPlayers: 0
   stations:

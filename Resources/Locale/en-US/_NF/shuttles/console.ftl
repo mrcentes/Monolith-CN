@@ -1,7 +1,7 @@
 shuttle-console-designation = 舰船呼号:
 shuttle-console-designation-unknown = 未知
-shuttle-console-maximum-iff-distance = 敌我识别-IFF 距离范围
-shuttle-console-maximum-speed = 穿梭机速度上限
+shuttle-console-maximum-iff-distance = 敌我识别-IFF 距离
+shuttle-console-maximum-speed = 舰船速度上限
 
 shuttle-console-iff-search = 搜索IFF信号
 shuttle-console-inertia-dampener-off = 巡航模式
