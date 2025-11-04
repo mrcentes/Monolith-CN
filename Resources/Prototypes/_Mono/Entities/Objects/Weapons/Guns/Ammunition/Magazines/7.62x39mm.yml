@@ -133,7 +133,7 @@
 
 - type: entity
   id: Magazine762x39mmMaxim
-  name: '泛弹匣（7.62x39mm 全金属被甲弹） | pan magazine (7.62x39mm FMJ)'
+  name: '盘形弹匣（7.62x39mm 全金属被甲弹） | pan magazine (7.62x39mm FMJ)'
   parent: BaseMagazine762x39mm
   components:
   - type: Tag
@@ -147,7 +147,7 @@
 
 - type: entity
   id: Magazine762x39mmPkBox
-  name: 'PK弹药箱（7.62x39mm 全金属被甲弹） | PK munitions box (7.62x39mm FMJ)'
+  name: 'PK 弹药箱（7.62x39mm 全金属被甲弹） | PK munitions box (7.62x39mm FMJ)'
   parent: BaseMagazine762x39mm
   components:
   - type: Tag
