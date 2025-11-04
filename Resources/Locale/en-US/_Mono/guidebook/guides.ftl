@@ -5,7 +5,7 @@ guide-entry-shipyard-sabine = Sabine
 guide-entry-shipyard-takeaway = Takeaway
 
 # Gunnery Guides
-guide-entry-gunnery = Ship Warfare
+guide-entry-gunnery = 舰船武备
 guide-entry-l85 = L85 Autocannon
 guide-entry-ak570 = AK570 Heavy Autocannon
 guide-entry-marauder = MARAUDER-type Plasma Launcher
@@ -21,18 +21,18 @@ guide-entry-vespera = ADMP-27 VESPERA Rapid-Fire Pod
 guide-entry-tovek = ADMX-23 TOVEK Hybrid EMP Pod
 
 # Generic guides
-guide-entry-misc = Miscellaneous
+guide-entry-misc = 杂项
 
 guide-entry-fentanyl = Fentanyl Production
 guide-entry-letoferol = Letoferol & Chimeras
-guide-entry-asakim = 阿萨基姆人
+guide-entry-asakim = 朝圣者-阿萨基姆人
 guide-entry-radios = Broadband & Shortband
-guide-entry-gridclaimer = Claiming Debris
-guide-entry-armorexplanation = Armor Mechanics
+guide-entry-gridclaimer = 认领无主残骸
+guide-entry-armorexplanation = 护甲机制
 
 # Rules
-guide-entry-monolith-rules = Monolith Rules
+guide-entry-monolith-rules = Monolith 游戏规则
 
 # Creatures
-guide-entry-creatures = Creatures of the Sector
-guide-entry-cortical-borer = Cortical Borer
+guide-entry-creatures = 星区生物
+guide-entry-cortical-borer = 脑虫
