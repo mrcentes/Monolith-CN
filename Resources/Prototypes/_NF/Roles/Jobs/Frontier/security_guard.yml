@@ -46,7 +46,7 @@
   playTimeTracker: JobSecurityGuard
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 36000 # Frontier - 10 hrs
+      time: 0 # Frontier - 10 hrs
   startingGear: SecurityGuardGear
   alwaysUseSpawner: true
   icon: "JobIconSecurityGuard"

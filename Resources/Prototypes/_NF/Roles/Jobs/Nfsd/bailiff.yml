@@ -54,23 +54,23 @@
   playTimeTracker: JobWarden
   requirements: # mono - lowers all of these tbh
     - !type:OverallPlaytimeRequirement
-      time: 72000 # 20 hours
+      time: 0 # 20 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 36000 # 10 hours
+      time: 0 # 10 hours
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
-      time: 10800 # 3 hours
+      time: 0 # 3 hours
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
-      time: 108000 # 30 hours
+      time: 0 # 30 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 18000 # 5 hours
+      time: 0 # 5 hours
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
-      time: 7200 # 2 hours
+      time: 0 # 2 hours
   startingGear: BailiffGear
   icon: JobIconBailiff
   supervisors: job-supervisors-sheriff

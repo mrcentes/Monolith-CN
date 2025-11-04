@@ -20,10 +20,10 @@
   alwaysUseSpawner: true
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 54000 # 20 hrs # mono - change to 15 hr
+      time: 5400 # 20 hrs # mono - change to 15 hr
     - !type:RoleTimeRequirement
       role: JobSecurityGuard
-      time: 3600 # 3 hrs as security guard # mono - change to 1 hr
+      time: 0 # 3 hrs as security guard # mono - change to 1 hr
   canBeAntag: false
   icon: "JobIconStc"
   supervisors: job-supervisors-sr
