@@ -36,7 +36,7 @@
 - type: entity
   id: ComputerShipyardSHM
   parent: ComputerShipyardBase
-  name: 'SHM船厂控制台 | SHM shipyard console'
+  name: 'SHM造船厂控制台 | SHM shipyard console'
   description: '用于从SHM雇佣储备中调拨船只。 | Used to transfer ships from the SHM employ reserves.'
   components:
   - type: ActivatableUI

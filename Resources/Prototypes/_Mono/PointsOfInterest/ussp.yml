@@ -18,7 +18,7 @@
 - type: pointOfInterest
   id: USSPCamelot
   parent: BasePOI
-  name: 'Camelot Station'
+  name: '卡美洛空间站'
   minimumDistance: 10650
   maximumDistance: 12400
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueUSSP, MonoTSFUSSP, MonoADS, MonoChimera, MonoAllAtOnce ]
@@ -30,7 +30,7 @@
 
 - type: gameMap
   id: USSPCamelot
-  mapName: 'Camelot Station'
+  mapName: '卡美洛空间站'
   mapPath: /Maps/_Mono/POI/camelot.yml
   minPlayers: 0
   stations:

@@ -1,7 +1,7 @@
 <Document>
-  # 朝圣者
+  # 阿萨基姆人
 
-  Asakim are abandoned pre-fracture genetically enhanced reptillian bioweapons, they are remnants of long-gone wars, only woken up after extreme circumstances causing them to have a [color=red]cryostasis failure[/color] near the Colossus Sector.
+  阿萨基姆是一种遭遗弃的"大崩裂"前基因改造爬行类生物武器，作为远古战争的残响，仅在巨神星域附近发生[color=red]低温休眠失效[/color]的极端状况下苏醒。
 
   <Box>
     <GuideEntityEmbed Entity="MobAsakim"/>
@@ -12,25 +12,25 @@
     <GuideEntityEmbed Entity="WeaponRifleAsakimAutopulser"/>
   </Box>
 
-  ##As an Asakim:
-  - You generally have no knowledge (maybe basic at most) of the sector and its inhabitants. You don't speak Andromeda standard, you shouldn't know about the culture of the TSF or USSP.
-  - Your goal is to follow your orginal mission of securing a major point of interest and destroy or secure any [italic][color=#00CCFF]pre-fracture data[/color][/italic] you find.
-  - [bold]Your gear is incredibly [color=#00CCFF]valued and rare[/color], you should never give it up for anything, it is your only posession.[/bold]
-  - [color=green]Civilians and the innocent are not your enemy[/color], and can be bartered with (if you can get past the language barrier).
+  ##作为阿萨基姆：
+  - 你通常对星区及其居民一无所知（最多只有基础认知）。你不会说仙女座标准语 (Andromeda standard)，也不应了解TSF或USSP的文化。
+  - 你的目标是执行原始指令：占领关键战略点并销毁/保全所有发现的[italic][color=#00CCFF]大崩裂前数据[/color][/italic]。
+  - [bold]你的装备极其[color=#00CCFF]珍贵稀有[/color]，绝不应为任何事而放弃它，这是你唯一的财产。[/bold]
+  - [color=green]平民与无辜者并非你的敌人[/color]，可与他们进行交易（如果你能克服语言障碍）。
 
-  [color=#00FFCC][bold][italic]Fight with honor, prevent harm to the innocent, and destroy anything that stands in your path.[/italic][/bold][/color]
+  [color=#00FFCC][bold][italic]携荣誉而战，护无辜周全，摧毁前路上一切阻碍。[/italic][/bold][/color]
 
-  ##Species Notes:
-  [bold]As a genemodded trained bioweapon, you'll find that:[/bold]
-  - Your 2 additional small arms give you additional powerful melee damage, and inject 1u of [color=orange]Gastrotoxin[/color] on hit.
-  - Your thick scales protect you more than they normally would.
-  - Your additional eyes grants you basic biological nightvision.
-  - You are generally bulkier than most, and have more power to drag things around.
+  ##Species Notes：
+  [bold]作为基因改造训练而成的生物武器，你具备：[/bold]
+  - 两条额外的小臂为你提供了额外的强大近战伤害，在击中时注入1单位的[color=orange]Gastrotoxin (毒素)[/color]。
+  - 你的致密鳞片提供超常防护。
+  - 你的复数眼球赋予基础夜视能力。
+  - 你体型通常更魁梧，拖拽物体力量更强。
 
-  ## Misc Notes:
-  - Asakim are generally undiscovered to the rest of the sector, and should be taken into mind IC.
-  - [color=red][bold]Like Chimeras, you are not immune to safezone rules as an Asakim.[/bold][/color]
-  - Asakim do not require escalation to fire at or be fired from.
-  - You are allowed to work with ADS, and are allowed to know of their existence as they are Pre-Fracture tech.
+  ## 杂项说明：
+  - 阿萨基姆的存在尚未被星区主流社会察觉，这一点应在角色扮演中（IC）加以考虑。
+  - [color=red][bold]与奇美拉一样，作为一名阿萨基姆，你仍需遵守安全区规则。[/bold][/color]
+  - 阿萨基姆无需（等待事态）升级即可开火或被开火。
+  - 允许与ADS系统协作，因其属于大崩裂前的科技，你知晓其存在
 
 </Document>

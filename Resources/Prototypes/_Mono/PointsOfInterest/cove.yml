@@ -20,7 +20,7 @@
 - type: pointOfInterest
   id: Cove
   parent: BasePOI
-  name: ASR Insurgency Hideout
+  name: ASR 反抗军据点
   minimumDistance: 22500 # Mono
   maximumDistance: 24000 # Mono
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoRogueUSSP, MonoADS, MonoChimera, MonoAllAtOnce ]
@@ -35,7 +35,7 @@
 
 - type: gameMap
   id: Cove
-  mapName: 'ASR Insurgency Hideout'
+  mapName: 'ASR 反抗军据点'
   mapPath: /Maps/_Mono/POI/cove.yml
   minPlayers: 0
   stations:

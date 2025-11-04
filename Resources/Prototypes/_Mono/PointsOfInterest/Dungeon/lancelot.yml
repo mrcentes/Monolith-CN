@@ -14,7 +14,7 @@
 - type: pointOfInterest
   id: Lancelot
   parent: BasePOI
-  name: 'Lancelot Mining Outpost'
+  name: '兰斯洛特 采矿前哨站'
   minimumDistance: 10000
   maximumDistance: 15000
   spawnGroup: Optional
@@ -30,7 +30,7 @@
 
 - type: gameMap
   id: Lancelot
-  mapName: 'Lancelot Mining Outpost'
+  mapName: '兰斯洛特 采矿前哨站'
   mapPath: /Maps/_Mono/POI/Dungeons/lancelot.yml
   minPlayers: 0
   stations:
