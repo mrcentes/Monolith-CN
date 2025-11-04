@@ -20,7 +20,7 @@
   playTimeTracker: JobMercenary
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 54000 # mono - change to 15 hr
+      time: 0 # mono - change to 15 hr
   canBeAntag: true
   icon: "JobIconMercenary"
   supervisors: job-supervisors-hire

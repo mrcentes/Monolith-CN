@@ -46,14 +46,14 @@
   playTimeTracker: JobPublicAffairsLiaison
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 28800 # 8 hours # mono
+      time: 0 # 8 hours # mono
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 7200 # 2 hours # mono
+      time: 0 # 2 hours # mono
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
-      time: 36000 # 10 hours # mono
+      time: 0 # 10 hours # mono
   startingGear: PublicAffairGear
   icon: "JobIconPublicAffairsLiaison"
   supervisors: job-supervisors-cadet

@@ -58,23 +58,23 @@
   playTimeTracker: JobHeadOfSecurity
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 144000 # 40 hours - mono
+      time: 0 # 40 hours - mono
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 90000 # 25 hours - mono
+      time: 0 # 25 hours - mono
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
-      time: 36000 # 10 hours - mono
+      time: 0 # 10 hours - mono
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
-      time: 270000 # 75 hours - mono
+      time: 0 # 75 hours - mono
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 90000 # 25 hours - mono
+      time: 0 # 25 hours - mono
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
-      time: 21600 # 6 hours - mono
+      time: 0 # 6 hours - mono
   whitelisted: true
   startingGear: SheriffGear
   alwaysUseSpawner: true
