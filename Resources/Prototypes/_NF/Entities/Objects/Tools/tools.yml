@@ -8,10 +8,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: shipyard RCD
+  name: 造船快捷建设装置-RCD
   parent: RCD
   id: ShipyardRCD
-  description: An advanced construction device which can place/remove walls, floors, and airlocks quickly. It has a slot to swipe ID cards.
+  description: 一种先进的建造设备，能够快速建造或移除墙壁，地板和气闸.设备上有一个刷卡槽.
   components:
   - type: RCD
     isShipyardRCD: true
@@ -27,7 +27,7 @@
       charges: 0
 
 - type: entity
-  name: shipyard compressed matter
+  name: 造船RCD 压缩物质筒
   parent: RCDAmmo
   id: ShipyardRCDAmmo
   description: Ammo cartridge for a shipyard RCD.
@@ -40,10 +40,10 @@
     heldPrefix: ammo-shipyard
 
 - type: entity
-  name: maintenance jack
+  name: 多用途维护撬棍
   parent: BaseItem
   id: MaintenanceJack
-  description: A mighty tool for ruling maints. Pries tile and plating and can anchor. #Mono
+  description: 能统治整个维护管道的强力工具，可撬开地砖与涂层，亦能固定设备。 #Mono
   components:
   - type: Sprite
     sprite: _NF/Objects/Tools/maintenance-jack.rsi

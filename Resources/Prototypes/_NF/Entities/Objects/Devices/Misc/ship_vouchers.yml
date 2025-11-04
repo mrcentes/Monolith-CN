@@ -12,12 +12,12 @@
 # Copyright (c) 2024 New Frontiers Contributors
 # See AGPLv3.txt for details.
 
-# Ship vouchers, used to redeem for free ships!
+# 舰船兑换券s, used to redeem for free ships!
 - type: entity
   abstract: true
   parent: BaseItem
   id: BaseShipVoucher
-  name: ship voucher
+  name: 舰船兑换券
   description: Used for free shuttle rentals from a shipyard.
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: BaseShipVoucher
   id: ShipVoucherNfsdSergeant
-  name: TSFMC medium ship voucher
+  name: TSFMC medium 舰船兑换券
   description: Allows for one free small to medium TSFMC ship purchase. Destroyed on sale.
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 - type: entity
   parent: ShipVoucherNfsdSergeant
   id: ShipVoucherNfsdBailiff
-  name: TSFMC capital ship voucher
+  name: TSFMC capital 舰船兑换券
   description: Allows for one free small to capital TSFMC ship purchase. Destroyed on sale.
   components:
   - type: Sprite
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseShipVoucher
   id: ShipVoucherFrontierJanitor
-  name: janitor ship voucher
+  name: janitor 舰船兑换券
   description: Allows for one free janitorial ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
   components:
   - type: Sprite
@@ -95,7 +95,7 @@
 - type: entity
   parent: ShipVoucherFrontierJanitor
   id: ShipVoucherFrontierValet
-  name: valet ship voucher
+  name: valet 舰船兑换券
   description: Allows for one free valet ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 - type: entity
   parent: ShipVoucherFrontierJanitor
   id: ShipVoucherFrontierMailCarrier
-  name: mail carrier ship voucher
+  name: mail carrier 舰船兑换券
   description: Allows for one free mail ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
   components:
   - type: Sprite
@@ -123,7 +123,7 @@
 - type: entity
   parent: ShipVoucherFrontierJanitor
   id: ShipVoucherFrontierGuard
-  name: station guard ship voucher
+  name: station guard 舰船兑换券
   description: Allows for one free guard ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
   components:
   - type: Sprite

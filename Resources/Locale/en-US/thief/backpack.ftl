@@ -1,64 +1,64 @@
-thief-backpack-window-title = undetermined kit
+thief-backpack-window-title = 行窃者装备箱
 
 thief-backpack-window-description =
-    Inside are your tools of the trade, which will dissolve when you're ready.
-    Choose {$maxCount} different {$maxCount ->
-        [1] set
-        *[other] sets
-    } from the list.
+    箱内是你的专业工具，将在准备就绪时自动消解。
+    请从列表中选取{$maxCount}套不同的{$maxCount ->
+        [1] 装备
+        *[other] 装备组合
+    } .
 
-thief-backpack-window-selected = Kits selected: ({$selectedCount}/{$maxCount})
+thief-backpack-window-selected = 已选装备：（{$selectedCount}/{$maxCount}）
 
-thief-backpack-window-approve-button = Approve
-thief-backpack-button-select = Select [  ]
-thief-backpack-button-deselect = Select [X]
+thief-backpack-window-approve-button = 确认配置
+thief-backpack-button-select = 选择[ ]
+thief-backpack-button-deselect = 选择[X]
 
 # Sets
 
-thief-backpack-category-chameleon-name = Chameleon Kit
+thief-backpack-category-chameleon-name = 变色龙套件
 thief-backpack-category-chameleon-description =
-    You are everyone and no one; you are a master of disguise.
-    Includes: A full set of chameleon clothing,
-    a chameleon projector, and an Agent ID.
-    Disguise as anyone and anything.
+    你既是万众亦是虚无——伪装大师的终极配置。
+    包含：全套变色龙服饰、
+    拟态投影仪与特工ID卡。
+    可模拟任意人物与物体形态。
 
-thief-backpack-category-tools-name = Breacher Kit
+thief-backpack-category-tools-name = 突破手套件
 thief-backpack-category-tools-description =
-    What's that sound? A lil' C4 knockin' at their door.
-    No obstacle can stop you!
-    Includes: Two C4, a multitool, remote signaller, jaws of life,
-    advanced welder, engineering goggles, and insulated gloves.
+    听见了吗？那是C4在轻叩门扉。
+    世间再无阻碍能阻挡你的脚步！
+    包含：两枚C4、多功能工具、遥控信号器、救生颚、
+    高级焊枪、工程护目镜与绝缘手套。
 
-thief-backpack-category-chemistry-name = Anatomy Kit
+thief-backpack-category-chemistry-name = 解剖学套件
 thief-backpack-category-chemistry-description =
-    You've reached peak physical performance... with a little help.
-    Includes: Storage implanter, DNA scrambler implanter,
-    ephedrine bottle, syringe, empty shaker, and omega soap
+    凭借些许辅助，抵达你的生理机能巅峰。
+    包含：存储植入器、DNA scrambler 植入器、
+    麻黄碱瓶、注射器、空振荡瓶与欧米伽肥皂。
 
-thief-backpack-category-syndie-name = Syndie Kit
+thief-backpack-category-syndie-name = 辛迪加套件
 thief-backpack-category-syndie-description =
-    Trinkets from a disavowed past, or stolen from a careless agent?
-    You've made some connections. Whiskey, echo...
-    Includes: An Emag, Access Breaker, Interdyne cigs, a Syndicate codeword,
-    a Radio Jammer, a lighter and some strange red crystals.
+    来自被否认的过往遗物，抑或是从粗心特工处窃得？
+    你已建立特殊人脉。威士忌，回声...
+    包含：密码破译器、访问破解器、互洛因牌香烟、
+    辛迪加密匙、无线电干扰器、打火机与奇异红色晶体。
 
-thief-backpack-category-sleeper-name = Sleeper Kit
+thief-backpack-category-sleeper-name = 沉睡者套件
 thief-backpack-category-sleeper-description =
-    Until we close our eyes for good, use your illegal prescriptions
-    to keep others asleep.
-    Includes: Sleepy nitrous oxide tank, two nocturine bottles,
-    and a hypopen.
+    在永眠降临之前，你的非法处方
+    让他人长眠不醒。
+    包含：催眠性笑气罐、两瓶夜宁素
+    与间谍注射笔。
 
-thief-backpack-category-communicator-name = Communicator Kit
+thief-backpack-category-communicator-name = 交际官套件
 thief-backpack-category-communicator-description =
-    Money is power, and secrets are money. Use your silver tongue
-    and wealth to subvert the station.
-    Includes: Master key for all station channels, a CyberSun pen,
-    voice chameleon mask, and 20k credits inside a briefcase.
+    金钱即权力，秘密即财富。用你的三寸不烂之舌
+    与万贯家财颠覆空间站。
+    包含：全站频道主控密钥、赛博森牌钢笔、
+    声纹伪装面具与装入手提箱的2万信用点。
 
-thief-backpack-category-smuggler-name = Smuggler Kit
+thief-backpack-category-smuggler-name = 走私者套件
 thief-backpack-category-smuggler-description =
-    All thieves need somewhere to stash their goods in the dark.
-    Don't forget to link your fulton.
-    Includes: Fulton beacon, 10 fultons, 3 smoke grenades,
-    and an invisible crate to hide valuable loot.
+    所有窃贼都需要在暗处藏匿赃物。
+    别忘了连接富尔顿回收信标。
+    包含：富尔顿信标、10枚富尔顿回收器、3枚烟雾弹、
+    以及用于藏匿贵重战利品的隐形板条箱。

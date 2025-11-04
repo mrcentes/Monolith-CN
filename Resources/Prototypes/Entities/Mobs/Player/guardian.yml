@@ -11,7 +11,7 @@
       allowMovement: true
       allowSpeech: true
       makeSentient: true
-      name: 幽灵角色信息守护者名称 丨 ghost-role-information-guardian-name
+      name: 幽灵角色-守护者 丨 ghost-role-information-guardian-name
       description: 幽灵角色信息守护者描述 丨 ghost-role-information-guardian-description
       rules: ghost-role-information-familiar-rules
       mindRoles:
@@ -115,7 +115,7 @@
 
 # From the uplink injector
 - type: entity
-  name: 全寄生植物 丨 Holoparasite
+  name: 全息寄生体 丨 Holoparasite
   suffix: Ghost # Frontier
   id: MobHoloparasiteGuardian
   parent: MobGuardianBase
@@ -267,7 +267,7 @@
 - type: entity
   id: ActionToggleGuardian
   name: 切换守护者 丨 Toggle Guardian
-  description: 要么召唤守护者，要么将其召回体内。 丨 Either manifests the guardian or recalls it back into your body
+  description: 召唤守护者，或将其召回体内。 丨 Either manifests the guardian or recalls it back into your body
   components:
   - type: InstantAction
     icon: Interface/Actions/manifest.png

@@ -1,11 +1,11 @@
 # Mono edit
-store-category-pirateequipment = Equipment
-store-category-pirateweapons = Weapons
-store-category-piratemedical = Medical
-store-category-pirateutility = Utility
-store-category-pirateammo = Ammunition
-store-category-pirateexplosives = Explosives
-store-category-pirategambling = Gambling
+store-category-pirateequipment = 装备
+store-category-pirateweapons = 武器
+store-category-piratemedical = 医疗
+store-category-pirateutility = 工具
+store-category-pirateammo = 弹药
+store-category-pirateexplosives = 爆炸物
+store-category-pirategambling = 碰碰运气
 # Mono edit end
 
 uplink-pirate-hardsuit-name = ASR Hardsuit

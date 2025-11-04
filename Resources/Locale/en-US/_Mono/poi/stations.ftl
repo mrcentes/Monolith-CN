@@ -1,8 +1,8 @@
-frontier-lobby-tsfmc-secondary-subtext = A backup operating center for the TSFMC.
-frontier-lobby-tsfmc-secondary-description = The TFSMC Secondary Outpost is a alternate backup outpost, incase the main TSFMC Flagship is rendered inoperable. It contains a basic shipyard, and not much else.
+frontier-lobby-tsfmc-secondary-subtext = TSFMC 备用作战中心
+frontier-lobby-tsfmc-secondary-description = TSFMC 次级前哨站，TSFMC旗舰失去作战能力时的备用基地，配备基础船坞设施，其他功能有限。
 
-frontier-lobby-camelot-subtext = A military station operated by the USSP.
-frontier-lobby-camelot-description = This is NOT a safezone. This is not a recommended spawn point for new players. Both a expedition and standard shipyard is available here however.
+frontier-lobby-camelot-subtext = USSP 军事空间站
+frontier-lobby-camelot-description = 此处为【非安全区】，不推荐新手选择此出生点。不过同时设有远征型造船厂与标准型造船厂。
 
-frontier-lobby-jupiter-subtext = A mobile large mech-carrier.
-frontier-lobby-jupiter-description = This does NOT fall under the protection of portstriking rules. A large back-line mech carrier operated by the Ashen Republic. Doesn't have much firepower to brawl with other ships or a full-sized shipyard, but has a large amount of mechs and point defense.
+frontier-lobby-jupiter-subtext = 大型机甲运送机动母舰
+frontier-lobby-jupiter-description = 本舰【不受港口袭击规则保护】。灰烬共和国运营的大型后方机甲母舰，虽缺乏与其他舰船正面交火的火力或完整的船坞，但搭载大量机甲与点防御系统。

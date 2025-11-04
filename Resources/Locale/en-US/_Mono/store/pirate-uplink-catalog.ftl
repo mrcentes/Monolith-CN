@@ -1,22 +1,22 @@
 # MARK: Medical
 
-uplink-pirate-medical-bundle-name = Interdyne Medical Bundle
-uplink-pirate-medical-bundle-desc = An assortment of autoinjectors and premium medical equipment to cover for every possible situation. Contains an elite compact defibrillator that can be used as a weapon.
+uplink-pirate-medical-bundle-name = 互洛因医疗套装
+uplink-pirate-medical-bundle-desc = 一套包含自动注射器和高级医疗设备的组合，应对各种可能情况。内含一把可作为武器使用的精英紧凑型除颤器。
 
-uplink-pirate-interdyne-defibrillator-name = Interdyne Defibrillator
-uplink-pirate-interdyne-defibrillator-desc = An elite compact defibrillator that can be used as a weapon, now sold separately. Surprisingly deadly.
+uplink-pirate-interdyne-defibrillator-name = 互洛因除颤器
+uplink-pirate-interdyne-defibrillator-desc = 一把可作为武器使用的精英紧凑型除颤器，现单独出售。出奇地致命。
 
-uplink-pirate-chemical-synthesis-kit-name = Chemical Synthesis Kit
-uplink-pirate-chemical-synthesis-kit-desc = A starter kit for the aspiring chemist, includes toxin and vestine for all your criminal needs!
+uplink-pirate-chemical-synthesis-kit-name = 化学合成套件
+uplink-pirate-chemical-synthesis-kit-desc = 为有抱负的化学家准备的入门套件，包含毒素和vestine，满足您的所有犯罪需求！
 
-uplink-pirate-anti-poison-pen-name = Poison auto-injector
-uplink-pirate-anti-poison-pen-desc = A rapid dose of anti-poison. Contains ultravasculine and epinephrine.
+uplink-pirate-anti-poison-pen-name = 解毒-自动注射笔
+uplink-pirate-anti-poison-pen-desc = 快速解毒剂。含有超血管素和肾上腺素。
 
-uplink-pirate-puncturase-pen-name = Puncturase auto-injector
-uplink-pirate-puncturase-pen-desc = A rapid dose of puncturase and tranexamic acid, intended for combat applications.
+uplink-pirate-puncturase-pen-name = 穿刺酶(puncturase)-刺伤自动注射笔
+uplink-pirate-puncturase-pen-desc = 能快速注射穿刺酶(puncturase)和氨甲环酸(tranexamic)，专为战斗应用设计。
 
-uplink-pirate-pyrazine-pen-name = Pyrzine auto-injector
-uplink-pirate-pyrazine-pen-desc = A rapid dose of pyrazine and dermaline, intended for combat applications.
+uplink-pirate-pyrazine-pen-name = 吡嗪(pyrazine)-自动注射笔
+uplink-pirate-pyrazine-pen-desc = 快速注射吡嗪(pyrazine)和皮肤灵(dermaline)，专为战斗应用设计。
 
 uplink-pirate-rad-pen-name = Rad auto-injector
 uplink-pirate-rad-pen-desc = A rapid dose of anti-radiation. Contains arithrazine and bicaridine.
@@ -251,7 +251,7 @@ uplink-pirate-shrapnelgrenade-box-desc = A box containing 4 shrapnel grenades.
 uplink-pirate-explosivegrenade-box-name = Explosive Grenade Box
 uplink-pirate-explosivegrenade-box-desc = A box containing 4 explosive grenades.
 
-uplink-pirate-prowler-voucher-name = Prowler Ship Voucher
+uplink-pirate-prowler-voucher-name = Prowler 舰船兑换券
 uplink-pirate-prowler-voucher-desc = A single use voucher for a Prowler-class stealth craft.
 
 # MARK: $Gambling$

@@ -1,6 +1,6 @@
-﻿department-NF-description = Do your part to expand the TSF's influence in the sector.
-department-NFAntag-description = Undermine the Trans-Solar Federation's efforts in the sector and generally be a nuisance to society.
-department-NFCivilian-description = Team up with a crew and go out on adventures!
-department-NFCommand-description = Manage the sector, keep things running efficiently.
-department-NFCentralCommand-description = Get the sector under control, keep command on its toes.
-department-NFSecurity-description = Keep the peace around the sector.
+﻿department-NF-description = 尽你的一份力来扩大TSF在本星区的影响力。
+department-NFAntag-description = 破坏跨太阳系联邦在本星区的行动，并通常成为苏社的麻烦。
+department-NFCivilian-description = 与船员组队，出外冒险！
+department-NFCommand-description = 管理本星区，保持事务高效运转。
+department-NFCentralCommand-description = 控制住本星区，让指挥部时刻保持警惕。
+department-NFSecurity-description = 维护本星区周围的和平。

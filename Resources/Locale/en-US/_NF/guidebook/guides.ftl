@@ -1,40 +1,39 @@
-# Base entries
-guide-entry-nf14 = Frontier Guide
-guide-entry-bank = TSF Central Bank
-guide-entry-piloting = Piloting
-guide-entry-startinggear = Starting Equipment
-guide-entry-hiring = Hiring Crew
-guide-entry-expeditions = Expeditions
-guide-entry-sector-topology = Sector Topology
-guide-entry-cargo-hauling = Cargo Hauling
-guide-entry-shipyard = Shipyard
-guide-entry-frontier-rules = Server Rules
+guide-entry-nf14 = 边境宇宙指南
+guide-entry-bank = TSF 中央银行
+guide-entry-piloting = 驾驶
+guide-entry-startinggear = 初始装备
+guide-entry-hiring = 雇佣船员
+guide-entry-expeditions = 远征
+guide-entry-sector-topology = 星区拓扑学
+guide-entry-cargo-hauling = 货物运输
+guide-entry-shipyard = 造船厂
+guide-entry-frontier-rules = 服务器规则
 
 # Engineering entries
-guide-entry-gas-mining = Gas Mining
+guide-entry-gas-mining = 开采气体
 
 # Security entries
-guide-entry-nfsd-smuggling = Smuggling
+guide-entry-nfsd-smuggling = 走私品
 
 # Medical entries
-guide-entry-medical-bounties = Medical Bounties
-guide-entry-medical-doc = Director of Care
+guide-entry-medical-bounties = 医疗赏金
+guide-entry-medical-doc = 医疗总监
 
 # Reference entries
-guide-entry-medicalrecipes = Medical Recipes
+guide-entry-medicalrecipes = 医疗配方
 
 # Expedition faction entries
-guide-entry-expedition-aberrant-flesh = Aberrant Flesh
-guide-entry-expedition-argocytes = Argocytes
-guide-entry-expedition-blood-cultists = Blood Cultists
-guide-entry-expedition-carps = Carps
-guide-entry-expedition-dinosaurs = Dinosaurs
-guide-entry-expedition-explorers = Explorers
-guide-entry-expedition-mercenaries = Mercenaries
-guide-entry-expedition-gangers = Punks
-guide-entry-expedition-silicons = Rogue Silicons
-guide-entry-expedition-syndicate-naval-forces = Syndicate Naval Forces
-guide-entry-expedition-xenos = Xenos
+guide-entry-expedition-aberrant-flesh = 畸变血肉
+guide-entry-expedition-argocytes = 寄生机体
+guide-entry-expedition-blood-cultists = 鲜血教徒
+guide-entry-expedition-carps = 太空鲤鱼
+guide-entry-expedition-dinosaurs = 恐龙
+guide-entry-expedition-explorers = 探险家
+guide-entry-expedition-mercenaries = 雇佣兵
+guide-entry-expedition-gangers = 朋克
+guide-entry-expedition-silicons = 篡改硅基
+guide-entry-expedition-syndicate-naval-forces = 辛迪加海军
+guide-entry-expedition-xenos = 异形
 
 # Shipyard entries
 guide-entry-shipyard-akupara = Akupara

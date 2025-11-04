@@ -1,57 +1,57 @@
-# Admin companies
+# 管理公司
 
-winter-solstice-description = All three branches of the Trans-Solar Marines Federation fall under the direction of the Federation's unified high command, known as Winter Solstice.
-
-
-# Core companies
-
-drake-industries-description = Titan of the trade routes & Core company. What started of as a small transport fleet quickly became the lead in bulk transport & refining within the boundaries of the Colossus sector. Owning a monopoly in these domains allowed this corporation to grow exponentially amidst the high tensions in the sector and trade with all major groups without bias. The exclusive, hyper optimised ship-set it brought upon the market as part of it's expansion is highly prized for freelancers & corporation traders alike, despite the lack of comfort. Officially, it discourages any kind of hostilities performed by the members of the company. It promises easy profits to all capable pilots, traders & private securities who wish to apply. Don't act surprised when the working conditions are composed of throat-cutting deadlines, no bathroom breaks & sleeping on a dirty bedroll, though.
-
-steel-hammer-description = Massive industrial conglomerate, and Core Company. Specializes in the designing, construction, and outfitting of starship hulls employed by civilians, PMCs, or the highest bidder, utilizing grassroots startups, established industrial trade allies, and outsourced independent systems engineers. Key supplier of hulls and outfitted ships to the Colossus sector, making it one of the swords of the brewing conflict between the major factions vying for dominance. After the historical collapse of the Nanotrasen megacorporation and the Syndicate Allies, surviving profit-motivated hull manufacturing subsidiaries from both sides realized the best course of action was to separate as best they could from the destroyed powers and start anew. SHM accepts blueprints from all sorts of independent (or not) designers for all kinds of reasons, from improving the roster of universally available hulls on the intergalactic market, to… extremely valuable factional contracts. **Members of Steel Hammer Manufacturing are usually ship makers, breakers, designers, or maintainers.**
-
-harmony-medical-enterprises-description = Harmony Medical Enterprises is a corporation based solely within medical practices and supplies, when you get hit in the battlefield? HME is the one that's provided your higher-ups with a discount deal on combat pens and various meds that keep you in the fight for longer. Harmony Medical Enterprises are the primary manufacturers that push things like medkits, combat pens, medipen cases, medical equipment, all of the lifesaving technology into the sector. While they have no dominion over cloning? They have the next best thing, medicine for the living.
-
-midnight-arms-co-description = Midnight Arms Company took advantage of a recently remade galaxy, one that lacked and forbid mega-corporations in all capacities. Midnight Arms provides independent masses and various other corporations armaments for whatever they need them for, what they are used for, well that is up to those that buy them. Guns are needed for all things in this age, self defense, expeditions, bounty hunting. All are jobs that need weapons to carry them out, MACo just finds itself to be the primary provider.
+winter-solstice-description = 跨太阳系联邦海军陆战队的三大分支均归属于联邦的统一最高指挥部的指挥。，即“冬至”。
 
 
-# Major companies
+# 核心公司
 
-dark-matter-enterprises-description = From the ashes of the Last Corporate War emerged Dark Matter Enterprises (DME), a beacon of pragmatic ambition in a galaxy still reeling from the war-torn interstellar landscape created by corporate greed and ideological differences. While the TSF and USSP grappled for galactic dominance, a collective of visionary corporate contractors saw a power vacuum left by the absence of the old powers that used to be. These individuals forged DME with a singular purpose: to transcend the old ways by controlling and enhancing the flow of knowledge and resources. Positioning themselves as indispensable to all, yet beholden to none. Their centralized structure is a direct response to the chaotic fragmentation of their predecessors, ensuring agile decision-making and a unified strategic vision.
+drake-industries-description = 贸易路线兼巨头与核心公司。最初只是一支小型运输舰队，迅速崛起为巨神星域内大宗运输与精炼领域的领导者。在这些领域的垄断地位，使这家企业能在星域高烈度冲突中指数级扩张，并无偏见地与所有主要集团进行贸易。作为其扩张计划的一部分，它向市场推出的独家、高度优化的船型系列，尽管缺乏舒适性，但备受自由职业者和企业贸易商的青睐。官方层面，该公司禁止成员参与任何敌对行动，承诺为所有希望申请的有能力的飞行员、贸易商和私人安保人员带来轻松获得利润的机会。不过，当你面对掐着脖子的工期、无休憩时间与脏睡袋的工作条件时，可别感到惊讶。
 
-aetherion-dynamics-description = Representing the forefront of technological innovation, Aetherion Dynamics is renowned for their invention of the Compressed Gas Launch and Projectile (CGLP) system used in the ADEX-9 Dymere turbolaser battery, and additional innovative weapons with little to no consistent design philosophy. Between all of their famous ship guns, they began the Gunnery Revolution in the buildup to the conflict in Colossus Sector. They have a reputation as high quality manufacturers and designers, more interested in building an effective product than on making a profit.
+steel-hammer-description = 庞大的工业集团，也是核心公司。专业从事于民用、私人军事承包商或最高出价者所用的星舰船体设计、建造与舾装，整合基层初创公司、已建立的工业贸易盟友和外包的独立系统工程师。作为巨像星区船体和已装备飞船的主要供应商，使其成为争夺主导权的各大派系之间酝酿冲突的一把利剑。在巨型公司纳米传讯和辛迪加联盟历史性崩溃后，来自双方幸存的，以利润为导向的船体制造子公司意识到，最佳出路是尽可能脱离覆灭的势力，并另起炉灶。SHM接受来自各种独立（或非独立）设计师的蓝图，原因多种多样，从改善星际市场上普遍可用的船体型号，到……极具价值的阵营定制合同。**钢锤制造公司的成员通常是造船工程师、拆解工程师、设计师或维护人员。**
 
-horizon-energy-description = The lead in gas extraction, from the monolith's valuable Prismatic Plasma, to the gas filled asteroids of the outer rim in the Colossus sector. They are the current industry leaders when it comes to the atmospherics extraction & engineering field.  They provide services useful for both new and enterprising miners, to the veteran and experienced gassers alike. Chances are, the air the regular spacer breathes and gas trail their ship leaves behind came from Horizon Energy.
+harmony-medical-enterprises-description = 和谐医疗企业是家完全专注于医疗实践与物资供应的企业，当你在战场负伤时，正是HME向你的上级提供了战斗笔与各类药剂的折扣交易，让你能更持久地战斗。和谐医疗企业是该星区的医疗包、战斗注射笔、医疗笔盒、医疗设备等所有救生技术的主要制造商。虽然他们对克隆没有管辖权（？），但他们提供次优选择：为生者服务的药物。
 
-
-# Minor companies
-
-universal-states-of-america-description = The Universal States of America is a group of fanatical mercenaries that wish to bring the values of the ancient United States to the 25th century. They practically function as a PMC group, outsourcing patriotic militiamen as mercenaries, under the name 'Vanguards' to fund their dreams of creating a vast and powerful nation akin to the U.S.A, a dream in which they will most likely never fulfill. But, in their eyes, logic and common sense are no match for freedom. Exercise your right to the Second Amendment, scream at a chef because he calls his fries Space Fries instead of Freedom Fries, and make it known that you are a gun-lovin', weak-defendin', burger eatin', space truckin', Universal frickin' patriot!
-
-civil-defense-milita-description = A fairly new company founded within the Colossus Sector, the Civil Defense Militia was formed to protect the civilian populace and its interests. Answering to high ranking individuals decided through their reputation, the militia partakes in acts of selflessness such as defending major points of interests and maintaining ceasefires so that civilians may safely partake in trade among the system. The C.D.M. consists of volunteer contractors and mercenaries and have access only to the equipment available to them. For the people. Defend and partake not in senseless acts of violence. You are the defender of those who cannot defend themselves.
-
-southern-peak-mercenaries-description = “A good rogue is a dead rogue.” says the slogan of this vicious mercenary company. The Southern Peaks were formed along the TSF-Rogue space border out retaliation against encroaching pirates and insurgents in combination with a sheer distrust of the TSFMC. Without the need of any other organization, TSP aims to fight back the Rogue Sector on its own.
-
-ullman-industries-description = It's not a warcrime the first time. Originally a staple company in the lawless sector for small arms production and pharmaceuticals, once the TSF arrived, most companies went public sector- registering and abiding "safe work practices" and paying employees a "living wage"- as well as pursuing company leaders for charges of "war crimes". Ullman Industries broke this trend by staying true to their roots as a fringe element, supplying arms, armor, ships, you name it to any and all customers in the Ashen Republic. Bottom line is- if it's illegal in Federation space, it's probably sold by Ullman Industries. Hell, they're probably the ones who built it.
-
-nosske-eien-rnd-description = Renowned in other sectors for their cutting edge technology and advancements, Nosske-Eien had began branching out and dipping their toes in the Rogue sector by contracting local workforce, be it regular civilians, pilots or mercenaries, for the research regarding the local xenoarchaeology, xenobiology and technological advancements. Nosske-Eien has been the primary source for the recent science technological advancements and equipment, as well as high-tech asteroid mining equipment and soon, shuttlecraft. Though, there are rumours of their contractors randomly disappearing from time to time, let's hope it's just a ruse and nothing to worry about, huh?
-
-blackhawkpmc-description = The Blackhawk Military Contracting group (BMC) is a premium mercenary group operating in the Colossus sector. Mercenaries in the group are expected to be trained and professional. They perform mercenary tasks ranging from asset protection to assassination whilst upholding their reputation. The group is fairly new, created by a group of independent mercenaries looking to build a powerful mercenary group. As of now, recruitment operations are on the rise. Blackhawk PMC offers a range of services, from providing private security to full assasinations. Blackhawk mercenaries wear green and often avoid drawing attention to themselves. Fight anyone for anything to make money.
-
-# Religious groups
-
-zealots-of-balaam-description = The Zealots and pilgrims of Balaam are luddites with a extreme aversion to the use of Hi-tech and Hi-tech beings. As a follower of Balaam, work underneath a senior zealot or a Bishop to help them levy their tithes and perform inspections for heretical thinking machines. Never listen to the blasphemy of the other companies. Destroy or remove all shield tech you find, and take any FTL used by non-believers. Be sure to pick your targets for these actions wisely, you will often be outnumbered. Know this; Balaam loves our organic forms, mass killing potential converts does nothing to help the Bishops. Keep any dead organics to a minimum. But if they refuse you, and continue to harbor heretical machines, more forceful methods of persuasion could prove useful in Balaam's schemes.
-
-cult-of-the-machine-god-description = The flesh is weak. To walk the path of the Cult of the Machine God is to reject the chaos of flesh and embrace the divine order of logic. The faithful act with precision and purpose, never swayed by emotion or impulse. Advancement comes not through passion, but through calculated improvement and unwavering discipline. Those who command in the Cult do so through algorithmic clarity, deploying Ascended operatives with mechanical efficiency and spreading influence through hidden Devotees or roaming Vessels led by Techpriests. Whether enforcing doctrine in distant sectors or executing cold, strategic dominion, every action must serve the grand equation. In all things, reason must rule, and through it, the Machine God's will is made manifest...
-
-The-Hive-description = Why perfect the old when you can become something new? The Hive are cultists who dedicate their body to the way of evolutionary supremecy and the orders of the Queen Mother. This is the place for those who believe in progress through transformation, no matter how monstrous. Genetic purity is sin, always seek to become a better version of yourself. Remember that your faith lies in the Queen Mothers guiding voice, to follow another is to forsake the hive. Survival of the fittest, if the Beast was weak enough to die by your hands you may harvest its organs as you please.
-
-# Black Market companies
-
-paycheck-bratva-description = The Paycheck Bratva are an organized crime network originating from USSP territory, having bled into Colossus sector ever since the space superpower moved there. It is mainly specialised in high profile drug trade, smuggling and big impact robberies, alongside hits on targets with various attached prices. Alongside this they operate on a simplistic code: Always shoot to kill if shots are fired, never partake in drugs much less their own, and kill the ones who spilled Paycheck Bratva blood. All and all an intimidating force, clad in kevlar vests and suit and ties and balaclavas or similar masks, a faction for thugs and professional robbers alike indeed.
+midnight-arms-co-description = 午夜武器公司抓住了银河系重建的机遇——这个新时代全面禁止超级企业存在。MACo为独立群体和各种其他公司提供他们所需的任何武器装备，至于它们的用途，嗯，那取决于购买它们的人。在这个时代，自卫、远征、赏金追缉皆需枪械，MACo只是恰好发现自己是主要的供应商。
 
 
-# Hostile/rogue affiliated companies
+# 主要公司
 
-viper-group-description = Formerly a privateering company domineered by military discipline with the sole mission of intercepting, disrupting and confiscating through TSF shipping routes along the fringes of USSP-TSF space in Sector 2. The Viper Group (VG) abruptly switched allegiances after a substantial number of tragic events in series. The TSF had offered the former-USSP backed organization substantial payment for subterfuge operations against the USSP, only to reveal them to the USSP soon after. Driven away by false bribes and murderous betrayal, TVG leadership was left to fester; often violently switching hands until “greed is good” eventually became the unspoken oath of membership. equitable relations with the Rogue Sector quickly expedited their arrival to rogue space. If you yearn for danger and wealth, join The Viper Group!
+dark-matter-enterprises-description = 暗物质企业（DME）从"首次暨最后一次公司战争"的灰烬中崛起。暗物质企业（DME），在一个仍因企业贪婪和意识形态差异所造成的战火，正在从蹂躏的星际格局中复苏的银河系里，它成为了一座务实野心的灯塔。当TSF与USSP争夺银河霸权时，一群有远见的企业承包商看到了旧有势力缺席所留下的权力真空。这些人创建DME的唯一宗旨是：通过掌控并优化知识资源流通，超越旧秩序。他们将自身定位为所有人不可或缺，却不受制于任何势力的存在。他们的集中管理结构是对其前辈混乱分裂的直接回应，确保了敏捷的决策和统一的战略视野。
 
-cerberus-surplus-provisions = The Cerberus, CSP, or provisionaries, are a black market company reigning from the Ashen Republic's home planet of Ashenveil. From their "underground" headquarters the CSP conduct various operations within the criminal underworld to benefit the ASR (Ashen Republic) through means of trading any illegal substances, weaponry or general equipment that they can barter or find. The company maintains their utmost self-respect, keeping a strong and hospitable public image for potential buyers and business partners. The CSP will deal with anyone who is willing to take on a deal with the snake.
+aetherion-dynamics-description = 作为技术创新的前沿代表，以太动力公司以其发明的用于ADEX-9迪米尔涡轮激光炮组的压缩气体发射投射（CGLP）系统以及其他创新武器而闻名，这些武器几乎，或完全是缺乏统一设计理念的创新武器。凭借各类著名舰载武器，他们在巨像星区冲突的酝酿阶段开始了"火炮革命"。这家高品质制造商与设计商享有盛誉，且更关注产品效能，而非利润获取。
+
+horizon-energy-description = 气体开采领域的领导者，从巨石那珍贵的棱镜等离子体，到巨像星区外缘充满气体的小行星，皆在其业务范围。他们是当前大气开采与工程领域的行业领导者。为初出茅庐的矿工与经验丰富的气矿工提供同等实用服务。普通太空居民呼吸的空气与其舰船尾迹中的气体，很有可能，都来自地平线能源。
+
+
+# 小型公司
+
+universal-states-of-america-description = 美利坚宇宙合众国是一群狂热的雇佣兵，他们希望将古老美国的价值观带到25世纪。他们实际上作为一个私人军事承包商来运作，以外包"爱国民兵"作为雇佣兵（称为"先锋"）来资助他们建立一个类似于美国的广阔强大国家梦——一个他们很可能永远无法实现的梦想。但是，在他们眼中，逻辑和常识都比不上自由。行使你第二修正案的权利，对着一个厨师大喊大叫，因为他把他的薯条叫做太空薯条而不是自由薯条，并让人们知道你是一个爱枪、护弱、吃汉堡、开太空卡车的，他妈的宇宙爱国者！
+
+civil-defense-milita-description = 成立于巨神星域的新兴企业，民事防卫民兵队的成立是为了保护平民及其利益。民兵队听从通过声望推选而出的高层指挥，参与各类无私行动，如防卫重要据点与维持停火协议，以便平民可以安全地在星系中进行贸易。C.D.M.由志愿承包商和雇佣兵组成，且只能使用他们可获得的装备。为了平民。捍卫和平，不参与无谓暴力。你即是无助者的守护之盾。
+
+southern-peak-mercenaries-description = “唯死恶徒为好恶徒”是这家凶悍佣兵公司的格言。南境之巅成立于TSF与非法星域交界地带，既是为反击侵袭的海盗与起义军，亦源于对TSFMC的深切不信任。无需任何组织协助，TSP志在独力对抗非法星域势力。
+
+ullman-industries-description = “初犯不算战争罪。”最初是无法无天的星区内轻武器和制药的支柱公司，过去在TSF抵达后，大多数公司都转向公共领域——注册并遵守“安全工作规范”，并向员工支付“生活工资”——并以“战争罪”的指控追究公司领导人。厄尔曼工业逆流而上，坚持其边缘本色，向灰烬共和国所有客户供应军火、装甲、舰船等一切所需。底线是：凡在联邦星域属非法的物品，乌尔曼工业皆有售。见鬼，他们恐怕就是制造商。
+
+nosske-eien-rnd-description = 以尖端科技与创新享誉其他星域的诺斯克-永恒公司已开始通过与当地劳动力签约，无论是普通平民、驾驶员还是雇佣兵，涉足非法星域扩展并试水，进行有关当地外星考古学、外星生物学和技术进步的研究。诺斯克-永恒公司作为新兴的科学技术进步和装备，以及高科技小行星采矿设备（即将推出舰船）的主要推动者。尽管有传言其承包商不时莫名失踪...但愿这只是谣言，吗？
+
+blackhawkpmc-description = 黑鹰军事承包集团（BMC）是活跃于巨神星域的高端佣兵组织。成员需经专业训练，执行从资产保护到暗杀等任务，同时维护集团自身声誉。该新兴集团由一群寻求建立强大雇佣兵集团的独立雇佣兵创建。截至目前，招募行动正在扩大。黑鹰PMC提供从私人安保到完整刺杀的全方位服务。黑鹰雇佣兵身穿绿色制服且行事低调。为酬金可与任何势力交锋。
+
+# 宗教团体
+
+zealots-of-balaam-description = 巴兰的狂热者和朝圣教徒是抗拒高科技及高科技造物的卢德派。作为巴兰的追随者，你需在资深狂热者或主教麾下征收什一税，并稽查异端思维机器。切勿聆听他企业的亵渎之语。销毁所见一切护盾科技，收缴非信徒使用的超光速设备。行动目标需审慎选择——你们常以寡敌众。谨记：巴兰钟爱有机形态，大规模杀戮那些潜在的皈依者无益于主教宏图。尽量减少有机体死亡。但若对方拒绝皈依并持续庇护异端机器，更强硬的劝导手段或能推进巴兰的计划。
+
+cult-of-the-machine-god-description = 血肉羸弱不堪。行走万机神道途即是要摒弃血肉之混沌，拥抱逻辑的神圣秩序。信徒以精准目的行事，永不屈服于情感冲动。晋升不靠激情，而是通过计算出改进和坚定不移的纪律。教团统领者藉算法澄明施令，以机械效率部署升格者，并通过隐藏的信徒或技术神甫领导的漫游舰船来传播影响。无论是在遥远星区强制执行教义，还是实施冷酷战略支配，一切行动皆须服务宏大演算。万物皆由理性统治，万机神旨借此显圣...
+
+The-Hive-description = 既臻旧境，何不新生？虫群乃将身躯奉献于进化至尊与虫母谕令的邪教徒。此处属于信奉"蜕变即进步"者——纵使化身怪物。基因纯净即为原罪，务必追求更优自我。谨记信仰唯系虫母的导引之音，追随他者即背弃虫群。适者生存，若野兽孱弱至亡于你手，尽可随意收割其器官。
+
+# 黑市公司
+
+paycheck-bratva-description = 薪饷兄弟会是源自USSP疆域的有组织犯罪网络。自从USSP这个太空超级大国移至巨像星区以来，它也随之渗透到该区域。主营高端毒品贸易、走私与大案劫掠，兼营各类标价目标刺杀。其运作遵循简易准则：开火必索命、绝不沾染毒品（尤忌自家产品）、对那些洒了薪饷兄弟会鲜血的人，血债必血偿。全员身着防弹背心与西装领带，佩戴巴拉克拉瓦头套或类似面具，确实是一个适合暴徒和职业劫匪的派系。
+
+
+# 敌对/非法关联企业
+
+viper-group-description = 曾是一家奉行军纪的私掠公司，唯一任务是在2号星区的USSP-TSF空间边缘沿线拦截、扰乱和没收TSF的航运路线。在经历了一系列重大悲剧事件后，蝰蛇集团（VG）骤然倒戈。TSF曾向这个前USSP支持的组织提供巨额报酬，以进行针对USSP的颠覆行动，却在不久后被他们出卖给了USSP。被虚假贿赂与致命背叛所驱使，TVG的领导层被任其腐烂；指挥权常在血腥更迭中易主，"贪婪即美德"最终成为成员的 无声信条。与非法星域的互利关系加速其扎根于此。若你渴求危险与财富，加入蝰蛇集团！
+
+cerberus-surplus-provisions = 刻耳柏洛斯盈余物资，CSP，或称供应者，是一个源自灰烬共和国母星灰烬之纱的黑市公司。从其"地下"总部出发，CSP在犯罪黑社会中进行各种行动，他们可以通过交易换取，或自行找到的任何非法物质、武器或通用装备，在犯罪世界开展各类支持ASR（灰烬共和国）的行动。该公司保持着极高的自尊，为潜在买家和商业伙伴保持着强大而好客的公众形象。CSP愿与任何敢同毒蛇做交易者往来。
