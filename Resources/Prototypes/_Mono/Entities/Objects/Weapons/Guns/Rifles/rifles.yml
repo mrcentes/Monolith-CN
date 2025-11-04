@@ -14,7 +14,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: VFD MR-8C 精准射手步枪（8x65mm SKR） | VFD MR-8C DMR (8x65mm SKR)
+<<<<<<< Updated upstream
+  name: 'VFD MR-8C 精准射手步枪（8x65mm SKR） | VFD MR-8C DMR (8x65mm SKR)'
+=======
+  name: VFD MR-8C 精准射手步枪（8x65mm SKR）
+>>>>>>> Stashed changes
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponRifleMR8C
   description: MR-8系列的精准射手步枪变体，具有惊人的射击精度。使用8x65mm SKR弹药。侧面标签标注「仅限军用」。
