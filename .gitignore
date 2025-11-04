@@ -309,6 +309,6 @@ Resources/MapImages
 
 # Link Files
 *.lnk
-
 /.github/workflows
-/.github/workflows
+/Resources/Locale/zh-CN
+RobustToolbox
