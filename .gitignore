@@ -309,3 +309,6 @@ Resources/MapImages
 
 # Link Files
 *.lnk
+
+/.github/workflows
+/.github/workflows
