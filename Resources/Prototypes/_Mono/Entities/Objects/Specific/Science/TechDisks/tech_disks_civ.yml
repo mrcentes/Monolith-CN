@@ -8,7 +8,7 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskBluespaceBags
-  name: '预装裂隙超空间存储技术盘 | pre-fracture bluespace storage tech disk'
+  name: '前断代纪元 超空间存储技术盘 | pre-fracture bluespace storage tech disk'
   description: '一张能够为服务器配方添加高级蓝空存储技术的磁盘。 | A disk capable of adding advanced bluespace storage to a server''s recipes.'
   components:
   - type: Sprite
@@ -172,7 +172,7 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskSpeedBoots
-  name: '预断裂速度调控技术盘 | pre-fracture speed manipulation tech disk'
+  name: '前断代纪元 速度调控技术盘 | pre-fracture speed manipulation tech disk'
   description: '一张能为服务器配方添加速度增益的技术磁盘。 | A disk capable of adding speed boots to a server''s recipes.'
   components:
   - type: Sprite
@@ -191,7 +191,7 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskFtl
-  name: '预断裂超空间驱动技术磁盘 | pre-fracture bluespace drive tech disk'
+  name: '前断代纪元 超空间驱动技术磁盘 | pre-fracture bluespace drive tech disk'
   description: '一张能够为服务器配方添加超光速驱动器的技术磁盘。 | A disk capable of adding FTL drives to a server''s recipes.'
   components:
   - type: Sprite
@@ -212,7 +212,7 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskShields
-  name: '预断裂护盾技术磁盘 | pre-fracture shield technology tech disk'
+  name: '前断代纪元 护盾技术磁盘 | pre-fracture shield technology tech disk'
   description: '能够为服务器配方添加飞船护盾技术的圆盘。 | A disk capable of adding ship shield tech to a server''s recipes.'
   components:
   - type: Sprite

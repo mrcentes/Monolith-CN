@@ -111,8 +111,8 @@
 - type: entity
   parent: [ ClothingScarfBase, BaseCentcommContraband ]
   id: ClothingNeckScarfStripedCentcom
-  name: 条纹中央司令部围巾 丨 striped CentComm scarf
-  description: 一条时尚的条纹中央司令部配色围巾。既是时尚嗅觉敏锐者的完美冬季配饰，也能满足在寒风中处理文书工作的需求。 丨 A stylish striped centcomm colored scarf. The perfect winter accessory for those with a keen fashion sense, and those who need to do paperwork in the cold.
+  name: 条纹中央指挥部围巾 丨 striped CentComm scarf
+  description: 一条时尚的条纹中央指挥部配色围巾。既是时尚嗅觉敏锐者的完美冬季配饰，也能满足在寒风中处理文书工作的需求。 丨 A stylish striped centcomm colored scarf. The perfect winter accessory for those with a keen fashion sense, and those who need to do paperwork in the cold.
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/centcom.rsi

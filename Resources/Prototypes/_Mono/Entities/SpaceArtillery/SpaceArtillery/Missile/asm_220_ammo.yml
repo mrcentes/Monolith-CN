@@ -217,7 +217,7 @@
 - type: entity
   id: Asm220TorpedoLOSAT
   name: 'ASM-220 直瞄反坦克导弹 | ASM-220 LOSAT missile'
-  description: '本质上是一种大型合成合金超强穿透弹，可轻易撕裂船体。 | Effectively a large synthalloy hyper-penetrator. Tears through hull with ease.'
+  description: '本质上是一种合成合金制成的大型超强穿透弹，可轻易撕裂船体。 | Effectively a large synthalloy hyper-penetrator. Tears through hull with ease.'
   parent: BaseGrenade
   components:
   - type: Tag

@@ -182,7 +182,7 @@
   name: 蔬菜披萨 丨 vegetable pizza
   parent: FoodPizzaBase
   id: FoodPizzaVegetable
-  description: 车站的素食者们会感谢你做了这个。 丨 The station's vegetarians will thank you for making this.
+  description: 空间站的素食者们会感谢你做了这个。 丨 The station's vegetarians will thank you for making this.
   components:
   - type: FlavorProfile
     flavors:

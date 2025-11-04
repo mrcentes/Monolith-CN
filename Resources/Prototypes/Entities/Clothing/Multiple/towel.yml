@@ -700,7 +700,7 @@
 
 - type: entity
   id: TowelColorCentcom
-  name: 中央司令部毛巾 丨 centcom towel
+  name: 中央指挥部毛巾 丨 centcom towel
   parent: BaseTowel
   components:
   - type: Sprite

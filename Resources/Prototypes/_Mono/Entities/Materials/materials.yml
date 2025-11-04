@@ -10,7 +10,7 @@
 - type: material
   id: Synthalloy
   stackEntity: MaterialSynthalloy1
-  name: '材料合成合金 | materials-synthalloy'
+  name: '材料-合成合金 | materials-synthalloy'
   unit: materials-unit-sheet
   icon: { sprite: /Textures/_Mono/Objects/Materials/synthalloy.rsi, state: synthalloy }
   color: "#FFFFFF"
@@ -56,7 +56,7 @@
 - type: material
   id: Pyrogel
   stackEntity: MaterialPyrogel1
-  name: '材料-派罗杰 | materials-pyrogel'
+  name: '材料-热凝凝胶 | materials-pyrogel'
   unit: materials-unit-sheet
   icon: { sprite: _Mono/Objects/Materials/pyrogel.rsi, state: icon }
   color: "#C0C0C0"
@@ -94,7 +94,7 @@
 - type: material
   id: Iridite
   stackEntity: SheetIridite1
-  name: '材料虹彩处理 | materials-iridite'
+  name: '材料-铱化合金 | materials-iridite'
   unit: materials-unit-sheet
   icon: { sprite: /Textures/_Mono/Objects/Materials/iridite.rsi, state: iridite }
   color: "#252229"

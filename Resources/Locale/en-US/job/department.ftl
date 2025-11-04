@@ -1,7 +1,7 @@
 department-Cargo = Cargo
 department-Civilian = 平民
 # department-Command = Command # Frontier: redefined in _NF
-department-CentralCommand = 中央司令部
+department-CentralCommand = 中央指挥部
 department-Engineering = 工程部
 # department-Medical = Medical # Mono: redefined in _NF
 # department-Security = Security # Frontier: redefined in _NF

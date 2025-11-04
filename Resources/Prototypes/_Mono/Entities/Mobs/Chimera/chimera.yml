@@ -57,10 +57,10 @@
   parent: MobLetoferolHorror
   id: MobLetoferolHorrorGhostrole
   suffix: Ghostrole
-  name: '嵌合体血肉兽 | chimera fleshbeast'
+  name: '血肉之兽奇美拉 | chimera fleshbeast'
   components:
   - type: GhostRole
-    name: '奇美拉幽灵角色信息名称 | ghost-role-information-chimera-name'
+    name: '幽灵角色-奇美拉 | ghost-role-information-chimera-name'
     description: '幽灵角色信息奇美拉描述 | ghost-role-information-chimera-description'
     rules: ghost-role-information-chimera-rules
     raffle:

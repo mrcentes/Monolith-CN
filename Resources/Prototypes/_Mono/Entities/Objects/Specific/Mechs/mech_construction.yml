@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseBroadswordPart
   id: BroadswordHarness
-  name: '阔剑式核心装置 | broadsword harness'
-  description: 'AF-28阔剑的核心部分 | The core of the AF-28 "Broadsword".'
+  name: '「阔剑」 核心框架 | broadsword harness'
+  description: 'AF-28「阔剑」的核心部分 | The core of the AF-28 "Broadsword".'
   components:
   - type: Appearance
   - type: ItemMapper
@@ -69,8 +69,8 @@
 - type: entity
   parent: BaseBroadswordPartItem
   id: BroadswordHead
-  name: '阔剑头部 | broadsword head'
-  description: '大刀头部。它属于机甲底盘部件。 | The head of the broadsword. It belongs on the chassis of the mech.'
+  name: '「阔剑」头部 | broadsword head'
+  description: '阔剑的头部部件。它属于机甲底盘部件。 | The head of the broadsword. It belongs on the chassis of the mech.'
   components:
   - type: Sprite
     state: broadsword_head
@@ -81,7 +81,7 @@
 - type: entity
   parent: BaseBroadswordPartItem
   id: BroadswordRArm
-  name: '阔剑右臂 | broadsword right arm'
+  name: '「阔剑」右臂 | broadsword right arm'
   description: '阔剑机甲右臂。它属于机甲底盘部分。 | The right arm of the broadsword. It belongs on the chassis of the mech.'
   components:
   - type: Sprite
@@ -93,7 +93,7 @@
 - type: entity
   parent: BaseBroadswordPartItem
   id: BroadswordLArm
-  name: '阔剑左臂 | broadsword left arm'
+  name: '「阔剑」左臂 | broadsword left arm'
   description: '克拉克机体的左臂。该部件属于机甲躯干部分。 | The left arm of the Clarke. It belongs on the chassis of the mech.'
   components:
   - type: Sprite
@@ -105,7 +105,7 @@
 - type: entity
   parent: BaseBroadswordPartItem
   id: BroadswordLLeg
-  name: '阔剑左腿 | broadsword left leg'
+  name: '「阔剑」左腿 | broadsword left leg'
   description: '阔剑机甲左腿。它属于机甲底盘部件。 | The left leg of a broadsword. It belongs on the chassis of the mech.'
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
 - type: entity
   parent: BaseBroadswordPartItem
   id: BroadswordRLeg
-  name: '阔剑右腿 | broadsword right leg'
+  name: '「阔剑」右腿 | broadsword right leg'
   description: '阔剑机甲右腿。它属于机甲底盘部件。 | The right leg of a broadsword. It belongs on the chassis of the mech.'
   components:
   - type: Sprite
@@ -129,7 +129,7 @@
 - type: entity
   id: BroadswordChassis
   parent: BaseBroadswordPart
-  name: '阔剑机甲底盘 | broadsword chassis'
+  name: '「阔剑」机甲底盘 | broadsword chassis'
   description: '正在建造中的阔剑机甲结构体。 | An in-progress construction of the broadsword mech.'
   components:
   - type: Appearance
@@ -149,8 +149,8 @@
 - type: entity
   parent: BaseBroadswordPart
   id: HalberdHarness
-  name: '戟式线束 | halberd harness'
-  description: 'AF-28-M「戟式」战甲的核心部分。 | The core of the AF-28-M "Halberd".'
+  name: '「长戟」核心框架 | halberd harness'
+  description: 'AF-28-M「长戟」战甲的核心部分。 | The core of the AF-28-M "Halberd".'
   components:
   - type: Appearance
   - type: ItemMapper
@@ -194,8 +194,8 @@
 - type: entity
   id: HalberdChassis
   parent: BaseBroadswordPart
-  name: '长柄战斧机甲底盘 | halberd chassis'
-  description: '正在建造中的戟式机甲底盘。 | An in-progress construction of the halberd mech.'
+  name: '「长戟」机甲底盘 | halberd chassis'
+  description: '正在建造中的「长戟」机甲底盘。 | An in-progress construction of the halberd mech.'
   components:
   - type: Appearance
   - type: ContainerContainer
@@ -215,7 +215,7 @@
 - type: entity
   parent: BaseBroadswordPart
   id: SabreHarness
-  name: '军刀线束 | sabre harness'
+  name: '「军刀」核心框架 | sabre harness'
   description: 'AF-28-G 军刀的核心。 | The core of the AF-28-G "Sabre".'
   components:
   - type: Appearance
@@ -260,7 +260,7 @@
 - type: entity
   id: SabreChassis
   parent: BaseBroadswordPart
-  name: '军刀机甲底盘 | sabre chassis'
+  name: '「军刀」机甲底盘 | sabre chassis'
   description: '正在建造中的军刀机甲底盘。 | An in-progress construction of the sabre mech.'
   components:
   - type: Appearance
@@ -300,7 +300,7 @@
 - type: entity
   parent: BaseFlailPart
   id: FlailHarness
-  name: '连枷式索具 | flail harness'
+  name: '「连枷」核心框架 | flail harness'
   description: 'ASF-59 连枷的核心部分。 | The core of the ASF-59 "Flail".'
   components:
   - type: Appearance
@@ -345,7 +345,7 @@
 - type: entity
   parent: BaseFlailPartItem
   id: FlailHead
-  name: '连枷头部 | flail head'
+  name: '「连枷」头部 | flail head'
   description: '连枷头部。它属于机甲底盘的一部分。 | The head of the flail. It belongs on the chassis of the mech.'
   components:
   - type: Sprite
@@ -357,7 +357,7 @@
 - type: entity
   parent: BaseFlailPartItem
   id: FlailRArm
-  name: '连枷右臂 | flail right arm'
+  name: '「连枷」右臂 | flail right arm'
   description: '连枷右臂。它属于机甲底盘部件。 | The right arm of the flail. It belongs on the chassis of the mech.'
   components:
   - type: Sprite
@@ -369,7 +369,7 @@
 - type: entity
   parent: BaseFlailPartItem
   id: FlailLArm
-  name: '连枷左臂 | flail left arm'
+  name: '「连枷」左臂 | flail left arm'
   description: '连枷左臂。它属于机甲底盘部件。 | The left arm of the flail. It belongs on the chassis of the mech.'
   components:
   - type: Sprite
@@ -381,7 +381,7 @@
 - type: entity
   parent: BaseFlailPartItem
   id: FlailLLeg
-  name: '连枷左腿 | flail left leg'
+  name: '「连枷」左腿 | flail left leg'
   description: '一个连枷的左腿。它属于机甲底盘部件。 | The left leg of a flail. It belongs on the chassis of the mech.'
   components:
   - type: Sprite
@@ -393,7 +393,7 @@
 - type: entity
   parent: BaseFlailPartItem
   id: FlailRLeg
-  name: '连枷右腿 | flail right leg'
+  name: '「连枷」右腿 | flail right leg'
   description: '机械体右腿部件。应安装于机甲底盘之上。 | The right leg of a flail. It belongs on the chassis of the mech.'
   components:
   - type: Sprite
@@ -405,7 +405,7 @@
 - type: entity
   parent: BaseFlailPart
   id: SpyglassHarness
-  name: '「潜望镜」线束 | spyglass harness'
+  name: '「千里镜」核心框架 | spyglass harness'
   description: 'ASF-59-E 型「千里镜」的核心部件。 | The core of the ASF-59-E "Spyglass".'
   components:
   - type: Appearance
@@ -450,8 +450,8 @@
 - type: entity
   parent: BaseFlailPart
   id: MaceHarness
-  name: '钉头锤束具 | mace harness'
-  description: 'ASF-59-B 战锤的核心。 | The core of the ASF-59-B "Mace".'
+  name: '「钉头锤」束具 | mace harness'
+  description: 'ASF-59-B 「钉头锤」的核心。 | The core of the ASF-59-B "Mace".'
   components:
   - type: Appearance
   - type: ItemMapper
@@ -498,7 +498,7 @@
 - type: entity
   id: FlailChassis
   parent: BaseFlailPart
-  name: '连枷机甲底盘 | flail chassis'
+  name: '「连枷」机甲底盘 | flail chassis'
   description: '正在建造中的连枷机甲底盘。 | An in-progress construction of the flail mech.'
   components:
   - type: Appearance
@@ -538,8 +538,8 @@
 - type: entity
   id: MaceChassis
   parent: BaseFlailPart
-  name: '狼牙机甲底盘 | mace chassis'
-  description: '正在建造中的狼牙机甲底盘。 | An in-progress construction of the mace mech.'
+  name: '「钉头锤」机甲底盘 | mace chassis'
+  description: '正在建造中的钉头锤机甲底盘。 | An in-progress construction of the mace mech.'
   components:
   - type: Appearance
   - type: ContainerContainer

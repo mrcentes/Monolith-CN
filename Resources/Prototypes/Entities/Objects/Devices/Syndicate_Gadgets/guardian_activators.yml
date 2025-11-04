@@ -1,5 +1,5 @@
 - type: entity
-  name: 全寄生体注射器 丨 holoparasite injector
+  name: 全息寄生体注射器 丨 holoparasite injector
   suffix: Ghost # Frontier
   id: HoloparasiteInjector
   parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
@@ -36,11 +36,11 @@
     guardianProto: MobIfritGuardian
 
 - type: entity
-  name: 全寄生植物箱 丨 holoparasite box
+  name: 全息寄生物盒 丨 holoparasite box
   suffix: Ghost # Frontier
   parent: [BoxCardboard, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: BoxHoloparasite
-  description: 一个装有全寄生注射器的盒子。 丨 A box containing a holoparasite injector.
+  description: 一个装有全息寄生物注射器的盒子。 丨 A box containing a holoparasite injector.
   components:
   - type: StorageFill
     contents:

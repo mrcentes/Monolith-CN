@@ -565,7 +565,7 @@
   name: 莫蒂 丨 Morty
   parent: MobPossum
   id: MobPossumMorty
-  description: 车站的常住居民——弗吉尼亚负鼠。一个敏感却又坚韧的家伙。 丨 The station's resident Didelphis virginiana. A sensitive but resilient kind of guy.
+  description: 空间站的常住居民——弗吉尼亚负鼠。一个敏感却又坚韧的家伙。 丨 The station's resident Didelphis virginiana. A sensitive but resilient kind of guy.
   components:
   - type: InteractionPopup
     successChance: 1.0 # Hey, c'mon, this is Morty we're talking about here.

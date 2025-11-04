@@ -480,7 +480,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCentcomFormalDress
-  name: 中央司令部礼服 丨 central command formal dress
+  name: 中央指挥部礼服 丨 central command formal dress
   description: 特殊场合穿的礼服。 丨 A dress for special occasions.
   components:
   - type: Sprite

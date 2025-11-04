@@ -257,7 +257,7 @@
 - type: entity
   id: BookHowToKeepStationClean
   parent: BaseGuidebook
-  name: 如何保持车站清洁 丨 how to keep station clean
+  name: 如何保持空间站清洁 丨 how to keep station clean
   description: 这本书非常干净。 丨 This book is very clean.
   components:
   - type: Sprite

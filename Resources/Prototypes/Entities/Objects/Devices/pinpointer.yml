@@ -95,7 +95,7 @@
 - type: entity
   parent: PinpointerBase
   name: 站点定位器 丨 station pinpointer
-  description: 手持式追踪设备，可指引附近任何车站的方向。 丨 A handheld tracking device that leads to the direction of any nearby station.
+  description: 手持式追踪设备，可指引附近任何空间站的方向。 丨 A handheld tracking device that leads to the direction of any nearby station.
   id: PinpointerStation
   suffix: Station
   components:

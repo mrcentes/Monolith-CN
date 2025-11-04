@@ -122,7 +122,7 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPLedokolAttatchment
-  name: 'USSP 破冰船部件采购 LPC | USSP ledokol attatchment LPC'
+  name: 'USSP ledokol-破冰船部件采购 LPC'
   description: '一张授权获取破冰船附件的小型卡片。 | A small card that authorizes the acquisition of a Ledokol attatchment.'
   components:
   - type: Sprite
@@ -198,7 +198,7 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherPolaris
-  name: '北极星级护卫舰 LPC | TSF polaris LPC'
+  name: 'TSF 北极星级护卫舰 LPC | TSF polaris LPC'
   description: '一张小型卡片，内含从旗舰储备中采购北极星级护卫舰所需数据。 | A small card that contains the data for the procurement of a Polaris-class frigate from the flagship''s reserves.'
   components:
   - type: Sprite

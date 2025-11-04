@@ -56,7 +56,7 @@
   name: 先进救生颚 # 单声道 丨 advanced jaws of life # Mono
   parent: [JawsOfLife, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: SyndicateJawsOfLife
-  description: 用于进入车站或其部门。 丨 Useful for entering the station or its departments.
+  description: 用于进入空间站或其部门。 丨 Useful for entering the station or its departments.
   components:
   - type: Sprite
     sprite: Objects/Tools/jaws_of_life.rsi

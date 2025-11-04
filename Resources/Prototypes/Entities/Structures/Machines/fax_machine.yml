@@ -91,7 +91,7 @@
         map: [ "base" ]
         color: "#bfe3ff"
   - type: FaxMachine
-    name: 中央司令部 丨 "Central Command"
+    name: 中央指挥部 丨 "Central Command"
     notifyAdmins: true
 
 - type: entity

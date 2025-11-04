@@ -140,7 +140,7 @@
   name: 照烧口袋包 丨 teriyaki-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketTeriyaki
-  description: 对经典车站小吃的东亚风味诠释。 丨 An East Asian take on the classic stationside snack.
+  description: 对经典空间站小吃的东亚风味诠释。 丨 An East Asian take on the classic stationside snack.
   components:
   - type: FlavorProfile
     flavors:
@@ -154,7 +154,7 @@
   name: 照烧口袋饼，暖意融融 丨 warm teriyaki-pocket
   parent: FoodDonkpocketTeriyaki
   id: FoodDonkpocketTeriyakiWarm
-  description: 东亚风味车站小吃的全新演绎，热气腾腾，暖意融融。 丨 An East Asian take on the classic stationside snack, now steamy and warm.
+  description: 东亚风味空间站小吃的全新演绎，热气腾腾，暖意融融。 丨 An East Asian take on the classic stationside snack, now steamy and warm.
   components:
   - type: FlavorProfile
     flavors:

@@ -50,8 +50,7 @@
   id: BaseMk290Sentry
   name: 'MK-290哨兵 | MK-290 Sentry'
   description: MK-290哨兵 |
-    The MK-290 deployable sentry system designed in the old United Nations of Earth, and serving continued use with the TSF armed forces.
-    Feeds from any 762x39mm magazine, however recent upgrades have allowed it to use 6.8x52mm caseless and 556x45mm to comply with TSF standard.
+    MK-290可部署哨戒系统设计于旧地球联合国时期，目前仍在TSF武装部队中持续服役。该系统可使用任何762x39毫米弹匣供弹，不过后期升级后已能兼容6.8x52毫米无壳弹及5.56x45毫米弹药，符合TSF标准化要求。
   abstract: true
   components:
   - type: Sprite
@@ -167,7 +166,7 @@
 
 - type: entity # folded turret
   id: WeaponTurretMk290Packed
-  name: '已打包MK-290 | packed MK-290'
+  name: '已封装 MK-290 | packed MK-290'
   description: '一套拆解封装的MK-290哨戒系统。 | A disassembled and packed MK-290 sentry system.'
   suffix: TSFMC, Packed
   parent:

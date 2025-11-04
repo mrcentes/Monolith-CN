@@ -642,7 +642,7 @@
     - RandomHumanoidVisitorLawyer
 
 - type: entity
-  name: 访问中央司令部律师生成器 丨 visiting centcom lawyer spawner
+  name: 访问中央指挥部律师生成器 丨 visiting centcom lawyer spawner
   id: VisitorLawyerCentcomSpawner
   parent: MarkerBase
   components:

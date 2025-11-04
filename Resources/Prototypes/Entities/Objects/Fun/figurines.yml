@@ -234,7 +234,7 @@
   parent: BaseFigurine
   id: ToyFigurineEngineer
   name: 站点工程师雕像 丨 station engineer figure
-  description: 一个描绘车站工程师手持撬棍准备就绪的小雕像。 丨 A figurine depicting a Station Engineer holding a crowbar at-ready.
+  description: 一个描绘空间站工程师手持撬棍准备就绪的小雕像。 丨 A figurine depicting a Station Engineer holding a crowbar at-ready.
   components:
   - type: Sprite
     state: engineer

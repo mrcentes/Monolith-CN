@@ -8,7 +8,7 @@
   parent: ComputerRadar
   id: ComputerEliteRadar
   name: '精英雷达计算机 | elite radar computer'
-  description: '采用稀有裂解前蓝空技术的雷达，能够从更远距离侦测敌人。 | A radar using rare, pre-fracture bluespace technology to detect enemies from even farther away.'
+  description: '采用稀有前断代纪元蓝空技术的雷达，能够从更远距离侦测敌人。 | A radar using rare, pre-fracture bluespace technology to detect enemies from even farther away.'
   components:
   - type: Sprite
     layers:

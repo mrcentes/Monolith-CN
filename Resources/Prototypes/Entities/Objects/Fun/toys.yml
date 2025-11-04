@@ -304,7 +304,7 @@
   parent: BasePlushie
   id: PlushieLizard #Weh!
   name: 蜥蜴毛绒玩具 丨 lizard plushie
-  description: 一个可爱的蜥蜴人造型毛绒玩具。由中央司令部制作，作为消除工作场所物种歧视的标志性举措。请像拥抱这款玩偶那样，张开双臂迎接新同事！ 丨 An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
+  description: 一个可爱的蜥蜴人造型毛绒玩具。由中央指挥部制作，作为消除工作场所物种歧视的标志性举措。请像拥抱这款玩偶那样，张开双臂迎接新同事！ 丨 An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1447,7 +1447,7 @@
   parent: [PonderingOrb, BaseC3WizardContraband] # Frontier: add BaseC3WizardContraband
   id: PonderingOrbWizard
   name: 沉思之球 丨 pondering orb
-  description: 沉重啊，老兄...真是沉重。它能神奇地显示车站的摄像头网络。 丨 Ponderous, man... Really ponderous. Magically shows the station's camera network.
+  description: 沉重啊，老兄...真是沉重。它能神奇地显示空间站的摄像头网络。 丨 Ponderous, man... Really ponderous. Magically shows the station's camera network.
   suffix: Wizard
   components:
   - type: ActivatableUI

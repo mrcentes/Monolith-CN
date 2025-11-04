@@ -544,8 +544,8 @@
 - type: entity
   id: BoxFolderCentComClipboard
   parent: BoxFolderClipboard
-  name: 中央司令部剪贴板 丨 CentComm clipboard
-  description: 一个豪华的剪贴板，表面覆盖着绿色天鹅绒。常见于中央司令部官员手中，却鲜少见其真正派上用场。 丨 A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
+  name: 中央指挥部剪贴板 丨 CentComm clipboard
+  description: 一个豪华的剪贴板，表面覆盖着绿色天鹅绒。常见于中央指挥部官员手中，却鲜少见其真正派上用场。 丨 A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
   components:
   - type: Sprite
     sprite: Objects/Misc/cc-clipboard.rsi

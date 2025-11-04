@@ -1,6 +1,6 @@
 - type: entity
   id: StationMapBroken
-  name: 车站地图 丨 station map
+  name: 空间站地图 丨 station map
   description: 周边站点的虚拟地图。 丨 A virtual map of the surrounding station.
   suffix: Wall broken
   placement:
@@ -31,7 +31,7 @@
 
 - type: entity
   id: StationMap
-  name: 车站地图 丨 station map
+  name: 空间站地图 丨 station map
   parent: BaseComputer
   description: 周边站点的虚拟地图。 丨 A virtual map of the surrounding station.
   suffix: Wall
@@ -92,7 +92,7 @@
 - type: entity
   id: StationMapAssembly
   name: 站台地图组件 丨 station map assembly
-  description: 车站地图组件。 丨 A station map assembly.
+  description: 空间站地图组件。 丨 A station map assembly.
   components:
   - type: WallMount
   - type: Clickable
