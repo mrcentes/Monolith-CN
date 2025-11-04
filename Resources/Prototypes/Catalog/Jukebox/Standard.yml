@@ -1708,3 +1708,81 @@
   path: 
     path: /Audio/Jukebox/羊爸开大运的小曲.ogg
   
+- type: jukebox
+  id: 澳金星之舞
+  name: 澳金星之舞
+  path: 
+    path: /Audio/Jukebox/澳金星之舞.ogg
+    
+- type: jukebox
+  id: 俗人として軸がぶれているらっぷ
+  name: 俗人として軸がぶれているらっぷ
+  path: 
+    path: /Audio/Jukebox/俗人として軸がぶれているらっぷ.ogg
+
+- type: jukebox
+  id: 平沢進-世界タービン
+  name: 平沢進-世界タービン
+  path: 
+    path: /Audio/Jukebox/平沢進-世界タービン.ogg
+
+- type: jukebox
+  id: Twilight
+  name: Twilight
+  path: 
+    path: /Audio/Jukebox/Twilight.ogg
+    
+- type: jukebox
+  id: GF-SafetyFirst
+  name: GF-SafetyFirst
+  path: 
+    path: /Audio/Jukebox/GF-SafetyFirst.ogg
+    
+- type: jukebox
+  id: FORT02
+  name: FORT02
+  path: 
+    path: /Audio/Jukebox/FORT02.ogg
+    
+- type: jukebox
+  id: CP-游东京
+  name: CP-游东京
+  path: 
+    path: /Audio/Jukebox/CP-游东京.ogg
+    
+- type: jukebox
+  id: 空想ルンバ
+  name: 空想ルンバ
+  path: 
+    path: /Audio/Jukebox/空想ルンバ.ogg
+    
+- type: jukebox
+  id: RS2-TheRainFormerlyKnownasPurple
+  name: RS2-TheRainFormerlyKnownasPurple
+  path: 
+    path: /Audio/Jukebox/RS2-TheRainFormerlyKnownasPurple.ogg
+    
+- type: jukebox
+  id: JoeHisaishi
+  name: JoeHisaishi
+  path: 
+    path: /Audio/Jukebox/JoeHisaishi.ogg
+    
+- type: jukebox
+  id: 平沢進-Run
+  name: 平沢進-Run
+  path: 
+    path: /Audio/Jukebox/平沢進-Run.ogg
+    
+- type: jukebox
+  id: GF-MadeinHeaven
+  name: GF-MadeinHeaven
+  path: 
+    path: /Audio/Jukebox/GF-MadeinHeaven.ogg
+    
+- type: jukebox
+  id: DAGOTHWAVE
+  name: DAGOTHWAVE
+  path: 
+    path: /Audio/Jukebox/DAGOTHWAVE.ogg
+    
