@@ -1,36 +1,36 @@
-## Implanter Attempt Messages
+## 植入器意图提示
 
-implanter-component-implanting-target = {$user} is trying to implant you with something!
-implanter-component-implant-failed = The {$implant} cannot be given to {$target}!
-implanter-draw-failed-permanent = The {$implant} in {$target} is fused with { OBJECT($target) } and cannot be removed!
-implanter-draw-failed = You tried to remove an implant but found nothing.
-implanter-draw-failed-catastrophically = The implanter finds nothing and catastrophically fails, shunting genetic material into {$user}'s hand!
-implanter-component-implant-already = {$target} already has the {$implant}!
+implanter-component-implanting-target = {$user} 正在尝试给你植入某样东西！
+implanter-component-implant-failed = 无法将 {$implant} 给予 {$target}！
+implanter-draw-failed-permanent = {$target} 体内的 {$implant} 已与 { OBJECT($target) } 融合，无法移除！
+implanter-draw-failed = 你试图移除一个植入物，但什么也没找到。
+implanter-draw-failed-catastrophically = 植入器未找到目标，并发生了灾难性故障，将遗传物质注入了 {$user} 的手中！
+implanter-component-implant-already = {$target} 已经有 {$implant} 了！
 
 ## UI
-implanter-set-draw-verb = Set Implant Draw
-implanter-set-draw-window = Set Implant Draw
-implanter-set-draw-info = Select the implant type this implanter should remove:
-implanter-set-draw-type = Implant type:
+implanter-set-draw-verb = 设置植入物提取
+implanter-set-draw-window = 设置植入物提取
+implanter-set-draw-info = 选择此植入器应移除的植入物类型：
+implanter-set-draw-type = 植入物类型：
 
-implanter-draw-text = Draw
-implanter-inject-text = Inject
+implanter-draw-text = 提取
+implanter-inject-text = 植入
 
-implanter-empty-text = Empty
+implanter-empty-text = 空
 
 implanter-label-inject = [color=green]{$implantName}[/color]
-    Mode: [color=white]{$modeString}[/color]
+    模式：[color=white]{$modeString}[/color]
 
 implanter-label-draw = [color=red]{$implantName}[/color]
-    Mode: [color=white]{$modeString}[/color]
+    模式：[color=white]{$modeString}[/color]
 
 implanter-contained-implant-text = [color=green]{$desc}[/color]
 
 ## Implant Popups
 
-scramble-implant-activated-popup = Your appearance shifts and changes!
+scramble-implant-activated-popup = 你的外貌变幻不定！
 
 ## Implant Messages
 
-deathrattle-implant-dead-message = {$user}{$specie} has died at {$grid}{$position}.
-deathrattle-implant-critical-message = {$user}{$specie} life signs critical, immediate assistance required at {$grid}{$position}.
+deathrattle-implant-dead-message = {$user}{$specie}已在{$grid}{$position}死亡。
+deathrattle-implant-critical-message = {$user}{$specie} 生命体征危急，需立即前往{$grid}{$position}援助。

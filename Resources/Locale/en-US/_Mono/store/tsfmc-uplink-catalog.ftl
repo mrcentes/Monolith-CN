@@ -79,16 +79,16 @@ uplink-exosuit-aurora-desc = A prototype exosuit for the future of warfare. Util
 uplink-security-ashstorm-name = EM72 Ashstorm
 uplink-security-ashstorm-desc = The TSF-EM72 Ashstorm is a directed-energy light machine gun developed by Aetherion Dynamics under TSF weapons contract 934A.
 
-uplink-security-medium-voucher-name = TSFMC Medium Ship Voucher
+uplink-security-medium-voucher-name = TSFMC 中型舰船兑换券
 uplink-security-medium-voucher-desc = A single use voucher for any small to medium sized ship.
 
-uplink-security-capital-voucher-name = TSFMC Capital Ship Voucher
+uplink-security-capital-voucher-name = TSFMC 主力船兑换券
 uplink-security-capital-voucher-desc = A single use voucher for any small to capital sized ship.
 
-uplink-security-flyssa-voucher-name = TSFMC Flyssa Ship Voucher
+uplink-security-flyssa-voucher-name = TSFMC Flyssa-飞萨级 舰船兑换券
 uplink-security-flyssa-voucher-desc = A single use voucher for the Flyssa.
 
-uplink-security-sentry-mk290-name = MK-290 Deployable Sentry System
+uplink-security-sentry-mk290-name = MK-290 哨兵炮塔部署系统
 uplink-security-sentry-mk290-desc = A multipurpose portable sentry, capable of feeding from 5.56x45mm, 6.8x52mm, and 7.62x39mm magazines. Requires a screwdriver to disassemble once placed.
 
 uplink-security-hardsuit-m82b-name = M82b Hardsuit

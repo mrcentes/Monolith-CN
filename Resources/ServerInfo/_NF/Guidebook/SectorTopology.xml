@@ -1,20 +1,20 @@
 <Document>
-# Sector Topology
+# 星区拓扑学
 
 <!-- Note: range values will not scale with the world size cvar! -->
 
-The Colossus Sector consists of a large, disk-like asteroid belt. In the center of the belt, Colonial Outpost serves as the arrival point for greenhorns and seasoned pilgrims alike.
+巨像星区由一个巨大的、盘状的小行星带组成。在星带的中心，殖民前哨站是新手和经验丰富的朝圣者的抵达点。
 
-The area immediately around Colonial Outpost is mostly empty space. Beyond this, there are [bold]three distinct zones[/bold]:
+殖民前哨站周围的区域大部分是空旷的空间。在此之外，有[bold]三个不同的区域[/bold]：
 
 <Box Margin="0">
   <GuideEntityEmbed Entity="NFSectorMap" Caption="" Margin="-20"/>
 </Box>
 
-- The [color=#c73232]inner ring[/color] ([color=gold]≤5 km[/color]) has been developed into a base for service stations like [color=forestgreen]Trade Outpost[/color] and [color=mediumturquoise]Medical Dispatch[/color]. You can still find errant scrap, small asteroids, and the occasional wreck, but better materials are found further out. At the edge of this zone, you'll find [color=green]Cargo Depots[/color], the destination for most cargo freighters.
-- The [color=#fbf236]middle ring[/color] ([color=gold]~5–9 km[/color]) is the foundation for our industrial base. With a wide variety of [color=orchid]minerals[/color] available for mining and a variety of [color=lightpink]gas deposits[/color] available for drilling, this is a [color=peru]miner's[/color] breadbasket.
-- The [color=#286c9c]outer ring[/color] ([color=gold]~9–15 km[/color]) is where you'll find massive [color=skyblue]icy asteroids[/color] and unusual [color=orange]brass wrecks[/color]. This ring is the subject of interest for most [color=plum]researchers[/color] in the sector.
+- [color=#c73232]内环[/color]（[color=gold]≤5公里[/color]）已被开发为服务站的基地，例如[color=forestgreen]贸易前哨站(Trade Outpost)[/color]和[color=mediumturquoise]医疗调度中心(Medical Dispatch)[/color]。你仍然可以找到零星的废料、小型的小行星以及偶尔出现的残骸，但更好的材料在更远的地方才能找到。在这个区域的边缘，你会找到[color=green]货运仓库[/color]，这是大多数货运飞船的目的地。
+- [color=#fbf236]中环[/color]（[color=gold]~5–9公里[/color]）是我们工业基础的基石。这里有各种可供开采的[color=orchid]矿物[/color]和可供钻探的[color=lightpink]气体矿床[/color]，是[color=peru]矿工[/color]的粮仓。
+- [color=#286c9c]外环[/color]（[color=gold]~9–15公里[/color]）是你会找到巨大的[color=skyblue]冰质小行星[/color]和不寻常的[color=orange]黄铜残骸[/color]的地方。这个环是星区内大多数[color=plum]研究人员[/color]感兴趣的对象。
 
-Beyond this, there is a massive void between any nearby sector. Without engines capable of inter-sector travel, leaving the edge of the asteroid belt is not recommended.
+在此之外，任何邻近星区之间都存在着巨大的虚空。若没有能够进行跨星区旅行的引擎，不建议离开小行星带的边缘。
 
 </Document>

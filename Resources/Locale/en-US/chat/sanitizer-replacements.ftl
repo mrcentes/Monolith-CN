@@ -1,4 +1,4 @@
-chatsan-smiles = smiles
+chatsan-smiles = 露出微笑
 chatsan-frowns = 皱眉
 chatsan-smiles-widely = 灿烂的笑
 chatsan-frowns-deeply = 深深皱起眉头

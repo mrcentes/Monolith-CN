@@ -1,7 +1,7 @@
 - type: entity
-  name: NTCS-101 hypospray
+  name: NTCS-101 无针注射器
   parent: BaseItem
-  description: A commercial hypospray designed by Nanotrasen Chemical Supply. It has two built in safety features for the consumer market, a small chemical reservoir and an injection delay.
+  description: 由纳米传讯化学供应部门设计的商用化学注射器。为消费市场配备了两项安全特性：小型化学品储罐和注射延迟。
   id: HypoMini
   components:
   - type: Sprite
@@ -28,9 +28,9 @@
     id: HypoMini # Frontier
 
 - type: entity
-  name: NTCS-102 hypospray
+  name: NTCS-102 无针注射器
   parent: [HypoMini, BaseC2ContrabandUnredeemable]
-  description: A commercial hypospray designed by Nanotrasen Chemical Supply. It has a larger chemical reservoir compared to its commercial version and a slightly lowered injection delay. # Mono
+  description: 由纳米传讯化学供应部门设计的商用化学注射器。相比商业版本具有更大的化学品储罐和略微缩短的注射延迟。 # Mono
   id: HypoBrigmedic
   components:
   - type: Sprite
@@ -54,9 +54,9 @@
     price: 750  # Mono end
 
 - type: entity
-  name: NTCS-103 hypospray
+  name: NTCS-103 无针注射器
   parent: HypoMini
-  description: A modified, experimental hypospray designed as a limited edition by the Nanotrasen Chemical Supply. It has a lowered injection delay and a slighlty modified chemical reservoir.
+  description: 由纳米传讯化学供应部门作为限量版设计的实验型改良化学注射器。具有更短的注射延迟和略微调整的化学品储罐。
   id: HypoMiniLimitedEdition
   components:
   - type: Sprite
@@ -73,11 +73,11 @@
     solutions:
       hypospray:
         maxVol: 12 # Mono end
-    
+
 - type: entity
-  name: empty medipen
+  name: 空医疗笔
   parent: BaseItem
-  description: A empty medipen with endless potential. Does not allow for deviation from Nanotrasen recipes.
+  description: 一支充满无限潜能的空医疗笔。禁止偏离纳米传讯配方。
   id: BlankMediPen
   components:
   - type: Sprite
@@ -103,10 +103,10 @@
     tags: []
 
 - type: entity
-  name: hemostasis auto-injector
+  name: 止血-自动注射笔
   parent: NFChemicalMedipen
   id: HemostasisAutoInjector
-  description: A rapid dose of coagulants and circulatory fluids. Contains tranexamic acid and saline.
+  description: 快速注射凝血剂和循环液体。含有氨甲环酸(tranexamic)和生理盐水(saline)。
   components:
   - type: Sprite
     sprite: _NF/Objects/Specific/Medical/medipen.rsi
@@ -128,10 +128,10 @@
           Quantity: 15
 
 - type: entity
-  name: stimulant auto-injector
+  name: 兴奋剂-自动注射笔
   parent: NFChemicalMedipen
   id: StimulantAutoInjector
-  description: A rapid dose of potent stimulants and governing agents. Contains desoxyephedrine and dylovene. Use with extreme caution.
+  description: 快速注射强效兴奋剂和镇痛剂。含有去氧麻黄碱(desoxyephedrine)和地洛文(dylovene)。请极其谨慎使用。
   components:
   - type: Sprite
     sprite: _NF/Objects/Specific/Medical/medipen.rsi
@@ -153,10 +153,10 @@
           Quantity: 10
 
 - type: entity
-  name: crisis auto-injector
+  name: 危险体征-自动注射笔
   parent: NFChemicalMedipen
   id: CrisisAutoInjector
-  description: A rapid dose of stabilizers and vasodialaters for use on critically injured patients. Contains inaprovaline and dexalin plus.
+  description: 为危重患者快速注射稳定剂和血管扩张剂。含有依那普利那林(inaprovaline)和地克沙林加强剂(dexalin plus)。
   components:
   - type: Sprite
     sprite: _NF/Objects/Specific/Medical/medipen.rsi

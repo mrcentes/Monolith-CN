@@ -452,8 +452,8 @@
   parent: VisitorCivilian
   components:
     - type: GhostRole
-      name: 中央司令部律师 丨 ghost-role-information-civilian-centcom-lawyer-name
-      description: 幽灵角色信息-平民-中央司令部律师-描述 丨 ghost-role-information-civilian-centcom-lawyer-description
+      name: 中央指挥部律师 丨 ghost-role-information-civilian-centcom-lawyer-name
+      description: 幽灵角色信息-平民-中央指挥部律师-描述 丨 ghost-role-information-civilian-centcom-lawyer-description
     - type: Loadout
       prototypes: [ VisitorLawyerCentcom ]
       roleLoadout: [ RoleSurvivalStandard ]

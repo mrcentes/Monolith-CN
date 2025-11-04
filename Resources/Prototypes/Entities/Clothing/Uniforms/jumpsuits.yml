@@ -138,7 +138,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomOfficial
   name: CentComm官员的连体服 丨 CentComm official's jumpsuit
-  description: 这是中央司令部官员穿的连体服。 丨 It's a jumpsuit worn by CentComm's officials.
+  description: 这是中央指挥部官员穿的连体服。 丨 It's a jumpsuit worn by CentComm's officials.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_official.rsi
@@ -984,7 +984,7 @@
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTChaplain
   name: ERT牧师制服 丨 ERT chaplain uniform
-  description: 专为中央司令部精英牧师团打造的特制服装。 丨 A special suit made for Central Command's elite chaplain corps.
+  description: 专为中央指挥部精英牧师团打造的特制服装。 丨 A special suit made for Central Command's elite chaplain corps.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_chaplain.rsi
@@ -995,7 +995,7 @@
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTEngineer
   name: ERT工程制服 丨 ERT engineering uniform
-  description: 一套为中央司令部精英工程师特制的制服。 丨 A special suit made for the elite engineers under CentComm.
+  description: 一套为中央指挥部精英工程师特制的制服。 丨 A special suit made for the elite engineers under CentComm.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
@@ -1028,7 +1028,7 @@
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTMedic
   name: ERT医疗制服 丨 ERT medical uniform
-  description: 专为中央司令部精英医疗人员特制的服装。 丨 A special suit made for the elite medics under CentComm.
+  description: 专为中央指挥部精英医疗人员特制的服装。 丨 A special suit made for the elite medics under CentComm.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_medic.rsi
@@ -1039,7 +1039,7 @@
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTSecurity
   name: ERT安保制服 丨 ERT security uniform
-  description: 一套为中央司令部精英安保人员特制的制服。 丨 A special suit made for the elite security under CentComm.
+  description: 一套为中央指挥部精英安保人员特制的制服。 丨 A special suit made for the elite security under CentComm.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_security.rsi

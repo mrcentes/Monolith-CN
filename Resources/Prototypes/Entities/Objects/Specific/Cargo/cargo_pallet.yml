@@ -1,7 +1,7 @@
 - type: entity
   id: CargoPallet
   name: 货盘 丨 cargo pallet
-  description: 指定可向中央司令部出售的有效物品。 丨 Designates valid items to sell to CentCom.
+  description: 指定可向中央指挥部出售的有效物品。 丨 Designates valid items to sell to CentCom.
   parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructure] # Frontier - BaseStructureDisabledToolsUse,BaseStructureIndestructible
   components:
   - type: InteractionOutline

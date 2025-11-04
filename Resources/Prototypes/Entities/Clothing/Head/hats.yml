@@ -988,7 +988,7 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseCentcommContraband ]
   id: ClothingHeadHatCentcomcap
-  name: 中央司令部帽子 丨 CentComm cap
+  name: 中央指挥部帽子 丨 CentComm cap
   description: 一顶奢华别致的中央指挥官帽。 丨 An extravagant, fancy Central Commander cap.
   components:
   - type: Sprite

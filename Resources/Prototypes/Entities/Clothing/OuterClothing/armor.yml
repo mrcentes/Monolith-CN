@@ -52,7 +52,7 @@
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingOuterArmorRiot
   name: 防暴护甲 丨 riot suit
-  description: 一套半柔性聚碳酸酯防暴护甲，配备厚重衬垫，可有效抵御近战攻击。非常适合在车站周边打击不法之徒。 丨 A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
+  description: 一套半柔性聚碳酸酯防暴护甲，配备厚重衬垫，可有效抵御近战攻击。非常适合在空间站周边打击不法之徒。 丨 A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/riot.rsi

@@ -1,9 +1,9 @@
-job-name-mail-carrier = Mail Carrier
-# job-name-prisoner defined in main job-names.ftl
-job-name-valet = Valet
-job-name-guard = Prison Guard
+job-name-mail-carrier = 邮递员
+# job-name-prisoner defined in main job-nans.ftl
+job-name-valet = 侍从
+job-name-guard = 狱警
 
-job-description-mail-carrier = Deliver mail across the Colossus Sector. Stay neutral to conflicts.
-job-description-prisoner = Sit in prison. Gamble with your cellmates. Talk to the bailiff. Write your memoirs.
-job-description-valet = Take care of the station and its many guests.
-job-description-guard = Keep track of prisoners and make sure they have their basic needs.
+job-description-mail-carrier = 在巨神星区递送邮件。在冲突之中保持中立。
+job-description-prisoner = 待在监狱里。与狱友赌博。与法警闲聊。撰写回忆录。
+job-description-valet = 照料空间站及其众多宾客。
+job-description-guard = 看管囚犯并确保他们的基本需求得到满足。

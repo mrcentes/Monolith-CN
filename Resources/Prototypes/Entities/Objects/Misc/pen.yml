@@ -118,7 +118,7 @@
     heldPrefix: overpriced_pen
 
 - type: entity
-  name: 中央司令部钢笔 丨 CentComm pen
+  name: 中央指挥部钢笔 丨 CentComm pen
   parent: [BaseAdvancedPen, BaseCentcommCommandContraband] # Frontier: Added BaseCentcommCommandContraband, removed BaseCentcommContraband.
   id: PenCentcom
   description: 为了跟上"网络太阳"官僚体系的"权势"，纳米传讯以其企业风格仿制了一支网络笔的复制品。 丨 In an attempt to keep up with the "power" of the cybersun bureaucracy, NT made a replica of cyber pen, in their corporate style.

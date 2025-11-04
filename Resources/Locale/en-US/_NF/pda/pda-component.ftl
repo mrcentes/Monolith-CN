@@ -1,2 +1,2 @@
-comp-pda-ui-balance = Balance: [color=white]{ $balance }[/color]
-comp-pda-ui-shuttle-deed = Registered Ship: [color=white]{ $shipname }[/color]
+comp-pda-ui-balance = 余额: [color=white]{ $balance }[/color]
+comp-pda-ui-shuttle-deed = 注册舰船: [color=white]{ $shipname }[/color]

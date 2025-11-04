@@ -62,7 +62,7 @@
 - type: entity
   parent: BaseRipleyPart
   id: RipleyHarness
-  name: 里普利线束 丨 ripley harness
+  name: 里普利 核心框架 丨 ripley harness
   description: Ripley APLU的核心部分。 丨 The core of the Ripley APLU.
   components:
   - type: Appearance
@@ -150,7 +150,7 @@
 - type: entity
   id: RipleyChassis
   parent: BaseRipleyPart
-  name: 里普利底盘 丨 ripley chassis
+  name: 里普利 机甲底盘 丨 ripley chassis
   description: 正在建造中的里普利APLU机甲。 丨 An in-progress construction of the Ripley APLU mech.
   components:
   - type: Appearance
@@ -190,7 +190,7 @@
 - type: entity
   parent: BaseHonkerPart
   id: HonkerHarness
-  name: H.O.N.K. 核心能源装置 丨 H.O.N.K. harness
+  name: H.O.N.K. 核心框架 丨 H.O.N.K. harness
   description: H.O.N.K.机甲的核心 丨 The core of the H.O.N.K. mech
   components:
   - type: Appearance
@@ -278,7 +278,7 @@
 - type: entity
   id: HonkerChassis
   parent: BaseHonkerPart
-  name: H.O.N.K.底盘 丨 H.O.N.K. chassis
+  name: H.O.N.K. 机甲底盘 丨 H.O.N.K. chassis
   description: 一台正在建造中的H.O.N.K.机甲。内含窃笑单元、香蕉矿核心以及鸣叫支持系统。 丨 An in-progress construction of a H.O.N.K. mech. Contains chuckle unit, bananium core and honk support systems.
   components:
   - type: Appearance
@@ -318,7 +318,7 @@
 - type: entity
   parent: BaseHamtrPart
   id: HamtrHarness
-  name: HAMTR核心架构 丨 HAMTR harness
+  name: HAMTR 核心框架 丨 HAMTR harness
   description: HAMTR的核心。 丨 The core of the HAMTR.
   components:
   - type: Appearance
@@ -358,7 +358,7 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrLArm
-  name: HAMTR左臂 丨 HAMTR left arm
+  name: HAMTR 左臂 丨 HAMTR left arm
   description: HAMTR左臂。它属于机甲的底盘部分。 丨 The left arm of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
@@ -370,7 +370,7 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrLLeg
-  name: HAMTR左腿 丨 HAMTR left leg
+  name: HAMTR 左腿 丨 HAMTR left leg
   description: HAMTR的左腿。它属于机甲的底盘部分。 丨 The left leg of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
@@ -382,7 +382,7 @@
 - type: entity
   parent: BaseHamtrPartItem
   id: HamtrRLeg
-  name: HAMTR右腿 丨 HAMTR right leg
+  name: HAMTR 右腿 丨 HAMTR right leg
   description: HAMTR的右腿。它属于机甲的底盘部分。 丨 The right leg of the HAMTR. It belongs on the chassis of the mech.
   components:
   - type: Sprite
@@ -406,7 +406,7 @@
 - type: entity
   id: HamtrChassis
   parent: BaseHamtrPart
-  name: HAMTR底盘 丨 HAMTR chassis
+  name: HAMTR 机甲底盘 丨 HAMTR chassis
   description: 正在建造中的HAMTR机甲。 丨 An in-progress construction of the HAMTR mech.
   components:
   - type: Appearance
@@ -446,7 +446,7 @@
 - type: entity
   parent: BaseVimPartItem
   id: VimHarness
-  name: 维姆线束 丨 vim harness
+  name: 维姆 核心框架 丨 vim harness
   description: 用于vim部件的小型安装支架。 丨 A small mounting bracket for vim parts.
   components:
   - type: Appearance
@@ -480,7 +480,7 @@
 - type: entity
   id: VimChassis
   parent: BaseVimPart
-  name: Vim底盘 丨 vim chassis
+  name: Vim 机甲底盘 丨 vim chassis
   description: 一件正在建造中的Vim外骨骼装备。 丨 An in-progress construction of the Vim exosuit.
   components:
   - type: Appearance

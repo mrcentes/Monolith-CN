@@ -55,7 +55,7 @@
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetAncient
   name: NTSRA虚空头盔 丨 NTSRA void helmet
-  description: 一顶古老的空间头盔，由中央司令部NTSRA分部设计。 丨 An ancient space helmet, designed by the NTSRA branch of CentComm.
+  description: 一顶古老的空间头盔，由中央指挥部NTSRA分部设计。 丨 An ancient space helmet, designed by the NTSRA branch of CentComm.
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/ancientvoidsuit.rsi

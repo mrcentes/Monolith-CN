@@ -542,8 +542,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerStationRecords
-  name: 车站记录计算机 丨 station records computer
-  description: 这可以用来检查站点记录。 丨 This can be used to check station records.
+  name: 空间站档案计算机 丨 station records computer
+  description: 这可以用来检查空间站的档案。 丨 This can be used to check station records.
   components:
   - type: GeneralStationRecordConsole
   - type: UserInterface

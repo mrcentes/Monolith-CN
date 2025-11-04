@@ -524,7 +524,7 @@
 ## Central Command
 
 - type: entity
-  name: 中央司令部官员 丨 CentComm official
+  name: 中央指挥部官员 丨 CentComm official
   id: RandomHumanoidSpawnerCentcomOfficial
   components:
     - type: Sprite
@@ -538,8 +538,8 @@
   parent: EventHumanoidMindShielded
   components:
     - type: GhostRole
-      name: 中央司令部官员 丨 ghost-role-information-centcom-official-name
-      description: 中央司令部官方名称幽灵角色信息描述 丨 ghost-role-information-centcom-official-description
+      name: 中央指挥部官员 丨 ghost-role-information-centcom-official-name
+      description: 中央指挥部官方名称幽灵角色信息描述 丨 ghost-role-information-centcom-official-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default

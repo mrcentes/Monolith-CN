@@ -8,7 +8,7 @@ comp-pda-ui-blank = ID:
 
 comp-pda-ui-owner = 所有者: [color=white]{$actualOwnerName}[/color]
 
-comp-pda-ui-owner-with-company = Owner: [color=white]{$actualOwnerName}[/color] [color={$companyColor}]({$companyName})[/color]
+comp-pda-ui-owner-with-company = 所有者: [color=white]{$actualOwnerName}[/color] [color={$companyColor}]({$companyName})[/color]
 
 comp-pda-io-program-list-button = 程序
 

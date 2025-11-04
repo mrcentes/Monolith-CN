@@ -307,7 +307,7 @@
     startingCharge: 0
 
 - type: entity
-  name: 古董电源原型 丨 antique power cell prototype
+  name: 古董原型电源 丨 antique power cell prototype
   description: 一种能够自我充电的小型电池。曾用于旧式激光臂的研究。 丨 A small cell that self recharges. Used in old laser arms research.
   id: PowerCellAntiqueProto
   parent: BasePowerCell
@@ -362,7 +362,7 @@
 - type: entity
   id: PowerCageSmall
   parent: BasePowerCage
-  name: 小容量电源笼 丨 small-capacity power cage
+  name: 小容量笼式动力电池 丨 small-capacity power cage
   description: 适用于大型设备的可充电电源箱。这是你能找到的最便宜的一种。 丨 A rechargeable power cage for big devices. This is the cheapest kind you can find.
   components:
   - type: Sprite
@@ -380,7 +380,7 @@
 - type: entity
   id: PowerCageMedium
   parent: BasePowerCage
-  name: 中等容量电源笼 丨 medium-capacity power cage
+  name: 中等容量笼式动力电池 丨 medium-capacity power cage
   description: 一款适用于大型设备的可充电电源机箱。容量与成本的黄金标准。 丨 A rechargeable power cage for big devices. The gold standard of capacity and cost.
   components:
   - type: Sprite
@@ -416,7 +416,7 @@
 - type: entity
   id: PowerCageHigh
   parent: BasePowerCage
-  name: 高容量电源笼 丨 high-capacity power cage
+  name: 高容量笼式动力电池 丨 high-capacity power cage
   description: 适用于大型设备的可充电电源箱。增强容量以支持更高功率水平。 丨 A rechargeable power cage for big devices. Increased capacity for increased power levels.
   components:
   - type: Sprite

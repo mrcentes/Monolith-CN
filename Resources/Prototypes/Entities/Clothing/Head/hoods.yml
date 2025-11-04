@@ -310,7 +310,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCentcom
   categories: [ HideSpawnMenu ]
-  name: 中央司令部冬季外套兜帽 丨 CentComm winter coat hood
+  name: 中央指挥部冬季外套兜帽 丨 CentComm winter coat hood
   description: 为中央指挥官头部保暖所设计的兜帽。 丨 A hood for keeping the central comander's head warm.
   components:
   - type: Sprite

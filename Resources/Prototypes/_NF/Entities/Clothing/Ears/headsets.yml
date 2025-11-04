@@ -1,7 +1,7 @@
 - type: entity
   id: ClothingHeadsetCommon
   parent: BaseClearContraband
-  name: headset
+  name: 耳机
   description: An updated, modular intercom that fits over the head. Takes encryption keys.
   abstract: true
   components:
@@ -13,7 +13,7 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetNfsdBrown
-  name: TSFMC headset
+  name: TSFMC 耳机
   components:
   - type: Sprite
     sprite: _NF/Clothing/Ears/Headsets/nfsd_e_brown.rsi
@@ -125,7 +125,7 @@
 - type: entity
   parent: [ClothingHeadsetCMO, BaseCommandContraband]
   id: ClothingHeadsetDoc
-  name: doc's headset
+  name: 医师耳机
   description: Letting the DoC know what's up. Takes encryption keys.
   components:
   - type: ContainerFill

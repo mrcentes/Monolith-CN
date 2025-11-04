@@ -1,4 +1,4 @@
-job-supervisors-centcom = Central Command
+job-supervisors-centcom = 中央指挥部
 job-supervisors-captain = 舰长
 job-supervisors-hop = 人事部长
 job-supervisors-hos = 安保主管

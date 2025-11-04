@@ -1,4 +1,4 @@
-id-card-console-window-privileged-id = Privileged ID:
+id-card-console-window-privileged-id = 特权身份证:
 id-card-console-window-target-id = 目标身份证:
 id-card-console-window-full-name-label = 全名:
 id-card-console-window-save-button = 保存

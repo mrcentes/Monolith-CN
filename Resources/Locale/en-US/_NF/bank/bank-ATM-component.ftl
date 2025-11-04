@@ -1,41 +1,41 @@
 ## UI
-bank-atm-menu-title = TSF Central Bank
-bank-atm-menu-balance-label = Balance:{" "}
-bank-atm-menu-no-bank = No Bank Account!
-bank-atm-menu-withdraw-button = Withdraw
-bank-atm-menu-deposit-label = Deposit:{" "}
-bank-atm-menu-amount-label = Withdraw:{" "}
-bank-atm-menu-no-deposit = Empty
-bank-atm-menu-deposit-button = Deposit
-bank-atm-reason-label = For:{" "}
-bank-atm-description-label = Description:{" "}
-bank-atm-menu-withdraw-amount = Withdraw Amount
+bank-atm-menu-title = TSF中央银行
+bank-atm-menu-balance-label = 账户余额：{" "}
+bank-atm-menu-no-bank = 无银行账户！
+bank-atm-menu-withdraw-button = 取款
+bank-atm-menu-deposit-label = 存款：{" "}
+bank-atm-menu-amount-label = 取款：{" "}
+bank-atm-menu-no-deposit = 空
+bank-atm-menu-deposit-button = 存款
+bank-atm-reason-label = 用途：{" "}
+bank-atm-description-label = 备注说明：{" "}
+bank-atm-menu-withdraw-amount = 取款金额
 
-vending-machine-menu-cash-slot-label = Cash Slot:{" "}
+vending-machine-menu-cash-slot-label = 现金插槽：{" "}
 
-bank-insufficient-funds = Insufficient Funds
-bank-atm-menu-transaction-denied = Transaction Denied
-bank-atm-menu-deposit-successful = Deposit Accepted
-bank-atm-menu-withdraw-successful = Transfer Approved
-bank-atm-menu-wrong-cash = Wrong Currency Type
-station-bank-atm-menu-title = Station Administration
+bank-insufficient-funds = 资金不足
+bank-atm-menu-transaction-denied = 交易被拒绝
+bank-atm-menu-deposit-successful = 存款已受理
+bank-atm-menu-withdraw-successful = 转账已批准
+bank-atm-menu-wrong-cash = 货币类型错误
+station-bank-atm-menu-title = 空间站 Administration
 # Withdrawal reasons
-station-bank-payroll = Payroll
-station-bank-work-order = Work Order
-station-bank-supplies = Station Supplies
-station-bank-bounty = Bounty
+station-bank-payroll = 工资发放
+station-bank-work-order = 工作订单
+station-bank-supplies = 空间站补给
+station-bank-bounty = 赏金报酬
 # Deposit reasons
-station-bank-fines = Fines
-station-bank-donation = Donation
-station-bank-assets-sold = Assets Sold
+station-bank-fines = 罚款
+station-bank-donation = 捐赠
+station-bank-assets-sold = 资产出售
 # Misc reasons (withdrawal and deposit)
-station-bank-required = (Required)
-station-bank-other = Other
+station-bank-required = （必填）
+station-bank-other = 其他
 
-station-bank-requires-reason = NT Requires transaction details
-station-bank-unauthorized = Unauthorized!
-bank-atm-menu-cash-error = ERR: INVALID
+station-bank-requires-reason = NT要求提供交易详情
+station-bank-unauthorized = 未经授权！
+bank-atm-menu-cash-error = 错误：无效操作
 
 ## ATM entity
-bank-ATM-cashSlot = Cash Slot
-station-bank-ATM-cashSlot = Cash Slot
+bank-ATM-cashSlot = 现金槽
+station-bank-ATM-cashSlot = 现金槽

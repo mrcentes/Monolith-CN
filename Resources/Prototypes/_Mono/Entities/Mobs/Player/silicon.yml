@@ -174,8 +174,8 @@
 - type: entity
   id: BorgChassisRedacted
   parent: BaseBorgChassisRedacted
-  name: '残余自动化防御系统维护船 | remnant automated defense system tender'
-  description: '向自动化无人机舰船发出的招标，旨在保持内部机械结构完好无损。 | A tender to a automated drone ship, to keep internal mechanisms intact.'
+  name: '残余自动化防御系统 维护体 | remnant automated defense system tender'
+  description: '自动化无人机舰船发出的维护体，旨在保持内部机械结构完好无损。 | A tender to a automated drone ship, to keep internal mechanisms intact.'
   components:
   - type: Sprite
     layers:
@@ -261,7 +261,7 @@
   suffix: Ghost, Playtime
   components:
   - type: GhostRole
-    name: '已编辑的博格幽灵角色信息 | ghost-role-information-redacted-borg'
+    name: '幽灵角色-已编辑的博格 | ghost-role-information-redacted-borg'
     description: '幽灵角色信息已编辑博格描述 | ghost-role-information-redacted-borg-description'
     rules: ghost-role-information-silicon-rules
     raffle:
@@ -302,7 +302,7 @@
   - type: SiliconLawProvider
     laws: Redacted
   - type: GhostRole
-    name: '幽灵角色信息核心部分已编辑 | ghost-role-information-redacted-core'
+    name: '幽灵角色-已编辑AI核心 | ghost-role-information-redacted-core'
     description: '幽灵角色信息核心描述 | ghost-role-information-redacted-core-description'
     rules: ghost-role-information-silicon-rules
     raffle:
@@ -535,7 +535,7 @@
   - type: SiliconLawProvider
     laws: RogueLawset
   - type: GhostRole
-    name: '幽灵角色信息：盗贼核心 | ghost-role-information-rogue-core'
+    name: '幽灵角色信息：盗贼AI核心 | ghost-role-information-rogue-core'
     description: '幽灵角色信息核心盗贼描述 | ghost-role-information-rogue-core-description'
     rules: ghost-role-information-silicon-rules
     raffle:

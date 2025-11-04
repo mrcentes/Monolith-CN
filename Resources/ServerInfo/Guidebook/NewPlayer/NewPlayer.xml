@@ -1,42 +1,42 @@
 <Document>
-# Welcome to Space Station 14!
+# 欢迎来到14号空间站！
 
-You've just begun your shift aboard an TSF colonial station.
-You and your fellow crewmates are tasked with working together, surviving, and having fun!
+您刚刚在这座TSF殖民空间站开始了您的轮班工作。
+您和您的同事们需要通力合作、生存下去，并享受乐趣！
 
-[bold]Make sure to follow all server rules.[/bold] You can ask questions or report rule breaks to the [color=#EB2D3A][bold]admin team[/bold][/color] by using the [bold]admin help menu[/bold]. ([italic]accessible by pressing [/italic][color=yellow][bold][keybind="OpenAHelp"/][/bold][/color])
+[bold]请务必遵守所有服务器规则。[/bold]您可以通过使用[bold]管理帮助菜单[/bold]（[italic]按[/italic][color=yellow][bold][keybind="OpenAHelp"/][/bold][/color]访问）向[color=#EB2D3A][bold]管理员团队[/bold][/color]提问或举报违规行为。
 
-More detailed guides about [italic]specific jobs[/italic] and [italic]mechanics[/italic] can be found [textlink="here." link="SS14"/]
+关于[italic]特定职业[/italic]和[italic]游戏机制[/italic]的更详细指南可以在[textlink="这里" link="SS14"/]找到。
 
-This guide can be reopened at any time using [color=yellow][bold][keybind="OpenGuidebook"][/bold][/color].
+本指南可随时通过[color=yellow][bold][keybind="OpenGuidebook"][/bold][/color]键重新打开。
 
-## Basic Controls
-The following are the controls you'll need for regular gameplay:
+## 基本操作
+以下是常规游戏所需的基本操作：
 
-- Run using [color=yellow][bold][keybind="MoveUp"][keybind="MoveLeft"][keybind="MoveDown"][keybind="MoveRight"][/bold][/color]. Hold down [color=yellow][bold][keybind="Walk"][/bold][/color] to walk
+- 使用[color=yellow][bold][keybind="MoveUp"][keybind="MoveLeft"][keybind="MoveDown"][keybind="MoveRight"][/bold][/color]移动。按住[color=yellow][bold][keybind="Walk"][/bold][/color]键行走
 
-- Examine the world around you with [color=yellow][bold][keybind="ExamineEntity"][/bold][/color]
+- 使用[color=yellow][bold][keybind="ExamineEntity"][/bold][/color]检查周围环境
 
-- Interact with the world using [color=yellow][bold][keybind="Use"][/bold][/color]
+- 使用[color=yellow][bold][keybind="Use"][/bold][/color]与世界互动
 
-- Hovering over an entity and pressing [color=yellow][bold][keybind="UseSecondary"][/bold][/color] shows the [italic]context menu[/italic], which contains additional interactions
+- 将光标悬停在实体上并按[color=yellow][bold][keybind="UseSecondary"][/bold][/color]可显示[italic]上下文菜单[/italic]，其中包含更多交互选项
 
-- Swap hands using [color=yellow][bold][keybind="SwapHands"][/bold][/color] and activate the currently held item with [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color]
+- 使用[color=yellow][bold][keybind="SwapHands"][/bold][/color]切换手持物品，按[color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color]激活当前手持物品
 
-- Drop held items with [color=yellow][bold][keybind="Drop"][/bold][/color] or throw them using [color=yellow][bold][keybind="ThrowItemInHand"][/bold][/color]
+- 使用[color=yellow][bold][keybind="Drop"][/bold][/color]丢弃手持物品，或按[color=yellow][bold][keybind="ThrowItemInHand"][/bold][/color]投掷物品
 
-- Pull and release things with [color=yellow][bold][keybind="TryPullObject"][/bold][/color] and [color=yellow][bold][keybind="ReleasePulledObject"][/bold][/color]
+- 使用[color=yellow][bold][keybind="TryPullObject"][/bold][/color]拖拽物体，按[color=yellow][bold][keybind="ReleasePulledObject"][/bold][/color]释放拖拽
 
-A more comprehensive list can be found on the [textlink="controls" link="Controls"] page.
+更完整的操作列表请参阅[textlink="控制" link="Controls"]页面。
 
-## What is SS14?
-Space Station 14 is a multiplayer game about paranoia and chaos on a space station and a remake of the cult-classic Space Station 13.
+## 什么是SS14？
+14号空间站是一款关于空间站上偏执且混乱的多人在线游戏，也是对邪典级作品13号空间站的重制版。
 
-Join dozens of other players on an intricately designed and simulated space station, immersing yourself in roleplay and dealing with threats along the way.
+与数十名其他玩家一起，在一个设计精巧、模拟真实的太空站上，沉浸于角色扮演之中，并应对一路上的各种威胁。
 
-SS14 is an [italic]open-source game[/italic] developed by people [bold]just like you![/bold]
-It receives [color=lime]daily updates[/color] and may at times be [color=#EB2D3A][bold]unstable.[/bold][/color]
+SS14是一款[italic]开源游戏[/italic]，由[bold]像您一样的开发者[/bold]共同创作！
+它接受[color=lime]每日更新[/color]，有时可能[color=#EB2D3A][bold]不稳定[/bold][/color]。
 
-[italic]If you want to report bugs or help with development, join the discord and learn how to get started.[/italic]
+[italic]如果你想报告错误或参与开发，请加入Discord并了解如何入门。[/italic]
 
 </Document>

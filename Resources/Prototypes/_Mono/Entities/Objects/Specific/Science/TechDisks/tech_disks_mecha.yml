@@ -69,7 +69,7 @@
   parent: TechDiskBase
   id: TechDiskMechGygax
   name: '地面作战机甲科技磁盘 | ground combat mech tech disk'
-  description: '一张能够为服务器配方添加吉格斯构造技术的磁盘。 | A disk capable of adding Gygax construction to a server''s recipes.'
+  description: '一张能够为服务器配方添加Gygax-吉格斯构造技术的磁盘。 | A disk capable of adding Gygax construction to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -96,8 +96,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskMechMissiles
-  name: '导弹架机甲技术磁盘 | missile rack mech tech disk'
-  description: '一张能够为服务器配方添加机械导弹挂架的磁盘。 | A disk capable of adding mech missile racks to a server''s recipes.'
+  name: '机甲导弹挂架技术磁盘 | missile rack mech tech disk'
+  description: '一张能够为服务器配方添加机甲导弹挂架的磁盘。 | A disk capable of adding mech missile racks to a server''s recipes.'
   components:
   - type: Sprite
     layers:
@@ -116,7 +116,7 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskMechBallistics
-  name: '弹道武器机甲技术磁盘 | ballistic weapons mech tech disk'
+  name: '机甲弹道武器技术磁盘 | ballistic weapons mech tech disk'
   description: '一张能够为服务器配方添加机甲弹道武器的磁盘。 | A disk capable of adding mech ballistic weapons to a server''s recipes.'
   components:
   - type: Sprite
@@ -140,7 +140,7 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskMechEWAR
-  name: '电子战机甲技术磁盘 | EWAR mech tech disk'
+  name: '机甲电子战技术磁盘 | EWAR mech tech disk'
   description: '一张能够为服务器配方添加机甲电子战装备的磁盘。 | A disk capable of adding mech EWAR gear to a server''s recipes.'
   components:
   - type: Sprite
@@ -251,7 +251,7 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskMechIFF
-  name: '机械敌我识别技术磁盘 | IFF mech tech disk'
+  name: '机甲敌我识别技术磁盘 | IFF mech tech disk'
   description: '能够为服务器配方添加机甲敌我识别装备的磁盘。 | A disk capable of adding mech IFF equipment to a server''s recipes.'
   components:
   - type: Sprite

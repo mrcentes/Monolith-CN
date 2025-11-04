@@ -1,7 +1,7 @@
 ﻿# Base
 - type: entity
   id: BaseCrossbow
-  name: crossbow
+  name: 十字弩
   parent: [ BaseItem, GunMeleeAttackBluntBase ] # \Resources\Prototypes\_NF\Entities\Objects\Weapons\Melee\base_melee_weapon.yml
   description: The original rooty tooty point and shooty.
   abstract: true
@@ -281,7 +281,7 @@
 - type: entity
   id: CrossbowImprovised
   parent: [ BaseCrossbowWieldable, BaseC1Contraband ]
-  name: impovised crossbow
+  name: 简易十字弩
   components:
   - type: UseDelay
     delay: 2
@@ -294,7 +294,7 @@
 - type: entity
   id: CrossbowBloodCult
   parent: [ BaseCrossbowWieldable, BaseC3CultContraband ]
-  name: blood cult crossbow
+  name: 血教徒十字弩
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Crossbow/cult.rsi
@@ -309,7 +309,7 @@
 - type: entity
   id: CrossbowModernHand
   parent: [ BaseCrossbow, BaseC1Contraband ]
-  name: hand crossbow
+  name: 手弩
   components:
   - type: UseDelay
     delay: 0.5
@@ -322,7 +322,7 @@
 - type: entity
   id: CrossbowImprovisedHand
   parent: [ BaseCrossbow, BaseC1Contraband ]
-  name: impovised hand crossbow
+  name: 简易手弩
   components:
   - type: UseDelay
     delay: 2
@@ -335,7 +335,7 @@
 - type: entity
   id: CrossbowBloodCultHand
   parent: [ BaseCrossbow, BaseC3CultContraband ]
-  name: blood cult hand crossbow
+  name: 血教徒手弩
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Crossbow/culthand.rsi

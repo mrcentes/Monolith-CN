@@ -1,4 +1,4 @@
-admin-player-actions-reason = Reason
+admin-player-actions-reason = 原因
 admin-player-actions-bans = 封禁名单
 admin-player-actions-notes = 备注
 admin-player-actions-kick = 踢出

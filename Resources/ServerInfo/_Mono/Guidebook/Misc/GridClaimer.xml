@@ -1,20 +1,20 @@
 <Document>
-  # Claiming Debris
+  # 认领无主残骸
   <Box>
     <GuideEntityEmbed Entity="BannerNGC"/>
     <GuideEntityEmbed Entity="BannerSHM"/>
     <GuideEntityEmbed Entity="BannerNanotrasen"/>
     <GuideEntityEmbed Entity="BannerCargo"/>
   </Box>
-  Sometimes, you might want to make a wreck or an asteroid into your new home.
-  Unfortunately, if you try to do just that, you will find that if you go away from it, it will very likely get permanently lost.
+  有时，你可能想将一艘太空废船或小行星改造成你的新家。
+  但遗憾的是，如果你直接这样做，会发现你一旦离开区域后，该地点很可能会永久消失。
 
-  Banners can help you avoid that.
-  Interact with the banner to claim the grid (make sure the banner is anchored and stays anchored!), preventing it from despawning even when you go away.
-  If you're done with the grid, interact with the banner again.
+  旗帜可以帮您避免这种情况。
+  与旗帜互动即可认领该残骸区域（请确保旗帜已固定在地板上，并持续保持固定状态！），即使玩家离开也不会消失。
+  当你不再需要该残骸区域时，再次与旗帜互动即可解除认领。
 
-  The following grids may be claimed:
-  - Event grids (VGroids, unidentified vessels, etc.)
-  - Debris
-  - Asteroids
+  以下区域可被认领：
+  - 事件区块-Grids（VG小行星、不明舰船等）
+  - 残骸-Debris
+  - 小行星-Asteroids
 </Document>

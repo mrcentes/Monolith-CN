@@ -253,7 +253,7 @@
   parent: BaseScrap
   id: ScrapFaxMachine
   name: 传真机 丨 fax machine
-  description: 向中央司令部发送了过多ASCII艺术的不幸后果。 丨 The unfortunate result of one too many ASCII arts being sent to Central Command.
+  description: 向中央指挥部发送了过多ASCII艺术的不幸后果。 丨 The unfortunate result of one too many ASCII arts being sent to Central Command.
   components:
   - type: Sprite
     layers:

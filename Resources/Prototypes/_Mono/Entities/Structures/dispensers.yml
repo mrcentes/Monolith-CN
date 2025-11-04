@@ -73,7 +73,7 @@
   parent: BaseCargoChute
   id: CargoChuteTradeMall
   name: '贸易商城货物投递口 | Trade Mall cargo turn-in chute'
-  description: '一台带有管道系统的机器，管道通向车站深处，用于接收出口商品以换取贸易凭证。 | A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.'
+  description: '一台带有管道系统的机器，管道通向空间站深处，用于接收出口商品以换取贸易凭证。 | A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.'
   components:
   - type: Dispenser
     defaultItem: PaperWrittenDispenserInstructions # Lol, dont put this as anything thats worth something, you can just get items by clicking with a empty hand.

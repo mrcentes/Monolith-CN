@@ -2173,7 +2173,7 @@
   parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
   id: VendingMachineCentDrobe
   name: 中央衣橱 丨 CentDrobe
-  description: 一台独一无二的自动贩卖机，满足您对中央司令部美学的所有需求！ 丨 A one-of-a-kind vending machine for all your centcomm aesthetic needs!
+  description: 一台独一无二的自动贩卖机，满足您对中央指挥部美学的所有需求！ 丨 A one-of-a-kind vending machine for all your centcomm aesthetic needs!
   components:
   - type: VendingMachine
     pack: CentDrobeInventory

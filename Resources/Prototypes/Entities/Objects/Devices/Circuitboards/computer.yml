@@ -139,7 +139,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: StationRecordsComputerCircuitboard
-  name: 车站记录计算机板 丨 station records computer board
+  name: 空间站档案计算机板 丨 station records computer board
   description: 用于台站记录计算机的计算机印刷电路板。 丨 A computer printed circuit board for a station records computer.
   components:
     - type: Sprite

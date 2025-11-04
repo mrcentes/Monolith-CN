@@ -150,7 +150,7 @@
 - type: entity
   id: AirlockShuttleAssembly
   parent: AirlockAssembly
-  name: 外部气闸舱组件 丨 external airlock assembly
+  name: 外部气闸舱组件
   suffix: Docking
   description: 连接两艘航天器所必需的不完整结构。 丨 An incomplete structure necessary for connecting two space craft together.
   components:

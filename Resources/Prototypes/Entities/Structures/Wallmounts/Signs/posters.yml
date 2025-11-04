@@ -76,7 +76,7 @@
   parent: PosterBase
   id: PosterContrabandFunPolice
   name: 趣味警察 丨 "Fun Police"
-  description: 一张谴责车站安全部队的海报。 丨 "A poster condemning the station's security forces."
+  description: 一张谴责空间站安全部队的海报。 丨 "A poster condemning the station's security forces."
   components:
   - type: Sprite
     state: poster3_contraband
@@ -247,7 +247,7 @@
   parent: PosterBase
   id: PosterContrabandKosmicheskayaStantsiya
   name: 科斯米切斯卡亚站13号并不存在 丨 "Kosmicheskaya Stantsiya 13 Does Not Exist"
-  description: 一张嘲讽中央司令部否认太空13号附近存在废弃空间站的海报。 丨 "A poster mocking CentComm's denial of the existence of the derelict station near Space Station 13."
+  description: 一张嘲讽中央指挥部否认太空13号附近存在废弃空间站的海报。 丨 "A poster mocking CentComm's denial of the existence of the derelict station near Space Station 13."
   components:
   - type: Sprite
     state: poster22_contraband
@@ -609,7 +609,7 @@
   parent: PosterBase
   id: PosterLegitHereForYourSafety
   name: 为您的安全在此 丨 "Here For Your Safety"
-  description: 一张颂扬车站安保力量的海报。 丨 "A poster glorifying the station's security force."
+  description: 一张颂扬空间站安保力量的海报。 丨 "A poster glorifying the station's security force."
   components:
   - type: Sprite
     state: poster1_legit
@@ -798,7 +798,7 @@
   parent: PosterBase
   id: PosterLegitReportCrimes
   name: 举报犯罪行为 丨 "Report Crimes"
-  description: 一张鼓励迅速向车站保安举报犯罪或煽动行为的海报。 丨 "A poster encouraging the swift reporting of crime or seditious behavior to station security."
+  description: 一张鼓励迅速向空间站保安举报犯罪或煽动行为的海报。 丨 "A poster encouraging the swift reporting of crime or seditious behavior to station security."
   components:
   - type: Sprite
     state: poster22_legit
@@ -1151,8 +1151,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapSplit
-  name: 斯普利特车站地图 丨 "Split Station Map"
-  description: 斯普利特车站地图。 丨 "A map of Split Station."
+  name: 斯普利特空间站地图 丨 "Split Station Map"
+  description: 斯普利特空间站地图。 丨 "A map of Split Station."
   components:
   - type: Sprite
     state: splitmap

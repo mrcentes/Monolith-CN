@@ -14,10 +14,10 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  name: 'VFD MR-8C 精准射手步枪（8x65mm SKR） | VFD MR-8C DMR (8x65mm SKR)'
+  name: VFD MR-8C 精准射手步枪（8x65mm SKR） | VFD MR-8C DMR (8x65mm SKR)
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponRifleMR8C
-  description: 'MR-8系列的精准射手步枪变体，具有惊人的射击精度。使用8x65mm SKR弹药。侧面标签标注「仅限军用」。
+  description: MR-8系列的精准射手步枪变体，具有惊人的射击精度。使用8x65mm SKR弹药。侧面标签标注「仅限军用」。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/mr8c.rsi
@@ -89,7 +89,7 @@
   name: NCI AK-502 步枪(7.62x39mm)
   parent: [BaseWeaponRifle, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponRifleAK502
-  description: 一款标准制式的USSP战斗步枪。使用7.62x39mm 弹药。 
+  description: 一款标准制式的USSP战斗步枪。使用7.62x39mm 弹药。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/ak502.rsi
@@ -222,7 +222,7 @@
   name: HWM FCM-C 民用型"火神"步枪(7.62x51mm)
   parent: WeaponRifleVulcan
   id: WeaponRifleVulcanFCMC
-description: '赫斯塔尔武器制造公司火神式民用中型战斗步枪,采用7.62x51mm 弹药。此民用版本仅具备半自动模式并降低了射速。 
+  description: 赫斯塔尔武器制造公司火神式民用中型战斗步枪,采用7.62x51mm 弹药。此民用版本仅具备半自动模式并降低了射速。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/WeaponRifleVulcanFCMC.rsi
@@ -343,7 +343,7 @@ description: '赫斯塔尔武器制造公司火神式民用中型战斗步枪,�
   name: SKR-WS MLA-34 智能步枪 (.160 smart) # TODO - make like 5.56 level smartgun ammo for these
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2Contraband]
   id: WeaponRifleMla34
-  description: '限量生产的特殊智能枪械，作为未经训练舰船船员的自我防卫武器。
+  description: 限量生产的特殊智能枪械，作为未经训练舰船船员的自我防卫武器。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/mla34.rsi
@@ -427,7 +427,7 @@ description: '赫斯塔尔武器制造公司火神式民用中型战斗步枪,�
   name: NTSF-LTR-556 步枪(5.56x45mm,6.8x52mm Caseless)
   parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
   id: WeaponRifleNtsfLtr
-  description: 一把旧的破损前步枪。纳诺·特拉森安全部队和特种部队使用的轻型战术步枪，口径为5.56x45毫米，由于当时它的使用口径是全新的原型，也可以使用6.8x52毫米。这支步枪质量很高，内部采用塑钛合金，配件为塑钢材质。
+  description: 一把前断代纪元的旧步枪。纳米传讯安全部队和特种部队装备的轻型战术步枪，口径为5.56x45毫米，由于当时它的使用口径是全新的原型，也可以使用6.8x52毫米。这支步枪质量很高，内部采用塑钛合金，配件为塑钢材质。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Rifles/NTSF-LTR-556

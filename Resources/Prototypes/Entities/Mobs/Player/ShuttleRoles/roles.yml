@@ -425,7 +425,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorLawyerCentcom
-  name: 访问中央司令部的律师幽灵角色 丨 visiting centcom lawyer ghost role
+  name: 访问中央指挥部的律师幽灵角色 丨 visiting centcom lawyer ghost role
   categories: [ HideSpawnMenu ] # Frontier
   components:
     - type: Sprite

@@ -133,7 +133,7 @@
       - id: LightTubeCrystalGreen
 
 - type: entity
-  name: PDA box
+  name: PDA盒
   parent: BoxCardboard
   id: BoxPDA
   description: A box of spare PDA microcomputers.
@@ -148,7 +148,7 @@
       - state: pda
 
 - type: entity
-  name: ID card box
+  name: 身份证盒
   parent: BoxCardboard
   id: BoxID
   description: A box of spare blank ID cards.
@@ -163,7 +163,7 @@
       - state: pda
 
 - type: entity
-  name: headset box
+  name: 耳机盒
   parent: BoxCardboard
   id: BoxHeadset
   description: A box of spare passenger headsets.
