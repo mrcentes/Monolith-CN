@@ -1,15 +1,15 @@
 # MARK: USSP
-job-name-ussp-commissar = USSP Commissar
-job-name-ussp-sergeant = USSP Serzhant
-job-name-ussp-corporal = USSP Efreitor
-job-name-ussp-medic = USSP Combat Medic
-job-name-ussp-rifleman = USSP Rifleman
-job-supervisors-ussp-highcomm = the Nova Cygni command.
-job-supervisors-ussp-commissars = the Commissar
-job-supervisors-ussp-sergeant = the Serzhants
+job-name-ussp-commissar = USSP 政委
+job-name-ussp-sergeant = USSP 军士
+job-name-ussp-corporal = USSP 上等兵
+job-name-ussp-medic = USSP 战场医护兵
+job-name-ussp-rifleman = USSP 步枪手
+job-supervisors-ussp-highcomm = 新天鹅座指挥部
+job-supervisors-ussp-commissars = 政委
+job-supervisors-ussp-sergeant = 军士长
 
 # MARK: MD
-job-name-md-medic = Emergency Responder
+job-name-md-medic = 应急响应医护人员
 
 # MARK: TSF
-job-name-tsf-engineer = TSFMC Engineer
+job-name-tsf-engineer = TSFMC 工程师

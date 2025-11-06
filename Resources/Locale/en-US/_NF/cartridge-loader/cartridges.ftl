@@ -13,12 +13,12 @@ ledger-no-expenses = None
 ledger-balance = Balance:
 ledger-no-balance = N/A
 
-ledger-tab-Frontier = Colonial Outpost
+ledger-tab-Frontier = 殖民前哨站
 ledger-tab-Nfsd = TSFMC
-ledger-tab-Medical = Medical Dispatch
-ledger-tab-BlackMarket = Black Market
+ledger-tab-Medical = 医疗调度中心
+ledger-tab-BlackMarket = 黑市
 # Fallback, if this displays, something's wrong.
-ledger-tab-Unknown = Unknown
+ledger-tab-Unknown = 未知
 
 ledger-entry-type-TickingIncome = Subsidies
 ledger-entry-type-VendorTax = Vendor Taxes

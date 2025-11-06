@@ -20,7 +20,7 @@ frontier-lobby-exped-description = 这里是雇佣兵及相关人员的基地营
    - 寻找可加入的船员队伍
    - 购买武器与装备
    - 购买远征专用飞船
-   - 与其他雇佣兵交流——或者不。
+   - 与其他雇佣兵交流——或者独来独往。
 
 frontier-lobby-medical-subtext = 医疗调度中心与搜救中心。
 frontier-lobby-medical-description = TSF民用医疗调度中心。在此你可以：
