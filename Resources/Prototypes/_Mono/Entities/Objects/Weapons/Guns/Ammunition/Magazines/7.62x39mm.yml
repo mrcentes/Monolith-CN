@@ -355,7 +355,7 @@
 
 - type: entity
   id: Magazine762x39mmPlasteelAP
-  name: '7点62mm 穿甲弹匣 | magazine (7.62x39mm AP)'
+  name: '7.62mm 穿甲弹匣 | magazine (7.62x39mm AP)'
   parent: BaseMagazine762x39mm
   components:
   - type: BallisticAmmoProvider

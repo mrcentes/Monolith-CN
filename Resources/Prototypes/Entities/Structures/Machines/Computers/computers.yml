@@ -709,7 +709,7 @@
   components:
   - type: IdCardConsole
     privilegedIdSlot:
-      name: 身份证控制台特权身份 丨 id-card-console-privileged-id
+      name: ID卡控制台特权身份 丨 id-card-console-privileged-id
       ejectSound: /Audio/Machines/id_swipe.ogg
       insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
       ejectOnBreak: true
@@ -718,7 +718,7 @@
         components:
         - IdCard
     targetIdSlot:
-      name: 身份证控制台目标标识 丨 id-card-console-target-id
+      name: ID卡控制台目标标识 丨 id-card-console-target-id
       ejectSound: /Audio/Machines/id_swipe.ogg
       insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
       ejectOnBreak: true

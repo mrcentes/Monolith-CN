@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: NorthPole
   parent: BasePOI
-  name: "The North Pole"
+  name: "北极星据点"
   minimumDistance: 6150
   maximumDistance: 8850
   spawnGroup: Christmas

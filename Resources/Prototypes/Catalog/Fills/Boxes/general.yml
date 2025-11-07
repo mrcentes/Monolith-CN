@@ -148,7 +148,7 @@
       - state: pda
 
 - type: entity
-  name: 身份证盒
+  name: ID卡盒
   parent: BoxCardboard
   id: BoxID
   description: A box of spare blank ID cards.

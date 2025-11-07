@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Lodge
   parent: BasePOI
-  name: 'Expeditionary Lodge'
+  name: '远征者营地-Expeditionary Lodge'
   minimumDistance: 6650
   maximumDistance: 7400
   spawnGroup: Required
@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: Lodge
-  mapName: 'Expeditionary Lodge'
+  mapName: '远征者营地'
   mapPath: /Maps/_NF/POI/lodge.yml
   minPlayers: 0
   stations:

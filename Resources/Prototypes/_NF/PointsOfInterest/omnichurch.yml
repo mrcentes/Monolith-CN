@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Omnichurch
   parent: BasePOI
-  name: "Omnichurch Beacon"
+  name: "Omni教堂信标"
   minimumDistance: 4200
   maximumDistance: 6900
   gridPath: /Maps/_NF/POI/beacon.yml

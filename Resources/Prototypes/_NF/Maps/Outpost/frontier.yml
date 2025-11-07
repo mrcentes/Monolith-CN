@@ -17,7 +17,7 @@
 
 - type: gameMap
   id: Frontier
-  mapName: 'Colonial Outpost'
+  mapName: '殖民前哨站-Colonial'
   mapPath: /Maps/_Mono/Outpost/colonial.yml # Mono
   minPlayers: 0
   maxPlayers: 100

@@ -99,7 +99,7 @@
 - type: entity
   id: Bullet57x28mmHP
   parent: BaseBullet
-  name: '子弹（5.7x28mm 空尖弹） | bullet (5.7x28mm hollow-point)'
+  name: '5.7x28mm 空尖弹 | bullet (5.7x28mm hollow-point)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -112,7 +112,7 @@
 - type: entity
   id: Bullet57x28mmRIP
   parent: BaseBullet
-  name: '子弹（5点7乘28mm RIP） | bullet (5.7x28mm RIP)'
+  name: '5.7x28mm RIP弹 | bullet (5.7x28mm RIP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -127,7 +127,7 @@
 - type: entity
   id: Bullet57x28mmPlasteelAP
   parent: BaseBullet
-  name: '子弹（5.7x28mm 穿甲弹） | bullet (5.7x28mm AP)'
+  name: '5.7x28mm 穿甲弹 | bullet (5.7x28mm AP)'
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

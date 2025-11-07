@@ -189,8 +189,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseCommandContraband ]
   id: ClothingEyesGlassesCommand
-  name: 管理眼镜 丨 administration glasses
-  description: 升级版太阳镜，可提供闪光免疫并显示身份证状态。 丨 Upgraded sunglasses that provide flash immunity and show ID card status.
+  name: 指挥层眼镜 丨 administration glasses
+  description: 升级版太阳镜，可提供闪光免疫并显示ID卡状态。 丨 Upgraded sunglasses that provide flash immunity and show ID card status.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/commandglasses.rsi

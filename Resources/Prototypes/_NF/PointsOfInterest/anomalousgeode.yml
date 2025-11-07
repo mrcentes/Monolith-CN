@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: AnomalousGeode
   parent: BasePOI
-  name: 'Anomalous Geode'
+  name: '异常晶洞-Anomalous Geode'
   minimumDistance: 7800
   maximumDistance: 10800
   spawnGroup: ScienceLab
@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: AnomalousGeode
-  mapName: 'Anomalous Lab'
+  mapName: '异常晶洞'
   mapPath: /Maps/_NF/POI/anomalouslab.yml
   minPlayers: 0
   stations:

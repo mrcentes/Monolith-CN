@@ -142,7 +142,7 @@
         - BookNfsdSop
     # End Frontier: space law slot
     idSlot:
-      name: 访问身份证组件默认 丨 access-id-card-component-default
+      name: 访问ID卡组件默认 丨 access-id-card-component-default
       ejectSound: /Audio/Machines/id_swipe.ogg
       insertSound: /Audio/Machines/id_insert.ogg
       whitelist:
@@ -501,7 +501,7 @@
         components:
         - PAI
     idSlot:
-      name: 访问身份证组件默认 丨 access-id-card-component-default
+      name: 访问ID卡组件默认 丨 access-id-card-component-default
       ejectSound: null # mime is silent
       insertSound: null
       whitelist:

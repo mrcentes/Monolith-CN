@@ -340,8 +340,8 @@
 - type: entity
   parent: [BaseComputerCircuitboard, BaseC2ContrabandUnredeemable] # Frontier: BaseGrandTheftContraband<BaseC2ContrabandUnredeemable
   id: IDComputerCircuitboard
-  name: ID卡电脑板 丨 ID card computer board
-  description: 用于身份证控制台的计算机印刷电路板。 丨 A computer printed circuit board for an ID card console.
+  name: ID卡计算机电路板 丨 ID card computer board
+  description: 用于ID卡控制台的计算机印刷电路板。 丨 A computer printed circuit board for an ID card console.
   components:
     - type: Sprite
       state: cpu_command

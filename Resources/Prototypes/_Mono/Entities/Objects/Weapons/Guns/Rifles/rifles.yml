@@ -148,11 +148,7 @@
     id: StandardFactionLongarm
 
 - type: entity
-<<<<<<< Updated upstream
   name: VFD XLR-556 ICWS步枪 (5.56x45mm)
-=======
-  name: 'VFD XLR-556 ICWS步枪（5.56×45mm ） | VFD XLR-556 ICWS (5.56x45mm)'
->>>>>>> Stashed changes
   parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponRifleXlr556
   description: 为TSF标准步兵设计的次世代步枪方案。采用5.56x45mm 步枪弹，其射速极为惊人——但高射速也带来了火力控制的挑战。

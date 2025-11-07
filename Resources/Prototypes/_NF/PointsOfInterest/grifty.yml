@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Grifty
   parent: BasePOI
-  name: "Grifty's Gas n Grub"
+  name: "格里夫蒂油料快餐"
   minimumDistance: 6250
   maximumDistance: 8600
   spawnGroup: Scrapyard
@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: Grifty
-  mapName: "Grifty's Gas n Grub"
+  mapName: "格里夫蒂油料快餐-Grifty"
   mapPath: /Maps/_NF/POI/grifty.yml
   minPlayers: 0
   stations:

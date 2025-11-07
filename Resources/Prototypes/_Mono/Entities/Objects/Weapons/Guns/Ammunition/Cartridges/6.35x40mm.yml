@@ -17,7 +17,7 @@
 
 - type: entity
   id: BaseCartridge635x40mmCaseless
-  name: '点二五步枪子弹 | cartridge (.25 rifle)'
+  name: '.25 步枪子弹 | cartridge (.25 rifle)'
   parent: [ BaseCartridge, BaseC3SyndicateContrabandNoValue ] # Frontier: BaseSecurityContraband<BaseC3SyndicateContraband
   description: '为在公司战争期间开发，供亚音速武器使用以便在行动中保持低调。 | Developed during corporate wars for subsonic weapons to keep a low-profile during operations.'
   abstract: true

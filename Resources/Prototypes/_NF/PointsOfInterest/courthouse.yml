@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Courthouse
   parent: BasePOI
-  name: "Courthouse"
+  name: "仲裁所"
   minimumDistance: 4250
   maximumDistance: 5050
   spawnGroup: Required
@@ -22,7 +22,7 @@
 
 - type: gameMap
   id: Courthouse
-  mapName: "Courthouse"
+  mapName: "仲裁所"
   mapPath: /Maps/_NF/POI/courthouse.yml
   minPlayers: 0
   stations:

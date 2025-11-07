@@ -61,7 +61,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: 人体目标 丨 human target
+  name: 人体靶子 丨 human target
   id: TargetHuman
   parent: BaseTarget
   description: 一个射击靶子。这个是个人形靶。 丨 A shooting target. This one is a human.
@@ -76,7 +76,7 @@
   # End Mono
 
 - type: entity
-  name: 辛迪加目标 丨 syndicate target
+  name: 辛迪加靶子 丨 syndicate target
   id: TargetSyndicate
   parent: BaseTarget
   description: 一个射击靶子。这个是集团特工。 丨 A shooting target. This one is a syndicate agent.
@@ -107,7 +107,7 @@
 
 # put it on a salvage or something
 - type: entity
-  name: 奇怪的目标 丨 strange target
+  name: 奇怪的靶子 丨 strange target
   id: TargetStrange
   parent: BaseTarget
   description: 一个射击靶。你不太确定这是什么，但它看起来格外坚固。 丨 A shooting target. You aren't quite sure what this one is, but it seems to be extra robust.

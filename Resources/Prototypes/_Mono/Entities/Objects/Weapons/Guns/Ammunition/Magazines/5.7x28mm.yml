@@ -380,7 +380,7 @@
 
 - type: entity
   id: Magazine57x28mmSubMachineGunRubber
-  name: 'SMG弹匣（5点7乘28mm 橡胶弹） | SMG magazine (5.7x28mm rubber)'
+  name: 'SMG弹匣（5.7x28mm 橡胶弹） | SMG magazine (5.7x28mm rubber)'
   parent: BaseMagazine57x28mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
