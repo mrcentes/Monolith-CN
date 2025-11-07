@@ -31,7 +31,7 @@ frontier-lobby-medical-description = TSF民用医疗调度中心。在此你可�
  本站点的部分职位为白名单限定，需在Q群提交申请。
 
 frontier-lobby-nfsd-subtext = TSFMC-海军陆战队 行动指挥中心。
-frontier-lobby-nfsd-description = TSFMC前进作战基地是TSF武装扩张至巨像星区的行动中心。在此你可以：
+frontier-lobby-nfsd-description = TSFMC前线作战基地是TSF武装扩张至巨像星区的行动中心。在此你可以：
    - 加入TSF海军陆战队部门
    - 申请赏金猎人执照
    - 举报犯罪行为

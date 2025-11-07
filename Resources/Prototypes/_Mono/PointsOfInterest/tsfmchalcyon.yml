@@ -47,7 +47,7 @@
 
 - type: gameMap
   id: TSFMCHalcyon
-  mapName: 'TSFMC 旗舰“宁静号”'
+  mapName: 'TSFMC Flagship Halcyon'
   mapPath: /Maps/_Mono/POI/tsfmchalcyon.yml
   minPlayers: 0
   randomRotation: false

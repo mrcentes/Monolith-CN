@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: ThePit
   parent: BasePOI
-  name: "角斗坑-The Pit"
+  name: "角斗坑"
   minimumDistance: 5200
   maximumDistance: 6200
   spawnGroup: Arena
@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: ThePit
-  mapName: "角斗坑"
+  mapName: "The Pit"
   mapPath: /Maps/_NF/POI/arena.yml
   minPlayers: 0
   stations:

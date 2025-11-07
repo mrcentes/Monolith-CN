@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Tinnia
   parent: BasePOI
-  name: "蒂尼亚休整站-Tinnia's Rest"
+  name: "蒂尼亚休整站"
   minimumDistance: 3400
   maximumDistance: 5800
   spawnGroup: RestStop
@@ -24,7 +24,7 @@
 
 - type: gameMap
   id: Tinnia
-  mapName: "蒂尼亚休整站"
+  mapName: "Tinnia's Rest"
   mapPath: /Maps/_NF/POI/tinnia.yml
   minPlayers: 0
   stations:

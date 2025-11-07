@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: Grifty
-  mapName: "格里夫蒂油料快餐-Grifty"
+  mapName: "Grifty's Gas n Grub"
   mapPath: /Maps/_NF/POI/grifty.yml
   minPlayers: 0
   stations:

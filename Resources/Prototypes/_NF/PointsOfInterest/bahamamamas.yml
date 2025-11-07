@@ -31,7 +31,7 @@
 
 - type: gameMap
   id: Bahama
-  mapName: "巴哈马妈妈酒吧"
+  mapName: "Bahama Mama's"
   mapPath: /Maps/_NF/POI/bahama.yml
   minPlayers: 0
   stations:

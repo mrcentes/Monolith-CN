@@ -20,7 +20,7 @@
 
 - type: gameMap
   id: McHobo
-  mapName: "Mc货运船残骸"
+  mapName: "Derelict McCargo"
   mapPath: /Maps/_NF/POI/mchobo.yml
   minPlayers: 0
   stations:

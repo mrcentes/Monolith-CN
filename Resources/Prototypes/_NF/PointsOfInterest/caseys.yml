@@ -18,7 +18,7 @@
 
 - type: gameMap
   id: CaseysCasino
-  mapName: "狂人凯西赌场-Crazy Casey's Casino"
+  mapName: "Crazy Casey's Casino"
   mapPath: /Maps/_NF/POI/caseyscasino.yml
   minPlayers: 0
   stations:

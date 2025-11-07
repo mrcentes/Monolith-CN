@@ -39,7 +39,7 @@
 
 - type: gameMap
   id: Jupiter
-  mapName: 'ASR 木星号母舰'
+  mapName: 'ASR Jupiter Class Carrier'
   mapPath: /Maps/_Mono/POI/jupiter.yml
   minPlayers: 0
   stations:

@@ -105,7 +105,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanMarsocBase
-  name: '作战基地 | operative base'
+  name: '作战行动基地 | operative base'
   suffix: Human, Base
   components:
   - type: RandomHumanoidAppearance

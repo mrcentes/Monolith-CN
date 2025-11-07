@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Edison
   parent: BasePOI
-  name: '爱迪森发电厂-Power Plant'
+  name: '爱迪森发电厂'
   minimumDistance: 5650
   maximumDistance: 7400
   spawnGroup: Required
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Edison
-  mapName: '爱迪森发电厂'
+  mapName: 'Edison Power Plant'
   mapPath: /Maps/_NF/POI/edison.yml
   minPlayers: 0
   stations:

@@ -35,7 +35,7 @@
 
 - type: gameMap
   id: TradeMall
-  mapName: '贸易商品站'
+  mapName: 'Trade Mall'
   mapPath: /Maps/_NF/POI/trademall.yml
   minPlayers: 0
   stations:
