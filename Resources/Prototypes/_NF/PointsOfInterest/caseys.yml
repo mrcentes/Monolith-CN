@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: CaseysCasino
   parent: BasePOI
-  name: "Crazy Casey's Casino"
+  name: "狂人凯西赌场"
   minimumDistance: 4250
   maximumDistance: 5600
   gridPath: /Maps/_NF/POI/caseyscasino.yml

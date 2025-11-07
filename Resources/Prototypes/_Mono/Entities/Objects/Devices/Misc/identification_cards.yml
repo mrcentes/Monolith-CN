@@ -7,7 +7,7 @@
 - type: entity
   parent: IDCardStandard
   id: USSPRiflemanIDCard
-  name: '美军步枪手身份卡 | USSP rifleman ID card'
+  name: 'USSP 步枪手ID卡 | rifleman ID card'
   components:
   - type: PresetIdCard
     job: USSPRifleman
@@ -24,7 +24,7 @@
 - type: entity
   parent: CadetIDCard
   id: USSPCorporalIDCard
-  name: '美国海军三等兵身份证 | USSP efreitor ID card'
+  name: 'USSP 上等兵ID卡 | efreitor ID card'
   components:
   - type: PresetIdCard
     job: USSPCorporal
@@ -37,7 +37,7 @@
 - type: entity
   parent: IDCardStandard
   id: USSPMedicIDCard
-  name: '美军战斗医护兵身份证 | USSP combat medic ID card'
+  name: 'USSP 战场医护兵ID卡 | combat medic ID card'
   components:
   - type: PresetIdCard
     job: USSPMedic
@@ -50,7 +50,7 @@
 - type: entity
   parent: IDCardStandard
   id: USSPSergeantIDCard
-  name: '美国海军军士身份证 | USSP serzhant ID card'
+  name: 'USSP 军士ID卡 | serzhant ID card'
   components:
   - type: PresetIdCard
     job: USSPSergeant
@@ -63,7 +63,7 @@
 - type: entity
   parent: [IDCardStandard, BaseCommandContraband]
   id: USSPCommissarIDCard
-  name: 'USSP政委身份证 | USSP commissar ID card'
+  name: 'USSP 政委ID卡 | commissar ID card'
   components:
   - type: PresetIdCard
     job: USSPCommissar
@@ -80,7 +80,7 @@
 - type: entity
   parent: [IDCardStandard]
   id: MedMedicIDCard
-  name: '紧急响应人员身份卡 | emergency responder ID card'
+  name: '应急响应小队ID卡 | emergency responder ID card'
   components:
   - type: PresetIdCard
     job: MdMedic
@@ -99,7 +99,7 @@
 - type: entity
   parent: IDCardStandard
   id: TsfEngiIDCard
-  name: 'TSFMC工程师工牌 | TSFMC engineer ID card'
+  name: 'TSFMC工程师ID卡 | TSFMC engineer ID card'
   components:
   - type: PresetIdCard
     job: TsfEngineer
@@ -118,7 +118,7 @@
 - type: entity
   parent: IDCardStandard
   id: TsfMarsocFTLIDCard
-  name: 'TSFMC海军陆战队特种作战小队队长身份卡 | TSFMC MARSOC fire team leader ID card'
+  name: 'TSFMC陆战队火力小组长ID卡 | TSFMC MARSOC fire team leader ID card'
   components:
   - type: PresetIdCard
     job: TsfMarsocFTL
@@ -134,7 +134,7 @@
 - type: entity
   parent: IDCardStandard
   id: TsfMarsocIDCard
-  name: 'TSFMC海军陆战队特种作战司令部特工识别卡 | TSFMC MARSOC operative ID card'
+  name: 'TSFMC特种作战司令部特工ID卡 | TSFMC MARSOC operative ID card'
   components:
   - type: PresetIdCard
     job: TsfMarsoc

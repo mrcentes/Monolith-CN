@@ -28,7 +28,7 @@
 
 - type: gameMap
   id: Polaris
-  mapName: '北极星 生物研究中心'
+  mapName: 'Polaris Bioresearch Center'
   mapPath: /Maps/_Mono/POI/Dungeons/polaris.yml
   minPlayers: 0
   stations:

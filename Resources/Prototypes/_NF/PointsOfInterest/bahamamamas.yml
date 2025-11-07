@@ -14,11 +14,11 @@
 # Discord: Tych0
 
 # Notes:
-# I want to lie, shipwrecked and comatose, drinking fresh mango juice.
+# 愿醉卧船骸，啜饮鲜芒汁.
 - type: pointOfInterest
   id: Bahama
   parent: BasePOI
-  name: "Bahama Mama's"
+  name: "巴哈马妈妈酒吧"
   minimumDistance: 3400
   maximumDistance: 5800
   spawnGroup: RestStop

@@ -21,7 +21,7 @@
 #- type: pointOfInterest
 #  id: Trade
 #  parent: BasePOI
-#  name: Trade Outpost
+#  name: 贸易前哨站
 #  minimumDistance: 3500
 #  maximumDistance: 6500
 #  spawnGroup: MarketStation

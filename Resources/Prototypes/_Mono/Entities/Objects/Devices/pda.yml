@@ -67,7 +67,7 @@
 - type: entity
   parent: BaseUSSPPDA
   id: USSPRiflemanPDA
-  name: '美军步枪手个人数字助理 | USSP rifleman PDA'
+  name: 'USSP 步枪手个人数字助理 | rifleman PDA'
   components:
   - type: Pda
     id: USSPRiflemanIDCard
@@ -85,7 +85,7 @@
 - type: entity
   parent: BaseUSSPMedicPDA
   id: USSPMedicPDA
-  name: '美军战斗医护掌上电脑 | USSP combat medic PDA'
+  name: 'USSP 战场医护掌上电脑 | combat medic PDA'
   components:
   - type: Pda
     id: USSPMedicIDCard
@@ -104,7 +104,7 @@
 - type: entity
   parent: BaseUSSPPDA
   id: USSPCorporalPDA
-  name: '美国海军上等兵个人数字助理 | USSP efreitor PDA'
+  name: 'USSP 上等兵掌上电脑 | efreitor PDA'
   components:
   - type: Pda
     id: USSPCorporalIDCard
@@ -121,7 +121,7 @@
 - type: entity
   parent: BaseUSSPPDA
   id: USSPSergeantPDA
-  name: '美军士官掌上电脑 | USSP serzhant PDA'
+  name: 'USSP 军士掌上电脑 | serzhant PDA'
   components:
   - type: Pda
     id: USSPSergeantIDCard
@@ -139,7 +139,7 @@
 - type: entity
   parent: BaseUSSPPDA
   id: USSPCommissarPDA
-  name: '美国海军政委掌上电脑 | USSP commissar PDA'
+  name: 'USSP 政委掌上电脑 | USSP commissar PDA'
   components:
   - type: Pda
     id: USSPCommissarIDCard

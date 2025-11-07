@@ -72,7 +72,7 @@
   id: AFInterceptor
   parent: [ BaseMech, LightMechMount, BaseRestrictedContraband ]
   name: 'AF-28「阔剑」机甲 | AF-28 "Broadsword"'
-  description: '首批专用装甲机架之一，用于攻击轻型目标及其他装甲机架。 | One of the first purpose built Armored Frames, made to engage light targets and other Armored Frames.'
+  description: '首批专用装甲型号之一，用于攻击轻型目标及其他装甲机架。 | One of the first purpose built Armored Frames, made to engage light targets and other Armored Frames.'
   components:
   - type: Fixtures
     fixtures: # Custom hitbox

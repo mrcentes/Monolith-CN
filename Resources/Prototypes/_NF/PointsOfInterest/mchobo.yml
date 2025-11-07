@@ -12,7 +12,7 @@
 - type: pointOfInterest
   id: McHobo
   parent: BasePOI
-  name: Derelict McCargo
+  name: 'Mc货运船残骸'
   minimumDistance: 6250
   maximumDistance: 7600
   spawnGroup: Scrapyard

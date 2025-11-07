@@ -35,7 +35,7 @@
 
 - type: gameMap
   id: Cove
-  mapName: 'ASR 反抗军据点'
+  mapName: 'ASR Insurgency Hideout'
   mapPath: /Maps/_Mono/POI/cove.yml
   minPlayers: 0
   stations:

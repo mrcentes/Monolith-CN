@@ -27,7 +27,7 @@
 
 - type: gameMap
   id: Zenith
-  mapName: 'ADS 顶点号 CK-395'
+  mapName: 'ADS Zenith CK-395'
   mapPath: /Maps/_Mono/POI/Dungeons/zenith_poi.yml
   minPlayers: 0
   stations:

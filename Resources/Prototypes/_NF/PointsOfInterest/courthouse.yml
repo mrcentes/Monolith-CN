@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Courthouse
   parent: BasePOI
-  name: "Courthouse"
+  name: "仲裁所"
   minimumDistance: 4250
   maximumDistance: 5050
   spawnGroup: Required

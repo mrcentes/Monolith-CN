@@ -20,7 +20,7 @@ frontier-lobby-exped-description = 这里是雇佣兵及相关人员的基地营
    - 寻找可加入的船员队伍
    - 购买武器与装备
    - 购买远征专用飞船
-   - 与其他雇佣兵交流——或者不。
+   - 与其他雇佣兵交流——或者独来独往。
 
 frontier-lobby-medical-subtext = 医疗调度中心与搜救中心。
 frontier-lobby-medical-description = TSF民用医疗调度中心。在此你可以：
@@ -31,7 +31,7 @@ frontier-lobby-medical-description = TSF民用医疗调度中心。在此你可�
  本站点的部分职位为白名单限定，需在Q群提交申请。
 
 frontier-lobby-nfsd-subtext = TSFMC-海军陆战队 行动指挥中心。
-frontier-lobby-nfsd-description = TSFMC前进作战基地是TSF武装扩张至巨像星区的行动中心。在此你可以：
+frontier-lobby-nfsd-description = TSFMC前线作战基地是TSF武装扩张至巨像星区的行动中心。在此你可以：
    - 加入TSF海军陆战队部门
    - 申请赏金猎人执照
    - 举报犯罪行为

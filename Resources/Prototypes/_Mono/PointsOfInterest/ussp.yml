@@ -30,7 +30,7 @@
 
 - type: gameMap
   id: USSPCamelot
-  mapName: '卡美洛空间站'
+  mapName: 'Camelot Station'
   mapPath: /Maps/_Mono/POI/camelot.yml
   minPlayers: 0
   stations:

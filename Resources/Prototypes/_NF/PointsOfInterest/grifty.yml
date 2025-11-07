@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Grifty
   parent: BasePOI
-  name: "Grifty's Gas n Grub"
+  name: "格里夫蒂油料快餐"
   minimumDistance: 6250
   maximumDistance: 8600
   spawnGroup: Scrapyard

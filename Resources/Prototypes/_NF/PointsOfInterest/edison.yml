@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Edison
   parent: BasePOI
-  name: 'Edison Power Plant'
+  name: '爱迪森发电厂'
   minimumDistance: 5650
   maximumDistance: 7400
   spawnGroup: Required

@@ -102,8 +102,8 @@
     prob: 0.05
     makeSentient: true
     allowSpeech: true
-    name: 番茄杀手 丨 ghost-role-information-tomatokiller-name
-    description: 幽灵角色信息：番茄杀手描述 丨 ghost-role-information-tomatokiller-description
+    name: 幽灵角色-番茄杀手 丨 ghost-tomatokiller
+    description: 幽灵角色：番茄杀手 丨 ghost-role-information-tomatokiller-description
     rules: ghost-role-information-familiar-rules
     raffle:
       settings: short

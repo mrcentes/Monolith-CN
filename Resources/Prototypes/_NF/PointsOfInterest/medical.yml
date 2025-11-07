@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: Medical
-  mapName: '医疗调度中心'
+  mapName: 'Medical Dispatch'
   mapPath: /Maps/_NF/POI/medical.yml
   minPlayers: 0
   stations:

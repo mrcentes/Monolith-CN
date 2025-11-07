@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Tinnia
   parent: BasePOI
-  name: "Tinnia's Rest"
+  name: "蒂尼亚休整站"
   minimumDistance: 3400
   maximumDistance: 5800
   spawnGroup: RestStop

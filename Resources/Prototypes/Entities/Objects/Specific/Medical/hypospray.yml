@@ -59,7 +59,7 @@
 - type: entity
   name: 无针注射器 丨 hypospray
   parent: BaseItem # Frontier: remove BaseGrandTheftContraband
-  description: 基础型，无限制使用的皮下喷雾注射器。由纳米传讯顶尖科研团队设计，配备超大药剂储存仓，并具备近乎零延迟的注射特性。其侧面印有警示标识：“仅限医疗用途”。 丨 The base, unrestricted hypospray. Designed by top Nanotrasen researchers, it features a large chemical storage, along with a next-to-zero injection delay. It has a warning on its side reading "FOR MEDICAL USE ONLY.".
+  description: 基础型，无限制使用的气动皮下注射器。由纳米传讯顶尖科研团队设计，配备超大药剂储存仓，并具备近乎零延迟的注射特性。其侧面印有警示标识：“仅限医疗用途”。 丨 The base, unrestricted hypospray. Designed by top Nanotrasen researchers, it features a large chemical storage, along with a next-to-zero injection delay. It has a warning on its side reading "FOR MEDICAL USE ONLY.".
   id: Hypospray
   components:
   - type: Sprite
