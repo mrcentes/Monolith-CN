@@ -6,19 +6,6 @@ chat-radio-message-wrap-bold = [color={$color}]{$channel} [bold]{$name}[/bold] {
 
 examine-headset-default-channel = 使用 {$prefix} 作为默认频道 ([color={$color}]{$channel}[/color]).
 
-<<<<<<< HEAD
-chat-radio-common = 公共
-chat-radio-centcom = 中央司令
-chat-radio-command = 指挥
-chat-radio-engineering = 工程
-chat-radio-medical = 医疗
-chat-radio-science = 科研
-chat-radio-security = 安保
-chat-radio-service = 服务
-chat-radio-supply = 货运
-chat-radio-syndicate = 辛迪加
-chat-radio-freelance = 自由职业
-=======
 chat-radio-common = 公共
 chat-radio-centcom = 中央司令
 chat-radio-command = 指挥
@@ -30,7 +17,6 @@ chat-radio-service = 服务
 chat-radio-supply = 货运
 chat-radio-syndicate = 辛迪加
 chat-radio-freelance = 帝国
->>>>>>> upstream
 
 # not headset but whatever
 chat-radio-handheld = Handheld
