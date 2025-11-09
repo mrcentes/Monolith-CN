@@ -1520,3 +1520,8 @@
   license: "Custom"
   copyright: "music."
   source: "net"
+
+- files: ["SimpsonWave1995辛普森浪潮1995.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"

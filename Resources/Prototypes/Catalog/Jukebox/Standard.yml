@@ -1833,3 +1833,9 @@
   name: van的林title2
   path:
     path: /Audio/Jukebox/van的林title2.ogg
+
+- type: jukebox
+  id: SimpsonWave1995辛普森浪潮1995
+  name: SimpsonWave1995辛普森浪潮1995
+  path:
+    path: /Audio/Jukebox/SimpsonWave1995辛普森浪潮1995.ogg
