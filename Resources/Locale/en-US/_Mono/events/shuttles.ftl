@@ -19,8 +19,8 @@ ghost-role-information-redacted-core-description = 一艘长期未使用的自�
 
 # ADS Core
 
-ghost-role-information-rogue-core = ASR 人工智能核心
-ghost-role-information-rogue-core-description = 一个被重新编程并安装到一艘反抗分子舰船上的ADS人工智能核心。
+ghost-role-information-rogue-core = PDV 人工智能核心
+ghost-role-information-rogue-core-description = 一个被重新编程并部署到帝国舰船上的PDV人工智能核心。
 
 # Lawsets
 

@@ -13,6 +13,7 @@ harmony-medical-enterprises-description = 和谐医疗企业是家完全专注�
 
 midnight-arms-co-description = 午夜武器公司抓住了银河系重建的机遇——这个新时代全面禁止超级企业存在。MACo为独立群体和各种其他公司提供他们所需的任何武器装备，至于它们的用途，嗯，那取决于购买它们的人。在这个时代，自卫、远征、赏金追缉皆需枪械，MACo只是恰好发现自己是主要的供应商。
 
+ussp-description = Once one of the dominant forces in the Colossus sector, the United Soviet Socialist Planets are a coalition of hard workers. Abused by their High Command and left in the Colossus sector, remnants of this once-great faction must now fight for survival, either for themselves, their legacy, or their people. NOTE: using this company does NOT make your character applicable to faction engagement rules - you must still follow ROE depending on your role.
 
 # 主要公司
 
@@ -31,7 +32,7 @@ civil-defense-milita-description = 成立于巨神星域的新兴企业，民事
 
 southern-peak-mercenaries-description = “唯有死恶徒为好恶徒”是这家凶悍佣兵公司的格言。南境之巅成立于TSF与非法星域交界地带，既是为反击侵袭的海盗与起义军，亦源于对TSFMC的深切不信任。无需任何组织协助，TSP志在独力对抗非法星域势力。
 
-ullman-industries-description = “初犯不算战争罪。”最初是无法无天的星区内轻武器和制药的支柱公司，过去在TSF抵达后，大多数公司都转向公共领域——注册并遵守“安全工作规范”，并向员工支付“生活工资”——并以“战争罪”的指控追究公司领导人。厄尔曼工业逆流而上，坚持其边缘本色，向灰烬共和国所有客户供应军火、装甲、舰船等一切所需。底线是：凡在联邦星域属非法的物品，乌尔曼工业皆有售。见鬼，他们恐怕就是制造商。
+ullman-industries-description = 第一次并不算是战争罪。Ullman Industries 最初是一家在无法规区生产小型武器和医药的主流公司，一旦 TSF 到来，大部分公司都转为公共部门——注册并遵守“安全工作规范”，支付员工“生活工资”，同时追究公司领导的“战争罪”指控。但 Ullman Industries 打破了这一趋势，坚持其边缘本色，为 Phaetheon 王朝的所有客户供应武器、护甲、飞船，应有尽有。归根结底——如果在联邦空间违法，那很可能是 Ullman Industries 的产品。见鬼，他们很可能就是制造这些东西的人。
 
 nosske-eien-rnd-description = 以尖端科技与创新享誉其他星域的诺斯克-永恒公司已开始通过与当地劳动力签约，无论是普通平民、驾驶员还是雇佣兵，涉足非法星域扩展并试水，进行有关当地外星考古学、外星生物学和技术进步的研究。诺斯克-永恒公司作为新兴的科学技术进步和装备，以及高科技小行星采矿设备（即将推出舰船）的主要推动者。尽管有传言其承包商不时莫名失踪...但愿这只是谣言，吗？
 
@@ -54,4 +55,4 @@ paycheck-bratva-description = 薪饷兄弟会是源自USSP疆域的有组织犯�
 
 viper-group-description = 曾是一家奉行军纪的私掠公司，唯一任务是在2号星区的USSP-TSF空间边缘沿线拦截、扰乱和没收TSF的航运路线。在经历了一系列重大悲剧事件后，蝰蛇集团（VG）骤然倒戈。TSF曾向这个前USSP支持的组织提供巨额报酬，以进行针对USSP的颠覆行动，却在不久后被他们出卖给了USSP。被虚假贿赂与致命背叛所驱使，TVG的领导层被任其腐烂；指挥权常在血腥更迭中易主，"贪婪即美德"最终成为成员的 无声信条。与非法星域的互利关系加速其扎根于此。若你渴求危险与财富，加入蝰蛇集团！
 
-cerberus-surplus-provisions = 刻耳柏洛斯盈余物资，CSP，或称供应者，是一个源自灰烬共和国母星灰烬之纱的黑市公司。从其"地下"总部出发，CSP在犯罪黑社会中进行各种行动，他们可以通过交易换取，或自行找到的任何非法物质、武器或通用装备，在犯罪世界开展各类支持ASR（灰烬共和国）的行动。该公司保持着极高的自尊，为潜在买家和商业伙伴保持着强大而好客的公众形象。CSP愿与任何敢同毒蛇做交易者往来。
+cerberus-surplus-provisions = Cerberus、CSP 或临时工公司，是一家来自法厄同王朝首都站赫利俄斯的黑市公司。CSP 从他们的“地下”总部进行各种黑社会活动，以通过交易任何可交换或找到的非法物品、武器或一般装备来为 PD（法厄同王朝）谋取利益。公司保持最高的自尊心，为潜在买家和商业伙伴保持强大而友好的公众形象。CSP 会与任何愿意与这条蛇达成交易的人合作。
