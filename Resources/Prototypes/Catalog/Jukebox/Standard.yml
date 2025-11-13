@@ -1839,3 +1839,33 @@
   name: SimpsonWave1995辛普森浪潮1995
   path:
     path: /Audio/Jukebox/SimpsonWave1995辛普森浪潮1995.ogg
+
+- type: jukebox
+  id: Rise
+  name: Rise
+  path:
+    path: /Audio/Jukebox/Rise.ogg
+
+- type: jukebox
+  id: 重音テトDoomer
+  name: 重音テトDoomer
+  path:
+    path: /Audio/Jukebox/重音テトDoomer.ogg
+
+- type: jukebox
+  id: GOC全球超自然联盟奇袭小组入场
+  name: GOC全球超自然联盟奇袭小组入场
+  path:
+    path: /Audio/Jukebox/GOC全球超自然联盟奇袭小组入场.ogg
+
+- type: jukebox
+  id: 风与雪见证我们的史诗
+  name: 风与雪见证我们的史诗
+  path:
+    path: /Audio/Jukebox/风与雪见证我们的史诗.ogg
+
+- type: jukebox
+  id: Goc入场
+  name: Goc入场
+  path:
+    path: /Audio/Jukebox/Goc入场.ogg

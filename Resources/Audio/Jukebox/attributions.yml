@@ -1525,3 +1525,28 @@
   license: "Custom"
   copyright: "music."
   source: "net"
+
+- files: ["重音テトDoomer.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["Rise.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["GOC全球超自然联盟奇袭小组入场.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["风与雪见证我们的史诗.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["Goc入场.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
