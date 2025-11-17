@@ -1869,3 +1869,15 @@
   name: Goc入场
   path:
     path: /Audio/Jukebox/Goc入场.ogg
+
+- type: jukebox
+  id: 99个红气球
+  name: 99个红气球
+  path:
+    path: /Audio/Jukebox/99个红气球.ogg
+
+- type: jukebox
+  id: SpaceCruise
+  name: SpaceCruise
+  path:
+    path: /Audio/Jukebox/SpaceCruise.ogg

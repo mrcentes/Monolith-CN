@@ -1550,3 +1550,13 @@
   license: "Custom"
   copyright: "music."
   source: "net"
+
+- files: ["99个红气球.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["SpaceCruise.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"

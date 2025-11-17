@@ -164,3 +164,8 @@
   license: "Custom"
   copyright: "KKSK"
   source: "net"
+
+- files: ["SpaceCruise.ogg"]
+  license: "Custom"
+  copyright: "KKSK"
+  source: "net"
