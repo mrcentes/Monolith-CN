@@ -1971,3 +1971,21 @@
   - type: PhysicalComposition
     materialComposition:
       Plastic: 25
+
+- type: entity
+  parent: BasePlushie
+  id: Ametoy
+  name: 狐狸海军军娘玩偶
+  description: 一个软绵绵，没什么味道和特点的卡通玩偶，似乎对某人有着不俗的纪念意义，衣装严格参考了二十世纪不列颠海军上将军服，你可以看到在袖口处用细细的银线缝着一行娟秀的小字——Servi Von Ludwig Lancaster….以及一行难懂的西里尔文字на память и
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Objects/Fun/ametoy.rsi
+    state: ametoy
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/rawr.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/rawr.ogg
