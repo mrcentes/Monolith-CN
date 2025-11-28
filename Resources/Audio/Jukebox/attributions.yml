@@ -1560,3 +1560,23 @@
   license: "Custom"
   copyright: "music."
   source: "net"
+
+- files: ["HarpyHare.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["All_I_Want_for_Christmas_Is_You.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["Cipher3301.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["LastChristmas.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"

@@ -1881,3 +1881,27 @@
   name: SpaceCruise
   path:
     path: /Audio/Jukebox/SpaceCruise.ogg
+
+- type: jukebox
+  id: HarpyHare
+  name: HarpyHare
+  path:
+    path: /Audio/Jukebox/HarpyHare.ogg
+
+- type: jukebox
+  id: All_I_Want_for_Christmas_Is_You
+  name: All_I_Want_for_Christmas_Is_You
+  path:
+    path: /Audio/Jukebox/All_I_Want_for_Christmas_Is_You.ogg
+
+- type: jukebox
+  id: Cipher3301
+  name: Cipher3301
+  path:
+    path: /Audio/Jukebox/Cipher3301.ogg
+
+- type: jukebox
+  id: LastChristmas
+  name: LastChristmas
+  path:
+    path: /Audio/Jukebox/LastChristmas.ogg

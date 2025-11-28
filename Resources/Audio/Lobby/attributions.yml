@@ -169,3 +169,8 @@
   license: "Custom"
   copyright: "KKSK"
   source: "net"
+
+- files: ["Cipher3301.ogg"]
+  license: "Custom"
+  copyright: "KKSK"
+  source: "net"
