@@ -63,6 +63,7 @@
     DiceBag: 6
     PrizeBall: 10
     MysterySpaceBladeBox: 10
+    ametoy: 3
   contrabandInventory:
     PlushieLamp: 3
     CrazyGlue: 1
@@ -77,5 +78,5 @@
     PlushieRGBee: 3
     BalloonCorgi: 2
     NFPlushieBotanist: 3
-    NFPlushieCmo: 3    
+    NFPlushieCmo: 3
     NFPlushieEngineer: 3
