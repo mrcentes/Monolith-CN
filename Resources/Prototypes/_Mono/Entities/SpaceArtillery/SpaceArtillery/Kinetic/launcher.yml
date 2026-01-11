@@ -17,9 +17,9 @@
 
 - type: entity
   id: WeaponTurretHades
-  name: 'HADES 305mm 加农炮 | HADES 305mm cannon'
+  name: 'HADES 305mm 加农炮'
   parent: BallisticArtilleryUnanchorable
-  description: '本区域最大的化学动能武器之一。其威力仅能由M381等质量加速器相匹敌。 | One of the largest chemical-based kinetic weapons in the sector. Its power is only rivaled by mass drivers such as the M381.'
+  description: '本区域最大的武器之一。其威力仅能由M381等质量加速器相匹敌。 | One of the largest chemical-based kinetic weapons in the sector. Its power is only rivaled by mass drivers such as the M381.'
   components:
   - type: StaticPrice
     price: 30000
@@ -99,7 +99,7 @@
 
 - type: entity
   id: WeaponTurretAdderScattercannon
-  name: '蝮蛇散射炮 | Adder scattercannon'
+  name: '蝮蛇霰弹炮'
   parent: BallisticArtillery
   description: A large, twin-barrelled scatter cannon, firing bursts of canister shot to shred any incoming missiles or potential boarders. Uses a self loading mechanism similar to the anaconda handgun.
   components:
@@ -168,7 +168,7 @@
 
 - type: entity
   id: WeaponTurretFang
-  name: '獠牙重型100mm 自动加农炮 | Fang heavy 100mm autocannon'
+  name: '獠牙重型100mm 自动加农炮'
   parent: BallisticArtillery
   description: A heavy 100mm autocannon of syndicate design, created during the corporate war. Made for shattering the hulls of NT crusiers. Uses a self loading mechanism similar to the anaconda handgun.
   components:
@@ -229,7 +229,7 @@
 
 - type: entity
   id: WeaponTurretHydra
-  name: '九头蛇200mm 炮组 | Hydra 200mm battery'
+  name: '九头蛇200mm 炮组'
   parent: BallisticArtilleryUnanchorable
   description: A main cannonade of syndicate origin, the hydra is a monstrous tri-barreled battery of pain, designed to shatter NT's toughest vessels. Loads with a similar mechanism as the anaconda handgun.
   components:
