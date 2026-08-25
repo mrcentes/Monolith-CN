@@ -23,6 +23,7 @@
     range: 500
   - type: Gun
     fireRate: 0.5
+    recoil: 5 # 1/5x
     minAngle: 0
     maxAngle: 0
     projectileSpeed: 65
@@ -67,6 +68,9 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Medium
+  - type: ShipRepairable
+    repairTime: 15
+    repairCost: 60
 
 # Type 54 autopulser
 
@@ -93,6 +97,7 @@
     range: 500
   - type: Gun
     fireRate: 20
+    recoil: 5 # 1/5x
     minAngle: 0
     maxAngle: 5
     projectileSpeed: 185
@@ -137,6 +142,9 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Heavy
+  - type: ShipRepairable
+    repairTime: 25
+    repairCost: 100
 
 # T241 plasma lance
 
@@ -242,6 +250,7 @@
   - type: FireControlRotate
   - type: Gun
     fireRate: 5
+    recoil: 2 # 2/25x
     projectileSpeed: 20
     minAngle: 0
     maxAngle: 5
@@ -291,6 +300,9 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Superlight
+  - type: ShipRepairable
+    repairTime: 10
+    repairCost: 20
 
 # RUBICON
 
@@ -352,6 +364,9 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Medium
+  - type: ShipRepairable
+    repairTime: 30
+    repairCost: 60
 
 # DYMERE
 
@@ -388,6 +403,7 @@
   - type: Gun
     projectileSpeed: 250
     fireRate: 0.75
+    recoil: 500 # 20x - station weapon
     shootThermalSignature: 12000000 # ~6km after firing
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/laserfire.ogg
@@ -424,6 +440,9 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Superheavy
+  - type: ShipRepairable
+    repairTime: 45
+    repairCost: 250
 
 # Laser Hitscan
 
@@ -454,6 +473,7 @@
     range: 500
   - type: Gun
     fireRate: 20
+    recoil: 0
     minAngle: 0
     maxAngle: 0
     shootThermalSignature: 2000000
@@ -491,6 +511,9 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Light
+  - type: ShipRepairable
+    repairTime: 15
+    repairCost: 40
 
 # Apollo
 
@@ -513,13 +536,14 @@
     startingCharge: 50000
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 500
+    autoRechargeRate: 800
   - type: FireControlRotate
   - type: ExaminableBattery
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 0.3
+    fireRate: 20
+    recoil: 0
     minAngle: 0
     maxAngle: 0
     shootThermalSignature: 5000000
@@ -531,7 +555,7 @@
     shipClass: Heavy
   - type: HitscanBatteryAmmoProvider
     proto: ApolloLaser
-    fireCost: 500
+    fireCost: 250
   - type: Destructible
     thresholds:
     - trigger:
@@ -561,6 +585,9 @@
         density: 1500
   - type: ShipGunType
     shipType: Energy
+  - type: ShipRepairable
+    repairTime: 25
+    repairCost: 100
 
 # PRE- FRACTURE
 
@@ -572,7 +599,7 @@
   name: Curio-8640 plasma lance "Malice"
   parent: BallisticArtilleryUnanchorable
   suffix: ADS ONLY
-  description: A devastating weapon, known for glassign whoel fleets when used en masse
+  description: A devastating weapon, known for glassing whole fleets when used en masse
   components:
   - type: StaticPrice
     price: 50000
@@ -600,6 +627,7 @@
   - type: Gun
     projectileSpeed: 70
     fireRate: 13
+    recoil: 0
     minAngle: 0
     maxAngle: 0
     burstCooldown: 60
@@ -643,6 +671,13 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Superheavy
+  - type: ShipRepairable
+    repairTime: 60
+    repairCost: 300
+  - type: ShipRepairableRestrict
+    toolWhitelist:
+      tags:
+      - ADSRepairTool
 
 
 # Tachyon Lance "Reaper"
@@ -671,6 +706,7 @@
     range: 500
   - type: Gun
     fireRate: 0.04 # 25s
+    recoil: 0
     minAngle: 0
     maxAngle: 0
     shootThermalSignature: 18000000 # ~8.5km after firing
@@ -718,6 +754,13 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Superheavy
+  - type: ShipRepairable
+    repairTime: 60
+    repairCost: 300
+  - type: ShipRepairableRestrict
+    toolWhitelist:
+      tags:
+      - ADSRepairTool
 
 # Ion Cannnon "Harbringer"
 
@@ -745,6 +788,7 @@
     range: 500
   - type: Gun
     fireRate: 0.025 # 40s
+    recoil: 50 # 2x
     minAngle: 0
     maxAngle: 0
     projectileSpeed: 750
@@ -793,6 +837,13 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Superheavy
+  - type: ShipRepairable
+    repairTime: 60
+    repairCost: 300
+  - type: ShipRepairableRestrict
+    toolWhitelist:
+      tags:
+      - ADSRepairTool
 
 # Proton Cannon "Sunder"
 
@@ -819,6 +870,7 @@
     range: 500
   - type: Gun
     fireRate: 1.2
+    recoil: 0
     minAngle: 0
     maxAngle: 4
     shootThermalSignature: 4000000 # ~2.8km with continuous fire
@@ -862,6 +914,13 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Medium
+  - type: ShipRepairable
+    repairTime: 20
+    repairCost: 100
+  - type: ShipRepairableRestrict
+    toolWhitelist:
+      tags:
+      - ADSRepairTool
 
 # Neutron Repeater "Scythe"
 
@@ -888,7 +947,8 @@
     range: 500
   - type: Gun
     fireRate: 1
-    projectileSpeed: 100
+    recoil: 10 # 2/5x
+    projectileSpeed: 150
     minAngle: 0
     maxAngle: 6
     shootThermalSignature: 500000 # ~5.6km with continuous fire
@@ -932,6 +992,13 @@
     shipType: Energy
   - type: ShipGunClass
     shipClass: Heavy
+  - type: ShipRepairable
+    repairTime: 30
+    repairCost: 120
+  - type: ShipRepairableRestrict
+    toolWhitelist:
+      tags:
+      - ADSRepairTool
 
 # Auto-Coil "Flayer"
 
@@ -961,6 +1028,7 @@
     range: 500
   - type: Gun
     fireRate: 25
+    recoil: 2 # 2/25x
     minAngle: 0
     maxAngle: 4
     shootThermalSignature: 2000000
@@ -998,3 +1066,10 @@
     shipType: Ballistic
   - type: ShipGunClass
     shipClass: Light
+  - type: ShipRepairable
+    repairTime: 15
+    repairCost: 80
+  - type: ShipRepairableRestrict
+    toolWhitelist:
+      tags:
+      - ADSRepairTool

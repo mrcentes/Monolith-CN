@@ -10,18 +10,8 @@
       department: Security
       time: 0 # 25 hours - mono
     - !type:RoleTimeRequirement
-      role: JobSeniorOfficer
-      time: 0 # 10 hours - mono
-  alternateRequirementSets:
-    longerPlaytimeLessSec:
-    - !type:OverallPlaytimeRequirement
-      time: 0 # 75 hours - mono
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 0 # 25 hours - mono
-    - !type:RoleTimeRequirement
-      role: JobSeniorOfficer
-      time: 0 # 6 hours - mono
+      role: JobWarden
+      time: 18000 # 5 hours - mono
   whitelisted: true
   startingGear: SheriffGear
   alwaysUseSpawner: true

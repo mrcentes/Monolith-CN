@@ -11,17 +11,7 @@
       time: 0 # 10 hours
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
-      time: 0 # 3 hours
-  alternateRequirementSets:
-    longerPlaytimeLessSec:
-    - !type:OverallPlaytimeRequirement
-      time: 0 # 30 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 0 # 5 hours
-    - !type:RoleTimeRequirement
-      role: JobSeniorOfficer
-      time: 0 # 2 hours
+      time: 10800 # 3 hours
   startingGear: BailiffGear
   icon: JobIconBailiff
   supervisors: job-supervisors-sheriff

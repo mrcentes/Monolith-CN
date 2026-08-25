@@ -1,4 +1,4 @@
-job-supervisors-sr = 殖民联络官
+job-supervisors-sr = 监督者
 job-supervisors-sheriff = 上校
 job-supervisors-bailiff = 舰长
 job-supervisors-sergeant = 火力小组组长
@@ -7,6 +7,6 @@ job-supervisors-prisoner = 全体TSFMC人员
 job-supervisors-nfsd = 火力小组长及上校指挥官
 job-supervisors-pirate = PDV Denasvar 及以上
 job-supervisors-pdv-denasvar = PDV 大宰相 及 PDV Azvaran
-job-supervisors-pirate-first-mate = the PDV 大宰相
+job-supervisors-pirate-first-mate = PDV 大宰相
 job-supervisors-nobody = 无归属人员
 job-supervisors-ws = 冬至

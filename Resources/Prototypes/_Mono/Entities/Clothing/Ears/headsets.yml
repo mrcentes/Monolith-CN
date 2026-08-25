@@ -82,6 +82,7 @@
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetUSSPCommand
   name: 'USSP 指挥级耳机 | USSP command headset'
+  description: 一种专门发放给高阶USSP人员的模块化耳机。这款耳机可以使用标准加密密钥，并且已经预装了USSP战术通信的密钥。切换到战略频道则只会产生噪音。
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
@@ -97,6 +98,7 @@
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetUSSP
   name: 'USSP头戴式耳机 | USSP headset'
+  description: USSP防御海军多年来的标准配发耳机。这款耳机可以使用标准加密钥匙，并预装了一把用于USSP战术通信的钥匙。
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
@@ -107,3 +109,23 @@
       key_slots:
       - EncryptionKeyCommon
       - EncryptionKeyUssp
+
+
+- type: entity
+  parent: [ClothingHeadsetAlt]
+  id: ClothingHeadsetAltVanguardCommand
+  name: vanguard command over-ear headset
+  components:
+    - type: Headset
+  #  - type: EncryptionKeyHolder #Mono parity with ClothingHeadset key capacity.
+  #      keySlots: 5
+    - type: ContainerFill
+      containers:
+        key_slots:
+          - EncryptionKeyFreelance
+          - EncryptionKeyVanguardCommand
+          - EncryptionKeyCommon # Mono
+    - type: Sprite
+      sprite: Clothing/Ears/Headsets/freelance.rsi
+    - type: Clothing
+      sprite: Clothing/Ears/Headsets/freelance.rsi

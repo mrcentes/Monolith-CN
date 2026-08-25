@@ -17,7 +17,8 @@ chat-radio-service = 服务
 chat-radio-supply = 货运
 chat-radio-syndicate = 辛迪加
 chat-radio-freelance = 帝国
+chat-radio-vanguard-command = 先锋指挥
 
 # not headset but whatever
-chat-radio-handheld = Handheld
-chat-radio-binary = Binary
+chat-radio-handheld = 手台
+chat-radio-binary = 二进制

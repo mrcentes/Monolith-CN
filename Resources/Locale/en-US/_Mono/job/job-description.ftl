@@ -10,3 +10,7 @@ job-description-md-medic = 驾驶一艘医疗船穿越太空以提供急救护�
 
 # MARK: TSF
 job-description-tsf-engineer = 维护旗舰的完整性，然后因为你不是真的士兵而被嘲笑。
+job-description-tsf-borg = 半人半机器。遵守法律，为TSF服务，向工程师求升级。
+
+# MARK: PDV
+job-description-pdv-borg = 半人半机械。遵守你的法律，为PDV服务，向王朝部队求升级。

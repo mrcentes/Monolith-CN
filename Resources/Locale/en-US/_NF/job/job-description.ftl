@@ -18,4 +18,4 @@ job-description-security-guard = 在空荡荡的走廊里巡逻，吹着在收�
 job-description-senior-officer = 教新兵作战基础，并带领你的TSFMC小队战胜PDV。
 job-description-sheriff = 管理你的TSFMC小队，保持他们高效，平息异议，确保区域安全。
 job-description-stc = 熟练地清理车站周围的空间，并帮助殖民前哨对泊位超时的船只罚款。
-job-description-sr = 通过你的ID控制台公平地处理访问权限重新分配，管理殖民前哨，并保护Clippy的安全。
+job-description-sr = 把你所有的站点资金都花在军舰上。控制你的保安，并尝试在这个区域伸张正义。

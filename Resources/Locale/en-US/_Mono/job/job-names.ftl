@@ -13,3 +13,7 @@ job-name-md-medic = 应急响应医护人员
 
 # MARK: TSF
 job-name-tsf-engineer = TSFMC 工程师
+job-name-tsf-borg = TSFMC 赛博格
+
+# MARK: PDV
+job-name-pdv-borg = PDV 赛博格

@@ -16,7 +16,7 @@ job-name-pdv-denasvar = PDV Denasvar
 job-name-security-guard = 安保护卫
 job-name-sheriff = TSFMC 上校
 job-name-stc = 空间站交通调度员
-job-name-sr = 殖民联络官
+job-name-sr = 监督者
 job-name-pal = 公共事务联络官
 job-name-doc = 医疗总监
 

@@ -49,3 +49,7 @@ gun-revolver-insert = 装填
 gun-revolver-spin = 旋转弹巢
 gun-revolver-spun = 已旋转
 gun-speedloader-empty = 清空快速装弹器
+
+# GunSpreadModifier
+examine-gun-spread-modifier-reduction = 扩散已经减少了 [color=yellow]{$percentage}%[/color].
+examine-gun-spread-modifier-increase = 扩散已经增加了 [color=yellow]{$percentage}%[/color].

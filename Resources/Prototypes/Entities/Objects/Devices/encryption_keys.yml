@@ -288,7 +288,7 @@
   parent: EncryptionKey
   id: EncryptionKeyFreelance
   name: 帝国先锋加密密钥 # mono
-  description: 帝国先锋使用的通讯加密密钥. # Mono
+  description: 帝国先锋使用的通讯加密密钥 # Mono
   components:
     - type: EncryptionKey
       channels:
