@@ -1,5 +1,5 @@
 - type: entity
-  parent: [GrenadeBase, BaseC2ContrabandUnredeemable] # Frontier: Added BaseC2ContrabandUnredeemable
+  parent: GrenadeBase
   id: PipeBomb
   name: 管状炸弹 丨 pipe bomb
   description: 一种用管道和电线制成的简易爆炸装置。 丨 An improvised explosive made from pipes and wire.
@@ -33,7 +33,7 @@
     node: pipebomb
 
 - type: entity
-  parent: [BaseItem, BaseC2ContrabandUnredeemable] # Frontier: Added BaseC2ContrabandUnredeemable
+  parent: BaseItem
   id: PipeBombGunpowder
   name: 管式炸弹 丨 pipe bomb
   description: 一种用管道制作的简易爆炸装置。这个没有火药。 丨 An improvised explosive made from a pipe. This one has no gunpowder.

@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseItem, BaseC3Contraband] # Frontier: BaseMinorContraband<BaseC3Contraband
+  parent: BaseItem
   id: ThrowingStar
   name: 飞镖 丨 throwing star
   description: 一种沿用至今的古老武器，因其易嵌入受害者身体部位的特性而历久不衰。 丨 An ancient weapon still used to this day, due to its ease of lodging itself into its victim's body parts.

@@ -31,7 +31,7 @@
 
 #Basic Helmet (Security Helmet)
 - type: entity
-  parent: [ClothingHeadHelmetBase, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetBasic
   name: 头盔 丨 helmet
   description: 标准安全装备。保护头部免受冲击。 丨 Standard security gear. Protects the head from impacts.
@@ -47,7 +47,7 @@
 
 #Mercenary Helmet
 - type: entity
-  parent: [ ClothingHeadHelmetBase, BaseC1Contraband ] # Frontier: BaseMajorContraband <BaseC1Contraband
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetMercenary # Frontier - Name fix
   name: 佣兵头盔 丨 mercenary helmet
   description: 这款战斗头盔常为雇佣兵所用，坚固轻便，散发着硝烟与丛林的气息。 丨 The combat helmet is commonly used by mercenaries, is strong, light and smells like gunpowder and the jungle.
@@ -59,7 +59,7 @@
 
 #SWAT Helmet
 - type: entity
-  parent: [ClothingHeadBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingHeadBase
   id: ClothingHeadHelmetSwat
   name: 特警头盔 丨 SWAT helmet
   description: 一顶极其坚固的头盔，通常被准军事部队使用。这顶头盔顶部印有纳恩特拉森公司的标志。 丨 An extremely robust helmet, commonly used by paramilitary forces. This one has the Nanotrasen logo emblazoned on the top.
@@ -82,7 +82,7 @@
 
 #Syndicate SWAT Helmet
 - type: entity
-  parent: [BaseC3SyndicateContraband, ClothingHeadHelmetSwat, ContrabandClothing] # Frontier: added ContrabandClothing, BaseC3SyndicateContraband as parent
+  parent: [ClothingHeadHelmetSwat]
   id: ClothingHeadHelmetSwatSyndicate
   name: 特警头盔 丨 SWAT helmet
   suffix: Syndicate
@@ -95,7 +95,7 @@
 
 #Light Riot Helmet
 - type: entity
-  parent: [ClothingHeadBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingHeadBase
   id: ClothingHeadHelmetRiot
   name: 轻型防暴头盔 丨 light riot helmet
   description: 这是一款专为抵御近距离攻击而设计的头盔。 丨 It's a helmet specifically designed to protect against close range attacks.
@@ -154,7 +154,7 @@
 
 #Cult Helmet
 - type: entity
-  parent: [ClothingHeadBase, BaseC3CultContrabandNoValue, ContrabandClothing] # Frontier: BaseMajorContraband<BaseC3CultContrabandNoValue, ContrabandClothing as parent
+  parent: [ClothingHeadBase]
   id: ClothingHeadHelmetCult
   name: 邪教头盔 丨 cult helmet
   description: 一顶坚固、外观邪恶的邪教头盔。 丨 A robust, evil-looking cult helmet.
@@ -174,7 +174,7 @@
 
 #Space Ninja Helmet
 - type: entity
-  parent: [ClothingHeadEVAHelmetBase, BaseC3Contraband, ContrabandClothing] # Frontier: BaseMajorContraband<BaseC3Contraband, add ContrabandClothing
+  parent: [ClothingHeadEVAHelmetBase]
   id: ClothingHeadHelmetSpaceNinja
   name: 太空忍者头盔 丨 space ninja helmet
   description: 看似简单的黑色头套，实则是精密无比的纳米编织头盔。标准配置的忍者装备。 丨 What may appear to be a simple black garment is in fact a highly sophisticated nano-weave helmet. Standard issue ninja gear.
@@ -223,7 +223,7 @@
 
 #Wizard Helmet
 - type: entity
-  parent: [ClothingHeadBase, ContrabandClothing] # Frontier: added ContrabandClothing as parent
+  parent: [ClothingHeadBase]
   id: ClothingHeadHelmetWizardHelm
   name: 巫师头盔 丨 wizard helm
   description: 造型奇特的头盔，必定属于真正的魔法使用者。 丨 Strange-looking helmet that most certainly belongs to a real magic user.
@@ -267,7 +267,7 @@
 
 #Atmos Fire Helmet
 - type: entity
-  parent: ClothingHeadLightBase # Frontier: removed BaseEngineeringContraband
+  parent: ClothingHeadLightBase
   id: ClothingHeadHelmetAtmosFire
   name: atmos消防头盔 丨 atmos fire helmet
   description: atmos消防头盔，能在任何情况下保持使用者头部凉爽。 丨 An atmos fire helmet, able to keep the user cool in any situation.
@@ -301,7 +301,7 @@
 
 #Chitinous Helmet
 - type: entity
-  parent: [ ClothingHeadBase, BaseC3Contraband] # Frontier: BaseMajorContraband<BaseC3Contraband
+  parent: ClothingHeadBase
   id: ClothingHeadHelmetLing
   name: 几丁质头盔 丨 chitinous helmet
   description: 一副全覆式几丁质重甲。 丨 An all-consuming chitinous mass of armor.
@@ -321,7 +321,7 @@
 #ERT HELMETS
 #ERT Leader Helmet
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingHeadHelmetBase ]
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetERTLeader
   name: ERT队长头盔 丨 ERT leader helmet
   description: 一件由纳星应急小队领队穿戴的大气层内头盔，带有蓝色高光。 丨 An in-atmosphere helmet worn by the leader of a Nanotrasen Emergency Response Team. Has blue highlights.
@@ -333,7 +333,7 @@
 
 #ERT Security Helmet
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingHeadHelmetBase ]
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetERTSecurity
   name: ERT安全头盔 丨 ERT security helmet
   description: 纳米创伤应急响应小组安保人员佩戴的大气层内头盔，带有红色高光。 丨 An in-atmosphere helmet worn by security members of the Nanotrasen Emergency Response Team. Has red highlights.
@@ -345,7 +345,7 @@
 
 #ERT Medic Helmet
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingHeadHelmetBase ]
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetERTMedic
   name: ERT医疗头盔 丨 ERT medic helmet
   description: 纳米创伤应急响应团队医疗成员佩戴的大气层内头盔。带有白色高光。 丨 An in-atmosphere helmet worn by medical members of the Nanotrasen Emergency Response Team. Has white highlights.
@@ -357,7 +357,7 @@
 
 #ERT Engineer Helmet
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingHeadHelmetBase ]
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetERTEngineer
   name: ERT工程师头盔 丨 ERT engineer helmet
   description: 纳米创伤应急响应团队工程成员佩戴的大气层内头盔。带有橙色高光。 丨 An in-atmosphere helmet worn by engineering members of the Nanotrasen Emergency Response Team. Has orange highlights.
@@ -369,7 +369,7 @@
 
 #ERT Janitor Helmet
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingHeadHelmetBase ]
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetERTJanitor
   name: ERT清洁工头盔 丨 ERT janitor helmet
   description: 纳米特拉森紧急响应团队保洁人员佩戴的大气层内头盔，带有深紫色高光。 丨 An in-atmosphere helmet worn by janitorial members of the Nanotrasen Emergency Response Team. Has dark purple highlights.
@@ -380,7 +380,7 @@
     sprite: Clothing/Head/Helmets/ert_janitor.rsi
 
 - type: entity
-  parent: [ BaseC3SyndicateContraband, ClothingHeadHelmetBase ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetRaid
   name: 辛迪加突袭头盔 丨 syndicate raid helmet
   description: 与辛迪加突袭套装配套使用的装甲头盔。非常时尚。 丨 An armored helmet for use with the syndicate raid suit. Very stylish.
@@ -399,7 +399,7 @@
 
 #Bone Helmet
 - type: entity
-  parent: [ ClothingHeadHelmetBase, BaseC1Contraband ] # Frontier: BaseMinorContraband<BaseC1Contraband
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetBone
   name: 骨头头盔 丨 bone helmet
   description: 用敌人头骨制成的酷炫头盔。 丨 Cool-looking helmet made of skull of your enemies.
@@ -413,7 +413,7 @@
     node: helmet
 
 - type: entity
-  parent: [ClothingHeadHelmetBase, BaseC1Contraband ] # Frontier: BaseMinorContraband<BaseC1Contraband
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetPodWars
   name: 铁甲II型头盔 丨 ironclad II helmet
   description: 铁甲II型头盔，荚舱战争的遗物。 丨 An ironclad II helmet, a relic of the pod wars.
@@ -425,7 +425,7 @@
 
 #Justice Helmet
 - type: entity
-  parent: [ ClothingHeadHelmetBase, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetJustice
   name: 正义头盔 丨 justice helm
   description: 高级安全装备。保护空间站免受不法之徒侵扰。 丨 Advanced security gear. Protects the station from ne'er-do-wells.

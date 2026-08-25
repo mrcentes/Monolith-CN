@@ -105,7 +105,7 @@
 
 - type: entity
   name: 战斗刀 丨 combat knife
-  parent: [BaseKnife, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
+  parent: BaseKnife
   id: CombatKnife
   description: 一把用于近身搏斗的致命刀具。 丨 A deadly knife intended for melee confrontations.
   components:
@@ -142,7 +142,7 @@
 
 - type: entity
   name: 求生刀 丨 survival knife
-  parent: [BaseC1Contraband, CombatKnife] # BaseSecurityCargoContraband<BaseC1Contraband
+  parent: CombatKnife
   id: SurvivalKnife
   description: 对抗太空鲤鱼的初阶与终阶武器。 丨 Weapon of first and last resort for combatting space carp.
   components:
@@ -171,7 +171,7 @@
 
 - type: entity
   name: 库克力弯刀 丨 kukri knife
-  parent: [BaseC1Contraband, CombatKnife] # BaseSecurityCargoContraband <BaseC1Contraband
+  parent: CombatKnife
   id: KukriKnife
   description: 专业人士得有标准。讲礼貌。高效率。干掉每个遇见的人，心里都得有谱。 丨 Professionals have standards. Be polite. Be efficient. Have a plan to kill everyone you meet.
   components:
@@ -196,7 +196,7 @@
     storedSprite: null
 
 - type: entity
-  parent: [ClothingHeadHatGreyFlatcap, BaseC1Contraband] # Frontier: BaseSyndicateContraband<BaseC1Contraband
+  parent: ClothingHeadHatGreyFlatcap
   id: BladedFlatcapGrey
   name: 灰色鸭舌帽 丨 grey flatcap
   description: 既适合工人阶级，也适合老詹金斯先生的时尚之选。帽檐中暗藏玻璃碎片。 丨 Fashionable for both the working class and old man Jenkins. It has glass shards hidden in the brim.
@@ -236,7 +236,7 @@
 
 - type: entity
   name: 玻璃片匕首 丨 shiv
-  parent: [BaseKnife, BaseC1Contraband] # BaseMinorContraband<BaseC1Contraband
+  parent: BaseKnife
   id: Shiv
   description: 由一块布和一片玻璃碎片粗制而成的简陋武器。 丨 A crude weapon fashioned from a piece of cloth and a glass shard.
   components:
@@ -321,7 +321,7 @@
 
 - type: entity
   name: 飞刀 丨 throwing knife
-  parent: [BaseKnife, BaseC1Contraband] # Frontier: BaseSyndicateContraband<BaseC1Contraband
+  parent: BaseKnife
   id: ThrowingKnife
   description: 这把血红色的飞刀极具流线型，投掷起来十分顺手，但要想用它进行近身格斗——那就只能祝你好运了。 丨 This blood-red knife is very aerodynamic and easy to throw, but good luck trying to fight someone hand-to-hand.
   components:

@@ -23,3 +23,4 @@ comp-secret-stash-verb-open = 打开
 secret-stash-plant = 种植
 secret-stash-toilet = 抽水马桶水箱
 secret-stash-plushie = 毛绒玩具
+secret-stash-cake = 蛋糕

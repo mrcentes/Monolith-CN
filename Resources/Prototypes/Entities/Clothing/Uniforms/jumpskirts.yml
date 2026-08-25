@@ -10,7 +10,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCaptain
   name: 船长的连身短裙 丨 captain's jumpskirt
   description: 这是一件蓝色的连身短裙，上面有一些金色标记，代表着“舰长”的军衔。 丨 It's a blue jumpskirt with some gold markings denoting the rank of "Captain".
@@ -32,7 +32,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/cargotech.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtChiefEngineer
   name: 首席工程师的连体裙 丨 chief engineer's jumpskirt
   description: 这是一件授予那些疯狂到足以获得总工程师职位的工程师们的高可见度连身裙。 丨 It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of Chief Engineer.
@@ -43,7 +43,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/ce.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtChiefEngineerTurtle
   name: 总工程师的高领毛衣 丨 chief engineer's turtleneck
   description: 一件专为工程部工作环境设计的黄色高领衫。 丨 A yellow turtleneck designed specifically for work in conditions of the engineering department.
@@ -109,7 +109,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/genetics.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCMO
   name: 首席医务官的连身短裙 丨 chief medical officer's jumpskirt
   description: 这是一条具备首席医疗官资历者方可穿着的连身裙，能提供基础生物防护。 丨 It's a jumpskirt worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
@@ -120,7 +120,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/cmo.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCMOTurtle
   name: 首席医疗官的高领连体裙 丨 chief medical officer's turtleneck jumpskirt
   description: 这是一件由具备首席医疗官资历者所穿的高领连身裙，能提供轻微的生物防护。 丨 It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
@@ -164,7 +164,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/engineering.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase # Frontier: removed BaseCommandContraband
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHoP
   name: 人事部长的连身短裙 丨 head of personnel's jumpskirt
   description: 相当平淡无奇，适合从宇宙中悄然消失。 丨 Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
@@ -175,7 +175,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/hop.rsi
 
 - type: entity
-  parent: [ClothingUniformSkirtBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHoS
   name: 保安主管的短裙 丨 head of security's jumpskirt
   description: 它鲜红且相当挺括，很像安保部受害者们常有的样子。 丨 It's bright red and rather crisp, much like security's victims tend to be.
@@ -200,7 +200,7 @@
         sprite: Clothing/Uniforms/Jumpsuit/hos.rsi
 
 - type: entity
-  parent: [ClothingUniformSkirtBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHoSAlt
   name: 安保主管的高领毛衣 丨 head of security's turtleneck
   description: 这是由那些足够强大自律、能够胜任安保主管职位之人所穿的高领毛衣。 丨 It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
@@ -211,7 +211,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/hos_alt.rsi
 
 - type: entity
-  parent: [ClothingUniformSkirtBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHoSParadeMale
   name: 保安队长的阅兵礼服 丨 head of security's parade uniform
   description: 安保主管的奢华礼服，专为特殊场合而备。 丨 A head of security's luxury-wear, for special occasions.
@@ -327,7 +327,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingUniformSkirtBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtQM
   name: 军需官的连衣短裙 丨 quartermaster's jumpskirt
   description: 棕色能为你做什么？ 丨 'What can brown do for you?'
@@ -338,7 +338,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/qm.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtQMTurtleneck
   name: 军需官的高领衫 丨 quartermasters's turtleneck
   description: 一件为艰苦的补给工作环境量身打造的利落高领毛衣。 丨 A sharp turtleneck made for the hardy work environment of supply.
@@ -349,7 +349,7 @@
       sprite: Clothing/Uniforms/Jumpskirt/qmturtleskirt.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtResearchDirector
   name: 研究总监的高领毛衣 丨 research director's turtleneck
   description: 这是研究主管们所穿的高领衫，只有具备相应专业知识的人才能坐上这个位置。其面料能提供对生物污染物的轻微防护。 丨 It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
@@ -382,7 +382,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/roboticist.rsi
 
 - type: entity
-  parent: [ClothingUniformSkirtBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSec
   name: 安全连体裙 丨 security jumpskirt
   description: 采用坚固材料制成的防护跳伞裙，提供强有力的保护。 丨 A jumpskirt made of strong material, providing robust protection.
@@ -408,7 +408,7 @@
 
 
 - type: entity
-  parent: [ClothingUniformSkirtBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtWarden
   name: 狱警制服 丨 warden's uniform
   description: 一套配有闪亮星形腰带扣的军官正式安保制服。 丨 A formal security suit for officers complete with shiny Star belt buckle.
@@ -489,7 +489,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/centcomformaldress.rsi
 
 - type: entity
-  parent: [ClothingUniformSkirtBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHosFormal
   name: 霍斯的正装 丨 hos's formal dress
   description: 特殊场合穿着的礼服。 丨 A dress for special occasions.
@@ -500,7 +500,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/hosformaldress.rsi
 
 - type: entity
-  parent: [UnsensoredClothingUniformSkirtBase, BaseC3SyndicateContraband, ContrabandClothing ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, ContrabandClothing
+  parent: [UnsensoredClothingUniformSkirtBase ]
   id: ClothingUniformJumpskirtOperative
   name: 特工短裙 丨 operative jumpskirt
   description: 精英联合特工在深空执行战术行动时穿着的制服。 丨 Uniform for elite syndicate operatives performing tactical operations in deep space.
@@ -614,7 +614,7 @@
       sprite: Clothing/Uniforms/Jumpskirt/lawyergood.rsi
 
 - type: entity
-  parent: [ClothingUniformSkirtBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: added BaseC3SyndicateContraband, ContrabandClothing
+  parent: [ClothingUniformSkirtBase]
   id: ClothingUniformJumpskirtSyndieFormalDress
   name: 辛迪加礼服 丨 syndicate formal dress
   description: 这身行会正装做工考究，穿着它干些偷鸡摸狗的勾当都让人觉得可惜。 丨 "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
@@ -680,7 +680,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/senior_physician.rsi
 
 - type: entity
-  parent: [ClothingUniformSkirtBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSeniorOfficer
   name: 高级警官短裙 丨 senior officer jumpskirt
   description: 安保部门技能与威望的象征。 丨 A sign of skill and prestige within the security department.
@@ -691,7 +691,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/senior_officer.rsi
 
 - type: entity
-  parent: [ClothingUniformSkirtBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSecGrey
   name: 灰色安保连身短裙 丨 grey security jumpskirt
   description: 一件战术遗物，源自军队发现将制服染红比洗去血迹更便宜之前的遥远年代。 丨 A tactical relic of years past before military groups decided it was cheaper to dye the suits red instead of washing out the blood.

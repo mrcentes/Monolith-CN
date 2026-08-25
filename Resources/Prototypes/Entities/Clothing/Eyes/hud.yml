@@ -47,7 +47,7 @@
     price: 30 # Frontier
 
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: [ClothingEyesBase, ShowSecurityIcons]
   id: ClothingEyesHudSecurity
   name: 安全平视显示器 丨 security hud
   description: 一种能够扫描视野内人形目标并提供其身份状态与安全记录的精确数据的平视显示器。 丨 A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
@@ -61,7 +61,7 @@
     - HudSecurity
 
 - type: entity
-  parent: [ClothingEyesBase, BaseCommandContraband]
+  parent: ClothingEyesBase
   id: ClothingEyesHudCommand
   name: 管理平视显示器 丨 administration hud
   description: 一种扫描视野内人形生物并提供其身份状态准确数据的平视显示器。 丨 A heads-up display that scans the humanoids in view and provides accurate data about their ID status.
@@ -150,7 +150,7 @@
   - type: ShowThirstIcons
 
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityCommandContraband<BaseC2ContrabandUnredeemable
+  parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
   id: ClothingEyesHudMedSec
   name: 医疗安保平视显示器 丨 medsec hud
   description: 一种看起来像是医疗和安全平视显示器混合体的眼部显示屏。 丨 An eye display that looks like a mixture of medical and security huds.
@@ -198,7 +198,7 @@
   - type: ShowSyndicateIcons
 
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  parent: [ClothingEyesBase, ShowSecurityIcons]
   id: ClothingEyesHudSyndicate
   name: 辛迪加护目镜 丨 syndicate visor
   description: 该组织的专业平视显示器，旨在更有效地探测人形目标并随后予以清除。 丨 The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
@@ -210,7 +210,7 @@
   - type: ShowSyndicateIcons
 
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  parent: [ClothingEyesBase, ShowSecurityIcons]
   id: ClothingEyesHudSyndicateAgent
   name: 辛迪加特工护目镜 丨 syndicate agent visor
   description: 辛迪加特工的专用平视显示器，旨在快速诊断其团队状态。 丨 The Syndicate Agent's professional heads-up display, designed for quick diagnosis of their team's status.
@@ -223,7 +223,7 @@
   - type: ShowHealthBars
 
 - type: entity
-  parent: [ClothingEyesGlassesSunglasses, ShowSecurityIcons, ContrabandClothing] # Frontier: added ContrabandClothing as parent
+  parent: [ClothingEyesGlassesSunglasses, ShowSecurityIcons]
   id: ClothingEyesGlassesHiddenSecurity
   suffix: Syndicate
 

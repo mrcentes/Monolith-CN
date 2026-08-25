@@ -117,8 +117,8 @@
 - type: entity
   name: 肥皂 丨 soap
   id: SoapSyndie
-  parent: [Soap, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  description: 一块不可靠的肥皂，散发着恐惧的气味。 丨 An untrustworthy bar of soap. Smells of fear.
+  parent: Soap
+  description: 一块不可靠的肥皂，散发着恐惧的气味。
   components:
   - type: Sprite
     layers:

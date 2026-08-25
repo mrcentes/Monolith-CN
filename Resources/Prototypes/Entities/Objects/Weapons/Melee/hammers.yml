@@ -26,9 +26,9 @@
 
 - type: entity
   id: Mjollnir
-  parent: [ BaseItem, BaseC3WizardContraband ] # Frontier: BaseMagicalContraband<BaseC3WizardContraband
+  parent: BaseItem
   name: 雷神之锤 丨 Mjollnir
-  description: 一把配得上神明身份的武器，能以雷霆万钧之势挥击。它萦绕着几乎难以抑制的能量，迸发滋滋作响的电光。 丨 A weapon worthy of a god, able to strike with the force of a lightning bolt. It crackles with barely contained energy.
+  description: 一把配得上神明身份的武器，能以雷霆万钧之势挥击。它萦绕着几乎难以抑制的能量，迸发滋滋作响的电光。
   components:
   - type: Wieldable
     useDelayOnWield: false
@@ -69,9 +69,9 @@
 
 - type: entity
   id: SingularityHammer
-  parent: [ BaseItem, BaseC3WizardContraband ] # Frontier: BaseMagicalContraband<BaseC3WizardContraband
+  parent: BaseItem
   name: 奇点锤 丨 Singularity Hammer
-  description: 近战技术的巅峰之作，这把战锤利用微型奇点的力量来施以毁灭性打击。 丨 The pinnacle of close combat technology, the hammer harnesses the power of a miniaturized singularity to deal crushing blows.
+  description: 近战技术的巅峰之作，这把战锤利用微型奇点的力量来施以毁灭性打击。
   components:
   - type: Wieldable
     useDelayOnWield: false

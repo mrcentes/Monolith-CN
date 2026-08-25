@@ -23,7 +23,7 @@
     sprite: Objects/Misc/Handy_Flags/NT_handy_flag.rsi
 
 - type: entity
-  parent: [BaseItem, BaseC3SyndicateContraband, RecyclableItemClothSmall] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband added RecyclableItemClothSmall
+  parent: [BaseItem, RecyclableItemClothSmall]
   id: SyndieHandyFlag
   name: 辛迪加手持旗帜 丨 syndicate handheld flag
   description: 献给真正的叛逆爱国者。新界必亡！ 丨 "For truly rebellious patriots. Death to NT!"

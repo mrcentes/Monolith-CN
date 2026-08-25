@@ -59,8 +59,8 @@
 - type: entity
   id: StealthBox
   suffix: stealth
-  parent: [BaseBigBox, BaseC3SyndicateContraband] # Frontier: added BaseC3SyndicateContraband
-  description: 让你久等了，嗯？ 丨 Kept ya waiting, huh?
+  parent: BaseBigBox
+  description: 让你久等了，嗯？
   components:
     - type: Damageable
       damageModifierSet: FlimsyMetallic #Syndicate boxes should have a bit of protection

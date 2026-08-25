@@ -1,9 +1,3 @@
-# SPDX-FileCopyrightText: 2025 HungryCuban
-# SPDX-FileCopyrightText: 2025 UnicornOnLSD
-# SPDX-FileCopyrightText: 2025 core-mene
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 #Company branded
 - type: entity
   parent: ClothingMaskGasExplorer
@@ -19,7 +13,7 @@
     coverage: MOUTH
 
 - type: entity
-  parent: [ ClothingMaskDrakeIndustries , BaseC3ContrabandNoValue ]
+  parent: [ ClothingMaskDrakeIndustries  ]
   id: ClothingMaskDrakeIndustriesWatchdog
   name: '监察者呼吸器 | watchdog respirator'
   description: '一款遵循德雷克工业原始设计的笨重呼吸器。此型号配备偏光面罩，可在敌对遭遇中保护眼部。 | A clunky respirator following the original design from Drake Industries. This one comes wih a polarized visor to protect the eyes during hostile encounters.'

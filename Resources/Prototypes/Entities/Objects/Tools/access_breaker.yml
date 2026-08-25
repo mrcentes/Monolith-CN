@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: BaseItem
   id: AccessBreakerUnlimited
   suffix: Unlimited
   name: 认证干扰器 丨 authentication disruptor

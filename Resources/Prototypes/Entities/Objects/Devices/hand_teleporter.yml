@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: HandTeleporter
-  parent: [BaseItem, BaseC2ContrabandUnredeemable] # Frontier: BaseC2ContrabandUnredeemable
+  parent: BaseItem
   name: 手持传送器 丨 hand teleporter
   description: 一件纳星特质物品——仅采用最顶级的蓝空科技。使用说明：首次使用以创建一个随机传送门。再次使用以将其与当前位置的传送门链接。再次使用以清除所有传送门。
   components:

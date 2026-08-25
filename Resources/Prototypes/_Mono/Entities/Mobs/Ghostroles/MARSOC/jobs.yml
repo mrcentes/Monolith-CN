@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: job
   id: TsfMarsocFTL
   name: '幽灵角色信息火星安全部队超光速名称 | ghost-role-information-marsoc-ftl-name'

@@ -1,9 +1,5 @@
-# SPDX-FileCopyrightText: 2025 BlueHNT
-#
-# SPDX-License-Identifier: MPL-2.0
-
 - type: entity
-  parent: [GrenadeBase, BaseC3SyndicateContraband]
+  parent: GrenadeBase
   id: PyrogelBomb
   name: '「热凝胶炸弹」 | pyrogel bomb'
   description: '实验性瓶装炸弹技术。 | Experimental bottle bomb technology.'

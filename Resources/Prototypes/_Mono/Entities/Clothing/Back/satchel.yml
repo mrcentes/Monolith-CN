@@ -1,13 +1,9 @@
-# SPDX-FileCopyrightText: 2025 UnicornOnLSD
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 # Company branded
 - type: entity
   parent: ClothingBackpackSatchel
-  id: ClothingBackpackSatchelDrakeIndustries 
+  id: ClothingBackpackSatchelDrakeIndustries
   name: '德雷克工业挎包 | drake industries satchel'
-  description: '它采用的人造布料看起来相当廉价，那个搭扣是不是快脱落了？上面还带有德雷克工业的标志色 | The synthetic cloth it''s made off looks pretty cheap, is that buckle coming off ? It bears the colors of Drake Industries'
+  description: 它采用的人造布料看起来相当廉价，那个搭扣是不是快脱落了？上面还带有德雷克工业的标志色
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Satchels/di.rsi

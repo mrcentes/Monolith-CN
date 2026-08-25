@@ -105,9 +105,9 @@
 
 - type: entity
   id: DefibrillatorSyndicate
-  parent: [DefibrillatorCompact, BaseC3SyndicateContraband] # Mono: BaseC3SyndicateContraband
+  parent: DefibrillatorCompact
   name: 英特戴恩除颤器 丨 interdyne defibrillator
-  description: 也可用作针对有战争罪倾向的骑手的自卫武器。 丨 Doubles as a self-defense weapon against war-crime inclined tiders.
+  description: 也可用作针对有战争罪倾向的骑手的自卫武器。
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/defibsyndi.rsi

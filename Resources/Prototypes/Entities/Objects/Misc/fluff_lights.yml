@@ -131,7 +131,7 @@
 - type: entity
   name: 审讯灯 丨 interrogator lamp
   id: LampInterrogator
-  parent: BaseLamp # Frontier: removed BaseSecurityContraband
+  parent: BaseLamp
   description: 给坏警察用的超亮灯。 丨 Ultra-bright lamp for the bad cop.
   components:
   - type: Sprite

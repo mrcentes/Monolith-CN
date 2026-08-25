@@ -317,8 +317,8 @@
 - type: entity
   name: 高级圆锯 丨 advanced circular saw
   id: SawAdvanced
-  parent: [ SawElectric, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  description: 你以为用它什么都能切。 丨 You think you can cut anything with it.
+  parent: SawElectric
+  description: 你觉得用它什么都能切。
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/saw.rsi
@@ -479,7 +479,7 @@
     price: 200
 
 - type: entity
-  parent: [ OmnimedTool, BaseSyndicateContraband ]
+  parent: OmnimedTool
   id: OmnimedToolSyndie
   components:
   - type: Sprite

@@ -1,11 +1,5 @@
-# SPDX-FileCopyrightText: 2025 Ilya246
-# SPDX-FileCopyrightText: 2025 UnicornOnLSD
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
-  parent: [ClothingShoesBootsMagBase]
+  parent: [ ClothingShoesBootsMagBase, BaseFactionGearOtherFactionT0 ]
   id: ClothingShoesBootsMagDrakeIndustries
   name: '涂漆磁力靴 | painted magboots'
   description: '嗯，那只是重新涂装的科研靴子。 | Yep, that''s just repainted science boots.'
@@ -29,7 +23,7 @@
     sprite: _Mono/Clothing/Shoes/Boots/voidboots.rsi
 
 - type: entity
-  parent: ClothingShoesBootsMagAdv
+  parent: [ ClothingShoesBootsMagAdv, BaseFactionGearOtherFactionT2 ]
   id: ClothingShoesBootsMagAsakim
   name: '前断代纪元磁力靴 | pre-fracture magboots'
   description: '采用先进固定系统的最先进磁力作战靴。 | State-of-the-art magnetic boots made for combat with advanced harnesses.'
@@ -41,7 +35,7 @@
     modifier: 0.35
 
 - type: entity
-  parent: [ClothingShoesBootsMagSyndie]
+  parent: [ ClothingShoesBootsMagSyndie, BaseFactionGearPDVT1 ]
   id: ClothingShoesBootsMagAshen
   name: '战术磁力靴 | tactical magboots'
   description: '战术磁力靴具备强磁吸力和集成推进器，适用于登船作业。可容纳0.75升气体。 | Tactical magnetic boots that have a heavy magnetic pull and integrated thrusters for boarding. It can hold 0.75 L of gas.'

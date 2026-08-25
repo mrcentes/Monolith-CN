@@ -11,6 +11,7 @@
     sprite: Objects/Weapons/Melee/pickaxe.rsi
     state: pickaxe
   - type: MeleeWeapon
+    autoAttack: true #Mono
     attackRate: 0.75
     wideAnimationRotation: -135
     soundHit:
@@ -28,7 +29,7 @@
       types:
         Blunt: 15
         Piercing: 5
-        Structural: 25
+        Structural: 35
   - type: Item
     size: Normal
     shape:
@@ -93,7 +94,7 @@
 
 - type: entity
   abstract: true
-  parent: [ BaseItem, BaseC1Contraband ] # Frontier: BaseSecurityCargoContraband<BaseC1Contraband
+  parent: BaseItem
   id: BaseWeaponCrusher # Crusher? But I...
   name: 破碎者 丨 crusher
   description: 早期原型动能加速器的设计方案。 丨 An early design of the proto-kinetic accelerator.
@@ -106,7 +107,7 @@
     radius: 4
 
 - type: entity
-  parent: [BaseWeaponCrusher, BaseC1Contraband] # Frontier: BaseSecurityCargoContraband<BaseC1Contraband
+  parent: BaseWeaponCrusher
   id: WeaponCrusher
   components:
   - type: Tag
@@ -136,6 +137,7 @@
     capacity: 1
     count: 1
   - type: MeleeWeapon
+    autoAttack: true #Mono
     attackRate: 1.25
     wideAnimationRotation: -135
     damage:
@@ -152,6 +154,7 @@
         Slash: 5
         Structural: 30
   - type: GunRequiresWield
+  - type: SkipPlayerAccuracyModifier #Mono
   - type: Item
     size: Ginormous
     sprite: Objects/Weapons/Melee/crusher-inhands.rsi
@@ -164,7 +167,7 @@
     - suitStorage # Frontier
 
 - type: entity
-  parent: [ BaseKnife, BaseWeaponCrusher, BaseC1Contraband] # Frontier: BaseSecurityCargoContraband<BaseC1Contraband
+  parent: [ BaseKnife, BaseWeaponCrusher]
   id: WeaponCrusherDagger
   name: 粉碎者匕首 丨 crusher dagger
   description: 原型动能破碎锤的缩小版，利用动能实现刀片高速振动。 丨 A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
@@ -194,7 +197,7 @@
 
 # Like a crusher... but better
 - type: entity
-  parent: [ WeaponCrusher, BaseC1Contraband] # Frontier: BaseSecurityCargoContraband<BaseC1Contraband
+  parent: WeaponCrusher
   id: WeaponCrusherGlaive
   name: 碎击回旋刃 丨 crusher glaive
   description: 原型动能加速器的早期设计，采用战刃形态。 丨 An early design of the proto-kinetic accelerator, in glaive form.

@@ -1,10 +1,5 @@
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
-  parent: [ClothingHeadHardsuitBase, BaseC3SyndicateContraband]
+  parent: [ ClothingHeadHardsuitBase, BaseFactionGearPDVT2 ]
   id: ClothingHeadHelmetHardsuitPirateScaf
   name: PDV SCAF硬质防护头盔
   description: 一件采用PDV棕褐色涂装的旧SCAF防护服。照明系统已更换为热脉冲装置。

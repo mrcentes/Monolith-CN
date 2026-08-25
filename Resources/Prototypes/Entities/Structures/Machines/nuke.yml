@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseStructure, StructureWheeled, BaseC3ContrabandUnredeemable ] # Frontier: BaseMajorContraband<BaseC3ContrabandUnredeemable
+  parent: [BaseStructure, StructureWheeled ]
   id: NuclearBomb
   name: 核裂变爆炸物 丨 nuclear fission explosive
   description: 你大概不该留在这儿看它是不是上了引信。 丨 You probably shouldn't stick around to see if this is armed.

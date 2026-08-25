@@ -15,7 +15,7 @@
     stealGroup: DoorRemote
 
 - type: entity
-  parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: DoorRemoteDefault
   id: DoorRemoteCommand
   name: 车门遥控器 丨 command door remote
   components:
@@ -31,7 +31,7 @@
     - Command
 
 - type: entity
-  parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: DoorRemoteDefault
   id: DoorRemoteSecurity
   name: 安全门遥控器 丨 security door remote
   components:
@@ -47,7 +47,7 @@
     - Security
 
 - type: entity
-  parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: DoorRemoteDefault
   id: DoorRemoteArmory
   name: 军械库门遥控器 丨 armory door remote
   components:
@@ -63,7 +63,7 @@
     - Armory
 
 - type: entity
-  parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: DoorRemoteDefault
   id: DoorRemoteService
   name: 服务门遥控器 丨 service door remote
   components:
@@ -79,7 +79,7 @@
     - Service
 
 - type: entity
-  parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: DoorRemoteDefault
   id: DoorRemoteResearch
   name: 研究门遥控 丨 research door remote
   components:
@@ -95,7 +95,7 @@
     - Research
 
 - type: entity
-  parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: DoorRemoteDefault
   id: DoorRemoteCargo
   name: 货舱门遥控器 丨 cargo door remote
   components:
@@ -111,7 +111,7 @@
     - Cargo
 
 - type: entity
-  parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: DoorRemoteDefault
   id: DoorRemoteMedical
   name: 医用门遥控器 丨 medical door remote
   components:
@@ -127,7 +127,7 @@
     - Medical
 
 - type: entity
-  parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: DoorRemoteDefault
   id: DoorRemoteEngineering
   name: 工程门遥控器 丨 engineering door remote
   components:
@@ -143,7 +143,7 @@
     - Engineering
 
 - type: entity
-  parent: [DoorRemoteDefault, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: DoorRemoteDefault
   id: DoorRemoteAll
   name: 超级门遥控器 丨 super door remote
   suffix: Admeme

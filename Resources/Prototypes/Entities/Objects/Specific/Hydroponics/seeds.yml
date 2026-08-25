@@ -528,9 +528,9 @@
       sprite: Objects/Specific/Hydroponics/fly_amanita.rsi
 
 - type: entity
-  parent: [SeedBase, BaseC3SyndicateContrabandUnredeemable] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContrabandUnredeemable
+  parent: SeedBase
   name: 一包加特林种子 丨 packet of gatfruit seeds
-  description: 这些可不是豌豆射手。 丨 "These are no peashooters."
+  description: 这些可不是豌豆射手。
   id: GatfruitSeeds
   components:
     - type: Seed

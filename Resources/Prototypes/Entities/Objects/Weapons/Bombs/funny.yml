@@ -1,7 +1,7 @@
 - type: entity
   name: 烫手山芋 丨 hot potato
-  description: 一旦激活，你就无法放下这颗定时炸弹——快把它扔给别人来保全自己！小心别烫到手！ 丨 Once activated, you can't drop this time bomb - hit someone else with it to save yourself! Don't burn your hands!
-  parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  description: 一旦激活，你就无法放下这颗定时炸弹——快把它扔给别人来保全自己！小心别烫到手！
+  parent: BaseItem
   id: HotPotato
   components:
     - type: WeaponCaseInsertable # Frontier

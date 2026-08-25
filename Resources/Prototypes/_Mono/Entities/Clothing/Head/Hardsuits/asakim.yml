@@ -1,14 +1,5 @@
-# SPDX-FileCopyrightText: 2025 Avalon
-# SPDX-FileCopyrightText: 2025 Coenx-flex
-# SPDX-FileCopyrightText: 2025 Cojoke
-# SPDX-FileCopyrightText: 2025 HungryCuban
-# SPDX-FileCopyrightText: 2025 Ilya246
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
-  parent: [ClothingHeadHardsuitBase, BaseC3SyndicateContraband, ShowMedicalIcons]
+  parent: [ClothingHeadHardsuitBase, ShowMedicalIcons]
   id: ClothingHelmetHardsuitAsakim
   name: '卡萨图尔式战斗固定头盔 | kasature-pattern combat harness helmet'
   description: '前断代纪元先进战斗装备系统的组成部分。 | Part of an advanced pre-fracture combat harness.'

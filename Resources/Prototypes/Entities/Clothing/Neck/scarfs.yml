@@ -87,7 +87,7 @@
       sprite: Clothing/Neck/Scarfs/purple.rsi
 
 - type: entity
-  parent: [ ClothingScarfBase, BaseC3SyndicateContraband, ContrabandClothing ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  parent: [ ClothingScarfBase ]
   id: ClothingNeckScarfStripedSyndieGreen
   name: 条纹联合绿色围巾 丨 striped syndicate green scarf
   description: 一条时尚的条纹联合绿围巾。既是时尚嗅觉敏锐人士的完美冬季配饰，也适合那些心血来潮想顺手牵羊之人。 丨 A stylish striped syndicate green scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
@@ -98,7 +98,7 @@
       sprite: Clothing/Neck/Scarfs/syndiegreen.rsi
 
 - type: entity
-  parent: [ClothingScarfBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  parent: [ClothingScarfBase]
   id: ClothingNeckScarfStripedSyndieRed
   name: 条纹辛迪加红色围巾 丨 striped syndicate red scarf
   description: 一条时尚的条纹帮派红围巾。既是时尚嗅觉敏锐者的完美冬季配饰，也适合那些心血来潮想顺手牵羊之人。 丨 A stylish striped syndicate red scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
@@ -109,7 +109,7 @@
       sprite: Clothing/Neck/Scarfs/syndiered.rsi
 
 - type: entity
-  parent: [ ClothingScarfBase, BaseCentcommContraband ]
+  parent: ClothingScarfBase
   id: ClothingNeckScarfStripedCentcom
   name: 条纹中央指挥部围巾 丨 striped CentComm scarf
   description: 一条时尚的条纹中央指挥部配色围巾。既是时尚嗅觉敏锐者的完美冬季配饰，也能满足在寒风中处理文书工作的需求。 丨 A stylish striped centcomm colored scarf. The perfect winter accessory for those with a keen fashion sense, and those who need to do paperwork in the cold.

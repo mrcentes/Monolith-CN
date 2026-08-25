@@ -1,40 +1,3 @@
-# SPDX-FileCopyrightText: 2021 Swept
-# SPDX-FileCopyrightText: 2021 TaralGit
-# SPDX-FileCopyrightText: 2021 and_a
-# SPDX-FileCopyrightText: 2022 Rane
-# SPDX-FileCopyrightText: 2022 metalgearsloth
-# SPDX-FileCopyrightText: 2022 mirrorcult
-# SPDX-FileCopyrightText: 2023 Emisse
-# SPDX-FileCopyrightText: 2023 HerCoyote23
-# SPDX-FileCopyrightText: 2023 I.K
-# SPDX-FileCopyrightText: 2023 Leon Friedrich
-# SPDX-FileCopyrightText: 2023 Nemanja
-# SPDX-FileCopyrightText: 2023 PoorMansDreams
-# SPDX-FileCopyrightText: 2023 brainfood1183
-# SPDX-FileCopyrightText: 2023 deltanedas <@deltanedas:kde.org>
-# SPDX-FileCopyrightText: 2023 keronshb
-# SPDX-FileCopyrightText: 2023 notquitehadouken <1isthisameme>
-# SPDX-FileCopyrightText: 2023 terezi4real
-# SPDX-FileCopyrightText: 2024 Chubbicous
-# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
-# SPDX-FileCopyrightText: 2024 Hannah Giovanna Dawson
-# SPDX-FileCopyrightText: 2024 Kara
-# SPDX-FileCopyrightText: 2024 NotSoDamn
-# SPDX-FileCopyrightText: 2024 Plykiya
-# SPDX-FileCopyrightText: 2024 Psychpsyo
-# SPDX-FileCopyrightText: 2024 Scribbles0
-# SPDX-FileCopyrightText: 2024 Tayrtahn
-# SPDX-FileCopyrightText: 2024 Whatstone
-# SPDX-FileCopyrightText: 2024 deepdarkdepths
-# SPDX-FileCopyrightText: 2024 deltanedas
-# SPDX-FileCopyrightText: 2024 nikthechampiongr
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 Eden077
-# SPDX-FileCopyrightText: 2025 Ghost581
-# SPDX-FileCopyrightText: 2025 Redrover1760
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   parent: BaseItem
   id: BaseSword
@@ -58,7 +21,7 @@
 
 - type: entity
   name: 船长的军刀 丨 captain's sabre
-  parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseCommandContraband<BaseC1Contraband
+  parent: BaseSword
   id: CaptainSabre
   description: 船长们的常见佩刀。原为礼仪用途，现多用于自卫防身。 丨 A common sighting among ship captains. Once ceremonial, it now has common use for self-defense.
   components:
@@ -99,7 +62,7 @@
 
 - type: entity
   name: 武士刀 丨 katana
-  parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
+  parent: BaseSword
   id: Katana
   description: 由并非那么古老的可塑钢制成的古老工艺品。 丨 Ancient craftwork made with not so ancient plasteel.
   components:
@@ -154,7 +117,7 @@
 
 - type: entity
   name: 大砍刀 丨 machete
-  parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
+  parent: BaseSword
   id: Machete
   description: 一把外形凶悍的大刀。 丨 A large, vicious looking blade.
   components:
@@ -179,8 +142,8 @@
     - suitStorage
 
 - type: entity
-  name: 阔剑 丨 claymore
-  parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
+  name: 阔剑 丨 claymore # Mono TODO: make this a wieldable weapon
+  parent: BaseSword
   id: Claymore
   description: 一把古老的战刃。 丨 An ancient war blade.
   components:
@@ -203,7 +166,7 @@
 
 - type: entity
   name: 弯刀 丨 cutlass
-  parent: [ BaseSword, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
+  parent: BaseSword
   id: Cutlass
   description: 一把弧度邪恶的弯刀，常见于太空海盗手中。 丨 A wickedly curved blade, often seen in the hands of space pirates.
   components:
@@ -229,7 +192,7 @@
 
 - type: entity
   name: 群涌器 丨 throngler
-  parent: [ BaseSword, BaseC3Contraband ] # Frontier: BaseMajorContraband<BaseC3Contraband
+  parent: BaseSword
   id: Throngler
   description: 你为什么要做这个？ 丨 Why would you make this?
   components:

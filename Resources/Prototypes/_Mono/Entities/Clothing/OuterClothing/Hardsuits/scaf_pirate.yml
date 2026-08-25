@@ -1,12 +1,5 @@
-# SPDX-FileCopyrightText: 2025 Onezero0
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 core-mene
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT2 ]
   id: ClothingOuterHardsuitPirateScaf
   name: PDV SCAF硬质防护服 | PDV SCAF hardsuit
   description: 一件采用PDV棕褐色涂装的老旧SCAF防护服。这套装甲感觉已退化，但更为轻便。

@@ -2,8 +2,8 @@
   name: 全息寄生体注射器 丨 holoparasite injector
   suffix: Ghost # Frontier
   id: HoloparasiteInjector
-  parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
-  description: 一件复杂的手持机械艺术品，允许使用者寄养全息寄生守护者。 丨 A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
+  parent: BaseItem
+  description: 一件复杂的手持机械艺术品，允许使用者寄养全息寄生守护者。
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -38,7 +38,7 @@
 - type: entity
   name: 全息寄生物盒 丨 holoparasite box
   suffix: Ghost # Frontier
-  parent: [BoxCardboard, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: BoxCardboard
   id: BoxHoloparasite
   description: 一个装有全息寄生物注射器的盒子。 丨 A box containing a holoparasite injector.
   components:
@@ -55,7 +55,7 @@
 - type: entity
   name: 全息小丑盒 丨 holoclown box
   suffix: Ghost # Frontier
-  parent: [BoxCardboard, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: BoxCardboard
   id: BoxHoloclown
   description: 一个装有全息小丑注射器的盒子。 丨 A box containing a holoclown injector.
   components:

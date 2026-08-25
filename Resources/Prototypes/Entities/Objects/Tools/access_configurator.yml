@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseItem, BaseCommandContraband] # Frontier: Added BaseCommandContraband
+  parent: BaseItem
   id: AccessConfigurator
   name: 访问配置器 丨 access configurator
   description: 用于修改气闸室及其他可锁定设备的访问权限等级要求。 丨 Used to modify the access level requirements for airlocks and other lockable devices.

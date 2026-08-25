@@ -1,44 +1,7 @@
-# SPDX-FileCopyrightText: 2020 AJCM-git
-# SPDX-FileCopyrightText: 2020 DrSmugleaf
-# SPDX-FileCopyrightText: 2020 py01
-# SPDX-FileCopyrightText: 2021 Galactic Chimp
-# SPDX-FileCopyrightText: 2021 Leon Friedrich
-# SPDX-FileCopyrightText: 2021 Paul Ritter
-# SPDX-FileCopyrightText: 2021 Pieter-Jan Briers
-# SPDX-FileCopyrightText: 2021 Swept
-# SPDX-FileCopyrightText: 2021 Ygg01
-# SPDX-FileCopyrightText: 2021 mirrorcult
-# SPDX-FileCopyrightText: 2022 Kara
-# SPDX-FileCopyrightText: 2022 Peptide90
-# SPDX-FileCopyrightText: 2022 ScalyChimp
-# SPDX-FileCopyrightText: 2022 Veritius
-# SPDX-FileCopyrightText: 2022 themias
-# SPDX-FileCopyrightText: 2023 Boaz1111
-# SPDX-FileCopyrightText: 2023 Checkraze
-# SPDX-FileCopyrightText: 2023 Flareguy
-# SPDX-FileCopyrightText: 2023 MendaxxDev
-# SPDX-FileCopyrightText: 2023 lzk
-# SPDX-FileCopyrightText: 2024 Alzore
-# SPDX-FileCopyrightText: 2024 AndresE55
-# SPDX-FileCopyrightText: 2024 Cojoke
-# SPDX-FileCopyrightText: 2024 RiceMar1244
-# SPDX-FileCopyrightText: 2024 VividPups
-# SPDX-FileCopyrightText: 2024 Winkarst
-# SPDX-FileCopyrightText: 2024 metalgearsloth
-# SPDX-FileCopyrightText: 2025 BramvanZijp
-# SPDX-FileCopyrightText: 2025 FungiFellow
-# SPDX-FileCopyrightText: 2025 John
-# SPDX-FileCopyrightText: 2025 Whatstone
-# SPDX-FileCopyrightText: 2025 core-mene
-# SPDX-FileCopyrightText: 2025 starch
-# SPDX-FileCopyrightText: 2025 tonotom
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   id: BaseShellShotgun12_gauge
-  name: '猎枪弹（12号口径） | shotgun shell (12 gauge)'
-  parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: added BaseC1Contraband
+  name: '霰弹枪弹（12号口径） | shotgun shell (12 gauge)'
+  parent: BaseCartridge
   description: '标准霰弹枪弹几乎随处可见。 | Standard shotgun round practically everywhere.'
   abstract: true
   components:
@@ -69,8 +32,8 @@
 
 - type: entity
   id: ShellShotgun12_gaugeBeanbag
-  name: '猎枪弹（12号豆袋弹） | shotgun shell (12 gauge beanbag)'
-  parent: BaseShellShotgun12_gauge # Frontier: remove BaseSecurityBartenderContraband
+  name: '霰弹枪弹（12号豆袋弹） | shotgun shell (12 gauge beanbag)'
+  parent: BaseShellShotgun12_gauge
   components:
   - type: Tag
     tags:
@@ -88,7 +51,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeSlug
-  name: '猎枪子弹（12号口径独头弹） | shotgun shell (12 gauge slug)'
+  name: '霰弹枪弹（12号口径独头弹） | shotgun shell (12 gauge slug)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -121,7 +84,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeBuckshot
-  name: '猎枪子弹（12号铅径鹿弹） | shotgun shell (12 gauge buckshot)'
+  name: '霰弹枪弹（12号铅径鹿弹） | shotgun shell (12 gauge buckshot)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -133,7 +96,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeIncendiary
-  name: '猎枪子弹（12号口径燃烧弹） | shotgun shell (12 gauge incendiary)'
+  name: '霰弹枪弹（12号口径燃烧弹） | shotgun shell (12 gauge incendiary)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -147,7 +110,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugePractice
-  name: '猎枪子弹（12号口径练习弹） | shotgun shell (12 gauge practice)'
+  name: '霰弹枪弹弹（12号口径练习弹） | shotgun shell (12 gauge practice)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -161,7 +124,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeTranquilizer
-  name: '猎枪子弹（12号镇静剂） | shotgun shell (12 gauge tranquilizer)'
+  name: '霰弹枪弹弹（12号镇静剂） | shotgun shell (12 gauge tranquilizer)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Tag
@@ -212,7 +175,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeUranium
-  name: '猎枪子弹（12号口径铀弹） | shotgun shell (12 gauge uranium)'
+  name: '霰弹枪弹（12号口径铀弹） | shotgun shell (12 gauge uranium)'
   parent: BaseShellShotgun12_gauge
   components:
     - type: Sprite
@@ -228,7 +191,7 @@
 #anti-flesh:
 - type: entity
   id: ShellShotgun12_gaugeOOBuckshot
-  name: '12号口径马格南大号铅弹 | shotgun shell (12 gauge OO magnum buckshot)'
+  name: '12号口径马格南大号霰弹枪铅弹 | shotgun shell (12 gauge OO magnum buckshot)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -241,7 +204,7 @@
 
 - type: entity
   id: ShellShotgun12_gaugeSlugRIP
-  name: '猎枪子弹（12号径撕裂弹） | shotgun shell (12 gauge RIP)'
+  name: '霰弹枪弹（12号径撕裂弹） | shotgun shell (12 gauge RIP)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite
@@ -256,7 +219,7 @@
 #armor-piercing:
 - type: entity
   id: ShellShotgun12_gaugeSlugAP
-  name: '猎枪子弹（12号口径穿甲独头弹） | shotgun shell (12 gauge armor-piercing slug)'
+  name: '霰弹枪弹（12号口径穿甲独头弹） | shotgun shell (12 gauge armor-piercing slug)'
   parent: BaseShellShotgun12_gauge
   components:
   - type: Sprite

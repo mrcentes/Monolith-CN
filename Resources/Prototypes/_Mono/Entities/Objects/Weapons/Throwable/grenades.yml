@@ -1,10 +1,5 @@
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
-  parent: SmokeGrenade # Frontier: removed BaseEngineeringContraband
+  parent: SmokeGrenade
   id: NanolaminateFoamGrenade
   name: '纳米层压泡沫手榴弹 | nanolaminate foam grenade'
   description: '金属泡沫手榴弹的进阶版本。该武器不再使用铝材料，而是能在广阔区域生成纳米增强合金泡沫，其抗损伤能力远超铝质泡沫。 | An advanced version of a metal foam grenade. Instead of aluminium, the foam grows a nano-reinforced alloy in a large area, capable of sustaining much more damage than aluminium.'

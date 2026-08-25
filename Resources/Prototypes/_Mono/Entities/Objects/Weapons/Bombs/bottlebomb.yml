@@ -1,9 +1,5 @@
-# SPDX-FileCopyrightText: 2025 BlueHNT
-#
-# SPDX-License-Identifier: MPL-2.0
-
 - type: entity
-  parent: [GrenadeBase, BaseC3SyndicateContraband]
+  parent: GrenadeBase
   id: BottleBomb
   name: '瓶装炸弹 | bottle bomb'
   description: '核武器的廉价替代品。 | Cheap alternative to nukes.'

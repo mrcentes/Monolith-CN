@@ -1,11 +1,5 @@
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 Aviu00
-# SPDX-FileCopyrightText: 2025 Onezero0
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
-  parent: [ BaseCartridge, BaseRestrictedContraband ]
+  parent: BaseCartridge
   id: CartridgeSmart
   name: '弹药（.160 智能弹） | cartridge (.160 smart)'
   description: '一枚底部装有少量助推推进剂的.160 智能子弹。 | A .160 smart bullet with a small charge of booster propellant at the bottom.'

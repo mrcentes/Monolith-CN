@@ -1,53 +1,3 @@
-# SPDX-FileCopyrightText: 2020 AJCM-git
-# SPDX-FileCopyrightText: 2020 DrSmugleaf
-# SPDX-FileCopyrightText: 2020 Hugo Laloge
-# SPDX-FileCopyrightText: 2020 Pieter-Jan Briers
-# SPDX-FileCopyrightText: 2020 Swept
-# SPDX-FileCopyrightText: 2020 Víctor Aguilera Puerto
-# SPDX-FileCopyrightText: 2020 Ygg01
-# SPDX-FileCopyrightText: 2020 py01
-# SPDX-FileCopyrightText: 2021 Galactic Chimp
-# SPDX-FileCopyrightText: 2021 Paul Ritter
-# SPDX-FileCopyrightText: 2021 Tarlan2
-# SPDX-FileCopyrightText: 2021 buletsponge
-# SPDX-FileCopyrightText: 2022 Peptide90
-# SPDX-FileCopyrightText: 2022 Rane
-# SPDX-FileCopyrightText: 2022 Scribbles0
-# SPDX-FileCopyrightText: 2022 T-Stalker
-# SPDX-FileCopyrightText: 2022 Visne
-# SPDX-FileCopyrightText: 2022 keronshb
-# SPDX-FileCopyrightText: 2023 IProduceWidgets
-# SPDX-FileCopyrightText: 2023 TaralGit
-# SPDX-FileCopyrightText: 2023 and_a
-# SPDX-FileCopyrightText: 2023 lzk
-# SPDX-FileCopyrightText: 2024 Doomsdrayk
-# SPDX-FileCopyrightText: 2024 Dvir
-# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
-# SPDX-FileCopyrightText: 2024 Errant
-# SPDX-FileCopyrightText: 2024 Kara
-# SPDX-FileCopyrightText: 2024 Kesiath
-# SPDX-FileCopyrightText: 2024 Nemanja
-# SPDX-FileCopyrightText: 2024 Plykiya
-# SPDX-FileCopyrightText: 2024 RiceMar1244
-# SPDX-FileCopyrightText: 2024 SlamBamActionman
-# SPDX-FileCopyrightText: 2024 ThatGuyUSA
-# SPDX-FileCopyrightText: 2024 metalgearsloth
-# SPDX-FileCopyrightText: 2024 nikthechampiongr
-# SPDX-FileCopyrightText: 2025 Blu
-# SPDX-FileCopyrightText: 2025 BlueHNT
-# SPDX-FileCopyrightText: 2025 BramvanZijp
-# SPDX-FileCopyrightText: 2025 Eden077
-# SPDX-FileCopyrightText: 2025 K-Dynamic
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 ScyronX
-# SPDX-FileCopyrightText: 2025 UltimateJester
-# SPDX-FileCopyrightText: 2025 Whatstone
-# SPDX-FileCopyrightText: 2025 core-mene
-# SPDX-FileCopyrightText: 2025 halycon
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   name: 基础冲锋枪 丨 BaseSMG
   parent: BaseItem
@@ -129,7 +79,7 @@
 
 - type: entity
   name: MA PDW-58 阿特雷德斯（5.7x28mm） 丨 MA PDW-58 Atreides (5.7x28mm)
-  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband] # Frontier: BaseMajorContraband<BaseC3SyndicateContraband
+  parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunAtreides
   description: 午夜武器公司制造的流线型冲锋枪，常见于起义组织和犯罪分子手中。使用5.7x28mm 弹药。 丨 Midnight Arms Co. Streamlined SMG that's commonly found use among uprisings and criminals. Uses 5.7x28mm ammo.
   components:
@@ -173,7 +123,7 @@
 
 - type: entity
   name: CS C-20r冲锋枪（9x19mm 口径） 丨 CS C-20r submachine gun (9x19mm)
-  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunC20r
   description: 一款企业时代的冲锋枪，曾经被核特工使用，现在在法厄同王朝中流行。使用9x19毫米弹药。
   components:
@@ -213,7 +163,7 @@
 
 - type: entity
   name: TCA M-5 德罗兹德 (.45 ACP) 丨 TCA M-5 Drozd (.45 ACP)
-  parent: [BaseWeaponSubMachineGun, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunDrozd
   description: 曾供新东京安保部队使用的冲锋枪，如今已成为市场上最可靠的登船及反登船武器之一，使用.45 ACP弹药。 丨 An SMG that once found use among NT security forces, now has found itself as one of the most reliable boarding and anti-boarding weapons on the market. Uses .45 ACP ammo.
   components:
@@ -282,7 +232,7 @@
 
 - type: entity
   name: UI WT550冲锋枪（4.6x30mm口径） 丨 UI WT550 (4.6x30mm)
-  parent: [ BaseWeaponSubMachineGun, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunWt550
   description: 一把优秀的冲锋枪，由名为乌尔曼工业的黑市武器公司生产。使用4.6x30mm 弹药。机匣上贴有“仅限授权使用”的标签。 丨 An excellent SMG, produced by a Black Market Arms Company known as Ullman Industries. Uses 4.6x30mm ammo. On the receiver is a label that says 'for authorized use only.'
   components:

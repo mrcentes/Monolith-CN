@@ -1,10 +1,11 @@
 - type: entity
-  parent: BaseSign
+  parent: PaintingBase #Mono: BaseSign >> PaintingBase
   id: PaintingMonkey
   name: 猴子绘画 丨 monkey painting
   description: 回归猿本。 丨 Return to monky.
   components:
   - type: Sprite
+    sprite: Structures/Wallmounts/signs.rsi #Mono
     state: monkey_painting
 
 # Directional Station Guide Signs

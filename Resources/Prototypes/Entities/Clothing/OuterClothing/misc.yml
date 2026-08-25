@@ -105,7 +105,7 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Misc/chaplain_hoodie.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
-    clothingPrototypes: 
+    clothingPrototypes:
       head: ClothingHeadHatHoodChaplainHood
 
 - type: entity
@@ -122,7 +122,7 @@
     accent: SpanishAccent
 
 - type: entity
-  parent: [ClothingOuterBase, ContrabandClothing] # Frontier: added ContrabandClothing as parent
+  parent: [ClothingOuterBase]
   id: ClothingOuterRobesCult
   name: 邪教 robes 丨 cult robes
   description: 没有经典的红色/深红色邪教袍，哪来的邪教。 丨 There's no cult without classic red/crimson cult robes.
@@ -169,14 +169,14 @@
 
 - type: entity
   abstract: true
-  parent: [ ClothingOuterBase, AllowSuitStorageClothingGasTanks, BaseC3WizardContraband ] # Frontier: BaseMagicalContraband<BaseC3WizardContraband
+  parent: [ ClothingOuterBase, AllowSuitStorageClothingGasTanks ]
   id: ClothingOuterWizardBase
   components:
   - type: WizardClothes
 
 # Is this wizard wearing a fanny pack???
 - type: entity
-  parent: [ClothingOuterWizardBase, ContrabandClothing] # Frontier: added ContrabandClothing as parent
+  parent: [ClothingOuterWizardBase]
   id: ClothingOuterWizardViolet
   name: 紫色巫师袍 丨 violet wizard robes
   description: 一件镶嵌着奇异宝石的紫色长袍，散发着魔法能量。 丨 A bizarre gem-encrusted violet robe that radiates magical energies.
@@ -187,7 +187,7 @@
     sprite: Clothing/OuterClothing/Misc/violetwizard.rsi
 
 - type: entity
-  parent: [ClothingOuterWizardBase, ContrabandClothing] # Frontier: added ContrabandClothing as parent
+  parent: [ClothingOuterWizardBase]
   id: ClothingOuterWizard
   name: 巫师袍 丨 wizard robes
   description: 一件镶嵌着奇异宝石的蓝色长袍，散发着魔法能量。 丨 A bizarre gem-encrusted blue robe that radiates magical energies.
@@ -198,7 +198,7 @@
     sprite: Clothing/OuterClothing/Misc/wizard.rsi
 
 - type: entity
-  parent: [ClothingOuterWizardBase, ContrabandClothing] # Frontier: added ContrabandClothing as parent
+  parent: [ClothingOuterWizardBase]
   id: ClothingOuterWizardRed
   name: 红色巫师袍 丨 red wizard robes
   description: 样子奇特的红色帽饰，必定属于一位真正的魔法师。 丨 Strange-looking, red, hat-wear that most certainly belongs to a real magic user.

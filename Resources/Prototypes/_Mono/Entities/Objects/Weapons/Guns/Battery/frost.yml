@@ -1,10 +1,6 @@
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   name: 'VFD EN-5 霜冻 | VFD EN-5 FROST'
-  parent: [BaseWeaponBattery, BaseGunWieldable, BaseCommandContraband] # Frontier: added BaseCommandContraband
+  parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponEnergyGunFrost
   description: '一款可自我充能的能量枪，配备致命弹药并能造成严重伤害。与早期版本相比，新增瘫痪性弹药并提升了精准度。 | A self-recharging energy gun with lethal rounds that can inflict serious damage. Comes with disabling munitions and improved accuracy compared to it''s previous versions.'
   components:

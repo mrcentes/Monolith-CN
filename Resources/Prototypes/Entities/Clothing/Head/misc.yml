@@ -172,7 +172,7 @@
     accent: MobsterAccent
 
 - type: entity
-  parent: [ ClothingHeadBase, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: ClothingHeadBase
   id: ClothingHeadHatCatEars
   name: 猫耳朵 丨 cat ears
   description: 喵！ 丨 "NYAH!"

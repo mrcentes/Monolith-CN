@@ -274,7 +274,7 @@
       prob: 0.10
       orGroup: Pizza
     - id: KnifePlastic
-  
+
 - type: entity
   name: 披萨盒 丨 pizza box
   parent: FoodBoxPizzaFilled
@@ -589,9 +589,9 @@
 
 - type: entity
   id: HappyHonkNukie
-  parent: [HappyHonk, BaseC3SyndicateContrabandUnredeemable] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContrabandUnredeemable
-  name: 坚固的核弹套餐 丨 robust nukie meal
-  description: 一顿可疑的餐食，可能暗藏爆炸性惊喜。 丨 A sus meal with a potentially explosive surprise.
+  parent: HappyHonk
+  name: 强健核弹套餐 丨 robust nukie meal
+  description: 一顿可疑的餐食，可能暗藏爆炸性惊喜
   suffix: Toy Unsafe
   components:
   - type: Sprite

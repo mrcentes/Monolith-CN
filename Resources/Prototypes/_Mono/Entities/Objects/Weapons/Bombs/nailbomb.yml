@@ -1,9 +1,5 @@
-# SPDX-FileCopyrightText: 2025 BlueHNT
-#
-# SPDX-License-Identifier: MPL-2.0
-
 - type: entity
-  parent: [ProjectileGrenadeBase, BaseC3SyndicateContraband]
+  parent: ProjectileGrenadeBase
   id: NailBomb
   name: '钉子炸弹 | nail bomb'
   description: '一种用钉子和火药制成的简易爆炸装置。 | An improvised explosive made from nails and gunpowder.'

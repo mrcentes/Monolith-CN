@@ -1,14 +1,8 @@
-# SPDX-FileCopyrightText: 2025 ScyronX
-# SPDX-FileCopyrightText: 2025 starch
-# SPDX-FileCopyrightText: 2025 wewman222
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 #Light Weapons
 - type: entity
   id: LightMechaAutocannon
-  name: 'LAC-29 机甲步枪'
-  description: '平民级机甲步枪。采用20mm 口径，各项性能均衡，既能对抗装甲机架，也能对舰船造成轻微损伤。可搭载于轻型挂载点。 | The everyman''s mecha rifle. Chambered in 20mm, with balanced stats to tackle both Armored Frames and do light damage against ships. Fits on Light Hardpoints.'
+  name: LAC-29 20毫米自动炮
+  description: 平民化机甲步枪。使用20毫米口径，属性均衡，既能对付装甲机甲，也能对舰船造成轻微伤害。可搭载于轻型挂载点。
   suffix: Mech Weapon, Gun, Combat, Rifle
   parent: [ BaseMechWeaponRange, LightMechMountEquipment ]
   components:
@@ -30,15 +24,15 @@
   - type: Battery
     maxCharge: 180
   - type: ProjectileBatteryAmmoProvider
-    proto: Bullet20mm_ACPFMJ_Mech
+    proto: 20mmBullet
     fireCost: 60
   - type: Appearance
   - type: AmmoCounter
 
 - type: entity
   id: LightMechaSMG
-  name: 'RAC-3 旋转式六管机枪 | RAC-3'
-  description: '一种非主流武器选择，采用六管加特林机枪设计，使用.45口径子弹。凭借超高射速对机甲形成压制效果，适合近距离战斗，可搭载于轻型挂载点。 | An uncommon choice of weaponry, it consists of a 6 barrelled gatling gun, chambered in .45 ACP. Overwhelms mecha with sheer firerate. Good for CQC. Fits on Light Hardpoints.'
+  name: RAC-6 .45 ACP 旋转机枪
+  description: 一种非主流武器选择，采用六管加特林机枪设计，使用.45口径子弹。凭借超高射速对机甲形成压制效果，适合近距离战斗，可搭载于轻型挂载点。
   suffix: Mech Weapon, Gun, Combat, SMG
   parent: [ BaseMechWeaponRange, LightMechMountEquipment ]
   components:
@@ -69,8 +63,8 @@
 
 - type: entity
   id: LightMechaShotgun
-  name: 'SH-35型 机甲用霰弹枪 | SH-35'
-  description: '一款大型机甲级霰弹枪，使用0.5口径弹药，专为近距离战斗设计，但射速仍有较大提升空间。可搭载于轻型挂载点。 | A large mech-grade shotgun chambered in 0.5 gauge shells, perfect for CQC combat, the firerate leaves much to be desired however. Fits on Light Hardpoints.'
+  name: SH-0.5 机甲用霰弹枪
+  description: 一款大型机甲级霰弹枪，使用0.5口径弹药，专为近距离战斗设计，但射速仍有较大提升空间。可搭载于轻型挂载点。
   suffix: Mech Weapon, Gun, Combat, Shotgun
   parent: [ BaseMechWeaponRange, LightMechMountEquipment ]
   components:
@@ -100,8 +94,8 @@
 #Medium Weapons
 - type: entity
   id: MediumMechDMR
-  name: 'DMR-49型 重装自动机炮 | DMR-49'
-  description: '重型自动机炮，口径57mm 。通用型中型挂载点武器。 | A heavy duty autocannon chambered in 57mm. General purpose Medium Hardpoint gun.'
+  name: DMR-57毫米自动炮
+  description: 重型自动机炮，口径57mm 。通用型中型挂载点武器。
   suffix: Mech Weapon, Gun, Combat, Cannon
   parent: [ BaseMechWeaponRange, MediumMechMountEquipment ]
   components:
@@ -125,15 +119,15 @@
   - type: Battery
     maxCharge: 200
   - type: ProjectileBatteryAmmoProvider
-    proto: ShipDravonProjectile
+    proto: MechDravonProjectile
     fireCost: 200
   - type: Appearance
   - type: AmmoCounter
 
 - type: entity
   id: MediumMechCoilgun
-  name: 'CL-03型 电磁脉冲枪 | CL-03'
-  description: '一款使用3厘米箭式弹药的轻型线圈炮。造成轻微伤害，但能在区域内散布令人畏惧的电磁脉冲效果。需要中型挂载点。 | A light coilgun chambered in 3cm sabots. Inflicts minor damage, however spreads the dreaded EMP effect across an area. Needs a Medium Hardpoint.'
+  name: CL-03 EMP脉冲枪
+  description: 一款使用3厘米箭式弹药的轻型线圈炮。造成轻微伤害，但能在区域内散布令人畏惧的电磁脉冲效果。需要中型挂载点。
   suffix: Mech Weapon, Gun, Combat, Cannon
   parent: [ BaseMechWeaponRange, MediumMechMountEquipment ]
   components:
@@ -160,8 +154,8 @@
 
 - type: entity
   id: MediumMechTOW
-  name: 'ASM-55 陶式导弹 | ASM-55 TOW'
-  description: '经改造的反坦克导弹。线导计算机已替换为更精密的目标定位系统，但机动性仍有不足。适用于中型挂载点。 | Repurposed anti-tank missile. Wire guided computer is exchanged for a much more sophisticated targetting system, but the mobility leaves much to be desired. Fits in Medium Hardpoints.'
+  name: ASM-55 TOW 反坦克导弹支架
+  description: 经改造的反坦克导弹。线导计算机已替换为更精密的目标定位系统，但机动性仍有不足。适用于中型挂载点。
   suffix: Mech Weapon, Gun, Combat, Cannon
   parent: [ BaseMechWeaponRange, MediumMechMountEquipment ]
   components:
@@ -189,8 +183,8 @@
 #Heavy Weapons
 - type: entity
   id: HeavyMechRPG
-  name: 'R3 巴祖卡导弹系统 | R3 "Bazooka" Missile System'
-  description: '地面巡航导弹发射器改装为机甲用途。制导系统几乎全被移除以缩小体积，使弹药变成华而不实的火箭弹。搭载于重型挂载点。 | Ground based cruise missile launcher repurposed for mech usage. Guidance systems are all but removed to reduce the size, making the munitions into a glorified rocket. Mounts on Heavy Hardpoints.'
+  name: R3 巴祖卡导弹系统
+  description: 地面巡航导弹发射器改装为机甲用途。制导系统几乎全被移除以缩小体积，使弹药变成华而不实的火箭弹。搭载于重型挂载点。
   suffix: Mech Weapon, Gun, Combat, Missile
   parent: [ BaseMechWeaponRange, HeavyMechMountEquipment ]
   components:
@@ -216,8 +210,8 @@
 
 - type: entity
   id: HeavyMechCannon
-  name: '120mm「节拍器」机甲火炮 | 120mm "Metronome"'
-  description: '一门短连射式120mm 火炮，准度相对欠佳，但射程远超「巴祖卡」火箭筒。可搭载于重型挂载点。 | A burst fire 120mm cannon, relatively inaccurate, but much longer ranged than the "Bazooka". Mounts on Heavy Hardpoints.'
+  name: 220毫米「节拍器」重型连射自动加农炮
+  description: 一门220毫米连发炮，准度相对欠佳，但射程比「巴祖卡」火箭筒远得多。可以安装在重型挂载点上。
   suffix: Mech Weapon, Gun, Combat, Cannon
   parent: [ BaseMechWeaponRange, HeavyMechMountEquipment ]
   components:
@@ -276,16 +270,16 @@
   - type: Battery
     maxCharge: 300
   - type: ProjectileBatteryAmmoProvider
-    proto: MechPlasmaProjectile
-    fireCost: 50
+    proto: MechMediumPlasmaProjectile
+    fireCost: 70
   - type: Appearance
   - type: AmmoCounter
 
 #Misc Weapons
 - type: entity
   id: EWACMechaJammer
-  name: 'E-58「幕布」全频段干扰发射器 | E-58 "Blanket"'
-  description: '一种高度专业化的干扰工具，能发射带有超大干扰信号的照明弹群以掩护推进。适用于电子战(EWAR)挂载点。 | An extremely specialized jamming tool, fires a volley of flares with extremely large jamming signals to screen an advance. Fits on EWAR Hardpoints.'
+  name: E-58 「幕布」干扰器
+  description: 一种高度专业化的干扰工具，能发射带有超大干扰信号的照明弹群以掩护推进。适用于电子战EWAR挂载点。
   suffix: Mech Weapon, Gun, Combat, EWAR
   parent: [ BaseMechWeaponRange, EWARMechMountEquipment ]
   components:
@@ -312,8 +306,8 @@
 
 - type: entity
   id: EWACMechaFlares
-  name: 'E-58「星火」干扰发射器 | E-58 "Spark"'
-  description: '作为幕布式干扰弹的廉价替代品，该发射器可连射五发闪光弹以干扰敌方炮手，适用于电子战(EWAR)挂载点。 | A cheaper alternative to the Blanket, this emitter launches a volley of 5 flares to confuse enemy gunners. Fits on EWAR Hardpoints.'
+  name: E-58「星火」干扰发射器
+  description: 作为幕布式干扰弹的廉价替代品，该发射器可连射五发闪光弹以干扰敌方炮手，适用于电子战EWAR挂载点。
   suffix: Mech Weapon, Gun, Combat, EWAR
   parent: [ BaseMechWeaponRange, EWARMechMountEquipment ]
   components:

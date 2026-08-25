@@ -1,11 +1,5 @@
-# SPDX-FileCopyrightText: 2025 Ghost581
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
-  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseC3SyndicateContraband]
+  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase]
   id: ClothingHeadHelmetHardsuitViperGroupStandard
   name: '胡狼mk.II毒蛇重型防护头盔 | JACKAL mk.II viper hardsuit helmet'
   description: '带有蝰蛇小队标志性标记的硬质头盔。配备内置夜视系统。 | A hardsuit helmet with signature markings of the Viper Group. Has a built-in nightvision system.'
@@ -37,7 +31,7 @@
     - HeadSide
 
 - type: entity
-  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseC3SyndicateContraband, ShowMedicalIcons]
+  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons]
   id: ClothingHeadHelmetHardsuitViperGroupMedic
   name: 'IMP mk.III 毒蛇硬质防护头盔 | IMP mk.III viper hardsuit helmet'
   description: '带有蝰蛇小组标志性标记的硬质防护头盔。配备内置医疗平视显示器并辅以热脉冲系统。 | A hardsuit helmet with signature markings of the Viper Group. Has a built-in medical HUD complemented by thermal pulse systems.'

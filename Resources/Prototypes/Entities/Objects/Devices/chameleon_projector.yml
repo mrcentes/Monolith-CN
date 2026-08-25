@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseItem, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: BaseItem
   id: ChameleonProjector
   name: 变色龙投影仪 丨 chameleon projector
   description: 全息寄生技术，用于生成周遭任意物体的硬光复制体。拾取或停用时伪装失效。 丨 Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
@@ -12,7 +12,7 @@
       components:
       - Anchorable
       - Item
-      tags: 
+      tags:
       - Bot # for funny bot moments
     blacklist:
       components:

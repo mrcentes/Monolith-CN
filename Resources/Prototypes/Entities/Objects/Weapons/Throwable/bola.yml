@@ -1,6 +1,6 @@
 - type: entity
   name: 流星锤 丨 bola
-  parent: [BaseItem, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
+  parent: BaseItem
   id: Bola
   description: 用一些备用的手铐和金属环相连。 丨 Linked together with some spare cuffs and metal.
   components:

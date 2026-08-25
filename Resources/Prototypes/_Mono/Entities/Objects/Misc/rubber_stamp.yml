@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2025 BlueHNT
-#
-# SPDX-License-Identifier: MPL-2.0
-
 - type: entity
   name: '薪水支票兄弟会的橡皮图章 | paycheck bratva''s rubber stamp'
   parent: RubberStampBase

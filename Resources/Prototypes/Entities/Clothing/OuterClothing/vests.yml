@@ -1,6 +1,6 @@
 #Web vest
 - type: entity
-  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, add ContrabandClothing
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterVestWeb
   name: 网织背心 丨 web vest
   description: 一件合成装甲背心。这款额外增加了织带和防弹板。 丨 A synthetic armor vest. This one has added webbing and ballistic plates.
@@ -21,7 +21,7 @@
 
 #Mercenary web vest
 - type: entity
-  parent: [ BaseC1Contraband, ClothingOuterStorageBase, AllowSuitStorageClothing] #web vest so it should have some pockets for ammo # Frontier: ClothingOuterVestWeb < "ClothingOuterStorageBase, AllowSuitStorageClothing"
+  parent: [ ClothingOuterStorageBase, AllowSuitStorageClothing] #web vest so it should have some pockets for ammo # Frontier: ClothingOuterVestWeb < "ClothingOuterStorageBase, AllowSuitStorageClothing"
   id: ClothingOuterVestWebMercenary # Frontier: Merc<Mercenary
   name: 佣兵网眼背心 丨 mercenary web vest
   description: 一件由硬质合成材料制成的高品质装甲背心。尽管拥有强大的装甲板，却异常柔韧轻便。 丨 A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
@@ -43,7 +43,7 @@
 
 #Detective's vest
 - type: entity
-  parent: [ClothingOuterArmorBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingOuterArmorBase
   id: ClothingOuterVestDetective
   name: 侦探的防弹背心 丨 detective's vest
   description: 一位硬汉派私家侦探的防弹背心。 丨 A hard-boiled private investigator's armored vest.

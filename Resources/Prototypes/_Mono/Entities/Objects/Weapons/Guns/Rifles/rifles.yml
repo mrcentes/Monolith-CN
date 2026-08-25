@@ -1,21 +1,6 @@
-# SPDX-FileCopyrightText: 2025 Blu
-# SPDX-FileCopyrightText: 2025 BlueHNT
-# SPDX-FileCopyrightText: 2025 Daniel Lenrd
-# SPDX-FileCopyrightText: 2025 Ghagliiarghii
-# SPDX-FileCopyrightText: 2025 HungryCuban
-# SPDX-FileCopyrightText: 2025 Onezero0
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 ScyronX
-# SPDX-FileCopyrightText: 2025 core-mene
-# SPDX-FileCopyrightText: 2025 halycon
-# SPDX-FileCopyrightText: 2025 significant harassment
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   name: VFD MR-8C 精准射手步枪（8x65mm SKR）
-  parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
+  parent: [BaseWeaponRifle, BaseGunWieldable]
   id: WeaponRifleMR8C
   description: MR-8系列的精准射手步枪变体，具有惊人的射击精度。使用8x65mm SKR弹药。侧面标签标注「仅限军用」。
   components:
@@ -87,7 +72,7 @@
 
 - type: entity
   name: NCI AK-502 步枪(7.62x39mm)
-  parent: [BaseWeaponRifle, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: BaseWeaponRifle
   id: WeaponRifleAK502
   description: 一款标准制式的USSP战斗步枪。使用7.62x39mm 弹药。
   components:
@@ -149,7 +134,7 @@
 
 - type: entity
   name: VFD XLR-556 ICWS步枪 (5.56x45mm)
-  parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
+  parent: [BaseWeaponRifle, BaseGunWieldable, BaseFactionGearTSFT1]
   id: WeaponRifleXlr556
   description: 为TSF标准步兵设计的次世代步枪方案。采用5.56x45mm 步枪弹，其射速极为惊人——但高射速也带来了火力控制的挑战。
   components:
@@ -270,7 +255,7 @@
 #Mercenary lecter
 - type: entity
   name: HWM FCL 普罗米修斯步枪 (5.56x45mm)
-  parent: [BaseWeaponRifle, BaseC1Contraband]
+  parent: BaseWeaponRifle
   id: WeaponRiflePrometheus
   description: 赫尔斯塔尔武器制造公司普罗米修斯轻型战斗步枪（Fusil de Combat Léger），口径为5.56x45 mm。设计用于大规模生产，以对抗异形。其射速尚可，以点射为佳，精度较差。
   components:
@@ -340,8 +325,8 @@
     price: 1500
 
 - type: entity
-  name: SKR-WS MLA-34 智能步枪 (.160 smart) # TODO - make like 5.56 level smartgun ammo for these
-  parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2Contraband]
+  name: SKR-WS MLA-34 智能步枪 (.160 smart) ## TODO - make like 5.56 level smartgun ammo for these
+  parent: [BaseWeaponRifle, BaseGunWieldable]
   id: WeaponRifleMla34
   description: 限量生产的特殊智能枪械，作为未经训练舰船船员的自我防卫武器。
   components:
@@ -421,11 +406,11 @@
       sprite: _RMC14/Interface/MousePointer/smartgun_mouse.rsi
       state: all
 
-#Pre-fracture NT lecter/prometheus
+#Corporate War Lecter
 
 - type: entity
   name: NTSF-LTR-556 步枪(5.56x45mm,6.8x52mm Caseless)
-  parent: [BaseWeaponRifle, BaseC2ContrabandUnredeemable]
+  parent: [BaseWeaponRifle, BaseFactionGearOtherFactionT1]
   id: WeaponRifleNtsfLtr
   description: 一把前断代纪元的旧步枪。纳米传讯安全部队和特种部队装备的轻型战术步枪，口径为5.56x45毫米，由于当时它的使用口径是全新的原型，也可以使用6.8x52毫米。这支步枪质量很高，内部采用塑钛合金，配件为塑钢材质。
   components:

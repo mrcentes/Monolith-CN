@@ -106,9 +106,9 @@
       collection: Screwdriver
 
 - type: entity
-  name: 赛博阳光笔 丨 Cybersun pen
-  # parent: [BaseAdvancedPen, BaseSyndicateContraband] # Frontier
-  parent: [NFBaseUnprotectedAdvancedPen, BaseC3SyndicateContraband] # Frontier
+  name: 赛博森笔 丨 Cybersun pen
+  # parent: BaseAdvancedPen # Frontier
+  parent: NFBaseUnprotectedAdvancedPen # Frontier
   id: CyberPen
   description: 一支来自赛博阳光法律部的高科技笔，通过其钻石笔尖能以不可思议的角度折射硬光进行书写。功能强大到甚至能在必要时改写已加盖官方印章的文件。 丨 A high-tech pen straight from Cybersun's legal department, capable of refracting hard-light at impossible angles through its diamond tip in order to write. So powerful, it's even able to rewrite officially stamped documents should the need arise.
   components:
@@ -119,7 +119,7 @@
 
 - type: entity
   name: 中央指挥部钢笔 丨 CentComm pen
-  parent: [BaseAdvancedPen, BaseCentcommCommandContraband] # Frontier: Added BaseCentcommCommandContraband, removed BaseCentcommContraband.
+  parent: BaseAdvancedPen
   id: PenCentcom
   description: 为了跟上"网络太阳"官僚体系的"权势"，纳米传讯以其企业风格仿制了一支网络笔的复制品。 丨 In an attempt to keep up with the "power" of the cybersun bureaucracy, NT made a replica of cyber pen, in their corporate style.
   components:

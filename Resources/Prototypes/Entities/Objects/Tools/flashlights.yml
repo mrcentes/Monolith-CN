@@ -76,7 +76,7 @@
 
 - type: entity
   name: 安保手电 丨 seclite
-  parent: [FlashlightLantern, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: FlashlightLantern
   id: FlashlightSeclite
   description: 安保使用的强光手电。 丨 A robust flashlight used by security.
   components:

@@ -1,14 +1,5 @@
-# SPDX-FileCopyrightText: 2025 Arcticular
-# SPDX-FileCopyrightText: 2025 Arcticular1
-# SPDX-FileCopyrightText: 2025 HungryCuban
-# SPDX-FileCopyrightText: 2025 core-mene
-# SPDX-FileCopyrightText: 2025 kotobdev
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT3 ]
   id: ClothingOuterHardsuitAsakim
   name: '卡萨图尔式战斗护甲 | kasature-pattern combat harness'
   description: '一种先进的前断代纪元作战装备。与现代战术服相比技术极其罕见，几乎堪称外星科技。一旦装备，装甲会与穿戴者永久结合，若无外部解除则无法卸下。 | An advanced pre-fracture harness. Incredibly rare, and practically alien in technology compared to modern tacsuits. Once equipped, the armor binds itself with the wearer and cannot be removed without external release.'

@@ -63,7 +63,7 @@
     sprite: Clothing/Ears/Headsets/mining.rsi
 
 - type: entity
-  parent: ClothingHeadsetCargo # Frontier: remove BaseCommandContraband
+  parent: ClothingHeadsetCargo
   id: ClothingHeadsetQM
   name: 军需官耳机 丨 qm headset
   description: 军需官使用的耳机。 丨 A headset used by the quartermaster.
@@ -76,7 +76,7 @@
       - EncryptionKeyCommon
 
 - type: entity
-  parent: [ ClothingHeadset, BaseCentcommCommandContraband ] # Frontier: Added BaseCentcommCommandContraband, removed BaseCentcommContraband.
+  parent: ClothingHeadset
   id: ClothingHeadsetCentCom
   name: 中央指挥部耳机 丨 CentComm headset
   description: 一副供跨太阳系联邦高层使用的耳机。 丨 A headset used by the upper echelons of the Trans-Solar Federation.
@@ -92,7 +92,7 @@
     sprite: Clothing/Ears/Headsets/centcom.rsi
 
 - type: entity
-  parent: [ClothingHeadset, BaseC2ContrabandUnredeemable] # Frontier: add BaseC2ContrabandUnredeemable as a parent
+  parent: ClothingHeadset
   id: ClothingHeadsetCommand
   name: 指挥耳机 丨 command headset
   description: 带有指挥频道的耳机。 丨 A headset with a commanding channel.
@@ -123,7 +123,7 @@
     sprite: Clothing/Ears/Headsets/engineering.rsi
 
 - type: entity
-  parent: ClothingHeadsetEngineering # Frontier: removed BaseCommandContraband
+  parent: ClothingHeadsetEngineering
   id: ClothingHeadsetCE
   name: ce耳机 丨 ce headset
   description: 一副供总工程师忽略所有紧急呼叫的耳机。 丨 A headset for the chief engineer to ignore all emergency calls on.
@@ -152,7 +152,7 @@
     sprite: Clothing/Ears/Headsets/medical.rsi
 
 - type: entity
-  parent: ClothingHeadsetMedical # Frontier: removed BaseCommandContraband
+  parent: ClothingHeadsetMedical
   id: ClothingHeadsetCMO
   name: 首席营销官耳机 丨 cmo headset
   description: 一副供首席营销官使用的耳机。 丨 A headset used by the CMO.
@@ -213,7 +213,7 @@
     sprite: Clothing/Ears/Headsets/robotics.rsi
 
 - type: entity
-  parent: ClothingHeadsetScience # Frontier: removed BaseCommandContraband
+  parent: ClothingHeadsetScience
   id: ClothingHeadsetRD
   name: rd耳机 丨 rd headset
   description: 拉马尔过去很喜欢啃这个…… 丨 Lamarr used to love chewing on this...
@@ -226,7 +226,7 @@
       - EncryptionKeyCommon
 
 - type: entity
-  parent: [ClothingHeadset, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityLawyerContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingHeadset
   id: ClothingHeadsetSecurity
   name: 安保耳机 丨 security headset
   description: 这是由您的精英安保部队所使用的。 丨 This is used by your elite security force.
@@ -242,7 +242,7 @@
     sprite: Clothing/Ears/Headsets/security.rsi
 
 - type: entity
-  parent: [ClothingHeadset, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingHeadset
   id: ClothingHeadsetBrigmedic
   name: brigmedic耳机 丨 brigmedic headset
   description: 一副帮助聆听死亡哀嚎的耳机。 丨 A headset that helps to hear the death cries.
@@ -275,7 +275,7 @@
     sprite: Clothing/Ears/Headsets/service.rsi
 
 - type: entity
-  parent: [ClothingHeadset, BaseC3PirateContrabandNoValue] # Frontier: add BaseC3Contraband - Mono: Made NoValue
+  parent: ClothingHeadset
   id: ClothingHeadsetFreelance
   name: 自由职业者耳机 丨 freelancer headset
   description: 这是一款供自由职业者流动团队使用的设备。 丨 This is used by a roaming group of freelancers.

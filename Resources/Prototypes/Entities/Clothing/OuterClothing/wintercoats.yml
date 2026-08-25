@@ -78,7 +78,7 @@
       head: ClothingHeadHatHoodWinterBartender
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
+  parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCap
   name: 船长的冬季外套 丨 captain's winter coat
   components:
@@ -106,7 +106,7 @@
       head: ClothingHeadHatHoodWinterCargo
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
+  parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCE
   name: 总工程师的冬大衣 丨 chief engineer's winter coat
   components:
@@ -120,7 +120,7 @@
       head: ClothingHeadHatHoodWinterCE
 
 - type: entity
-  parent: [ ClothingOuterWinterCoatToggleable, BaseCentcommContraband ]
+  parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCentcom
   name: 中央指挥部冬季外套 丨 CentComm winter coat
   components:
@@ -167,7 +167,7 @@
       head: ClothingHeadHatHoodWinterChem
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
+  parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCMO
   name: 首席医疗官的冬季外套 丨 chief medical officer's winter coat
   components:
@@ -233,7 +233,7 @@
       head: ClothingHeadHatHoodWinterSci
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
+  parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterHoP
   name: 人事部主管的冬大衣 丨 head of personnel's winter coat
   components:
@@ -249,7 +249,7 @@
 
 ##########################################################
 - type: entity
-  parent: [ClothingOuterArmorHoS, ClothingOuterWinterCoatToggleable, BaseC2ContrabandUnredeemable]
+  parent: [ClothingOuterArmorHoS, ClothingOuterWinterCoatToggleable]
   id: ClothingOuterWinterHoS
   name: 安保主管的装甲冬衣 丨 head of security's armored winter coat
   description: 一件结实实用的冬季外套，旨在保护安保主管免受囚犯威胁与低温冻伤。 丨 A sturdy, utilitarian winter coat designed to protect a head of security from any brig-bound threats and hypothermic events.
@@ -271,7 +271,7 @@
 ##########################################################
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseC2ContrabandUnredeemable]
+  parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterHoSUnarmored
   name: 安保主管的冬装外套 丨 head of security's winter coat
   description: 一件结实的外套，一件暖和的外套，但并非护甲外套。 丨 A sturdy coat, a warm coat, but not an armored coat.
@@ -390,7 +390,7 @@
       head: ClothingHeadHatHoodWinterPara
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
+  parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterQM
   name: 军需官的冬季大衣 丨 quartermaster's winter coat
   components:
@@ -405,7 +405,7 @@
 
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]
+  parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterRD
   name: 研究总监的冬大衣 丨 research director's winter coat
   components:
@@ -462,7 +462,7 @@
       head: ClothingHeadHatHoodWinterSci
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseC2ContrabandUnredeemable]
+  parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterSec
   name: 安全冬装外套 丨 security winter coat
   components:
@@ -498,7 +498,7 @@
 
 ################################################################
 - type: entity
-  parent: [ClothingOuterArmorWarden, ClothingOuterWinterCoatToggleable, BaseC2ContrabandUnredeemable]
+  parent: [ClothingOuterArmorWarden, ClothingOuterWinterCoatToggleable]
   id: ClothingOuterWinterWarden
   name: 狱吏的装甲冬衣 丨 warden's armored winter coat
   description: 一件结实实用的冬季外套，旨在保护典狱长免受任何囚犯威胁和低温冻伤的困扰。 丨 A sturdy, utilitarian winter coat designed to protect a warden from any brig-bound threats and hypothermic events.
@@ -520,7 +520,7 @@
 ################################################################
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseC2ContrabandUnredeemable]
+  parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterWardenUnarmored
   name: 看守的冬大衣 丨 warden's winter coat
   description: 一件结实的外套，一件暖和的外套，但并非护甲外套。 丨 A sturdy coat, a warm coat, but not an armored coat.
@@ -535,7 +535,7 @@
       head: ClothingHeadHatHoodWinterWarden
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseC3SyndicateContraband, ContrabandClothing]
+  parent: [ClothingOuterWinterCoatToggleable]
   id: ClothingOuterWinterSyndieCap
   name: 辛迪加的冬季大衣 丨 syndicate's winter coat
   description: 辛迪加的冬装由耐用织物制成，饰有镀金图案，并采用粗羊毛材质。 丨 "The syndicate's winter coat is made of durable fabric, with gilded patterns, and coarse wool."
@@ -551,7 +551,7 @@
 
 ##############################################################
 - type: entity
-  parent: [ClothingOuterWinterWarden, BaseC3SyndicateContraband, ContrabandClothing]
+  parent: [ClothingOuterWinterWarden]
   id: ClothingOuterWinterSyndieCapArmored
   name: 辛迪加的装甲冬衣 丨 syndicate's armored winter coat
   description: 辛迪加的装甲冬大衣由耐用织物制成，饰有镀金纹路，并采用粗羊毛材质。 丨 "The syndicate's armored winter coat is made of durable fabric, with gilded patterns, and coarse wool."
@@ -566,7 +566,7 @@
 ##############################################################
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable, BaseC3SyndicateContraband, ContrabandClothing]
+  parent: [ClothingOuterWinterCoatToggleable]
   id: ClothingOuterWinterSyndie
   name: 辛迪加的冬季外套 丨 syndicate's winter coat
   description: 加厚冬装外套，看起来像是“辛迪乐园”的周边商品。 丨 Insulated winter coat, looks like a merch from "Syndieland".

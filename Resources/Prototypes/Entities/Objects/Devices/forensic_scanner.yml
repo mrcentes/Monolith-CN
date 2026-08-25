@@ -1,6 +1,6 @@
 - type: entity
   name: 法医扫描仪 丨 forensic scanner
-  parent: [BaseItem, RecyclableItemDeviceSmall] # Frontier: added RecyclableItemDeviceSmall, removed BaseSecurityContraband
+  parent: [BaseItem, RecyclableItemDeviceSmall]
   id: ForensicScanner
   description: 一种可以扫描物体以获取指纹和纤维的手持设备。 丨 A handheld device that can scan objects for fingerprints and fibers.
   components:

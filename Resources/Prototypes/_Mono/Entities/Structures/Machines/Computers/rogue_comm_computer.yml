@@ -1,11 +1,5 @@
-# SPDX-FileCopyrightText: 2025 Arcticular1
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 SupernoobTheN1
-#
-# SPDX-License-Identifier: MPL-2.0
-
 - type: entity
-  parent: [ ComputerComms, BaseC3PirateContrabandHighValue ]
+  parent: ComputerComms
   id: RogueComputerComms
   name: 帝国先锋通讯计算机 | imperial vanguard communications computer
   description: 能够远程入侵空间站通信系统的计算机。使用它发布通告会向空间站暴露你的存在。

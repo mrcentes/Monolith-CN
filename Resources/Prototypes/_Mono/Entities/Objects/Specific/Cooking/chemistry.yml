@@ -1,9 +1,3 @@
-# SPDX-FileCopyrightText: 2025 Blu
-# SPDX-FileCopyrightText: 2025 BlueHNT
-# SPDX-FileCopyrightText: 2025 Coenx-flex
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   name: '茶匙 # 本质上是为了角色扮演风味而重新包装的滴管。 | teaspoon # It''s essentially a reskinned dropped for rp-flavor.'
   parent: Dropper

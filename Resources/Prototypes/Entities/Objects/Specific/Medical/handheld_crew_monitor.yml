@@ -1,7 +1,7 @@
 - type: entity
   name: 手持式船员监测器 丨 handheld crew monitor
   # categories: [ DoNotMap ] # Frontier
-  parent: BaseHandheldComputer # Frontier: remove BaseGrandTheftContraband
+  parent: BaseHandheldComputer
   # CMO-only bud, don't add more.
   id: HandheldCrewMonitor
   description: 手持式船员监视器，显示宇航服传感器状态。 丨 A hand-held crew monitor displaying the status of suit sensors.

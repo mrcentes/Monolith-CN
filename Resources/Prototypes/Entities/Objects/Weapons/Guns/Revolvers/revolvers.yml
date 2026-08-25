@@ -1,52 +1,3 @@
-# SPDX-FileCopyrightText: 2020 AJCM-git
-# SPDX-FileCopyrightText: 2020 DrSmugleaf
-# SPDX-FileCopyrightText: 2020 Pieter-Jan Briers
-# SPDX-FileCopyrightText: 2020 Swept
-# SPDX-FileCopyrightText: 2020 py01
-# SPDX-FileCopyrightText: 2021 Galactic Chimp
-# SPDX-FileCopyrightText: 2021 Tarlan2
-# SPDX-FileCopyrightText: 2022 Emisse
-# SPDX-FileCopyrightText: 2022 Leon Friedrich
-# SPDX-FileCopyrightText: 2022 Paul Ritter
-# SPDX-FileCopyrightText: 2022 Peptide90
-# SPDX-FileCopyrightText: 2022 PixelTK
-# SPDX-FileCopyrightText: 2022 Rane
-# SPDX-FileCopyrightText: 2022 ScalyChimp
-# SPDX-FileCopyrightText: 2022 Scribbles0
-# SPDX-FileCopyrightText: 2022 T-Stalker
-# SPDX-FileCopyrightText: 2022 Visne
-# SPDX-FileCopyrightText: 2022 and_a
-# SPDX-FileCopyrightText: 2022 mirrorcult
-# SPDX-FileCopyrightText: 2022 ninruB
-# SPDX-FileCopyrightText: 2023 Dvir
-# SPDX-FileCopyrightText: 2023 Flareguy
-# SPDX-FileCopyrightText: 2023 Jackal298
-# SPDX-FileCopyrightText: 2023 LankLTE
-# SPDX-FileCopyrightText: 2023 Nairod
-# SPDX-FileCopyrightText: 2023 Nemanja
-# SPDX-FileCopyrightText: 2023 TaralGit
-# SPDX-FileCopyrightText: 2023 chromiumboy
-# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
-# SPDX-FileCopyrightText: 2024 Kara
-# SPDX-FileCopyrightText: 2024 Kesiath
-# SPDX-FileCopyrightText: 2024 Plykiya
-# SPDX-FileCopyrightText: 2024 SonicHDC
-# SPDX-FileCopyrightText: 2024 Whatstone
-# SPDX-FileCopyrightText: 2024 lzk
-# SPDX-FileCopyrightText: 2024 metalgearsloth
-# SPDX-FileCopyrightText: 2025 BramvanZijp
-# SPDX-FileCopyrightText: 2025 Eden077
-# SPDX-FileCopyrightText: 2025 Nox
-# SPDX-FileCopyrightText: 2025 Onezero0
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 UltimateJester
-# SPDX-FileCopyrightText: 2025 core-mene
-# SPDX-FileCopyrightText: 2025 halycon
-# SPDX-FileCopyrightText: 2025 significant harassment
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   name: 基础武器左轮手枪 丨 BaseWeaponRevolver
   parent: BaseItem
@@ -121,7 +72,7 @@
 
 - type: entity
   name: NT·戴卡德（.45 马格南） 丨 NT Deckard (.45 magnum)
-  parent: [BaseWeaponRevolver, BaseC1Contraband] # Frontier: BaseSecurityCommandContraband<BaseC1Contraband
+  parent: BaseWeaponRevolver
   id: WeaponRevolverDeckard
   description: 一把稀有的民用级定制左轮手枪。在没时间进行沃伊特-坎普夫测试时使用。使用.45 马格南弹药。 丨 A rare, civilian grade custom-built revolver. Use when there is no time for Voight-Kampff test. Uses .45 magnum ammo.
   components:
@@ -149,7 +100,7 @@
 
 - type: entity
   name: 督察官（.45 马格南） 丨 Inspector (.45 magnum)
-  parent: [BaseWeaponRevolver, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: BaseWeaponRevolver
   id: WeaponRevolverInspector
   description: 侦探的最佳搭档。使用.45 马格南子弹。枪柄上贴有“仅限授权使用”的标签。 丨 A detective's best friend. Uses .45 magnum ammo. On the handle is a label that says 'for authorized use only.'
   components:
@@ -164,7 +115,7 @@
 
 - type: entity
   name: NT 马特巴（.45 马格南） 丨 NT Mateba (.45 magnum)
-  parent: [BaseWeaponRevolver, BaseC2ContrabandUnredeemable] # Frontier: BaseMajorContraband<BaseC2ContrabandUnredeemable
+  parent: BaseWeaponRevolver
   id: WeaponRevolverMateba
   description: 一把企业时代的传奇配枪，曾是企业杀戮小队的装备，如今为银河系各地的TSF军官所有。使用.45 马格南弹药。枪柄上贴有“仅限授权使用”的标签。 丨 A legendary sidearm from the Corporate Era, once used by corporate kill-teams, it now belongs to TSF Officers across the galaxy. Uses .45 magnum ammo. On the handle is a label that says 'for authorized use only.'
   components:
@@ -187,7 +138,7 @@
 
 - type: entity
   name: LWC Python (.45 口径马格南) 丨 LWC Python (.45 magnum)
-  parent: [BaseWeaponRevolver, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: BaseWeaponRevolver
   id: WeaponRevolverPython
   description: 这是一把在法厄同王朝星域常见的左轮手枪，通常由高阶帝国官员使用。使用.45马格南子弹。 # Frontier
   components:
@@ -210,7 +161,7 @@
 # Mono: Gatfruit revolver variant, little FMC worth
 - type: entity
   name: LWC Python（.45 马格南） 丨 LWC Python (.45 magnum)
-  parent: [BaseWeaponRevolver, BaseC3SyndicateContrabandUnredeemable]
+  parent: BaseWeaponRevolver
   id: WeaponRevolverPythonGatfruit
   suffix: Low Value
   description: 这是一把在法厄同王朝星域中常见的左轮手枪，通常由高级帝国官员使用。使用.45马格南弹药。它似乎由脆弱的植物材料制成，在非法物品回收中价值不高。
@@ -246,7 +197,7 @@
 
 - type: entity
   name: 海盗左轮手枪（.45 马格南） 丨 pirate revolver (.45 magnum)
-  parent: [BaseWeaponRevolver, BaseC3PirateContraband] # Frontier: BaseMinorContraband<BaseC3PirateContraband
+  parent: BaseWeaponRevolver
   id: WeaponRevolverPirate
   description: 一把古怪、非法且外观陈旧的老式左轮手枪，深受海盗船员青睐。使用.45 马格南弹药。#边境之地 丨 An odd, illegal, old-looking revolver, favoured by pirate crews. Uses .45 magnum ammo. # Frontier
   components:

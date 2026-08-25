@@ -28,7 +28,7 @@
 
 #Syndicate EVA Helmet
 - type: entity
-  parent: [ClothingHeadEVAHelmetBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  parent: [ClothingHeadEVAHelmetBase]
   id: ClothingHeadHelmetSyndicate
   name: 辛迪加舱外活动头盔 丨 syndicate EVA helmet
   description: 一款简约时尚的EVA头盔，专为打造极致低调的太空炫酷风格而设计。 丨 A simple, stylish EVA helmet. Designed for maximum humble space-badassery.

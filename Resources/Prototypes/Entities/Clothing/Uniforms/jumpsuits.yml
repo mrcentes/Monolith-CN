@@ -58,7 +58,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/bartender_purple.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCaptain
   name: 上尉的连体服 丨 captain's jumpsuit
   description: 这是一件蓝色的连体服，带有一些金色标记，表示“上尉”军衔。 丨 It's a blue jumpsuit with some gold markings denoting the rank of "Captain".
@@ -91,7 +91,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/salvage.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChiefEngineer
   name: 总工程师连体服 丨 chief engineer's jumpsuit
   description: 这是一件授予那些疯狂到足以晋升为总工程师职位的工程师们的高可见度连体服。 丨 It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of Chief Engineer.
@@ -102,7 +102,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/ce.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChiefEngineerTurtle
   name: 总工程师的高领毛衣 丨 chief engineer's turtleneck
   description: 一件专为工程部工作环境设计的黄色高领衫。 丨 A yellow turtleneck designed specifically for work in conditions of the engineering department.
@@ -124,7 +124,7 @@
       sprite: Clothing/Uniforms/Jumpsuit/chaplain.rsi
 
 - type: entity
-  parent: [ ClothingUniformBase, BaseCentcommContraband ]
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomAgent
   name: CentComm特工的连体服 丨 CentComm agent's jumpsuit
   description: 一套CentComm法律团队穿着的西装，散发着烧焦咖啡的气味。 丨 A suit worn by CentComm's legal team. Smells of burnt coffee.
@@ -135,7 +135,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/centcom_agent.rsi
 
 - type: entity
-  parent: [ ClothingUniformBase, BaseCentcommContraband ]
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomOfficial
   name: CentComm官员的连体服 丨 CentComm official's jumpsuit
   description: 这是中央指挥部官员穿的连体服。 丨 It's a jumpsuit worn by CentComm's officials.
@@ -146,7 +146,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/centcom_official.rsi
 
 - type: entity
-  parent: [ ClothingUniformBase, BaseCentcommContraband ]
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomOfficer
   name: CentComm官员的连体服 丨 CentComm officer's jumpsuit
   description: 这是中央指挥部官员穿的连体服。 丨 It's a jumpsuit worn by CentComm Officers.
@@ -253,7 +253,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/jester2.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCMO
   name: 首席医务官的连体服 丨 chief medical officer's jumpsuit
   description: 这是一件为具备首席医疗官经验者设计的连体服，提供基础的生物防护功能。 丨 It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
@@ -264,7 +264,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/cmo.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCMOTurtle
   name: 首席医务官的高领连体服 丨 chief medical officer's turtleneck jumpsuit
   description: 这是拥有首席医疗官资历者所穿的高领制服，能提供微弱的生物防护。 丨 It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
@@ -319,7 +319,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/engineering_hazard.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoP
   name: 人事主管的连体工作服 丨 head of personnel's jumpsuit
   description: 相当平淡无奇的设计，正适合从宇宙表面悄然消失。 丨 Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
@@ -330,7 +330,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/hop.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoS
   name: 保安主管的连体服 丨 head of security's jumpsuit
   description: 它颜色鲜红且相当挺括，就像安保部门手下的受害者们常有的模样。 丨 It's bright red and rather crisp, much like security's victims tend to be.
@@ -353,7 +353,7 @@
       - state: overlay-inhand-right
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoSAlt
   name: 安保主管的高领毛衣 丨 head of security's turtleneck
   description: 这是由那些足够强大自律、能够胜任安保主管职位之人所穿的高领毛衣。 丨 It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
@@ -364,7 +364,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/hos_alt.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoSBlue
   name: 保安主管的蓝色连体服 丨 head of security's blue jumpsuit
   description: 一件安保主管的蓝色连体服。 丨 A blue jumpsuit of Head of Security.
@@ -375,7 +375,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/hos_blue.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoSGrey
   name: 安保主管的灰色连体服 丨 head of security's grey jumpsuit
   description: 安保主管的灰色连体服，让他看起来有几分像乘客。 丨 A grey jumpsuit of Head of Security, which make him look somewhat like a passenger.
@@ -386,7 +386,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/hos_grey.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoSParadeMale
   name: 安保主管的阅兵礼服 丨 head of security's parade uniform
   description: 男性安保主管在特殊场合穿着的奢华服饰。 丨 A male head of security's luxury-wear, for special occasions.
@@ -513,7 +513,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitQM
   name: 军需官的连体裤 丨 quartermaster's jumpsuit
   description: 棕色能为你做什么？What can brown do for you?
@@ -524,7 +524,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/qm.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitQMTurtleneck
   name: 军需官的高领衫 丨 quartermasters's turtleneck
   description: 一件为艰苦的补给工作环境量身打造的利落高领毛衣。 丨 A sharp turtleneck made for the hardy work environment of supply.
@@ -535,7 +535,7 @@
       sprite: Clothing/Uniforms/Jumpsuit/qmturtle.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitQMFormal
   name: 军需官的正式套装 丨 quartermasters's formal suit
   description: 受昔日军队军需官的启发，为正式场合提供完美着装。 丨 Inspired by the quartermasters of military's past, the perfect outfit for supplying a formal occasion.
@@ -546,7 +546,7 @@
       sprite: Clothing/Uniforms/Jumpsuit/qmformal.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: remove BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitResearchDirector
   name: 研究总监的高领毛衣 丨 research director's turtleneck
   description: 这是研究主管们所穿的高领衫，只有具备相应专业知识的人才能坐上这个位置。其面料能提供对生物污染物的轻微防护。 丨 It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
@@ -590,7 +590,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/roboticist.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSec
   name: 安全连体服 丨 security jumpsuit
   description: 一件由坚固材料制成的连体衣，提供强有力的保护。 丨 A jumpsuit made of strong material, providing robust protection.
@@ -624,7 +624,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/security_blue.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSecGrey
   name: 灰色安保连体服 丨 grey security jumpsuit
   description: 一件战术遗物，源自军队发现将制服染红比洗去血迹更便宜之前的那些岁月。 丨 A tactical relic of years past before military groups decided it was cheaper to dye the suits red instead of washing out the blood.
@@ -635,7 +635,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/security_grey.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformSecurityTrooper
   name: 士兵制服 丨 trooper uniform
   description: TSF部队队员的正式制服，曾随车配发。 丨 A formal uniform issued to the TSF Troopers. It used to come with a car.
@@ -646,7 +646,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/security_trooper.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWarden
   name: 警卫队长的制服 丨 warden's uniform
   description: 一套为安保军官准备的正式制服，配有纳恩特拉森腰带扣。 丨 A formal security suit for officers complete with Nanotrasen belt buckle.
@@ -757,7 +757,7 @@
       sprite: Clothing/Uniforms/Jumpsuit/lawyergood.rsi
 
 - type: entity
-  parent: [UnsensoredClothingUniformBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  parent: [UnsensoredClothingUniformBase]
   id: ClothingUniformJumpsuitPyjamaSyndicateBlack
   name: 黑色集团睡衣 丨 black syndicate pyjamas
   description: 适合永夜中的漫漫长夜。 丨 For those long nights in perma.
@@ -768,7 +768,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicateblack.rsi
 
 - type: entity
-  parent: [UnsensoredClothingUniformBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  parent: [UnsensoredClothingUniformBase]
   id: ClothingUniformJumpsuitPyjamaSyndicatePink
   name: 粉色集团睡衣 丨 pink syndicate pyjamas
   description: 适合在永夜城中度过的漫漫长夜。 丨 For those long nights in perma.
@@ -779,7 +779,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatepink.rsi
 
 - type: entity
-  parent: [UnsensoredClothingUniformBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  parent: [UnsensoredClothingUniformBase]
   id: ClothingUniformJumpsuitPyjamaSyndicateRed
   name: 红色联盟睡衣 丨 red syndicate pyjamas
   description: 适合在永夜中度过的漫漫长夜。 丨 For those long nights in perma.
@@ -801,7 +801,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/nanotrasen.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: removed BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCapFormal
   name: 船长的正装 丨 captain's formal suit
   description: 一套用于特殊场合的服装。 丨 A suit for special occasions.
@@ -812,7 +812,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/capformal.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: added BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomFormal
   name: 中央指挥正式套装 丨 central command formal suit
   description: 一套用于特殊场合的服装。 丨 A suit for special occasions.
@@ -823,7 +823,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/centcomformal.rsi
 
 - type: entity
-  parent: ClothingUniformBase # Frontier: removed BaseCommandContraband
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHosFormal
   name: 霍斯的正装 丨 hos's formal suit
   description: 一套用于特殊场合的服装。 丨 A suit for special occasions.
@@ -834,7 +834,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/hosformal.rsi
 
 - type: entity
-  parent: [UnsensoredClothingUniformBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  parent: [UnsensoredClothingUniformBase]
   id: ClothingUniformJumpsuitOperative
   name: 特工连体服 丨 operative jumpsuit
   description: 精英联合组织特工在深空执行战术行动时所穿的制服。 丨 Uniform for elite syndicate operatives performing tactical operations in deep space.
@@ -981,7 +981,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/musician.rsi
 
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingUniformBase ]
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTChaplain
   name: ERT牧师制服 丨 ERT chaplain uniform
   description: 专为中央指挥部精英牧师团打造的特制服装。 丨 A special suit made for Central Command's elite chaplain corps.
@@ -992,7 +992,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/ert_chaplain.rsi
 
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingUniformBase ]
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTEngineer
   name: ERT工程制服 丨 ERT engineering uniform
   description: 一套为中央指挥部精英工程师特制的制服。 丨 A special suit made for the elite engineers under CentComm.
@@ -1003,7 +1003,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
 
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingUniformBase ]
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTJanitor
   name: ERT清洁工制服 丨 ERT janitorial uniform
   description: 一套为CentComm旗下精英清洁工特制的服装。 丨 A special suit made for the elite janitors under CentComm.
@@ -1014,7 +1014,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/ert_janitor.rsi
 
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingUniformBase ]
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTLeader
   name: ERT领队制服 丨 ERT leader uniform
   description: 专为CentComm旗下精英中的精英打造的特制制服。 丨 A special suit made for the best of the elites under CentComm.
@@ -1025,7 +1025,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
 
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingUniformBase ]
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTMedic
   name: ERT医疗制服 丨 ERT medical uniform
   description: 专为中央指挥部精英医疗人员特制的服装。 丨 A special suit made for the elite medics under CentComm.
@@ -1036,7 +1036,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/ert_medic.rsi
 
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingUniformBase ]
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTSecurity
   name: ERT安保制服 丨 ERT security uniform
   description: 一套为中央指挥部精英安保人员特制的制服。 丨 A special suit made for the elite security under CentComm.
@@ -1142,7 +1142,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/hawaiyellow.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as a parent
+  parent: [ClothingUniformBase]
   id: ClothingUniformJumpsuitSyndieFormal
   name: 辛迪加正装 丨 syndicate formal suit
   description: 辛迪加的制服设计优雅，穿着它干坏事都让人觉得可惜。 丨 "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
@@ -1197,7 +1197,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/senior_physician.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorOfficer
   name: 高级官员连体服 丨 senior officer jumpsuit
   description: 安保部门技能与声望的象征。 丨 A sign of skill and prestige within the security department.

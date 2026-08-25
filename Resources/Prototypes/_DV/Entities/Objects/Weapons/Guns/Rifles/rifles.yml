@@ -1,19 +1,6 @@
-# SPDX-FileCopyrightText: 2025 Blu
-# SPDX-FileCopyrightText: 2025 BlueHNT
-# SPDX-FileCopyrightText: 2025 Daniel Lenrd
-# SPDX-FileCopyrightText: 2025 Dvir
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 ScyronX
-# SPDX-FileCopyrightText: 2025 Whatstone
-# SPDX-FileCopyrightText: 2025 core-mene
-# SPDX-FileCopyrightText: 2025 sleepyyapril
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   name: HWM FCM-C 火神步枪(7.62x51mm)
-  parent: [BaseWeaponRifle, BaseGunWieldable, BaseC1Contraband] # Frontier: add BaseC1Contraband
+  parent: [BaseWeaponRifle, BaseGunWieldable]
   id: WeaponRifleVulcan
   description: 作为赫斯陶武器公司为安保部队配装的最重型的单兵武器之一，FCM（中型战斗步枪）“火神”在经典设计上融入了现代理念，被非正式地誉为“自由世界的右臂”。采用7.62×51mm弹药。
   components:
@@ -85,7 +72,7 @@
 
 - type: entity
   name: ceremonial rifle (7.62x51mm)
-  parent: [BaseWeaponSniper, BaseGunWieldable, BaseC1Contraband] # Frontier: add BaseGunWieldable, BaseC1Contraband
+  parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperCeremonial
   description: A ceremonial variant of the Mark 1 Rifle, in tasteful blue and white. Uses 7.62x51mm ammo.
   components:
@@ -116,7 +103,7 @@
 
 - type: entity
   name: CS CAWS-25 Jackdaw (635x40mm)
-  parent: [BaseWeaponRifle, BaseGunWieldable, BaseC3Contraband] # Frontier: add BaseC3Contraband
+  parent: [BaseWeaponRifle, BaseGunWieldable]
   id: WeaponRifleJackdaw
   description: The beginning of the end is heralded by the song of a Jackdaw. Uses 6.35x40mm Caseless ammo.
   components:

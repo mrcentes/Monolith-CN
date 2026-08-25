@@ -2,7 +2,7 @@
 # ideally it would be dynamic and work by actually sparking the solution but that doesnt exist yet :(
 # with that you could make napalm ied instead of welding fuel with no additional complexity
 - type: entity
-  parent: [BaseItem, BaseC2ContrabandUnredeemable] # Frontier: Added BaseC2ContrabandUnredeemable
+  parent: BaseItem
   id: FireBomb
   name: 燃烧弹 丨 fire bomb
   description: 一种简易的临时燃烧装置。 丨 A weak, improvised incendiary device.
@@ -57,7 +57,7 @@
 
 # has igniter but no fuel or wires
 - type: entity
-  parent: [DrinkColaCanEmpty, BaseC2ContrabandUnredeemable] # Frontier: Added BaseC2ContrabandUnredeemable
+  parent: DrinkColaCanEmpty
   id: FireBombEmpty
   name: 燃烧弹 丨 fire bomb
   suffix: empty
@@ -85,7 +85,7 @@
     # no DrinkCan, prevent using it to make another ied
 
 - type: entity
-  parent: [FireBombEmpty, BaseC2ContrabandUnredeemable] # Frontier: Added BaseC2ContrabandUnredeemable
+  parent: FireBombEmpty
   id: FireBombFuel
   suffix: fuel
   description: 一个简易的、临时制作的燃烧装置，威力较弱。这个装置缺少电线。 丨 A weak, improvised incendiary device. This one is missing wires.

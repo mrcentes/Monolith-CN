@@ -1,14 +1,9 @@
-# SPDX-FileCopyrightText: 2025 UnicornOnLSD
-# SPDX-FileCopyrightText: 2025 core-mene
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 #Company branded
 - type: entity
   parent: NFClothingDuffel
-  id: ClothingBackpackDuffelDrakeIndustries 
+  id: ClothingBackpackDuffelDrakeIndustries
   name: '德雷克工业行李包 | drake industries duffel'
-  description: '一个沉重的包裹。人们曾尝试让它更轻便却无济于事。它带有德雷克工业的标志性配色。 | One heavy sack. Some effort was put in to make it lighter to no avail. It bears the colors of Drake Industries.'
+  description: 一个沉重的麻袋。为了让它轻一点付出了一些努力，但没用。上面印着德雷克工业的颜色。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Back/Duffels/di.rsi

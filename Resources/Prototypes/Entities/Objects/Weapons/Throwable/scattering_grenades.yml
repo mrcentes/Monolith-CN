@@ -20,7 +20,7 @@
   - type: ScatteringGrenade
 
 - type: entity
-  parent: [ScatteringGrenadeBase, BaseC2ContrabandUnredeemable, RecyclableItemSteelMedium] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable added RecyclableItemSteelMedium
+  parent: [ScatteringGrenadeBase, RecyclableItemSteelMedium]
   id: ClusterBang
   name: 集束弹 丨 clusterbang
   description: 仅可与闪光弹配合使用。可多次爆炸。 丨 Can be used only with flashbangs. Explodes several times.
@@ -72,7 +72,7 @@
       path: "/Audio/Machines/door_lock_off.ogg"
 
 - type: entity
-  parent: [ScatteringGrenadeBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: ScatteringGrenadeBase
   id: ClusterGrenade
   name: 集束榴弹 丨 clustergrenade
   description: 一颗手雷不够？那就一次扔三颗！ 丨 Why use one grenade when you can use three at once!
@@ -98,7 +98,7 @@
       path: "/Audio/Machines/door_lock_off.ogg"
 
 - type: entity
-  parent: [ScatteringGrenadeBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: ScatteringGrenadeBase
   id: ClusterBananaPeel
   name: 成串香蕉皮 丨 cluster banana peel
   description: 扔出后分裂成6个爆炸香蕉皮，乐趣保证！ 丨 Splits into 6 explosive banana peels after throwing, guaranteed fun!
@@ -120,7 +120,7 @@
       path: "/Audio/Items/bikehorn.ogg"
 
 - type: entity
-  parent: [SoapSyndie, ScatteringGrenadeBase, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: [SoapSyndie, ScatteringGrenadeBase]
   id: SlipocalypseClusterSoap
   name: 滑溜末日集群皂 丨 slipocalypse clustersoap
   description: 落地时在地面上散落小块联合肥皂。 丨 Spreads small pieces of syndicate soap over an area upon landing on the floor.

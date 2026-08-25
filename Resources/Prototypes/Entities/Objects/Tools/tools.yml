@@ -351,9 +351,9 @@
 
 - type: entity
   id: RCD
-  parent: BaseItem # Frontier: remove BaseEngineeringContraband
+  parent: BaseItem
   name: 快速建造装置 丨 RCD
-  description: 快速建造装置可用于快速放置和移除各类结构与设施，需消耗压缩物质来运作，无需刷卡即可启动。 丨 The rapid construction device can be used to quickly place and remove various structures and fixtures. Requires compressed matter to function. Does not require swiping an ID to work.
+  description: 快速建造装置可用于快速放置和移除各类结构与设施，需消耗压缩物质来运作，无需刷卡即可启动。
   components:
   - type: RCD
     availablePrototypes:

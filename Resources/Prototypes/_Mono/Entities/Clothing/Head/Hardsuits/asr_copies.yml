@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitAshen
@@ -23,3 +19,14 @@
     sprite: _Mono/Clothing/Head/Hardsuits/syndieelite.rsi
   - type: Clothing
     sprite: _Mono/Clothing/Head/Hardsuits/syndieelite.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitVizier
+  name: PDV CV-67 combat hardsuit helmet
+  description: An adorned tacsuit designed with an imperfect nanolaminate composition. High maneuverability, sturdy armor.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Head/Hardsuits/pdv_vizier.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Head/Hardsuits/pdv_vizier.rsi

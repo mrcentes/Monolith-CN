@@ -1,21 +1,3 @@
-# SPDX-FileCopyrightText: 2022 Kara
-# SPDX-FileCopyrightText: 2022 Leon Friedrich
-# SPDX-FileCopyrightText: 2022 Nairod
-# SPDX-FileCopyrightText: 2022 Swept
-# SPDX-FileCopyrightText: 2022 T-Stalker
-# SPDX-FileCopyrightText: 2023 IData-RedactedI
-# SPDX-FileCopyrightText: 2023 MendaxxDev
-# SPDX-FileCopyrightText: 2023 Nemanja
-# SPDX-FileCopyrightText: 2024 BramvanZijp
-# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
-# SPDX-FileCopyrightText: 2024 Whatstone
-# SPDX-FileCopyrightText: 2024 metalgearsloth
-# SPDX-FileCopyrightText: 2024 nikthechampiongr
-# SPDX-FileCopyrightText: 2024 vanx
-# SPDX-FileCopyrightText: 2025 core-mene
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   name: 信号枪（12号口径） 丨 flare gun (12 gauge)
   parent: BaseItem
@@ -87,7 +69,7 @@
 
 - type: entity
   name: 安保霰弹枪 丨 security shell gun
-  parent: [WeaponFlareGun, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
+  parent: WeaponFlareGun
   id: WeaponFlareGunSecurity
   description: 一把改装过的信号枪，最初设计供安保人员使用，用于发射非致命霰弹，但也能无风险地发射致命弹药。 丨 A modified flare gun originally designed to be used by security to launch non-lethal shotgun shells, however it can also fire lethal shells without risk.
   components:

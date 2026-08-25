@@ -21,7 +21,7 @@
 
 - type: entity
   name: 爆炸性载荷 丨 explosive payload
-  parent: [BasePayload, BaseC2ContrabandUnredeemable] # Frontier: Added BaseC2ContrabandUnredeemable
+  parent: BasePayload
   id: ExplosivePayload
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
 
 - type: entity
   name: 闪存载荷 丨 flash payload
-  parent: [BasePayload, BaseC2ContrabandUnredeemable] # Frontier: Added BaseC2ContrabandUnredeemable
+  parent: BasePayload
   id: FlashPayload
   description: 一次性闪存载荷。 丨 A single-use flash payload.
   components:

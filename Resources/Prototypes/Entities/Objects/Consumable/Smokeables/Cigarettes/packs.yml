@@ -184,9 +184,9 @@
 
 - type: entity
   id: CigPackSyndicate
-  parent: [CigPackBase, BaseC3SyndicateContrabandNoValue] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: CigPackBase
   name: Interdyne 草本烟包 丨 Interdyne herbals packet
-  description: 精英香烟，专为精英集团特工打造。注入药物成分，助您超越平复紧张，成就更多。 丨 Elite cigarettes for elite syndicate agents. Infused with medicine for when you need to do more than calm your nerves.
+  description: 精英香烟，专为精英集团特工打造。注入药物成分，助您超越平复紧张，成就更多。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/syndicate.rsi

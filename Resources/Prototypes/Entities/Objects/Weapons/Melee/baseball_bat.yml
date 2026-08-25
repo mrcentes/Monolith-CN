@@ -1,6 +1,6 @@
 - type: entity
   name: 棒球棒 丨 baseball bat
-  parent: [BaseItem, BaseC1Contraband] # Frontier: BaseMinorContraband<BaseC1Contraband
+  parent: BaseItem
   id: BaseBallBat
   description: 一根结实的棒球棒。 丨 A robust baseball bat.
   components:

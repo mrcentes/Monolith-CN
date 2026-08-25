@@ -53,7 +53,7 @@
         Blunt: 10
 
 - type: entity
-  parent: ClothingEyesBase # Frontier: removed BaseEngineeringContraband
+  parent: ClothingEyesBase
   id: ClothingEyesGlassesMeson
   name: 工程护目镜 #减少困惑 丨 engineering goggles #less confusion
   description: 采用专利聚合物制成的绿色护目镜，可全面防护各类眼部损伤。 丨 Green-tinted goggles using a proprietary polymer that provides protection from eye damage of all types.
@@ -160,7 +160,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: [ClothingEyesBase, ShowSecurityIcons]
   id: ClothingEyesGlassesSecurity
   name: 安全眼镜 丨 security glasses
   description: 升级版太阳镜，提供闪光免疫和安防平视显示功能。 丨 Upgraded sunglasses that provide flash immunity and a security HUD.
@@ -187,7 +187,7 @@
     coverage: EYES
 
 - type: entity
-  parent: [ClothingEyesBase, BaseCommandContraband ]
+  parent: ClothingEyesBase
   id: ClothingEyesGlassesCommand
   name: 指挥层眼镜 丨 administration glasses
   description: 升级版太阳镜，可提供闪光免疫并显示ID卡状态。 丨 Upgraded sunglasses that provide flash immunity and show ID card status.
@@ -257,7 +257,7 @@
       coverage: EYES
 
 - type: entity
-  parent: [ClothingEyesBase, BaseC3Contraband, ContrabandClothing] # Frontier: BaseMajorContraband<BaseC3Contraband added ContrabandClothing as parent
+  parent: [ClothingEyesBase]
   id: ClothingEyesVisorNinja
   name: 忍者面罩 丨 ninja visor
   description: 一款高级面甲，保护忍者双眼免受闪光影响。 丨 An advanced visor protecting a ninja's eyes from flashing lights.

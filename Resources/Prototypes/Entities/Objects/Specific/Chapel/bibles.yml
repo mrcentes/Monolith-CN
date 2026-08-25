@@ -56,9 +56,9 @@
     stealGroup: Bible
 
 - type: entity
-  parent: [Bible, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: Bible
   name: 死灵之书 丨 necronomicon
-  description: 有一条备注：克拉图，维拉塔，尼科托——别再忘了！ 丨 "There's a note Klatuu, Verata, Nikto -- Don't forget it again!"
+  description: 有一条备注：克拉图，维拉塔，尼科托-别再忘了！
   id: BibleNecronomicon
   components:
   - type: Bible

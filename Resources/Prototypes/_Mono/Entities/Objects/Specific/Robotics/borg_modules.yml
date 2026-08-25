@@ -1,11 +1,7 @@
-# SPDX-FileCopyrightText: 2025 Avalon
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   id: BorgModuleAdvancedWeapon
-  parent: [ BaseBorgModule, BaseProviderBorgModule, BaseC3SyndicateContraband ]
-  name: '高级武器改造模块 | advanced weapon cyborg module'
+  parent: [ BaseBorgModule, BaseProviderBorgModule ]
+  name: '高级赛博格武器改造模块 | advanced weapon cyborg module'
   components:
   - type: Sprite
     layers:

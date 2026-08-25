@@ -128,7 +128,7 @@
     slots: WITHOUT_POCKET
 
 - type: entity
-  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseToggleClothing, BaseC3Contraband, ContrabandClothing] # Frontier: BaseMajorContraband<BaseC3Contraband, added ContrabandClothing as parent
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseToggleClothing]
   id: ClothingOuterSuitSpaceNinja
   name: 太空忍者服 丨 space ninja suit
   description: 这套黑色高科技、经过神经机械增强的装备提供了多种能力，如隐形或瞬移。 丨 This black technologically advanced, cybernetically-enhanced suit provides many abilities like invisibility or teleportation.

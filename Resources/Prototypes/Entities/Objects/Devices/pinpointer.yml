@@ -42,7 +42,7 @@
 - type: entity
   name: 探针 丨 pinpointer
   id: PinpointerNuclear
-  parent: [ BaseC2ContrabandUnredeemable, PinpointerBase ] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: PinpointerBase
   components:
   - type: Pinpointer
     component: NukeDisk
@@ -52,7 +52,7 @@
   name: 辛迪加定位器 丨 syndicate pinpointer
   description: 专为核行动特工任务打造，夺取那张磁盘！ 丨 Produced specifically for nuclear operative missions, get that disk!
   id: PinpointerSyndicateNuclear
-  parent: [ BaseC3SyndicateContraband, PinpointerBase ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
+  parent: PinpointerBase
   components:
   - type: Sprite
     layers:

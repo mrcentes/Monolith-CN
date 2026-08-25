@@ -1,6 +1,6 @@
 - type: entity
   name: 简易气动炮 丨 improvised pneumatic cannon
-  parent: [BaseStorageItem, BaseC1Contraband] # Frontier: BaseMinorContraband<BaseC1Contraband
+  parent: BaseStorageItem
   id: WeaponImprovisedPneumaticCannon
   description: 仅用一根管子、几条扎带和一具气动炮临时拼凑而成。不接受气体不足的气罐。 丨 Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
   components:
@@ -103,7 +103,7 @@
     containers:
       storagebase: !type:Container
         ents: []
-        
+
 - type: entity
   name: 注射枪 丨 syringe gun
   parent: BaseStorageItem

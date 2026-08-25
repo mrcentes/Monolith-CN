@@ -10,7 +10,7 @@
     stealGroup: HeadCloak # leaving this here because I suppose it might be interesting?
 
 - type: entity
-  parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
+  parent: ClothingNeckBase
   id: ClothingNeckCloakCap
   name: 船长的斗篷 丨 captain's cloak
   description: 一件华丽而舒适的蓝色斗篷，配有精致的金色镶边，虽然不如你的其他物品贵重，但确实非常别致。 丨 A pompous and comfy blue cloak with a nice gold trim, while not particularly valuable as your other possessions, it sure is fancy.
@@ -21,7 +21,7 @@
     stealGroup: HeadCloak
 
 - type: entity
-  parent: [ClothingNeckBase, BaseC2ContrabandUnredeemable] # Frontier: BaseCommandContraband<BaseC2ContrabandUnredeemable
+  parent: ClothingNeckBase
   id: ClothingNeckCloakHos
   name: 保安部长的斗篷 丨 head of security's cloak
   description: 一件精致黑红相间的斗篷，适合那些能够对不法之徒施加威慑之人。在起诉中尝试保持文明风度吧！ 丨 An exquisite dark and red cloak fitting for those who can assert dominance over wrongdoers. Take a stab at being civil in prosecution!
@@ -32,7 +32,7 @@
     stealGroup: HeadCloak
 
 - type: entity
-  parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
+  parent: ClothingNeckBase
   id: ClothingNeckCloakCe
   name: 首席工程师斗篷 丨 chief engineer's cloak
   description: 一件深绿色斗篷，饰有浅蓝色纹样，授予那些在精密工程技艺中证明自身造诣之人。 丨 A dark green cloak with light blue ornaments, given to those who proved themselves to master the precise art of engineering.
@@ -43,7 +43,7 @@
     stealGroup: HeadCloak
 
 - type: entity
-  parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
+  parent: ClothingNeckBase
   id: ClothingCloakCmo
   name: 首席医务官的斗篷 丨 chief medical officer's cloak
   description: 一件无菌的蓝色斗篷，绣着绿色十字，散发着责任感和助人之心的光芒。 丨 A sterile blue cloak with a green cross, radiating with a sense of duty and willingness to help others.
@@ -54,7 +54,7 @@
     stealGroup: HeadCloak
 
 - type: entity
-  parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
+  parent: ClothingNeckBase
   id: ClothingNeckCloakRd
   name: 研究总监斗篷 丨 research director's cloak
   description: 一件带有紫色条纹的白色斗篷，彰显您作为尖端科技裁决者的身份。 丨 A white cloak with violet stripes, showing your status as the arbiter of cutting-edge technology.
@@ -65,7 +65,7 @@
     stealGroup: HeadCloak
 
 - type: entity
-  parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
+  parent: ClothingNeckBase
   id: ClothingNeckCloakQm
   name: 军需官的斗篷 丨 quartermaster's cloak
   description: 一件结实的棕色斗篷，带有反光条纹，虽不及其他斗篷华丽，却能彰显你的管理才能。 丨 A strong brown cloak with a reflective stripe, while not as fancy as others, it does show your managing skills.
@@ -76,7 +76,7 @@
     stealGroup: HeadCloak
 
 - type: entity
-  parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
+  parent: ClothingNeckBase
   id: ClothingNeckCloakHop
   name: 人事主管斗篷 丨 head of personnel's cloak
   description: 一件蓝色斗篷，肩部饰有红色镶边与金色纽扣，证明您是空间站任意气闸室的守门人。 丨 A blue cloak with red shoulders and gold buttons, proving you are the gatekeeper to any airlock on the station.
@@ -105,7 +105,7 @@
     sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
 
 - type: entity
-  parent: ClothingNeckBase # Frontier: removed BaseCommandContraband
+  parent: ClothingNeckBase
   id: ClothingNeckCloakCapFormal
   name: 船长的正式斗篷 丨 captain's formal cloak
   description: 一件用于特殊场合的华丽装饰斗篷。 丨 A lavish and decorated cloak for special occasions.

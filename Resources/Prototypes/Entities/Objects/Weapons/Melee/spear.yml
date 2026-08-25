@@ -1,6 +1,6 @@
 - type: entity
   name: 矛 丨 spear
-  parent: [BaseItem, BaseC1Contraband] # BaseMinorContraband<BaseC1Contraband
+  parent: BaseItem
   id: Spear
   description: 经典之定义。自公元前二十万年起，让谋杀保持亲民价位。 丨 Definition of a Classic. Keeping murder affordable since 200,000 BCE.
   components:

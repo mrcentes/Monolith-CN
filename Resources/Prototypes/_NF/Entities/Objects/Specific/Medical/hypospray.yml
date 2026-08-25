@@ -29,8 +29,8 @@
 
 - type: entity
   name: NTCS-102 无针注射器
-  parent: [HypoMini, BaseC2ContrabandUnredeemable]
-  description: 由纳米传讯化学供应部门设计的商用化学注射器。相比商业版本具有更大的化学品储罐和略微缩短的注射延迟。 # Mono
+  parent: HypoMini
+  description: 由纳米传讯化学供应部门设计的商用化学注射器。相比商业版本具有更大的化学品储罐和略微缩短的注射延迟。
   id: HypoBrigmedic
   components:
   - type: Sprite

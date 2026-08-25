@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2025 starch
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 - type: entity
   id: BaseCartridge68x52mmCaseless
   name: '弹药（6.8x52mm  STANAG 无壳弹） | cartridge (6.8x52mm STANAG Caseless)'

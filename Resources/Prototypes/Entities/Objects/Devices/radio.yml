@@ -26,9 +26,9 @@
     - Radio
 
 - type: entity
-  name: 安全无线电 丨 security radio
-  description: 一款方便好用的安保对讲机。 丨 A handy security radio.
-  parent: [ RadioHandheld, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  name: 安保无线电 丨 security radio
+  description: A handy security radio.
+  parent: RadioHandheld
   id: RadioHandheldSecurity
   components:
   - type: RadioMicrophone
